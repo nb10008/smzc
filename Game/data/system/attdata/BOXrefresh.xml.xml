@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <refresh id="0" wooden_box="4500" lron_box="3000" copper_box="1500" the_silver_box="1000" gold_box="0" crystal_box="0" />
+    <refresh id="1" wooden_box="4500" lron_box="3000" copper_box="1200" the_silver_box="1300" gold_box="0" crystal_box="0" />
+    <refresh id="2" wooden_box="3500" lron_box="3000" copper_box="1200" the_silver_box="2200" gold_box="100" crystal_box="0" />
+    <refresh id="3" wooden_box="3000" lron_box="3000" copper_box="1200" the_silver_box="2650" gold_box="150" crystal_box="0" />
+    <refresh id="4" wooden_box="3000" lron_box="2500" copper_box="1200" the_silver_box="3050" gold_box="250" crystal_box="0" />
+    <refresh id="5" wooden_box="2000" lron_box="2000" copper_box="1200" the_silver_box="4350" gold_box="450" crystal_box="0" />
+    <refresh id="6" wooden_box="500" lron_box="1500" copper_box="900" the_silver_box="6230" gold_box="800" crystal_box="70" />
+    <refresh id="7" wooden_box="0" lron_box="900" copper_box="600" the_silver_box="6800" gold_box="1600" crystal_box="100" />
+    <refresh id="8" wooden_box="0" lron_box="0" copper_box="500" the_silver_box="5900" gold_box="3450" crystal_box="150" />
+    <refresh id="9" wooden_box="0" lron_box="0" copper_box="100" the_silver_box="4100" gold_box="5500" crystal_box="300" />
+    <refresh id="10" wooden_box="0" lron_box="0" copper_box="0" the_silver_box="1500" gold_box="7500" crystal_box="1000" />
+    <refresh id="11" wooden_box="0" lron_box="0" copper_box="0" the_silver_box="1000" gold_box="7000" crystal_box="2000" />
+    <refresh id="12" wooden_box="0" lron_box="0" copper_box="0" the_silver_box="500" gold_box="6500" crystal_box="3000" />
+    <refresh id="13" wooden_box="0" lron_box="0" copper_box="0" the_silver_box="0" gold_box="5000" crystal_box="5000" />
+</root>

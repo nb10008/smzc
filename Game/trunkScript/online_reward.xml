@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+	<OnlineReward id="1" ExpireTime="60" Experience="0" RewardItemID="3070010" Quality="0" ItemCount="1" />
+	<OnlineReward id="2" ExpireTime="60" Experience="0" RewardItemID="3090001" Quality="0" ItemCount="3" />
+	<OnlineReward id="3" ExpireTime="120" Experience="0" RewardItemID="3070056" Quality="0" ItemCount="10" />
+	<OnlineReward id="4" ExpireTime="120" Experience="0" RewardItemID="4080090" Quality="0" ItemCount="1" />
+</root>

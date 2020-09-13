@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30903" />
+    <entry Name="圣诞武器" />
+    <entry Conditions="" />
+    <entry Overview="圣诞节期间可以从&lt;M&gt;&lt;L=s02,5600019&gt;圣诞树&lt;/L&gt;&lt;/M&gt;处领取&lt;C&gt;1&lt;/C&gt;件&lt;I&gt;圣诞武器&lt;/I&gt;。" />
+</quest-local>

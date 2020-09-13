@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30120" />
+    <entry Name="神魔造物[神]" />
+    <entry Conditions="完成一个85—94百鬼试炼任务" />
+    <entry Overview="完成一个&lt;C&gt;85—94&lt;/C&gt;百鬼试炼任务即可完成本任务，之后可以在&lt;D&gt;&lt;L=s02,5011017&gt;神魔造物主&lt;/L&gt;&lt;/D&gt;处领取奖励" />
+</quest-local>

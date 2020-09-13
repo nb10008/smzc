@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20507" />
+    <entry Name="原神出现" />
+    <entry Conditions="" />
+    <entry Overview="调查&lt;N&gt;古茶山&lt;/N&gt;的&lt;M&gt;&lt;L=s07,6010021&gt;祭坛&lt;/L&gt;&lt;/M&gt;， 将出现的&lt;A&gt;原神咒师&lt;/A&gt;杀死，然后回复&lt;D&gt;&lt;L=s07,5010165&gt;易罗萨&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

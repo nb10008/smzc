@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30916" />
+    <entry Name="收集契约材料" />
+    <entry Conditions="" />
+    <entry Overview="博博罗曼岛的&lt;M&gt;&lt;L=s61,5610095&gt;情人节天使&lt;/L&gt;&lt;/M&gt;正为情人节忙碌着，目前还缺少契约材料（&lt;I&gt;彼岸之花&lt;/I&gt;、&lt;I&gt;风铃之石&lt;/I&gt;、&lt;I&gt;幻化之羽&lt;/I&gt;、&lt;I&gt;契约之书&lt;/I&gt;、&lt;I&gt;遗忘之水&lt;/I&gt;），如果你找到1个，可以交给&lt;M&gt;&lt;L=s61,5610095&gt;情人节天使&lt;/L&gt;&lt;/M&gt;获得奖励。\n契约材料可以通过击杀野外怪物获得" />
+</quest-local>

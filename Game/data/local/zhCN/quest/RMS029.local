@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20629" />
+    <entry Name="玛斯的不屑" />
+    <entry Conditions="" />
+    <entry Overview="回到&lt;N&gt;斗战天城&lt;/N&gt;询问&lt;D&gt;&lt;L=s02,5010029&gt;斗神之王玛斯&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

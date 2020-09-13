@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ANSI" ?>
+<scenemesh File="E:\Max模型\M04-007\M04-007.max" BasePath="D:\loong_client\Game\" MdlPath="data\model\batch\" MtlPath="data\model\batch\" >
+	<node Name="M04-005-J" ExpName="M04_005_J.FSCN" LightmapSize="0" NormalMap="0" Opcity="0" CollideBoxSize="100" />
+	<node Name="M04_007-A" ExpName="M04_007_A.FSCN" LightmapSize="0" NormalMap="0" Opcity="0" CollideBoxSize="100" />
+	<node Name="M04_007-B" ExpName="M04_007_B.FSCN" LightmapSize="0" NormalMap="0" Opcity="0" CollideBoxSize="100" />
+	<node Name="M04_007-C" ExpName="M04_007_C.FSCN" LightmapSize="0" NormalMap="0" Opcity="0" CollideBoxSize="100" />
+	<node Name="M04_007-C01" ExpName="M04_007_C01.FSCN" LightmapSize="0" NormalMap="0" Opcity="0" CollideBoxSize="100" />
+	<node Name="M04_007-D" ExpName="M04_007_D.FSCN" LightmapSize="0" NormalMap="0" Opcity="0" CollideBoxSize="100" />
+	<node Name="M04_007-E" ExpName="M04_007_E.FSCN" LightmapSize="0" NormalMap="0" Opcity="0" CollideBoxSize="100" />
+	<node Name="M04_007-E1" ExpName="M04_007_E1.FSCN" LightmapSize="0" NormalMap="0" Opcity="0" CollideBoxSize="100" />
+	<node Name="M04_007-E02" ExpName="M04_007_E02.FSCN" LightmapSize="0" NormalMap="0" Opcity="0" CollideBoxSize="100" />
+	<node Name="M04_007-F" ExpName="M04_007_F.FSCN" LightmapSize="0" NormalMap="0" Opcity="0" CollideBoxSize="100" />
+</scenemesh>
+
+<scenemesh File="E:\Max模型\M02_1\M02_1.max" BasePath="D:\loong_client\Game\" MdlPath="data\model\batch\" MtlPath="data\model\batch\" >
+	<node Name="m02_d" ExpName="m02_d.FSCN" LightmapSize="0" NormalMap="0" Opcity="0" CollideBoxSize="100" />
+</scenemesh>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30816" />
+    <entry Name="心情郁闷" />
+    <entry Conditions="" />
+    <entry Overview="去&lt;N&gt;东洲冥山&lt;/N&gt;击杀&lt;C&gt;200&lt;/C&gt;个&lt;A&gt;&lt;L=s08,1070005&gt;狂风强盗&lt;/L&gt;&lt;/A&gt;和&lt;C&gt;200&lt;/C&gt;个&lt;A&gt;&lt;L=s08,1070004&gt;狂风劫匪&lt;/L&gt;&lt;/A&gt;，然后向&lt;D&gt;&lt;L=s02,5610053&gt;张三&lt;/L&gt;&lt;/D&gt;复命。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20015" />
+    <entry Name="萨默斯的鼓励" />
+    <entry Conditions="" />
+    <entry Overview="返回找到&lt;D&gt;&lt;L=m10,5010019&gt;萨默斯&lt;/L&gt;&lt;/D&gt;，告知他你已完成最后的试炼。" />
+</quest-local>

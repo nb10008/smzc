@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30843" />
+    <entry Name="单身情书" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;5&lt;/C&gt;个卡片（拥抱卡、依靠卡、依偎卡、亲密卡和亲吻卡），交给&lt;D&gt;&lt;Z=s02,25250,23510,37950&gt;单身主义者&lt;/Z&gt;&lt;/D&gt;，可以获得一张&lt;I&gt;匿名情书&lt;/I&gt;" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30832" />
+    <entry Name="每日礼包" />
+    <entry Conditions="" />
+    <entry Overview="国庆期间，30级以上的玩家每天都可以去&lt;N&gt;斗战天城&lt;/N&gt;找&lt;D&gt;祝福灵童&lt;/D&gt;领取每日礼包。" />
+</quest-local>

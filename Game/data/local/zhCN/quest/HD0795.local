@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30795" />
+    <entry Name="终于搞定了！" />
+    <entry Conditions="跟张三交谈" />
+    <entry Overview="跟&lt;D&gt;&lt;L=s02,5610053&gt;张三&lt;/L&gt;&lt;/D&gt;交谈，询问衣服的完成情况。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20519" />
+    <entry Name="摄魂女皇" />
+    <entry Conditions="" />
+    <entry Overview="清除&lt;color=0xffff0000&gt;&lt;L=s07,1060054&gt;摄魂女皇&lt;/L&gt;&lt;color=0xffffffff&gt;后，回去找&lt;D&gt;&lt;L=s07,5010203&gt;左德&lt;/L&gt;&lt;/D&gt;复命。" />
+</quest-local>

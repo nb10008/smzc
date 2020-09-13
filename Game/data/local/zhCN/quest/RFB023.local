@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="29023" />
+    <entry Name="挑战黑暗学院" />
+    <entry Conditions="" />
+    <entry Overview="消灭&lt;N&gt;黑暗学院&lt;/N&gt;里的恶魔：&lt;A&gt;魔法傀儡马力欧&lt;/A&gt;、&lt;A&gt;魔法恶徒伽杰特&lt;/A&gt;、&lt;A&gt;魔法导师赫达&lt;/A&gt;、&lt;A&gt;恶灵女骑士米尔卡&lt;/A&gt;，然后回复&lt;D&gt;&lt;L=s04,5510635&gt;神学院长奥德利&lt;/L&gt;&lt;/D&gt;。（建议1-3人一起前往）" />
+</quest-local>

@@ -1,0 +1,30 @@
+Pid:1496>  2020-09-13 10:39:22> BasePath: H:\ll\Game\release/
+Pid:1496>  2020-09-13 10:39:22> In sh_load_start: pfSend=  64e980,pfRec=3974a00    2010/08/16
+Pid:1496>  2020-09-13 10:39:22> g_nNum:1,File: H:\ll\Game\release\World.exe
+Pid:1496>  2020-09-13 10:39:22> In sh_load_start 2
+Pid:1496>  2020-09-13 10:39:22> In sh_load_start 6, 3974a00
+Pid:1496>  2020-09-13 10:39:22file: H:\ll\Game\release/AHThunkConfig.xmlItemSever Ip:127.0.0.1,Port:15306
+Pid:1496>  2020-09-13 10:39:22>ApexProxy Starting ........Ver:2010/08/16,Build:Aug 16 2010
+Pid:1496>  2020-09-13 10:39:22file: H:\ll\Game\release/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:1496>  2020-09-13 10:39:24>ApexProxy Connect to AHServer Failed!!!! 
+Pid:1496>  2020-09-13 10:40:25file: H:\ll\Game\release/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:1496>  2020-09-13 10:40:27>ApexProxy Connect to AHServer Failed!!!! 
+Pid:1496>  2020-09-13 10:41:28file: H:\ll\Game\release/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:1496>  2020-09-13 10:41:30>ApexProxy Connect to AHServer Failed!!!! 
+Pid:1496>  2020-09-13 10:42:31file: H:\ll\Game\release/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:1496>  2020-09-13 10:42:33>ApexProxy Connect to AHServer Failed!!!! 
+Pid:1496>  2020-09-13 10:43:35file: H:\ll\Game\release/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:1496>  2020-09-13 10:43:37>ApexProxy Connect to AHServer Failed!!!! 
+Pid:1496>  2020-09-13 10:44:38file: H:\ll\Game\release/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:1496>  2020-09-13 10:44:40>ApexProxy Connect to AHServer Failed!!!! 
+Pid:1496>  2020-09-13 10:45:41file: H:\ll\Game\release/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:1496>  2020-09-13 10:45:43>ApexProxy Connect to AHServer Failed!!!! 
+Pid:1496>  2020-09-13 10:46:44file: H:\ll\Game\release/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:1496>  2020-09-13 10:46:46>ApexProxy Connect to AHServer Failed!!!! 
+Pid:1496>  2020-09-13 10:47:47file: H:\ll\Game\release/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:1496>  2020-09-13 10:47:49>ApexProxy Connect to AHServer Failed!!!! 
+Pid:1496>  2020-09-13 10:48:50file: H:\ll\Game\release/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:1496>  2020-09-13 10:48:52>ApexProxy Connect to AHServer Failed!!!! 
+Pid:1496>  2020-09-13 11:17:36> In sh_load_exit
+Pid:1496>  2020-09-13 11:17:37>ApexProxy ShutDown
+Pid:1496>  2020-09-13 11:17:37> In sh_load_exit end

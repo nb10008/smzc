@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="29013" />
+    <entry Name="失忆回廊的审判" />
+    <entry Conditions="" />
+    <entry Overview="到&lt;N&gt;失忆的回廊&lt;/N&gt;里面，击杀&lt;A&gt;花之魅魔&lt;/A&gt;&lt;C&gt;15&lt;/C&gt;只,击杀&lt;A&gt;丛林之王雷克萨&lt;/A&gt;&lt;C&gt;10&lt;/C&gt;只,击杀&lt;A&gt;阿尔赛特的禁卫队&lt;/A&gt;&lt;C&gt;8&lt;/C&gt;只,击杀&lt;A&gt;独裁者阿尔赛特&lt;/A&gt;,以上完成其中一项即可,然后回复&lt;D&gt;&lt;L=s02,5010227&gt;审判者奥斯威德&lt;/L&gt;&lt;/D&gt;。&#x0A;" />
+</quest-local>

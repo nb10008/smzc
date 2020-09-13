@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="西洲幻林" pos_x="13193" pos_y="1670" pos_z="1136"/>
+	<map_point id="2" type="1" show_name="悬赏榜" pos_x="14774" pos_y="1640" pos_z="1768"/>
+	<map_point id="3" type="2" show_name="三鬼力士" pos_x="11449" pos_y="1666" pos_z="5250"/>
+	<map_point id="4" type="2" show_name="三鬼蛮女" pos_x="10791" pos_y="1671" pos_z="8162"/>
+	<map_point id="5" type="2" show_name="三鬼巫师" pos_x="15197" pos_y="1686" pos_z="29655"/>
+	<map_point id="6" type="2" show_name="三鬼刺客" pos_x="5654" pos_y="1675" pos_z="25425"/>
+	<map_point id="7" type="2" show_name="三鬼精英力士" pos_x="31335" pos_y="1705" pos_z="8535"/>
+	<map_point id="8" type="2" show_name="三鬼高级刺客" pos_x="18281" pos_y="1644" pos_z="19677"/>
+	<map_point id="9" type="2" show_name="战姬晨月" pos_x="27097" pos_y="1644" pos_z="1967"/>
+	<map_point id="10" type="2" show_name="魔姬霜华" pos_x="32098" pos_y="1646" pos_z="27842"/>
+</root>

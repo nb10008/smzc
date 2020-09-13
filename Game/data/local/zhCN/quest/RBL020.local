@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20220" />
+    <entry Name="通报情况" />
+    <entry Conditions="" />
+    <entry Overview="在通往斗战天城的路上，有一个&lt;N&gt;&lt;L=s04,6011020&gt;信号施放处&lt;/L&gt;&lt;/N&gt;，在那里燃放&lt;M&gt;烟花&lt;/M&gt;，通报所有人这里的情况,然后带着&lt;M&gt;信号印记&lt;/M&gt;回复&lt;D&gt;&lt;L=s04,5010077&gt;纳德&lt;/L&gt;&lt;/D&gt;。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;北洲天雪:30级后可前往&lt;N&gt;北洲天雪&lt;/N&gt;练级&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;知识竞猜:30级后可参与&lt;P&gt;知识竞猜活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;勇闯魔窟:30级后可参与&lt;P&gt;勇闯魔窟活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;妖精遗产:30级后可参与&lt;P&gt;妖精遗产活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;妖精喂养:30级后妖精需要进行喂养&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;斗技场:40级后&lt;P&gt;报名斗技场&lt;/P&gt;&#x0A;" />
+</quest-local>

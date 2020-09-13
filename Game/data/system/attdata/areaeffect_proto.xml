@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <areaeffect id="1" buff_id="3506701" />
+    <areaeffect id="2" buff_id="3506801" />
+    <areaeffect id="3" buff_id="3506801" />
+    <areaeffect id="4" buff_id="3506901" />
+    <areaeffect id="5" buff_id="3506901" />
+    <areaeffect id="6" buff_id="3507001" />
+    <areaeffect id="7" buff_id="3507001" />
+    <areaeffect id="8" buff_id="3507001" />
+    <areaeffect id="9" buff_id="3507001" />
+    <areaeffect id="10" buff_id="3507001" />
+    <areaeffect id="11" buff_id="3507101" />
+    <areaeffect id="12" buff_id="3507101" />
+    <areaeffect id="13" buff_id="3507101" />
+    <areaeffect id="14" buff_id="3507101" />
+    <areaeffect id="15" buff_id="3507101" />
+    <areaeffect id="16" buff_id="3507101" />
+    <areaeffect id="17" buff_id="3507101" />
+    <areaeffect id="18" buff_id="3507101" />
+    <areaeffect id="19" buff_id="3507101" />
+    <areaeffect id="20" buff_id="3507101" />
+    <areaeffect id="21" buff_id="3507101" />
+    <areaeffect id="22" buff_id="3507101" />
+    <areaeffect id="23" buff_id="3507101" />
+    <areaeffect id="24" buff_id="3507101" />
+    <areaeffect id="25" buff_id="3507101" />
+    <areaeffect id="26" buff_id="3507101" />
+    <areaeffect id="27" buff_id="3507101" />
+    <areaeffect id="28" buff_id="3507101" />
+    <areaeffect id="29" buff_id="3507101" />
+    <areaeffect id="30" buff_id="3507101" />
+    <areaeffect id="31" buff_id="3507101" />
+    <areaeffect id="32" buff_id="3507101" />
+    <areaeffect id="33" buff_id="3507101" />
+    <areaeffect id="34" buff_id="3507101" />
+</root>

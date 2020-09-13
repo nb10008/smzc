@@ -1,0 +1,16 @@
+sampler g_baseTex  : register(s0);
+sampler g_lightMap : register(s1);
+
+half4 main( float2 baseTex 	: TEXCOORD0,
+		float2 lightMap : TEXCOORD1) : COLOR0
+{
+	half4 ret;
+	
+	half3 tex  =tex2D(g_baseTex, baseTex).rgb;
+	half3 light=tex2D(g_lightMap, lightMap).rgb;
+	
+	ret.a=1;
+	ret.rgb=tex*light*2.0f;
+	
+	return ret;
+}

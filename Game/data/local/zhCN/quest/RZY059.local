@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40059" />
+    <entry Name="凝聚信仰" />
+    <entry Conditions="将神格提升至1级" />
+    <entry Overview="&lt;D&gt;&lt;L=s02,5010243&gt;三界主宰艾辛萨&lt;/L&gt;&lt;/D&gt;让你使用&lt;S&gt;凝聚&lt;/S&gt;将&lt;C&gt;信仰&lt;/C&gt;转化为&lt;C&gt;凝聚度&lt;/C&gt;，以便将&lt;C&gt;神格&lt;/C&gt;提升至&lt;C&gt;1&lt;/C&gt;级。\n&lt;T&gt;当凝聚度达到200点时，你将会获得1级神格。每1点信仰只能转化成1点凝聚度。&lt;/T&gt;" />
+</quest-local>

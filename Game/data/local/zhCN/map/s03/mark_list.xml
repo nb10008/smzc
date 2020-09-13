@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="斗战天城" pos_x="25737" pos_y="4054" pos_z="63639"/>
+	<map_point id="2" type="1" show_name="花海之根" pos_x="66171" pos_y="2221" pos_z="41345"/>
+	<map_point id="3" type="1" show_name="西洲幻林" pos_x="11394" pos_y="3740" pos_z="20630"/>
+	<map_point id="4" type="1" show_name="南洲迷沼" pos_x="57723" pos_y="3625" pos_z="11452"/>
+	<map_point id="5" type="1" show_name="卡斯坦洞穴" pos_x="44068" pos_y="2808" pos_z="28248"/>
+	<map_point id="6" type="1" show_name="坦伯特传送石" pos_x="41248" pos_y="3821" pos_z="52630"/>
+	<map_point id="7" type="1" show_name="卡兰斯传送石" pos_x="60767" pos_y="3721" pos_z="14898"/>
+	<map_point id="8" type="2" show_name="药剂商(坦伯特)" pos_x="40385" pos_y="3018" pos_z="66041"/>
+	<map_point id="9" type="2" show_name="药剂商(格雷岭)" pos_x="38131" pos_y="2992" pos_z="33242"/>
+	<map_point id="10" type="2" show_name="杂货商" pos_x="38217" pos_y="3018" pos_z="64816"/>
+	<map_point id="11" type="2" show_name="妖精食物商" pos_x="38518" pos_y="2980" pos_z="63864"/>
+	<map_point id="12" type="2" show_name="妖精神秘商人" pos_x="32228" pos_y="2940" pos_z="64133"/>
+	<map_point id="13" type="2" show_name="摊位管理员" pos_x="41209" pos_y="3018" pos_z="65185"/>
+	<map_point id="14" type="3" show_name="悬赏使者" pos_x="41126" pos_y="3018" pos_z="63538"/>
+	<map_point id="15" type="3" show_name="悬赏榜(坦伯特）" pos_x="40209" pos_y="3018" pos_z="64775"/>
+	<map_point id="16" type="3" show_name="悬赏榜(卡斯兰）" pos_x="38838" pos_y="2983" pos_z="33073"/>
+	<map_point id="17" type="3" show_name="悬赏榜(萨斯林）" pos_x="24945" pos_y="3095" pos_z="42165"/>
+	<map_point id="18" type="3" show_name="悬赏榜(契尔瑞）" pos_x="20606" pos_y="3065" pos_z="23443"/>
+	<map_point id="19" type="3" show_name="悬赏榜(喀布托林）" pos_x="54223" pos_y="2690" pos_z="58815"/>
+	<map_point id="20" type="3" show_name="悬赏榜(兰德）" pos_x="61032" pos_y="2920" pos_z="31896"/>
+	<map_point id="21" type="3" show_name="悬赏榜(幽幽湖）" pos_x="43277" pos_y="2905" pos_z="40974"/>
+	<map_point id="22" type="3" show_name="斗神希拉" pos_x="39583" pos_y="3018" pos_z="65623"/>
+	<map_point id="23" type="3" show_name="妖精嘉迪拉" pos_x="39950" pos_y="2872" pos_z="61868"/>
+	<map_point id="24" type="3" show_name="幻神艾丽娜(斗坛谷)" pos_x="38026" pos_y="2880" pos_z="61269"/>
+	<map_point id="25" type="3" show_name="幻神艾丽娜(坦伯特)" pos_x="44322" pos_y="2871" pos_z="55013"/>
+	<map_point id="26" type="3" show_name="晶石使者" pos_x="44811" pos_y="2883" pos_z="64125"/>
+	<map_point id="27" type="3" show_name="蘑菇收集人" pos_x="38970" pos_y="3018" pos_z="63689"/>
+	<map_point id="28" type="3" show_name="卡洛儿" pos_x="54347" pos_y="3062" pos_z="37940"/>
+	<map_point id="29" type="3" show_name="法兰斯" pos_x="24674" pos_y="3080" pos_z="41905"/>
+	<map_point id="30" type="3" show_name="杰克·萨里" pos_x="38431" pos_y="2990" pos_z="33154"/>
+	<map_point id="31" type="3" show_name="僵尸博士" pos_x="35892" pos_y="2600" pos_z="57723"/>
+	<map_point id="32" type="3" show_name="妖精幻境传送人" pos_x="40183" pos_y="2890" pos_z="55564"/>
+	<map_point id="33" type="3" show_name="嘉迪卡拉的幻像" pos_x="54641" pos_y="4500" pos_z="43374"/>
+	<map_point id="34" type="3" show_name="卡露拉的幻像" pos_x="50920" pos_y="3900" pos_z="21255"/>
+	<map_point id="35" type="3" show_name="阿莱茜娅的幻像" pos_x="22096" pos_y="3020" pos_z="23004"/>
+	<map_point id="36" type="4" show_name="幻蝶(11)" pos_x="61580" pos_y="4786" pos_z="48040"/>
+	<map_point id="37" type="4" show_name="灵蝶(11)" pos_x="57941" pos_y="2928" pos_z="35540"/>
+	<map_point id="38" type="4" show_name="奇琏花(13)" pos_x="51151" pos_y="3776" pos_z="32637"/>
+	<map_point id="39" type="4" show_name="迷蝶(15)" pos_x="14653" pos_y="2968" pos_z="33298"/>
+	<map_point id="40" type="4" show_name="蓝野人(16)" pos_x="38360" pos_y="3480" pos_z="11411"/>
+	<map_point id="41" type="4" show_name="绿野人(19)" pos_x="25265" pos_y="3167" pos_z="14828"/>
+	<map_point id="42" type="4" show_name="红野人(15)" pos_x="23929" pos_y="2874" pos_z="36369"/>
+	<map_point id="43" type="4" show_name="拉斯(14)" pos_x="35168" pos_y="3467" pos_z="16591"/>
+</root>

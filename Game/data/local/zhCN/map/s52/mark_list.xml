@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="斗战天城传送人" pos_x="12700" pos_y="2880" pos_z="7334"/>
+	<map_point id="2" type="2" show_name="博博小姐" pos_x="20195" pos_y="2979" pos_z="14290"/>
+	<map_point id="3" type="2" show_name="罗曼商人(东)" pos_x="18740" pos_y="2973" pos_z="11220"/>
+	<map_point id="4" type="2" show_name="罗曼商人(西)" pos_x="7082" pos_y="3051" pos_z="9408"/>
+	<map_point id="5" type="2" show_name="罗曼徽章兑换商" pos_x="12584" pos_y="2996" pos_z="8771"/>
+	<map_point id="6" type="2" show_name="罗曼称号兑换人" pos_x="12004" pos_y="2990" pos_z="9104"/>
+	<map_point id="7" type="2" show_name="博博村长" pos_x="12040" pos_y="3032" pos_z="10877"/>
+	<map_point id="8" type="2" show_name="博博先生" pos_x="5141" pos_y="3027" pos_z="16824"/>
+	<map_point id="9" type="2" show_name="阿芙罗狄" pos_x="13015" pos_y="3402" pos_z="21025"/>
+	<map_point id="10" type="2" show_name="艾斯蒂娜" pos_x="13128" pos_y="3399" pos_z="21019"/>
+</root>

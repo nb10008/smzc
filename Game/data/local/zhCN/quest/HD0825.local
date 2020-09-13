@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30825" />
+    <entry Name="鹊桥相会" />
+    <entry Conditions="" />
+    <entry Overview="传说七夕前后在罗曼村中布满藤蔓的桥上和心爱的人&lt;color=0xffff80ff&gt;亲吻&lt;color=0xffffffff&gt;，便会获得牛郎织女的爱之祝福。完成任务后回复&lt;D&gt;&lt;Z=s52,13650,3001,11000&gt;七夕祈福老人&lt;/Z&gt;&lt;/D&gt;，她会代替牛郎织女给予你祝福。\n注：有了爱之祝福在罗曼村劳动会获得双倍的种植玫瑰经验或制作巧克力经验，并且高级玫瑰和高级巧克力的掉率也会加倍。\n选择当前亲吻的目标后，在交互动作中选择“亲吻”。" />
+</quest-local>

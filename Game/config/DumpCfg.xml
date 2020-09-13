@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <item name="ftp" value="127.0.0.1" />
+    <item name="user" value="gamedump" />
+    <item name="password" value="1q2w3e4r" />
+</root>

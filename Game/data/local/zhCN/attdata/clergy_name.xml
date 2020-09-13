@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <god id="1" name="神侍" icon="s_01" godheadLevel="下位神" text="&lt;color=0xffff6000&gt;肉身的强化已经初窥门径，足以承载小部分的神力和肩负维护光明的职责&lt;color=0xffffffff&gt;" />
+    <god id="2" name="准神" icon="s_02" godheadLevel="中位神" text="&lt;color=0xffff6000&gt;信仰之力融会贯通，虔诚的祈祷也萦萦绕耳，在人类的眼中它已经可以毫不过分的被称为：神&lt;color=0xffffffff&gt;" />
+    <god id="3" name="守护之神" icon="s_03" godheadLevel="中位神" text="&lt;color=0xffff6000&gt;慷慨，节制，贞洁，热心，温和，宽容，谦逊\n以神的名义，以此为责，将守护和平与美好铭刻于心，无论冬雷夏雪它将一直守护直到天地枯朽&lt;color=0xffffffff&gt;" />
+    <god id="4" name="审判之神" icon="s_04" godheadLevel="中位神" text="&lt;color=0xffff6000&gt;通过它进入无尽痛苦之城，通过它进入永世凄苦之坑，通过它进入万劫不复之渊，正义属于那崇高的造物神，它是神权神志神爱的结晶，在它之前未有永恒的创造，叫它审判&lt;color=0xffffffff&gt;" />
+    <god id="5" name="位神" icon="s_05" godheadLevel="上位神" text="&lt;color=0xffff6000&gt;本源之力积蓄至瓶颈，四周涌来的缤纷颜色你也知晓了他们的名字，元素之力，向至高处迈步吧&lt;color=0xffffffff&gt;" />
+    <god id="6" name="火焰之神" icon="s_06" godheadLevel="上位神" text="&lt;color=0xffff6000&gt;赤红的精灵在掌控中有规则的炫舞，一切罪恶和纯净在这里都只能灰飞烟灭。面对万年的孤寂，只有感受身旁的温度才能记得那时的叱咤和无尽涌动的毁灭之力&lt;color=0xffffffff&gt;" />
+    <god id="7" name="风暴之神" icon="s_07" godheadLevel="上位神" text="&lt;color=0xffff6000&gt;自然赋予了它喜怒无常。它喜，风轻云淡鸟语花香；它怒，风云突变天地尽殇。它一直都相信古老的风力量也可以推动活物的心灵和躯体&lt;color=0xffffffff&gt;" />
+    <god id="8" name="雷电之神" icon="s_08" godheadLevel="上位神" text="&lt;color=0xffff6000&gt;它的暴戾不属于…现在，它所存在的天空不在属于我们，当漫天的电火和雷鸣辉耀在它的身周，人们所闪现的希望已不再存在&lt;color=0xffffffff&gt;" />
+    <god id="9" name="海洋之神" icon="s_09" godheadLevel="上位神" text="&lt;color=0xffff6000&gt;主宰水域，水中无上的权威，是大地的动摇者，海洋因他而咆哮，世界也因其愤怒而战栗&lt;color=0xffffffff&gt;" />
+    <god id="10" name="主神" icon="s_10" godheadLevel="主神" text="&lt;color=0xffff6000&gt;俯瞰众生，吞吐山河变色，众生的命运等待你去安排，黑暗和光明的选择已立于眼前，享受主宰的快感吧&lt;color=0xffffffff&gt;" />
+    <god id="11" name="正义之神" icon="s_11" godheadLevel="主神" text="&lt;color=0xffff6000&gt;它的每次现身，人们都会重新定义一个新的休假日，用内心的感激和欢腾来纪念这一刻的光明和宁静&lt;color=0xffffffff&gt;" />
+    <god id="12" name="天空之神" icon="s_12" godheadLevel="主神" text="&lt;color=0xffff6000&gt;它的叹息每次都会穿透云霄震撼万里天际，从而巩固他无上的地位和权威&lt;color=0xffffffff&gt;" />
+    <god id="13" name="能量之神" icon="s_13" godheadLevel="主神" text="&lt;color=0xffff6000&gt;大地已经疲惫不堪，天帷也已枯竭，因为全部的能量已成为它的法术来源，即使在这枯萎的世界也无法阻拦它能量的聚集&lt;color=0xffffffff&gt;" />
+    <god id="14" name="治愈之神" icon="s_14" godheadLevel="主神" text="&lt;color=0xffff6000&gt;生命为死亡引路，死亡带出新生，自然靠本身残骸茁壮，有它天地永罩光芒&lt;color=0xffffffff&gt;" />
+    <god id="15" name="战神" icon="s_15" godheadLevel="至高神" text="&lt;color=0xffff6000&gt;每一个血腥撕裂残暴的片段铸成了它的金色勋章，每一次与死亡的擦肩而过和无与伦比的战斗技巧奠定了它不可动摇的地位&lt;color=0xffffffff&gt;" />
+    <god id="16" name="太阳神" icon="s_16" godheadLevel="至高神" text="&lt;color=0xffff6000&gt;每一个实体都会存在于它的普照之下，在承载无限的希望并释放无尽的光辉后，它俨然成为每一个人心中的造物神&lt;color=0xffffffff&gt;" />
+    <god id="17" name="法师之神" icon="s_17" godheadLevel="至高神" text="&lt;color=0xffff6000&gt;随着它的崭露头角，元素生物开始恢复生机更加繁盛。各种形式的生命力也已适应重新注入有法力的大地&lt;color=0xffffffff&gt;" />
+    <god id="18" name="和平之神" icon="s_18" godheadLevel="至高神" text="&lt;color=0xffff6000&gt;完美的世界是个空无一物的地方，没有人能引发罪恶和战争。它的存在就是为了铸造一个空无一物的和平世界&lt;color=0xffffffff&gt;" />
+    <god id="19" name="暴君" icon="s_19" godheadLevel="创世神" text="&lt;color=0xffff6000&gt;仁慈是懦弱的表现，只有至高无上的力量才是征服世界的真理，它傲视天地，并且拥有一个执念，终有一天这个世界会在它的力量下屈服&lt;color=0xffffffff&gt;" />
+    <god id="20" name="死亡女神" icon="s_20" godheadLevel="创世神" text="&lt;color=0xffff6000&gt;它走过的地方都同样的了无生机，它留在了这里，因为它是这个遗迹的女神，哪怕这个遗迹看起来像一个世界&lt;color=0xffffffff&gt;" />
+    <god id="21" name="暗夜魔神" icon="s_21" godheadLevel="创世神" text="&lt;color=0xffff6000&gt;暗夜魔神可以一连沉默几个世纪，当它发现这个世界与身边的卑劣者一样的扭曲空虚时，世界便将笼罩在无尽的黑暗之下&lt;color=0xffffffff&gt;" />
+    <god id="22" name="暗影之女" icon="s_22" godheadLevel="创世神" text="&lt;color=0xffff6000&gt;从光明中衍生，连任何的明亮也不敢亵渎它的权威，当它所想要制衡的生命光辉被锁定，生命也只能自动熄灭，并且再也无法重燃&lt;color=0xffffffff&gt;" />
+    <god id="23" name="元素之尊" icon="s_23" godheadLevel="创世神" text="&lt;color=0xffff6000&gt;当选择逃脱的时候，才会发现，在它的眼中，对手的每一寸肌肤和世界的每一粒灰尘都是它的武器和使者&lt;color=0xffffffff&gt;" />
+    <god id="24" name="魔法女王" icon="s_24" godheadLevel="创世神" text="&lt;color=0xffff6000&gt;她所扭曲的不是生命，而是法术力，依照自我的喜好将混沌调校至世界的每个角落&lt;color=0xffffffff&gt;" />
+    <god id="25" name="痛苦之王" icon="s_25" godheadLevel="创世神" text="&lt;color=0xffff6000&gt;凡人们，听好了。疫病，战争，荒芜都仅仅是它要降临这个世界的前兆&lt;color=0xffffffff&gt;" />
+    <god id="26" name="厄运" icon="s_26" godheadLevel="创世神" text="&lt;color=0xffff6000&gt;过程才是最好的终结方式，那些没有美感和艺术的是杀戮在它眼中真的是俗不可耐。当它像你招手的时候你的未来已经比支离破碎更加惨不忍睹&lt;color=0xffffffff&gt;" />
+</root>

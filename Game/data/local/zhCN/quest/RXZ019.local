@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20419" />
+    <entry Name="增强实力" />
+    <entry Conditions="" />
+    <entry Overview="将等级提升至&lt;C&gt;62&lt;/C&gt;级，然后找到&lt;N&gt;西洲幻林&lt;/N&gt;的&lt;D&gt;&lt;L=s06,5010162&gt;辛西娅&lt;/L&gt;&lt;/D&gt;。&#x0A;" />
+</quest-local>

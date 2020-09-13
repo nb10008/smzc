@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <EquipQltyEffect id="0" WeaponFactor="1" ArmorFactor="1" AttAFactor1="0" AttAFactor2="0" AttANumEffect="1" PotFactor="1" HolePct0="0" LonghunPctOuter="0" LonghunPctInner="0" SpecAttPct="0" streng_level_limit="0" />
+    <EquipQltyEffect id="1" WeaponFactor="1.2" ArmorFactor="1.2" AttAFactor1="10" AttAFactor2="7" AttANumEffect="13" PotFactor="1.5" HolePct0="0" HolePct1="1000" HolePct2="0" LonghunPctOuter="0" LonghunPctInner="0" SpecAttPct="0" streng_level_limit="5" />
+    <EquipQltyEffect id="2" WeaponFactor="1.5" ArmorFactor="1.4" AttAFactor1="20" AttAFactor2="8" AttANumEffect="13" PotFactor="2" HolePct0="0" HolePct1="1000" HolePct2="500" LonghunPctOuter="0" LonghunPctInner="0" SpecAttPct="0" streng_level_limit="20" />
+    <EquipQltyEffect id="3" WeaponFactor="1.8" ArmorFactor="1.6" AttAFactor1="30" AttAFactor2="9" AttANumEffect="13" PotFactor="3" HolePct0="0" HolePct1="1000" HolePct2="1000" LonghunPctOuter="0" LonghunPctInner="0" SpecAttPct="0" streng_level_limit="20" />
+    <EquipQltyEffect id="4" WeaponFactor="2.1" ArmorFactor="1.8" AttAFactor1="40" AttAFactor2="10" AttANumEffect="13" PotFactor="4" HolePct0="0" HolePct1="1500" HolePct2="1000" LonghunPctOuter="0" LonghunPctInner="0" SpecAttPct="0" streng_level_limit="20" />
+    <EquipQltyEffect id="5" WeaponFactor="2.4" ArmorFactor="2.0" AttAFactor1="50" AttAFactor2="11" AttANumEffect="13" PotFactor="5" HolePct0="0" HolePct1="1500" HolePct2="1500" LonghunPctOuter="0" LonghunPctInner="0" SpecAttPct="0" streng_level_limit="20" />
+    <EquipQltyEffect id="6" WeaponFactor="2.7" ArmorFactor="2.2" AttAFactor1="60" AttAFactor2="12" AttANumEffect="13" PotFactor="5" HolePct0="0" HolePct1="1500" HolePct2="1500" LonghunPctOuter="0" LonghunPctInner="0" SpecAttPct="0" streng_level_limit="20" />
+</root>

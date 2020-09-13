@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40055" />
+    <entry Name="辛勤耕种NO.3" />
+    <entry Conditions="" />
+    <entry Overview="将种植出的&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;香果&lt;/I&gt;展示给庄园主&lt;D&gt;&lt;L=s51,5800075&gt;艾欧里奥&lt;/L&gt;&lt;/D&gt;。\n提示：浇灌完毕后，需要等待&lt;C&gt;1&lt;/C&gt;小时，植物才会成熟结果。但若使用&lt;I&gt;拉芙艾娜的爱之泉&lt;/I&gt;可瞬间使植物成熟结果。&#x0A;" />
+</quest-local>

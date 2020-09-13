@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20657" />
+    <entry Name="解除神咒" />
+    <entry Conditions="" />
+    <entry Overview="从&lt;color=0xffff0000&gt;&lt;L=s08,1070088&gt;神使彻天右&lt;/L&gt;&lt;color=0xffffffff&gt;身上拿到&lt;I&gt;解咒之药A&lt;/I&gt;，&lt;color=0xffff0000&gt;&lt;L=s07,1060054&gt;摄魂女皇&lt;/L&gt;&lt;color=0xffffffff&gt;身上找到&lt;I&gt;解咒之药B&lt;/I&gt;,&lt;color=0xffff0000&gt;&lt;L=s06,1050042&gt;魔蝶紫罗兰&lt;/L&gt;&lt;color=0xffffffff&gt;身上找到&lt;I&gt;解咒之药C&lt;/I&gt;，&lt;color=0xffff0000&gt;&lt;L=s05,1040049&gt;北洲人王&lt;/L&gt;&lt;color=0xffffffff&gt;身上找到&lt;I&gt;解咒之药D&lt;/I&gt;，&lt;color=0xffff0000&gt;&lt;L=s04,1030019&gt;熔岩领主&lt;/L&gt;&lt;color=0xffffffff&gt;身上找到&lt;I&gt;解咒之药E&lt;/I&gt;，&lt;color=0xffff0000&gt;&lt;L=s03,1020010&gt;绿野人&lt;/L&gt;&lt;color=0xffffffff&gt;身上找到&lt;I&gt;解咒之药F&lt;/I&gt;，之后交给&lt;D&gt;&lt;L=s08,5010210&gt;瓦尔特&lt;/L&gt;。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20017" />
+    <entry Name="新的征途" />
+    <entry Conditions="" />
+    <entry Overview="等级达到&lt;C&gt;10&lt;/C&gt;级后，找到&lt;D&gt;&lt;L=m10,5510608&gt;罗斯特&lt;/L&gt;&lt;/D&gt;，他会为你安排前往斗战天城的相关事宜。" />
+</quest-local>

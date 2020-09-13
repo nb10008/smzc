@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="北洲天雪" pos_x="10037" pos_y="208" pos_z="9121"/>
+	<map_point id="2" type="1" show_name="悬赏榜" pos_x="9389" pos_y="40" pos_z="6710"/>
+	<map_point id="3" type="2" show_name="冰洞蛇妖" pos_x="6947" pos_y="40" pos_z="7119"/>
+	<map_point id="4" type="2" show_name="零度蛇妖" pos_x="16398" pos_y="40" pos_z="8966"/>
+	<map_point id="5" type="2" show_name="精英冰洞蛇妖" pos_x="4931" pos_y="40" pos_z="13465"/>
+	<map_point id="6" type="2" show_name="精英零度蛇妖" pos_x="17701" pos_y="40" pos_z="19933"/>
+	<map_point id="7" type="2" show_name="蛇妖杜莎梅" pos_x="7174" pos_y="40" pos_z="13904"/>
+	<map_point id="8" type="2" show_name="蛇妖杜莎拉" pos_x="19954" pos_y="40" pos_z="16834"/>
+</root>

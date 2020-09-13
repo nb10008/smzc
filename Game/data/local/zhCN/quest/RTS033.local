@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="50033" />
+    <entry Name="林中的足迹" />
+    <entry Conditions="" />
+    <entry Overview="对&lt;N&gt;西洲幻林&lt;/N&gt;进行进一步的调查，你最好去这些地点调查：&lt;N&gt;&lt;Z=s06,107230,6000,91336&gt;武岩城&lt;/Z&gt;&lt;/N&gt;、&lt;N&gt;&lt;Z=s06,90983,4775,103711&gt;武岩城郊&lt;/Z&gt;&lt;/N&gt;、&lt;N&gt;&lt;Z=s06,107100,5000,55793&gt;龙源森&lt;/Z&gt;&lt;/N&gt;、&lt;N&gt;&lt;Z=s06,132252,5721,28433&gt;天峰场&lt;/Z&gt;&lt;/N&gt;，集齐&lt;C&gt;3&lt;/C&gt;个&lt;M&gt;浅足迹&lt;/M&gt;，然后回来告诉&lt;D&gt;&lt;L=s06,5511012&gt;游客&lt;/L&gt;&lt;/D&gt;这里的状况。" />
+</quest-local>

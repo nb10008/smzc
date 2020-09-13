@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30870" />
+    <entry Name="拯救宠物" />
+    <entry Conditions="" />
+    <entry Overview="前去&lt;N&gt;七花之海&lt;/N&gt;杀死&lt;A&gt;&lt;L=s03,3040375&gt;邪恶的熊猫斌斌&lt;/L&gt;&lt;/A&gt;，救出春节使者米莲妮的宠物&lt;I&gt;熊猫斌斌&lt;/I&gt;，完成后返回向&lt;D&gt;&lt;L=s02,6040022&gt;春节使者米莲妮&lt;/L&gt;&lt;/D&gt;交付任务。" />
+</quest-local>

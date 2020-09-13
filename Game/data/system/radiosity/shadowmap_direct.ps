@@ -1,0 +1,37 @@
+#define SHADOW_EPSILON 0.0002f
+#define SMAP_SIZE 2048
+
+float4x4  g_matViewPrj;
+
+sampler2D g_posMap 	: register(s0);
+sampler2D g_depthMap 	: register(s1);
+
+float4 main( float2 uv0 : TEXCOORD0 ) : COLOR0
+{
+	float visable=0.0f;
+	
+	float4 pos=tex2D(g_posMap,uv0);
+	float4 prjPos=mul(float4(pos.xyz,1.0f),g_matViewPrj);
+	prjPos.xyz/=prjPos.w;
+	prjPos.xy*=0.5;
+	prjPos.xy+=0.5;
+	prjPos.y=1.0f-prjPos.y;
+	
+	float z=tex2D(g_depthMap,prjPos.xy).x;
+	
+	float2 texelpos = SMAP_SIZE * prjPos.xy; 	
+	float2 lerps = frac( texelpos );
+	
+	float sourcevals[4];
+	sourcevals[0] = (prjPos.z < z+SHADOW_EPSILON)? 1.0f: 0.0f;
+	sourcevals[1] = (prjPos.z < tex2D(g_depthMap, prjPos.xy + float2(1.0/SMAP_SIZE, 0)).x+SHADOW_EPSILON)? 1.0f: 0.0f;
+	sourcevals[2] = (prjPos.z < tex2D(g_depthMap, prjPos.xy + float2(0, 1.0/SMAP_SIZE)).x+SHADOW_EPSILON)? 1.0f: 0.0f;
+	sourcevals[3] = (prjPos.z < tex2D(g_depthMap, prjPos.xy + float2(1.0/SMAP_SIZE, 1.0/SMAP_SIZE)).x+SHADOW_EPSILON)? 1.0f: 0.0f;
+	visable = lerp( lerp( sourcevals[0], sourcevals[1], lerps.x ),
+					lerp( sourcevals[2], sourcevals[3], lerps.x ),
+					lerps.y );
+	
+	//visable=(prjPos.z < z+SHADOW_EPSILON) ? 1.0f : 0.0f;
+	
+	return float4(visable,visable,visable,visable);
+}

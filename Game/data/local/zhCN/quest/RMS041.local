@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20641" />
+    <entry Name="树林中的发现" />
+    <entry Conditions="" />
+    <entry Overview="去小树林摘&lt;C&gt;10&lt;/C&gt;枚&lt;M&gt;&lt;L=s08,6010030&gt;野果&lt;/L&gt;&lt;/M&gt;，交给&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

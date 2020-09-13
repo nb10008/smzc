@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30117" />
+    <entry Name="兑换七彩魔法布" />
+    <entry Conditions="" />
+    <entry Overview="将&lt;C&gt;10&lt;/C&gt;个&lt;I&gt;魔法布&lt;/I&gt;和&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;金丝&lt;/I&gt;交给&lt;D&gt;&lt;L=s02,5516012&gt;美神艾丝美拉达&lt;/L&gt;&lt;/D&gt;，即可兑换&lt;C&gt;1&lt;/C&gt;个&lt;color=0xffff80ff&gt;七彩魔法布&lt;color=0xffffffff&gt;。\n&lt;I&gt;七彩魔法布&lt;/I&gt;&lt;T&gt;是制作高阶时装的材料之一。&lt;/T&gt;" />
+</quest-local>

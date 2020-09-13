@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30920" />
+    <entry Name="特权领取" />
+    <entry Conditions="" />
+    <entry Overview="去斗战天城找特权使者领取特权卡。" />
+</quest-local>

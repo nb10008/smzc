@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40062" />
+    <entry Name="上古妖精庇护所" />
+    <entry Conditions="" />
+    <entry Overview="&lt;C&gt;50&lt;/C&gt;级之后将可以进入&lt;P&gt;上古妖精庇护所&lt;/P&gt;获取更多的信仰。&lt;D&gt;&lt;L=s02,5010243&gt;三界主宰艾辛萨&lt;/L&gt;&lt;/D&gt;让你进入&lt;P&gt;上古妖精庇护所&lt;/P&gt;跟&lt;D&gt;幽怨妖精之魂&lt;/D&gt;聊一聊。\n&lt;T&gt;上古妖精庇护所每个小时的最后10分钟才会开放，它的大门将会出现在西洲幻林、南洲迷沼、东洲冥山这三个场景。&lt;/T&gt;" />
+</quest-local>

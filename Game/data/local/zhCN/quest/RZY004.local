@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40004" />
+    <entry Name="妖精之魂" />
+    <entry Conditions="" />
+    <entry Overview="继续与&lt;D&gt;&lt;L=s02,5010023&gt;灵魂使者法娜&lt;/L&gt;&lt;/D&gt;对话完成任务&#x0A;&#x0A;" />
+</quest-local>

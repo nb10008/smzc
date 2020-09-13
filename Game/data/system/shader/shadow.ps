@@ -1,0 +1,9 @@
+sampler g_diffuseMap : register(s0);
+
+float g_fAlphaAdd;
+
+float4 main(float2 uv : TEXCOORD0 ) : COLOR
+{
+	float a = tex2D(g_diffuseMap,uv).a;
+	return float4( 0, 0, 0, a + g_fAlphaAdd );
+}

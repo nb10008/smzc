@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20627" />
+    <entry Name="熔岩巨人" />
+    <entry Conditions="" />
+    <entry Overview="教训&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070020&gt;愤怒的熔岩&lt;/L&gt;&lt;/A&gt;和&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070021&gt;狂躁的熔岩&lt;/L&gt;&lt;/A&gt;，之后回复&lt;D&gt;&lt;L=s08,5010208&gt;亚雷斯&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

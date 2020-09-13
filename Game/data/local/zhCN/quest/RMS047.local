@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20647" />
+    <entry Name="投靠魔族" />
+    <entry Conditions="" />
+    <entry Overview="&lt;A&gt;&lt;L=s08,1070035&gt;被放逐的蛮人&lt;/L&gt;&lt;/A&gt;&lt;C&gt;100&lt;/C&gt;名，&lt;A&gt;&lt;L=s08,1070036&gt;被诅咒的蛮人&lt;/L&gt;&lt;/A&gt;&lt;C&gt;100&lt;/C&gt;名，&lt;color=0xffff6000&gt;&lt;L=s08,1070063&gt;天地蛮人&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;45&lt;/C&gt;名，达成目标后回复&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

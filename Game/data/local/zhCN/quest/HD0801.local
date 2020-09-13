@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30801" />
+    <entry Name="家族的召唤" />
+    <entry Conditions="" />
+    <entry Overview="同斗战天城的&lt;D&gt;&lt;L=s02,5610022&gt;家族管理人&lt;/L&gt;&lt;/D&gt;交谈。\n注：完成任务给予一定历练值奖励。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20607" />
+    <entry Name="安息吧" />
+    <entry Conditions="" />
+    <entry Overview="智慧神请你将&lt;I&gt;墓碑&lt;/I&gt;竖立在他身边，之后将&lt;I&gt;坟头的土&lt;/I&gt;交给&lt;D&gt;&lt;L=s08,5010205&gt;奥克山&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

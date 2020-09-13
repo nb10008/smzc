@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <arena id="1" Level="1" WuXun="0" WuJi_Max="10000" />
+    <arena id="2" Level="2" WuXun="200" WuJi_Max="10000" />
+    <arena id="3" Level="3" WuXun="400" WuJi_Max="10000" />
+    <arena id="4" Level="4" WuXun="500" WuJi_Max="10000" />
+    <arena id="5" Level="5" WuXun="600" WuJi_Max="10000" />
+    <arena id="6" Level="6" WuXun="700" WuJi_Max="10000" />
+    <arena id="7" Level="7" WuXun="800" WuJi_Max="10000" />
+    <arena id="8" Level="8" WuXun="900" WuJi_Max="10000" />
+    <arena id="9" Level="9" WuXun="1000" WuJi_Max="10000" />
+    <arena id="10" Level="10" WuXun="1100" WuJi_Max="10000" />
+</root>

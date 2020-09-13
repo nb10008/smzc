@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20643" />
+    <entry Name="擒贼擒王" />
+    <entry Conditions="" />
+    <entry Overview="抓捕&lt;color=0xffff0000&gt;&lt;L=s08,1070083&gt;护法黑魅姬&lt;/L&gt;&lt;color=0xffffffff&gt;，之后回复&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

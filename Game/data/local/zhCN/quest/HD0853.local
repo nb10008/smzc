@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30853" />
+    <entry Name="熊猫出没注意" />
+    <entry Conditions="" />
+    <entry Overview="&lt;D&gt;熊猫长老&lt;/D&gt;要求你清除&lt;C&gt;1&lt;/C&gt;只入侵的&lt;M&gt;新春熊猫&lt;/M&gt;。&lt;M&gt;新春熊猫&lt;/M&gt;每&lt;C&gt;30&lt;/C&gt;分钟会出现在&lt;P&gt;东洲冥山&lt;/P&gt;，10分钟之后它们就会逃走。完成任务后就找&lt;D&gt;&lt;Z=s02,33300,23510,39800&gt;熊猫长老&lt;/Z&gt;&lt;/D&gt;领取奖励吧。" />
+</quest-local>

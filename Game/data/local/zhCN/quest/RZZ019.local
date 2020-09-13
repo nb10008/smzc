@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="41019" />
+    <entry Name="乾坤转职完成" />
+    <entry Conditions="" />
+    <entry Overview="您已完成转职，现在的职业为&lt;color=0xff80ff00&gt;乾坤&lt;color=0xffffffff&gt;。请添加添加的&lt;color=0xffff80ff&gt;技能点数&lt;color=0xffffffff&gt;，并回到&lt;D&gt;&lt;L=s02,5010029&gt;斗神之王玛斯&lt;/L&gt;&lt;/D&gt;处接取新的任务。" />
+</quest-local>

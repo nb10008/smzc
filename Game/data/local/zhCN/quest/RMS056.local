@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20656" />
+    <entry Name="毅然决然" />
+    <entry Conditions="" />
+    <entry Overview="升至&lt;C&gt;99&lt;/C&gt;级后回到&lt;N&gt;斗战天城&lt;/N&gt;向&lt;D&gt;&lt;L=s07,5010029&gt;斗神之王玛斯&lt;/L&gt;&lt;/D&gt;挑战。" />
+</quest-local>

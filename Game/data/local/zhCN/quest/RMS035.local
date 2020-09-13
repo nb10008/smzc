@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20635" />
+    <entry Name="魔族的踪影" />
+    <entry Conditions="" />
+    <entry Overview="调查&lt;M&gt;&lt;L=s08,6010025&gt;不寻常的岩石&lt;/L&gt;&lt;/M&gt;，取得&lt;C&gt;1&lt;/C&gt;块&lt;I&gt;碎裂的石块&lt;/I&gt;后回复&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

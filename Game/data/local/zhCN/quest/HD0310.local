@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30310" />
+    <entry Name="信仰之石兑换" />
+    <entry Conditions="" />
+    <entry Overview="预言者盖拉请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;信仰之石&lt;/I&gt;。&lt;T&gt;信仰之石可以通过完成绿色以上悬赏榜任务来获得,完成该任务可以获得300点信仰&lt;/T&gt;" />
+</quest-local>

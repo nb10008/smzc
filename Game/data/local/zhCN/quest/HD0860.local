@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30860" />
+    <entry Name="好吃不如饺子" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;水晶饺子&lt;/I&gt;，交给&lt;D&gt;沸腾的神锅&lt;/D&gt;。为圣魔饺子宴贡献自己的一份力量。" />
+</quest-local>

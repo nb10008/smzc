@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40026" />
+    <entry Name="罗梅达亚的条件" />
+    <entry Conditions="" />
+    <entry Overview="除掉&lt;D&gt;&lt;L=s07,1070073&gt;魔舞之花&lt;/L&gt;&lt;/D&gt;、&lt;D&gt;&lt;L=s07,1070074&gt;千人杀米雪&lt;/L&gt;&lt;/D&gt;、&lt;D&gt;&lt;L=s07,1070075&gt;护法雷芒&lt;/L&gt;&lt;/D&gt;、&lt;D&gt;&lt;L=s07,1070076&gt;风斩&lt;/L&gt;&lt;/D&gt;，完成条件后与&lt;D&gt;&lt;L=s02,5010083&gt;罗梅达亚&lt;/L&gt;&lt;/D&gt;交付任务。" />
+</quest-local>

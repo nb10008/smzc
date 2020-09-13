@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <Holy_empowerment id="3500011" DmPowMin="14" DmPowMax="21" DfPowMin="23" DfPowMax="30" CritPowMin="11" CritPowMax="18" CritRatePowMin="10" CritRatePowMax="17" ExDmPowMin="5" ExDmPowMax="12" AttTecPowMin="9" AttTecPowMax="16" NegPowMin="2" NegPowMax="9" />
+    <Holy_empowerment id="3500012" DmPowMin="20" DmPowMax="27" DfPowMin="32" DfPowMax="39" CritPowMin="17" CritPowMax="24" CritRatePowMin="15" CritRatePowMax="22" ExDmPowMin="9" ExDmPowMax="16" AttTecPowMin="13" AttTecPowMax="20" NegPowMin="5" NegPowMax="12" />
+    <Holy_empowerment id="3500013" DmPowMin="30" DmPowMax="37" DfPowMin="43" DfPowMax="50" CritPowMin="26" CritPowMax="33" CritRatePowMin="24" CritRatePowMax="31" ExDmPowMin="17" ExDmPowMax="24" AttTecPowMin="22" AttTecPowMax="29" NegPowMin="12" NegPowMax="19" />
+    <Holy_empowerment id="3500014" DmPowMin="32" DmPowMax="32" DfPowMin="45" DfPowMax="45" CritPowMin="28" CritPowMax="28" CritRatePowMin="26" CritRatePowMax="26" ExDmPowMin="19" ExDmPowMax="19" AttTecPowMin="24" AttTecPowMax="24" NegPowMin="14" NegPowMax="14" />
+    <Holy_empowerment id="3500015" DmPowMin="1" DmPowMax="50" DfPowMin="1" DfPowMax="70" CritPowMin="1" CritPowMax="44" CritRatePowMin="1" CritRatePowMax="41" ExDmPowMin="1" ExDmPowMax="30" AttTecPowMin="1" AttTecPowMax="37" NegPowMin="1" NegPowMax="23" />
+    <Holy_empowerment id="3500041" DmPowMin="60" DmPowMax="100" />
+    <Holy_empowerment id="3500042" DfPowMin="60" DfPowMax="100" />
+    <Holy_empowerment id="3500043" CritPowMin="50" CritPowMax="75" />
+    <Holy_empowerment id="3500044" CritRatePowMin="50" CritRatePowMax="75" />
+    <Holy_empowerment id="3500045" ExDmPowMin="50" ExDmPowMax="75" />
+    <Holy_empowerment id="3500046" AttTecPowMin="50" AttTecPowMax="75" />
+    <Holy_empowerment id="3500047" NegPowMin="50" NegPowMax="75" />
+    <Holy_empowerment id="3500048" DmPowMin="30" DmPowMax="140" DfPowMin="30" DfPowMax="140" CritPowMin="30" CritPowMax="100" CritRatePowMin="30" CritRatePowMax="100" ExDmPowMin="30" ExDmPowMax="100" AttTecPowMin="30" AttTecPowMax="100" NegPowMin="30" NegPowMax="100" />
+    <Holy_empowerment id="3500049" DmPowMin="25" DmPowMax="100" DfPowMin="25" DfPowMax="100" CritPowMin="25" CritPowMax="60" CritRatePowMin="25" CritRatePowMax="60" ExDmPowMin="25" ExDmPowMax="60" AttTecPowMin="25" AttTecPowMax="60" NegPowMin="25" NegPowMax="60" />
+    <Holy_empowerment id="3500050" DmPowMin="50" DmPowMax="80" />
+    <Holy_empowerment id="3500051" DfPowMin="50" DfPowMax="80" />
+    <Holy_empowerment id="3500052" CritPowMin="35" CritPowMax="50" />
+    <Holy_empowerment id="3500053" CritRatePowMin="35" CritRatePowMax="50" />
+    <Holy_empowerment id="3500054" ExDmPowMin="35" ExDmPowMax="50" />
+    <Holy_empowerment id="3500055" AttTecPowMin="35" AttTecPowMax="50" />
+    <Holy_empowerment id="3500056" NegPowMin="35" NegPowMax="50" />
+    <Holy_empowerment id="3500021" HolyPointPow="10" />
+    <Holy_empowerment id="3500022" HolyPointPow="30" />
+    <Holy_empowerment id="3500023" HolyPointPow="50" />
+</root>

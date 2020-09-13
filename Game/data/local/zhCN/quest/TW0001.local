@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="55001" />
+    <entry Name="兌換魔神之魂" />
+    <entry Conditions="" />
+    <entry Overview="帶著&lt;C&gt;10&lt;/C&gt;個&lt;I&gt;三等精鐵&lt;/I&gt;及&lt;C&gt;50&lt;/C&gt;金&lt;A&gt;遊戲幣&lt;/A&gt;，可以找&lt;D&gt;&lt;Z=s02,25250,23510,37950&gt;天神執政官&lt;/Z&gt;&lt;/D&gt;兌換&lt;I&gt;魔神之魂&lt;/I&gt;。" />
+</quest-local>

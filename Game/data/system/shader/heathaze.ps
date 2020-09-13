@@ -1,0 +1,22 @@
+sampler g_bumpMap		: register(s0);
+sampler g_Scene			: register(s1);
+float   g_OffsetFactor;
+
+float4 main( float2 TexCood0	: TEXCOORD0,
+             float4 TexCood1	: TEXCOORD1 ) : COLOR0
+{
+	TexCood1.xy /= TexCood1.w;            
+	TexCood1.x =  0.5f*TexCood1.x + 0.5f; 
+	TexCood1.y = -0.5f*TexCood1.y + 0.5f;
+
+	float4 ret;
+	float4 cBump = tex2D(g_bumpMap, TexCood0);
+	float2 offset = cBump.rg * g_OffsetFactor;
+	TexCood1.x += offset.x;
+	TexCood1.y += offset.y;
+
+	ret = tex2D( g_Scene, TexCood1.xy );
+	ret.a = cBump.a;
+
+	return ret;
+}

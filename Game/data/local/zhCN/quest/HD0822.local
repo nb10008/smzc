@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30822" />
+    <entry Name="消灭自然罪源" />
+    <entry Conditions="" />
+    <entry Overview="自然罪源&lt;A&gt;华恩利&lt;/A&gt;可能会于18：00在&lt;N&gt;西洲幻林&lt;/N&gt;随机地点出现，将其击杀后回复斗战天城&lt;D&gt;&lt;L=s02,5516025&gt;受伤的勇士&lt;/L&gt;&lt;/D&gt;" />
+</quest-local>

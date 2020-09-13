@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20515" />
+    <entry Name="杀一儆百" />
+    <entry Conditions="" />
+    <entry Overview="消灭&lt;color=0xffff0000&gt;&lt;L=d07,1060051&gt;武者伐天&lt;/L&gt;&lt;color=0xffffffff&gt;、&lt;color=0xffff0000&gt;&lt;L=d07,1060052&gt;九天石魔&lt;/L&gt;&lt;color=0xffffffff&gt;、&lt;color=0xffff0000&gt;&lt;L=d07,1060053&gt;风影&lt;/L&gt;&lt;color=0xffffffff&gt;，找找看，或许会有他们偷袭魔族的线索，之后回复&lt;D&gt;&lt;L=s07,5010167&gt;魔纳特&lt;/L&gt;&lt;/D&gt;。 " />
+</quest-local>

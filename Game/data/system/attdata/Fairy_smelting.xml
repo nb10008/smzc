@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <fabao id="1" lower_limit="1" higher_limit="120" type_pro1="0" type_pro2="0" type_pro3="4000" type_pro4="6000" />
+    <fabao id="2" lower_limit="121" higher_limit="135" type_pro1="0" type_pro2="200" type_pro3="5800" type_pro4="4000" />
+    <fabao id="3" lower_limit="136" higher_limit="159" type_pro1="0" type_pro2="2900" type_pro3="4600" type_pro4="2500" />
+    <fabao id="4" lower_limit="160" higher_limit="179" type_pro1="0" type_pro2="5500" type_pro3="3000" type_pro4="1500" />
+    <fabao id="5" lower_limit="180" higher_limit="194" type_pro1="0" type_pro2="8000" type_pro3="1500" type_pro4="500" />
+    <fabao id="6" lower_limit="195" higher_limit="210" type_pro1="1000" type_pro2="6500" type_pro3="2500" type_pro4="0" />
+    <fabao id="7" lower_limit="211" higher_limit="219" type_pro1="5300" type_pro2="3300" type_pro3="1400" type_pro4="0" />
+    <fabao id="8" lower_limit="220" higher_limit="229" type_pro1="8300" type_pro2="1500" type_pro3="200" type_pro4="0" />
+    <fabao id="9" lower_limit="230" higher_limit="234" type_pro1="9500" type_pro2="400" type_pro3="100" type_pro4="0" />
+    <fabao id="10" lower_limit="235" higher_limit="999" type_pro1="10000" type_pro2="0" type_pro3="0" type_pro4="0" />
+    <fabao />
+</root>

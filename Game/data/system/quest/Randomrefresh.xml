@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<quest id="1" White="10000" Yellow="0" green="0" blue="0" orange="0" purple="0"/>
+	<quest id="2" White="10000" Yellow="4000" green="1000" blue="500" orange="200" purple="0"/>
+	<quest id="3" White="10000" Yellow="2000" green="500" blue="0" orange="0" purple="0"/>
+	<quest id="4" White="0" Yellow="10000" green="4000" blue="2000" orange="1000" purple="0"/>
+	<quest id="5" White="10000" Yellow="4000" green="1000" blue="500" orange="200" purple="0"/>
+	<quest id="6" White="10000" Yellow="5000" green="1500" blue="500" orange="200" purple="0"/>
+	<quest id="7" White="10000" Yellow="8000" green="2000" blue="1000" orange="200" purple="0"/>
+	<quest id="8" White="0" Yellow="10000" green="6000" blue="1000" orange="200" purple="0"/>
+	<quest id="9" White="0" Yellow="10000" green="4000" blue="2000" orange="1500" purple="0"/>
+	<quest id="10" White="0" Yellow="10000" green="4000" blue="2000" orange="0" purple="0"/>
+	<quest id="11" White="0" Yellow="10000" green="2000" blue="1000" orange="500" purple="0"/>
+	<quest id="12" White="0" Yellow="10000" green="1000" blue="200" orange="100" purple="0"/>
+	<quest id="13" White="0" Yellow="10000" green="6000" blue="3000" orange="1500" purple="0"/>
+	<quest id="14" White="0" Yellow="10000" green="2000" blue="1000" orange="500" purple="0"/>
+	<quest id="15" White="0" Yellow="10000" green="4000" blue="2000" orange="1000" purple="0"/>
+	<quest id="16" White="0" Yellow="10000" green="8000" blue="6000" orange="3000" purple="0"/>
+	<quest id="17" White="0" Yellow="10000" green="4000" blue="2000" orange="1000" purple="0"/>
+</root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30753" />
+    <entry Name="制作天之晶核" />
+    <entry Conditions="" />
+    <entry Overview="在天支线中收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;天晶石&lt;/I&gt;，交给&lt;D&gt;天地宫护卫&lt;/D&gt;后可获得&lt;I&gt;天之晶核&lt;/I&gt;。只有在身上没有&lt;S&gt;天之咒&lt;/S&gt;的效果时才可接取此任务，&lt;I&gt;天之晶核&lt;/I&gt;可用于兑换各种高级道具。" />
+</quest-local>

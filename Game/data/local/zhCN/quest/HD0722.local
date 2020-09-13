@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30722" />
+    <entry Name="简单的任务II" />
+    <entry Conditions="" />
+    <entry Overview="帮助&lt;C&gt;30&lt;/C&gt;至&lt;C&gt;49&lt;/C&gt;级的玩家击杀&lt;C&gt;200&lt;/C&gt;个任务所需的怪物，然后找&lt;M&gt;&lt;L=s05,5510627&gt;悬赏使者&lt;/L&gt;&lt;/M&gt;领取奖励。" />
+</quest-local>

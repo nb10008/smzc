@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20634" />
+    <entry Name="正式认识" />
+    <entry Conditions="" />
+    <entry Overview="再次与&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;对话。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20500" />
+    <entry Name="南洲迷沼" />
+    <entry Conditions="" />
+    <entry Overview="通过&lt;D&gt;三界传送员&lt;/D&gt;，到达&lt;N&gt;南洲迷沼&lt;/N&gt;，你可以在那里的&lt;N&gt;伊多村&lt;/N&gt;找到&lt;D&gt;&lt;L=s07,5010164&gt;树神哈伦斯&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

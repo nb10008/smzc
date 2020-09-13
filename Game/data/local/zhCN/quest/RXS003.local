@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20003" />
+    <entry Name="初次战斗" />
+    <entry Conditions="" />
+    <entry Overview="艾弗丝要你去清理周围的&lt;A&gt;&lt;L=m10,1010010&gt;蓝魔&lt;/L&gt;&lt;/A&gt;，杀死&lt;C&gt;3&lt;/C&gt;只向&lt;D&gt;&lt;L=m10,5010013&gt;索尔&lt;/L&gt;&lt;/D&gt;汇报。（点击绿色字体进行自动寻路，找到对应的NPC）" />
+</quest-local>

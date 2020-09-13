@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="西洲幻林" pos_x="23771" pos_y="40" pos_z="17001"/>
+	<map_point id="2" type="1" show_name="悬赏榜" pos_x="23459" pos_y="40" pos_z="16116"/>
+	<map_point id="3" type="2" show_name="三鬼野蛮人" pos_x="21479" pos_y="40" pos_z="16218"/>
+	<map_point id="4" type="2" show_name="三鬼暗杀者" pos_x="17116" pos_y="40" pos_z="10249"/>
+	<map_point id="5" type="2" show_name="三鬼狂野野人" pos_x="16683" pos_y="40" pos_z="5270"/>
+	<map_point id="6" type="2" show_name="无影" pos_x="7055" pos_y="40" pos_z="14976"/>
+</root>

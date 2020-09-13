@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="斗战天城(北)" pos_x="20365" pos_y="2711" pos_z="51759"/>
+	<map_point id="2" type="1" show_name="斗战天城(南)" pos_x="24072" pos_y="2850" pos_z="11343"/>
+	<map_point id="3" type="2" show_name="情人节物品商(北)" pos_x="21600" pos_y="2661" pos_z="51500"/>
+	<map_point id="4" type="2" show_name="情人节装备商(北)" pos_x="22600" pos_y="2661" pos_z="51800"/>
+	<map_point id="5" type="2" show_name="情人节商人(北)" pos_x="22900" pos_y="2661" pos_z="21900"/>
+	<map_point id="6" type="2" show_name="情人节天使(南)" pos_x="22700" pos_y="2848" pos_z="12000"/>
+	<map_point id="7" type="2" show_name="情人节商人(南)" pos_x="22000" pos_y="2790" pos_z="13300"/>
+	<map_point id="8" type="2" show_name="情人节商人(南)" pos_x="21900" pos_y="2775" pos_z="13600"/>
+</root>

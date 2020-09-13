@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20112" />
+    <entry Name="恶魔拉斯" />
+    <entry Conditions="" />
+    <entry Overview="杀死&lt;A&gt;&lt;L=s03,1020015&gt;恶魔拉斯&lt;/L&gt;&lt;/A&gt;，然后回复&lt;D&gt;&lt;L=s03,5010075&gt;杰克·萨里&lt;/L&gt;&lt;/D&gt;。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv20]&lt;/S&gt;PK:20级后可参与&lt;T&gt;PK&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv20]&lt;/S&gt;就职:达到20级可进行&lt;T&gt;就职&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv20]&lt;/S&gt;创建公会:20级后可&lt;T&gt;创建公会&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv20]&lt;/S&gt;矿洞挖矿:20级后可前往矿洞&lt;T&gt;挖矿&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv20]&lt;/S&gt;生产技能:20级后可使用&lt;T&gt;生产技能&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv20]&lt;/S&gt;黑暗学院:20级后可挑战&lt;P&gt;副本黑暗学院&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv21]&lt;/S&gt;奔雷裂谷:21级后可前往&lt;N&gt;奔雷裂谷&lt;/N&gt;练级&#x0A;\n&lt;S&gt;[Lv21]&lt;/S&gt;契约技能:21级后可学习&lt;T&gt;契约技能&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv21]&lt;/S&gt;捕捉妖精:学习契约技能后可&lt;T&gt;捕捉妖精&lt;/T&gt;&#x0A;" />
+</quest-local>

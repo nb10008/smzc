@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<desktop>
+    <UIControl Name="inputpic" ClassName="CGUIStatic" Movable="yes" CanMoveOutOfFather="yes" LogicPos_x="384" LogicPos_y="438" Size_x="108" Size_y="215" AlignControl="\desktop\systemback" AlignType="OuterTopRight" Font="龙字体" TextRect_right="156" TextRect_bottom="259" TextColor="0xFFFFFFFF" ShadeColor="0xFF290404" PicFileName="data\ui\common\l-common.bmp" PicRect_left="432" PicRect_top="323" PicRect_right="472" PicRect_bottom="420" PicColor="0xFFC8C8C8" AlphaWrite="Write">
+        <UIControl Name="wordlist" ClassName="CGUIListBox" MoveFather="yes" TopMost="yes" LogicPos_x="7" LogicPos_y="7" Size_x="93" Size_y="200" AlignControl="\desktop\inputpic" AlignType="Center" Font="龙字体" FontHeight="19" TextRect_right="98" TextRect_bottom="149" TextColor="0xFFFFFFFF" ShadeColor="0xFF000000" PicFileName="data\ui\bag\l_bag.bmp" PicRect_left="20" PicRect_top="20" PicRect_right="20" PicRect_bottom="20" PicColor="0x3FFFFFFF" MoveSelect="yes" RowHeight="20" SelectStickPicFileName="data\ui\common\l-common.bmp" SelectStickPicRect_left="5" SelectStickPicRect_top="450" SelectStickPicRect_right="181" SelectStickPicRect_bottom="470" SelectStickColor="0xFFFFFFFF" SelectStickActiveColor="0xFF61AFAF" RowLineColor="0xFFFFFF" SelectTextColor="0xFFFFFFFF" PicSize_x="20" PicSize_y="20" />
+    </UIControl>
+</desktop>

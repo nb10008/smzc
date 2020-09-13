@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30744" />
+    <entry Name="情人巧克力（限男性）" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;情人巧克力&lt;/I&gt;然后交给&lt;D&gt;&lt;L=s52,5600029&gt;博博先生&lt;/L&gt;&lt;/D&gt;。&lt;I&gt;情人巧克力&lt;/I&gt;由女性玩家在巧克力制作区制作而成，需要用你的&lt;I&gt;情人玫瑰花&lt;/I&gt;或者个人魅力去换取获得。该任务每日只能完成&lt;C&gt;5&lt;/C&gt;次。" />
+</quest-local>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <group id="1" type_name="百鬼炼狱（40-44）" group_type="2" scene_id="4" scene_name="北洲天雪" />
+    <group id="2" type_name="百鬼炼狱（45-49）" group_type="2" scene_id="4" scene_name="北洲天雪" />
+    <group id="3" type_name="百鬼炼狱（50-54）" group_type="2" scene_id="4" scene_name="北洲天雪" />
+    <group id="4" type_name="百鬼炼狱（55-59）" group_type="2" scene_id="4" scene_name="北洲天雪" />
+    <group id="5" type_name="百鬼炼狱（60-64）" group_type="2" scene_id="5" scene_name="西洲幻林" />
+    <group id="6" type_name="百鬼炼狱（65-69）" group_type="2" scene_id="5" scene_name="西洲幻林" />
+    <group id="7" type_name="百鬼炼狱（70-74）" group_type="2" scene_id="5" scene_name="西洲幻林" />
+    <group id="8" type_name="百鬼炼狱（75-79）" group_type="2" scene_id="6" scene_name="南洲迷沼" />
+    <group id="9" type_name="百鬼炼狱（80-84）" group_type="2" scene_id="6" scene_name="南洲迷沼" />
+    <group id="10" type_name="百鬼炼狱（85-89）" group_type="2" scene_id="6" scene_name="南洲迷沼" />
+    <group id="11" type_name="百鬼炼狱（90-94）" group_type="2" scene_id="7" scene_name="东洲冥山" />
+    <group id="12" type_name="百鬼炼狱（95-100）" group_type="2" scene_id="7" scene_name="东洲冥山" />
+    <group id="13" type_name="魔族入侵（奔雷裂谷）" group_type="2" scene_id="3" scene_name="奔雷裂谷" />
+    <group id="14" type_name="魔族入侵（北洲天雪）" group_type="2" scene_id="4" scene_name="北洲天雪" />
+    <group id="15" type_name="魔族入侵（西洲幻林）" group_type="2" scene_id="5" scene_name="西洲幻林" />
+    <group id="16" type_name="魔族入侵（南洲迷沼）" group_type="2" scene_id="6" scene_name="南洲迷沼" />
+    <group id="17" type_name="魔族入侵（东洲冥山）" group_type="2" scene_id="7" scene_name="东洲冥山" />
+    <group id="18" type_name="勇闯魔窟（30-34）" group_type="2" scene_id="3" scene_name="奔雷裂谷" />
+    <group id="19" type_name="勇闯魔窟（35-39）" group_type="2" scene_id="3" scene_name="奔雷裂谷" />
+    <group id="20" type_name="勇闯魔窟（40-44）" group_type="2" scene_id="4" scene_name="北洲天雪" />
+    <group id="21" type_name="勇闯魔窟（45-49）" group_type="2" scene_id="4" scene_name="北洲天雪" />
+    <group id="22" type_name="勇闯魔窟（50-54）" group_type="2" scene_id="4" scene_name="北洲天雪" />
+    <group id="23" type_name="勇闯魔窟（55-59）" group_type="2" scene_id="4" scene_name="北洲天雪" />
+    <group id="24" type_name="勇闯魔窟（60-64）" group_type="2" scene_id="5" scene_name="西洲幻林" />
+    <group id="25" type_name="勇闯魔窟（65-69）" group_type="2" scene_id="5" scene_name="西洲幻林" />
+    <group id="26" type_name="勇闯魔窟（70-74）" group_type="2" scene_id="5" scene_name="西洲幻林" />
+    <group id="27" type_name="勇闯魔窟（75-79）" group_type="2" scene_id="6" scene_name="南洲迷沼" />
+    <group id="28" type_name="勇闯魔窟（80-84）" group_type="2" scene_id="6" scene_name="南洲迷沼" />
+    <group id="29" type_name="勇闯魔窟（85-89）" group_type="2" scene_id="6" scene_name="南洲迷沼" />
+    <group id="30" type_name="勇闯魔窟（90-94）" group_type="2" scene_id="7" scene_name="东洲冥山" />
+    <group id="31" type_name="勇闯魔窟（95-100）" group_type="2" scene_id="7" scene_name="东洲冥山" />
+    <group id="101" type_name="黑暗学院" group_type="1" scene_id="3" scene_name="奔雷裂谷" />
+    <group id="102" type_name="白银魔窟" group_type="1" scene_id="4" scene_name="北洲天雪" />
+    <group id="103" type_name="寒冰魔域" group_type="1" scene_id="4" scene_name="北洲天雪" />
+    <group id="104" type_name="裁决之所" group_type="1" scene_id="5" scene_name="西洲幻林" />
+    <group id="105" type_name="迷幻仙宫" group_type="1" scene_id="5" scene_name="西洲幻林" />
+    <group id="106" type_name="幽冥神殿" group_type="1" scene_id="6" scene_name="南洲迷沼" />
+    <group id="107" type_name="失忆回廊" group_type="1" scene_id="6" scene_name="南洲迷沼" />
+</root>

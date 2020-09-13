@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20212" />
+    <entry Name="巨龙中的巨龙" />
+    <entry Conditions="" />
+    <entry Overview="找打附近的&lt;A&gt;&lt;L=s04,1030016&gt;雷巴科巨龙&lt;/L&gt;&lt;/A&gt;，将其身上的&lt;I&gt;黑真角&lt;/I&gt;交给&lt;N&gt;&lt;N&gt;夏尔绿谷&lt;/N&gt;&lt;/N&gt;的&lt;D&gt;&lt;L=s04,5010079&gt;夏尔&lt;/L&gt;&lt;/D&gt;。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;北洲天雪:30级后可前往&lt;N&gt;北洲天雪&lt;/N&gt;练级&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;知识竞猜:30级后可参与&lt;P&gt;知识竞猜活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;勇闯魔窟:30级后可参与&lt;P&gt;勇闯魔窟活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;妖精遗产:30级后可参与&lt;P&gt;妖精遗产活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;妖精喂养:30级后妖精需要进行喂养&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;斗技场:40级后&lt;P&gt;报名斗技场&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv50]&lt;/S&gt;天之行会:50级后可接取&lt;P&gt;天之行会任务&lt;/P&gt;&#x0A;" />
+</quest-local>

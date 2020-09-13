@@ -1,0 +1,9 @@
+; htmlancher.def : Declares the module parameters.
+
+LIBRARY      "htmlancher.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

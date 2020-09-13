@@ -1,0 +1,20 @@
+sampler g_diffuseMap : register(s0);
+sampler g_depthMap  : register(s1);
+float4 g_scale;
+float4 sample_point[12];
+
+float4 main(float2 uv : TEXCOORD0):COLOR
+{
+    float4 color = tex2D(g_diffuseMap, uv);
+    float3 blurred = 0;
+    float4 current_depth = tex2D(g_depthMap, uv);
+    for(int i=0; i<12; ++i)
+    {
+	
+        float2 uv1 = mul(current_depth.r, sample_point[i]*g_scale.xy);
+        float4 depth = tex2D(g_depthMap, uv + uv1);
+        float4 sample = tex2D(g_diffuseMap, uv + uv1);
+        blurred += lerp(color.rgb, sample.rgb, depth.r*current_depth.r);
+    }
+    return float4(blurred/12, color.a);
+}

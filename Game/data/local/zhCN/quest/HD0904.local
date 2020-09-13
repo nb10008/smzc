@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30904" />
+    <entry Name="圣诞强化券[每日]" />
+    <entry Conditions="" />
+    <entry Overview="圣诞节期间每日可以从&lt;M&gt;&lt;L=s02,5600019&gt;圣诞树&lt;/L&gt;&lt;/M&gt;处使用&lt;C&gt;50&lt;/C&gt;金币兑换&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;圣诞强化券&lt;/I&gt;。" />
+</quest-local>

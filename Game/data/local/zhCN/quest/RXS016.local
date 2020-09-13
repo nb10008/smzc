@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20016" />
+    <entry Name="更多的嘉奖" />
+    <entry Conditions="" />
+    <entry Overview="找到&lt;D&gt;&lt;L=m10,5510608&gt;罗斯特&lt;/L&gt;&lt;/D&gt;，领取奖励。\n提示：只有把所有问题都回答正确后才能获得奖励。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20659" />
+    <entry Name="破灭的前奏" />
+    <entry Conditions="" />
+    <entry Overview="&lt;A&gt;&lt;L=s08,1070046&gt;地狱守卫&lt;/L&gt;&lt;/A&gt;&lt;C&gt;200&lt;/C&gt;名，&lt;A&gt;&lt;L=s08,1070047&gt;地狱石魔&lt;/L&gt;&lt;/A&gt;&lt;C&gt;250&lt;/C&gt;只，&lt;A&gt;&lt;L=s08,1070048&gt;地狱巨岩&lt;/L&gt;&lt;/A&gt;&lt;C&gt;300&lt;/C&gt;只，&lt;color=0xffff6000&gt;&lt;L=s08,1070071&gt;大型地狱石魔&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;100&lt;/C&gt;只，&lt;color=0xffff6000&gt;&lt;L=s08,1070072&gt;强力地狱守卫&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;150&lt;/C&gt;只。达成目标后回复&lt;D&gt;&lt;L=s08,5010210&gt;瓦尔特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

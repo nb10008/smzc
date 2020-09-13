@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="41001" />
+    <entry Name="神兵转职" />
+    <entry Conditions="" />
+    <entry Overview="若要转职为&lt;color=0xff80ff00&gt;神兵&lt;color=0xffffffff&gt;，请将&lt;I&gt;武之契&lt;/I&gt;交与&lt;D&gt;&lt;L=s02,5010192&gt;长刃之灵&lt;/L&gt;&lt;/D&gt;即可。" />
+</quest-local>

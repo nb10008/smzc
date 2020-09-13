@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30652" />
+    <entry Name="神之侍女" />
+    <entry Conditions="" />
+    <entry Overview="拥有&lt;I&gt;妖精之泪&lt;/I&gt;可在&lt;N&gt;斗战天城&lt;/N&gt;的&lt;D&gt;&lt;L=s02,5513011&gt;拉芙艾娜的幻象&lt;/L&gt;&lt;/D&gt;处兑换&lt;I&gt;神女召唤石&lt;/I&gt;。\n提示：晶莹的妖精泪水，蕴藏着神秘的魔力，但只可保持&lt;C&gt;10&lt;/C&gt;分钟。&lt;C&gt;10&lt;/C&gt;分钟后魔力消逝，泪水也会随之破碎消失" />
+</quest-local>

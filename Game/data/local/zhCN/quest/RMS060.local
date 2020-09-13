@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20660" />
+    <entry Name="魔君之威" />
+    <entry Conditions="" />
+    <entry Overview="灭杀&lt;color=0xffff0000&gt;&lt;L=s08,1070089&gt;地狱魔君&lt;/L&gt;&lt;color=0xffffffff&gt;，然后回来见&lt;D&gt;&lt;L=s08,5010210&gt;瓦尔特&lt;/L&gt;&lt;/D&gt;！" />
+</quest-local>

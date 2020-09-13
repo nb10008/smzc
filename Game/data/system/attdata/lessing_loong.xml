@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+	<Blessing id="1" ExpireTime="5" Experience="0" RewardItemID="4210102" Quality="0" ItemCount="1" />
+	<Blessing id="2" ExpireTime="5" Experience="0" RewardItemID="4220102" Quality="0" ItemCount="1" />
+	<Blessing id="3" ExpireTime="10" Experience="0" RewardItemID="3070001" Quality="0" ItemCount="10" />
+	<Blessing id="4" ExpireTime="15" Experience="0" RewardItemID="3070060" Quality="0" ItemCount="5" />
+	<Blessing id="5" ExpireTime="15" Experience="0" RewardItemID="3070056" Quality="0" ItemCount="5" />
+	<Blessing id="6" ExpireTime="30" Experience="0" RewardItemID="3070024" Quality="0" ItemCount="1" />
+	<Blessing id="7" ExpireTime="30" Experience="0" RewardItemID="3070057" Quality="0" ItemCount="1" />
+	<Blessing id="8" ExpireTime="60" Experience="0" RewardItemID="3070009" Quality="0" ItemCount="1" />
+</root>

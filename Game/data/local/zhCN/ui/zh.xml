@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<desktop>
+    <UIControl Name="zh" ClassName="CGUIWindow" Movable="yes" LogicPos_x="892" LogicPos_y="636" Size_x="130" Size_y="70" AlignControl="\desktop\shortcutbar" AlignType="OuterTop" AlignOffset_x="240" AlignOffset_y="-30" NotUseRenderTarget="yes" PopupSound="window_popup">
+        <UIControl Name="k" ClassName="CGUIStatic" MoveFather="yes" Size_x="133" Size_y="70" Font="龙字体" TextRect_right="133" TextRect_bottom="70" TextColor="0xFFFFFFFF" ShadeColor="0xFF000000" PicFrameCount="1" PicColor="0xFFFFFF" BottomTipColor="0xFFFFFFFF" BottomTipShadeColor="0xFFFFFFFF">
+            <UIControl Name="progpic" ClassName="CGUIStatic" Invisible="yes" TopMost="yes" LogicPos_x="10" LogicPos_y="41" Size_x="113" Size_y="11" Font="龙字体" TextRect_right="113" TextRect_bottom="11" TextColor="0xFFFFFFFF" ShadeColor="0xFF000000" PicRect_top="341" PicRect_right="121" PicRect_bottom="356" PicFrameCount="1" PicColor="0xFFFFFF" BottomTipColor="0xFFFFFFFF" BottomTipShadeColor="0xFFFFFFFF">
+                <UIControl Name="number" ClassName="CGUIStatic" Invisible="yes" TopMost="yes" LogicPos_x="26" LogicPos_y="1" Size_x="58" Size_y="10" Font="龙字体" FontHeight="12" TextRect_right="58" TextRect_bottom="10" TextColor="0xFFFFF7E0" ShadeColor="0xFF000000" TextAlign="Center" PicFrameCount="1" PicColor="0xFFFFFF" BottomTipColor="0xFFFFFFFF" BottomTipShadeColor="0xFFFFFFFF" />
+                <UIControl Name="progress" ClassName="CGUIProgress" Invisible="yes" Size_x="113" Size_y="11" Font="龙字体" TextRect_right="113" TextRect_bottom="11" TextColor="0xFFFFFFFF" ShadeColor="0xFF000000" PicFrameCount="1" PicColor="0xFFFFFF" BottomTipColor="0xFFFFFFFF" BottomTipShadeColor="0xFFFFFFFF" Horizon="yes" ForePicFileName="data\ui\state\ls.bmp" ForePicRect_top="358" ForePicRect_right="113" ForePicRect_bottom="369" ForePicColor="0xFFFFFFFF" />
+            </UIControl>
+            <UIControl Name="tu" ClassName="CGUIStatic" MoveFather="yes" Size_x="133" Size_y="70" Font="龙字体" TextRect_right="133" TextRect_bottom="70" TextColor="0xFFFFFFFF" ShadeColor="0xFF000000" PicFileName="data\ui\state\ls.bmp" PicRect_top="287" PicRect_right="133" PicRect_bottom="357" PicFrameCount="1" PicColor="0xFFFFFFFF" BottomTipColor="0xFFFFFFFF" BottomTipShadeColor="0xFFFFFFFF">
+                <UIControl Name="sl" ClassName="CGUIStatic" LogicPos_x="48" LogicPos_y="3" Size_x="36" Size_y="36" Font="龙字体" TextRect_right="128" TextRect_bottom="128" TextColor="0xFFFFFFFF" ShadeColor="0xFF000000" PicFrameCount="1" PicColor="0xFFFFFFFF" BottomTipColor="0xFFFFFFFF" BottomTipShadeColor="0xFFFFFFFF" />
+            </UIControl>
+        </UIControl>
+    </UIControl>
+</desktop>

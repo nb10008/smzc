@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="奔雷裂谷" pos_x="6530" pos_y="230" pos_z="12094"/>
+	<map_point id="2" type="1" show_name="悬赏榜" pos_x="7273" pos_y="120" pos_z="13536"/>
+	<map_point id="3" type="2" show_name="地心岩" pos_x="7294" pos_y="120" pos_z="15706"/>
+	<map_point id="4" type="2" show_name="砂心岩" pos_x="9879" pos_y="120" pos_z="8750"/>
+	<map_point id="5" type="2" show_name="魔岩" pos_x="15825" pos_y="120" pos_z="4977"/>
+</root>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30306" />
+    <entry Name="拾取小宠兑换" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;动物代币&lt;/I&gt;可在&lt;N&gt;上古妖精庇护所&lt;/N&gt;的&lt;D&gt;&lt;L=s54,5610002&gt;幽怨妖精之魂&lt;/L&gt;&lt;/D&gt;处兑换&lt;I&gt;随机宠物箱&lt;/I&gt;。\n&lt;T&gt;提示：跟处于魔气萦绕状态下的小动物对话，消耗一个净化药剂，可以获得一个&lt;/T&gt;&lt;I&gt;爱心印章&lt;/I&gt;&lt;T&gt;，收集&lt;/T&gt;&lt;C&gt;10&lt;/C&gt;&lt;T&gt;个&lt;/T&gt;&lt;I&gt;爱心印章&lt;/I&gt;&lt;T&gt;可以在调查妖精雕像后随机出现的&lt;/T&gt;&lt;D&gt;宠物代币兑换人&lt;/D&gt;&lt;T&gt;处兑换一个&lt;/T&gt;&lt;I&gt;动物代币&lt;/I&gt;&lt;T&gt;。每个人每天只能兑换一个&lt;/T&gt;&lt;I&gt;动物代币&lt;/I&gt;&lt;T&gt;。&lt;/T&gt;" />
+</quest-local>

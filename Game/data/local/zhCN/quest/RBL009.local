@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20209" />
+    <entry Name="除掉魔女" />
+    <entry Conditions="" />
+    <entry Overview="找到&lt;N&gt;奔雷裂谷&lt;/N&gt;中的&lt;A&gt;&lt;L=s04,1030018&gt;控灵魔女&lt;/L&gt;&lt;/A&gt;，除掉她以后回复&lt;D&gt;&lt;L=s04,5010078&gt;岩神奥利佛&lt;/L&gt;&lt;/D&gt;。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;北洲天雪:30级后可前往&lt;N&gt;北洲天雪&lt;/N&gt;练级&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;知识竞猜:30级后可参与&lt;P&gt;知识竞猜活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;勇闯魔窟:30级后可参与&lt;P&gt;勇闯魔窟活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;妖精遗产:30级后可参与&lt;P&gt;妖精遗产活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;妖精喂养:30级后妖精需要进行喂养&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;斗技场:40级后&lt;P&gt;报名斗技场&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv50]&lt;/S&gt;天之行会:50级后可接取&lt;P&gt;天之行会任务&lt;/P&gt;&#x0A;" />
+</quest-local>

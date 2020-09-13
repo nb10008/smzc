@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20427" />
+    <entry Name="铲除邪教" />
+    <entry Conditions="" />
+    <entry Overview="找到&lt;A&gt;&lt;L=s06,1060001&gt;三鬼教教主&lt;/L&gt;&lt;/A&gt;，消灭掉他之后回复&lt;D&gt;&lt;L=s06,5010163&gt;汉娜&lt;/L&gt;&lt;/D&gt;。&#x0A;" />
+</quest-local>

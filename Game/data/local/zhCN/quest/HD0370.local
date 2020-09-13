@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30370" />
+    <entry Name="美容" />
+    <entry Conditions="" />
+    <entry Overview="领取&lt;C&gt;1&lt;/C&gt;张&lt;I&gt;美容卡&lt;/I&gt;即可在&lt;D&gt;&lt;L=s02,5010247&gt;美容师&lt;/L&gt;&lt;/D&gt;处进行美容。" />
+</quest-local>

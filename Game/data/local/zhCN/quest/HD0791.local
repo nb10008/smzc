@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30791" />
+    <entry Name="五彩端午礼盒" />
+    <entry Conditions="" />
+    <entry Overview="交付&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;端午礼盒&lt;/I&gt;和&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;命运卷&lt;/I&gt;可以兑换一个&lt;I&gt;五彩端午礼盒&lt;/I&gt;。" />
+</quest-local>

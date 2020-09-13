@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20625" />
+    <entry Name="黄龙台" />
+    <entry Conditions="" />
+    <entry Overview="去&lt;N&gt;黄龙台&lt;/N&gt;找到&lt;D&gt;&lt;L=s08,5010208&gt;亚雷斯&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

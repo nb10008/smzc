@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <SuitName id="1000" name="魔神之血" spec_effect_mod="set003" />
+    <SuitName id="1001" name="装备预览1" spec_effect_mod="set003" />
+    <SuitName id="1002" name="装备预览2" spec_effect_mod="set004" />
+    <SuitName id="1003" name="装备预览3" spec_effect_mod="set005" />
+    <SuitName id="1004" name="装备预览4" spec_effect_mod="set006" />
+    <SuitName id="2001" name="野兽之力Ⅰ" />
+    <SuitName id="2002" name="野兽之力Ⅱ" />
+    <SuitName id="2003" name="野兽之力Ⅲ" />
+    <SuitName id="2004" name="野兽之力Ⅳ" />
+    <SuitName id="2005" name="野兽之力Ⅴ" />
+    <SuitName id="2006" name="野兽之力Ⅵ" />
+    <SuitName id="2007" name="野兽之力Ⅶ" />
+    <SuitName id="2008" name="野兽之力Ⅷ" />
+    <SuitName id="2009" name="野兽之力Ⅸ" />
+    <SuitName id="2011" name="光明惩戒" />
+    <SuitName id="2012" name="信仰惩戒" />
+    <SuitName id="2013" name="炎龙惩戒" />
+    <SuitName id="2014" name="强袭惩戒" />
+    <SuitName id="2015" name="狂魔惩戒" />
+    <SuitName id="2016" name="真理惩戒" />
+    <SuitName id="2017" name="天劫惩戒" />
+    <SuitName id="2018" name="龙牙惩戒" />
+    <SuitName id="2019" name="霸王惩戒" />
+    <SuitName id="2021" name="魔之光明惩戒" />
+    <SuitName id="2022" name="魔之信仰惩戒" />
+    <SuitName id="2023" name="魔之炎龙惩戒" />
+    <SuitName id="2024" name="魔之强袭惩戒" />
+    <SuitName id="2025" name="魔之狂魔惩戒" />
+    <SuitName id="2026" name="魔之真理惩戒" />
+    <SuitName id="2027" name="魔之天劫惩戒" />
+    <SuitName id="2028" name="魔之龙牙惩戒" />
+    <SuitName id="2029" name="魔之霸王惩戒" />
+    <SuitName id="2031" name="圣之狂魔惩戒" />
+    <SuitName id="2032" name="圣之真理惩戒" />
+    <SuitName id="2033" name="圣之天劫惩戒" />
+    <SuitName id="2034" name="圣之龙牙惩戒" />
+    <SuitName id="2035" name="圣之霸王惩戒" />
+    <SuitName id="2041" name="五彩纷飞Ⅰ" />
+    <SuitName id="2042" name="五彩纷飞Ⅱ" />
+    <SuitName id="2043" name="五彩纷飞Ⅲ" />
+    <SuitName id="2044" name="五彩纷飞Ⅳ" />
+    <SuitName id="2045" name="五彩纷飞Ⅴ" />
+    <SuitName id="2046" name="五彩纷飞Ⅵ" />
+    <SuitName id="2047" name="五彩纷飞Ⅶ" />
+    <SuitName id="2048" name="五彩纷飞Ⅷ" />
+    <SuitName id="2049" name="五彩纷飞Ⅸ" />
+    <SuitName id="2051" name="光明祝福" />
+    <SuitName id="2052" name="信仰祝福" />
+    <SuitName id="2053" name="炎龙祝福" />
+    <SuitName id="2054" name="强袭祝福" />
+    <SuitName id="2055" name="狂魔祝福" />
+    <SuitName id="2056" name="真理祝福" />
+    <SuitName id="2057" name="天劫祝福" />
+    <SuitName id="2058" name="龙牙祝福" />
+    <SuitName id="2059" name="霸王祝福" />
+    <SuitName id="2061" name="魔之光明祝福" />
+    <SuitName id="2062" name="魔之信仰祝福" />
+    <SuitName id="2063" name="魔之炎龙祝福" />
+    <SuitName id="2064" name="魔之强袭祝福" />
+    <SuitName id="2065" name="魔之狂魔祝福" />
+    <SuitName id="2066" name="魔之真理祝福" />
+    <SuitName id="2067" name="魔之天劫祝福" />
+    <SuitName id="2068" name="魔之龙牙祝福" />
+    <SuitName id="2069" name="魔之霸王祝福" />
+    <SuitName id="2071" name="圣之狂魔祝福" />
+    <SuitName id="2072" name="圣之真理祝福" />
+    <SuitName id="2073" name="圣之天劫祝福" />
+    <SuitName id="2074" name="圣之龙牙祝福" />
+    <SuitName id="2075" name="圣之霸王祝福" />
+    <SuitName id="2081" name="光明守护" spec_effect_mod="set014" />
+    <SuitName id="2082" name="信仰守护" spec_effect_mod="set014" />
+    <SuitName id="2083" name="炎龙守护" spec_effect_mod="set014" />
+    <SuitName id="2084" name="强袭守护" spec_effect_mod="set014" />
+    <SuitName id="2085" name="狂魔守护" spec_effect_mod="set014" />
+    <SuitName id="2086" name="真理守护" spec_effect_mod="set014" />
+    <SuitName id="2087" name="天劫守护" spec_effect_mod="set014" />
+    <SuitName id="2088" name="龙牙守护" spec_effect_mod="set014" />
+    <SuitName id="2089" name="霸王守护" spec_effect_mod="set014" />
+    <SuitName id="2091" name="魔之光明守护" spec_effect_mod="set015" />
+    <SuitName id="2092" name="魔之信仰守护" spec_effect_mod="set015" />
+    <SuitName id="2093" name="魔之炎龙守护" spec_effect_mod="set015" />
+    <SuitName id="2094" name="魔之强袭守护" spec_effect_mod="set015" />
+    <SuitName id="2095" name="魔之狂魔守护" spec_effect_mod="set015" />
+    <SuitName id="2096" name="魔之真理守护" spec_effect_mod="set015" />
+    <SuitName id="2097" name="魔之天劫守护" spec_effect_mod="set015" />
+    <SuitName id="2098" name="魔之龙牙守护" spec_effect_mod="set015" />
+    <SuitName id="2099" name="魔之霸王守护" spec_effect_mod="set015" />
+    <SuitName id="2101" name="圣之狂魔守护" spec_effect_mod="set11" />
+    <SuitName id="2102" name="圣之真理守护" spec_effect_mod="set11" />
+    <SuitName id="2103" name="圣之天劫守护" spec_effect_mod="set11" />
+    <SuitName id="2104" name="圣之龙牙守护" spec_effect_mod="set11" />
+    <SuitName id="2105" name="圣之霸王守护" spec_effect_mod="set11" />
+    <SuitName id="2111" name="战神" spec_effect_mod="set09" />
+    <SuitName id="2121" name="七星" spec_effect_mod="set06" />
+    <SuitName id="2131" name="罪罚" spec_effect_mod="set03" />
+    <SuitName id="2141" name="圣歌" spec_effect_mod="set12" />
+    <SuitName id="2151" name="塔迪娅" />
+    <SuitName id="2161" name="欧菲娜" />
+    <SuitName id="2171" name="玛莎" />
+    <SuitName id="2181" name="罗音菲斯" />
+    <SuitName id="2191" name="天启之惩戒" />
+    <SuitName id="2192" name="魔心之惩戒" />
+    <SuitName id="2201" name="天启之守护" spec_effect_mod="set11" />
+    <SuitName id="2202" name="魔心之守护" spec_effect_mod="set11" />
+    <SuitName id="2211" name="天启之祝福" />
+    <SuitName id="2212" name="魔心之祝福" />
+    <SuitName id="2221" name="血色守护" spec_effect_mod="set014" />
+    <SuitName id="2222" name="魔导守护" spec_effect_mod="set014" />
+    <SuitName id="2223" name="朱雀守护" spec_effect_mod="set014" />
+    <SuitName id="2224" name="献祭守护" spec_effect_mod="set014" />
+    <SuitName id="2225" name="毁灭守护" spec_effect_mod="set014" />
+    <SuitName id="2226" name="元素守护" spec_effect_mod="set014" />
+    <SuitName id="2227" name="牺牲守护" spec_effect_mod="set014" />
+    <SuitName id="2228" name="秘法守护" spec_effect_mod="set014" />
+    <SuitName id="2229" name="魔尊守护" spec_effect_mod="set014" />
+    <SuitName id="2231" name="魔之血色守护" spec_effect_mod="set015" />
+    <SuitName id="2232" name="魔之魔导守护" spec_effect_mod="set015" />
+    <SuitName id="2233" name="魔之朱雀守护" spec_effect_mod="set015" />
+    <SuitName id="2234" name="魔之献祭守护" spec_effect_mod="set015" />
+    <SuitName id="2235" name="魔之毁灭守护" spec_effect_mod="set015" />
+    <SuitName id="2236" name="魔之元素守护" spec_effect_mod="set015" />
+    <SuitName id="2237" name="魔之牺牲守护" spec_effect_mod="set015" />
+    <SuitName id="2238" name="魔之秘法守护" spec_effect_mod="set015" />
+    <SuitName id="2239" name="魔之魔尊守护" spec_effect_mod="set015" />
+    <SuitName id="2241" name="圣之毁灭守护" spec_effect_mod="set11" />
+    <SuitName id="2242" name="圣之元素守护" spec_effect_mod="set11" />
+    <SuitName id="2243" name="圣之牺牲守护" spec_effect_mod="set11" />
+    <SuitName id="2244" name="圣之秘法守护" spec_effect_mod="set11" />
+    <SuitName id="2245" name="圣之魔尊守护" spec_effect_mod="set11" />
+    <SuitName id="2251" name="血色祝福" />
+    <SuitName id="2252" name="魔导祝福" />
+    <SuitName id="2253" name="朱雀祝福" />
+    <SuitName id="2254" name="献祭祝福" />
+    <SuitName id="2255" name="毁灭祝福" />
+    <SuitName id="2256" name="元素祝福" />
+    <SuitName id="2257" name="牺牲祝福" />
+    <SuitName id="2258" name="秘法祝福" />
+    <SuitName id="2259" name="魔尊祝福" />
+    <SuitName id="2261" name="魔之血色祝福" />
+    <SuitName id="2262" name="魔之魔导祝福" />
+    <SuitName id="2263" name="魔之朱雀祝福" />
+    <SuitName id="2264" name="魔之献祭祝福" />
+    <SuitName id="2265" name="魔之毁灭祝福" />
+    <SuitName id="2266" name="魔之元素祝福" />
+    <SuitName id="2267" name="魔之牺牲祝福" />
+    <SuitName id="2268" name="魔之秘法祝福" />
+    <SuitName id="2269" name="魔之魔尊祝福" />
+    <SuitName id="2271" name="圣之毁灭祝福" />
+    <SuitName id="2272" name="圣之元素祝福" />
+    <SuitName id="2273" name="圣之牺牲祝福" />
+    <SuitName id="2274" name="圣之秘法祝福" />
+    <SuitName id="2275" name="圣之魔尊祝福" />
+    <SuitName id="2301" name="信仰之心" />
+    <SuitName id="2302" name="献祭之魂" />
+    <SuitName id="2303" name="毁灭之力" />
+    <SuitName id="3001" name="惜世" />
+    <SuitName id="3002" name="残影" />
+    <SuitName id="3003" name="傲世" />
+    <SuitName id="3011" name="名动天下" />
+    <SuitName id="3012" name="王者降临" />
+    <SuitName id="3021" name="离尘" />
+    <SuitName id="3022" name="盛世年华" />
+    <SuitName id="3031" name="宁静之心" />
+    <SuitName id="3032" name="溢彩" />
+    <SuitName id="3033" name="鬼鸣" />
+    <SuitName id="3041" name="独隐" />
+    <SuitName id="3042" name="地狱仰望" />
+    <SuitName id="3051" name="弦溢" />
+    <SuitName id="3052" name="碧落绝音" />
+    <SuitName id="3101" name="混沌" />
+    <SuitName id="3111" name="绝世" />
+    <SuitName id="3201" name="熊猫印记" />
+    <SuitName id="3202" name="天龙武士套装" />
+    <SuitName id="3203" name="天龙武神套装" />
+    <SuitName id="3204" name="金凤华丽套装" />
+    <SuitName id="3205" name="金凤璀璨套装" />
+    <SuitName id="3301" name="战神" />
+    <SuitName id="3302" name="摘星" />
+    <SuitName id="3303" name="圣歌" />
+    <SuitName id="3304" name="玄铁" />
+    <SuitName id="3305" name="幻钢" />
+    <SuitName id="3306" name="魔神" />
+    <SuitName id="3307" name="悲鸣者" />
+    <SuitName id="3308" name="凤凰" />
+    <SuitName id="3309" name="弑神" />
+    <SuitName id="3310" name="冥神" />
+    <SuitName id="3311" name="天籁之音" />
+    <SuitName id="3312" name="血煞" />
+    <SuitName id="3313" name="命·运" />
+    <SuitName id="3314" name="追魂" />
+    <SuitName id="3315" name="灭世" />
+</root>

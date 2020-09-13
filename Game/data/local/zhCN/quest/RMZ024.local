@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20524" />
+    <entry Name="神之分身" />
+    <entry Conditions="" />
+    <entry Overview="使用&lt;M&gt;&lt;L=s07,6010027&gt;搜神星盘&lt;/L&gt;&lt;/M&gt;，消灭&lt;color=0xffff0000&gt;幻神&lt;color=0xffffffff&gt;与&lt;color=0xffff0000&gt;火神&lt;color=0xffffffff&gt;的分身，之后回复&lt;D&gt;&lt;L=s07,5010204&gt;雷丁&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

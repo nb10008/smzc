@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<desktop>
+    <UIControl Name="kills_win" ClassName="CGUIWindow" LogicPos_x="885" LogicPos_y="154" Size_x="325" Size_y="124" AlignControl="\desktop" AlignType="InnerRightTop" AlignOffset_x="-230" AlignOffset_y="154" PopupSound="window_popup">
+        <UIControl Name="kills_pic" ClassName="CGUIStatic" Size_x="325" Size_y="128" Font="龙字体" FontHeight="16" TextRect_right="200" TextRect_bottom="128" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF">
+            <UIControl Name="num6" ClassName="CGUIStatic" LogicPos_x="49" Size_x="34" Size_y="42" Font="小三楷体" TextRect_right="145" TextRect_bottom="156" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF" />
+            <UIControl Name="num5" ClassName="CGUIStatic" LogicPos_x="81" Size_x="34" Size_y="42" Font="小三楷体" TextRect_right="145" TextRect_bottom="156" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF" />
+            <UIControl Name="num7" ClassName="CGUIStatic" LogicPos_x="211" LogicPos_y="57" Size_x="76" Size_y="42" Font="小三楷体" TextRect_right="145" TextRect_bottom="156" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF" />
+            <UIControl Name="num8" ClassName="CGUIStatic" LogicPos_x="177" LogicPos_y="58" Size_x="34" Size_y="42" Font="小三楷体" TextRect_right="145" TextRect_bottom="156" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF" />
+            <UIControl Name="num9" ClassName="CGUIStatic" LogicPos_x="145" LogicPos_y="58" Size_x="34" Size_y="42" Font="小三楷体" TextRect_right="145" TextRect_bottom="156" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF" />
+            <UIControl Name="num10" ClassName="CGUIStatic" LogicPos_x="113" LogicPos_y="58" Size_x="34" Size_y="42" Font="小三楷体" TextRect_right="145" TextRect_bottom="156" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF" />
+            <UIControl Name="num11" ClassName="CGUIStatic" LogicPos_x="81" LogicPos_y="58" Size_x="34" Size_y="42" Font="小三楷体" TextRect_right="145" TextRect_bottom="156" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF" />
+            <UIControl Name="num12" ClassName="CGUIStatic" LogicPos_x="49" LogicPos_y="58" Size_x="34" Size_y="42" Font="小三楷体" TextRect_right="145" TextRect_bottom="156" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF" />
+            <UIControl Name="num4" ClassName="CGUIStatic" LogicPos_x="113" Size_x="34" Size_y="42" Font="小三楷体" TextRect_right="145" TextRect_bottom="156" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF" />
+            <UIControl Name="num3" ClassName="CGUIStatic" LogicPos_x="145" Size_x="34" Size_y="42" Font="小三楷体" TextRect_right="145" TextRect_bottom="156" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF" />
+            <UIControl Name="num2" ClassName="CGUIStatic" LogicPos_x="177" Size_x="34" Size_y="42" Font="小三楷体" TextRect_right="145" TextRect_bottom="156" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF" />
+            <UIControl Name="num1" ClassName="CGUIStatic" LogicPos_x="211" Size_x="95" Size_y="45" Font="小三楷体" TextRect_right="145" TextRect_bottom="156" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF" />
+            <UIControl Name="pic" ClassName="CGUIStatic" LogicPos_y="48" Size_x="325" Size_y="4" Font="小三楷体" TextRect_right="225" TextRect_bottom="119" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF" />
+        </UIControl>
+    </UIControl>
+</desktop>

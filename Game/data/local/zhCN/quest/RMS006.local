@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20606" />
+    <entry Name="烟花祭灵" />
+    <entry Conditions="" />
+    <entry Overview="智慧神请你点燃&lt;C&gt;1&lt;/C&gt;只&lt;I&gt;烟花&lt;/I&gt;，之后将&lt;I&gt;烟花碎屑&lt;/I&gt;交给&lt;D&gt;&lt;L=s08,5010205&gt;奥克山&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

@@ -1,0 +1,10 @@
+drop database if exists apexdb;
+drop database if exists ll_base;
+drop database if exists ll_login;
+drop database if exists ll_log;
+drop database if exists ll_gmdb;
+create database apexdb;
+create database ll_base;
+create database ll_login;
+create database ll_log;
+create database ll_gmdb;

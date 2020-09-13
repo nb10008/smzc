@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40027" />
+    <entry Name="罗梅达亚的条件" />
+    <entry Conditions="" />
+    <entry Overview="击杀&lt;C&gt;500&lt;/C&gt;只&lt;D&gt;&lt;L=s08,1070023&gt;冥山龙&lt;/L&gt;&lt;/D&gt;，完成条件后与&lt;D&gt;&lt;L=s02,5010083&gt;罗梅达亚&lt;/L&gt;&lt;/D&gt;交付任务。" />
+</quest-local>

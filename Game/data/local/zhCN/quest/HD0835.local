@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30835" />
+    <entry Name="神之信念" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;N&gt;憎恶魔窟&lt;/N&gt;，收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;魔之结晶&lt;/I&gt;，然后向&lt;D&gt;古神陵墓护卫&lt;/D&gt;复命。（&lt;S&gt;完成任务后可以获得500天神声望和200神魂，同时降低250点魔族声望&lt;/S&gt;）" />
+</quest-local>

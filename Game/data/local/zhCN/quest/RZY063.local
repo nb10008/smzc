@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40063" />
+    <entry Name="装备萃取" />
+    <entry Conditions="" />
+    <entry Overview="&lt;D&gt;&lt;L=s02,5010243&gt;三界主宰艾辛萨&lt;/L&gt;&lt;/D&gt;让你将一件不低于&lt;C&gt;40&lt;/C&gt;级的橙色品级以上非生产装备（即不以神恩为前缀的装备）通过&lt;D&gt;&lt;L=s02,5010244&gt;装备萃取师&lt;/L&gt;&lt;/D&gt;转化成&lt;I&gt;深渊水晶&lt;/I&gt;和其他材料。\n&lt;M&gt;任务完成不会扣除已经获得的深渊水晶。&lt;/M&gt;" />
+</quest-local>

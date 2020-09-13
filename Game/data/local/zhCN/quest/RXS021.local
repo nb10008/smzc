@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20021" />
+    <entry Name="城市布局" />
+    <entry Conditions="" />
+    <entry Overview="请前往&lt;N&gt;商业区&lt;/N&gt;、&lt;N&gt;强化区&lt;/N&gt;、&lt;N&gt;摆摊区&lt;/N&gt;，从&lt;N&gt;商业区&lt;/N&gt;的&lt;D&gt;&lt;L=s02,5011005&gt;食品商&lt;/L&gt;&lt;/D&gt;处购买一个&lt;I&gt;斗神甜饼&lt;/I&gt;，在&lt;N&gt;强化区&lt;/N&gt;调查&lt;D&gt;&lt;L=s02,6011014&gt;强化守护神像&lt;/L&gt;&lt;/D&gt;取得&lt;I&gt;强化守护牌&lt;/I&gt;，在&lt;N&gt;摆摊区&lt;/N&gt;与&lt;D&gt;&lt;L=s02,5511013&gt;市场管理员&lt;/L&gt;&lt;/D&gt;对话，然后回复&lt;D&gt;&lt;L=s02,5010027&gt;神使基拉&lt;/L&gt;&lt;/D&gt;。\n提示：仓库只有在城市或是据点里才有，但是你也可以使用&lt;I&gt;随身仓库&lt;/I&gt;，随身仓库可以随时随地打开仓库，相当方便。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv10]&lt;/S&gt;开启成就:10级开启&lt;T&gt;成就系统&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv10]&lt;/S&gt;三神传说:10级后可参与&lt;P&gt;三神传说活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv11]&lt;/S&gt;每日问答:11级后可进行&lt;P&gt;游戏知识问答&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv11]&lt;/S&gt;悬赏任务:可以在悬赏榜接取&lt;P&gt;悬赏任务&lt;/P&gt;&#x0A;" />
+</quest-local>

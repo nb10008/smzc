@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="七花之海" pos_x="6343" pos_y="3843" pos_z="19846"/>
+	<map_point id="2" type="2" show_name="杂货商" pos_x="19416" pos_y="5589" pos_z="18458"/>
+	<map_point id="3" type="3" show_name="悬赏榜" pos_x="18901" pos_y="5539" pos_z="18418"/>
+	<map_point id="4" type="4" show_name="幼食人龙(12)" pos_x="12873" pos_y="2896" pos_z="22473"/>
+	<map_point id="5" type="4" show_name="食人龙(14)" pos_x="9429" pos_y="3503" pos_z="15750"/>
+	<map_point id="6" type="4" show_name="变异野人(12)" pos_x="23966" pos_y="3282" pos_z="11730"/>
+</root>

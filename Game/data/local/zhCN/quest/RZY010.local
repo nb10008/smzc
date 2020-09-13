@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40010" />
+    <entry Name="生产技能" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;N&gt;矿洞&lt;/N&gt;，找到&lt;D&gt;&lt;L=d10,5010025&gt;弗伊达&lt;/L&gt;&lt;/D&gt;，学习如何进行采集。&lt;N&gt;矿洞&lt;/N&gt;入口就在&lt;A&gt;奔雷裂谷内&lt;/A&gt;。" />
+</quest-local>

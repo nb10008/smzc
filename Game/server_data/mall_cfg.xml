@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <mall_cfg id="0" value="0" remark="商城活动开关" />
+    <mall_cfg id="1" value="1000" remark="活动奖励最低消耗圣币" />
+    <mall_cfg id="2" value="3010023" remark="活动奖励道具1" />
+    <mall_cfg id="3" value="3010024" remark="活动奖励道具2" />
+    <mall_cfg id="4" value="3010025" remark="活动奖励道具3" />
+    <mall_cfg id="5" value="3010026" remark="活动奖励道具4" />
+    <mall_cfg id="6" value="1" remark="活动奖励道具数量1" />
+    <mall_cfg id="7" value="2" remark="活动奖励道具数量2" />
+    <mall_cfg id="8" value="3" remark="活动奖励道具数量3" />
+    <mall_cfg id="9" value="4" remark="活动奖励道具数量4" />
+</root>

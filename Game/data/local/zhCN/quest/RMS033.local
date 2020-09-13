@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20633" />
+    <entry Name="手爪的用途" />
+    <entry Conditions="" />
+    <entry Overview="找来&lt;C&gt;1&lt;/C&gt;只&lt;color=0xffff0000&gt;&lt;L=s08,1070079&gt;大地割裂之王&lt;/L&gt;&lt;color=0xffffffff&gt;的&lt;I&gt;手爪&lt;/I&gt;和&lt;C&gt;30&lt;/C&gt;支&lt;color=0xffff6000&gt;&lt;L=s08,1070058&gt;精英嗜月狼&lt;/L&gt;&lt;color=0xffffffff&gt;的&lt;I&gt;手爪&lt;/I&gt;，之后交给&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

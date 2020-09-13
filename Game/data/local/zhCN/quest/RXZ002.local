@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20402" />
+    <entry Name="林中妖蝶" />
+    <entry Conditions="" />
+    <entry Overview="除掉&lt;C&gt;80&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050003&gt;幻林蝶精&lt;/L&gt;&lt;/A&gt;  ，然后回复&lt;D&gt;&lt;L=s06,5010101&gt;武神贝蒂&lt;/L&gt;&lt;/D&gt;。&#x0A;\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv50]&lt;/S&gt;西洲幻林:50级后可前往&lt;N&gt;西洲幻林&lt;/N&gt;练级&#x0A;\n&lt;S&gt;[Lv50]&lt;/S&gt;天之行会:50级后可接取&lt;P&gt;天之行会任务&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv55]&lt;/S&gt;真假魔王:55级后可参与&lt;P&gt;真假魔王活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv60]&lt;/S&gt;职业进阶:60级后可进行&lt;T&gt;二次转职&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv60]&lt;/S&gt;妖精特技:60级后的&lt;A&gt;妖精&lt;/A&gt;开始拥有特技&#x0A;\n&lt;S&gt;[Lv61]&lt;/S&gt;高阶技能:61级可在学习&lt;T&gt;高阶职业技能&lt;/T&gt;&#x0A;" />
+</quest-local>

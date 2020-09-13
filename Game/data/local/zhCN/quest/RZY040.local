@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40040" />
+    <entry Name="拉米萨的条件" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;300&lt;/C&gt;份&lt;I&gt;千年元神&lt;/I&gt;，完成后找&lt;D&gt;&lt;L=s02,5010086&gt;圣印师拉米萨&lt;/L&gt;&lt;/D&gt;领取奖励。" />
+</quest-local>

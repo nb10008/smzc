@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40052" />
+    <entry Name="了解妖精农场" />
+    <entry Conditions="" />
+    <entry Overview="到&lt;N&gt;妖精农场&lt;/N&gt;的&lt;D&gt;&lt;L=s51,5800078&gt;厨房管理员&lt;/L&gt;&lt;/D&gt;处购买&lt;C&gt;一&lt;/C&gt;个&lt;I&gt;香果种&lt;/I&gt;，然后回复庄园主&lt;D&gt;&lt;L=s51,5800075&gt;艾欧里奥&lt;/L&gt;&lt;/D&gt;" />
+</quest-local>

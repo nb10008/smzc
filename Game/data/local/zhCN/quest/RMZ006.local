@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20506" />
+    <entry Name="可怕的发现" />
+    <entry Conditions="" />
+    <entry Overview="从&lt;A&gt;&lt;L=s07,1060009&gt;妖迷之花&lt;/L&gt;&lt;/A&gt;或&lt;A&gt;&lt;L=s07,1060010&gt;妖迷花精&lt;/L&gt;&lt;/A&gt;身上收集&lt;C&gt;100&lt;/C&gt;个&lt;I&gt;天神印&lt;/I&gt;，然后交给&lt;D&gt;&lt;L=s07,5010165&gt;易罗萨&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

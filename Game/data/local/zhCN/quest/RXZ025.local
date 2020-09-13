@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20425" />
+    <entry Name="进攻开始" />
+    <entry Conditions="" />
+    <entry Overview="消灭&lt;C&gt;80&lt;/C&gt;个&lt;A&gt;&lt;L=s06,1050044&gt;五鬼人屠&lt;/L&gt;&lt;/A&gt; ，然后回复&lt;D&gt;&lt;L=s06,5010163&gt;汉娜&lt;/L&gt;&lt;/D&gt;&#x0A;" />
+</quest-local>

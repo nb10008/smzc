@@ -1,0 +1,46 @@
+sampler g_diffuseMap : register(s0);
+sampler g_normalMap  : register(s1);
+
+float4 g_directDiffuse;
+float4 g_directAmbient;
+float4 g_directSpecular;
+float4 g_pointDiffuse;
+float4 g_pointSpecular;
+float  g_specularPower;
+
+float4 main(float2 uv 							: TEXCOORD0,
+		float3 directDirInTexSpace			: TEXCOORD1,
+		float3 directHalfDirInTexSpace	: TEXCOORD2,
+		float3 pointHalfDirInTexSpace		: TEXCOORD3,
+		float  pointAtten								: TEXCOORD4,
+		float3 pointDirInTexSpace				: TEXCOORD5) : COLOR
+{
+	float4 texColor = tex2D(g_diffuseMap,uv);
+	float4 normalMap = tex2D(g_normalMap,uv);
+	float3 normal = normalize((normalMap.rgb - 0.5f)*2);
+	
+	//ambient
+	float3 lumColor = g_directAmbient.rgb;		
+	
+	//direct diffuse
+	float diff = saturate(dot(normal, directDirInTexSpace));
+	lumColor += g_directDiffuse.rgb * diff;
+	
+	//point diffuse
+	diff = saturate(dot(normal, pointDirInTexSpace));
+	lumColor += g_pointDiffuse.rgb * diff * pointAtten;
+	
+	//mul texture
+	texColor.rgb*=lumColor;
+	
+	//direct specular
+	float specular = pow(saturate(dot(directHalfDirInTexSpace,normal)),g_specularPower);
+	texColor.rgb += g_directSpecular.rgb * specular * normalMap.a;
+	
+	//point specular
+	specular = pow(saturate(dot(pointHalfDirInTexSpace,normal)),g_specularPower) * pointAtten;
+	texColor.rgb += g_pointSpecular.rgb * specular * normalMap.a;
+	texColor.a *= g_directDiffuse.a;
+	
+	return texColor;
+}

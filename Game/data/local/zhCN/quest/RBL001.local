@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20201" />
+    <entry Name="保护绿洲" />
+    <entry Conditions="" />
+    <entry Overview="在&lt;N&gt;北奥绿洲&lt;/N&gt;收集&lt;C&gt;4&lt;/C&gt;个&lt;M&gt;&lt;L=s04,6010011&gt;绿洲树种&lt;/L&gt;&lt;/M&gt;，然后交给&lt;/N&gt;&lt;D&gt;&lt;L=s04,5010076&gt;翼神琼纳斯&lt;/L&gt;&lt;/D&gt;\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv20]&lt;/S&gt;黑暗学院:20级后可挑战&lt;P&gt;副本黑暗学院&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv21]&lt;/S&gt;奔雷裂谷:21级后可前往&lt;N&gt;奔雷裂谷&lt;/N&gt;练级&#x0A;\n&lt;S&gt;[Lv21]&lt;/S&gt;契约技能:21级后可学习&lt;T&gt;契约技能&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv21]&lt;/S&gt;捕捉妖精:学习契约技能后可&lt;T&gt;捕捉妖精&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;斗技场:40级后&lt;P&gt;报名斗技场&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv50]&lt;/S&gt;天之行会:50级后可接取&lt;P&gt;天之行会任务&lt;/P&gt;&#x0A;&#x0A;" />
+</quest-local>

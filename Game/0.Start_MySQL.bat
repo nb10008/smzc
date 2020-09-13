@@ -1,0 +1,1 @@
+start DB\bin\mysqld.exe --no-defaults --port=3306

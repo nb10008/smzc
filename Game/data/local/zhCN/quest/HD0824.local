@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30824" />
+    <entry Name="神之谕" />
+    <entry Conditions="" />
+    <entry Overview="将&lt;I&gt;光明祝福&lt;/I&gt;、&lt;I&gt;黑暗祈祷&lt;/I&gt;、&lt;I&gt;自然之源&lt;/I&gt;和&lt;I&gt;力量祝福&lt;/I&gt;一同交给&lt;D&gt;&lt;L=s02,5516025&gt;受伤的勇士&lt;/L&gt;&lt;/D&gt;&#x0A;\n击杀&lt;A&gt;赫迪鲁斯&lt;/A&gt;可获得&lt;I&gt;光明祝福&lt;/I&gt;\n击杀&lt;A&gt;希特鲁&lt;/A&gt;可获得&lt;I&gt;黑暗祈祷&lt;/I&gt;\n击杀&lt;A&gt;华恩利&lt;/A&gt;可获得&lt;I&gt;自然之源&lt;/I&gt;\n击杀&lt;A&gt;阿玛恩&lt;/A&gt;可获得&lt;I&gt;力量祝福&lt;/I&gt;" />
+</quest-local>

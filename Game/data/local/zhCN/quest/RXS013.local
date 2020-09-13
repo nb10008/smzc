@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20013" />
+    <entry Name="勇往直前" />
+    <entry Conditions="" />
+    <entry Overview="杀死&lt;C&gt;8&lt;/C&gt;只&lt;A&gt;&lt;L=m10,1010015&gt;紫色魔花&lt;/L&gt;&lt;/A&gt;，然后找到&lt;D&gt;&lt;L=m10,5010020&gt;魔神度撒&lt;/L&gt;&lt;/D&gt;申请进行最终的试炼。" />
+</quest-local>

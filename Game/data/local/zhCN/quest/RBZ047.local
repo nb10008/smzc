@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20347" />
+    <entry Name="变化原因" />
+    <entry Conditions="" />
+    <entry Overview="消灭&lt;A&gt;&lt;L=s05,1040038&gt;雪地狂野人&lt;/L&gt;&lt;/A&gt;，收集&lt;C&gt;15&lt;/C&gt;本印有变化原因的&lt;M&gt;蓝本&lt;/M&gt;，然后交付给&lt;D&gt;&lt;L=s05,5010099&gt;汉特&lt;/L&gt;&lt;/D&gt;。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv50]&lt;/S&gt;西洲幻林:50级后可前往&lt;N&gt;西洲幻林&lt;/N&gt;练级&#x0A;\n&lt;S&gt;[Lv50]&lt;/S&gt;天之行会:50级后可接取&lt;P&gt;天之行会任务&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv55]&lt;/S&gt;真假魔王:55级后可参与&lt;P&gt;真假魔王活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv60]&lt;/S&gt;职业进阶:60级后可进行&lt;T&gt;二次转职&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv60]&lt;/S&gt;妖精特技:60级后的&lt;A&gt;妖精&lt;/A&gt;开始拥有特技&#x0A;\n&lt;S&gt;[Lv61]&lt;/S&gt;高阶技能:61级可在学习&lt;T&gt;高阶职业技能&lt;/T&gt;&#x0A;" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20023" />
+    <entry Name="新的征程" />
+    <entry Conditions="" />
+    <entry Overview="找到&lt;D&gt;&lt;L=s02,5010030&gt;神使迪妮莎&lt;/L&gt;&lt;/D&gt;，听取出发前的建议。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv10]&lt;/S&gt;开启成就:10级开启&lt;T&gt;成就系统&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv10]&lt;/S&gt;三神传说:10级后可参与&lt;P&gt;三神传说活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv11]&lt;/S&gt;每日问答:11级后可进行&lt;P&gt;游戏知识问答&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv11]&lt;/S&gt;悬赏任务:可以在悬赏榜接取&lt;P&gt;悬赏任务&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv15]&lt;/S&gt;新手妖精:达到15级可获得&lt;A&gt;新手妖精&lt;/A&gt;&#x0A;\n&lt;S&gt;[Lv20]&lt;/S&gt;就职:达到20级可进行&lt;T&gt;就职&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv20]&lt;/S&gt;创建公会:20级后可&lt;T&gt;创建公会&lt;/T&gt;&#x0A;" />
+</quest-local>

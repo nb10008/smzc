@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20517" />
+    <entry Name="死亡凝视" />
+    <entry Conditions="" />
+    <entry Overview="剿灭原神教派来的&lt;C&gt;40&lt;/C&gt;名&lt;A&gt;&lt;L=s07,1060024&gt;死亡凝视者&lt;/L&gt;&lt;/A&gt;和&lt;C&gt;50&lt;/C&gt;名&lt;A&gt;&lt;L=s07,1060025&gt;密林巨蛮人&lt;/L&gt;&lt;/A&gt;，之后回复&lt;D&gt;&lt;L=s07,5010203&gt;左德&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

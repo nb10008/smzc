@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="传送石(西南)" pos_x="7655" pos_y="15129" pos_z="11802"/>
+	<map_point id="2" type="1" show_name="传送石(西北)" pos_x="7639" pos_y="15129" pos_z="27870"/>
+	<map_point id="3" type="1" show_name="传送石(东北)" pos_x="30484" pos_y="15129" pos_z="28164"/>
+	<map_point id="4" type="1" show_name="传送石(东南)" pos_x="32143" pos_y="15306" pos_z="11643"/>
+	<map_point id="5" type="2" show_name="仓库管理员(中心)" pos_x="17292" pos_y="15040" pos_z="17427"/>
+	<map_point id="6" type="2" show_name="杂货商(东南)" pos_x="29644" pos_y="15091" pos_z="8450"/>
+	<map_point id="7" type="2" show_name="杂货商(西南)" pos_x="13247" pos_y="15091" pos_z="8280"/>
+	<map_point id="8" type="2" show_name="杂货商(东北)" pos_x="28059" pos_y="15091" pos_z="30148"/>
+	<map_point id="9" type="2" show_name="杂货商(西北)" pos_x="8214" pos_y="15091" pos_z="30256"/>
+	<map_point id="10" type="2" show_name="摊位管理员(西北)" pos_x="17510" pos_y="15040" pos_z="21401"/>
+	<map_point id="11" type="2" show_name="摊位管理员(东南)" pos_x="20931" pos_y="15040" pos_z="17025"/>
+</root>

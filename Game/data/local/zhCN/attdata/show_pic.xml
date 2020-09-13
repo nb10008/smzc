@@ -1,0 +1,29 @@
+﻿
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <Content id="1" Type="1" Qualification="20001" Text="“？”表示有任务可以交付。“！”表示有任务可以接取。地图也会显示可接、交任务NPC的位置。" AlignControl="\desktop\minimap" AlignType="OuterBottom" logic_x="20" logic_y="-80" Picname="data\ui\Common\L_D_01.bmp" time="30000" />
+    <Content id="2" Type="1" Qualification="20001" Text="在线一定时间可以领取系统给予的奖励，当倒计时结束后，点击领取按钮即可获得奖励。" AlignControl="\desktop\lucky_win\luck_pic\butt1" AlignType="OuterLeft" logic_x="35" logic_y="20" Picname="data\ui\Common\L_D_02.bmp" time="30000" />
+    <Content id="3" Type="1" Qualification="20002" Text="双击下划线部分进行自动寻路" AlignControl="\desktop\tt_win" AlignType="OuterLeft" logic_x="0" logic_y="-90" Picname="data\ui\Common\L_D_02.bmp" time="8000" />
+    <Content id="4" Type="4" Qualification="4220101" Text="右键单击背包中的坐骑准备驾御之后，再点击骑乘之术就可以骑乘坐骑了" AlignControl="\desktop\shortcutbar\barback\barpic\butt14" AlignType="OuterTop" logic_x="-20" logic_y="0" Picname="data\ui\Common\L_D_04.bmp" time="8000" />
+    <Content id="5" Type="2" Qualification="20002" Text="武器已经自动装备至主武器栏位" AlignControl="\desktop\ra_win\ra_pic\rstatepic\equipback\mainwp" AlignType="OuterRight" logic_x="0" logic_y="-15" Picname="data\ui\Common\L_D_03.bmp" time="8000" />
+    <Content id="6" Type="2" Qualification="20003" Text="获得技能点，可加点的技能会以闪烁方式进行提示" AlignControl="\desktop\skillwin\skillbackpic\skillback" AlignType="OuterLeft" logic_x="150" logic_y="-160" Picname="data\ui\Common\L_D_02.bmp" time="9000" />
+    <Content id="7" Type="2" Qualification="20003" Text="这里也会提示您有多余技能点可学习新技能" AlignControl="\desktop\shortcutbar\barback\butt1" AlignType="OuterTop" logic_x="-20" logic_y="0" Picname="data\ui\Common\L_D_04.bmp" time="15000" />
+    <Content id="8" Type="2" Qualification="20005" Text="您已经3级了，可以开启新手礼包啦！" AlignControl="\desktop\bagback\bagpic\bagchoose\bagchoose1" AlignType="OuterLeft" logic_x="0" logic_y="20" Picname="data\ui\Common\L_D_02.bmp" time="15000" />
+    <Content id="9" Type="2" Qualification="20009" Text="游戏中可以装备两把武器。当您只装备主手武器时，右键单击背包内的武器，武器会被装备到服务器栏位。在非战斗状态下，可使用E键来切换主副手的武器" AlignControl="\desktop\ra_win\ra_pic\rstatepic\equipback\minorwp" AlignType="OuterRight" logic_x="0" logic_y="0" Picname="data\ui\Common\L_D_03.bmp" time="15000" />
+    <Content id="10" Type="3" Qualification="10" Text="成就系统已经开启。完成成就可以获得丰富的奖励" AlignControl="\desktop\systemback\systembutt\trybutton" AlignType="OuterLeft" logic_x="0" logic_y="0" Picname="data\ui\Common\L_D_02.bmp" time="8000" />
+    <Content id="11" Type="3" Qualification="10" Text="恭喜你到达10级！现在你可以使用回城术进行传送了，传送默认地点在神灵之谷，当您去过一次斗战天城后，会自动在那里绑定。祝您传送愉快！" AlignControl="\desktop\shortcutbar\barback\barpic\butt15" AlignType="OuterTop" logic_x="-20" logic_y="0" Picname="data\ui\Common\L_D_04.bmp" time="15000" />
+    <Content id="12" Type="2" Qualification="40001" Text="快打开属性界面的“妖精”分页，装备适合你的妖精吧。携带妖精战斗与培育妖精都能够使妖精获得经验。妖精达到一定等级会变换形态。" AlignControl="\desktop\systemback\systembutt\equipbutton" AlignType="OuterLeft" logic_x="0" logic_y="0" Picname="data\ui\Common\L_D_02.bmp" time="15000" />
+    <Content id="13" Type="2" Qualification="40003" Text="发现了吗？你的妖精形态已经变化了！" AlignControl="\desktop\characteratt\att\teambutt" AlignType="OuterRight" logic_x="0" logic_y="20" Picname="data\ui\Common\L_D_03.bmp" time="8000" />
+    <Content id="14" Type="3" Qualification="20" Text="等级提升到20级时，就脱离了保护状态。你可以切换不同的PK状态对其他玩家进行挑战。练级模式只能攻击开启杀戮模式的玩家；对抗模式只能攻击开启对抗和杀戮模式的玩家；杀戮模式能攻击所有所有玩家。" AlignControl="\desktop\pkwin" AlignType="OuterRight" logic_x="0" logic_y="0" Picname="data\ui\Common\L_D_03.bmp" time="20000" />
+    <Content id="15" Type="3" Qualification="20" Text="20级开始每提升一级都会获得属性点。各职业属性投点方式不同，请谨慎投点。" AlignControl="\desktop\shortcutbar\barback\butt0" AlignType="OuterRight" logic_x="0" logic_y="30" Picname="data\ui\Common\L_D_03.bmp" time="8000" />
+    <Content id="16" Type="1" Qualification="20116" Text="快回斗战天城找斗神之王玛斯接受转职任务吧！" AlignControl="\desktop\tt_win" AlignType="OuterLeft" logic_x="0" logic_y="-90" Picname="data\ui\Common\L_D_02.bmp" time="8000" />
+    <Content id="17" Type="1" Qualification="40047" Text="还在为找不到队友而烦恼吗？点击这里，帮助你快速找到符合条件的队友！" AlignControl="\desktop\minimap\map\but12" AlignType="OuterLeft" logic_x="0" logic_y="0" Picname="data\ui\Common\L_D_02.bmp" time="15000" />
+    <Content id="18" Type="2" Qualification="40048" Text="不同的心情会给你带来不同的属性加成，特殊的食物也会给你的妖精带来特殊的效果加成！" AlignControl="\desktop\pett\pet\hp" AlignType="OuterRight" logic_x="0" logic_y="30" Picname="data\ui\Common\L_D_03.bmp" time="8000" />
+	<Content id="19" Type="1" Qualification="20026" Text="右键单击背包中的坐骑准备驾御之后，再点击骑乘之术就可以骑乘坐骑了" AlignControl="\desktop\mshortcutbar_win\msbackpic\butt0" AlignType="OuterTop" logic_x="-20" logic_y="0" Picname="data\ui\Common\L_D_04.bmp" time="30000" />
+	<Content id="20" Type="1" Qualification="51001" Text="您已经开启圣灵系统，在这里装备圣灵可大幅提高您的实力。" AlignControl="\desktop\ra_win\ra_pic\rstatepic\equipback\sl\talismanpic" AlignType="OuterTop" logic_x="75" logic_y="15" Picname="data\ui\Common\L_D_06.bmp" time="30000" />
+	<Content id="21" Type="1" Qualification="51005" Text="您已经开启圣灵系统，在这里装备圣灵可大幅提高您的实力。" AlignControl="\desktop\ra_win\ra_pic\rstatepic\equipback\sl\talismanpic" AlignType="OuterTop" logic_x="75" logic_y="15" Picname="data\ui\Common\L_D_06.bmp" time="30000" />
+	<Content id="22" Type="1" Qualification="51006" Text="您已经开启圣灵系统，在这里装备圣灵可大幅提高您的实力。" AlignControl="\desktop\ra_win\ra_pic\rstatepic\equipback\sl\talismanpic" AlignType="OuterTop" logic_x="75" logic_y="15" Picname="data\ui\Common\L_D_06.bmp" time="30000" />
+	<Content id="23" Type="1" Qualification="51007" Text="您已经开启圣灵系统，在这里装备圣灵可大幅提高您的实力。" AlignControl="\desktop\ra_win\ra_pic\rstatepic\equipback\sl\talismanpic" AlignType="OuterTop" logic_x="75" logic_y="15" Picname="data\ui\Common\L_D_06.bmp" time="30000" />
+
+</root>
+

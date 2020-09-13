@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30776" />
+    <entry Name="真爱情书称号兑换" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;50&lt;/C&gt;个&lt;I&gt;真爱情书&lt;/I&gt;，交给&lt;D&gt;&lt;L=s52,5600035&gt;罗曼称号兑换人&lt;/L&gt;&lt;/D&gt;，即可获得&lt;I&gt;情圣&lt;/I&gt;或&lt;I&gt;花魁&lt;/I&gt;称号。\n提示：将&lt;I&gt;真爱玫瑰&lt;/I&gt;或&lt;I&gt;真爱巧克力&lt;/I&gt;送给不同性别玩家，授予方可获得道具&lt;I&gt;真爱情书&lt;/I&gt;。" />
+</quest-local>

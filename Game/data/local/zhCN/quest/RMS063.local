@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20663" />
+    <entry Name="等级约束" />
+    <entry Conditions="" />
+    <entry Overview="升至&lt;C&gt;95&lt;/C&gt;级后再与&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;对话。" />
+</quest-local>

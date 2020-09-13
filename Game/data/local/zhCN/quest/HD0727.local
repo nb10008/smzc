@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30727" />
+    <entry Name="【特权】勇者之证" />
+    <entry Conditions="" />
+    <entry Overview="完成一次&lt;T&gt;百鬼炼狱&lt;/T&gt;活动，然后回去找&lt;M&gt;&lt;Z=s02,31500,23094,33600&gt;新人特权使者&lt;/Z&gt;&lt;/M&gt;领取5种&lt;C&gt;6&lt;/C&gt;个&lt;I&gt;勇者之证&lt;/I&gt;。" />
+</quest-local>

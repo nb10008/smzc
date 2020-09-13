@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20026" />
+    <entry Name="初次骑乘" />
+    <entry Conditions="装备坐骑之后，使用骑乘之术" />
+    <entry Overview="打开背包使用炎血马，装备坐骑之后，使用技能骑乘之术，然后找到&lt;D&gt;&lt;L=m10,5010016&gt;统帅伊万夫&lt;/L&gt;&lt;/D&gt;完成任务。\n 提示：点击快捷栏F1使用骑乘之术，或者点K键打开技能界面，选择主动技能，选择骑乘之术，即可完成任务。" />
+</quest-local>

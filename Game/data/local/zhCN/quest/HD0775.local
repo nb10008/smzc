@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30775" />
+    <entry Name="同志称号兑换" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;50&lt;/C&gt;个&lt;I&gt;同志的祝福&lt;/I&gt;，交给&lt;D&gt;&lt;L=s52,5600035&gt;罗曼称号兑换人&lt;/L&gt;&lt;/D&gt;，即可获得&lt;I&gt;同志称号&lt;/I&gt;。\n提示：将&lt;I&gt;真爱玫瑰&lt;/I&gt;送给男性玩家，授予方可获得道具&lt;I&gt;同志的祝福&lt;/I&gt;。" />
+</quest-local>

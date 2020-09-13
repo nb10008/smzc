@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<Map id="1" name="m10" linkmap="s02" posx="45415" posy="7480" posz="43448"/>
+	<Map id="2" name="s02" linkmap="m10" posx="30894" posy="23046" posz="10782"/>
+	<Map id="3" name="s02" linkmap="s03" posx="13347" posy="23139" posz="27005"/>
+	<Map id="4" name="s02" linkmap="s04" posx="50699" posy="23141" posz="27181"/>
+	<Map id="5" name="s03" linkmap="s02" posx="25729" posy="4054" posz="63638"/>
+	<Map id="6" name="s03" linkmap="s06" posx="11396" posy="3721" posz="20614"/>
+	<Map id="7" name="s03" linkmap="s07" posx="57741" posy="3677" posz="11358"/>
+	<Map id="8" name="s03" linkmap="d01" posx="44043" posy="2808" posz="28217"/>
+	<Map id="9" name="s03" linkmap="s03_1" posx="66171" posy="2221" posz="41345"/>
+	<Map id="10" name="s03_1" linkmap="s03" posx="6343" posy="3843" posz="19846"/>
+	<Map id="11" name="s04" linkmap="s02" posx="10344" posy="13417" posz="44789"/>
+	<Map id="12" name="s04" linkmap="s05" posx="28201" posy="18536" posz="67598"/>
+	<Map id="13" name="s04" linkmap="s08" posx="67753" posy="19573" posz="18942"/>
+	<Map id="14" name="s04" linkmap="d02" posx="48788" posy="16868" posz="16254"/>
+	<Map id="15" name="s04" linkmap="d10" posx="36370" posy="14211" posz="53851"/>
+	<Map id="16" name="s05" linkmap="s04" posx="122398" posy="10236" posz="12334"/>
+	<Map id="17" name="s05" linkmap="d03" posx="138168" posy="8624" posz="63966"/>
+	<Map id="18" name="s05" linkmap="d04" posx="74696" posy="9434" posz="83826"/>
+	<Map id="19" name="s06" linkmap="s03" posx="141322" posy="8398" posz="67321"/>
+	<Map id="20" name="s06" linkmap="d05" posx="65816" posy="5722" posz="67677"/>
+	<Map id="21" name="s06" linkmap="d06" posx="80086" posy="5842" posz="94220"/>
+	<Map id="22" name="s07" linkmap="s03" posx="62228" posy="14726" posz="133149"/>
+	<Map id="23" name="s07" linkmap="d07" posx="66312" posy="3867" posz="46946"/>
+	<Map id="24" name="s08" linkmap="s04" posx="11526" posy="13011" posz="119096"/>
+	<Map id="25" name="s08" linkmap="d08" posx="15240" posy="13030" posz="29337"/>
+	<Map id="26" name="s08" linkmap="d09" posx="19832" posy="12086" posz="142811"/>
+	<Map id="27" name="s08" linkmap="d11" posx="125359" posy="9276" posz="110785"/>
+	<Map id="28" name="d01" linkmap="s03" posx="1592" posy="254" posz="17474"/>
+	<Map id="29" name="d02" linkmap="s04" posx="6530" posy="230" posz="12094"/>
+	<Map id="30" name="d03" linkmap="s05" posx="15740" posy="464" posz="710"/>
+	<Map id="31" name="d04" linkmap="s05" posx="10037" posy="208" posz="9121"/>
+	<Map id="32" name="d05" linkmap="s06" posx="13193" posy="1670" posz="1136"/>
+	<Map id="33" name="d06" linkmap="s06" posx="23771" posy="40" posz="17001"/>
+	<Map id="34" name="d07" linkmap="s07" posx="43429" posy="0" posz="24255"/>
+	<Map id="35" name="d08" linkmap="s08" posx="1113" posy="2136" posz="16810"/>
+	<Map id="36" name="d09" linkmap="s08" posx="16984" posy="40" posz="7852"/>
+	<Map id="37" name="d10" linkmap="s04" posx="2569" posy="3200" posz="9374"/>
+	<Map id="38" name="d11" linkmap="s08" posx="14936" posy="40" posz="8064"/>
+</root>

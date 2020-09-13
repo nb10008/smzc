@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+
+   <type id="1" name="主线任务" color="0xff00ddfe" category="1"/>
+   <type id="2" name="悬赏任务" color="0xFFaddf14" category="3"/>
+   <type id="3" name="兑换任务" color="0xffffae00" category="7"/>
+   <type id="4" name="日常任务" color="0xffffae00" category="7"/>
+   <type id="5" name="天之行会任务" color="0xffffae00" category="3"/>
+   <type id="6" name="社交任务" color="0xffffae00" category="4"/>
+   <type id="7" name="新人特权" color="0xffffae00" category="4"/>
+   <type id="300" name="指引任务" color="0xFFaddf14" category="2"/>
+   <type id="115" name="师门任务" color="0xFFff7ce8" category="8"/>
+   <type id="310" name="公会任务" color="0xFFdc5d00" category="6"/>
+   <type id="507" name="世博会活动[节日]" color="0xFFBD3017" category="4"/>
+   <type id="508" name="免费修炼场[活动]" color="0xFFff7ce8" category="4"/>
+   <type id="313" name="转职任务" color="0xff80ff00" category="10"/>
+   <type id="316" name="飞升专属[每日]" color="0xFF93d8f1" category="7"/>
+   <type id="201" name="百鬼炼狱[活动]" color="0xFF93d8f1" category="7"/>
+   <type id="202" name="女神的英姿[活动]" color="0xFF93d8f1" category="7"/>
+   <type id="203" name="战神的荣耀[活动]" color="0xFF93d8f1" category="7"/>
+   <type id="204" name="魔神的咆哮[活动]" color="0xFF93d8f1" category="7"/>
+   <type id="205" name="勇闯魔窟[活动]" color="0xFF93d8f1" category="7"/>
+   <type id="206" name="魔族入侵[活动]" color="0xFF93d8f1" category="7"/>
+   <type id="207" name="知识竞猜[活动]" color="0xFF93d8f1" category="7"/>
+   <type id="208" name="副本任务" color="0xFFFF6000" category="5"/>
+   <type id="209" name="真假魔王[活动]" color="0xFF93d8f1" category="7"/>
+   <type id="509" name="圣诞活动[节日]" color="0xFFBD3017" category="7"/>
+	 <type id="510" name="新年活动[节日]" color="0xFFBD3017" category="7"/>
+	 <type id="511" name="腊八活动[节日]" color="0xFFBD3017" category="7"/>
+	 <type id="512" name="春节活动[节日]" color="0xFFBD3017" category="4"/>
+	 <type id="513" name="情人节活动[节日]" color="0xFFBD3017" category="4"/>
+	 <type id="514" name="神职任务" color="0xff00ddfe" category="11"/>
+	 <type id="515" name="端午节活动[节日]" color="0xFFBD3017" category="4"/>
+	 <type id="516" name="CJ狂欢嘉年华[活动]" color="0xFFBD3017" category="4"/>
+	 <type id="517" name="账号回购[活动]" color="0xFFff7ce8" category="4"/>
+	 <type id="518" name="世界BOSS[活动]" color="0xFFff7ce8" category="4"/>
+	 <type id="519" name="七夕活动[节日]" color="0xFFBD3017" category="4"/>
+	 <type id="520" name="中秋活动[节日]" color="0xFFBD3017" category="4"/>
+	 <type id="521" name="国庆活动[节日]" color="0xFFBD3017" category="4"/>
+	 <type id="522" name="感恩节活动[节日]" color="0xFFBD3017" category="4"/>
+	 <type id="523" name="节日活动" color="0xFFBD3017" category="4"/>
+	 <type id="524" name="仲夏夜祈福活动[活动]" color="0xFFBD3017" category="4"/>
+</root>

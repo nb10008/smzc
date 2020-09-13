@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <war id="1" lower_level="20" upper_level="29" agglomerate_val="200" can_act_num="0" />
+    <war id="2" lower_level="30" upper_level="39" agglomerate_val="500" can_act_num="1" />
+    <war id="3" lower_level="40" upper_level="49" agglomerate_val="1000" can_act_num="2" />
+    <war id="4" lower_level="50" upper_level="59" agglomerate_val="1500" can_act_num="3" />
+    <war id="5" lower_level="50" upper_level="59" agglomerate_val="2000" can_act_num="4" />
+    <war id="6" lower_level="60" upper_level="69" agglomerate_val="2500" can_act_num="5" />
+    <war id="7" lower_level="60" upper_level="69" agglomerate_val="3000" can_act_num="6" />
+    <war id="8" lower_level="70" upper_level="79" agglomerate_val="4000" can_act_num="7" />
+    <war id="9" lower_level="70" upper_level="79" agglomerate_val="5000" can_act_num="8" />
+    <war id="10" lower_level="80" upper_level="89" agglomerate_val="6000" can_act_num="9" />
+    <war id="11" lower_level="80" upper_level="89" agglomerate_val="6500" can_act_num="10" />
+    <war id="12" lower_level="80" upper_level="89" agglomerate_val="7000" can_act_num="11" />
+    <war id="13" lower_level="80" upper_level="89" agglomerate_val="7500" can_act_num="12" />
+    <war id="14" lower_level="80" upper_level="89" agglomerate_val="8000" can_act_num="13" />
+    <war id="15" lower_level="80" upper_level="89" agglomerate_val="10000" can_act_num="14" />
+    <war id="16" lower_level="90" upper_level="100" agglomerate_val="11000" can_act_num="15" />
+    <war id="17" lower_level="90" upper_level="100" agglomerate_val="12000" can_act_num="16" />
+    <war id="18" lower_level="90" upper_level="100" agglomerate_val="13000" can_act_num="17" />
+    <war id="19" lower_level="90" upper_level="100" agglomerate_val="15000" can_act_num="18" />
+    <war id="20" lower_level="90" upper_level="100" agglomerate_val="20000" can_act_num="20" />
+</root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40018" />
+    <entry Name="强化石" />
+    <entry Conditions="" />
+    <entry Overview="击杀&lt;D&gt;&lt;L=s04,1030004&gt;小石怪&lt;/L&gt;&lt;/D&gt;获得&lt;C&gt;15&lt;/C&gt;颗&lt;I&gt;石怪残骸&lt;/I&gt;，完成后交给&lt;D&gt;&lt;L=s04,5010082&gt;强化师萨维&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

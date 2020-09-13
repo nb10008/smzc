@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <box id="1" article_id="3110019" quality="1" />
+    <box id="2" article_id="3110020" quality="1" />
+    <box id="3" article_id="3110021" quality="1" />
+    <box id="4" article_id="3110022" quality="2" />
+    <box id="5" article_id="3110023" quality="2" />
+    <box id="6" article_id="3110024" quality="2" />
+    <box id="7" article_id="3110025" quality="3" />
+    <box id="8" article_id="3110026" quality="3" />
+    <box id="9" article_id="3110027" quality="3" />
+    <box id="10" article_id="3110028" quality="4" />
+    <box id="11" article_id="3110029" quality="4" />
+    <box id="12" article_id="3110030" quality="4" />
+    <box id="13" article_id="3110031" quality="5" />
+    <box id="14" article_id="3110032" quality="5" />
+    <box id="15" article_id="3110033" quality="5" />
+    <box id="16" article_id="3110034" quality="6" />
+    <box id="17" article_id="3110035" quality="6" />
+    <box id="18" article_id="3110036" quality="6" />
+</root>

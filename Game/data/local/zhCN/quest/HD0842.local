@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30842" />
+    <entry Name="强化憎恨魔窟" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;魔力结晶&lt;/I&gt;，交给&lt;D&gt;憎恨魔窟护卫&lt;/D&gt;（&lt;S&gt;完成后可以获得100神魂&lt;/S&gt;）\n \n&lt;T&gt;在憎恨魔窟使用魔化矿镐，有几率获得魔力粉尘&lt;/T&gt;" />
+</quest-local>

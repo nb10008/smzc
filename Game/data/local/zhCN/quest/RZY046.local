@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40046" />
+    <entry Name="橙色的传说" />
+    <entry Conditions="" />
+    <entry Overview="击杀&lt;A&gt;&lt;L=d04,1040047&gt;蛇妖杜莎梅&lt;/L&gt;&lt;/A&gt;、&lt;A&gt;&lt;L=d04,1040048&gt;蛇妖杜莎拉&lt;/L&gt;&lt;/A&gt;  ，然后回复斗战天城的&lt;D&gt;&lt;L=s02,5011012&gt;传说装备使者&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

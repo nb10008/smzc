@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30774" />
+    <entry Name="领取劳动证" />
+    <entry Conditions="" />
+    <entry Overview="可在&lt;D&gt;&lt;L=s52,5600027&gt;博博小姐&lt;/L&gt;&lt;/D&gt;小姐处领取&lt;C&gt;10&lt;/C&gt;个&lt;I&gt;罗曼村劳动证&lt;/I&gt;。" />
+</quest-local>

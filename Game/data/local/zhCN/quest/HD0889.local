@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30889" />
+    <entry Name="阳光赠礼（二）" />
+    <entry Conditions="" />
+    <entry Overview="等级达到&lt;C&gt;15&lt;/C&gt;级后到&lt;D&gt;&lt;L=s02,5610089&gt;阳光大使&lt;/L&gt;&lt;/D&gt;处领取奖励。" />
+</quest-local>

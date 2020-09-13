@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30114" />
+    <entry Name="兑换命运之轮*5" />
+    <entry Conditions="" />
+    <entry Overview="将&lt;C&gt;90&lt;/C&gt;个&lt;I&gt;圣魔珠&lt;/I&gt;和&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;命运卷&lt;/I&gt;交给命运之轮守护者，即可兑换&lt;C&gt;5&lt;/C&gt;个&lt;color=0xffff80ff&gt;命运之轮&lt;color=0xffffffff&gt;。\n&lt;I&gt;圣魔珠&lt;/I&gt;可通过怪物掉落获得，&lt;I&gt;命运卷&lt;/I&gt;可在商城中购买获得。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30725" />
+    <entry Name="【特权】新人奖励" />
+    <entry Conditions="" />
+    <entry Overview="你可以从&lt;M&gt;&lt;Z=s02,31500,23094,33600&gt;新人特权使者&lt;/Z&gt;&lt;/M&gt;处领取新人特权奖励。" />
+</quest-local>

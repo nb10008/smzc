@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<GuildPower name="HuiYuan" id="0" LeaveGuild="1" AdvSkill="1"/>
+	<GuildPower name="JingYing" id="1" LeaveGuild="1" DemissPostion="1" AdvSkill="1"/>
+	<GuildPower name="HuiZhang" id="2" DismissGuild="1" InviteJoin="1" TurnoverLeader="1" ModifyTenet="1" SetWareRights="1" Upgrade="1" SetSkill="1" AdvSkill="1"/>
+	<GuildPower name="FuHuiZhang" id="3" InviteJoin="1" LeaveGuild="1" DemissPostion="1" ModifyTenet="1" SetWareRights="1" Upgrade="1" SetSkill="1" AdvSkill="1"/>
+	<GuildPower name="GuGan" id="4" InviteJoin="1" LeaveGuild="1" DemissPostion="1" AdvSkill="1"/>
+</root>

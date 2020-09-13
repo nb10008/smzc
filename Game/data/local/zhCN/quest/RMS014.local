@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20614" />
+    <entry Name="原神教的代价" />
+    <entry Conditions="" />
+    <entry Overview="消灭&lt;C&gt;100&lt;/C&gt;名&lt;A&gt;&lt;L=s08,1070013&gt;原神传播者&lt;/L&gt;&lt;/A&gt;，&lt;C&gt;100&lt;/C&gt;名&lt;A&gt;&lt;L=s08,1070014&gt;原神教刺客&lt;/L&gt;&lt;/A&gt;，&lt;C&gt;50&lt;/C&gt;名&lt;color=0xffff6000&gt;&lt;L=s08,1070054&gt;原神精英刺客&lt;/L&gt;&lt;color=0xffffffff&gt;，&lt;C&gt;1&lt;/C&gt;名&lt;color=0xffff0000&gt;&lt;L=s08,1070075&gt;护法雷芒&lt;/L&gt;&lt;color=0xffffffff&gt;后，回复&lt;D&gt;&lt;L=s08,5010206&gt;幽露&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

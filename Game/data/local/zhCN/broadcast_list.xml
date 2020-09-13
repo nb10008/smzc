@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <Msg id="100001" type="0" channel="0" value="&lt;font=小黑雅黑,0,28,20&gt;                                              &lt;color=0xff05ff00&gt;&lt;p1&gt;&lt;color=0xffffffff&gt;正在进行服务器广播测试！" />
+    <Msg id="100002" type="1" channel="0" value="【江湖传闻】&lt;p1&gt;使用了物品&lt;p2&gt;后触发了本次广播，测试测试测试测试！" />
+    <Msg id="100003" type="2" channel="1" value="&lt;p1&gt;正在进行城战广播测试，&lt;p2&gt;使用“&lt;p3&gt;”召唤了有史以来最为强大的城战频道大字跑马灯广播！" />
+    <Msg id="100004" type="2" channel="2" value="这是一条用于测试大字跑马灯帮派频道的广播，看到每次广播的人请大喊三声“信春哥”，你将受到春哥的赐福！" />
+    <Msg id="100005" type="2" channel="4" value="一二三四五六七八九十二二三四五六七八九十三二三四五六七八九十四二三四五六七八九十五二三四五六七八九十六二三四五六七八九十七二三四五六七八九十八二三四五六七八九十九二三四五六七八九十" />
+    <Msg id="100006" type="2" channel="3" value="公告频道广播正在测试中，执行本次测试的是&lt;p1&gt;，他的名字是：&lt;p1&gt;！" />
+    <Msg id="100007" type="2" channel="5" value="“三神传说”活动将在10分钟后结束，需要交付任务的玩家请尽快前往封妖道长处交付任务，以免因错过时间而占用下次活动的任务名额。" />
+    <Msg id="100008" type="3" channel="0" value="聊天栏公告正在测试，请大家尽量配合，看到本条广播后使用世界频道打“1”！" />
+    <Msg id="100009" type="2" channel="5" value="本次女神的英姿活动开始，各位玩家可在斗战天城[505, 304]内找到“女神的侍从”接取活动任务，完成后会有丰厚的奖励！" />
+    <Msg id="100010" type="3" channel="0" value="女神的英姿活动正在进行中，所有10级以上的玩家均可在斗战天城[505, 304]的“女神的侍从”处接取活动任务，赚取丰厚奖励！" />
+    <Msg id="100011" type="2" channel="5" value="本次女神的英姿活动已经结束，尚未完成任务的玩家可继续进行任务，并在下次活动时交付任务！" />
+    <Msg id="100012" type="2" channel="5" value="恭喜玩家“&lt;p1&gt;”第1个完成本次女神的英姿活动任务，获得双倍经验与金钱奖励！" />
+    <Msg id="100013" type="2" channel="5" value="恭喜玩家“&lt;p1&gt;”第10个完成本次女神的英姿活动任务，获得1.5倍经验与金钱奖励！" />
+    <Msg id="100014" type="2" channel="5" value="恭喜“&lt;p1&gt;”成为本次女神的英姿活动中第100名完成任务的玩家，获得1.5倍经验与金钱奖励！" />
+    <Msg id="100015" type="2" channel="5" value="本次战神传说活动开始，各位玩家可在斗战天城[505, 304]找“天界战神”接取活动任务，完成后会有丰厚的奖励！" />
+    <Msg id="100016" type="3" channel="0" value="战神传说活动正在进行中，所有10级以上的玩家均可在斗战天城[505, 304]的“天界战神”处接取活动任务，赚取丰厚奖励！" />
+    <Msg id="100017" type="2" channel="5" value="本次战神传说活动已经结束，尚未完成任务的玩家可继续进行任务，并在下次活动时交付任务！" />
+    <Msg id="100018" type="2" channel="5" value="恭喜玩家“&lt;p1&gt;”第一个完成本次战神传说活动任务，获得双倍经验与金钱奖励！" />
+    <Msg id="100019" type="2" channel="5" value="玩家“&lt;p1&gt;”在本次战神传说活动中第十个完成了活动任务，获得1.5倍经验与金钱奖励！" />
+    <Msg id="100020" type="2" channel="5" value="恭喜“&lt;p1&gt;”成为本次战神传说活动中第100名完成任务的玩家，获得1.5倍经验与金钱奖励！" />
+    <Msg id="100021" type="2" channel="5" value="本次魔神的咆哮活动开始，各位玩家可在斗战天城[505, 304]找“猎魔使者”接取活动任务，完成后会有丰厚的奖励！" />
+    <Msg id="100022" type="3" channel="0" value="魔神的咆哮活动正在进行中，所有10级以上的玩家均可在斗战天城[505, 304]的“猎魔使者”处接取活动任务，赚取丰厚奖励！" />
+    <Msg id="100023" type="2" channel="5" value="本次魔神的咆哮活动已经结束，尚未完成任务的玩家可继续进行任务，并在下次活动时交付任务！" />
+    <Msg id="100024" type="2" channel="5" value="恭喜玩家“&lt;p1&gt;”第一个完成本次魔神的咆哮活动任务，获得双倍经验与金钱奖励！" />
+    <Msg id="100025" type="2" channel="5" value="玩家“&lt;p1&gt;”在本次魔神的咆哮活动中第十个完成了活动任务，获得1.5倍经验与金钱奖励！" />
+    <Msg id="100026" type="2" channel="5" value="恭喜“&lt;p1&gt;”成为本次魔神的咆哮活动中第100名完成任务的玩家，获得1.5倍经验与金钱奖励！" />
+    <Msg id="100027" type="2" channel="5" value="恭喜“&lt;p1&gt;”成为本次魔神的咆哮活动中第50名完成任务的玩家，获得1.5倍经验与金钱奖励！" />
+    <Msg id="100028" type="2" channel="5" value="“&lt;p1&gt;”将在&lt;p2&gt;分钟后返回天庭，需要交付任务者请尽快前往，以免因错过时间而占用下次活动的任务名额。" />
+    <Msg id="100029" type="2" channel="5" value="魔族怪物大举入侵！大家可到各地图寻找“入侵魔物”并将其剿灭！" />
+    <Msg id="100030" type="2" channel="5" value="百鬼炼狱活动已经开始，挺过十次鬼怪的猛烈攻击就可以获得大量的经验和金钱！可找斗战天城[505, 304]百鬼修炼人参与活动！" />
+    <Msg id="100031" type="0" channel="0" value="第&lt;color=0xffff0000&gt;&lt;p1&gt;&lt;color=0xffffffff&gt;次鬼怪进攻！" />
+    <Msg id="100032" type="1" channel="0" value="【江湖传闻】&lt;p1&gt;完成了百斩修罗的试炼，获得了&lt;p2&gt;点经验！" />
+    <Msg id="100033" type="2" channel="5" value="勇闯魔窟活动已经开始，各位玩家可在奔雷裂谷和北洲天雪里找到魔窟之门，组队进入后击败里面的魔物，获得高额奖励" />
+    <Msg id="100034" type="2" channel="5" value="魔窟之门将于1分钟内在奔雷裂谷和北洲天雪重新出现，请各路英雄做好准备！" />
+    <Msg id="100035" type="2" channel="2" value="&lt;p1&gt;公会已经和&lt;p2&gt;公会进行了行会战争" />
+    <Msg id="100036" type="2" channel="2" value="您的公会已经和&lt;p1&gt;进行了行会战争！" />
+    <Msg id="100037" type="2" channel="3" value="知识竞猜活动已经开始，请到斗战天城[505, 304]处找到知识竞猜员参与活动。" />
+    <Msg id="100038" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffffffff&gt;杀死白银魔窟的独裁者，拯救被囚禁的人。要先杀死他的2个爪牙：&lt;color=0xffff0000&gt;艾尔特斯&lt;color=0xffffffff&gt;和&lt;color=0xffff0000&gt;罗纳德&lt;color=0xffffffff&gt;。他们在&lt;color=0xfffea5a0&gt;魔窟东面的洞穴。" />
+    <Msg id="100039" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）艾尔特斯死了，&lt;color=0xffff0000&gt;罗纳德&lt;color=0xffffffff&gt;在魔窟深处等待伏击。" />
+    <Msg id="100040" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）罗纳德死了，&lt;color=0xffff0000&gt;艾尔特斯&lt;color=0xffffffff&gt;在嘲笑他的无能。" />
+    <Msg id="100041" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffff0000&gt;艾斯特鲁&lt;color=0xffffffff&gt;是一个暴躁的家伙，是独裁者奥德最忠实的心腹，负责守卫魔窟的&lt;color=0xfffea5a0&gt;南面洞穴&lt;color=0xffffffff&gt;，是关押囚犯的必经之地。" />
+    <Msg id="100042" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffffffff&gt;有勇无谋的艾斯特鲁死了，魔窟里只剩下&lt;color=0xffff0000&gt;独裁者奥德&lt;color=0xffffffff&gt;，最后的决战在&lt;color=0xfffea5a0&gt;魔窟北方洞穴的祭坛&lt;color=0xffffffff&gt;。" />
+    <Msg id="100043" type="0" channel="0" value="&lt;color=0xff0000ff&gt;（完成）白银魔窟终于归于平静，北州天雪的一个邪恶势力得到了压制，附近的人们得以安居乐业，但是普罗迪假借神使之名仍然操纵着人们的心智。" />
+    <Msg id="100044" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xff80ffff&gt;通往&lt;color=0xffff0000&gt;魔域的大门&lt;color=0xff80ffff&gt;依然关闭。" />
+    <Msg id="100045" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xff80ffff&gt;最勇猛的2个狼人首领死了，通往&lt;color=0xffff0000&gt;魔域的大门&lt;color=0xff80ffff&gt;敞开了" />
+    <Msg id="100046" type="0" channel="0" value="&lt;color=0xffff00ff&gt;（发现）&lt;color=0xff80ffff&gt;魔域是一个神秘的地方，充满了诱惑，真真假假" />
+    <Msg id="100047" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffff0000&gt;阿卡拉&lt;color=0xff80ffff&gt;的真身在&lt;color=0xffff0000&gt;（930,250）&lt;color=0xff80ffff&gt;附近出现了！" />
+    <Msg id="100048" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffff0000&gt;玛格丽特&lt;color=0xff80ffff&gt;的真身在&lt;color=0xffff0000&gt;（955,372）&lt;color=0xff80ffff&gt;出现了！" />
+    <Msg id="100049" type="0" channel="0" value="&lt;color=0xffff0000&gt;大祭司普罗迪：你们胆敢侵犯神的领域！" />
+    <Msg id="100050" type="0" channel="0" value="&lt;color=0xff0000ff&gt;（完成）&lt;color=0xff80ffff&gt;寒冰魔域的邪恶势力被铲平了，北州天雪的生灵获得了解放。新的挑战在等待我们的勇士！在此之前先分享我们的战利品吧" />
+    <Msg id="100051" type="0" channel="0" value="&lt;color=0xff80ffff&gt;（提示）魔域护法拥有2个幻象，你只杀死了其中一个。" />
+    <Msg id="100052" type="0" channel="0" value="&lt;color=0xff80ffff&gt;（进入）普罗迪为实现自己的野心，借神使之名，控制了这块区域，狼人族被征服了，成为其鹰犬。" />
+    <Msg id="100053" type="3" channel="2" value="玩家“&lt;p1&gt;”上缴了【&lt;p2&gt;】，为研究中的公会技能增砖添瓦！" />
+    <Msg id="100054" type="2" channel="3" value="当前&lt;p1&gt;战场仍处于未被占领状态，请各公会速往争夺，占领两根三界阵旗即可占领对应战场！" />
+    <Msg id="100055" type="2" channel="2" value="本公会赢得了&lt;p1&gt;战场的占领权，所有成员可前往战场，在战场商店内购买物品！" />
+    <Msg id="100056" type="2" channel="2" value="本公会已取得了对&lt;p1&gt;战场的攻击权！请大家于周六19:50~20:00点准时参加！" />
+    <Msg id="100057" type="2" channel="2" value="本公会已确定参加今日20：00的&lt;p1&gt;战场争夺战，请大家做好准备，迎接战斗！" />
+    <Msg id="100058" type="3" channel="3" value="&lt;p1&gt;战场争夺战将于10分钟后开始，目前已可进入战场！" />
+    <Msg id="100059" type="0" channel="0" value="本次战场争夺正式开始！" />
+    <Msg id="100060" type="0" channel="0" value="本次战场争夺尘埃落定，所有参与战场的玩家将获得三倍经验奖励！" />
+    <Msg id="100061" type="0" channel="0" value="&lt;p1&gt;赢得&lt;p2&gt;的占领权！" />
+    <Msg id="100062" type="0" channel="0" value="&lt;p1&gt;公会的&lt;p2&gt;在战场中的已经达到&lt;p3&gt;斩，真是恐怖！" />
+    <Msg id="100063" type="0" channel="0" value="&lt;p1&gt;公会的&lt;p2&gt;在战场中达成百人斩！" />
+    <Msg id="100064" type="0" channel="0" value="&lt;p1&gt;公会的&lt;p2&gt;在战场中达成500人斩！无人能与之抗衡！" />
+    <Msg id="100065" type="0" channel="0" value="&lt;p1&gt;公会的&lt;p2&gt;在战场中达成千人斩！！！天下无双！！！" />
+    <Msg id="100066" type="0" channel="0" value="&lt;p1&gt;公会的&lt;p2&gt;已开启了&lt;p3&gt;！" />
+    <Msg id="100067" type="2" channel="5" value="魔窟之门已在奔雷裂谷和北洲天雪重新出现！" />
+    <Msg id="100068" type="0" channel="0" value="&lt;color=0xfffcfc00&gt;（进入）&lt;color=0xffffffff&gt;裁决之所是魔族的领地，这里为蛇发女妖美杜莎和她的两个姐姐所统治，她们决定了这里的一切生命" />
+    <Msg id="100069" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffffffff&gt;下一个路口，新的挑战在迎接你" />
+    <Msg id="100070" type="0" channel="0" value="&lt;color=0xffff00ff&gt;（发现）&lt;color=0xffffffff&gt;许多邪恶势力都为魔族的强大所威慑，为其效命" />
+    <Msg id="100071" type="0" channel="0" value="&lt;color=0xff0000ff&gt;（完成）&lt;color=0xffffffff&gt;强大的勇士们证明了生死掌握在自己手里，请分享魔族的宝藏吧" />
+    <Msg id="100072" type="3" channel="3" value="宝箱出现在&lt;p1&gt;的(&lt;p2&gt;,&lt;p3&gt;)位置，大家赶快去抢夺宝物吧!" />
+    <Msg id="100073" type="3" channel="3" value="玩家[&lt;p1&gt;]在&lt;p2&gt;(&lt;p3&gt;,&lt;p4&gt;)位置已经携带了宝物，请玩家抓紧时间去抢夺吧！" />
+    <Msg id="100074" type="3" channel="3" value="玩家[&lt;p1&gt;]已经把携带宝物的玩家[&lt;p2&gt;]杀死，宝箱掉落在&lt;p3&gt;(&lt;p4&gt;,&lt;p5&gt;)位置，玩家赶快去抢夺吧！" />
+    <Msg id="100075" type="2" channel="5" value="今日夺宝奇兵已开始，携带宝物者不可进行“传送、下线、换图、下水、骑乘”等操作，如果进行以上操作，宝物将自动掉落，请玩家慎重！！！" />
+    <Msg id="100076" type="0" channel="0" value="&lt;color=0xfffcfc00&gt;（进入）&lt;color=0xffffffff&gt;这里是黑暗魔族的试炼地，为强大的黑暗骑士所控制。" />
+    <Msg id="100077" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffffffff&gt;一楼的大厅，有一个强大的敌人在等你，只有杀死他，你才能面对更强大的挑战" />
+    <Msg id="100078" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffffffff&gt;你跌入了死亡之水，请重新进入副本" />
+    <Msg id="100079" type="0" channel="0" value="&lt;color=0xff0000ff&gt;（完成）&lt;color=0xffffffff&gt;黑暗学院的骑士们倒下了，我们杰出的勇士们完成了自己迈向成功的第一步，踏上了铲除魔族之路。" />
+    <Msg id="100080" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffffffff&gt;你被魔法傀儡马力欧发现了，身后的大门关闭，你已无退路，只有杀死他才能进入黑暗学院的2层" />
+    <Msg id="100081" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）背后的大门关闭，魔法导师虎视眈眈于你。" />
+    <Msg id="100082" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）一楼大厅和通往二楼的大门打开了，你将面对更强大的敌人" />
+    <Msg id="100083" type="0" channel="0" value="夺宝奇兵活动已结束，感谢大家的参与！" />
+    <Msg id="100084" type="0" channel="0" value="&lt;color=0xfffcfc00&gt;（进入）&lt;color=0xFF80ffff&gt;这里居住着一对神仙眷侣，你通过南洲迷沼的一个洞穴找到了这片世外桃源的进入途径，但却发现这里是个迷宫，通往花园外的大门紧紧关闭。四名守卫保护着这片土地不受侵犯。" />
+    <Msg id="100085" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;一名守卫死了，但是西面通往花园的大门依然紧紧关闭着，你需要杀死四名守卫，他们镇守着迷宫的四个方位。" />
+    <Msg id="100086" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;最后一名守卫死了，通往西面花园的大门打开了，你可以从西北方绕下去。" />
+    <Msg id="100087" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;鲁莽的阿尔泰死了，前面潜伏着绝杀刺客，他和阿尔泰的风格完全不同" />
+    <Msg id="100088" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;最后一道屏障打开了，你侵犯这片领地，他们要做最后的决战，谁都不会手下留情。" />
+    <Msg id="100089" type="0" channel="0" value="&lt;color=0xff0000ff&gt;（完成）&lt;color=0xFF80ffff&gt;虽然你征服了这片土地，但是你隐隐感觉有种不安，这场战斗的目的究竟是什么，似乎有人在导演着这场悲剧，你只是一枚棋子。" />
+    <Msg id="100090" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;妮特丽的死让苏泰很愤怒，他变的更强了。" />
+    <Msg id="100091" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;苏泰的死让妮特丽感到绝望，她失去了继续战斗下去的勇气。" />
+    <Msg id="100092" type="0" channel="0" value="&lt;color=0xfffcfc00&gt;（进入）&lt;color=0xFF80ffff&gt;这里是阴森恐怖的幽冥神殿，在这里，所有的活着的生物都要受到幽冥结界的影响" />
+    <Msg id="100093" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;这里生活着一批堕入十八层地狱的魔族生物，在此翻云覆雨，助纣为虐。" />
+    <Msg id="100094" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;许多曾经在天界人界叱诧风云的人物一旦死去落入此处，也只能成为冥界天王的爪牙，为虎作伥。" />
+    <Msg id="100095" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFFfea5a0&gt;冥界黑暗天王出现了，他是幽冥神殿的主宰者。" />
+    <Msg id="100096" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;冥界黑暗天王被打败了，他的背后出现了一个奇怪的机关，神使迪妮莎会给你一些指导的。" />
+    <Msg id="100097" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;大门打开了，你看到对面是一个祭坛，真正的魔族在冥界的操纵者就在那里。" />
+    <Msg id="100098" type="0" channel="0" value="&lt;color=0xff0000ff&gt;（完成）&lt;color=0xFF80ffff&gt;你肃清了冥界的魔族势力，究竟更大的挑战会在哪里迎接我们的勇士。" />
+    <Msg id="100099" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffffffff&gt;黑暗学院的邪恶势力并没有被彻底铲除，这里隐藏着一个更大的罪恶。" />
+    <Msg id="100100" type="0" channel="0" value="&lt;color=0xff0000ff&gt;（完成）&lt;color=0xffffffff&gt;黑暗学院的双子骑士都倒下了，终于这里重见了光明，这里将成为所有勇士们的试炼地。" />
+    <Msg id="100101" type="0" channel="5" value="[&lt;p1&gt;]将友谊石赠送给[&lt;p2&gt;],[&lt;p3&gt;]获得了两颗魔核,两人发出了银铃般的笑声。" />
+    <Msg id="100102" type="2" channel="4" value="龙王在七花之海的[&lt;p1&gt;],[&lt;p2&gt;]坐标生下一个珍稀的龙蛋，大家快去找啊！" />
+    <Msg id="100103" type="0" channel="5" value="超级哇啦雪人雕像忽然变大了，请大家继续努力,接下来会发生什么呢？很让人期待啊！" />
+    <Msg id="100104" type="0" channel="5" value="超级哇啦雪人雕像居然变成了巨大的超级哇啦雪人怪物！大家快来打倒它呀！" />
+    <Msg id="100105" type="1" channel="0" value="[&lt;p1&gt;]成功与[&lt;p2&gt;]签订契约,获得了沉睡其中的妖精！" />
+    <Msg id="100106" type="1" channel="0" value="[&lt;p1&gt;]等级达到60级，踏入了强者的领域！" />
+    <Msg id="100107" type="1" channel="0" value="[&lt;p1&gt;]等级达到70级，成为天界最耀眼的新星！" />
+    <Msg id="100108" type="1" channel="0" value=" [&lt;p1&gt;]等级达到[&lt;p2&gt;]级，天界的实力进一步增强了！" />
+    <Msg id="100109" type="1" channel="0" value="[&lt;p1&gt;]等级达到[&lt;p2&gt;]级，其实力足以傲视三界！" />
+    <Msg id="100110" type="0" channel="0" value="&lt;color=0xfffcfc00&gt;（进入）&lt;color=0xFF80ffff&gt;这里会带给你痛苦的记忆，每一个到过这里的人不是想失去这里的记忆，就是永远无法再找回自己的记忆。" />
+    <Msg id="100111" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffffffff&gt;你战胜了万兽之王，失忆长廊的第一道大门打开了" />
+    <Msg id="100112" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffffffff&gt;你战胜了背德者，失忆长廊的第二道大门打开了" />
+    <Msg id="100113" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffffffff&gt;你需要战胜冰火两大护法，通往更深一层的大门才会打开。" />
+    <Msg id="100114" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffffffff&gt;失忆长廊的第三道大门打开了。" />
+    <Msg id="100115" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffffffff&gt;将军和长老都死了，沉睡中的独裁者阿尔赛特被惊醒了。" />
+    <Msg id="100116" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xffffffff&gt;火，电，土三元素被打败了，阿尔赛特的封印被打碎，通向失忆宫殿的大门敞开了。" />
+    <Msg id="100117" type="0" channel="0" value="&lt;color=0xff0000ff&gt;（完成）&lt;color=0xffffffff&gt;强大的勇士们战胜了失忆长廊的邪恶力量，恭喜你们。" />
+    <Msg id="100118" type="2" channel="5" value="真假魔王活动已经开始，55级以上的玩家可以通过恶魔之子进入混沌魔域夺取魔王手中的宝物！" />
+    <Msg id="100119" type="2" channel="5" value="[&lt;p1&gt;]开启了夺宝奇兵活动中的专属宝箱，获得了悬赏令和保底符各60个，超级经验符10个，战斗神符2个，妖精秘药和精炼妖精秘药各5个，魂石魔箱1个！" />
+    <Msg id="100120" type="2" channel="5" value="[&lt;p1&gt;]开启了夺宝奇兵活动中的专属宝箱，获得了悬赏令和保底符各五十个，超级经验符和妖精秘药各十个，战斗神符一个！" />
+    <Msg id="100121" type="0" channel="0" value="&lt;color=0xfffcfc00&gt;（进入）&lt;color=0xFF80ffff&gt;进入了魔族王宫，这里是魔族势力的最后一道防线，但也是邪恶势力最强大的心脏地带。" />
+    <Msg id="100122" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;每一个不朽士卒的死亡将把自己的祝福传给魔族国师，拥有了不休祝福的魔族国师将变得更强大" />
+    <Msg id="100123" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;一队不朽士卒出现了，他们拥有强大的力量，更恐怖的是他们与魔族国师有着某种神秘的联系。" />
+    <Msg id="100124" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;魔族黑暗法术的导师死了，通往魔王最后宫殿的大门敞开了，魔族领袖在等待你们！" />
+    <Msg id="100125" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;魔族领袖拥有强大的邪恶力量，并且这种力量会随着时间的推移不断增强，杀死冥界亡魂可以帮助勇士们暂时抵御。" />
+    <Msg id="100126" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;冥界亡魂出现了。" />
+    <Msg id="100127" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;魔族领袖死了，魔族的力量被铲除了，战斗结束了吗？巴比伦临终前留下的遗言是什么意思？面前出现了一个传送点，却是通往天界花园的，这又是什么？去看看吧。" />
+    <Msg id="100128" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;你杀死了巡逻的半人马英雄，掌管整个天界花园的半人马首领加西亚被惹恼了，他就在花园的亭子中。" />
+    <Msg id="100129" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;天界大门很久很久没有对人类开启了，门官埃利斯很高兴看到有人前来挑战。" />
+    <Msg id="100130" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;天王殿的大门有两个守护者，分别是冰和火的两条巨龙，要战胜他们才能进入天王殿" />
+    <Msg id="100131" type="2" channel="5" value="凯旋者帕伊已经吹响了斗技场开始的号角。谁才是真正的强者，谁才能成为新的斗技之王，让我们拭目以待！" />
+    <Msg id="100132" type="2" channel="5" value="斗技场开放将会持续2个小时，参与比赛的玩家将有机会获得橙色饰品及竞技专用技能！" />
+    <Msg id="100133" type="0" channel="0" value="&lt;color=0xfffcfc00&gt;（进入）&lt;color=0xFF80ffff&gt;这里有些像黑暗学院，但是这里比黑暗学院更恐怖，到处都是腐朽的尸体，死亡魔法的邪恶力量笼罩着整个城堡。" />
+    <Msg id="100134" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;石头傀儡兄弟是一对共生体，你必须几乎同时杀死他们。" />
+    <Msg id="100135" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;岩石傀儡死亡了，你要抓紧杀死他的兄弟，不然他还会复活" />
+    <Msg id="100136" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;炎石傀儡死亡了，你要抓紧杀死他的兄弟，不然他还会复活" />
+    <Msg id="100137" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;你没有在足够短的时间内杀死岩石傀儡，他的兄弟复活了。" />
+    <Msg id="100138" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;你没有在足够短的时间内杀死炎石傀儡，他的兄弟复活了。" />
+    <Msg id="100139" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;石头傀儡兄弟被消灭了，更大的挑战还在后面。" />
+    <Msg id="100140" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;冰火黑暗三系的魔法师代表了这里最强大的魔法力量。" />
+    <Msg id="100141" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;黑暗魔神是这里邪恶力量的中心。" />
+    <Msg id="100142" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;黑暗国师是魔族最强大的魔法师，连他都来到了这里，还带来了他的毒龙，这将会是一个什么难度的挑战啊！" />
+    <Msg id="100143" type="0" channel="0" value="&lt;color=0xff0000ff&gt;（完成）&lt;color=0xffffffff&gt;学院的势力铲除了，但是对抗魔族势力战场只揭开了冰山一角。" />
+    <Msg id="100144" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;毒龙在向它的主人求救。" />
+    <Msg id="200001" type="0" channel="4" value="大地的震颤中饱含着熔岩之王的愤怒！讨伐已经开始！你！还在等什么？！" />
+    <Msg id="200002" type="0" channel="4" value="狼王辛力加的咆哮声远远传来！勇士们还在浴血奋战！而你却在作壁上观？" />
+    <Msg id="200003" type="0" channel="4" value="世人畏惧的魔神阿历克斯，已在勇士们的围攻下苟延残喘！现在只需你作出致命的一击！" />
+    <Msg id="200004" type="0" channel="4" value="魔女尤娜的娇喝声不绝于耳！处于劣势的勇士们需要你的一臂之力！或许尤娜正需要你的一番调教……" />
+    <Msg id="200005" type="0" channel="4" value="暴虐的魔神艾斯塔克，在勇士们的围攻下得意狂笑！只有你才会让他知道！谁才是最强的存在！" />
+    <Msg id="200006" type="0" channel="4" value="强悍的魔神亚雷安不负盛名！没有你的加入！勇士们很难获胜！" />
+    <Msg id="200007" type="0" channel="4" value="魔神德拉斯的疯狂，已展现在勇士们的面前！请不要继续容忍他的嚣张！" />
+    <Msg id="200008" type="0" channel="4" value="魔神阿修罗竟与勇士们斗得旗鼓相当！胜利的天平将因你的加入而改变！" />
+    <Msg id="200009" type="0" channel="4" value="魔神艾邪拉已被勇士们拦下！但他叫嚣着要你好看！看来你应该让他知道！在哥面前别得瑟的道理！" />
+    <Msg id="100145" type="0" channel="5" />
+    <Msg id="100146" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：这位帅哥，你好象我下一任男友" />
+    <Msg id="100147" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：大叔，帮我在配偶栏签个名呗？" />
+    <Msg id="100148" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：等待你的关心，等到我快关上了心" />
+    <Msg id="100149" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：此生，你不来，我不老" />
+    <Msg id="100150" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：如果我真的好，你为什么不要？" />
+    <Msg id="100151" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：有本事，你就爱我一辈子" />
+    <Msg id="100152" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：总有一天你的名字会出现在我家户口本上" />
+    <Msg id="100153" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：我觉得我暗恋你已经很久了" />
+    <Msg id="100154" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：我那么喜欢你，你喜欢我一下会死啊" />
+    <Msg id="100155" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：我想和你……（此话已被系统和谐）……你懂的" />
+    <Msg id="100156" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：勾勾小指，约好一路走到世界尽头" />
+    <Msg id="100157" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：其实发现咱俩说话的时候两个妖精当灯泡不给力，不如她们俩也拉拉一下" />
+    <Msg id="100158" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：人口普查开始了，请接受我对你深入的普查一下" />
+    <Msg id="100159" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：名花虽有主，我来松松土" />
+    <Msg id="100160" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：我若为王，你必为后" />
+    <Msg id="100161" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：我想迷恋姐" />
+    <Msg id="100162" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：加嘞个油，让我们的感情妥妥的" />
+    <Msg id="100163" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：在七花之海脱光等你哦，不见不散" />
+    <Msg id="100164" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：求被包养，不会暖床但会玩SM" />
+    <Msg id="100165" type="0" channel="5" value="[&lt;p1&gt;]对[&lt;p2&gt;]说：我多想一个不小心就和你白头偕老" />
+    <Msg id="100171" type="2" channel="5" value="妖精的遗产活动即将开始，今天24:00之前每30分钟都将有一定几率在北洲天雪，西洲幻林，南洲迷沼，东洲冥山将出现妖精的遗产宝箱！请大家做好准备！" />
+    <Msg id="100172" type="2" channel="5" value="5分钟后，将会在北洲天雪，西洲幻林，南洲迷沼，东洲冥山将出现妖精的遗产宝箱！开启宝箱将会获得召唤妖精道具妖精之泪！" />
+    <Msg id="100173" type="2" channel="5" value="妖精的遗产活动圆满结束，感谢大家的参与，祝大家游戏愉快！" />
+    <Msg id="100174" type="2" channel="5" value="北洲天雪，西洲幻林，南洲迷沼，东洲冥山出现了许多妖精的遗产宝箱。大家快去抢啊！！！" />
+    <Msg id="100175" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;天界宝藏已经出现了，快去找吧！"/>
+    <Msg id="100176" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;火魔灵带来了火神之剑，增强了神王之子的攻击力！只有消灭火魔灵，火神之剑才会消失！"/>
+    <Msg id="100177" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;土魔灵带来了土神之盾，增强了神王之子的防御力！只有消灭土魔灵，土神之盾才会消失！"/>
+    <Msg id="100178" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;水魔灵带来了水神之咒，开始恢复神王之子的体力！只有消灭水魔灵，水神之咒才会消失！"/>
+    <Msg id="100179" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;火魔灵死亡，释放火神祝福！"/>
+    <Msg id="100180" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;土魔灵死亡，释放土神祝福！"/>
+    <Msg id="100181" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;水魔灵死亡，释放水神祝福！"/>
+    <Msg id="100182" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;火魔灵死亡，带走火神之剑！"/>
+    <Msg id="100183" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;土魔灵死亡，带走土神之盾！"/>
+    <Msg id="100184" type="0" channel="0" value="&lt;color=0xff00ff00&gt;（提示）&lt;color=0xFF80ffff&gt;水魔灵死亡，带走水神之咒！"/>
+   	
+   	<Msg id="100185" type="0" channel="0" value="一个神秘人物给[&lt;p1&gt;]禁言了" />
+    <Msg id="100186" type="0" channel="0" value="一个神秘人物给你禁言了" />
+    <Msg id="100187" type="0" channel="0" value="[&lt;p1&gt;]给[&lt;p2&gt;]禁言了" />
+    <Msg id="100188" type="0" channel="0" value="[&lt;p1&gt;]给你禁言了" />
+    <Msg id="100189" type="0" channel="0" value="你对[&lt;p1&gt;]使用禁言物品失败" />
+    <Msg id="100190" type="0" channel="0" value="[&lt;p1&gt;]对你使用禁言物品失败" />
+    
+    <Msg id="300001" type="2" channel="2" value="本公会已成为&lt;p1&gt;战场的进攻同盟公会！请大家于周六19:50~20:00点准时参加！" />
+    <Msg id="300002" type="2" channel="2" value="本公会已成为&lt;p1&gt;战场的防守同盟公会！请大家于周六19:50~20:00点准时参加！" />
+    <Msg id="300011" type="2" channel="5" value="神之竞标活动正式开始，请大家到斗战天城[561 496]附近竞拍自己喜欢的宝贝！" />
+    <Msg id="300012" type="2" channel="5" value="神之竞标活动圆满结束，以下发布竞品归属" />
+    <Msg id="300013" type="2" channel="5" value="恭喜[&lt;p1&gt;]以[&lt;p2&gt;]金竞得[&lt;p3&gt;]" />
+    <Msg id="300014" type="2" channel="5" value="恭喜[&lt;p1&gt;]以一口价[&lt;p2&gt;]金直接拿下了[&lt;p3&gt;]" />
+    <Msg id="300015" type="2" channel="5" value="恭喜[&lt;p1&gt;]以一口价[&lt;p2&gt;]圣币直接拿下了[&lt;p3&gt;]" />
+    <Msg id="300016" type="2" channel="5" value="竞价所得物品已发送到百宝袋内，未竞得物品的玩家，出价资金已全数返还至背包内，祝大家游戏愉快！" />
+    <Msg id="300017" type="2" channel="5" value="斗战天城的新年宴会供应商&lt;531，621&gt;开始收集新年大餐了！只要交纳新年大餐就可获得各种奖励，交付最多的前三位玩家还有机会获得特殊大礼！" />
+    <Msg id="300018" type="2" channel="5" value="斗战天城的新年宴会供应商&lt;531，621&gt;将在5分钟后开始收集新年大餐！只要交纳新年大餐就可获得各种奖励，交付最多的前三位玩家还有机会获得特殊大礼！" />
+    <Msg id="300019" type="2" channel="5" value="圣诞树出现在斗战天城的的&lt;616，534&gt;，30级以上的玩家可以到圣诞树处领取圣诞礼包和圣诞祝福" />
+    <Msg id="300020" type="2" channel="5" value="神秘圣诞树已经出现在七花之海的&lt;894, 1237&gt;处，快拿手中的圣诞袜去取得树圣诞礼物吧！神秘圣诞树可领取1500次礼品，在1000次之前领取奖励还会受到保护。当取完以后，还会有各种特殊事件！神秘圣诞树只存在2小时，大家请抓紧！" />
+    <Msg id="300021" type="2" channel="5" value="神秘圣诞树已经出现在奔雷裂谷的&lt;646, 1027&gt;处，快拿手中的圣诞袜去取得树圣诞礼物吧！神秘圣诞树可领取1500次礼品，在1000次之前领取奖励还会受到保护。当取完以后，还会有各种特殊事件！神秘圣诞树只存在2小时，大家请抓紧！" />
+    <Msg id="300022" type="2" channel="5" value="神秘圣诞树已经出现在北洲天雪的&lt;1201, 1236&gt;处，快拿手中的圣诞袜去取得树圣诞礼物吧！神秘圣诞树可领取1500次礼品，在1000次之前领取奖励还会受到保护。当取完以后，还会有各种特殊事件！神秘圣诞树只存在2小时，大家请抓紧！" />
+    <Msg id="300023" type="2" channel="5" value="神秘圣诞树即将出现在七花之海、奔雷裂谷或者北洲天雪，快拿手中的圣诞袜去取得树圣诞礼物吧！神秘圣诞树可取1500次礼品，在1000次之前领取奖励还会受到保护。当取完以后，还会有各种特殊事件！神秘圣诞树只存在2小时，大家请抓紧！" />
+    <Msg id="300024" type="0" channel="5" value="[&lt;P1&gt;]在圣诞树下获得了一颗闪闪发光的雪之钻，真是幸运！" />
+    <Msg id="300025" type="0" channel="5" value="神秘圣诞树居然缩小了，看来上面的礼物也越来越少了，再不来圣诞树上的礼物就要被别人抢光了呀！" />
+    <Msg id="300026" type="2" channel="5" value="神秘圣诞树消失了，圣诞妖精米米拉绚丽登场！3分钟后即可击杀，通过契约可获得珍贵的圣诞妖精！" />
+    <Msg id="300027" type="2" channel="5" value="圣诞兔子已经出现在斗战天城的&lt;585，600&gt;位置，请大家前去领取圣诞宝宝的祝福奖励，此祝福可使获得经验提升1.5倍" />
+    <Msg id="300028" type="0" channel="5" value="新年宴会已经收集到了足够的食物，请大家准备好新年大餐等待下个时间段的新年宴会吧！" />
+    <Msg id="300030" type="0" channel="5" value="[&lt;p1&gt;]在博博罗曼村辛勤劳动，获得了高级巧克力粉，真是可喜可贺" />
+    <Msg id="300031" type="0" channel="5" value="[&lt;p1&gt;]在博博罗曼村辛勤劳动，获得了巧克力模具，真是可喜可贺" />
+    <Msg id="300032" type="0" channel="5" value="[&lt;p1&gt;]眼前一亮！得到了一朵冰晶玫瑰，快送给女孩子去兑换罗曼徽章吧" />
+    <Msg id="300033" type="0" channel="5" value="[&lt;p1&gt;]眼前一亮！发现一朵珍奇的燃炎玫瑰，快送给女孩子去兑换罗曼徽章吧" />
+    <Msg id="300034" type="0" channel="5" value="[&lt;p1&gt;]眼前一亮！得到了一块零度巧克力，快送给男孩子去兑换罗曼徽章吧" />
+    <Msg id="300035" type="0" channel="5" value="[&lt;p1&gt;]眼前一亮！发现一块神奇的精灵巧克力，快送给男孩子去兑换罗曼徽章吧" />
+    <Msg id="300036" type="0" channel="5" value="[&lt;p1&gt;]劳动最光荣，获得一颗闪闪的罗曼之星，可喜可贺呀！" />
+    <Msg id="300037" type="2" channel="5" value="情人节期间，30 级以上的玩家可通过斗战天城的博博罗曼村传送人进入博博罗曼村参与情人节的活动" />
+    <Msg id="300038" type="0" channel="5" value="[&lt;p1&gt;]和他的队友在天地宫中发现超级天支宝箱，真是个大福星" />
+    <Msg id="300039" type="0" channel="5" value="[&lt;p1&gt;]和她的队友在天地宫中发现超级地支宝箱，真是个大福星" />
+    <Msg id="300040" type="2" channel="5" value="春节期间，30级以上的玩家可通过斗战天城的天地宫传送员进入天地宫副本，挑战天地宫，获得各种实用奖励" />
+    <Msg id="300041" type="0" channel="5" value="[&lt;p1&gt;]交纳了10个罗曼之星，2分钟之后契约妖精将在博博罗曼村中出现" />
+    <Msg id="300042" type="0" channel="5" value="情人节的妖精灵魄已经出现在博博罗曼村&lt;260,350&gt;" />
+    <Msg id="300043" type="0" channel="5" value="情人节的妖精灵魄已经出现在博博罗曼村&lt;128,199&gt;" />
+    <Msg id="300044" type="0" channel="5" value="情人节的妖精灵魄已经出现在博博罗曼村&lt;390,238&gt;" />
+    <Msg id="300045" type="0" channel="5" value="[&lt;p1&gt;]在博博罗曼村辛勤劳动，获得了天神露，真是可喜可贺" />
+    <Msg id="300046" type="0" channel="5" value="[&lt;p1&gt;]在博博罗曼村辛勤劳动，获得了高级除虫剂，真是可喜可贺" />
+    <Msg id="300047" type="2" channel="5" value="罗曼村传送人已经出现在斗战天城&lt;634,645&gt;，通过他可以进博博罗曼村" />
+    <Msg id="300048" type="2" channel="4" value="魔神拉瑟贝尔已经被击败，所有处于上古妖精庇护所的玩家将获得300点信仰。" />
+    <Msg id="300049" type="2" channel="5" value="妖精之母已经出现在七花之海的&lt;606, 1303&gt;处，母亲节就此已经开始了，大家要积极参加啊。" />
+    <Msg id="300050" type="2" channel="5" value="打败懒惰，击垮懈怠，劳动最光荣！收集奔雷裂谷，北洲天雪，西洲幻林活动怪物掉落的“劳”、“动”、“最”、“光”、“荣”字帖将可以兑换各种奖励！" />
+    <Msg id="300051" type="2" channel="5" value="20：00-22：00之间，每隔5分钟系统将会为所有在线玩家添加一个可叠加的状态，该状态最高可以将悬赏榜任务的经验和金钱奖励提高一倍！" />
+    <Msg id="310001" type="2" channel="5" value="喜报连连，恭喜[&lt;p1&gt;]在金蛋送礼活动中突破了第五层，获得了[&lt;p2&gt;]！" />
+    <Msg id="310002" type="2" channel="5" value="喜报连连，恭喜[&lt;p1&gt;]在金蛋送礼活动中突破了第六层，获得了[&lt;p2&gt;]！" />
+    <Msg id="310003" type="2" channel="5" value="喜报连连，恭喜[&lt;p1&gt;]在金蛋送礼活动中过关斩将，到达了顶层，获得了[&lt;p2&gt;]！" />
+    <Msg id="310011" type="1" channel="4" value="[&lt;p1&gt;]的妖精繁育出了一只与众不同的妖精，猛的一看好像是变异妖精，仔细一看竟然真的是传说中的：[&lt;p2&gt;]！" />
+    <Msg id="300052" type="2" channel="5" value="映月塘传送人已经出现在斗战天城&lt;591, 639&gt;处" />
+    <Msg id="300053" type="2" channel="5" value="场景公告：每日的20：00至22：30之前可以提交月光宝鉴，系统会在22：30公布获得奖励的玩家，并且在23：00分关闭活动场景。" />
+    <Msg id="300054" type="2" channel="5" value="公告：恭喜以下获得中秋奖励的玩家：&lt;p1&gt;  &lt;p2&gt;  &lt;p3&gt;  请在明天22：30之前领取属于自己的奖励" />
+    <Msg id="300055" type="2" channel="5" value="树妖女王已经出现在映月塘的[&lt;p1&gt;],[&lt;p2&gt;]处" />
+    <Msg id="300056" type="2" channel="5" value="场景公告：今日的活动时间即将截止，一分钟后场景关闭，请所有玩家做好准备。" />
+    <Msg id="300057" type="2" channel="5" value="恭喜[&lt;p1&gt;]在1倍的模式下获得200个欢乐币奖励！" />
+    <Msg id="300058" type="2" channel="5" value="恭喜[&lt;p1&gt;]在1倍的模式下获得50个欢乐币奖励！" />
+    <Msg id="300059" type="2" channel="5" value="恭喜[&lt;p1&gt;]在5倍的模式下获得2000个欢乐币奖励！" />
+    <Msg id="300060" type="2" channel="5" value="恭喜[&lt;p1&gt;]在5倍的模式下获得500个欢乐币奖励！" />
+    <Msg id="300061" type="2" channel="5" value="恭喜[&lt;p1&gt;]在10倍的模式下获得6000个欢乐币奖励！" />
+    <Msg id="300062" type="2" channel="5" value="恭喜[&lt;p1&gt;]在10倍的模式下获得1500个欢乐币奖励！" />
+    <Msg id="300063" type="2" channel="5" value="恭喜[&lt;p1&gt;]在50倍的模式下获得100000个欢乐币奖励！" />
+    <Msg id="300064" type="2" channel="5" value="恭喜[&lt;p1&gt;]在50倍的模式下获得25000个欢乐币奖励！" />
+    <Msg id="300065" type="2" channel="5" value="恭喜[&lt;p1&gt;]在5倍的模式下获得200个欢乐币奖励！" />
+    <Msg id="300066" type="2" channel="5" value="恭喜[&lt;p1&gt;]在10倍的模式下获得600个欢乐币奖励！" />
+    <Msg id="300067" type="2" channel="5" value="恭喜[&lt;p1&gt;]在50倍的模式下获得10000个欢乐币奖励！" />
+    <Msg id="300068" type="2" channel="5" value="恭喜[&lt;p1&gt;]在10倍的模式下获得300个欢乐币奖励！" />
+    <Msg id="300069" type="2" channel="5" value="恭喜[&lt;p1&gt;]在50倍的模式下获得5000个欢乐币奖励！" />
+    <Msg id="300070" type="2" channel="5" value="恭喜[&lt;p1&gt;]在50倍的模式下获得250个欢乐币奖励！" />
+    <Msg id="300071" type="2" channel="5" value="龙神仙灵已经出现在斗战天城（1023,782）处，快去领取祈福仙令吧" />
+    <Msg id="300072" type="2" channel="5" value="龙神使者已经出现在斗战天城（956,727）处，快去领取经验吧" />
+    <Msg id="300073" type="2" channel="5" value="斗战天城出现了一堆宝箱，抓紧时间去抢吧" />
+    <Msg id="300074" type="2" channel="5" value="本次饺子宴中总共收集了&lt;p1&gt;个饺子！所有在线玩家获得“津津有味”效果。" />
+    <Msg id="300075" type="2" channel="5" value="本次饺子宴中总共收集了&lt;p1&gt;个饺子！所有在线玩家获得“胃口大开”效果。" />
+    <Msg id="300076" type="2" channel="5" value="本次饺子宴中总共收集了&lt;p1&gt;个饺子！所有在线玩家获得“酒足饭饱”效果" />
+    <Msg id="300077" type="2" channel="5" value="新春熊猫已经出现在三界各地，快去拿起手中的武器去阻挡卖萌熊猫的入侵吧！新春熊猫只存在10分钟，大家请抓紧！" />
+    <Msg id="300078" type="2" channel="5" value="本次圣魔饺子宴已经结束，下次圣魔饺子宴将在1小时候后举行。现在排行榜前三名的玩家可以在NPC那领取奖励特殊奖励了！" />
+    <Msg id="300079" type="2" channel="5" value="为了迎接新春的到来，新春食神特意来到斗战天城为大家制作饺子宴，圣魔饺子宴还有5分钟就要开始了，大家可以准备交付饺子啦！" />
+    <Msg id="300080" type="2" channel="5" value="熊猫神之魂已经出现在诺亚方舟上，勇士们快去争夺啊" />
+    <Msg id="300081" type="2" channel="5" value="侵占诺亚舟的领导者已经出现在诺亚方舟停靠的附近，勇士们快去消灭它吧！！" />
+    <Msg id="300082" type="2" channel="5" value="新春熊猫已经出现三界各地，快去拿起手中的武器去阻挡卖萌熊猫的入侵吧！新春熊猫只存在10分钟，大家请抓紧！" />
+    <Msg id="300083" type="2" channel="5" value="熊猫英雄之魂已经出现在诺亚方舟上，勇士们快去争夺啊" />
+		<Msg id="300084" type="2" channel="5" value="在本次圣魔饺子宴中&lt;p1&gt;做出了巨大的贡献，特别奖励他一个春节大礼包，大家快来围观。"/>
+		<Msg id="300085" type="2" channel="5" value="天选者之战活动已经开始报名，50级以上玩家可以在斗神统领加德（斗战天城【381，330】）处报名并购买天选者套装"/>
+    <Msg id="300086" type="2" channel="5" value="9：30将会抽出3位幸运者平分金币总动员奖金。如果开出小奖，则每位幸运者将获得&lt;p1&gt;金；如果开出大奖，则可以获得&lt;p2&gt;金！"/>
+    <Msg id="300087" type="2" channel="5" value="由于&lt;p1&gt;未能在线领取金币奖励，因此他获得的奖金将会累积到金币总动员的大奖基金中。"/>
+    <Msg id="300088" type="2" channel="5" value="本次金币总动员未能开出大奖，&lt;p1&gt;、&lt;p2&gt;、&lt;p3&gt;三位玩家每人获得奖金&lt;p4&gt;金。"/>
+    <Msg id="300089" type="2" channel="5" value="快报！恭喜&lt;p1&gt;、&lt;p2&gt;、&lt;p3&gt;三位玩家获得金币总动员大奖，每人可以获得&lt;p4&gt;金！"/>
+    <Msg id="300090" type="2" channel="5" value="&lt;p1&gt;未能在线领取金币奖励，&lt;p2&gt;金将会被累积到下次金币总动员的奖励基金中！"/>
+    <Msg id="300091" type="2" channel="5" value="妖精秘境之门已经出现在北洲天雪的【&lt;p1&gt;，&lt;p2&gt;】,各种妖精在里面等着你"/>
+    <Msg id="300092" type="2" channel="5" value="高级副本体验员已经刷新在【591,664】处，想体验高级副本的刺激吗？赶紧来吧！" />
+    <Msg id="300093" type="2" channel="5" value="博博罗曼岛的海滩出现了许多漂流瓶，快去看看里面有什么惊喜吧！" />
+    <Msg id="300094" type="2" channel="5" value="博博罗曼岛的情人节沙雕活动正在进行中，快去体验热带沙滩之趣。" />
+    <Msg id="300095" type="1" channel="4" value="[&lt;p1&gt;]获得命运女神的眷顾，通过妖精熔炼成功的熔炼出了稀世罕见的元素妖精:[&lt;p2&gt;]！" />
+    <Msg id="300096" type="2" channel="5" value="水晶女仆珂瑞斯特尔已经出现在斗战天城[505,759]，22：00之前可以找她领取水晶心" />
+	<Msg id="300097" type="2" channel="5" value="一道赤红的光芒在&lt;p1&gt;场景闪动，这是赤红麒麟即将现身的征兆。它仅仅存在这个世界十分钟，大家快去寻找吧。" />
+	<Msg id="300098" type="2" channel="5" value="赤红麒麟出现在&lt;p1&gt;场景的【&lt;p2&gt;，&lt;p3&gt;】，收集足够的赤红之鳞可以在斗战天城兑换各种道具。" />
+	<Msg id="300099" type="2" channel="5" value="堕落的圣灵之魂已经出现在&lt;p1&gt;场景的【&lt;p2&gt;，&lt;p3&gt;】，击杀后可获得大量高级宝物！" />
+	<Msg id="300100" type="2" channel="5" value="&lt;p1&gt;成为本服第一个升到80级的玩家，现在斗战天城【580,870】处出现了天使呼哈哈，除了XX可领取奖励外，他还可以为大家开启每日升级任务。" />
+	<Msg id="300101" type="2" channel="5" value="天使呼啦啦已经出现在斗战天城【580,881】，现在所有玩家可以去他那里领取每日升级任务啦。" />
+	<Msg id="300102" type="2" channel="5" value="&lt;p1&gt;通过使用&lt;p2&gt;获得&lt;p3&gt;" />
+	<Msg id="300103" type="2" channel="5" value="仲夏夜祈福使者已经出现在斗战天城【615,868】，50级以上的玩家可以前去领取仲夏夜祈福任务。仲夏夜祈福使者仅在7月17号到31号之间的晚20：30到21：30分出现，大家不要错过时间。" />
+	<Msg id="300104" type="2" channel="5" value="仲夏夜祈福使者已经离开斗战天成。仲夏夜祈福使者仅在7月17号到31号之间的晚20：30到21：30分出现，大家不要错过时间。" />
+	<Msg id="300105" type="2" channel="5" value="赛跑将在5分钟后开始进行，有兴趣的玩家请到奥运岛的504, 247位置报名"/>
+	<Msg id="300106" type="2" channel="5" value="赛跑将在3分钟后开始进行，有兴趣的玩家请到奥运岛的504, 247位置报名"/>
+	<Msg id="300107" type="2" channel="5" value="赛跑将在1分钟后开始进行，有兴趣的玩家请到奥运岛的504, 247位置报名"/>
+	<Msg id="300108" type="2" channel="5" value="游泳将在5分钟后开始进行，有兴趣的玩家请到奥运岛的512, 253位置报名"/>
+	<Msg id="300109" type="2" channel="5" value="游泳将在3分钟后开始进行，有兴趣的玩家请到奥运岛的512, 253位置报名"/>
+	<Msg id="300110" type="2" channel="5" value="游泳将在1分钟后开始进行，有兴趣的玩家请到奥运岛的512, 253位置报名"/>
+	<Msg id="300111" type="2" channel="5" value="&lt;p1&gt;在本次赛跑项目中勇夺冠军，可喜可贺！"/>
+	<Msg id="300112" type="2" channel="5" value="&lt;p1&gt;在本次游泳项目中勇夺冠军，可喜可贺！"/>
+	<Msg id="300113" type="2" channel="5" value="竞技场项目将在5分钟后开始进行,有兴趣的玩家请到奥运岛的495, 243位置报名"/>
+	<Msg id="300114" type="2" channel="5" value="竞技场项目将在3分钟后开始进行,有兴趣的玩家请到奥运岛的495, 243位置报名"/>
+	<Msg id="300115" type="2" channel="5" value="竞技场项目将在1分钟后开始进行,有兴趣的玩家请到奥运岛的495, 243位置报名！"/>
+	<Msg id="300116" type="2" channel="5" value="带着很多喜糖和红包的七曜已经出现在博博罗曼村，大家快去抢把。"/>
+</root>

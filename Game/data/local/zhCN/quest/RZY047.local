@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40047" />
+    <entry Name="便捷组队" />
+    <entry Conditions="" />
+    <entry Overview="正确回答&lt;D&gt;&lt;L=s04,5010076&gt;翼神琼纳斯&lt;/L&gt;&lt;/D&gt;的问题，就可完成任务。\n提示：在屏幕右上角可点击便捷组队按钮，进入便捷组队界面。" />
+</quest-local>

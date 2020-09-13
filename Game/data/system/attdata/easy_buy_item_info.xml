@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <easybuyitem id="101" typeid="3070019" type="1" />
+    <easybuyitem id="102" typeid="3070021" type="1" />
+    <easybuyitem id="201" typeid="3070015" type="2" />
+    <easybuyitem id="202" typeid="3070016" type="2" />
+    <easybuyitem id="203" typeid="4500017" type="2" />
+    <easybuyitem id="301" typeid="3070003" type="3" />
+    <easybuyitem id="302" typeid="3070009" type="3" />
+    <easybuyitem id="303" typeid="3070025" type="3" />
+</root>

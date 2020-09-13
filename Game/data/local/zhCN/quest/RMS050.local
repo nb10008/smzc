@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20650" />
+    <entry Name="狂风之毁灭" />
+    <entry Conditions="" />
+    <entry Overview="消灭&lt;A&gt;&lt;L=s08,1070037&gt;狂风贵族&lt;/L&gt;&lt;/A&gt;&lt;C&gt;100&lt;/C&gt;名，&lt;A&gt;&lt;L=s08,1070038&gt;狂风影武&lt;/L&gt;&lt;/A&gt;&lt;C&gt;100&lt;/C&gt;名，之后回复&lt;D&gt;&lt;L=s08,5010210&gt;瓦尔特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

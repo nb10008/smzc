@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30723" />
+    <entry Name="圣诞兔子的祝福" />
+    <entry Conditions="" />
+    <entry Overview="完成任务获得&lt;C&gt;1.5&lt;/C&gt;倍经验奖励" />
+</quest-local>

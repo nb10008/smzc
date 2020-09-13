@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40067" />
+    <entry Name="收集战利品" />
+    <entry Conditions="" />
+    <entry Overview="将&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;马鞭&lt;/I&gt;和&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;猜拳挑战勋章&lt;/I&gt;带回来交给&lt;D&gt;&lt;L=s05,5010088&gt;元冷&lt;/L&gt;&lt;/D&gt;。\n \n&lt;color=0xffff0000&gt;战利品来源&lt;color=0xffffffff&gt;\n&lt;I&gt;马鞭&lt;/I&gt;是通过完成&lt;D&gt;&lt;L=s02,5610041&gt;追风者卡瑟&lt;/L&gt;&lt;/D&gt;的任务获得\n&lt;I&gt;猜拳挑战勋章&lt;/I&gt;是野外怪物掉落。" />
+</quest-local>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ANSI" ?>
+<staticmesh File="E:\Max模型\M04-007\M04-007.max" BasePath="D:\loong_client\Game\" MdlPath="data\model\batch\" MtlPath="data\model\batch\" >
+	<node Name="M04-005-J" ExpName="M04_005_J.FSM" LightmapSize="0" NormalMap="0" OriginNode="" />
+	<node Name="M04_007-A" ExpName="M04_007_A.FSM" LightmapSize="0" NormalMap="0" OriginNode="" />
+	<node Name="M04_007-B" ExpName="M04_007_B.FSM" LightmapSize="0" NormalMap="0" OriginNode="" />
+	<node Name="M04_007-C" ExpName="M04_007_C.FSM" LightmapSize="0" NormalMap="0" OriginNode="" />
+	<node Name="M04_007-C01" ExpName="M04_007_C01.FSM" LightmapSize="0" NormalMap="0" OriginNode="" />
+	<node Name="M04_007-D" ExpName="M04_007_D.FSM" LightmapSize="0" NormalMap="0" OriginNode="" />
+	<node Name="M04_007-E" ExpName="M04_007_E.FSM" LightmapSize="0" NormalMap="0" OriginNode="" />
+	<node Name="M04_007-E1" ExpName="M04_007_E1.FSM" LightmapSize="0" NormalMap="0" OriginNode="" />
+	<node Name="M04_007-E02" ExpName="M04_007_E02.FSM" LightmapSize="0" NormalMap="0" OriginNode="" />
+	<node Name="M04_007-F" ExpName="M04_007_F.FSM" LightmapSize="0" NormalMap="0" OriginNode="" />
+</staticmesh>
+
+<staticmesh File="E:\Max模型\M02_1\M02_1.max" BasePath="D:\loong_client\Game\" MdlPath="data\model\batch\" MtlPath="data\model\batch\" >
+	<node Name="m02_d" ExpName="m02_d.FSM" LightmapSize="0" NormalMap="0" OriginNode="" />
+</staticmesh>

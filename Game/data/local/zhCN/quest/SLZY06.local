@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="51006" />
+    <entry Name="圣灵降临III" />
+    <entry Conditions="" />
+    <entry Overview="&lt;T&gt;圣灵之魂&lt;/T&gt;已经降临到三界，找&lt;D&gt;&lt;L=s02,6040030&gt;圣灵召唤者&lt;/L&gt;&lt;/D&gt;领取属于你的第三只&lt;T&gt;圣灵之魂&lt;/T&gt;吧！\n\n\n\n\n\n" />
+</quest-local>

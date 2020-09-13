@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40060" />
+    <entry Name="神的化身" />
+    <entry Conditions="使用一次神化技能" />
+    <entry Overview="在&lt;D&gt;&lt;L=s02,5010243&gt;三界主宰艾辛萨&lt;/L&gt;&lt;/D&gt;处晋升一个神职，并使用一次&lt;S&gt;神化&lt;/S&gt;技能。\n&lt;T&gt;神化后可以使用专属的特殊技能，不同的神格等级神化后的特殊技能是不同的。&lt;/T&gt;" />
+</quest-local>

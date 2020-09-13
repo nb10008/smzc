@@ -1,0 +1,47 @@
+//-----------------------------------------------------------------------------
+// File: ScaleDown.ps
+//
+// Desc: Àı–°
+//
+// Copyright (c) TengWu Corporation. All rights reserved.
+//-----------------------------------------------------------------------------
+
+sampler2D g_sam0 : register(s0);    
+       
+                                    
+float2 PixelCoords[4] =                   
+{                                         
+  	{ -1,   0.0 },
+		{  1,   0.0 },
+
+		{  0.0,  -1 },
+		{  0.0,   1 },
+};                                       
+
+half luminance(half3 c)
+{
+	return dot( c, float3(0.3, 0.59, 0.11) );
+}
+
+// this function should be baked into a texture lookup for performance
+half highlights(half3 c)
+{
+	return smoothstep(0.9, 1, luminance(c.rgb));
+}
+
+half4 PSMain( in float2 Tex : TEXCOORD0 ) : COLOR0
+{
+		half4 c=0;                                                
+ 
+    c.rgb += tex2D( g_sam0, Tex + PixelCoords[0].xy ).rgb;
+    c.rgb += tex2D( g_sam0, Tex + PixelCoords[1].xy ).rgb;
+    c.rgb += tex2D( g_sam0, Tex + PixelCoords[2].xy ).rgb;
+    c.rgb += tex2D( g_sam0, Tex + PixelCoords[3].xy ).rgb;
+    
+    c.rgb *= 0.25;
+   		                                                    
+		return c;                                                    
+}
+
+
+

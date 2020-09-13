@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20006" />
+    <entry Name="讨伐白灵" />
+    <entry Conditions="" />
+    <entry Overview=" 杀死&lt;A&gt;&lt;L=s01,1010011&gt;白灵&lt;/L&gt;&lt;/A&gt;获得4块&lt;I&gt;白灵之石&lt;/I&gt;，将这些&lt;I&gt;白灵之石&lt;/I&gt;交给&lt;D&gt; &lt;L=m10, 5010015&gt;神教官达蒙&lt;/L&gt;&lt;/D&gt;。（点击橙色字体进行自动寻路，找到对应的怪物）" />
+</quest-local>

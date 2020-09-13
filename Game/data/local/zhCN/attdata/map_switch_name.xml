@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <Dak id="1" name1="卡斯兰" />
+    <Dak id="2" name1="坦伯特" />
+    <Dak id="3" name1="夏尔绿谷" />
+    <Dak id="4" name1="奥普斯" />
+    <Dak id="5" name1="天雪镇" name2="瑶池碧潭" name3="白龙谷" name4="福临镇" name5="南关" name6="北风岗" name7="魔冥山" />
+    <Dak id="6" name1="天雪山" name2="瑶池碧潭" name3="白龙谷" name4="福临镇" name5="南关" name6="北风岗" name7="魔冥山" />
+    <Dak id="7" name1="天雪山" name2="天雪镇" name3="白龙谷" name4="福临镇" name5="南关" name6="北风岗" name7="魔冥山" />
+    <Dak id="8" name1="天雪山" name2="天雪镇" name3="瑶池碧潭" name4="福临镇" name5="南关" name6="北风岗" name7="魔冥山" />
+    <Dak id="9" name1="天雪山" name2="天雪镇" name3="瑶池碧潭" name4="白龙谷" name5="南关" name6="北风岗" name7="魔冥山" />
+    <Dak id="10" name1="天雪山" name2="天雪镇" name3="瑶池碧潭" name4="白龙谷" name5="福临镇" name6="北风岗" name7="魔冥山" />
+    <Dak id="11" name1="天雪山" name2="天雪镇" name3="瑶池碧潭" name4="白龙谷" name5="福临镇" name6="南关" name7="魔冥山" />
+    <Dak id="12" name1="天雪山" name2="天雪镇" name3="瑶池碧潭" name4="白龙谷" name5="福临镇" name6="南关" name7="北风岗" />
+    <Dak id="13" name1="虎啸林" name2="龙源森" name3="武岩城" name4="凤山林" name5="太平坡" name6="莲花池" />
+    <Dak id="14" name1="曲寨" name2="龙源森" name3="武岩城" name4="凤山林" name5="太平坡" name6="莲花池" />
+    <Dak id="15" name1="曲寨" name2="虎啸林" name3="武岩城" name4="凤山林" name5="太平坡" name6="莲花池" />
+    <Dak id="16" name1="曲寨" name2="虎啸林" name3="龙源森" name4="凤山林" name5="太平坡" name6="莲花池" />
+    <Dak id="17" name1="曲寨" name2="虎啸林" name3="龙源森" name4="武岩城" name5="太平坡" name6="莲花池" />
+    <Dak id="18" name1="曲寨" name2="虎啸林" name3="龙源森" name4="武岩城" name5="凤山林" name6="莲花池" />
+    <Dak id="19" name1="曲寨" name2="虎啸林" name3="龙源森" name4="武岩城" name5="凤山林" name6="太平坡" />
+    <Dak id="20" name1="伊多村" name2="古茶山" name3="纳溪沼泽" name4="澜沧坡" name5="泪海沼泽" />
+    <Dak id="21" name1="通天路" name2="古茶山" name3="纳溪沼泽" name4="澜沧坡" name5="泪海沼泽" />
+    <Dak id="22" name1="通天路" name2="伊多村" name3="纳溪沼泽" name4="澜沧坡" name5="泪海沼泽" />
+    <Dak id="23" name1="通天路" name2="伊多村" name3="古茶山" name4="澜沧坡" name5="泪海沼泽" />
+    <Dak id="24" name1="通天路" name2="伊多村" name3="古茶山" name4="纳溪沼泽" name5="泪海沼泽" />
+    <Dak id="25" name1="通天路" name2="伊多村" name3="古茶山" name4="纳溪沼泽" name5="澜沧坡" />
+    <Dak id="50" name1="北洲天雪" name2="西洲幻林" name3="南洲迷沼" name4="东洲冥山" name5="妖精农场" />
+    <Dak id="51" name1="斗战天城" name2="西洲幻林" name3="南洲迷沼" name4="东洲冥山" name5="妖精农场" />
+    <Dak id="52" name1="斗战天城" name2="北洲天雪" name3="南洲迷沼" name4="东洲冥山" name5="妖精农场" />
+    <Dak id="53" name1="斗战天城" name2="北洲天雪" name3="西洲幻林" name4="东洲冥山" name5="妖精农场" />
+    <Dak id="54" name1="天兆谷" name2="青岭沟" name3="东岭村" name4="月牙泉" name5="冥山" name6="平乐坡" name7="翠玉乡" name8="日月山" />
+    <Dak id="55" name1="肃界沙漠" name2="青岭沟" name3="东岭村" name4="月牙泉" name5="冥山" name6="平乐坡" name7="翠玉乡" name8="日月山" />
+    <Dak id="56" name1="肃界沙漠" name2="天兆谷" name3="东岭村" name4="月牙泉" name5="冥山" name6="平乐坡" name7="翠玉乡" name8="日月山" />
+    <Dak id="57" name1="肃界沙漠" name2="天兆谷" name3="青岭沟" name4="月牙泉" name5="冥山" name6="平乐坡" name7="翠玉乡" name8="日月山" />
+    <Dak id="58" name1="肃界沙漠" name2="天兆谷" name3="青岭沟" name4="东岭村" name5="冥山" name6="平乐坡" name7="翠玉乡" name8="日月山" />
+    <Dak id="59" name1="肃界沙漠" name2="天兆谷" name3="青岭沟" name4="东岭村" name5="月牙泉" name6="平乐坡" name7="翠玉乡" name8="日月山" />
+    <Dak id="60" name1="肃界沙漠" name2="天兆谷" name3="青岭沟" name4="东岭村" name5="月牙泉" name6="冥山" name7="翠玉乡" name8="日月山" />
+    <Dak id="61" name1="肃界沙漠" name2="天兆谷" name3="青岭沟" name4="东岭村" name5="月牙泉" name6="冥山" name7="平乐坡" name8="日月山" />
+    <Dak id="62" name1="肃界沙漠" name2="天兆谷" name3="青岭沟" name4="东岭村" name5="月牙泉" name6="冥山" name7="平乐坡" name8="翠玉乡" />
+    <Dak id="63" name1="斗战天城" name2="北洲天雪" name3="西洲幻林" name4="南洲迷沼" name5="妖精农场" />
+    <Dak id="64" name1="斗战天城" />
+    <Dak id="65" name1="妖精农场" />
+    <Dak id="70" name1="天雪山" name2="天雪镇" name3="瑶池碧潭" name4="白龙谷" name5="福临镇" name6="南关" name7="北风岗" name8="魔冥山" />
+    <Dak id="71" name1="曲寨" name2="虎啸林" name3="龙源森" name4="武岩城" name5="凤山林" name6="太平坡" name7="莲花池" />
+    <Dak id="72" name1="通天路" name2="伊多村" name3="古茶山" name4="纳溪沼泽" name5="澜沧坡" name6="泪海沼泽" />
+    <Dak id="73" name1="肃界沙漠" name2="天兆谷" name3="青岭沟" name4="东岭村" name5="月牙泉" name6="冥山" name7="平乐山" name8="翠玉山" name9="日月山" />
+    <Dak id="80" name1="黑暗学院门口" />
+    <Dak id="81" name1="白银魔窟门口" />
+    <Dak id="82" name1="寒冰魔域门口" />
+    <Dak id="83" name1="裁决之所门口" />
+    <Dak id="84" name1="迷幻仙宫门口" />
+    <Dak id="85" name1="幽冥神殿门口" />
+    <Dak id="86" name1="天界花园" />
+    <Dak id="87" name1="博博罗曼村" />
+    <Dak id="88" name1="斗战天城" />
+    <Dak id="89" name1="交易所中心广场" />
+</root>

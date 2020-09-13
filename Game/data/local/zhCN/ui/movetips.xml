@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<desktop>
+    <UIControl Name="move_tip" ClassName="CGUIStaticEx" BottomMost="yes" LogicPos_x="321" LogicPos_y="576" Size_x="512" Size_y="34" AlignControl="\desktop\mshortcutbar_win" AlignType="OuterTop" AlignOffset_x="248" Font="龙字体" FontHeight="14" TextRect_left="40" TextRect_top="2" TextRect_right="512" TextRect_bottom="34" TextColor="0xFFFFFFFF" ShadeColor="0xFF000000" PicFileName="data\ui\main\movetips.bmp" PicColor="0xFFFFFFFF" RowHeight="2" />
+</desktop>

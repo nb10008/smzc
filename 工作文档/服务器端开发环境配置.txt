@@ -1,0 +1,180 @@
+【关于《龙》服务器端开发以及配置说明】
+1、安装dx9，2004 summer版本，见\\share\程序 (F)\软件安装\DXSDK\dx9sdk_sum2004.rar
+2、安装mysql5.1，或者其sdk
+3、安装wxWidgets，\\share\程序 (F)\软件安装\wxWidgets，
+4、安装lua调试工具，\\share\程序 (F)\软件安装\Decoda
+5、建立自己的环境变量，并配置进vs2005的inc/lib目录里面去
+6、需要注意的是，我们一般采用的是xp操作系统，如果采用2003server版本的系统，需要配置dx9，在命令行输入dxdiag，在‘显示’标签页中，将directdraw，direct3d，agp纹理加速等打开
+   同时，需要在2003中，将数据执行保护做限制（我的电脑，右键，选择‘高级’--》性能--》设置--》数据执行保护--》只为关键windows程序和服务启用数据执行保护）。
+【运行配置】
+1、配置server_config\db\,.\login,.\world中的ini文件，指向正确的数据库
+	1.1 world\world.ini配置
+	  server项
+	    port，指定world服务器的端口号
+	  world项
+	    id、name等，必须与db、login中配置的对应值相同
+	  db_server项
+	    ip、port等key指出db服务器的位置信息
+	  login_server项
+	    ip、port等key指出login服务器的位置
+
+	1.2 world\maplist.ini
+	  map项
+	    num，指出world服务器挂载地图的个数
+	    mapx，指出具体挂载那张地图，x从1开始的自然数
+	  born_map项
+	    name，出生地图，新建角色的默认地图
+	  prison_map项
+	    name，牢狱地图
+	  initial_map
+	    num，新手村副本开启个数，born_map也就是新手村，这个参数，指出这个副本开启的个数
+
+	1.3 db\world.ini
+	  section
+	    id，需要与world\world.ini中的配置相同
+	  world
+	    id、name需要与world\world.ini中的相同，注意name中的名字xxx，需要在db\xxx.ini文件相对应，用于指定db服务器连接的mysql数据库信息
+	  ip、port指出db服务信息
+
+	1.4 db\xxx.ini 指出mysql数据库连接信息
+	  world 与world\world.ini中相关信息要相同
+	  db_game、db_log、db_login分别指出游戏世界数据库、log数据库、login数据库连接信息
+
+	1.5 login\login.ini
+	  version项
+	    version，指出当前服务器的版本号，与客户端lancher中的版本信息要一直
+	  serction 要与world,db\world.ini中相应项一致
+	  zone_server
+	    num，指出该大区，world服个数
+	  zonex 世界（含db）服务器信息
+	    id，name与world,db\world.ini中的相应值一致
+	  database login数据库连接信息
+	  proof 验证策略
+
+【数据库配置】
+1、所需工具
+	我们使用SQLyog，用于配置管理数据库（异构环境），安装文件在：\\share\程序 (F)\软件安装\MYSQL\HAB_SQLyouEE502.rar
+2、所需数据库
+	见具体的sql文件
+3、拷贝历史数据的注意事项
+	对于新建数据库来说，配置一些必要的测试数据非常关键，一般可以从质检部数据库，copy数据，在使用SQLYog工具时，可以使用右键菜单中的“拷贝数据至不同数据库”菜单项，并在随后的弹出对话框内选择select all；并在目标内容区，选择目标数据库，根据情况复选是否删除目标数据库中已存在的表，以及拷贝表结构和内容，还是只拷贝表结构。
+	需要注意的是，执行此操作时，须谨慎（最好征得对方同意），不确定的选择，不要轻易执行，以避免损坏源数据库内容或者结构，给其他同事造成不便。
+
+【其他工具】
+1、bug工具，TestTrack，安装文件在：\\share\程序 (F)\软件安装\必装\TestTrack8.2.0.rar
+2、版本管理，SVN，安装文件在：\\share\程序 (F)\软件安装\SVN\client\TortoiseSVN-1.6.5.16974-win32-svn-1.6.5.msi
+3、wxWidgets，该开发包，用于服务器端的一些UI程序（包括地图编辑器，RTClient，GMTool等）。SDK文件在：\\share\程序 (F)\软件安装\wxWidgets，可以直接拷贝里面的wxWidget目录
+4、BoundsCheck，该工具用于检查内存泄露等问题，可与VS2003配合工作，但是不能与VS2005兼容（目前还是有问题）。
+5、IncrediBuild，分布式编译工具，\\share\程序 (F)\分布式编译工具，安装client端，协调器（服务器），配置为：Tr-166，端口等配置保持默认即可，附带延期方法
+	IncrediBuild Coordinator没有超期的情况下，其他agent超期可以用下面的方法：
+	首先停止incredibuild agent服务，然后，在注册表里搜这个{B7348B5D-B65D-4BF5-AF63-A3135249ACA7}；删除ProxyStubClsid32；开启incredibuild agent服务，即可完成延期
+	incredibuild coordinator延期方法同上，不过，最好的办法就是卸载掉incredibuild coordinator，删除整个{B7348B5D-B65D-4BF5-AF63-A3135249ACA7}键。重新安装incredibuild coordinator。
+
+
+6、vc远程调试工具，\\share\程序 (F)\VC远程调试工具，这个是vs附带的工具，我们也把他放进share里面。可以使用它调试质检部的服务器客户端程序。
+7、lua脚本调试工具，\\share\程序 (F)\软件安装\Decoda\Decoda_LUADebug.rar，可以用它编辑和调试lua脚本：
+	安装后，打开Decoda，从file菜单中打开需要调试的lua脚本文件，在debug菜单中选择‘start debugging’,在弹出菜单中的debugging区域，选择command二进制程序（宿主程序，类似调试dll的办法），以及配置随后的command参数（有的话，没有不填），选择working工作目录，选择二进制文件的symbols符号表文件所在的路径。按ok后，便启动宿主程序，待执行到lua脚本的断点处，便可以调试了，只是不能更改脚本中的变量值。
+8、windug，安装文件：\\share\程序 (F)\软件安装\辅助\windebug，安装后，需要将symbols目录拷贝到自己操作系统的symbols目录，如C:\WINDOWS\Symbols
+9、vc助手，安装文件：\\share\程序 (F)\软件安装\必装\Visual.Assist.X.v10.5.1727.0.WinALL.Cracked-BRD.rar
+
+【常见问题】
+1、客户端无法进入选人界面，或者无法进入游戏世界，一般与roledata表有关，这时候及时更新xxx_update.sql一般就可以解决。
+2、客户端进入游戏世界，显示异常，或者导致client崩溃，这种现象，一般与协议体不同步有关系。
+3、1.5.0版本加入了pvp，因此，必须在\server_config\world\maplist.ini里面加上a06地图，否则world无法启动成功，现象是在加载地图资源后，提示AthleticsRoom Init初始化失败。
+【代码提交】
+1、loongresearch是策划与程序共享的开发库，每天早上都会编译，因此，要求大家要成每天及时update的习惯；
+2、提交代码的log内容，要严格遵循《代码提交规范.txt》文档内容；
+3、提交代码前一定要先update，合并其他同事的代码后（如有冲突，找干系人解决），再提交，否则可能会覆盖其他同事的修改。
+【TSFPTrunk】
+1.返回函数指针的函数。
+如DWORD (WINAPI* sfp0(T f))()，其实就是函数sfp0返回DWORD (__stdcall *)()类型的函数指针，因此它能放入以全局函数指针为参数的函数中，如createthread等。对象方法调用，vc编译器会将this通过ECX传入函数（borland是通过EAX），stdcall要求调用者压参数入栈，被调用函数清理栈（返回值通过EAX或者栈内变量传递）等。另外，x86cpu是不定长多字节指令集，因此，机器码有对齐用的空指令。
+4.2.反汇编
+m_Code0反汇编如下
+mov         ecx,dword ptr ds:[对象地址]
+nop
+nop
+call        dword ptr ds:[对象内方法偏址]
+ret         0
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+
+m_Code1
+mov         ecx,dword ptr ds:[ 对象地址]
+pop         eax
+pop         edx
+push        edx
+push        eax
+push        edx
+nop
+call        dword ptr ds:[ 对象内方法偏址]
+ret         4	// 栈帧退回4个字节（一个四字节参数）
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+
+m_Code2
+pop         ecx
+pop         eax
+pop         edx
+push        edx
+push        eax
+push        ecx
+push        edx
+push        eax 
+mov         ecx,dword ptr ds:[ 对象地址]
+call        dword ptr ds:[ 对象内方法偏址]
+ret         8
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+
+m_Code3
+mov         eax,dword ptr [esp+0Ch]
+mov         ecx,dword ptr [esp+8]
+mov         edx,dword ptr [esp+4]
+push        eax
+push        ecx
+push        edx
+nop
+mov         ecx,dword ptr ds:[对象地址]
+call        dword ptr ds:[方法偏址]
+ret         0Ch
+nop
+
+m_Code4
+mov         eax,dword ptr [esp+10h]
+mov         ecx,dword ptr [esp+0Ch]
+mov         edx,dword ptr [esp+8]
+push        eax
+mov         eax,dword ptr [esp+8]
+push        ecx
+mov         ecx,dword ptr ds:[对象地址]
+push        edx
+push        eax
+call        dword ptr ds:[方法偏址]
+ret         10h
+nop
+nop
+nop
+nop
+nop
+

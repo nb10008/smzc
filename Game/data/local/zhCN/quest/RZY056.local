@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40056" />
+    <entry Name="火桃酱面包" />
+    <entry Conditions="" />
+    <entry Overview="将&lt;I&gt;香果&lt;/I&gt;拿到&lt;N&gt;妖精农场&lt;/N&gt;的&lt;M&gt;&lt;L=s51,5800077&gt;食物加工台&lt;/L&gt;&lt;/M&gt;制作出&lt;I&gt;香果粉&lt;/I&gt;，然后到&lt;M&gt;&lt;L=s51,5800076&gt;大锅&lt;/L&gt;&lt;/M&gt;那里选择制作&lt;I&gt;火桃酱面包&lt;/I&gt;。将&lt;I&gt;火桃酱面包&lt;/I&gt;包交给&lt;N&gt;斗战天城&lt;/N&gt;的&lt;D&gt;&lt;L=s02,5800084&gt;妖精芙希希&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

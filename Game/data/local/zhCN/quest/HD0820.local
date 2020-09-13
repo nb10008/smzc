@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30820" />
+    <entry Name="消灭光天使" />
+    <entry Conditions="" />
+    <entry Overview="光天使&lt;A&gt;赫迪鲁斯&lt;/A&gt;可能会于18：00在&lt;N&gt;七花之海&lt;/N&gt;随机地点出现，将其击杀后回复斗战天城&lt;D&gt;&lt;L=s02,5516025&gt;受伤的勇士&lt;/L&gt;&lt;/D&gt;" />
+</quest-local>

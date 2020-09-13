@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20621" />
+    <entry Name="勇者索尔" />
+    <entry Conditions="" />
+    <entry Overview="升至&lt;C&gt;88&lt;/C&gt;级后往南走，找到&lt;D&gt;&lt;L=s08,5010207&gt;索尔&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

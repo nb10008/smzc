@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<item name="11001" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【七花之海】的【卡斯坦洞穴】击杀&lt;M&gt;&lt;L=d01,1020016&gt;维特拉&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11002" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【奔雷裂谷】击杀&lt;M&gt;&lt;L=s04,1030018&gt;控灵魔女&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11003" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【奔雷裂谷】击杀&lt;M&gt;&lt;L=s04,1030019&gt;熔岩领主&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11004" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【北洲天雪】的【白龙洞】击杀&lt;M&gt;&lt;L=d03,1040043&gt;寒狼之王&lt;/L&gt;&lt;/M&gt;、【北洲天雪】的&lt;M&gt;&lt;L=s05,1040044&gt;圣凯尔&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11005" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【北洲天雪】击杀&lt;M&gt;&lt;L=s05,1040046&gt;嗜血之王&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s05,1040044&gt;圣凯尔&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11006" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【北洲天雪】的【冷心洞】击杀&lt;M&gt;&lt;L=d04,1040047&gt;蛇妖杜莎梅&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L= d04,1040048&gt;蛇妖杜莎拉&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11007" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【北洲天雪】击杀&lt;M&gt;&lt;L=s05,1040045&gt;流窜匪首&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s05,1040049&gt;北洲人王&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11008" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【西洲幻林】击杀&lt;M&gt;&lt;L=s06,1050037&gt;幻林蝶王&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s06,1050038&gt;紫色妖姬&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11009" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【西洲幻林】击杀&lt;M&gt;&lt;L=s06,1050041&gt;痛苦之王&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s06,1050038&gt;紫色妖姬&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11010" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【西洲幻林】击杀&lt;M&gt;&lt;L=s06,1050041&gt;痛苦之王&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s06,1050042&gt;魔蝶紫罗兰&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11011" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【南洲迷沼】击杀&lt;M&gt;&lt;L=s06,1060047&gt;突袭者首领&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s07,1060048&gt;妖迷王&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s06,1060049&gt;暗杀王血魔&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11012" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【南洲迷沼】的【石狼洞】击杀&lt;M&gt;&lt;L=d07,1060051&gt;武者伐天&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=d07,1060052&gt;九天石魔&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=d07,1060053&gt;风影&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11013" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【南洲迷沼】击杀&lt;M&gt;&lt;L=s07,1060054&gt;摄魂女皇&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s07,1060055&gt;南沼原神首领&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11014" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【东洲冥山】击杀&lt;M&gt;&lt;L=s08,1070073&gt;魔舞之花&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s08,1070074&gt;千人杀米雪&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s08,1070075&gt;护法雷芒&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11015" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【东洲冥山】的【地洞】击杀&lt;M&gt;&lt;L=s08,1070076&gt;风斩&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s08,1070077&gt;万年走尸/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s08,1070078&gt;万石之魂&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11016" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【东洲冥山】击杀&lt;M&gt;&lt;L=s08,1070079&gt;大地割裂之王&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s08,1070080&gt;鬼箭&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="11017" value="&lt;N&gt;猎魔使者&lt;/N&gt;请你前去【东洲冥山】击杀&lt;M&gt;&lt;L=s08,1070082&gt;冥山山王&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s08,1070085&gt;毒血&lt;/L&gt;&lt;/M&gt;，然后回来找他领取奖励。\n \n    &lt;T&gt;[小提示：魔神的咆哮活动会在每周三、六的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12001" value="前往【七花之海】击杀&lt;M&gt;&lt;L=s03,1020004&gt;奇琏花&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s03,1020005&gt;食人龙&lt;/L&gt;&lt;/M&gt;、【七花之海】的【卡斯坦洞穴】&lt;M&gt;&lt;L=d01,1020014&gt;黑暗野人&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12002" value="前往【奔雷裂谷】击杀&lt;M&gt;&lt;L=s04,1030002&gt;裂谷红龙&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s04,1030003&gt;裂谷魔灵&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s04,1030014&gt;布多巨岩&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12003" value="前往【奔雷裂谷】击杀&lt;M&gt;&lt;L=s04,1030007&gt;科罗拉巨龙&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s04,1030006&gt;裂谷白龙&lt;/L&gt;&lt;/M&gt;、【奔雷裂谷】的【岩祖洞】的&lt;M&gt;&lt;L=d02,1030017&gt;魔岩&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12004" value="请往【北洲天雪】击杀&lt;M&gt;&lt;L=s05,1040001&gt;雪地猪&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s05,1040003&gt;雪地强盗&lt;/L&gt;&lt;/M&gt;、【北洲天雪】的【白龙洞】&lt;M&gt;&lt;L=d03,1040033&gt;精英猎杀者&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12005" value="前往【北洲天雪】击杀&lt;M&gt;&lt;L=s05,1040012&gt;疯狂堕落天人&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s05,1040021&gt;魔狼&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s05,1040035&gt;风雪袭击者&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12006" value="前往【北洲天雪】的【冷心洞】击杀&lt;M&gt;&lt;L=d04,1040024&gt;冰洞蛇妖&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=d04,1040025&gt;零度蛇妖&lt;/L&gt;&lt;/M&gt;、【北洲天雪】的&lt;M&gt;&lt;L=s05,1040036&gt;雪地守护者&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12007" value="前往【北洲天雪】击杀&lt;M&gt;&lt;L=s05,1040026&gt;魔冥鬼师&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s05,1040027&gt;丧心暴徒&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s05,1040038&gt;雪地狂野人&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12008" value="前往【西洲幻林】击杀&lt;M&gt;&lt;L=s06,1050001&gt;幻林野猪&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s06,1050003&gt;幻林蝶精&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s06,1050027&gt;变异的巨熊&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12009" value="前往【西洲幻林】的【仙淼洞】击杀&lt;M&gt;&lt;L=d05,1050010&gt;三鬼力士&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=d05,1050012&gt;三鬼巫师&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=d05,1050029&gt;三鬼高级刺客&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12010" value="前往【西洲幻林】击杀&lt;M&gt;&lt;L=s06,1050017&gt;三鬼教徒&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s06,1050018&gt;三鬼教众&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s06,1050034&gt;三鬼强力杀手&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12011" value="前往【南洲迷沼】击杀&lt;M&gt;&lt;L=s07,1060008&gt;妖化野人&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s07,1060007&gt;痛苦野人&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s07,1060034&gt;精英突袭者&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12012" value="前往【南洲迷沼】的【石狼洞】击杀&lt;M&gt;&lt;L=d07,1060016&gt;南蛮女武者&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=d07,1060017&gt;南蛮男武士&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=d07,1060040&gt;沼泽巨魔熊&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12013" value="前往【南洲迷沼】击杀&lt;M&gt;&lt;L=s07,1060023&gt;嗜血蛇妖&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s07,1060028&gt;大型沼泽鳄鱼&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s07,1060044&gt;精英撕裂者&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12014" value="前往【东洲冥山】击杀&lt;M&gt;&lt;L=s08,1070002&gt;石皮野熊&lt;/L&gt;&lt;/M&gt;、【东洲冥山】的【山隐秘窟】&lt;M&gt;&lt;L=d11,1070009&gt;痛苦的灵魂&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s08,1070053&gt;原神精英教徒&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12015" value="前往【东洲冥山】击杀&lt;M&gt;&lt;L=s08,1070015&gt;狂风刀手&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s08,1070016&gt;狂风喽啰&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s08,1070056&gt;原神强力僵尸&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12016" value="前往【东洲冥山】的【狂沙穴】击杀&lt;M&gt;&lt;L=d09,1070028&gt;熔岩凝聚者&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=d09,1070029&gt;熔岩核魔&lt;/L&gt;&lt;/M&gt;、【东洲冥山】&lt;M&gt;&lt;L=s08,1070050&gt;狂风精英劫匪&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="12017" value="前往【东洲冥山】击杀&lt;M&gt;&lt;L=s08,1070035&gt;被放逐的蛮人&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s08,1070069&gt;原神精英战将&lt;/L&gt;&lt;/M&gt;、【东洲冥山】【原神圣殿】的&lt;M&gt;&lt;L=d08,1070042&gt;恐怖卫士&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;天界战神&lt;/N&gt;，换取丰厚奖励！\n \n    &lt;T&gt;[小提示：战神的荣耀活动会在每周一或周四的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;"/>
+	<item name="13001" value="前往【北洲天雪】击杀&lt;A&gt;50&lt;/A&gt;只&lt;M&gt;&lt;L=s05,1040013&gt;白熊&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13002" value="前往【北洲天雪】击杀&lt;A&gt;50&lt;/A&gt;只&lt;M&gt;&lt;L=s05,1040014&gt;雪地熊&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13003" value="前往【北洲天雪】的【冷心洞】击杀&lt;A&gt;50&lt;/A&gt;只&lt;M&gt;&lt;L=d04,1040024&gt;冰洞蛇妖&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13004" value="前往【北洲天雪】击杀&lt;A&gt;50&lt;/A&gt;只&lt;M&gt;&lt;L=s05,1040019&gt;雪地蓝魔&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13005" value="前往【北洲天雪】击杀&lt;A&gt;50&lt;/A&gt;只&lt;M&gt;&lt;L=s05,1040026&gt;魔冥鬼师&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13006" value="前往【北洲天雪】击杀&lt;A&gt;50&lt;/A&gt;只&lt;M&gt;&lt;L=s05,1040020&gt;天魔妖女&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13007" value="前往【西洲幻林】击杀&lt;A&gt;50&lt;/A&gt;只&lt;M&gt;&lt;L=s06,1050004&gt;三鬼信徒&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13008" value="前往【西洲幻林】击杀&lt;A&gt;50&lt;/A&gt;只&lt;M&gt;&lt;L=s06,1050005&gt;三鬼门徒&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13009" value="前往【西洲幻林】击杀&lt;A&gt;50&lt;/A&gt;只&lt;M&gt;&lt;L=s06,1050006&gt;三鬼魔灵&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13010" value="前往【西洲幻林】击杀&lt;A&gt;50&lt;/A&gt;只&lt;M&gt;&lt;L=s06,1050014&gt;幻林绿速龙&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13011" value="前往【西洲幻林】击杀&lt;A&gt;50&lt;/A&gt;只&lt;M&gt;&lt;L=s06,1050015&gt;幻林红速龙&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13012" value="前往【西洲幻林】击杀&lt;A&gt;50&lt;/A&gt;只&lt;M&gt;&lt;L=s06,1050016&gt;五鬼苦修者&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13013" value="前往【西洲幻林】击杀&lt;A&gt;70&lt;/A&gt;只&lt;M&gt;&lt;L=s06,1050021&gt;三鬼先知&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13014" value="前往【西洲幻林】击杀&lt;A&gt;70&lt;/A&gt;只&lt;M&gt;&lt;L=s06,1050022&gt;三鬼刽子手&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13015" value="前往【西洲幻林】的【武岩洞】击杀&lt;A&gt;70&lt;/A&gt;只&lt;M&gt;&lt;L=d06,1050023&gt;三鬼野蛮人&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13016" value="前往【南洲迷沼】击杀&lt;A&gt;70&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060006&gt;丛林突袭者&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13017" value="前往【南洲迷沼】击杀&lt;A&gt;70&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060005&gt;丛林袭击者&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13018" value="前往【南洲迷沼】击杀&lt;A&gt;70&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060007&gt;痛苦野人&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13019" value="前往【南洲迷沼】击杀&lt;A&gt;90&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060014&gt;沼泽巨鳄&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13020" value="前往【南洲迷沼】击杀&lt;A&gt;90&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060015&gt;沼泽食人花&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13021" value="前往【南洲迷沼】击杀&lt;A&gt;90&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060013&gt;饥饿蛇妖&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13022" value="前往【南洲迷沼】击杀&lt;A&gt;90&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060022&gt;残忍蛇妖&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13023" value="前往【南洲迷沼】击杀&lt;A&gt;90&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060023&gt;嗜血蛇妖&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13024" value="前往【南洲迷沼】击杀&lt;A&gt;90&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060024&gt;死亡凝视者&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13025" value="前往【东洲冥山】击杀&lt;A&gt;100&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070002&gt;石皮野熊&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13026" value="前往【东洲冥山】击杀&lt;A&gt;100&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070004&gt;狂风劫匪&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13027" value="前往【东洲冥山】击杀&lt;A&gt;100&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070005&gt;狂风强盗&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13028" value="前往【东洲冥山】击杀&lt;A&gt;100&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070008&gt;良田破坏者&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13029" value="前往【东洲冥山】击杀&lt;A&gt;100&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070014&gt;原神教刺客&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13030" value="前往【东洲冥山】击杀&lt;A&gt;100&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070015&gt;狂风刀手&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13031" value="前往【东洲冥山】击杀&lt;A&gt;100&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070016&gt;狂风喽啰&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13032" value="前往【东洲冥山】击杀&lt;A&gt;100&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070017&gt;狂风放蛊者&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13033" value="前往【东洲冥山】击杀&lt;A&gt;120&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070023&gt;冥山龙&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13034" value="前往【东洲冥山】击杀&lt;A&gt;120&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070024&gt;嗜月血狼&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13035" value="前往【东洲冥山】击杀&lt;A&gt;120&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070025&gt;狂风魔盗&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13036" value="前往【东洲冥山】击杀&lt;A&gt;120&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070026&gt;发疯的恶徒&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13037" value="前往【东洲冥山】击杀&lt;A&gt;120&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070037&gt;狂风贵族&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13038" value="前往【东洲冥山】的【原神圣殿】击杀&lt;A&gt;120&lt;/A&gt;只&lt;M&gt;&lt;L=d08,1070039&gt;原神教护法&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13039" value="前往【东洲冥山】击杀&lt;A&gt;120&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070046&gt;地狱守卫&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13040" value="前往【东洲冥山】击杀&lt;A&gt;120&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070047&gt;地狱石魔&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13101" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集结晶、强化石、二等精铁、妖精之粉1级各5、5、2、3个"/>
+	<item name="13102" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集结晶、强化石、二等精铁、妖精之粉1级各5、5、2、3个"/>
+	<item name="13103" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集结晶、强化石、三等精铁、妖精之粉1级各5、5、2、3个"/>
+	<item name="13104" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集结晶、强化石、三等精铁、妖精之粉1级各5、5、2、3个"/>
+	<item name="13105" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集结晶、强化石、一等玄铁、妖精之粉2级各8、8、2、3个"/>
+	<item name="13106" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集结晶、强化石、一等玄铁、妖精之粉2级各8、8、2、3个"/>
+	<item name="13107" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集结晶、强化石、二等玄铁、妖精之粉2级各10、10、2、3个"/>
+	<item name="13108" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集结晶、强化石、二等玄铁、妖精之粉2级各10、10、2、3个"/>
+	<item name="13109" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集结晶、强化石、三等玄铁、妖精之粉3级各15、15、2、3个"/>
+	<item name="13110" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集结晶、强化石、三等玄铁、妖精之粉3级各15、15、2、3个"/>
+	<item name="13111" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集结晶、强化石、二等幻钢、妖精之粉3级各20、20、2、3个"/>
+	<item name="13112" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集结晶、强化石、二等幻钢、妖精之粉3级各20、20、2、3个"/>
+	<item name="13201" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;30&lt;/A&gt;个雪峰金钻，此物品可由击杀【北洲天雪】及其地穴的怪物得到"/>
+	<item name="13202" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;35&lt;/A&gt;个雪峰宝玉，此物品可由击杀【北洲天雪】及其地穴的怪物得到"/>
+	<item name="13203" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;40&lt;/A&gt;个幻林灵石，此物品可由击杀【西洲幻林】及其地穴的怪物得到"/>
+	<item name="13204" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;45&lt;/A&gt;个幻林宝玉，此物品可由击杀【西洲幻林】及其地穴的怪物得到"/>
+	<item name="13205" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;50&lt;/A&gt;个幻林金钻，此物品可由击杀【西洲幻林】及其地穴的怪物得到"/>
+	<item name="13206" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;55&lt;/A&gt;个迷沼宝玉，此物品可由击杀【南洲迷沼】及其地穴的怪物得到"/>
+	<item name="13207" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;60&lt;/A&gt;个迷沼天石，此物品可由击杀【南洲迷沼】及其地穴的怪物得到"/>
+	<item name="13208" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;65&lt;/A&gt;个玉龙山天钻，此物品可由击杀【南洲迷沼】及其地穴的怪物得到"/>
+	<item name="13209" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;70&lt;/A&gt;个平粱宝钻，此物品可由击杀【东洲冥山】及其地穴的怪物得到"/>
+	<item name="13210" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;75&lt;/A&gt;个冥山红玉，此物品可由击杀【东洲冥山】及其地穴的怪物得到"/>
+	<item name="13211" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;80&lt;/A&gt;个云蒙白金，此物品可由击杀【东洲冥山】及其地穴的怪物得到"/>
+	<item name="13212" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;85&lt;/A&gt;个黄龙晶玉，此物品可由击杀【东洲冥山】及其地穴的怪物得到"/>
+	<item name="13301" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;5&lt;/A&gt;个雪妖帽，此物品可由【北洲天雪】场景内的奇货商购得"/>
+	<item name="13302" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;5&lt;/A&gt;个雪麦，此物品可由【北洲天雪】场景内的奇货商购得"/>
+	<item name="13303" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;5&lt;/A&gt;个寒水鱼，此物品可由【北洲天雪】场景内的奇货商购得"/>
+	<item name="13304" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;5&lt;/A&gt;个冰封石，此物品可由【北洲天雪】场景内的奇货商购得"/>
+	<item name="13305" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;5&lt;/A&gt;个雪妖帽，此物品可由【北洲天雪】场景内的奇货商购得"/>
+	<item name="13306" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;5&lt;/A&gt;个雪麦，此物品可由【北洲天雪】场景内的奇货商购得"/>
+	<item name="13307" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;5&lt;/A&gt;个寒水鱼，此物品可由【北洲天雪】场景内的奇货商购得"/>
+	<item name="13308" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;5&lt;/A&gt;个冰封石，此物品可由【北洲天雪】场景内的奇货商购得"/>
+	<item name="13309" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;10&lt;/A&gt;个野猪牙，此物品可由【西洲幻林】场景内的奇货商购得"/>
+	<item name="13310" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;10&lt;/A&gt;个蝶精粉尘，此物品可由【西洲幻林】场景内的奇货商购得"/>
+	<item name="13311" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;10&lt;/A&gt;个速龙之牙，此物品可由【西洲幻林】场景内的奇货商购得"/>
+	<item name="13312" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;10&lt;/A&gt;个速龙之爪，此物品可由【西洲幻林】场景内的奇货商购得"/>
+	<item name="13313" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;10&lt;/A&gt;个野猪牙，此物品可由【西洲幻林】场景内的奇货商购得"/>
+	<item name="13314" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;10&lt;/A&gt;个蝶精粉尘，此物品可由【西洲幻林】场景内的奇货商购得"/>
+	<item name="13315" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;10&lt;/A&gt;个速龙之牙，此物品可由【西洲幻林】场景内的奇货商购得"/>
+	<item name="13316" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;10&lt;/A&gt;个速龙之爪，此物品可由【西洲幻林】场景内的奇货商购得"/>
+	<item name="13317" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;15&lt;/A&gt;个狼人之爪，此物品可由【南洲迷沼】场景内的奇货商购得"/>
+	<item name="13318" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;15&lt;/A&gt;个迷沼鳄的牙，此物品可由【南洲迷沼】场景内的奇货商购得"/>
+	<item name="13319" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;15&lt;/A&gt;个黑沼泥，此物品可由【南洲迷沼】场景内的奇货商购得"/>
+	<item name="13320" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;15&lt;/A&gt;个蛇妖皮，此物品可由【南洲迷沼】场景内的奇货商购得"/>
+	<item name="13321" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;15&lt;/A&gt;个狼人之爪，此物品可由【南洲迷沼】场景内的奇货商购得"/>
+	<item name="13322" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;15&lt;/A&gt;个迷沼鳄的牙，此物品可由【南洲迷沼】场景内的奇货商购得"/>
+	<item name="13323" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;15&lt;/A&gt;个黑沼泥，此物品可由【南洲迷沼】场景内的奇货商购得"/>
+	<item name="13324" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;15&lt;/A&gt;个蛇妖皮，此物品可由【南洲迷沼】场景内的奇货商购得"/>
+	<item name="13325" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;20&lt;/A&gt;个狂风符，此物品可由【东洲冥山】场景内的奇货商购得"/>
+	<item name="13326" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;20&lt;/A&gt;个冥山木，此物品可由【东洲冥山】场景内的奇货商购得"/>
+	<item name="13327" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;20&lt;/A&gt;个朱红线，此物品可由【东洲冥山】场景内的奇货商购得"/>
+	<item name="13328" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;20&lt;/A&gt;个大兽牙，此物品可由【东洲冥山】场景内的奇货商购得"/>
+	<item name="13329" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;80&lt;/A&gt;个狂风符，此物品可由【东洲冥山】场景内的奇货商购得"/>
+	<item name="13330" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;80&lt;/A&gt;个冥山木，此物品可由【东洲冥山】场景内的奇货商购得"/>
+	<item name="13331" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;80&lt;/A&gt;个朱红线，此物品可由【东洲冥山】场景内的奇货商购得"/>
+	<item name="13332" value="为&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;收集&lt;A&gt;80&lt;/A&gt;个大兽牙，此物品可由【东洲冥山】场景内的奇货商购得"/>
+	<item name="13333" value="前往【北洲天雪】的【冷心洞】击杀&lt;A&gt;1&lt;/A&gt;个&lt;M&gt;&lt;L=d04,1040047&gt;蛇妖杜莎梅&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13334" value="前往【北洲天雪】击杀&lt;A&gt;1&lt;/A&gt;个&lt;M&gt;&lt;L=s05,1040045&gt;流窜匪首&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13335" value="前往【西洲幻林】击杀&lt;A&gt;1&lt;/A&gt;个&lt;M&gt;&lt;L=s06,1050037&gt;幻林蝶王&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13336" value="前往【西洲幻林】击杀&lt;A&gt;1&lt;/A&gt;个&lt;M&gt;&lt;L=s06,1050041&gt;痛苦之王&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13337" value="前往【西洲幻林】击杀&lt;A&gt;1&lt;/A&gt;个&lt;M&gt;&lt;L=s06,1050042&gt;魔蝶紫罗兰&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13338" value="前往【南洲迷沼】击杀&lt;A&gt;1&lt;/A&gt;个&lt;M&gt;&lt;L=s07,1060048&gt;妖迷王&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13339" value="前往【南洲迷沼】的【石狼洞】击杀&lt;A&gt;1&lt;/A&gt;个&lt;M&gt;&lt;L=d07,1060052&gt;九天石魔&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13340" value="前往【南洲迷沼】的【石狼洞】击杀&lt;A&gt;1&lt;/A&gt;个&lt;M&gt;&lt;L=d07,1060053&gt;风影&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13341" value="前往【东洲冥山】的【山隐秘窟】击杀&lt;A&gt;1&lt;/A&gt;个&lt;M&gt;&lt;L=d11,1070074&gt;千人杀米雪&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13342" value="前往【东洲冥山】击杀&lt;A&gt;1&lt;/A&gt;个&lt;M&gt;&lt;L=s08,1070073&gt;魔舞之花&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13343" value="前往【东洲冥山】击杀&lt;A&gt;1&lt;/A&gt;个&lt;M&gt;&lt;L=s08,1070075&gt;护法雷芒&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="13344" value="前往【东洲冥山】击杀&lt;A&gt;1&lt;/A&gt;个&lt;M&gt;&lt;L=s08,1070082&gt;冥山山王&lt;/L&gt;&lt;/M&gt;，然后回复&lt;N&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/N&gt;"/>
+	<item name="14001" value="在魔窟副本内击杀对应等级的&lt;M&gt;魔窟首领&lt;/M&gt;，之后回到斗战天城回复&lt;N&gt;&lt;L=s02,5510503&gt;魔窟嘉奖人&lt;/L&gt;&lt;/N&gt;。"/>
+	<item name="15001" value="前往【北洲天雪】击杀&lt;A&gt;40&lt;/A&gt;只&lt;M&gt;&lt;L=s05,1040021&gt;魔狼&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15002" value="前往【北洲天雪】击杀&lt;A&gt;40&lt;/A&gt;只&lt;M&gt;&lt;L=s05,1040023&gt;魅影刺客&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15003" value="前往【西洲幻林】击杀&lt;A&gt;40&lt;/A&gt;只&lt;M&gt;&lt;L=s06,1050001&gt;幻林野猪&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15004" value="前往【西洲幻林】击杀&lt;A&gt;40&lt;/A&gt;只&lt;M&gt;&lt;L=s06,1050007&gt;巨熊&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15005" value="前往【西洲幻林】击杀&lt;A&gt;60&lt;/A&gt;只&lt;M&gt;&lt;L=s06,1050017&gt;三鬼教徒&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15006" value="前往【南洲迷沼】击杀&lt;A&gt;60&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060005&gt;丛林袭击者&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15007" value="前往【南洲迷沼】击杀&lt;A&gt;75&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060011&gt;丛林暗杀者&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15008" value="前往【南洲迷沼】击杀&lt;A&gt;75&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060023&gt;嗜血蛇妖&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15009" value="前往【东洲冥山】击杀&lt;A&gt;90&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060032&gt;原神教卫兵&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15010" value="前往【东洲冥山】的【山隐秘窟】击杀&lt;A&gt;90&lt;/A&gt;只&lt;M&gt;&lt;L=d11,1070011&gt;原神教教徒&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15011" value="前往【东洲冥山】击杀&lt;A&gt;90&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070023&gt;冥山龙&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15012" value="前往【东洲冥山】击杀&lt;A&gt;90&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070048&gt;地狱巨岩&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15013" value="前往【北洲天雪】的【冷心洞】击杀&lt;A&gt;1&lt;/A&gt;只&lt;M&gt;&lt;L=d04,1040048&gt;蛇妖杜莎拉&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15014" value="前往【北洲天雪】击杀&lt;A&gt;1&lt;/A&gt;只&lt;M&gt;&lt;L=s05,1040049&gt;北洲人王&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15015" value="前往【西洲幻林】击杀&lt;A&gt;1&lt;/A&gt;只&lt;M&gt;&lt;L=s06,1050037&gt;幻林蝶王&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15016" value="前往【西洲幻林】击杀&lt;A&gt;1&lt;/A&gt;只&lt;M&gt;&lt;L=s06,1050041&gt;痛苦之王&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15017" value="前往【西洲幻林】击杀&lt;A&gt;1&lt;/A&gt;只&lt;M&gt;&lt;L=s06,1050042&gt;魔蝶紫罗兰&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15018" value="前往【南洲迷沼】击杀&lt;A&gt;1&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060048&gt;妖迷王&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15019" value="前往【南洲迷沼】的【石狼洞】击杀&lt;A&gt;1&lt;/A&gt;只&lt;M&gt;&lt;L=d07,1060052&gt;九天石魔&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15020" value="前往【南洲迷沼】击杀&lt;A&gt;1&lt;/A&gt;只&lt;M&gt;&lt;L=s07,1060054&gt;摄魂女皇&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15021" value="前往【东洲冥山】击杀&lt;A&gt;1&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070073&gt;魔舞之花&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15022" value="前往【东洲冥山】击杀&lt;A&gt;1&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070077&gt;万年走尸&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15023" value="前往【东洲冥山】击杀&lt;A&gt;1&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070080&gt;鬼箭&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="15024" value="前往【东洲冥山】击杀&lt;A&gt;1&lt;/A&gt;只&lt;M&gt;&lt;L=s08,1070085&gt;毒血&lt;/L&gt;&lt;/M&gt;，然后回复斗战天城的&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献,公会资金和资源奖励；公会资金的增加量随公会等级明显增加，人物等级也会影响资金获得量]"/>
+	<item name="16001" value="在&lt;N&gt;七花之海&lt;/N&gt;或者&lt;N&gt;奔雷裂谷&lt;/N&gt;找到&lt;M&gt;&lt;L=s03,5810004&gt;晶石使者&lt;/L&gt;&lt;/M&gt;进入&lt;N&gt;滚石巢穴&lt;/N&gt;，杀死里面的怪物然后将&lt;C&gt;15&lt;/C&gt;个&lt;I&gt;小型冰岩结晶&lt;/I&gt;、&lt;C&gt;6&lt;/C&gt;个&lt;I&gt;中型冰岩结晶&lt;/I&gt;、&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;巨型冰岩结晶带回来交给&lt;M&gt;&lt;L=s03,5510627&gt;悬赏使者&lt;/L&gt;&lt;/M&gt;。\n提示：必须和&lt;C&gt;50&lt;/C&gt;级以上的玩家组队才能进入滚石巢穴。"/>
+	<item name="16002" value="在&lt;N&gt;北洲天雪&lt;/N&gt;找到&lt;M&gt;&lt;L=s05,5810004&gt;晶石使者&lt;/L&gt;&lt;/M&gt;进入&lt;N&gt;碎石巢穴&lt;/N&gt;，杀死里面的怪物然后将&lt;C&gt;15&lt;/C&gt;个&lt;I&gt;小型熔岩结晶&lt;/I&gt;、&lt;C&gt;6&lt;/C&gt;个&lt;I&gt;中型熔岩结晶&lt;/I&gt;、&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;巨型熔岩结晶带回来交给&lt;M&gt;&lt;L=s05,5510627&gt;悬赏使者&lt;/L&gt;&lt;/M&gt;。\n提示：必须和&lt;C&gt;50&lt;/C&gt;级以上的玩家组队才能进入碎石巢穴。"/>
+	<item name="17001" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;七花之海&lt;/N&gt;,杀死&lt;C&gt;50&lt;/C&gt;只&lt;A&gt;&lt;L=s03,1020001&gt;幻蝶&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17002" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;七花之海&lt;/N&gt;,杀死&lt;C&gt;60&lt;/C&gt;只&lt;A&gt;&lt;L=s03,1020002&gt;灵蝶&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17003" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;七花之海&lt;/N&gt;,杀死&lt;C&gt;60&lt;/C&gt;只&lt;A&gt;&lt;L=s03_1,1020003&gt;幼食人龙&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17004" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;七花之海&lt;/N&gt;,杀死&lt;C&gt;60&lt;/C&gt;只&lt;A&gt;&lt;L=s03,1020004&gt;奇琏花&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17005" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;七花之海&lt;/N&gt;,杀死&lt;C&gt;60&lt;/C&gt;只&lt;A&gt;&lt;L=s03_1,1020005&gt;食人龙&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17006" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;七花之海&lt;/N&gt;,杀死&lt;C&gt;80&lt;/C&gt;只&lt;A&gt;&lt;L=s03,1020006&gt;迷蝶&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17007" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;七花之海&lt;/N&gt;,杀死&lt;C&gt;80&lt;/C&gt;只&lt;A&gt;&lt;L=s03,1020007&gt;蓝野人&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17008" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;卡斯坦洞穴&lt;/N&gt;,杀死&lt;C&gt;80&lt;/C&gt;只&lt;A&gt;&lt;L=d01,1020008&gt;地穴野人&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17009" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;卡斯坦洞穴&lt;/N&gt;,杀死&lt;C&gt;80&lt;/C&gt;只&lt;A&gt;&lt;L=d01,1020009&gt;地穴魔灵&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17010" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;七花之海&lt;/N&gt;,杀死&lt;C&gt;80&lt;/C&gt;只&lt;A&gt;&lt;L=s03,1020010&gt;绿野人&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17011" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;七花之海&lt;/N&gt;,杀死&lt;C&gt;80&lt;/C&gt;只&lt;A&gt;&lt;L=s03,1020010&gt;绿野人&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17012" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;奔雷裂谷&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s04,1030002&gt;裂谷红龙&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17013" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;奔雷裂谷&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s04,1030003&gt;裂谷魔灵&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17014" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;奔雷裂谷&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s04,1030004&gt;小石怪&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17015" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;奔雷裂谷&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s04,1030005&gt;愤怒的巨石&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17016" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;奔雷裂谷&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s04,1030006&gt;裂谷白龙&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17017" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;奔雷裂谷&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s04,1030007&gt;科罗拉巨龙&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17018" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;奔雷裂谷&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s04,1030008&gt;裂谷魔龙&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17019" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;岩祖洞&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=d02,1030009&gt;地心岩&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17020" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;奔雷裂谷&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s04,1030011&gt;废墟石元素&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17021" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;奔雷裂谷&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s04,1030013&gt;奔雷巨石&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17022" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040003&gt;雪地强盗&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17023" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040004&gt;邪魔妖女&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17024" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;白龙洞&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=d03,1040006&gt;寒龙&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17025" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;白龙洞&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=d03,1040007&gt;寒狼&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17026" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040008&gt;变异狼人&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17027" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040010&gt;堕落天人&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17028" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040012&gt;疯狂堕落天人&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17029" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040022&gt;嗜血狼人&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17030" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040021&gt;魔狼&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17031" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;冷心洞&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=d04,1040024&gt;冰洞蛇妖&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17032" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040013&gt;白熊&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17033" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040013&gt;白熊&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17034" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040015&gt;黑心盗猎者&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17035" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040017&gt;寒冰蝶&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17036" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040018&gt;流窜的匪徒&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17037" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040020&gt;天魔妖女&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17038" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040026&gt;魔冥鬼师&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17039" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040028&gt;堕落天将&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17040" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;250&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040031&gt;北洲霸占者&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17041" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;250&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050001&gt;幻林野猪&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17042" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;250&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050003&gt;幻林蝶精&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17043" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;250&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050004&gt;三鬼信徒&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17044" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;250&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050006&gt;三鬼魔灵&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17045" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;250&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050008&gt;魔琏花&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17046" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;250&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050009&gt;五鬼死士&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17047" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;仙淼洞&lt;/N&gt;,杀死&lt;C&gt;250&lt;/C&gt;只&lt;A&gt;&lt;L=d05,1050011&gt;三鬼蛮女&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17048" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;仙淼洞&lt;/N&gt;,杀死&lt;C&gt;250&lt;/C&gt;只&lt;A&gt;&lt;L=d05,1050012&gt;三鬼巫师&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17049" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;250&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050015&gt;幻林红速龙&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+	<item name="17050" value="这是一个新手特权悬赏任务，每天只能完成&lt;C&gt;5&lt;/C&gt;次。你需要前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;300&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050016&gt;五鬼苦修者&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;悬赏使者&lt;/D&gt;。"/>
+ 	<item name="18101" value="预言者盖拉请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;信仰之石&lt;/I&gt;。&lt;T&gt;信仰之石可以通过完成绿色以上悬赏榜任务来获得,完成该任务可以获得300点信仰。&lt;/T&gt;"/>
+ 	<item name="18102" value="预言者盖拉请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;信仰之石&lt;/I&gt;。&lt;T&gt;信仰之石可以通过完成绿色以上悬赏榜任务来获得,完成该任务可以获得300点信仰。&lt;/T&gt;"/>
+ 	<item name="18103" value="预言者盖拉请你收集&lt;C&gt;4&lt;/C&gt;个&lt;I&gt;信仰之石&lt;/I&gt;。&lt;T&gt;信仰之石可以通过完成绿色以上悬赏榜任务来获得,完成该任务可以获得300点信仰。&lt;/T&gt;"/>
+ 	<item name="18104" value="预言者盖拉请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;信仰之石&lt;/I&gt;。&lt;T&gt;信仰之石可以通过完成绿色以上悬赏榜任务来获得,完成该任务可以获得300点信仰。&lt;/T&gt;"/>
+ 	<item name="18105" value="预言者盖拉请你收集&lt;C&gt;6&lt;/C&gt;个&lt;I&gt;信仰之石&lt;/I&gt;。&lt;T&gt;信仰之石可以通过完成绿色以上悬赏榜任务来获得,完成该任务可以获得300点信仰。&lt;/T&gt;"/>
+ 	<item name="18106" value="预言者盖拉请你收集&lt;C&gt;7&lt;/C&gt;个&lt;I&gt;信仰之石&lt;/I&gt;。&lt;T&gt;信仰之石可以通过完成绿色以上悬赏榜任务来获得,完成该任务可以获得300点信仰。&lt;/T&gt;"/>
+ 	<item name="18107" value="预言者盖拉请你收集&lt;C&gt;8&lt;/C&gt;个&lt;I&gt;信仰之石&lt;/I&gt;。&lt;T&gt;信仰之石可以通过完成绿色以上悬赏榜任务来获得,完成该任务可以获得300点信仰。&lt;/T&gt;"/>
+ 	<item name="18108" value="预言者盖拉请你收集&lt;C&gt;9&lt;/C&gt;个&lt;I&gt;信仰之石&lt;/I&gt;。&lt;T&gt;信仰之石可以通过完成绿色以上悬赏榜任务来获得,完成该任务可以获得300点信仰。&lt;/T&gt;"/>
+ 	<item name="18201" value="预言者盖拉请你收集&lt;C&gt;10&lt;/C&gt;个&lt;I&gt;纯净之石&lt;/I&gt;。&lt;T&gt;纯净之石可以通过使用净化药剂净化40级以上怪物掉落的诅咒之石获得,完成该任务可以获得200点信仰。&lt;/T&gt;"/>
+ 	<item name="18202" value="预言者盖拉请你收集&lt;C&gt;15&lt;/C&gt;个&lt;I&gt;纯净之石&lt;/I&gt;。&lt;T&gt;纯净之石可以通过使用净化药剂净化40级以上怪物掉落的诅咒之石获得,完成该任务可以获得200点信仰。&lt;/T&gt;"/>
+ 	<item name="18203" value="预言者盖拉请你收集&lt;C&gt;20&lt;/C&gt;个&lt;I&gt;纯净之石&lt;/I&gt;。&lt;T&gt;纯净之石可以通过使用净化药剂净化40级以上怪物掉落的诅咒之石获得,完成该任务可以获得200点信仰。&lt;/T&gt;"/>
+ 	<item name="18204" value="预言者盖拉请你收集&lt;C&gt;25&lt;/C&gt;个&lt;I&gt;纯净之石&lt;/I&gt;。&lt;T&gt;纯净之石可以通过使用净化药剂净化40级以上怪物掉落的诅咒之石获得,完成该任务可以获得200点信仰。&lt;/T&gt;"/>
+ 	<item name="18205" value="预言者盖拉请你收集&lt;C&gt;30&lt;/C&gt;个&lt;I&gt;纯净之石&lt;/I&gt;。&lt;T&gt;纯净之石可以通过使用净化药剂净化40级以上怪物掉落的诅咒之石获得,完成该任务可以获得200点信仰。&lt;/T&gt;"/>
+ 	<item name="18206" value="预言者盖拉请你收集&lt;C&gt;35&lt;/C&gt;个&lt;I&gt;纯净之石&lt;/I&gt;。&lt;T&gt;纯净之石可以通过使用净化药剂净化40级以上怪物掉落的诅咒之石获得,完成该任务可以获得200点信仰。&lt;/T&gt;"/>
+	<item name="18301" value="&lt;D&gt;&lt;L=s54,5610002&gt;幽怨妖精之魂&lt;/L&gt;&lt;/D&gt;请你收集&lt;C&gt;15&lt;/C&gt;个&lt;I&gt;梦境粉尘&lt;/I&gt;,回应&lt;D&gt;幽怨妖精之魂&lt;/D&gt;后便可获得丰厚的回报。&lt;T&gt;该任务每天可以完成2次，每次完成该任务可以获得150点信仰。&lt;/T&gt;"/>
+	<item name="19001" value="老服信仰兑换人请你收集&lt;C&gt;10&lt;/C&gt;个&lt;I&gt;花海灵石&lt;/I&gt;,&lt;N&gt;七花之海&lt;/N&gt;内的10至14级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19002" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;花海树藤&lt;/I&gt;,&lt;N&gt;七花之海&lt;/N&gt;内的10至14级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19003" value="老服信仰兑换人请你收集&lt;C&gt;12&lt;/C&gt;个&lt;I&gt;花海灵石&lt;/I&gt;,&lt;N&gt;七花之海&lt;/N&gt;内的10至14级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19004" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;花海树藤&lt;/I&gt;,&lt;N&gt;七花之海&lt;/N&gt;内的10至14级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19005" value="老服信仰兑换人请你收集&lt;C&gt;12&lt;/C&gt;个&lt;I&gt;花海宝玉&lt;/I&gt;,&lt;N&gt;七花之海&lt;/N&gt;内的15至19级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19006" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;幽幽湖盐块&lt;/I&gt;,&lt;N&gt;七花之海&lt;/N&gt;内的15至19级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19007" value="老服信仰兑换人请你收集&lt;C&gt;15&lt;/C&gt;个&lt;I&gt;花海宝玉&lt;/I&gt;,&lt;N&gt;七花之海&lt;/N&gt;内的15至19级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19008" value="老服信仰兑换人请你收集&lt;C&gt;4&lt;/C&gt;个&lt;I&gt;幽幽湖盐块&lt;/I&gt;,&lt;N&gt;七花之海&lt;/N&gt;内的15至19级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19009" value="老服信仰兑换人请你收集&lt;C&gt;15&lt;/C&gt;个&lt;I&gt;绿洲天石&lt;/I&gt;,&lt;N&gt;奔雷裂谷&lt;/N&gt;内的20至24级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19010" value="老服信仰兑换人请你收集&lt;C&gt;4&lt;/C&gt;个&lt;I&gt;绿洲之沙&lt;/I&gt;,&lt;N&gt;奔雷裂谷&lt;/N&gt;内的20至24级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19011" value="老服信仰兑换人请你收集&lt;C&gt;18&lt;/C&gt;个&lt;I&gt;绿洲天石&lt;/I&gt;,&lt;N&gt;奔雷裂谷&lt;/N&gt;内的20至24级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19012" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;绿洲之沙&lt;/I&gt;,&lt;N&gt;奔雷裂谷&lt;/N&gt;内的20至24级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19013" value="老服信仰兑换人请你收集&lt;C&gt;18&lt;/C&gt;个&lt;I&gt;黑岭宝玉&lt;/I&gt;,&lt;N&gt;奔雷裂谷&lt;/N&gt;内的25至29级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19014" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;深谷之炎&lt;/I&gt;,&lt;N&gt;奔雷裂谷&lt;/N&gt;内的25至29级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19015" value="老服信仰兑换人请你收集&lt;C&gt;20&lt;/C&gt;个&lt;I&gt;黑岭宝玉&lt;/I&gt;,&lt;N&gt;奔雷裂谷&lt;/N&gt;内的25至29级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19016" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;深谷之炎&lt;/I&gt;,&lt;N&gt;奔雷裂谷&lt;/N&gt;内的25至29级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19017" value="老服信仰兑换人请你收集&lt;C&gt;22&lt;/C&gt;个&lt;I&gt;雪原灵石&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的30至34级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19018" value="老服信仰兑换人请你收集&lt;C&gt;6&lt;/C&gt;个&lt;I&gt;雪山冰露&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的30至34级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19019" value="老服信仰兑换人请你收集&lt;C&gt;24&lt;/C&gt;个&lt;I&gt;雪原灵石&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的30至34级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19020" value="老服信仰兑换人请你收集&lt;C&gt;6&lt;/C&gt;个&lt;I&gt;雪山冰露&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的30至34级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19021" value="老服信仰兑换人请你收集&lt;C&gt;26&lt;/C&gt;个&lt;I&gt;雪原天石&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的35至39级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19022" value="老服信仰兑换人请你收集&lt;C&gt;7&lt;/C&gt;个&lt;I&gt;雪原残骨&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的35至39级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19023" value="老服信仰兑换人请你收集&lt;C&gt;28&lt;/C&gt;个&lt;I&gt;雪原天石&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的35至39级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19024" value="老服信仰兑换人请你收集&lt;C&gt;7&lt;/C&gt;个&lt;I&gt;雪原残骨&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的35至39级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19025" value="老服信仰兑换人请你收集&lt;C&gt;30&lt;/C&gt;个&lt;I&gt;雪峰金钻&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的40至44级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19026" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;40&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19027" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19028" value="老服信仰兑换人请你收集&lt;C&gt;8&lt;/C&gt;个&lt;I&gt;瑶池原叶&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的40至44级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19029" value="老服信仰兑换人请你收集&lt;C&gt;32&lt;/C&gt;个&lt;I&gt;雪峰金钻&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的40至44级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19030" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;40&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19031" value="老服信仰兑换人请你收集&lt;C&gt;8&lt;/C&gt;个&lt;I&gt;瑶池原叶&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的40至44级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19032" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19033" value="老服信仰兑换人请你收集&lt;C&gt;34&lt;/C&gt;个&lt;I&gt;雪峰宝玉&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的45至50级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19034" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;40&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19035" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19036" value="老服信仰兑换人请你收集&lt;C&gt;9&lt;/C&gt;个&lt;I&gt;雪峰之冰&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的45至50级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19037" value="老服信仰兑换人请你收集&lt;C&gt;36&lt;/C&gt;个&lt;I&gt;雪峰宝玉&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的45至49级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19038" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;40&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19039" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19040" value="老服信仰兑换人请你收集&lt;C&gt;9&lt;/C&gt;个&lt;I&gt;雪峰之冰&lt;/I&gt;,&lt;N&gt;北洲天雪&lt;/N&gt;内的45至49级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19041" value="老服信仰兑换人请你收集&lt;C&gt;38&lt;/C&gt;个&lt;I&gt;幻林灵石&lt;/I&gt;,&lt;N&gt;西洲幻林&lt;/N&gt;内的50至54级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19042" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;40&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19043" value="老服信仰兑换人请你收集&lt;I&gt;初等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19044" value="老服信仰兑换人请你收集&lt;C&gt;10&lt;/C&gt;个&lt;I&gt;淼峰猪牙&lt;/I&gt;,&lt;N&gt;西洲幻林&lt;/N&gt;内的50至54级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19045" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;150&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19046" value="老服信仰兑换人请你收集&lt;C&gt;40&lt;/C&gt;个&lt;I&gt;幻林灵石&lt;/I&gt;,&lt;N&gt;西洲幻林&lt;/N&gt;内的50至54级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19047" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;40&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19048" value="老服信仰兑换人请你收集&lt;I&gt;初等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19049" value="老服信仰兑换人请你收集&lt;C&gt;11&lt;/C&gt;个&lt;I&gt;淼峰猪牙&lt;/I&gt;,&lt;N&gt;西洲幻林&lt;/N&gt;内的50至54级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19050" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;150&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19051" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;40&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19052" value="老服信仰兑换人请你收集&lt;C&gt;42&lt;/C&gt;个&lt;I&gt;幻林宝玉&lt;/I&gt;,&lt;N&gt;西洲幻林&lt;/N&gt;内的55至59级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19053" value="老服信仰兑换人请你收集&lt;I&gt;初等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19054" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;150&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19055" value="老服信仰兑换人请你收集&lt;C&gt;11&lt;/C&gt;个&lt;I&gt;幻林花瓣&lt;/I&gt;,&lt;N&gt;西洲幻林&lt;/N&gt;内的55至59级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19056" value="老服信仰兑换人请你收集&lt;C&gt;44&lt;/C&gt;个&lt;I&gt;幻林宝玉&lt;/I&gt;,&lt;N&gt;西洲幻林&lt;/N&gt;内的60至64级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19057" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;40&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19058" value="老服信仰兑换人请你收集&lt;I&gt;初等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19059" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;150&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19060" value="老服信仰兑换人请你收集&lt;C&gt;12&lt;/C&gt;个&lt;I&gt;幻林花瓣&lt;/I&gt;,&lt;N&gt;西洲幻林&lt;/N&gt;内的60至64级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19061" value="老服信仰兑换人请你收集&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19062" value="老服信仰兑换人请你收集&lt;C&gt;46&lt;/C&gt;个&lt;I&gt;幻林金钻&lt;/I&gt;,&lt;N&gt;西洲幻林&lt;/N&gt;内的60至64级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19063" value="老服信仰兑换人请你收集&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19064" value="老服信仰兑换人请你收集&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19065" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;60&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19066" value="老服信仰兑换人请你收集&lt;I&gt;中等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19067" value="老服信仰兑换人请你收集&lt;C&gt;13&lt;/C&gt;个&lt;I&gt;武岩坚石&lt;/I&gt;,&lt;N&gt;西洲幻林&lt;/N&gt;内的60至64级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19068" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;200&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19069" value="老服信仰兑换人请你收集&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19070" value="老服信仰兑换人请你收集&lt;C&gt;48&lt;/C&gt;个&lt;I&gt;幻林金钻&lt;/I&gt;,&lt;N&gt;西洲幻林&lt;/N&gt;内的60至64级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19071" value="老服信仰兑换人请你收集&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19072" value="老服信仰兑换人请你收集&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19073" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;60&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19074" value="老服信仰兑换人请你收集&lt;I&gt;中等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19075" value="老服信仰兑换人请你收集&lt;C&gt;13&lt;/C&gt;个&lt;I&gt;武岩坚石&lt;/I&gt;,&lt;N&gt;西洲幻林&lt;/N&gt;内的60至64级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19076" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;200&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19077" value="老服信仰兑换人请你收集&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19078" value="老服信仰兑换人请你收集&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19079" value="老服信仰兑换人请你收集&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19080" value="老服信仰兑换人请你收集&lt;C&gt;50&lt;/C&gt;个&lt;I&gt;迷沼宝玉&lt;/I&gt;,&lt;N&gt;南洲迷沼&lt;/N&gt;内的65至69级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19081" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;60&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19082" value="老服信仰兑换人请你收集&lt;I&gt;中等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19083" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;200&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19084" value="老服信仰兑换人请你收集&lt;C&gt;14&lt;/C&gt;个&lt;I&gt;古茶原玉&lt;/I&gt;,&lt;N&gt;南洲迷沼&lt;/N&gt;内的65至69级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19085" value="老服信仰兑换人请你收集&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19086" value="老服信仰兑换人请你收集&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19087" value="老服信仰兑换人请你收集&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19088" value="老服信仰兑换人请你收集&lt;C&gt;52&lt;/C&gt;个&lt;I&gt;迷沼宝玉&lt;/I&gt;,&lt;N&gt;南洲迷沼&lt;/N&gt;内的65至69级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19089" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;60&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19090" value="老服信仰兑换人请你收集&lt;I&gt;中等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19091" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;200&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19092" value="老服信仰兑换人请你收集&lt;C&gt;14&lt;/C&gt;个&lt;I&gt;古茶原玉&lt;/I&gt;,&lt;N&gt;南洲迷沼&lt;/N&gt;内的65至69级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19093" value="老服信仰兑换人请你收集&lt;C&gt;54&lt;/C&gt;个&lt;I&gt;迷沼天石&lt;/I&gt;,&lt;N&gt;南洲迷沼&lt;/N&gt;内的70至74级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19094" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;60&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19095" value="老服信仰兑换人请你收集&lt;I&gt;高等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19096" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19097" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19098" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19099" value="老服信仰兑换人请你收集&lt;C&gt;15&lt;/C&gt;个&lt;I&gt;玉龙山石&lt;/I&gt;,&lt;N&gt;南洲迷沼&lt;/N&gt;内的70至74级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19100" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;250&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19101" value="老服信仰兑换人请你收集&lt;C&gt;56&lt;/C&gt;个&lt;I&gt;迷沼天石&lt;/I&gt;,&lt;N&gt;南洲迷沼&lt;/N&gt;内的70至74级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19102" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;60&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19103" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;生命之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19104" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19105" value="老服信仰兑换人请你收集&lt;I&gt;高等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19106" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19107" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19108" value="老服信仰兑换人请你收集&lt;C&gt;16&lt;/C&gt;个&lt;I&gt;玉龙山石&lt;/I&gt;,&lt;N&gt;南洲迷沼&lt;/N&gt;内的70至74级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19109" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;250&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19110" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;60&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19111" value="老服信仰兑换人请你收集&lt;C&gt;58&lt;/C&gt;个&lt;I&gt;玉龙山天钻&lt;/I&gt;,&lt;N&gt;南洲迷沼&lt;/N&gt;内的75至79级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19112" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;生命之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19113" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19114" value="老服信仰兑换人请你收集&lt;I&gt;高等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19115" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19116" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19117" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;250&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19118" value="老服信仰兑换人请你收集&lt;C&gt;17&lt;/C&gt;个&lt;I&gt;迷沼瘴花&lt;/I&gt;,&lt;N&gt;南洲迷沼&lt;/N&gt;内的75至79级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19119" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;60&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19120" value="老服信仰兑换人请你收集&lt;C&gt;60&lt;/C&gt;个&lt;I&gt;玉龙山天钻&lt;/I&gt;,&lt;N&gt;南洲迷沼&lt;/N&gt;内的75至79级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19121" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;生命之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19122" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19123" value="老服信仰兑换人请你收集&lt;I&gt;高等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19124" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19125" value="老服信仰兑换人请你收集&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19126" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;250&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19127" value="老服信仰兑换人请你收集&lt;C&gt;17&lt;/C&gt;个&lt;I&gt;迷沼瘴花&lt;/I&gt;,&lt;N&gt;南洲迷沼&lt;/N&gt;内的75至79级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19128" value="老服信仰兑换人请你收集&lt;C&gt;62&lt;/C&gt;个&lt;I&gt;平粱宝钻&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的80至84级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19129" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;80&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19130" value="老服信仰兑换人请你收集&lt;I&gt;特等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19131" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;生命之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19132" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19133" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19134" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19135" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;300&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19136" value="老服信仰兑换人请你收集&lt;C&gt;18&lt;/C&gt;个&lt;I&gt;冥山炎石&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的80至84级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19137" value="老服信仰兑换人请你收集&lt;C&gt;64&lt;/C&gt;个&lt;I&gt;平粱宝钻&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的80至84级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19138" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;80&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19139" value="老服信仰兑换人请你收集&lt;I&gt;特等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19140" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;生命之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19141" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19142" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19143" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19144" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;300&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19145" value="老服信仰兑换人请你收集&lt;C&gt;19&lt;/C&gt;个&lt;I&gt;冥山炎石&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的80至84级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19146" value="老服信仰兑换人请你收集&lt;C&gt;66&lt;/C&gt;个&lt;I&gt;冥山红玉&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的85至89级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19147" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;80&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19148" value="老服信仰兑换人请你收集&lt;I&gt;特等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19149" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;生命之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19150" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19151" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19152" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19153" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;300&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19154" value="老服信仰兑换人请你收集&lt;C&gt;19&lt;/C&gt;个&lt;I&gt;日月之牙&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的85至89级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19155" value="老服信仰兑换人请你收集&lt;C&gt;68&lt;/C&gt;个&lt;I&gt;冥山红玉&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的85至89级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19156" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;80&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19157" value="老服信仰兑换人请你收集&lt;I&gt;特等元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19158" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;生命之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19159" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19160" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19161" value="老服信仰兑换人请你收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19162" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;300&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19163" value="老服信仰兑换人请你收集&lt;C&gt;20&lt;/C&gt;个&lt;I&gt;日月之牙&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的85至89级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19164" value="老服信仰兑换人请你收集&lt;I&gt;千年元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19165" value="老服信仰兑换人请你收集&lt;C&gt;70&lt;/C&gt;个&lt;I&gt;云蒙白金&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的90至94级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19166" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19167" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;生命之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19168" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19169" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19170" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19171" value="老服信仰兑换人请你收集&lt;C&gt;21&lt;/C&gt;个&lt;I&gt;黄龙之爪&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的90至94级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19172" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;400&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19173" value="老服信仰兑换人请你收集&lt;I&gt;千年元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19174" value="老服信仰兑换人请你收集&lt;C&gt;72&lt;/C&gt;个&lt;I&gt;云蒙白金&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的90至94级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19175" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19176" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;生命之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19177" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19178" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19179" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19180" value="老服信仰兑换人请你收集&lt;C&gt;22&lt;/C&gt;个&lt;I&gt;黄龙之爪&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的90至94级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19181" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;400&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19182" value="老服信仰兑换人请你收集&lt;I&gt;千年元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19183" value="老服信仰兑换人请你收集&lt;C&gt;74&lt;/C&gt;个&lt;I&gt;黄龙晶玉&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的95至99级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19184" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19185" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;生命之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19186" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19187" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19188" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19189" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;400&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19190" value="老服信仰兑换人请你收集&lt;C&gt;22&lt;/C&gt;个&lt;I&gt;天魔石&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的95至99级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19191" value="老服信仰兑换人请你收集&lt;I&gt;千年元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19192" value="老服信仰兑换人请你收集&lt;C&gt;76&lt;/C&gt;个&lt;I&gt;黄龙晶玉&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的95至99级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19193" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19194" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;生命之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19195" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19196" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19197" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19198" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;400&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19199" value="老服信仰兑换人请你收集&lt;C&gt;23&lt;/C&gt;个&lt;I&gt;天魔石&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的95至99级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19200" value="老服信仰兑换人请你收集&lt;I&gt;万年元神&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19201" value="老服信仰兑换人请你收集&lt;I&gt;结晶&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19202" value="老服信仰兑换人请你收集&lt;C&gt;78&lt;/C&gt;个&lt;I&gt;天魔宝玉&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的100级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19203" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;生命之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19204" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;坚韧药水&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19205" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;斗神之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19206" value="老服信仰兑换人请你收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;魔尊之药&lt;/I&gt;，回应&lt;D&gt;老服信仰兑换人&lt;/D&gt;后便可获得丰厚的回报。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19207" value="老服信仰兑换人请你收集&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;400&lt;/C&gt;个。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19208" value="老服信仰兑换人请你收集&lt;C&gt;24&lt;/C&gt;个&lt;I&gt;天魔原石&lt;/I&gt;,&lt;N&gt;东洲冥山&lt;/N&gt;内的100级魔物均有几率掉落,完成后可回复&lt;D&gt;老服信仰兑换人&lt;/D&gt;。\n&lt;T&gt;完成该任务将可以获得100点信仰。该奖励不会受每日信仰2000点上限的限制。&lt;/T&gt;" />
+	<item name="19301" value="找到场景中的&lt;D&gt;魔界之花&lt;/D&gt;，使用&lt;I&gt;魔化之粉&lt;/I&gt;使其开始成长。击杀&lt;M&gt;护花使魔&lt;/M&gt;可以提升魔界之花的成长度并最终使其成熟。从&lt;D&gt;成熟的魔界之花&lt;/D&gt;上采集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;魔界之果&lt;/I&gt;并交给&lt;D&gt;&lt;L=s05,5610026&gt;日常任务发布人&lt;/L&gt;&lt;/D&gt;。\n&lt;T&gt;该任务每天只可以完成3次&lt;/T&gt;" />
+	<item name="19302" value="找到场景中的&lt;D&gt;魔界之花&lt;/D&gt;，使用&lt;I&gt;魔化之粉&lt;/I&gt;使其开始成长。击杀&lt;M&gt;护花使魔&lt;/M&gt;可以提升魔界之花的成长度并最终使其成熟。从&lt;D&gt;成熟的魔界之花&lt;/D&gt;上采集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;魔界之果&lt;/I&gt;并交给&lt;D&gt;&lt;L=s06,5610026&gt;日常任务发布人&lt;/L&gt;&lt;/D&gt;。\n&lt;T&gt;只能在西洲幻林之后的场景中采集魔界之花。&lt;/T&gt;\n&lt;T&gt;该任务每天只可以完成3次&lt;/T&gt;" />
+	<item name="19303" value="找到场景中的&lt;D&gt;魔界之花&lt;/D&gt;，使用&lt;I&gt;魔化之粉&lt;/I&gt;使其开始成长。击杀&lt;M&gt;护花使魔&lt;/M&gt;可以提升魔界之花的成长度并最终使其成熟。从&lt;D&gt;成熟的魔界之花&lt;/D&gt;上采集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;魔界之果&lt;/I&gt;并交给&lt;D&gt;&lt;L=s07,5610026&gt;日常任务发布人&lt;/L&gt;&lt;/D&gt;。\n&lt;T&gt;只能在南州迷沼之后的场景中采集魔界之花。&lt;/T&gt;\n&lt;T&gt;该任务每天只可以完成3次&lt;/T&gt;" />
+	<item name="19304" value="找到场景中的&lt;D&gt;魔界之花&lt;/D&gt;，使用&lt;I&gt;魔化之粉&lt;/I&gt;使其开始成长。击杀&lt;M&gt;护花使魔&lt;/M&gt;可以提升魔界之花的成长度并最终使其成熟。从&lt;D&gt;成熟的魔界之花&lt;/D&gt;上采集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;魔界之果&lt;/I&gt;并交给&lt;D&gt;&lt;L=s08,5610026&gt;日常任务发布人&lt;/L&gt;&lt;/D&gt;。\n&lt;T&gt;只能在东洲冥山之后的场景中采集魔界之花。&lt;/T&gt;\n&lt;T&gt;该任务每天只可以完成3次&lt;/T&gt;" />
+	<item name="19401" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;50&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040002&gt;雪山狐狸&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19402" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;50&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040002&gt;雪山狐狸&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19403" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;50&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040002&gt;雪山狐狸&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19404" value="前往&lt;N&gt;白龙洞&lt;/N&gt;,杀死&lt;C&gt;50&lt;/C&gt;只&lt;A&gt;&lt;L=d03,1040006&gt;寒龙&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19405" value="前往&lt;N&gt;白龙洞&lt;/N&gt;,杀死&lt;C&gt;50&lt;/C&gt;只&lt;A&gt;&lt;L=d03,1040006&gt;寒龙&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19406" value="前往&lt;N&gt;白龙洞&lt;/N&gt;,杀死&lt;C&gt;50&lt;/C&gt;只&lt;A&gt;&lt;L=d03,1040006&gt;寒龙&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19407" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;50&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040010&gt;堕落天人&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19408" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;50&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040010&gt;堕落天人&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19409" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;50&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040010&gt;堕落天人&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19410" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;50&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040021&gt;魔狼&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19411" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040021&gt;魔狼&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19412" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040021&gt;魔狼&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19413" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040013&gt;白熊&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19414" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040013&gt;白熊&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19415" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040013&gt;白熊&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19416" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040018&gt;流窜的匪徒&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19417" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040018&gt;流窜的匪徒&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19418" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040018&gt;流窜的匪徒&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19419" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040028&gt;堕落天将&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19420" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040028&gt;堕落天将&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19421" value="前往&lt;N&gt;北洲天雪&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s05,1040028&gt;堕落天将&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19422" value="前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050003&gt;幻林蝶精&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19423" value="前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050003&gt;幻林蝶精&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19424" value="前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050003&gt;幻林蝶精&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19425" value="前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050008&gt;魔琏花&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19426" value="前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050008&gt;魔琏花&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19427" value="前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050008&gt;魔琏花&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19428" value="前往&lt;N&gt;仙淼洞&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=d05,1050012&gt;三鬼巫师&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19429" value="前往&lt;N&gt;仙淼洞&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=d05,1050012&gt;三鬼巫师&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19430" value="前往&lt;N&gt;仙淼洞&lt;/N&gt;,杀死&lt;C&gt;150&lt;/C&gt;只&lt;A&gt;&lt;L=d05,1050012&gt;三鬼巫师&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19431" value="前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050017&gt;三鬼教徒&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19432" value="前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050017&gt;三鬼教徒&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19433" value="前往&lt;N&gt;西洲幻林&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s06,1050017&gt;三鬼教徒&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19434" value="前往&lt;N&gt;武岩洞&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=d06,1050023&gt;三鬼野蛮人&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19435" value="前往&lt;N&gt;武岩洞&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=d06,1050023&gt;三鬼野蛮人&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19436" value="前往&lt;N&gt;武岩洞&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=d06,1050023&gt;三鬼野蛮人&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19437" value="前往&lt;N&gt;南洲迷沼&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060005&gt;丛林袭击者&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19438" value="前往&lt;N&gt;南洲迷沼&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060005&gt;丛林袭击者&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19439" value="前往&lt;N&gt;南洲迷沼&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060005&gt;丛林袭击者&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19440" value="前往&lt;N&gt;南洲迷沼&lt;/N&gt;,杀死&lt;C&gt;200&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060011&gt;丛林暗杀者&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19441" value="前往&lt;N&gt;南洲迷沼&lt;/N&gt;,杀死&lt;C&gt;300&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060011&gt;丛林暗杀者&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19442" value="前往&lt;N&gt;南洲迷沼&lt;/N&gt;,杀死&lt;C&gt;300&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060011&gt;丛林暗杀者&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19443" value="前往&lt;N&gt;石狼洞&lt;/N&gt;,杀死&lt;C&gt;300&lt;/C&gt;只&lt;A&gt;&lt;L=d07,1060017&gt;南蛮男武士&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19444" value="前往&lt;N&gt;石狼洞&lt;/N&gt;,杀死&lt;C&gt;300&lt;/C&gt;只&lt;A&gt;&lt;L=d07,1060017&gt;南蛮男武士&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19445" value="前往&lt;N&gt;石狼洞&lt;/N&gt;,杀死&lt;C&gt;300&lt;/C&gt;只&lt;A&gt;&lt;L=d07,1060017&gt;南蛮男武士&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19446" value="前往&lt;N&gt;南洲迷沼&lt;/N&gt;,杀死&lt;C&gt;300&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060023&gt;嗜血蛇妖&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19447" value="前往&lt;N&gt;南洲迷沼&lt;/N&gt;,杀死&lt;C&gt;300&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060023&gt;嗜血蛇妖&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19448" value="前往&lt;N&gt;南洲迷沼&lt;/N&gt;,杀死&lt;C&gt;300&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060023&gt;嗜血蛇妖&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19449" value="前往&lt;N&gt;南洲迷沼&lt;/N&gt;,杀死&lt;C&gt;300&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060028&gt;大型沼泽鳄鱼&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19450" value="前往&lt;N&gt;南洲迷沼&lt;/N&gt;,杀死&lt;C&gt;300&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060028&gt;大型沼泽鳄鱼&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19451" value="前往&lt;N&gt;南洲迷沼&lt;/N&gt;,杀死&lt;C&gt;400&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060028&gt;大型沼泽鳄鱼&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19452" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;400&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070005&gt;狂风强盗&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19453" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;400&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070005&gt;狂风强盗&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19454" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;400&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070005&gt;狂风强盗&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19455" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;400&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070014&gt;原神教刺客&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19456" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;400&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070014&gt;原神教刺客&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19457" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;400&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070014&gt;原神教刺客&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19458" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;400&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070016&gt;狂风喽啰&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19459" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;400&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070016&gt;狂风喽啰&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19460" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;400&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070016&gt;狂风喽啰&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19461" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;500&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070022&gt;哀号的灵魂&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19462" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;500&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070022&gt;哀号的灵魂&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19463" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;500&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070022&gt;哀号的灵魂&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19464" value="前往&lt;N&gt;狂沙穴&lt;/N&gt;,杀死&lt;C&gt;500&lt;/C&gt;只&lt;A&gt;&lt;L=d09,1070030&gt;熔洞石斧手&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19465" value="前往&lt;N&gt;狂沙穴&lt;/N&gt;,杀死&lt;C&gt;500&lt;/C&gt;只&lt;A&gt;&lt;L=d09,1070030&gt;熔洞石斧手&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19466" value="前往&lt;N&gt;狂沙穴&lt;/N&gt;,杀死&lt;C&gt;500&lt;/C&gt;只&lt;A&gt;&lt;L=d09,1070030&gt;熔洞石斧手&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19467" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;500&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070037&gt;狂风贵族&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19468" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;500&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070037&gt;狂风贵族&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19469" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;500&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070037&gt;狂风贵族&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19470" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;500&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070045&gt;原神残杀者&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="19471" value="前往&lt;N&gt;东洲冥山&lt;/N&gt;,杀死&lt;C&gt;500&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070045&gt;原神残杀者&lt;/L&gt;&lt;/A&gt;,然后回复&lt;D&gt;日常任务发布人&lt;/D&gt;\n&lt;A&gt;嗜血标记可以让您快速到达目标怪物地点&lt;/A&gt;" />
+	<item name="20001" value="邀月仙子请您收集&lt;C&gt;150&lt;/C&gt;个&lt;I&gt;月灵石碎片&lt;/I&gt;，完成后回应&lt;D&gt;邀月仙子&lt;/D&gt;后便可获得丰厚的回报。\n&lt;A&gt;击杀树妖后掉落月灵石碎片&lt;/A&gt;" />
+	<item name="20002" value="邀月仙子请您收集&lt;C&gt;180&lt;/C&gt;个&lt;I&gt;月灵石碎片&lt;/I&gt;，完成后回应&lt;D&gt;邀月仙子&lt;/D&gt;后便可获得丰厚的回报。\n&lt;A&gt;击杀树妖后掉落月灵石碎片&lt;/A&gt;" />
+	<item name="20003" value="邀月仙子请您收集&lt;C&gt;210&lt;/C&gt;个&lt;I&gt;月灵石碎片&lt;/I&gt;，完成后回应&lt;D&gt;邀月仙子&lt;/D&gt;后便可获得丰厚的回报。\n&lt;A&gt;击杀树妖后掉落月灵石碎片&lt;/A&gt;" />
+	<item name="20004" value="嫦娥请您收集&lt;C&gt;30&lt;/C&gt;个&lt;I&gt;猪肉&lt;/I&gt;和&lt;C&gt;30&lt;/C&gt;个&lt;I&gt;鸡翅&lt;/I&gt;，完成后回应&lt;D&gt;嫦娥&lt;/D&gt;后便可获得丰厚的回报。\n&lt;A&gt;击杀野外怪物有几率掉落猪肉和鸡翅&lt;/A&gt;" />
+	<item name="20005" value="嫦娥请您收集&lt;C&gt;40&lt;/C&gt;个&lt;I&gt;猪肉&lt;/I&gt;和&lt;C&gt;40&lt;/C&gt;个&lt;I&gt;鸡翅&lt;/I&gt;，完成后回应&lt;D&gt;嫦娥&lt;/D&gt;后便可获得丰厚的回报。\n&lt;A&gt;击杀野外怪物有几率掉落猪肉和鸡翅&lt;/A&gt;" />
+	<item name="20006" value="嫦娥请您收集&lt;C&gt;50&lt;/C&gt;个&lt;I&gt;猪肉&lt;/I&gt;和&lt;C&gt;50&lt;/C&gt;个&lt;I&gt;鸡翅&lt;/I&gt;，完成后回应&lt;D&gt;嫦娥&lt;/D&gt;后便可获得丰厚的回报。\n&lt;A&gt;击杀野外怪物有几率掉落猪肉和鸡翅&lt;/A&gt;" />
+	<item name="20101" value="夺回&lt;C&gt;10&lt;/C&gt;个&lt;I&gt;“国”&lt;/I&gt;字礼花和&lt;C&gt;10&lt;/C&gt;个&lt;I&gt;“庆”&lt;/I&gt;字礼花，交给&lt;D&gt;祝福灵童&lt;/D&gt;，会得到国庆特有道具&lt;I&gt;举国同庆&lt;/I&gt;和&lt;I&gt;国庆祝福礼包&lt;/I&gt;。\n&lt;A&gt;击杀50级以上野外怪物有几率掉落两种礼花&lt;/A&gt; \n&lt;I&gt;带着天神秘卷交任务，可以获得双倍经验奖励&lt;/I&gt;" />
+	<item name="20102" value="夺回&lt;C&gt;15&lt;/C&gt;个&lt;I&gt;“国”&lt;/I&gt;字礼花和&lt;C&gt;15&lt;/C&gt;个&lt;I&gt;“庆”&lt;/I&gt;字礼花，交给&lt;D&gt;祝福灵童&lt;/D&gt;，会得到国庆特有道具&lt;I&gt;举国同庆&lt;/I&gt;和&lt;I&gt;国庆祝福礼包&lt;/I&gt;。\n&lt;A&gt;击杀50级以上野外怪物有几率掉落两种礼花&lt;/A&gt; \n&lt;I&gt;带着天神秘卷交任务，可以获得双倍经验奖励&lt;/I&gt;" />
+	<item name="20103" value="夺回&lt;C&gt;20&lt;/C&gt;个&lt;I&gt;“国”&lt;/I&gt;字礼花和&lt;C&gt;20&lt;/C&gt;个&lt;I&gt;“庆”&lt;/I&gt;字礼花，交给&lt;D&gt;祝福灵童&lt;/D&gt;，会得到国庆特有道具&lt;I&gt;举国同庆&lt;/I&gt;和&lt;I&gt;国庆祝福礼包&lt;/I&gt;。\n&lt;A&gt;击杀50级以上野外怪物有几率掉落两种礼花&lt;/A&gt; \n&lt;I&gt;带着天神秘卷交任务，可以获得双倍经验奖励&lt;/I&gt;" />
+	<item name="20104" value="夺回&lt;C&gt;25&lt;/C&gt;个&lt;I&gt;“国”&lt;/I&gt;字礼花和&lt;C&gt;25&lt;/C&gt;个&lt;I&gt;“庆”&lt;/I&gt;字礼花，交给&lt;D&gt;祝福灵童&lt;/D&gt;，会得到国庆特有道具&lt;I&gt;举国同庆&lt;/I&gt;和&lt;I&gt;国庆祝福礼包&lt;/I&gt;。\n&lt;A&gt;击杀50级以上野外怪物有几率掉落两种礼花&lt;/A&gt; \n&lt;I&gt;带着天神秘卷交任务，可以获得双倍经验奖励&lt;/I&gt;" />
+	<item name="20105" value="夺回&lt;C&gt;30&lt;/C&gt;个&lt;I&gt;“国”&lt;/I&gt;字礼花和&lt;C&gt;30&lt;/C&gt;个&lt;I&gt;“庆”&lt;/I&gt;字礼花，交给&lt;D&gt;祝福灵童&lt;/D&gt;，会得到国庆特有道具&lt;I&gt;举国同庆&lt;/I&gt;和&lt;I&gt;国庆祝福礼包&lt;/I&gt;。\n&lt;A&gt;击杀50级以上野外怪物有几率掉落两种礼花&lt;/A&gt; \n&lt;I&gt;带着天神秘卷交任务，可以获得双倍经验奖励&lt;/I&gt;" />
+</root>

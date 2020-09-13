@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40001" />
+    <entry Name="妖精" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;8&lt;/C&gt;份&lt;I&gt;幻迷之粉&lt;/I&gt;，杀死&lt;A&gt;&lt;L=s03,1020006&gt;迷蝶&lt;/L&gt;&lt;/A&gt;可以获得，另外再采集获得&lt;C&gt;2&lt;/C&gt;朵&lt;M&gt;&lt;L=s03,6010008&gt;血之妖娆&lt;/L&gt;&lt;/M&gt;，完成后交给&lt;D&gt;&lt;L=s03,5010031&gt;幻神艾丽娜&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

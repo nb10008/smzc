@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<maparea id="9787" interval="60000" volume="100" priority="1" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9789" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9790" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9791" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9792" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9793" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9794" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9795" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9796" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9797" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9798" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9799" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9800" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9801" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9802" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+	<maparea id="9845" interval="60000" volume="100" priority="2" title="" music0="data\Music\s06.mp3" music1="" music2="" />
+</root>

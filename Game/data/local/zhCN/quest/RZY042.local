@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40042" />
+    <entry Name="妖精契约" />
+    <entry Conditions="" />
+    <entry Overview="带着&lt;I&gt;彼岸之花&lt;/I&gt;、&lt;I&gt;风铃之石&lt;/I&gt;、&lt;I&gt;遗忘之水&lt;/I&gt;、&lt;I&gt;幻化之羽&lt;/I&gt;和&lt;I&gt;契约之书&lt;/I&gt;各&lt;C&gt;3&lt;/C&gt;个拜访&lt;D&gt;&lt;L=s04,5010076&gt;翼神琼纳斯&lt;/L&gt;&lt;/D&gt;，你将会获得与妖精签订契约所需的技能之书。\n以上材料可以通过开启&lt;I&gt;新手礼包[21级]&lt;/I&gt;获得" />
+</quest-local>

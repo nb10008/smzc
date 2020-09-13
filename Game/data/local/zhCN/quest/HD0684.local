@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30684" />
+    <entry Name="找到火鸡！" />
+    <entry Conditions="" />
+    <entry Overview="&lt;D&gt;火腿王中王&lt;/D&gt;希望你帮助他除掉那些火鸡。杀死一只&lt;N&gt;东洲冥山&lt;/N&gt;中的&lt;A&gt;狂奔的火鸡&lt;/A&gt;或者&lt;A&gt;愤怒的火鸡&lt;/A&gt;，然后回复&lt;D&gt;&lt;L=s02,5600017&gt;火腿王中王&lt;/L&gt;&lt;/D&gt;。\n提示：需要消灭&lt;C&gt;85&lt;/C&gt;级的&lt;A&gt;狂奔的火鸡&lt;/A&gt;或者&lt;A&gt;愤怒的火鸡&lt;/A&gt;" />
+</quest-local>

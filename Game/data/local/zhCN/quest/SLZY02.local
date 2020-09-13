@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="51002" />
+    <entry Name="圣灵养成" />
+    <entry Conditions="完成一次吞噬" />
+    <entry Overview="在三界，&lt;T&gt;圣灵&lt;/T&gt;只有通过吸收&lt;I&gt;妖精&lt;/I&gt;的精华才能获得能力的成长\n提示：打开角色界面，选择圣灵，点击吞噬，然后放入&lt;I&gt;妖精&lt;/I&gt;或者&lt;I&gt;妖精魂核&lt;/I&gt;点击吞噬，即可完成任务" />
+</quest-local>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <scene id="1" map01_id="s01" />
+    <scene id="2" map01_id="s03" map02_id="d01" map03_id="s02" />
+    <scene id="3" map01_id="s04" map02_id="d02" map03_id="f01" map04_id="s02" />
+    <scene id="4" map01_id="s05" map02_id="d03" map03_id="f02" map04_id="f03" map05_id="h01" map06_id="s02" />
+    <scene id="5" map01_id="s06" map02_id="d04" map03_id="f04" map04_id="f05" map05_id="h02" map06_id="s02" />
+    <scene id="6" map01_id="s07" map02_id="d05" map03_id="f06" map04_id="f07" map05_id="h03" map06_id="s02" />
+    <scene id="7" map01_id="s08" map02_id="d06" map03_id="f08" map04_id="s02" />
+    <scene id="8" map01_id="s01" map02_id="s03" map03_id="s04" map04_id="s05" map05_id="s06" map06_id="s07" map07_id="s08" map08_id="s02" />
+    <scene id="9" map01_id="s02" />
+</root>

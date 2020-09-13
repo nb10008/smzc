@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40002" />
+    <entry Name="妖精基础讲解" />
+    <entry Conditions="" />
+    <entry Overview="与&lt;D&gt;&lt;L=s03,5010022&gt;妖精嘉迪拉&lt;/L&gt;&lt;/D&gt;对话，了解妖精更多的内容。&#x0A;" />
+</quest-local>

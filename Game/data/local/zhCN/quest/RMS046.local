@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20646" />
+    <entry Name="蛮人中的陌生人" />
+    <entry Conditions="" />
+    <entry Overview="从&lt;color=0xffff0000&gt;&lt;L=s08,1070084&gt;护法暗羽&lt;/L&gt;&lt;color=0xffffffff&gt;身上找到&lt;I&gt;魔族的招安信&lt;/I&gt;，交给&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

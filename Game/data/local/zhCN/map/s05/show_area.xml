@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<maparea id="8219" title="北关"/>		
+	<maparea id="8227" title="昆虚古城"/>	
+	<maparea id="8230" title="福临镇"/>	
+	<maparea id="8231" title="南关"/>	
+	<maparea id="8232" title="白龙谷"/>	
+	<maparea id="8235" title="北洲天雪"/>	
+	<maparea id="8293" title="踏雪峰"/>	
+	<maparea id="8294" title="万狼谷"/>	
+	<maparea id="8495" title="北风岗"/>	
+	<maparea id="9456" title="瑶池碧潭"/>	
+	<maparea id="12734" title="建木残骸"/>	
+	<maparea id="12735" title="魔冥山路"/>	
+	<maparea id="12736" title="魔冥岭"/>	
+	<maparea id="12738" title="天雪山"/>	
+	<maparea id="12739" title="巨龙岭"/>	
+	<maparea id="12740" title="黑水河"/>	
+	<maparea id="12741" title="恶熊谷"/>	
+	<maparea id="12742" title="天雪山南麓"/>	
+	<maparea id="12743" title="冰封栈道"/>
+	<maparea id="12744" title="天雪郊外"/>	
+	<maparea id="12745" title="天雪镇"/>		
+
+</root>

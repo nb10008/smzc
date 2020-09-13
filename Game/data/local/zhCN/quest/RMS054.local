@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20654" />
+    <entry Name="瓦尔特的抉择" />
+    <entry Conditions="" />
+    <entry Overview="再次与&lt;D&gt;&lt;L=s08,5010210&gt;瓦尔特&lt;/L&gt;&lt;/D&gt;对话。" />
+</quest-local>

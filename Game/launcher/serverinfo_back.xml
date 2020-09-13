@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <item id="1" name="香蕉" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="127.0.0.1" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />
+  <!--<item id="1" name="小三世界" worldid="900501" boroughid="900500" borogh="loong" boroughrank="2" ip="172.17.1.109" port="4200" state="80" recommend="0" worldrank="0" recorank="0" greenflag="" />
+  <item id="2" name="圣魔之血117" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="172.17.1.117" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />    
+  <item id="3" name="圣魔之血118" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="172.17.1.118" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />
+<item id="4" name="圣魔之血115" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="172.17.1.115" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />
+<item id="5" name="圣魔之血108" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="218.247.140.216" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />
+<item id="6" name="香蕉" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="172.17.3.86" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />-->
+	<!--<item id="7" name="圣歌之心" worldid="1300330" borogh="网通一区" boroughrank="0" ip="61.55.173.68" port="4200" state="70" recommend="0" worldrank="0" recorank="1" greenflag="" recommendname="" number_state="0" disp=""/>
+	<item id="8" name="幻灵纵" worldid="1300330" borogh="网通一区" boroughrank="0" ip="211.100.96.117" port="4200" state="70" recommend="0" worldrank="0" recorank="1" greenflag="" recommendname="" number_state="0" disp=""/>-->
+</root>

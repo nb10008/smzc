@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ANSI" ?>
+<skeleton File="E:\Max模型\N22\std.max" MdlPath="D:\loong_client\Game\data\model\batch\test.FSKEL"  >
+	<node ExpName="std" SampleRate="30" />
+</skeleton>
+<skeleton File="E:\Max模型\N22\batk.max" MdlPath="D:\loong_client\Game\data\model\batch\test.FSKEL"  >
+	<node ExpName="batk" SampleRate="30" />
+</skeleton>
+<skeleton File="E:\Max模型\N22\clim.max" MdlPath="D:\loong_client\Game\data\model\batch\test.FSKEL"  >
+	<node ExpName="clim" SampleRate="30" />
+</skeleton>
+<skeleton File="E:\Max模型\N22\coma.max" MdlPath="D:\loong_client\Game\data\model\batch\test.FSKEL"  >
+	<node ExpName="coma" SampleRate="30" />
+</skeleton>
+<skeleton File="E:\Max模型\N22\dead.max" MdlPath="D:\loong_client\Game\data\model\batch\test.FSKEL"  >
+	<node ExpName="dead" SampleRate="30" />
+</skeleton>
+<skeleton File="E:\Max模型\N22\dfly.max" MdlPath="D:\loong_client\Game\data\model\batch\test.FSKEL"  >
+	<node ExpName="dfly" SampleRate="30" />
+</skeleton>
+<skeleton File="E:\Max模型\N22\dush.max" MdlPath="D:\loong_client\Game\data\model\batch\test.FSKEL"  >
+	<node ExpName="dush" SampleRate="30" />
+</skeleton>
+<skeleton File="E:\Max模型\N22\lei.max" MdlPath="D:\loong_client\Game\data\model\batch\test.FSKEL"  >
+	<node ExpName="lei" SampleRate="30" />
+</skeleton>
+<skeleton File="E:\Max模型\N22\natk.max" MdlPath="D:\loong_client\Game\data\model\batch\test.FSKEL"  >
+	<node ExpName="natk" SampleRate="30" />
+</skeleton>
+<skeleton File="E:\Max模型\N22\run.max" MdlPath="D:\loong_client\Game\data\model\batch\test.FSKEL"  >
+	<node ExpName="run" SampleRate="30" />
+</skeleton>
+<skeleton File="E:\Max模型\N22\walk.max" MdlPath="D:\loong_client\Game\data\model\batch\test.FSKEL"  >
+	<node ExpName="walk" SampleRate="30" />
+</skeleton>

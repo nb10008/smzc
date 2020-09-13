@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="魔王旗" pos_x="41327" pos_y="5743" pos_z="41620"/>
+	<map_point id="2" type="1" show_name="人界旗" pos_x="25496" pos_y="4840" pos_z="26443"/>
+	<map_point id="3" type="1" show_name="天神旗" pos_x="19135" pos_y="5100" pos_z="8141"/>
+	<map_point id="4" type="2" show_name="斗神艾尔萨" pos_x="44811" pos_y="5185" pos_z="6303"/>
+	<map_point id="5" type="2" show_name="高阶勋章兑换人" pos_x="43440" pos_y="5185" pos_z="5879"/>
+	<map_point id="6" type="2" show_name="战斗嘉奖包领取人" pos_x="44538" pos_y="5170" pos_z="11673"/>
+	<map_point id="7" type="2" show_name="胜利嘉奖人" pos_x="44941" pos_y="5185" pos_z="8173"/>
+	<map_point id="8" type="2" show_name="战场传送员" pos_x="43949" pos_y="5185" pos_z="8127"/>
+	<map_point id="9" type="3" show_name="斗神艾尔萨" pos_x="6752" pos_y="6330" pos_z="35354"/>
+	<map_point id="10" type="3" show_name="高阶勋章兑换人" pos_x="6928" pos_y="5940" pos_z="37941"/>
+	<map_point id="11" type="3" show_name="战斗嘉奖包领取人" pos_x="6922" pos_y="5940" pos_z="37001"/>
+	<map_point id="12" type="3" show_name="胜利嘉奖人" pos_x="7998" pos_y="5940" pos_z="37071"/>
+	<map_point id="13" type="3" show_name="战场传送员" pos_x="8670" pos_y="5940" pos_z="37835"/>
+</root>

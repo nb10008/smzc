@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <loot_quest_item id="1010011" item_1_id="4010104" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1020001" item_1_id="4010105" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1020006" item_1_id="4010116" item_1_chance="1" item_1_team_chance="1" item_2_id="4020402" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1020007" item_1_id="4020402" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1020008" item_1_id="4020402" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1020012" item_1_id="4010107" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1020013" item_1_id="4010108" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1020014" item_1_id="4010109" item_1_chance="0.2" item_1_team_chance="0.2" />
+    <loot_quest_item id="1030004" item_1_id="4010111" item_1_chance="0.75" item_1_team_chance="0.75" item_2_id="4010118" item_2_chance="1" item_2_team_chance="1" item_3_id="4020403" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1030005" item_1_id="4020403" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1030007" item_1_id="4010113" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1030009" item_1_id="4010115" item_1_chance="1" item_1_team_chance="1" item_2_id="4020404" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1030010" item_1_id="4010115" item_1_chance="1" item_1_team_chance="1" item_2_id="4020404" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1030011" item_1_id="4020404" item_1_chance="1" item_1_team_chance="1" item_2_id="4010200" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1030014" item_1_id="4010112" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1030016" item_1_id="4010114" item_1_chance="0.5" item_1_team_chance="0.5" />
+    <loot_quest_item id="1040001" item_1_id="4020405" item_1_chance="1" item_1_team_chance="1" item_2_id="4010194" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1040002" item_1_id="4020405" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040003" item_1_id="4020405" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040008" item_1_id="4020406" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040009" item_1_id="4020406" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040010" item_1_id="4020406" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040013" item_1_id="4020407" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040014" item_1_id="4020407" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040024" item_1_id="4020407" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040016" item_1_id="4010121" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040018" item_1_id="4010123" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040019" item_1_id="4020408" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040020" item_1_id="4020408" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040026" item_1_id="4020408" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040032" item_1_id="4010119" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040037" item_1_id="4010122" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040043" item_1_id="4010120" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1050001" item_1_id="4010124" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1050004" item_1_id="4010125" item_1_chance="1" item_1_team_chance="1" item_2_id="4020409" item_2_chance="1" item_2_team_chance="1" item_3_id="4800040" item_3_chance="0.5" item_3_team_chance="0.5" />
+    <loot_quest_item id="1050005" item_1_id="4020409" item_1_chance="1" item_1_team_chance="1" item_2_id="4010203" item_2_chance="0.5" item_2_team_chance="0.5" item_3_id="4800040" item_3_chance="0.5" item_3_team_chance="0.5" />
+    <loot_quest_item id="1050006" item_1_id="4020409" item_1_chance="1" item_1_team_chance="1" item_2_id="4010203" item_2_chance="0.5" item_2_team_chance="0.5" />
+    <loot_quest_item id="1050014" item_1_id="4020410" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1050015" item_1_id="4020410" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1050016" item_1_id="4020410" item_1_chance="1" item_1_team_chance="1" item_2_id="4010128" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1050021" item_1_id="4020411" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1050022" item_1_id="4020411" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1050023" item_1_id="4020411" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060005" item_1_id="4020412" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060006" item_1_id="4020412" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060007" item_1_id="4020412" item_1_chance="1" item_1_team_chance="1" item_2_id="4010130" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1060013" item_1_id="4020413" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060014" item_1_id="4020413" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060015" item_1_id="4020413" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060022" item_1_id="4020414" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060023" item_1_id="4020414" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060024" item_1_id="4020414" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070002" item_1_id="4020415" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070004" item_1_id="4020415" item_1_chance="1" item_1_team_chance="1" item_2_id="4010141" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1070005" item_1_id="4020415" item_1_chance="1" item_1_team_chance="1" item_2_id="4010141" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1070008" item_1_id="4020415" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070014" item_1_id="4020416" item_1_chance="1" item_1_team_chance="1" item_2_id="4010148" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1070015" item_1_id="4020416" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070016" item_1_id="4020416" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070017" item_1_id="4020416" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070023" item_1_id="4020417" item_1_chance="1" item_1_team_chance="1" item_2_id="4010158" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1070024" item_1_id="4020417" item_1_chance="1" item_1_team_chance="1" item_2_id="4010158" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1070025" item_1_id="4020417" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070026" item_1_id="4020417" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070037" item_1_id="4020418" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070038" item_1_id="4020418" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070046" item_1_id="4020418" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070039" item_1_id="4020418" item_1_chance="1" item_1_team_chance="1" item_2_id="4010166" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="6010004" item_1_id="4010126" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6010008" item_1_id="4010117" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6010010" item_1_id="4010127" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6010011" item_1_id="4010110" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060008" item_1_id="4010130" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060009" item_1_id="4010131" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060010" item_1_id="4010131" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060019" item_1_id="4010133" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060020" item_1_id="4010134" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060021" item_1_id="4010134" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060043" item_1_id="4010136" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060044" item_1_id="4010137" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1060055" item_1_id="4010139" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070011" item_1_id="4010145" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070012" item_1_id="4010145" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070076" item_1_id="4010149" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6010023" item_1_id="4010150" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070077" item_1_id="4010153" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070078" item_1_id="4010157" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6010024" item_1_id="4010159" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070079" item_1_id="4010160" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070058" item_1_id="4010161" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6010025" item_1_id="4010162" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070084" item_1_id="4010165" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070040" item_1_id="4010166" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070041" item_1_id="4010166" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070042" item_1_id="4010166" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070043" item_1_id="4010166" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070065" item_1_id="4010166" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070066" item_1_id="4010166" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070067" item_1_id="4010166" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070068" item_1_id="4010166" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6010026" item_1_id="4010168" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6010028" item_1_id="4010146" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6010029" item_1_id="4010170" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6010030" item_1_id="4010171" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6010041" item_1_id="4010155" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1050019" item_1_id="4010129" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1050020" item_1_id="4010129" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070022" item_1_id="4010158" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1070088" item_1_id="4010169" item_1_chance="1" item_1_team_chance="1" item_2_id="4010173" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1060054" item_1_id="4010174" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1050042" item_1_id="4010175" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040049" item_1_id="4010176" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1030019" item_1_id="4010177" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1020010" item_1_id="4010178" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6010005" item_1_id="4020501" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1050046" item_1_id="4500006" item_1_chance="1" item_1_team_chance="1" item_2_id="4500010" item_2_chance="1" item_2_team_chance="1" item_3_id="4500011" item_3_chance="1" item_3_team_chance="1" item_4_id="4500012" item_4_chance="1" item_4_team_chance="1" />
+    <loot_quest_item id="1050048" item_1_id="4500013" item_1_chance="1" item_1_team_chance="1" item_2_id="4500014" item_2_chance="1" item_2_team_chance="1" item_3_id="4500015" item_3_chance="1" item_3_team_chance="1" item_4_id="4500016" item_4_chance="1" item_4_team_chance="1" />
+    <loot_quest_item id="3030001" item_1_id="4010180" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3030028" item_1_id="4010180" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3030009" item_1_id="4010180" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3030010" item_1_id="4010180" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3040001" item_1_id="4010181" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3040002" item_1_id="4010181" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3040003" item_1_id="4010181" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3040015" item_1_id="4010182" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3040016" item_1_id="4010182" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3040017" item_1_id="4010182" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3040027" item_1_id="4010183" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3040028" item_1_id="4010183" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1010014" item_1_id="4010184" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6011013" item_1_id="4010185" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1020004" item_1_id="4010186" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6011014" item_1_id="4010188" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6011015" item_1_id="4010189" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1030003" item_1_id="4010195" item_1_chance="0.5" item_1_team_chance="0.5" />
+    <loot_quest_item id="1030008" item_1_id="4010196" item_1_chance="0.3" item_1_team_chance="0.3" />
+    <loot_quest_item id="1091122" item_1_id="4010197" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040038" item_1_id="4010199" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="2055001" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055002" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055003" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055004" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055005" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055006" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055007" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055008" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055009" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055010" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055011" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055012" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055013" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055014" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055015" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055016" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055017" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055018" item_1_id="4010201" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055028" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055029" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055030" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055031" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055032" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055033" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055034" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055035" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055036" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055037" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055038" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055039" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055040" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055041" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055042" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055043" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055044" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055045" item_1_id="4010207" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055055" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055056" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055057" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055058" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055059" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055060" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055061" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055062" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055063" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055064" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055065" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055066" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055067" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055068" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055069" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055070" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055071" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="2055072" item_1_id="4010208" item_1_chance="0.1" item_1_team_chance="0.1" />
+    <loot_quest_item id="1050026" item_1_id="4010202" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="6011021" item_1_id="4010204" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1050009" item_1_id="4010205" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1040052" item_1_id="4010206" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1096001" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400407" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096002" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400407" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096003" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400407" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096004" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400407" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096005" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400407" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096006" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400407" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096007" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400407" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096008" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400407" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096009" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400407" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096010" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400407" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096011" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400407" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096012" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400408" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096013" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400408" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096014" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400408" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096015" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400408" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096016" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400408" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096017" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400408" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096018" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400408" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096019" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400408" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096020" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400408" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096021" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400408" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096022" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400408" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096023" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400409" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096024" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400409" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096025" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400409" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096026" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400409" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096027" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400409" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096028" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400409" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096029" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400409" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096030" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400409" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096031" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400409" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096032" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400409" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096033" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400409" item_2_chance="1" item_2_team_chance="1" />
+    <loot_quest_item id="1096034" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400404" item_2_chance="1" item_2_team_chance="1" item_3_id="4400410" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096035" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400404" item_2_chance="1" item_2_team_chance="1" item_3_id="4400410" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096036" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400404" item_2_chance="1" item_2_team_chance="1" item_3_id="4400410" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096037" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400404" item_2_chance="1" item_2_team_chance="1" item_3_id="4400410" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096038" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400404" item_2_chance="1" item_2_team_chance="1" item_3_id="4400410" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096039" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400404" item_2_chance="1" item_2_team_chance="1" item_3_id="4400410" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096040" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400404" item_2_chance="1" item_2_team_chance="1" item_3_id="4400410" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096041" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400404" item_2_chance="1" item_2_team_chance="1" item_3_id="4400410" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096042" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400404" item_2_chance="1" item_2_team_chance="1" item_3_id="4400410" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096043" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400404" item_2_chance="1" item_2_team_chance="1" item_3_id="4400410" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096044" item_1_id="4400401" item_1_chance="1" item_1_team_chance="1" item_2_id="4400404" item_2_chance="1" item_2_team_chance="1" item_3_id="4400410" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096045" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400405" item_2_chance="1" item_2_team_chance="1" item_3_id="4400411" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096046" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400405" item_2_chance="1" item_2_team_chance="1" item_3_id="4400411" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096047" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400405" item_2_chance="1" item_2_team_chance="1" item_3_id="4400411" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096048" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400405" item_2_chance="1" item_2_team_chance="1" item_3_id="4400411" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096049" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400405" item_2_chance="1" item_2_team_chance="1" item_3_id="4400411" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096050" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400405" item_2_chance="1" item_2_team_chance="1" item_3_id="4400411" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096051" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400405" item_2_chance="1" item_2_team_chance="1" item_3_id="4400411" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096052" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400405" item_2_chance="1" item_2_team_chance="1" item_3_id="4400411" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096053" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400405" item_2_chance="1" item_2_team_chance="1" item_3_id="4400411" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096054" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400405" item_2_chance="1" item_2_team_chance="1" item_3_id="4400411" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096055" item_1_id="4400402" item_1_chance="1" item_1_team_chance="1" item_2_id="4400405" item_2_chance="1" item_2_team_chance="1" item_3_id="4400411" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096056" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400406" item_2_chance="1" item_2_team_chance="1" item_3_id="4400412" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096057" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400406" item_2_chance="1" item_2_team_chance="1" item_3_id="4400412" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096058" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400406" item_2_chance="1" item_2_team_chance="1" item_3_id="4400412" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096059" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400406" item_2_chance="1" item_2_team_chance="1" item_3_id="4400412" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096060" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400406" item_2_chance="1" item_2_team_chance="1" item_3_id="4400412" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096061" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400406" item_2_chance="1" item_2_team_chance="1" item_3_id="4400412" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096062" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400406" item_2_chance="1" item_2_team_chance="1" item_3_id="4400412" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096063" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400406" item_2_chance="1" item_2_team_chance="1" item_3_id="4400412" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096064" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400406" item_2_chance="1" item_2_team_chance="1" item_3_id="4400412" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096065" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400406" item_2_chance="1" item_2_team_chance="1" item_3_id="4400412" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1096066" item_1_id="4400403" item_1_chance="1" item_1_team_chance="1" item_2_id="4400406" item_2_chance="1" item_2_team_chance="1" item_3_id="4400412" item_3_chance="1" item_3_team_chance="1" />
+    <loot_quest_item id="1099025" item_1_id="4400705" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1099026" item_1_id="4400705" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1099027" item_1_id="4400705" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1099028" item_1_id="4400705" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1099029" item_1_id="4400705" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1099030" item_1_id="4400705" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="1099031" item_1_id="4400705" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3040339" item_1_id="4830005" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3040340" item_1_id="4830005" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3040341" item_1_id="4830005" item_1_chance="1" item_1_team_chance="1" />
+    <loot_quest_item id="3040342" item_1_id="4830005" item_1_chance="1" item_1_team_chance="1" />
+</root>

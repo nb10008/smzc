@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40044" />
+    <entry Name="神铸锤购买" />
+    <entry Conditions="" />
+    <entry Overview="关于神铸有以下几点需要注意:\n&lt;S&gt;一.&lt;/S&gt;神铸分为10级，每神铸1级，原装备的强化上限就加1。神铸最高到10级，即强化最高可达30级\n&lt;S&gt;二.&lt;/S&gt;只有紫色和紫色以上的装备可以神铸\n&lt;S&gt;三.&lt;/S&gt;辅助装备需要大于70级，并且最少是绿色品质，品质越高经验值获得越多，两件装备的部位必须一致\n&lt;S&gt;四.&lt;/S&gt;一件装备每天只能升级一次，但是神铸经验的获取没有限制\n&lt;S&gt;五.&lt;/S&gt;本任务获得的神铸锤可以打开神铸界面" />
+</quest-local>

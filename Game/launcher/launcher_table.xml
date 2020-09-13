@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<item name="Error" 			value="错误" />
+	<item name="BadHostName" 		value="解析网络地址:%s失败" />
+	<item name="TryConnect" 		value="尝试建立连接中" />
+	<item name="ConnectFail" 		value="连接失败,请尝试重连(重新更新)" />
+	<item name="WaitForDownload" 		value="等待下载回应:" />
+	<item name="WriteFail" 			value="无法写磁盘" />
+	<item name="NotEnoughSpace" 		value="磁盘空间不足于:" />
+	<item name="PleaseFreeSpace" 		value="请先释放磁盘空间" />
+	<item name="Warning" 			value="警告" />
+	<item name="Downloading" 		value="下载:%s" />
+	<item name="AbnormalDisconnect" 	value="连接异常断开" />
+	<item name="CheckingMD5" 		value="检查MD5..." />
+	<item name="Decompressing" 		value="正在解压..." />
+	<item name="UpdateOK" 			value="更新完成，可以启动游戏" />
+	<item name="ClientRunning" 		value="游戏客户端正在运行,需先关闭,否则无法更新!" />
+	<item name="ItemNotExistInCPK" 		value="cpk文件中未找到该项" />
+	<item name="FailInOpenCPKItem" 		value="打开cpk中的文件失败" />
+	<item name="CreateCPKFailed" 		value="创建CPK文件失败" />
+	<item name="CreateFileFailed" 		value="无法创建文件" />
+	<item name="FailInCheckCPKFile" 	value="检测是否是cpk包的子文件失败" />
+	<item name="FailInWriteToCPK" 		value="写入文件到CPK失败" />
+	<item name="FailInAddFileToCPK" 	value="写入文件到CPK失败:%s" />
+	<item name="OpenFileFailed" 		value="无法打开文件:%s" />
+	<item name="ReadFileFailed" 		value="无法读取文件:%s" />
+	<item name="CreateFileMappingFailed" 	value="无法创建文件映射:%s" />
+	<item name="FileMappingAlreadyExist" 	value="文件映射已经存在:%s" />
+	<item name="ReadCPKHeadFailed" 		value="读取CPK文件头失败:%s" />
+	<item name="ReadCPKTableFailed" 	value="无法从CPK中读取文件表:%s" />
+	<item name="UnknowCPKFormat" 		value="未知的CPK文件格式:%s" />
+	<item name="CPKSeekError" 		value="无法定位CPK文件表%s, 位置=%ld" />
+	<item name="NotEnoughMemoryForCreateFP" value="没有足够的内存为%s创建文件指针" />
+	<item name="DecompressFailed" 		value="解压缩失败" />
+	<item name="TooLongFileName" 		value="文件名太长:%s" />
+	<item name="FileNotFound" 		value="文件%s不存在" />
+	<item name="FindFreeCPKItemFailed" 	value="无法找到CPK空闲表项，插入文件失败" />
+	<item name="DeleteFileFailed" 		value="无法删除文件:%s" />
+	<item name="InvalidTableIndex" 		value="CPK表项%d不存在" />
+	<item name="AlreadyRunning" 		value="自动更新程序已经启动" />
+	<item name="PatchNotFound" 		value="自动更新包无法下载，请下载手动更新包" />
+
+	<item name="AppName"			value="《猎灵》自动更新程序" />
+	<item name="StartGame"	 		value="开始游戏" />
+	<item name="ManualUpdate" 		value="手动更新" />
+	<item name="GameSetup"	 		value="游戏设置" />
+	<item name="UpdateInfo"	 		value="更新信息" />
+	<item name="Quit"	 		value="退出" />
+	<item name="GameVersion"		value="当前游戏版本:%s" />
+	<item name="LauncherVersion" 		value="当前更新程序版本:%s" />
+	<item name="LatestGameVersion"		value="最新:%s" />
+	<item name="LatestLauncherVersion" 	value="最新:%s" />
+	<item name="DownloadProgress" 		value="速度:%.2fKB/S  剩余:%.2fMB" />
+	<item name="FontName" 			value="宋体" />
+	<item name="GameVideoSetup"		value="游戏设置" />
+	<item name="GameVideoTips"		value="提示：使用各种窗口模式能避免输入法与游戏的冲突" />
+	<item name="WindowMode1"		value="最佳窗口模式(露出Windows任务栏)" />
+	<item name="WindowMode2"		value="普通窗口模式" />
+	<item name="WindowMode3"		value="全屏窗口模式(假全屏)" />
+	<item name="WindowMode4"		value="真全屏模式" />
+	<item name="VerticalSync"		value="垂直同步" />
+	<item name="TextureDetail"		value="高精度纹理" />
+	<item name="GroundPrecision"		value="高精度地表" />
+	<item name="GPUAni"			value="GPU动画" />
+	<item name="GroundHighLight"		value="地表高亮" />
+	<item name="NormalMap"			value="法线贴图" />
+	<item name="Music"			value="音乐" />
+	<item name="Sound"			value="音效" />
+
+	<item name="AutoUpdateInfo"		value="自动更新信息" />
+
+</root>

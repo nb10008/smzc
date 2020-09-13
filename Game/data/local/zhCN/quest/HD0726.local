@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30726" />
+    <entry Name="【特权】契约道具" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;10&lt;/C&gt;个&lt;I&gt;北洲之雪&#x0A;&lt;/I&gt;然后带回来交给&lt;M&gt;&lt;Z=s02,31500,23094,33600&gt;新人特权使者&lt;/Z&gt;&lt;/M&gt;。" />
+</quest-local>

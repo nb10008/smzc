@@ -1,0 +1,36 @@
+sampler2D g_tex 	: register(s0);
+
+static const float2 g_uvOffset[8] =
+{
+  	{ -1.0f,   0.0f },
+	{  1.0f,   0.0f },
+	{  0.0f,  -1.0f },
+	{  0.0f,   1.0f },
+	{  -1.0f, -1.0f },
+	{  -1.0f,  1.0f },
+	{  1.0f,  -1.0f },
+	{  1.0f,   1.0f }
+};
+
+float2 g_texSize={256.0f,256.0f};
+
+
+float4 main( float2 uv0 : TEXCOORD0 ) : COLOR0
+{
+	float4 color=tex2D(g_tex,uv0);
+	
+	if(color.a==0)
+	{
+		for(int i=0;i<8;i++)
+		{
+			float2 uv=uv0+g_uvOffset[i]/g_texSize;
+			float4 f=tex2D(g_tex,uv);
+			if(f.a!=0)
+			{
+				color=f;
+			}
+		}
+	}
+	
+	return color;
+}

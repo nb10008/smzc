@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <item id="2366" box_max_x="51061.78" box_max_y="15000.00" box_max_z="51085.85" box_min_x="33434.51" box_min_y="4000.00" box_min_z="22110.56" minimap_size="1024" />
+    <item id="2368" box_max_x="30773.24" box_max_y="15374.00" box_max_z="50432.90" box_min_x="8189.96" box_min_y="4374.00" box_min_z="32646.71" minimap_size="1024" />
+    <item id="2369" box_max_x="35001.98" box_max_y="13590.49" box_max_z="43184.28" box_min_x="14619.95" box_min_y="2590.49" box_min_z="20847.70" minimap_size="1024" />
+    <item id="2370" box_max_x="20712.34" box_max_y="13590.50" box_max_z="42365.22" box_min_x="286.72" box_min_y="2590.50" box_min_z="19749.43" minimap_size="1024" />
+    <item id="2371" box_max_x="7605.39" box_max_y="15000.00" box_max_z="51123.46" box_min_x="55.24" box_min_y="4000.00" box_min_z="42915.71" minimap_size="1024" />
+    <item id="2372" box_max_x="51001.81" box_max_y="12111.00" box_max_z="21954.58" box_min_x="1297.15" box_min_y="1111.00" box_min_z="501.76" minimap_size="1024" />
+</root>

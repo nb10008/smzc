@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="50035" />
+    <entry Name="天之徽记领取" />
+    <entry Conditions="" />
+    <entry Overview="每天可在&lt;D&gt;&lt;L=s08,5510627&gt;悬赏使者&lt;/L&gt;&lt;/D&gt;处领取&lt;A&gt;5&lt;/A&gt;个&lt;I&gt;天之徽记&lt;/I&gt;，用于接取天之行会任务。" />
+</quest-local>

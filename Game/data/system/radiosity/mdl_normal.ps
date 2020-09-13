@@ -1,0 +1,9 @@
+float g_normalMapAlpha=1.0f;//1普通材质,2双面材质
+
+float4 main( float3 uv0 : TEXCOORD0 ) : COLOR0
+{
+	float4 color=1;
+	color.rgb=normalize(uv0.xyz);
+	color.a=g_normalMapAlpha;
+	return color;
+}

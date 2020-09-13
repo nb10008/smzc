@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20608" />
+    <entry Name="魔花的作用" />
+    <entry Conditions="" />
+    <entry Overview="消灭&lt;A&gt;&lt;L=s08,1070006&gt;邪风魔花&lt;/L&gt;&lt;/A&gt;&lt;C&gt;80&lt;/C&gt;株、&lt;A&gt;&lt;L=s08,1070007&gt;邪风花妖&lt;/L&gt;&lt;/A&gt;&lt;C&gt;70&lt;/C&gt;株、&lt;A&gt;&lt;L=s08,1070008&gt;良田破坏者&lt;/L&gt;&lt;/A&gt;&lt;C&gt;50&lt;/C&gt;只，&lt;color=0xffff6000&gt;&lt;L=s08,1070051&gt;邪风妖魔花&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;20&lt;/C&gt;株，&lt;color=0xffff0000&gt;&lt;L=s08,1070073&gt;魔舞之花&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;1&lt;/C&gt;株，之后回复&lt;D&gt;&lt;L=s08,5010205&gt;奥克山&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

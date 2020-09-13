@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20615" />
+    <entry Name="冥王之心" />
+    <entry Conditions="" />
+    <entry Overview="升至&lt;C&gt;86&lt;/C&gt;级后，再询问&lt;D&gt;&lt;L=s08,5010206&gt;幽露&lt;/L&gt;&lt;/D&gt;一些相关的事情。" />
+</quest-local>

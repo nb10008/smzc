@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30833" />
+    <entry Name="神魂晶领取" />
+    <entry Conditions="" />
+    <entry Overview="找&lt;N&gt;古神陵墓&lt;/N&gt;里的&lt;D&gt;古神陵墓护卫&lt;/D&gt;领取一个&lt;S&gt;神魂晶&lt;/S&gt;。" />
+</quest-local>

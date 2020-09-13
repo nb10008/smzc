@@ -1,0 +1,9 @@
+sampler2D g_Tex 		: register(s0);
+
+float4 main( float2 depth : TEXCOORD0, float2 tex : TEXCOORD1 ) : COLOR0
+{
+	float a=tex2D(g_Tex,tex).a;
+	float color=depth.x/depth.y;
+	
+	return float4(color,color,color,a);
+}

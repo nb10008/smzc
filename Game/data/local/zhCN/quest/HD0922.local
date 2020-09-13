@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30922" />
+    <entry Name="宝库试炼证" />
+    <entry Conditions="" />
+    <entry Overview="领取了试炼证明后才能进入英雄宝库" />
+</quest-local>

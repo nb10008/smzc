@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20648" />
+    <entry Name="寻见瓦尔特" />
+    <entry Conditions="" />
+    <entry Overview="升至&lt;C&gt;96&lt;/C&gt;级后到&lt;N&gt;月牙泉&lt;/N&gt;，找到&lt;D&gt;&lt;L=s08,5010210&gt;瓦尔特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

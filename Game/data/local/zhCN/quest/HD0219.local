@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30219" />
+    <entry Name="女神的英姿" />
+    <entry Conditions="" />
+    <entry Overview="帮助&lt;N&gt;女神的侍从&lt;/N&gt;收集&lt;A&gt;250&lt;/A&gt;份&lt;I&gt;神像灵魂碎片&lt;/I&gt;。\n    &lt;T&gt;[小提示：您可通过击杀&lt;M&gt;&lt;L=s08,1070037&gt;狂风贵族&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=d08,1070038&gt;原神教护法&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s08,1070046&gt;地狱守卫&lt;/L&gt;&lt;/M&gt;、&lt;M&gt;&lt;L=s08,1070039&gt;地狱石魔&lt;/L&gt;&lt;/M&gt;来收集该道具。]&lt;/T&gt;\n \n    &lt;T&gt;[小提示：女神的英姿活动会在每周二或周五的15：00及20：00各开放一次，每次活动期间仅能完成一次。]&lt;/T&gt;\n    &lt;T&gt;[小提示：若当次活动期间未能完成任务，可在下次活动开启后再行交付。]&lt;/T&gt;" />
+</quest-local>

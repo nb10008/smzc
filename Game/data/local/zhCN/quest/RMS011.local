@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20611" />
+    <entry Name="魔子幽露" />
+    <entry Conditions="" />
+    <entry Overview="升至&lt;C&gt;84&lt;/C&gt;级后，奥克山请你去&lt;N&gt;东岭村&lt;/N&gt;协助魔族的&lt;D&gt;&lt;L=s08,5010206&gt;幽露&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40016" />
+    <entry Name="装备制作书" />
+    <entry Conditions="" />
+    <entry Overview="使用&lt;N&gt;生产技能：裁缝&lt;/N&gt;，制作&lt;C&gt;1&lt;/C&gt;份&lt;I&gt;防具制作书[20级]&lt;/I&gt;，完成后回复&lt;D&gt;&lt;L=s02,5010081&gt;匠神依利安&lt;/L&gt;&lt;/D&gt;。\n \n&lt;T&gt;提示：制作装备制作书需要消耗空白制作书，空白制作书可以在杂货商处购买&lt;/T&gt;" />
+</quest-local>

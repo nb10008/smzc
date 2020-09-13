@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30788" />
+    <entry Name="粽子与亲情" />
+    <entry Conditions="" />
+    <entry Overview="帮助&lt;D&gt;食神杰斯&lt;/D&gt;送&lt;C&gt;5&lt;/C&gt;个粽子给他的父亲&lt;D&gt;&lt;L=s01,5010020&gt;斗神阿拉斯&lt;/L&gt;&lt;/D&gt;，获得&lt;I&gt;潦草的信件&lt;/I&gt;。\n提示：使用&lt;I&gt;潦草的信件&lt;/I&gt;可获得&lt;S&gt;粽子背后的阴谋&lt;/S&gt;任务。" />
+</quest-local>

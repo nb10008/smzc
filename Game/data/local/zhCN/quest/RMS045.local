@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20645" />
+    <entry Name="信号烟花" />
+    <entry Conditions="" />
+    <entry Overview="点燃&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;信号烟花&lt;/I&gt;，收集&lt;C&gt;1&lt;/C&gt;支&lt;I&gt;燃尽的烟花&lt;/I&gt;交给&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

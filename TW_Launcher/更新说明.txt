@@ -1,0 +1,6 @@
+================2010-7-9  ALEX========================================
+
+1、launcher目录下有6张bmp必须更新
+2、launcher_table.xml 中修改 <item name="AppName"  value="《圣魔之血》自动更新程序" />
+3、更新res\launcher.ico
+4、更新代码，支持目录带空格

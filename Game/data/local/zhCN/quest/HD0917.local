@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30917" />
+    <entry Name="魔法水滴领取" />
+    <entry Conditions="" />
+    <entry Overview="每天可在&lt;D&gt;&lt;L=s61,5610095&gt;情人节天使&lt;/L&gt;&lt;/D&gt;处领取&lt;A&gt;120&lt;/A&gt;个&lt;I&gt;魔法水滴&lt;/I&gt;。只有当身上携带着&lt;I&gt;魔法水滴&lt;/I&gt;时，才可以塑形&lt;M&gt;沙雕&lt;/M&gt;。" />
+</quest-local>

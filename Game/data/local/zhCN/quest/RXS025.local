@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20025" />
+    <entry Name="祭拜" />
+    <entry Conditions="" />
+    <entry Overview="调查&lt;M&gt;&lt;L=m10,6011015&gt;花妖之神&lt;/L&gt;&lt;/M&gt;，并且带回周围的&lt;I&gt;神之花粉&lt;/I&gt;交给&lt;D&gt; &lt;L=m10, 5010015&gt;神教官达蒙&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

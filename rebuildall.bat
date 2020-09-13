@@ -1,0 +1,1 @@
+rebuild AllInOne.sln

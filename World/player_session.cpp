@@ -1,0 +1,3004 @@
+//-----------------------------------------------------------------------------
+//!\file player_session.h
+//!\author Aslan
+//!
+//!\date 2008-06-10
+//! last 2008-06-10
+//!
+//!\brief 玩家连接代理类
+//!
+//!	Copyright (c) 2004 TENGWU Entertainment All rights reserved.
+//-----------------------------------------------------------------------------
+#include "StdAfx.h"
+#include "player_session.h"
+#include "world_session.h"
+#include "player_net_cmd_mgr.h"
+#include "role.h"
+#include "mutex.h"
+#include "map.h"
+#include "world_net_cmd_mgr.h"
+#include "map_creator.h"
+#include "vip_netbar.h"
+#include "creature.h"
+
+#include "../WorldDefine/chat.h"
+#include "../WorldDefine/chat_define.h"
+#include "../WorldDefine/all_msg_cmd.h"
+#include "../WorldDefine/msg_func_npc.h"
+#include "../WorldDefine/msg_rankings.h"
+#include "../WorldDefine/msg_marriage.h"
+#include "../WorldDefine/msg_city_struggle.h"
+#include "../WorldDefine/msg_player_preventlost.h"
+#include "../WorldDefine/msg_spec_item.h"
+#include "../WorldDefine/msg_spirit.h"
+#include "../WorldDefine/msg_miracle.h"
+#include "../WorldDefine/msg_GuildBattle.h"
+#include "../WorldDefine/msg_master_apprentice.h"
+#include "../WorldDefine/athletics_define.h"
+#include "../WorldDefine/msg_athletics_system.h"
+#include "../WorldDefine/msg_VoteShow_define.h"
+#include "../WorldDefine/train_define.h"
+#include "../WorldDefine/msg_train.h"
+#include "../WorldDefine/msg_quest_board.h"
+#include "../WorldDefine/msg_appearance_transform.h"
+#include "../WorldDefine/creature_define.h"
+#include "../WorldDefine/msg_GroupChat.h"
+#include "../WorldDefine/msg_guild_war_declare.h"
+#include "../WorldDefine/msg_family.h"
+#include "../WorldDefine/test.h"
+#include "netcmd_viewer.h"
+#include "guild_war_declare_mgr.h"
+
+// Jason 2009-12-7 神龙赐福
+#include "../WorldDefine/msg_player_preventlost.h"
+#include "../WorldDefine/msg_item.h"
+#include "offline_reward.h"
+// Jason v1.3.2 玩家回归
+#include "player_regression.h"
+#include "pet_pocket.h"
+#include "../ServerDefine/log_cmdid_define.h"
+
+#include "guild_mgr.h"
+#include "guild.h"
+// Jason 2010-4-27 v2.1.0
+#include "login_session.h"
+#include "map_mgr.h"
+#include "GuildBattle.h"
+#include "group_chat.h"
+
+#include "keycode_bridge_session.h"
+#include "../worlddefine/msg_easy_team.h"
+#include "convenient_team.h"
+
+#include "../WorldDefine/msg_GodbidDefine.h"
+#include "../WorldDefine/msg_fashion.h"
+#include "../WorldDefine/msg_god.h"
+#include "../WorldDefine/msg_family.h"
+
+#include "..\WorldDefine\msg_bloodbrother.h"
+#include "../ServerDefine/msg_log.h"
+#include "../ServerDefine/msg_account_reactive.h"
+#include "..\WorldDefine\msg_soul.h"
+#include "../ServerDefine/login_issue.h"
+
+//需要广播字符串长度最大值
+#define MAX_BROADCAST_MSG_LEN 200
+
+// 定义两个宏，分别对应普通消息注册和世界消息注册
+#define M_REGISTER_PLAYER_RECV_CMD(name, handler, desc)	m_PlayerNetMgr.RegisterRecvProc(#name, handler, desc, sizeof(tag##name))
+#define M_REGISTER_WORLD_RECV_CMD(name, handler, desc)	RegisterWorldMsg(#name, handler, desc, sizeof(tag##name))
+
+// 定义两个宏，分别对应普通消息注册和世界消息注册--带时间间隔参数
+#define M_REGISTER_PLAYER_RECV_CMD_EX(name, handler, desc, timeinterval)	m_PlayerNetMgr.RegisterRecvProc(#name, handler, desc, sizeof(tag##name), timeinterval)
+#define M_REGISTER_WORLD_RECV_CMD_EX(name, handler, desc, timeinterval)	RegisterWorldMsg(#name, handler, desc, sizeof(tag##name), timeinterval)
+
+PlayerNetCmdMgr PlayerSession::m_PlayerNetMgr;
+GMCommandMgr	PlayerSession::m_GMCommandMgr;
+
+#include "../ServerDefine/role_data.h"
+#include "../ServerDefine/msg_common.h"
+#include "..\WorldDefine\msg_pulse.h"
+#include "..\WorldDefine\msg_tiger.h"
+
+//------------------------------------------------------------------------------
+// constructor
+//------------------------------------------------------------------------------
+PlayerSession::PlayerSession(DWORD dwSessionID, DWORD dwInternalIndex, DWORD dwIP, BYTE byPrivilege, BOOL bGuard, DWORD dwAccOLSec, LPCSTR szAccount,char *szKrUserID,tagDWORDTime dwPreLoginTime, DWORD dwPreLoginIP,DWORD dwChannelID, CHAR* szMac)
+: m_dwAccountID(dwSessionID), m_dwInternalIndex(dwInternalIndex), m_dwIP(dwIP), m_byPrivilege(byPrivilege), m_nMsgNum(0), m_FatigueGarder(this, bGuard, dwAccOLSec),
+m_dwPreLoginTime(dwPreLoginTime),m_dwPreLoginIP(dwPreLoginIP),m_pOfflineExperienceReward(NULL),m_nCreatedRoleNumLimit(0),m_dwChannelID(dwChannelID)
+// Jason 2010-4-26 v2.1.0 
+,m_nPKRunawayTick(0),m_bPKRunaway(FALSE)
+,m_byIndex(0),m_byAttType(0),m_dwAttValue(0),m_dwLingNeng(0)
+{
+	m_bRoleEnuming = false;
+	m_bRoleEnumDone = false;
+	m_bRoleEnumSuccess = false;
+
+	m_bRoleLoading = false;
+	m_bRoleDeleting = false;
+	m_bRoleCreating = false;
+
+	m_bRoleInWorld = false;
+	m_bConnectionLost = false;
+	m_bKicked = false;
+	m_dwLoginTime = GetCurrentDWORDTime();
+	m_szKrUserID[0]= '\0';
+     
+	strncpy_s(m_szAccount, X_SHORT_NAME, szAccount, X_SHORT_NAME);
+	strncpy_s(m_szKrUserID, X_SHORT_NAME, szKrUserID, X_SHORT_NAME);
+	szKrUserID[X_SHORT_NAME-1] = '\0';
+
+	m_pRole = NULL;
+	g_VipNetBarMgr.PlayerLogin(m_dwAccountID, m_dwIP);
+
+	//VOID * pMem = g_MemPoolSafe.Alloc  (sizeof(OfflineReward));
+	m_pOfflineExperienceReward = new OfflineReward;//new (pMem) OfflineReward();
+
+	
+	m_nCreatedRoleNumLimit  = g_worldSession.GetAccountLoginCount(m_dwAccountID); 
+
+	// 战斗挂机系统消息的几个crc值
+	m_dwSyncAfs = TObjRef<Util>()->Crc32("NC_SyncAutoFightState");
+	m_dwUseZDF = TObjRef<Util>()->Crc32("NC_UseZhanDouFu");
+	m_dwExtID = static_cast<BYTE>(TObjRef<Util>()->Crc32("NC_AutoHookOn"));
+
+	// 初始化为当前时间
+	m_dwPreXtrapUpdateTime = GetCurrentDWORDTime();
+	memset(m_XtrapBuffSession, 0, sizeof(m_XtrapBuffSession));
+	g_XTrapGuarder.OnPlayerSessionInit((char*)m_XtrapBuffSession);
+
+	/*m_dwInitTime = timeGetTime();*/
+	m_bNeedConfirm = false;
+
+	// 初始化mac
+	if(P_VALID(szMac))
+		memcpy(m_szMac, szMac, X_SHORT_STRING);
+}
+
+
+//------------------------------------------------------------------------------
+// destructor
+//------------------------------------------------------------------------------
+PlayerSession::~PlayerSession()
+{
+	if( m_pOfflineExperienceReward )
+	{
+		delete m_pOfflineExperienceReward;
+		//m_pOfflineExperienceReward->~OfflineReward();
+		//g_MemPoolSafe.Free  (m_pOfflineExperienceReward);
+	}
+
+	tagNDBC_LogAccountOnlineTime send;
+	send.dwAccoutID = this->GetSessionID();
+	send.dwOnlineSecond = this->GetAccountOnlineTime();;
+	g_dbSession.Send(&send, send.dwSize);
+}
+
+//-----------------------------------------------------------------------
+// 需要在所有地图线程上层处理的消息注册
+//-----------------------------------------------------------------------
+VOID PlayerSession::RegisterWorldMsg(LPCSTR szCmd, NETMSGHANDLER fp, LPCTSTR szDesc, DWORD dwSize, DWORD dwTimeInterval)
+{
+	m_PlayerNetMgr.RegisterRecvProc(szCmd, &HandleRoleMsg2World, _T("need proc upper map thread"), dwSize, dwTimeInterval);
+	g_worldNetCmdMgr.RegisterRecvProc(szCmd, fp, szDesc, dwSize, dwTimeInterval);
+}
+
+//------------------------------------------------------------------------------
+// 注册所有客户端的网络命令
+//------------------------------------------------------------------------------
+VOID PlayerSession::RegisterAllPlayerCmd()
+{
+	// 进入游戏
+	M_REGISTER_PLAYER_RECV_CMD(NC_JoinGame,					&HandleJoinGame,				_T("Join Game"));
+
+	// 选人界面
+	M_REGISTER_PLAYER_RECV_CMD(NC_EnumRole,					&HandleRoleEnum,				_T("Enum Role"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_CreateRole,				&HandleRoleCreate,				_T("Create Role"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_DeleteRole,				&HandleRoleDelete,				_T("Delete Role"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SelectRole,				&HandleRoleSelect,				_T("Select Role"));
+
+	// 安全码
+	M_REGISTER_PLAYER_RECV_CMD(NC_SafeCode,					&HandleRoleSetSafeCode,			_T("set safe code"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ResetSafeCode,			&HandleRoleResetSafeCode,		_T("reset safe code"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_CancelSafeCodeReset,		&HandleRoleCancelSafeCodeReset,	_T("cancel safe code reset"));
+
+	// 人物属性
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetRoleInitState,			&HandleGetRoleInitAtt,			_T("Get Role Init State"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetRemoteRoleState,		&HandleGetRemoteUnitAtt,		_T("Get Remote Role State"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_LPRename,					&HandleChangeRoleName,			_T("Change Role Name"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SetPersonalSet,			&HandleSetPersonalSet,			_T("Set Personal Set"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_CheckRemoteRoleInfoOpenType,&HandleCheckRemoteRoleInfoOpenType,		_T("check remote role personl info open type"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetStrengthDetail,		&HandleGetStrengthDetail,		_T("Get Strength Detail"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetConsumptiveStrength,	&HandleGetConsumptiveStrength,		_T("Get Consumptive Strength"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SynPvPStatics,			&HandleGetPvPStatics,		_T("Get PvP Statics"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_RefreshBaoXiang,			&HandleRefreshBaoXiang,			_T("RefreshBaoXiang"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetWarBaoXiang,			&HandleGetWarBaoXiang,			_T("Get War BaoXiang"));
+
+	// 行走
+	M_REGISTER_PLAYER_RECV_CMD_EX(NC_MouseWalk,				&HandleRoleWalk,				_T("Mouse Walk"),				300);
+	M_REGISTER_PLAYER_RECV_CMD_EX(NC_KeyboardWalk,			&HandleRoleWalk,				_T("Keyboard Walk"),			200);
+	M_REGISTER_PLAYER_RECV_CMD(NC_StopWalk,					&HandleRoleStopWalk,			_T("Stop Walk"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_Jump,						&HandleRoleJump,				_T("Jump"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_Drop,						&HandleRoleDrop,				_T("Drop"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_VDrop,					&HandleRoleVDrop,				_T("Vertical Drop"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_Slide,					&HandleRoleSlide,				_T("Slide"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_CanGoToPos,				&HandleRoleCanGoToPos,			_T("If can go to position"));
+
+	// 装备相关
+	M_REGISTER_PLAYER_RECV_CMD(NC_Equip,					&HandleRoleEquip,				_T("Equip"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_Unequip,					&HandleRoleUnequip,				_T("Unequip"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SwapWeapon,				&HandleRoleSwapWeapon,			_T("Swap Weapon"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_IdentifyEquip,			&HandleRoleIdentifyEquip,		_T("Identify Weapon"));
+
+	// 角色外观显示设置
+	M_REGISTER_PLAYER_RECV_CMD(NC_Fashion,					&HandleRoleSetFashion,			_T("set fashion"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_RoleSetDisplay,			&HandleRoleSetDisplay,			_T("set display"));
+
+	// 物品
+	M_REGISTER_PLAYER_RECV_CMD(NC_ItemPosChange,			&HandleRoleChangeItemPos,		_T("Change Item Position"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ItemPosChangeEx,			&HandleRoleChangeItemPosEx,		_T("Change Item Position"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ItemReorder,				&HandleRoleReorderItem,			_T("container item reorder"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ItemReorderEx,			&HandleRoleReorderItemEx,		_T("container item reorder"));
+
+	//使用记录式传送符设置传送坐标
+	M_REGISTER_PLAYER_RECV_CMD(NC_SetTransportMap,			&HandleRoleSetTransportMap,		_T("set transport map point by special item" ));
+	M_REGISTER_PLAYER_RECV_CMD(NC_UseTransportMap,			&HandleRoleUseTransportMap,		_T("ust notetaking item transmit to point" ));
+
+	// 玩家间交易
+	M_REGISTER_PLAYER_RECV_CMD(NC_ExchangeReq,				&HandleRoleExchangeReq,			_T("ExchangeReq"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ExchangeReqRes,			&HandleRoleExchangeReqRes,		_T("ExchangeReqRes"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ExchangeAdd,				&HandleRoleExchangeAdd,			_T("ExchangeAdd"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ExchangeDec,				&HandleRoleExchangeDec,			_T("ExchangeDec"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ExchangeMoney,			&HandleRoleExchangeMoney,		_T("ExchangeMoney"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ExchangeLock,				&HandleRoleExchangeLock,		_T("ExchangeLock"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ExchangeCancel,			&HandleRoleExchangeCancel,		_T("ExchangeCancel"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ExchangeVerify,			&HandleRoleExchangeVerify,		_T("ExchangeVerify"));
+
+	// 商店
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetShopItems,				&HandleRoleGetShopItems,		_T("Get Goods(Item) List"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetShopEquips,			&HandleRoleGetShopEquips,		_T("Get Goods(Equip) List"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_BuyShopItem,				&HandleRoleBuyShopItem,			_T("Buy Item"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_BuyShopEquip,				&HandleRoleBuyShopEquip,		_T("Buy Equip"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SellToShop,				&HandleRoleSellToShop,			_T("Sell To Shop"));
+
+	// 摆摊
+	M_REGISTER_PLAYER_RECV_CMD(NC_StallStart,				&HandleRoleStallStart,			_T("start stall"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_StallSetGoods,			&HandleRoleStallSetGoods,		_T("set stall goods"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_StallUnsetGoods,			&HandleRoleStallUnsetGoods,		_T("unset stall goods"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_StallSetTitle,			&HandleRoleStallSetTitle,		_T("set stall title"));
+	//M_REGISTER_PLAYER_RECV_CMD("NC_StallSetAdText",		&HandleRoleStallSetAdText,		_T("set stall ad"));
+	//M_REGISTER_PLAYER_RECV_CMD("NC_StallSetAdFlag",		&HandleRoleStallSetAdFlag,		_T("set stall ad broadcast"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_StallSetFinish,			&HandleRoleStallSetFinish,		_T("set stall finish"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_StallClose,				&HandleRoleStallClose,			_T("close stall"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_StallGet,					&HandleRoleStallGet,			_T("get all stall goods"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_StallGetTitle,			&HandleRoleStallGetTitle,		_T("get stall title"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_StallBuy,					&HandleRoleStallBuy,			_T("buy stall goods"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_StallGetSpec,				&HandleRoleStallGetSpec,		_T("get stall spec goods"));
+
+	// 驿站&乾坤石
+	M_REGISTER_PLAYER_RECV_CMD(NC_Dak,						&HandleRoleDak,					_T("Move To Another Map"));
+
+	// 磨石
+	M_REGISTER_PLAYER_RECV_CMD(NC_Abrase,					&HandleRoleAbrase,				_T("abrase weapon"));
+
+	// 角色仓库
+	//m_PlayerNetMgr.Register("NC_WareOpen",				&HandleRoleWareOpen,			_T("open role ware"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_WareOpen,					&HandleRoleSideWareOpen,		_T("open portable ware"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_WareExtend,				&HandleRoleWareExtend,			_T("extend role ware space"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_BagExtend,				&HandleRoleBagExtand,			_T("extend role bag space"));
+
+	// 角色仓库中存取金钱&元宝
+	M_REGISTER_PLAYER_RECV_CMD(NC_SaveSilver,				&HandleRoleSaveSilver,			_T("save silver to ware"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetSilver,				&HandleRoleGetSilver,			_T("get silver from ware to bag"));
+	//M_REGISTER_PLAYER_RECV_CMD("NC_SaveYuanBao",			&HandleRoleSaveYuanBao,			_T("save yuanbao to war"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetYuanBao,				&HandleRoleGetYuanBao,			_T("get yuanbao from ware to bag"));
+
+	// 行囊加密相关
+	M_REGISTER_PLAYER_RECV_CMD(NC_SetBagPsd,				&HandleRoleSetBagPsd,			_T("set bag password"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_UnsetBagPsd,				&HandleRoleUnsetBagPsd,			_T("cancel bag psd"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_OldBagPsd,				&HandleRoleCheckBagPsd,			_T("check old bag psd"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ResetBagPsd,				&HandleRoleResetBagPsd,			_T("modify bag psd"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_OpenBagPsd,				&HandleRoleOpenBagPsd,			_T("open bag need"));
+
+	// 地图事件
+	M_REGISTER_PLAYER_RECV_CMD(NC_RoleMapTrigger,			&HandleRoleMapTrigger,			_T("Map Trigger"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_InstanceNotify,			&HandleRoleInstanceNotify,		_T("Notify Teamate Enter Instance"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_InstanceAgree,			&HandleRoleInstanceAgree,		_T("Agree Enter Instance"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_LeaveInstance,			&HandleRoleLeaveInstance,		_T("Role Leave Instance"));
+
+	// 属性点相关
+	M_REGISTER_PLAYER_RECV_CMD(NC_RoleBidAttPoint,			&HandleRoleBidAttPoint,			_T("Role Bid Att"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_RoleClearAttPoint,		&HandleRoleClearAttPoint,		_T("Role Clear Att"));
+
+	// 天资技能相关
+	M_REGISTER_PLAYER_RECV_CMD(NC_LearnSkill,				&HandleRoleLearnSkill,			_T("Role Learn Skill"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_LevelUpSkill,				&HandleRoleLevelUpSkill,		_T("Role's Skill Level Up"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ForgetSkill,				&HandleRoleForgetSkill,			_T("Role Forget Skill"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ClearTalent,				&HandleRoleClearTalent,			_T("Role Clear His/Her Skill"));
+    M_REGISTER_PLAYER_RECV_CMD(NC_RolePracticeTalentPoint,	&HandlePracticeTalent,		    _T("Practice Talent"));
+	// 战斗
+	M_REGISTER_PLAYER_RECV_CMD(NC_EnterCombat,				&HandleRoleEnterCombat,			_T("Role Enter Combat"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_LeaveCombat,				&HandleRoleLeaveCombat,			_T("Role Level Combat"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_Skill,					&HandleRoleSkill,				_T("Role Skill")				, 500);
+	M_REGISTER_PLAYER_RECV_CMD(NC_SkillInterrupt,			&HandleRoleInterruptSkill,		_T("Role Interrupt Skill"));
+
+	// PK
+	M_REGISTER_PLAYER_RECV_CMD(NC_SafeGuard,				&HandleRoleSafeGuard,			_T("Role Set/UnSet Safe Guard"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PK,						&HandleRoleSetPK,				_T("Role Set PK State"));
+
+	// Buff
+	M_REGISTER_PLAYER_RECV_CMD(NC_CancelBuff,				&HandleRoleCancelBuff,			_T("Role Cancel Buff"));
+
+	// 个性动作
+	M_REGISTER_PLAYER_RECV_CMD(NC_RoleStyleAction,			&HandleRoleStyleAction,			_T("Role Style Action"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_DuetMotionInvite,			&HandleRoleDuetMotionInvite,	_T("Role Duet Action"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_DuetMotionOnInvite,		&HandleRoleDuetMotionOnInvite,	_T("Role Duet OnInvite"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_DuetMotionStart,			&HandleRoleDuetMotionStart,		_T("Role Duet Start"));
+
+	// 复活
+	M_REGISTER_PLAYER_RECV_CMD(NC_BindRebornMap,			&HandleRoleBindRebornMap,       _T("Bind Reborn Map"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_RoleRevive,				&HandleRoleRevive,				_T("Revive"));
+
+	// 聊天
+	M_REGISTER_PLAYER_RECV_CMD(NC_RoleChat,					&HandleRoleChat,				_T("Chat"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_RoleGetID,				&HandleRoleGetID,				_T("RoleGetID"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetNamebyNameID,			&HandleRoleGetNameByNameID,		_T("RoleGetNamebyNameID"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_RoleGetSomeName,			&HandleRoleGetSomeName,			_T("RoleGetSomeName"));
+
+	// 装备展示
+	M_REGISTER_PLAYER_RECV_CMD(NC_RoleShowEquip,			&HandleRoleShowEquip,			_T("NC_RoleShowEquip"));
+	// 物品展示
+	M_REGISTER_PLAYER_RECV_CMD(NC_RoleShowItem,				&HandleRoleShowItem,			_T("NC_RoleShowItem"));
+	// 读取留言
+	
+	M_REGISTER_PLAYER_RECV_CMD(NC_LoadLeftMsg,				&HandleRoleLoadLeftMsg,			_T("NC_LoadLeftMsg"));
+
+	// 群聊
+	M_REGISTER_PLAYER_RECV_CMD(NC_CreateGroupChat,			&HandleCreateGroupChat,			_T("NC_CreateGroupChat"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_DeleteGroupChat,			&HandleDeleteGroupChat,			_T("NC_DeleteGroupChat"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_LoginOutGroupChat,		&HandleLoginOutGroupChat,		_T("NC_LoginOutGroupChat"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_AddRoleToGroupChat,		&HandleAddRoleToGroupChat,		_T("NC_AddRoleToGroupChat"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SendGroupChatMsg,		    &HandleSendGroupChatMsg,		_T("NC_SendGroupChatMsg"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_InviteRoleToGroupChat,	&HandleInviteRoleToGroupChat,	_T("NC_InviteRoleToGroupChat"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_KickRoleFromGroupChat,	&HandleKickRoleFromGroupChat,	_T("NC_KickRoleFromGroupChat"));
+
+	// 任务
+	M_REGISTER_PLAYER_RECV_CMD(NC_NPCAcceptQuest,			&HandleRoleNPCAcceptQuest,		_T("Quest"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_TriggerAcceptQuest,		&HandleRoleTriggerAcceptQuest,	_T("Quest"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_CompleteQuest,			&HandleRoleCompleteQuest,		_T("Quest"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_DeleteQuest,				&HandleRoleDeleteQuest,			_T("Quest"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_UpdateQuestNPCTalk,		&HandleRoleUpdateQuestNPCTalk,	_T("Quest"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetSingleQuestDoneInfo,   &HandleGetSingleQuestDoneInfo,	_T("Quest"));
+	
+
+	//拾取物品
+	M_REGISTER_PLAYER_RECV_CMD(NC_RolePickUpItem,			&HandleRolePickUpItem,			_T("PickUp"));
+	//扔掉物品
+	M_REGISTER_PLAYER_RECV_CMD(NC_RolePutDownItem,			&HandleRolePutDownItem,			_T("PutDown"));
+
+	// 装备强化
+	M_REGISTER_PLAYER_RECV_CMD(NC_ConsolidatePosy,			&HandleRolePosyEquip,			_T("Posy Equip"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ConsolidateEngrave,		&HandleRoleEngraveEquip,		_T("Engrave Equip"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_Inlay,					&HandleRoleInlayEquip,			_T("Inlay Equip"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_Brand,					&HandleRoleBrandEquip,			_T("Brand Equip"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_LoongSoul,				&HandleRoleLoongSoul,			_T("LoongSoul Equip"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ConsolidateQuench,		&HandleRoleQuench,				_T("Quench Equip"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_Produce,					&HandleRoleProduceItem,			_T("Produce Item"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_AdvancedCompose,			&HandleRoleAdvancedCompose,		_T("AdvancedCompose Item"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_Decomposition,			&HandleRoleDeCompose,			_T("Decompose Item"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_Extraction,				&HandleRoleExtract,				_T("Extract Item"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_Chisel,					&HandleRoleChisel,				_T("Chisel Equip"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_DyeFashion,				&HandleRoleDyeFashion,			_T("Dye Fashion"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_EquipGrow,				&HandleEquipGrow,				_T("equip grow"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_EquipGrowTrans,			&HandleEquipGrowTrans,			_T("equip grow transform"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_EquipGrowDec,				&HandleEquipGrowDec,			_T("equip grow dec"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_EquipPerfectGrow,			&HandleEquipPerfectGrow,		_T("equip perfect grow"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_XiPurpleStar,				&HandleXiPurpleStar,			_T("xi purple stars"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SoulCrystalGrow,			&HandleSoulCrystalGrow,			_T("soul crystal grow"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SoulCrystalRenew,			&HandleSoulCrystalRenew,		_T("soul crystal renew"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_HolyStrength,				&HandleRoleHolyStrength,		_T("holy strength"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_HolyEquipmentNumber,		&HandleRoleHolyEquipmentNumber,	_T("holy EquipmentNumber"));
+	
+
+	//元神
+	M_REGISTER_PLAYER_RECV_CMD(NC_SoulEquip,				&HandleRoleSoulEquip,			_T("Equip Holy Soul"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_UnSoulEquip,				&HandleRoleUnSoulEquip,			_T("UnEquip Holy Soul"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetHolyAffuse,			&HandleRoleHolyAffuse,			_T("Role Holy Affuse"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetHolyReborn,			&HandleRoleHolyReborn,			_T("Role Holy Reborn"));
+	//元神装备强化
+// 	M_REGISTER_PLAYER_RECV_CMD(NC_StarEnhance,			&HandleStarEnhance,			_T("Star Enhance"));
+// 	M_REGISTER_PLAYER_RECV_CMD(NC_HolyEquipHole,		&HandleHolyEquipHole,			_T("NC_HolyEquipHole"));
+// 	M_REGISTER_PLAYER_RECV_CMD(NC_HolyEquipInlay,		&HandleHolyEquipInlay,			_T("NC_HolyEquipInlay"));
+// 	M_REGISTER_PLAYER_RECV_CMD(NC_HolyEquipRemove,		&HandleHolyEquipRemove,			_T("NC_HolyEquipRemove"));
+
+	//精纺时装
+	M_REGISTER_PLAYER_RECV_CMD(NC_ConsolidateSpin,			&HandleRoleSpinFashionDress,	_T("Spin Dress"));
+
+	// Jason 2009-12-6
+	M_REGISTER_PLAYER_RECV_CMD(NC_AddPot,					&HandleRoleAddEquipPotVal,			_T("Add Equip PotVal"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetLoongBenediction,					&HandleLessingLoong,			_T("Lessing Of Loong"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_BeGoldStone,					&HandleGoldStone,			_T("Gold stone"));
+
+	// 使用物品
+	M_REGISTER_PLAYER_RECV_CMD(NC_UseItem,					&HandleRoleUseItem,             _T("Use Item"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_UseItemInterrupt,			&HandleRoleInterruptUseItem,	_T("Interrupt Use Item"));
+
+	// 好友相关
+	M_REGISTER_PLAYER_RECV_CMD(NC_RoleMakeFriend,			&HandleRoleMakeFriend,			_T("Make Friend"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_RoleCancelFriend,			&HandleRoleCancelFriend,		_T("Cancel Friend"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_UpdateFriGroup,			&HandleUpdateFriendGroup,		_T("Friend Group"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_MoveToBlackList,			&HandleMoveBlackList,			_T("Move BlackList"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_DeleteBlackList,			&HandleDeleteBlackList,			_T("Delete BlackList"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SendGift,					&HandleRoleSendGift,			_T("Send Gift"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SendGiftReply,			&HandleRoleSendGiftReply,		_T("Send Gift Repley"));
+
+	// 小队相关
+	M_REGISTER_PLAYER_RECV_CMD(NC_InviteJoinTeam,			&HandleRoleJoinTeam,			_T("Invite Join Team"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_InviteReply,				&HandleRoleJoinTeamReply,		_T("Invite Join Team Reply"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_KickMember,				&HandleRoleKickMember,			_T("Kick Member"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_LeaveTeam,				&HandleRoleLeaveTeam,			_T("Leave Team"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SetPickMode,				&HandleRoleSetPickMol,			_T("Set Pick Mode"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ChangeLeader,				&HandleRoleChangeLeader,		_T("Change Leader"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_UpdateFriEnemyState,		&HandleUpdateFriOnline,			_T("Update Friend Online"));
+	//Jason 申请入队
+	M_REGISTER_PLAYER_RECV_CMD(NC_ApplyToJoinTeam,			&HandleApplyJoinTeam,		_T("Apply Join Team"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ApplyReply,				&HandleReplyForApplingToJoinTeam,			_T("Reply of Join Team"));
+
+	// 称号相关
+	M_REGISTER_PLAYER_RECV_CMD(NC_ActiveRoleTitle,			&HandleRoleActiveTitle,			_T("Active a title"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetRoleTitles,			&HandleRoleGetTitles,			_T("Get all obtained titles"));
+	
+	// 名帖相关
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetRoleVCard,				&HandleRoleGetVCard,			_T("Get VCard"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetRoleHeadPicURL,		&HandleGetHeadPicUrl,			_T("Get HeadPicUrl"));
+
+	// 反外挂
+	M_REGISTER_PLAYER_RECV_CMD(NC_GameGuarder,				&HandleGameGuarderMsg,			_T("Game Guarder"));
+
+	// 声望
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetReputation,			&HandleGetRoleClanData,			_T("get role clan data"));
+
+	// 名人堂
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetActClanTreasure,		&HandleGetActClanTreasure,		_T("get active treasure"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetFameHallRoles,			&HandleGetFameHallRoles,		_T("get famehall role top 50"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetReputeTop,				&HandleGetReputeTop,			_T("get reputation top 50"));
+
+	// 百宝袋
+	M_REGISTER_PLAYER_RECV_CMD(NC_InitBaiBaoRecord,			&HandleInitBaiBaoRecord,		_T("get baibao records"));
+	
+	// 防沉迷
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetFatigueInfo,			&HandleGetFatigueInfo,			_T("fatigue info"));
+
+	// 宠物
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetPetAttr,				&HandleGetPetAttr,				_T("get pet att"));
+	M_REGISTER_PLAYER_RECV_CMD_EX(NC_PetSkillUse,			&HandlePetSkill,				_T("pet skill cmd"),			500);
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetSkillStopWorking,		&HandlePetSkillStopWorking,		_T("pet skill stop work"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_UsePetEgg,				&HandleUsePetEgg,				_T("use pet egg"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_DeletePet,				&HandleDeletePet,				_T("delete pet"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_RecallPet,				&HandleNC_RecallPet,			_T("Recall pet"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetPetDispInfo,			&HandleGetPetDispInfo,			_T("get pet disp"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SetPetState,				&HandleSetPetState,				_T("set pet state"));
+
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetEquip,					&HandlePetEquip,				_T("pet equip"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetUnequip,				&HandlePetUnEquip,				_T("pet unequip"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetEquipPosSwap,			&HandlePetSwapEquipPos,			_T("pet swap equip pos"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetPetPourExpMoneyNeed,	&HandleGetPetPourExpMoneyNeed,	_T("pet pour exp money need"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetPourExp,				&HandlePetPourExp,				_T("pet pour exp"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetUpStep,				&HandlePetUpStep,				_T("pet up step"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetEnhance,				&HandlePetEnhance,				_T("pet enhance"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetFood,					&HandlePetFood,					_T("pet food"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetLearnSkill,			&HandlePetLearnSkill,			_T("pet learn skill"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetRename,				&HandlePetRename,				_T("pet rename"));
+
+	M_REGISTER_PLAYER_RECV_CMD(NC_MountInvite,				&HandlePetInvite,				_T("invite sb mount"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_MountOnInvite,			&HandlePetOnInvite,				_T("on invited"));
+
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetSetLock,				&HandlePetSetLock,				_T("set pet lock"));
+
+	// 精力系统
+	M_REGISTER_PLAYER_RECV_CMD(NC_SpiritReward,				&HandleSpiritReward,			_T("spirit reward"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_StrengthReward,			&HandleStrength2Spirit,			_T("strength rewards"));
+  
+	
+	// 玩家间宠物交易
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetExchangeReq,			&HandleRolePetExchangeReq,		_T("PetExchangeReq"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetExchangeReqRes,		&HandleRolePetExchangeReqRes,	_T("PetExchangeReqRes"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetExchangeAdd,			&HandleRolePetExchangeAdd,		_T("PetExchangeAdd"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetExchangeDec,			&HandleRolePetExchangeDec,		_T("PetExchangeDec"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetExchangeMoney,			&HandleRolePetExchangeMoney,	_T("PetExchangeMoney"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetExchangeLock,			&HandleRolePetExchangeLock,		_T("PetExchangeLock"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetExchangeCancel,		&HandleRolePetExchangeCancel,	_T("PetExchangeCancel"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_PetExchangeVerify,		&HandleRolePetExchangeVerify,	_T("PetExchangeVerify"));
+
+	// npc
+	M_REGISTER_PLAYER_RECV_CMD(NC_NPCTalk,					&HandleTalkToNPC,				_T("talk to npc"));
+
+	// 跑商相关
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetCofCInfo,				&HandleGetCofCInfo,				_T("get CofC goods info"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_CloseCofC,				&HandleCloseCofC,				_T("close CofC"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_BuyCofCGoods,				&HandleBuyCofCGoods,			_T("buy goods from CofC"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SellCofCGoods,			&HandleSellCofCGoods,			_T("sell goods to CofC"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetCommodityInfo,			&HandleGetCommodityInfo,		_T("get commodity info"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetTaelInfo,				&HandleGetTaelInfo,				_T("get commerce beginning info"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetCommerceRank,			&HandleGetCommerceRank,			_T("get commerce rank info"));
+
+	//	宝箱
+    
+	M_REGISTER_PLAYER_RECV_CMD(NC_StartTreasureChest,		&HandleStartTreasureChest,		_T("start treasure chest"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_TreasureChest,			&HandleOpenTreasureChest,		_T("open treasure chest"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_StopTreasureChest,		&HandleStopTreasureChest,		_T("stop roll item"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_AgainTreasureChest,		&HandleAgainTreasureChest,		_T("roll item again"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ChestGetItem,				&HandleChestGetItem,			_T("get chest item"));
+
+	// 返回角色选择
+	M_REGISTER_PLAYER_RECV_CMD(NC_ReturnRoleSelect,			&HandleReturnRoleSelect,		_T("return role select"));
+
+	// 城市系统(只能在本地图操作)
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetCityInfo,				&HandleGetCityAttInfo,			_T("get city att info"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetCityInfoByCityID,		&HandleGetCityAttInfoByCityID,	_T("get city att info by city id"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetAppointedCityAtt,		&HandleGetAppointedCityAtt,		_T("get city appointed att info"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SetTaxRate,				&HandleSetTaxRate,				_T("modify city tax rate"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_TransformTaxation,		&HandleTransformTaxation,		_T("tranform city taxation"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SignupForCitywar,			&HandleSignupForCitywar,		_T("signup for citywar"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetSigupInfo,				&HandleGetSigupInfo,			_T("get sigup info"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ConfirmDefenceForce,		&HandleConfirmDefenceForce,		_T("confirm defence force"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetCityWarCity,			&HandleGetCityWarCity,			_T("get war city"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetCityWarInfo,			&HandleGetCityWarInfo,			_T("get city war info"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_UpgradeProlificacy,		&HandleUpgradeProlificacy,		_T("upgrade prolificacy"));
+
+	//仙界修行
+	M_REGISTER_PLAYER_RECV_CMD(NC_PracticeMiracleSkill,		&HandlePracticeMiracleSkill,		_T("Practice Miracle Skill"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_UseAddMiraclePrcNumItem,	&HandleUseAddMiraclePrcNumItem,		_T("Use Add Practice Miracle Num Item"));	
+
+	//夫妻相关
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetMarriageReq,			&HandleGetMarriageReq,					_T("get marriage to somebody"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetMarriageReqRes,		&HandleGetMarriageReqRes,				_T("get marriage to somebody's response"));
+ //	M_REGISTER_PLAYER_RECV_CMD(NC_BreakMarriageReq,			&HandleBreakMarriageReq,				_T("break marriage with somebody"));
+ 	M_REGISTER_PLAYER_RECV_CMD(NC_ForceBreakMarriageReq,	&HandleForceBreakMarriageReq,			_T("force break marriage with somebody"));
+// 	M_REGISTER_PLAYER_RECV_CMD(NC_BreakMarriageReqRes,		&HandleBreakMarriageReqRes,				_T("break marriage with somebody's response"));
+// 	M_REGISTER_PLAYER_RECV_CMD(NC_CelebrateWeddingReq,		&HandleCelebrateWeddingReq,				_T("somebody make celebrate wedding request"));
+// 	//M_REGISTER_PLAYER_RECV_CMD("NC_UpdateWeddingStepReq",		&PlayerSession::HandleUpdateWeddingStepReq,	_T("applicant make update wedding step request"));
+
+	// 龙之试炼系统
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetTrainList,				&HandleGetTrainList,       _T("get train list of a role"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_FinishTrain,				&HandleFinishTrain,        _T("train finished notify"));	
+
+	// 战斗挂机系统
+	M_REGISTER_PLAYER_RECV_CMD(NC_UseZhanDouFu,				&HandleUseZhanDouFu,       _T("role use zhandoufu"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_SyncAutoFightState,		&HandleSyncAutoFightState, _T("sync role auto fight state"));
+
+	// 仇敌列表相关消息
+	M_REGISTER_PLAYER_RECV_CMD(NC_DeleteEnemy,				&HandleDeleteEnemy,		   _T("delete enemy from enemy list"));
+
+	M_REGISTER_PLAYER_RECV_CMD(NC_GuiYuan,					&HandleGuiYuan,				_T(""));
+
+	// 公会战争
+	M_REGISTER_PLAYER_RECV_CMD(NC_DeclareGuildWar,			&HandleDeclareGuildWar,				_T(""));
+
+	// KeyCodeBridge
+	M_REGISTER_PLAYER_RECV_CMD(NC_KeyCode,					&HandleKeyCode,				_T(""));
+
+	// 妖精经验封印
+	M_REGISTER_PLAYER_RECV_CMD(NC_SyncFaBaoStoreExpInfo,		&HandleSyncFaBaoStoreExpInfo,       _T("SyncFaBaoStoreExpInfo"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ExpBall2ExpPilular,				&HandleExpBall2ExpPilular,				_T("ExpBall2ExpPilular"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_ExpBallBind2Role,					&HandleExpBallBind2Role,				_T("ExpBallBind2Role"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_UseExpPilular,					&HandleUseExpPilular,				_T("NC_UseExpPilular"));
+
+	// 家族任务相关
+	M_REGISTER_PLAYER_RECV_CMD(NC_OpenFamilyQuestPage,			&HandleRoleOpenFamilyQuestPage,			_T("NC_OpenFamilyQuestPage"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_YesterdayQuestInfo,			&HandleRoleGetFamilyQuestYesterdayInfo,	_T("NC_YesterdayQuestInfo"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GiveInFamilyQuestItem,		&HandleRoleGiveInFamilyQuestItem,		_T("NC_GiveInFamilyQuestItem"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_RewardFamilyMember,			&HandleRoleGetFamilyQuestReward,		_T("NC_RewardFamilyMember"));
+
+	// todo: add new register to here.
+	//M_REGISTER_PLAYER_RECV_CMD( "",		&HandleRole,       _T(""));
+
+	//--------------------------------------------------------------------------
+	// GM命令
+	//--------------------------------------------------------------------------
+	M_REGISTER_PLAYER_RECV_CMD(NC_GMCommand,				&HandleGMCommand,				_T("GM Command"));
+	m_GMCommandMgr.RegisterAll();
+
+
+	//--------------------------------------------------------------------------
+	// 需在地图线程上层处理的消息
+	//--------------------------------------------------------------------------
+	// 商城
+	M_REGISTER_WORLD_RECV_CMD(NC_MallGet,					&PlayerSession::HandleRoleMallGet,						_T("mall get item"));
+	M_REGISTER_WORLD_RECV_CMD(NC_MallUpdate,				&PlayerSession::HandleRoleMallUpdate,					_T("mall update"));
+	M_REGISTER_WORLD_RECV_CMD(NC_MallBuyItem,				&PlayerSession::HandleRoleMallBuyItem,					_T("mall buy item"));
+	M_REGISTER_WORLD_RECV_CMD(NC_MallShoppingCart,			&PlayerSession::HandleRoleMallShoppingCart,				_T("mall shopping cart"));
+	M_REGISTER_WORLD_RECV_CMD(NC_MallBuyPack,				&PlayerSession::HandleRoleMallBuyPack,					_T("mall buy pack"));
+	M_REGISTER_WORLD_RECV_CMD(NC_MallPresentItem,			&PlayerSession::HandleRoleMallPresentItem,				_T("mall buy item for friend"));
+	M_REGISTER_WORLD_RECV_CMD(NC_MallPresentPack,			&PlayerSession::HandleRoleMallPresentPack,				_T("mall buy pack for friend"));
+	M_REGISTER_WORLD_RECV_CMD(NC_MallFreeGetItem,			&PlayerSession::HandleRoleMallFreeGetItem,				_T("mall get free item"));
+	M_REGISTER_WORLD_RECV_CMD(NC_LaunchGroupPurchase,		&PlayerSession::HandleRoleMallLaunchGroupPurchase,		_T("launch group purchase"));
+	M_REGISTER_WORLD_RECV_CMD(NC_RespondGroupPurchase,		&PlayerSession::HandleRoleMallRespondGroupPurchase,		_T("respond group purchase"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GetSimGPInfo,				&PlayerSession::HandleRoleMallGetGroupPurchaseInfo,		_T("get guild group purchase info"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GetParticipators,			&PlayerSession::HandleRoleMallGetParticipators,			_T("get guild group purchase participators"));
+	M_REGISTER_WORLD_RECV_CMD(NC_MallItemExchange,			&PlayerSession::HandleRoleMallItemExchange,				_T("mall item exchange"));
+	M_REGISTER_WORLD_RECV_CMD(NC_MallPackExchange,			&PlayerSession::HandleRoleMallPackExchange,				_T("mall pack exchange"));
+
+	//竞技系统
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPEnterHall,			    &HandlePvPEnterHall,			_T("Enter Athletics Hall"));
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPLeaveHall,			    &HandlePvPLeaveHall,			_T("Leave Athletics Hall"));
+
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPGetRoomList,			&HandlePvPGetRoomList,			_T("Get Athletics Room"));
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPGetRoomInfo,			&HandlePvPGetRoomInfo,			_T("Get Athletics Room Info"));
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPGetSimRoomInfo,			&HandlePvPGetSimRoomInfo,		_T("Get Athletics SimRoomInfo"));
+	     
+	
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPInviteJoin,	            &HandlePvPInviteJoin,		    _T("PvPInviteJoinRefuse"));
+    M_REGISTER_WORLD_RECV_CMD(NC_PvPInvite,		            &HandlePvPInvite,		        _T(" PvPInvite"));
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPAutoJoinRoom,		    &HandlePvPAutoJoinRoom,		    _T(" AutoJoinRoom"));
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPJoinRoom,			    &HandlePvPJoinRoom,			    _T("Join Athletics Room"));
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPCreateRoom,			    &HandlePvPCreateRoom,			_T("Create Room"));
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPLeaveRoom,			    &HandlePvPLeaveRoom,			_T("Leave Room"));
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPChangePosition,	        &HandlePvPChangePos,            _T("Change Pos"));
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPPrepare,			    &HandlePvPPrepare,			    _T("PvPPrepare"));
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPUnPrepare,			    &HandlePvPUnPrepare,			_T("PvPUnPrepare"));
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPKickPlayer,			    &HandlePvPKickPlayer,			_T("PvPKickPlayer"));
+	M_REGISTER_WORLD_RECV_CMD(NC_PvPStart,			        &HandlePvPStart,			    _T("PvPStart"));
+
+	
+
+
+    
+	M_REGISTER_WORLD_RECV_CMD(NC_QueryDragonGirlRankings,			  &HandleQueryDragonGirlRankings,			_T("QueryDragonGirlRankings"));
+	M_REGISTER_WORLD_RECV_CMD(NC_QueryDragonDefenderRankings,		  &HandleQueryDragonDefenderRankings,     _T("QueryDragonDefenderRankings"));
+	M_REGISTER_WORLD_RECV_CMD(NC_VoteForDrangonGirl,		          &HandleVoteForDrangonGirl,              _T("VoteForDrangonGirl"));
+	
+	// 元宝交易
+	M_REGISTER_WORLD_RECV_CMD(NC_SaveYB2Account,			&PlayerSession::HandleRoleSaveYB2Account,				_T("save yuan bao to account"));
+	M_REGISTER_WORLD_RECV_CMD(NC_SaveSilver2Account,		&PlayerSession::HandleRoleSaveSilver2Account,			_T("save silver to account"));
+	M_REGISTER_WORLD_RECV_CMD(NC_DepositAccountYB,			&PlayerSession::HandleRoleDepositYBAccount,				_T("deposit yuan bao from account"));
+	M_REGISTER_WORLD_RECV_CMD(NC_DepositAccountSilver,		&PlayerSession::HandleRoleDepositSilver,				_T("deposit silver from account"));
+	M_REGISTER_WORLD_RECV_CMD(NC_SynYBTradeInfo,			&PlayerSession::HandleRoleGetYBTradeInfo,				_T("get yuan bao trade information"));
+	M_REGISTER_WORLD_RECV_CMD(NC_SubmitSellOrder,			&PlayerSession::HandleRoleSubmitSellOrder,				_T("submit yuan bao sell order"));
+	M_REGISTER_WORLD_RECV_CMD(NC_SubmitBuyOrder,			&PlayerSession::HandleRoleSubmitBuyOrder,				_T("submit yuan bao buy order"));
+	M_REGISTER_WORLD_RECV_CMD(NC_DeleteOrder,				&PlayerSession::HandleRoleDeleteOrder,					_T("delete yuan bao trade order"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GetYuanbaoOrder,			&PlayerSession::HandleRoleGetYBOrder,					_T("get yuan bao order"));
+
+	// 名人堂
+	M_REGISTER_WORLD_RECV_CMD(NC_ActiveTreasure,			&PlayerSession::HandleActiveTreasure,					_T("active clan treasure"));
+
+	// 帮派
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildCreate,				&PlayerSession::HandleCreateGuild,						_T("create guild"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildDismiss,				&PlayerSession::HandleDismissGuild,						_T("dismiss guild"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildJoinReq,				&PlayerSession::HandleJoinGuildReq,						_T("join guild req"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildJoinReqRes,			&PlayerSession::HandleJoinGuildReqRes,					_T("join guild req res"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildLeave,				&PlayerSession::HandleLeaveGuild,						_T("leave guild"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildKick,					&PlayerSession::HandleKickFromGuild,					_T("kick from guild"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildTurnover,				&PlayerSession::HandleTurnoverGuild,					_T("turnover guild"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildDemiss,				&PlayerSession::HandleDemissFromGuild,					_T("demiss from guild"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildAppoint,				&PlayerSession::HandleAppointForGuild,					_T("appoint for guild"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildTenetChange,			&PlayerSession::HandleChangeGuildTenet,					_T("change guild tenet"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildChangeName,			&PlayerSession::HandleGuildChangeName,					_T("change guild name"));
+	
+	// 家族
+	M_REGISTER_WORLD_RECV_CMD(NC_CreateFamily,				&PlayerSession::HandleCreateFamily,						_T("create family"));
+	M_REGISTER_WORLD_RECV_CMD(NC_FamilyDismiss,				&PlayerSession::HandleDismissFamily,						_T("dismiss family"));
+	M_REGISTER_WORLD_RECV_CMD(NC_FamilyJoinReq,				&PlayerSession::HandleJoinFamilyReq,						_T("join family req"));
+	M_REGISTER_WORLD_RECV_CMD(NC_FamilyJoinReqRes,		&PlayerSession::HandleJoinFamilyReqRes,				_T("join family req res"));
+	M_REGISTER_WORLD_RECV_CMD(NC_FamilyLeave,					&PlayerSession::HandleLeaveFamily,							_T("leave family"));
+	M_REGISTER_WORLD_RECV_CMD(NC_FamilyKick,					&PlayerSession::HandleKickFromFamily,					_T("kick from family"));
+	M_REGISTER_WORLD_RECV_CMD(NC_FamilyHandOver,			&PlayerSession::HandleHandOverFamily,					_T("turnover family"));
+	M_REGISTER_WORLD_RECV_CMD(NC_FamilyApply,					&PlayerSession::HandleFamilyApply,							_T("FamilyApply"));
+	M_REGISTER_WORLD_RECV_CMD(NC_FamilyApplyRes,			&PlayerSession::HandleFamilyApplyRes,					_T("FamilyApplyRes"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GetFamilyName,			&PlayerSession::HandleGetFamilyName,					_T("GetFamilyName"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GetFamilyInfo,				&PlayerSession::HandleGetFamilyInfo,						_T("NC_GetFamilyInfo"));
+
+	// 帮派信息获取消息
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildGetAllMembers,		&PlayerSession::HandleGetGuildMembers,					_T("get all guild members"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildGetMemberEx,			&PlayerSession::HandleGetGuildMemberEx,					_T("get guild member ex"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildRefMember,			&PlayerSession::HandleRefreshGuildMember,				_T("refresh guild member"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GetGuildName,				&PlayerSession::HandleGetGuildName,						_T("get guild name"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GetGuildTenet,				&PlayerSession::HandleGetGuildTenet,					_T("get guild tenet"));
+	M_REGISTER_WORLD_RECV_CMD(NC_SyncGuildInfo,				&PlayerSession::HandleSyncGuildInfo,					_T("sync guild base info"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GetSomeGuildName,			&PlayerSession::HandleGetSomeGuildName,					_T("get some guild name"));
+	// Jason 2010-2-20 v1.3.2 申请加入帮派相关协议
+	M_REGISTER_WORLD_RECV_CMD(NC_GetGuildPurpose,			&PlayerSession::HandleGetGuildPurpose,					_T("get guild purpose"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GetAllGuildSmallInfo,			&PlayerSession::HandleGetGuildSmallInfo,				_T("get guild ranking info"));
+	M_REGISTER_WORLD_RECV_CMD(NC_WantToJoinGuild,			&PlayerSession::HandleApplyToJoinGuild,					_T("apply to join guild")) ;
+	M_REGISTER_WORLD_RECV_CMD(NC_ContactGuildLeader,		&PlayerSession::HandleContactGuildLeader,				_T("connact guild leader"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GetGuildApplierBill,		&PlayerSession::HandleGetGuildApplierBill,				_T("get guild appliers"));
+	M_REGISTER_WORLD_RECV_CMD(NC_ApproveToJoinGuild,		&PlayerSession::HandleApproveToJoinGuild,				_T("approve to join guild"));
+	M_REGISTER_WORLD_RECV_CMD(NC_SearchGuild,				&PlayerSession::HandleSearchGuild,						_T("search guild"));
+
+
+	// 帮派仓库
+	M_REGISTER_WORLD_RECV_CMD(NC_GetGuildWare,				&PlayerSession::HandleGetGuildWareItems,				_T("get guild warehouse items"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GetGuildWarePriList,		&PlayerSession::HandleGetGuildWarePriList,				_T("get member warehouse privilege list"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildWarePri,				&PlayerSession::HandleGuildWarePrivilege,				_T("change member warehouse privilege"));
+
+	// 帮派设施升级
+	M_REGISTER_WORLD_RECV_CMD(NC_GetGuildUpgradeInfo,		&PlayerSession::HandleGetGuildFacilitiesInfo,			_T("get guild facilities info"));
+	M_REGISTER_WORLD_RECV_CMD(NC_HandInItems,				&PlayerSession::HandleHandInItems,						_T("hand in items"));
+
+	// 帮务发布
+	M_REGISTER_WORLD_RECV_CMD(NC_SpreadGuildAffair,			&PlayerSession::HandleSpreadGuildAffair,				_T("spread guild affair"));
+
+	// 帮派技能
+	M_REGISTER_WORLD_RECV_CMD(NC_GetGuildSkillInfo,			&PlayerSession::HandleGetGuildSkillInfo,				_T("get guild skill info"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GuildSkillUpgrade,			&PlayerSession::HandleUpgradeGuildSkill,				_T("handin guild skill book"));
+	M_REGISTER_WORLD_RECV_CMD(NC_LearnGuildSkill,			&PlayerSession::HandleLearnGuildSkill,					_T("learn guild skill"));
+	M_REGISTER_WORLD_RECV_CMD(NC_SetResearchSkill,			&PlayerSession::HandleSetResearchSkill,					_T("set current research guild skill"));
+	M_REGISTER_WORLD_RECV_CMD(NC_ActiveGuildSkill,			&PlayerSession::HandleActiveGuildSkill,					_T("Active Guild Skill"));
+
+	// 帮派跑商相关
+	M_REGISTER_WORLD_RECV_CMD(NC_AcceptCommerce,			&PlayerSession::HandleAcceptCommerce,					_T("accept commerce"));
+	M_REGISTER_WORLD_RECV_CMD(NC_CompleteCommerce,			&PlayerSession::HandleCompleteCommerce,					_T("complete commerce"));
+	M_REGISTER_WORLD_RECV_CMD(NC_AbandonCommerce,			&PlayerSession::HandleAbandonCommerce,					_T("abandon commerce"));
+	M_REGISTER_WORLD_RECV_CMD(NC_SwitchCommendation,		&PlayerSession::HandleSwitchCommendation,				_T("switch commend status"));
+
+	// 角色名贴
+	M_REGISTER_WORLD_RECV_CMD(NC_SetRoleVCard,				&PlayerSession::HandleRoleSetVCard,						_T("Set VCard"));
+
+	// 客户端对话框发给服务的缺省消息
+	M_REGISTER_WORLD_RECV_CMD(NC_DlgDefaultMsg,				&PlayerSession::HandleDlgDefaultMsg,					_T("dialog default message"));
+	// 客户端触发服务器脚本的缺省消息
+	M_REGISTER_WORLD_RECV_CMD(NC_DefaultRequest,			&PlayerSession::HandleDefaultRequest,					_T("Default Request"));
+
+	// VIP摊位相关
+	M_REGISTER_WORLD_RECV_CMD(NC_GetAllVIPStallInfo,		&PlayerSession::HandleGetAllVIPStallInfo,				_T("get all vip stall info"));
+	M_REGISTER_WORLD_RECV_CMD(NC_UpdateVIPStallInfo,		&PlayerSession::HandleUpdateVIPStallInfo,				_T("get updated vip stall info"));
+	M_REGISTER_WORLD_RECV_CMD(NC_ApplyVIPStall,				&PlayerSession::HandleApplyVIPStall,					_T("apply vip stall"));
+	M_REGISTER_WORLD_RECV_CMD(NC_SpecVIPStallGet,			&PlayerSession::HandleSpecVIPStallGet,					_T("get vip stall goods info"));
+	M_REGISTER_WORLD_RECV_CMD(NC_VIPStallBuy,				&PlayerSession::HandleBuyVIPStallGoods,					_T("buy vip stall goods"));
+
+	M_REGISTER_WORLD_RECV_CMD(NC_GetVipNetBarName,			&PlayerSession::HandleGetVipNetBarName,					_T("get vipnetbar name"));
+
+	// 获得其他玩家的装备信息
+	M_REGISTER_WORLD_RECV_CMD(NC_GetRemoteRoleEquipInfo,	&PlayerSession::HandleGetSomeoneEquip,					_T("get someone's equip info"));
+
+	// 职业系统
+	M_REGISTER_WORLD_RECV_CMD(NC_SetClass,					&PlayerSession::HandleSetClass,							_T("set class"));
+	M_REGISTER_WORLD_RECV_CMD(NC_ChangeClass,				&PlayerSession::HandleChangeClass,						_T("change class"));
+
+	// 实力系统相关
+	M_REGISTER_WORLD_RECV_CMD(NC_GetRankingInfo,			&PlayerSession::HandleGetRankings,						_T("get strength rankings"));
+	M_REGISTER_WORLD_RECV_CMD(NC_SynTotalStrength,			&PlayerSession::HandleSynTotalStrength,					_T("syn total strength to client"));
+
+	// 离线提示
+	M_REGISTER_WORLD_RECV_CMD(NC_ExitGamePrompt,			&PlayerSession::HandleRoleLeaveNotify,					_T("leave Notify"));
+
+	// Jason v1.3.1 2009-12-21 宝石拆解
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetGemRemovalInfo,		&HandleGetGemRemovalInfo,								_T("GetGemRemovalInfo"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GemRemoval,				&HandleGemRemoval,										_T("GemRemoval"));
+
+	// 城战系统
+	M_REGISTER_WORLD_RECV_CMD(NC_WaitSummon,				&PlayerSession::HandleWaitSummon,						_T("wait summon"));
+	M_REGISTER_WORLD_RECV_CMD(NC_CancelSummon,				&PlayerSession::HandleCancelSummon,						_T("cancel summon"));
+	M_REGISTER_WORLD_RECV_CMD(NC_CSRoleRecord,				&PlayerSession::HandleCSRoleRecord,						_T("city struggle role record"));
+
+	// 物品系统
+	M_REGISTER_WORLD_RECV_CMD(NC_LockItem,					&PlayerSession::HandleBindItem,							_T("Bind item"));
+	M_REGISTER_WORLD_RECV_CMD(NC_TrackPlayerPos,			&PlayerSession::HandleTracePlayer,						_T("Player trace"));
+	M_REGISTER_WORLD_RECV_CMD(NC_Move2Player4Track,			&PlayerSession::HandleMove2Role,						_T("Move to new position"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GetPositionAfterTrack,		&PlayerSession::HandleGetPlayerPos,						_T("Get player's position"));
+	M_REGISTER_WORLD_RECV_CMD(NC_EquipSignature,			&PlayerSession::HandleEquipSignature,					_T("Equip Signature"));
+	M_REGISTER_WORLD_RECV_CMD(NC_SpecScriptItem,			&PlayerSession::HandleSpecScriptItem,					_T("Special Item need script"));
+	M_REGISTER_WORLD_RECV_CMD(NC_AddPetLiveTime,			&PlayerSession::HandleAddPetLiveTime,					_T("Add Pet Live Time"));
+
+	// 师徒系统
+	M_REGISTER_WORLD_RECV_CMD(NC_ApprenticeApplyMaster,		&PlayerSession::HandleApprenticeApplyMaster,	_T("Apprentice Apply Master"));
+	M_REGISTER_WORLD_RECV_CMD(NC_MasterReply,				&PlayerSession::HandleMasterReply,				_T("Master Reply"));
+	M_REGISTER_WORLD_RECV_CMD(NC_MasterAcceptApprentice,	&PlayerSession::HandleMasterAcceptApprentice,	_T("Master Accept Apprentice"));
+	M_REGISTER_WORLD_RECV_CMD(NC_ApprenticeReply,			&PlayerSession::HandleApprenticeReply,			_T("Apprentice Reply"));
+	M_REGISTER_WORLD_RECV_CMD(NC_MatesInfo,					&PlayerSession::HandleMatesInfo,				_T("Mates Info"));
+	M_REGISTER_WORLD_RECV_CMD(NC_ApprenticeInfo,			&PlayerSession::HandleApprenticeInfo,			_T("Apprentice Info"));
+	M_REGISTER_WORLD_RECV_CMD(NC_GiveJingWuPoint,			&PlayerSession::HandleGiveJingWuPoint,			_T("Give JingWuPoint"));
+	M_REGISTER_WORLD_RECV_CMD(NC_JingWu2Client,				&PlayerSession::HandleJingWu2Client,			_T("syc JingWuPoint to Client"));
+	M_REGISTER_WORLD_RECV_CMD(NC_UseJingWuPoint,			&PlayerSession::HandleUseJingWuPoint,			_T("Use JingWuPoint"));
+	M_REGISTER_WORLD_RECV_CMD(NC_BreakOutMaster,			&PlayerSession::HandleBreakOutMaster,			_T("Break Out Master"));
+	M_REGISTER_WORLD_RECV_CMD(NC_ForceBreakOutMaster,		&PlayerSession::HandleForceBreakOutMaster,		_T("Force Break Out Master"));
+	M_REGISTER_WORLD_RECV_CMD(NC_BreakOutMasterConfirm,		&PlayerSession::HandleBreakOutMasterConfirm,	_T("Break Out Master Confirm"));
+	M_REGISTER_WORLD_RECV_CMD(NC_BreakOutApprentice,		&PlayerSession::HandleBreakOutApprentice,		_T("Break Out Apprentice"));
+	M_REGISTER_WORLD_RECV_CMD(NC_BreakOutApprenticeConfirm,	&PlayerSession::HandleBreakOutApprenticeConfirm,		_T("Break Out Apprentice Confirm"));
+
+	// Jason 1.3.2 v1.3.2 2010-1-20 玩家回归
+	M_REGISTER_PLAYER_RECV_CMD(NC_PlayerRegressionOk,		&HandlePlayerRegression,								_T("Player Regression"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetOfflineExp,			&HandleGetOfflineExp,							        _T("Player OfflineExp"));
+
+	// 活动
+	M_REGISTER_PLAYER_RECV_CMD(NC_ApplyCapGodMiracle,		&HandleApplyCapGodMiracle,								_T("Apply CapGodMiracle"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetAllGodInfo,			&HandleGetAllGodInfo,									_T("Get GodMiracle1"));
+	// Jason 2010-1-30 v.1.3.2 扩充宠物带容量，每次只加1个
+	M_REGISTER_PLAYER_RECV_CMD(NC_ExtendPetPocket,			&HandlePetPocketExtendRequest,							_T("Pet Pocket Ext"));
+    // 快捷栏保存数据库
+	M_REGISTER_PLAYER_RECV_CMD(NC_MsgQuickBarData,			&HandleQuickBarDataSaveToServer,						_T("QuickBar data"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_MsgQuickBarDataLoadFromDB,&HandleQuickBarDataLoadFromServer,						_T("Load QuickBar data"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_MsgInformSaveQuickBarData,&HandleInformSaveQuickBarData,							_T("Inform Save QuickBar data"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_MsgIsSavedQuickBarData,	&HandleIsSavedQuickBarData,								_T("Inform have been Saved QuickBar data"));
+	// Jason 2010-2-21 v1.3.2 获得当前宠物栏个数信息
+	M_REGISTER_PLAYER_RECV_CMD(NC_GetRoleMaxPetsCount,		&HandlePetGetPocketMaxCount,							_T("Get pocket count"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_TeamBufChange,			&HandleTeamProfit,										_T("Get or Cancel Team Profit"));
+	
+	// Jason 2010-4-15 v2.0.0 法宝相关
+	M_REGISTER_PLAYER_RECV_CMD(NC_FabaoPractice,			&HandleFabaoPractice,									_T("practice fabao"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_FabaoInlay,				&HandleFabaoInlay,										_T("inlay fabao"));
+	// 2010-4-16
+	M_REGISTER_PLAYER_RECV_CMD(NC_FabaoWuxingReversal,		&HandleFabaoWuxingReversal,								_T("reverse fabao"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_FabaoWuxingMerging,		&HandleFabaoWuxingMerging,								_T("merge fabao"));
+
+	// 土地庙
+	M_REGISTER_PLAYER_RECV_CMD(NC_EarthTemple,				&HandleEarthTemple,									    _T("EarthTemple"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_RaiseEquipPotval,			&HandleRaiseEquipPotval,								_T("RaiseEquipPotval"));
+
+	// 易容师
+	M_REGISTER_PLAYER_RECV_CMD(NC_AppearanceTransform,		&HandleAppearanceTransform,								_T("AppearanceTransform"));
+
+	M_REGISTER_PLAYER_RECV_CMD(NC_QuerySoaringSwitch,		&HandleQuerySoaringSwitch,								_T("SoaringQuery"));
+
+	M_REGISTER_PLAYER_RECV_CMD(NC_PracticeSoaringSkill,		&HandlePracticeSoaringSkill,							_T("PracticeSoaringSkill"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_BuildEuipment,			&HandleBuildEuipment,									_T("HandleBuildEquipment") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_SoarEquipCasting ,		&HandleCastingEquipment,								_T("NC_SoarEquipCasting") );
+
+	// 任务板相关
+	M_REGISTER_PLAYER_RECV_CMD(NC_OpenQuestBoard,			&HandleOpenQuestBoard,									_T("NC_OpenQuestBoard") );
+	M_REGISTER_PLAYER_RECV_CMD(NC_RenewQuestBoard,			&HandleRefreshQuestBoard,								_T("NC_RenewQuestBoard") );
+
+	M_REGISTER_WORLD_RECV_CMD( NC_PullRoleMsgCallback ,		&HandlePullRoleMsgCallback,								_T("NC_PullRoleMsgCallback") );
+
+	// Jason 2010-6-18 v1.0.0
+	M_REGISTER_PLAYER_RECV_CMD(NC_StrengthenEquip,			&HandleStrengthenEquip,									_T("HandleStrengthenEquip"));
+	M_REGISTER_PLAYER_RECV_CMD(NC_DetachOrAttackSoul_Equip,	&HandleDetachOrAttackSoulEquip,							_T("HandleDetachOrAttackSoulEquip"));
+
+	// Jason 2010-7-5 v1.0.0
+	M_REGISTER_PLAYER_RECV_CMD( NC_FairyPowder,								&HandleFairyPowder,							_T("NC_FairyPowder") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_FairyRaiseIntelligenceMax,			&HandleFairyRaiseIntelligenceMax,		_T("") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_FairyDoRaiseIntelligence,			&HandleFairyDoRaiseIntelligence,		_T("") );
+
+	// 战场
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetAllianceList,			&HandleGetAllianceList,									_T("NC_GetAllianceList") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_ApplyForAlliance,		&HandleApplyForAlliance,								_T("NC_ApplyForAlliance") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_ConfirmAllianceGuild,	&HandleConfirmAllianceGuild,							_T("NC_ConfirmAllianceGuild") );
+
+	// 妖精契约相关消息
+	M_REGISTER_PLAYER_RECV_CMD( NC_OpenFairyTrain,			&HandleOpenFairyTrain,									_T("NC_OpenFairyTrain") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_ArrestingFairy,			&HandleArrestingFairy,									_T("NC_ArrestingFairy") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_CloseFairyTrain,			&HandleCloseFairyTrain,									_T("NC_CloseFairyTrain") );
+
+	// 神铸
+	M_REGISTER_PLAYER_RECV_CMD( NC_GodStrengthen,			&HandleGodStrengthen,									_T("NC_GodStrengthen") );
+
+	// 使用VIP卡片道具
+	M_REGISTER_PLAYER_RECV_CMD( NC_UseVipCard,				&HandleUseVipCard,										_T("NC_UseVipCard") );
+	// 便捷组队
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetEasyTeamInfo,			&HandleGetEasyTeamInfo,									_T("NC_GetEasyTeamInfo") );
+	// 得到九宫格内没有组队的玩家
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetSinglePlayers,		&HandleGetFreePlayers,									_T("NC_GetSinglePlayers") );
+
+	// 获取求组信息
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetPersonalInfo,			&HandleGetPersonalInfo,									_T("NC_GetPersonalInfo") );
+	// 提交组队或者求组申请
+	M_REGISTER_PLAYER_RECV_CMD( NC_PutOutInfo,				&HandleNCPutOutInfo,									_T("NC_PutOutInfo") );
+	// 删除个人的求组或者组队申请
+	M_REGISTER_PLAYER_RECV_CMD( NC_DeleteAppTeamInfo,		&HandleNCDeleteAppTeamInfo,								_T("NC_DeleteMyTeamInfo") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_DeleteMyTeamInfo,		&HandleNCDeleteMyTeamInfo,								_T("NC_DeleteMyTeamInfo") );
+
+	// 妖精喂食
+	M_REGISTER_PLAYER_RECV_CMD( NC_FabaoFeeding,			&HandleFabaoFeeding,									_T("NC_FabaoFeeding") );
+
+	// 妖精元素伤害转化
+	M_REGISTER_PLAYER_RECV_CMD( NC_FairyEleInjuryChange,	&HandleFabaoEleInjuryType,								_T("NC_FairyEleInjuryChange") );
+	// 妖精能力提升
+	M_REGISTER_PLAYER_RECV_CMD( NC_FairyIncEleInjury,		&HandleFabaoIncEleInjury,								_T("NC_FairyIncEleInjury") );
+	// 增加妖精可提升次数
+	M_REGISTER_PLAYER_RECV_CMD( NC_FairyAddPromoteTimes,	&HandleFabaoAddPromoteTimes,							_T("NC_FairyAddPromoteTimes") );
+	// 妖精特技确认
+	M_REGISTER_PLAYER_RECV_CMD( NC_FairyStuntConfirm,		&HandleFabaoStuntConfirm,								_T("NC_FairyStuntConfirm") );
+	// 妖精特技书
+	M_REGISTER_PLAYER_RECV_CMD( NC_FairyStuntBook,			&HandleFabaoStuntBook,									_T("NC_FairyStuntBook") );
+	// 妖精重生
+	M_REGISTER_PLAYER_RECV_CMD( NC_FairyNirvana,			&HandleFabaoNirvana,									_T("NC_FairyNirvana") );
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_GuildOccupyedNum,		&HandleGuildWarOccupyedNum,								_T("NC_GuildOccupyedNum") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_TakeGuildWarReword,		&HandleGuildWarTakeWarReword,							_T("NC_TakeGuildWarReword") );
+	// 神石洗装备属性
+	M_REGISTER_PLAYER_RECV_CMD( NC_RockStone,				&HandleRockStone,										_T("NC_RockStone") );
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_GodBiderShopOpen,		&HandleGodBiderShopOpen,								_T("NC_GodBiderShopOpen") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_ConformPrice,			&HandleConformPrice,									_T("NC_ConformPrice") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_BlackMarketShopOpen,		&HandleBlackMarketShopOpen,								_T("NC_BlackMarketShopOpen") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_BlackConPrice,			&HandleBlackConPrice,									_T("NC_BlackConPrice") );
+	// 获得目标的目标
+	M_REGISTER_PLAYER_RECV_CMD(NC_TargetOfTarget,		&HandleTargetOfTarget,									_T("NC_TargetOfTarget"));
+	// 设置获取拾取模式
+	M_REGISTER_PLAYER_RECV_CMD( NC_PickItemStrategy,		&HandleSetPickupMode,									_T("NC_PickItemStrategy") );
+
+	// 妖精繁殖相关
+	M_REGISTER_PLAYER_RECV_CMD( NC_InquireSpirteBornState,	&HandleFairyInquireSpirteBornState,						_T("NC_InquireSpirteBornState") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_ApplyFairyBirth,			&HandleApplyFairyBirth,									_T("NC_ApplyFairyBirth") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_ReplyFairyBirth,			&HandleReplyFairyBirth,									_T("NC_ReplyFairyBirth") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_PutFairyInto,			&HandlePutFairyInto,									_T("NC_PutFairyInto") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_FairyMating,				&HandleFairyMating,										_T("NC_FairyMating") );
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_FairyMatingCancelAll,	&HandleCancelInvitingFairyMating,						_T("NC_FairyMatingCancelAll") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_FairyBorn,				&HandleFairyBorn,										_T("NC_FairyBorn") );
+
+	// 砸金蛋
+	M_REGISTER_PLAYER_RECV_CMD( NC_EggBegin,				&HandleEggBegin,										_T("NC_EggBegin") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_BreakEgg,				&HandleBreakEgg,										_T("NC_BreakEgg") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_TakeEggTreasure,			&HandleTakeEggTreasure,									_T("NC_TakeEggTreasure") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_FinishEggGame,			&HandleFinishEggGame,									_T("NC_FinishEggGame") );
+
+	// 神系统
+	M_REGISTER_PLAYER_RECV_CMD( NC_StopCondensed,			&HandleStopGodCondense,									_T("NC_StopCondensed") );
+
+	//神职
+	M_REGISTER_PLAYER_RECV_CMD( NC_PromotionClergy,			&HandleRolePromotionClergy,								_T("NC_PromotionClergy"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetAttribute,			&HandleRoleGetAttribute,								_T("NC_GetAttribute"));
+	
+	// 关闭pk保护模式提示
+	M_REGISTER_PLAYER_RECV_CMD( NC_AnswerToClosePKSafeGuard,		&HandleClosePKSafeGuard,	_T("NC_AnswerToClosePKSafeGuard") );
+
+	// 衣橱系统
+	M_REGISTER_PLAYER_RECV_CMD( NC_Rehanding,				&HandleRehanding,										_T("NC_Rehanding") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_WardrobeLevelUp,			&HandleWardrobeLevelUp,									_T("NC_WardrobeLevelUp") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_DressUpAnotherRole,		&HandleDressUpAnotherRole,								_T("NC_DressUpAnotherRole") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_IsDressUpAgree,			&HandleIsDressUpAgree,									_T("NC_IsDressUpAgree") );
+	
+	M_REGISTER_PLAYER_RECV_CMD( NC_BeginCondensed,			&HandleStartGodCondense,								_T("NC_BeginCondensed") );
+
+	// 神职竞选
+	M_REGISTER_PLAYER_RECV_CMD( NC_CampaignResult,			&HandleGetCompetitiveClergyResult,						_T("NC_CampaignResult"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_CampaignInfo,			&HandleGetClergyEnrollInfo,								_T("NC_CampaignInfo"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_Campaign,				&HandleRoleEnrollClergy,								_T("NC_Campaign"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetGodRelation,			&HandleGetClergyRalation,								_T("NC_GetGodRelation"));
+	
+	//神职领域
+	M_REGISTER_PLAYER_RECV_CMD( NC_ActivationArea,			&HandleActivationArea,									_T("NC_ActivationArea"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_AddArea,					&HandleAddArea,											_T("NC_AddArea"));
+	
+	// XTRAP反外挂
+	M_REGISTER_PLAYER_RECV_CMD( NC_XTrap,					&HandleXTrap,											_T("NC_XTrap") );
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_RoleInitDone,			&HandleRoleInitDone,									_T("NC_RoleInitDone") );
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_UseLimitedItem,			&HandleRoleUseLimitedItem,								_T("NC_UseLimitedItem") );
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_NewKeyCode,			&HandleRewardByKeyCode,							_T("NC_NewKeyCode") );
+	//M_REGISTER_PLAYER_RECV_CMD( NC_RewardReactive,		&HandleRewardReactiveAccount,	_T("NC_RewardReactive"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_ReactiveKeyCode,	&HandleAccountReactive,							_T("NC_ReactiveKeyCode") );
+
+	//家族妖精
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetFamilySpriteTrain,	&HandleGetFamilySpriteTrain,	_T("NC_GetFamilySpriteTrain"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_FamilySpriteTrain,		&HandleFamilySpriteTrain,		_T("NC_FamilySpriteTrain"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_FamilySpriteRegister,	&HandleFamilySpriteRegister,	_T("NC_FamilySpriteRegister"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_FamilySpriteGetBack,		&HandleFamilySpriteGetBack,		_T("NC_FamilySpriteGetBack"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetFamilyRoleSprite,		&HandleGetFamilyRoleSprite,		_T("NC_GetFamilyRoleSprite"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetFamilySpriteAtt,		&HandleGetFamilySpriteAtt,		_T("NC_GetFamilySpriteAtt"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetFamilySpriteInfo,		&HandleGetFamilySpriteInfo,		_T("NC_GetFamilySpriteInfo"));
+
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetServiceInfo,		&HandleGetServiceInfo,		_T("NC_GetServiceInfo"));
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetLiLianExp,		&HandleGetLiLianExp,		_T("NC_GetLiLianExp"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_ReceiveGift,			&HandleReceiveGift,			_T("NC_ReceiveGift"));
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_RequestAttackCode,		&HandleRequestAttackCode,			_T("NC_RequestAttackCode") );
+	M_REGISTER_PLAYER_RECV_CMD( NC_ServerAttack,					&HandleServerAttack,						_T("NC_ServerAttack") );	
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_TryMakeBrother,					&HandleTryMakeBrother,						_T("NC_TryMakeBrother") );	
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_ActivePulse,					&HandleActivePulse,						_T("NC_ActivePulse") );	
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetTigerResult,					&HandleTiger,						_T("NC_GetTigerResult") );	
+
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_ActiveSoulSkill,					&HandleActiveSoulSkill,						_T("NC_ActiveSoulSkill") );	
+	M_REGISTER_PLAYER_RECV_CMD( NC_ContinueSoulSkill,				&HandleContinueSoulSkill,					_T("NC_ContinueSoulSkill") );
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_DiamondEquipGrowIM,				&HandleUseDiamondEquipGrowIM,				_T("NC_DiamondEquipGrowIM"));
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetKeyCodeGift,					&HandleNC_GetKeyCodeGift,				_T("NC_GetKeyCodeGift"));
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_FairyFusion,						&HandleNC_FairyFusion,					_T("NC_FairyFusion"));
+	// 圣灵吞噬妖精
+	M_REGISTER_PLAYER_RECV_CMD( NC_SLEatFairy,						&HandleNC_SLEatFairy,					_T("NC_SLEatFairy"));
+
+	// 召唤圣灵
+	M_REGISTER_PLAYER_RECV_CMD( NC_CallShengLing,					&HandleNC_CallShengLing,					_T("NC_CallShengLing"));
+
+
+	// 给圣灵穿装备
+	M_REGISTER_PLAYER_RECV_CMD( NC_EquipHoly,						&HandleNC_EquipHoly,					_T("NC_EquipHoly"));
+
+	// 给圣灵卸装备
+	M_REGISTER_PLAYER_RECV_CMD( NC_UnEquipHoly,						&HandleNC_UnEquipHoly,					_T("NC_UnEquipHoly"));	
+
+	// 给圣纹充灵能
+	M_REGISTER_PLAYER_RECV_CMD( NC_LingNeng,						&HandleNC_LingNeng,					_T("NC_LingNeng"));	
+
+	// 圣纹基础属性充能
+	M_REGISTER_PLAYER_RECV_CMD( NC_ChongNeng,						&HandleNC_ChongNeng,					_T("NC_ChongNeng"));	
+
+	// 圣纹充能确认
+	M_REGISTER_PLAYER_RECV_CMD( NC_ChongNengResult,					&HandleNC_ChongNengResult,					_T("NC_ChongNengResult"));	
+	
+
+	M_REGISTER_PLAYER_RECV_CMD( NC_GetFusionFairy,					&HandleNC_GetFairyFusion,				_T("NC_GetFusionFairy"));
+
+	// 保存玩家手机号
+	M_REGISTER_PLAYER_RECV_CMD( NC_SaveTelNum,						&HandleNC_SaveTelNum,					_T("NC_SaveTelNum"));	
+	// 玩家不存储手机号
+	M_REGISTER_PLAYER_RECV_CMD( NC_NotSaveTelNum,						&HandleNC_NotSaveTelNum,					_T("NC_NotSaveTelNum"));
+	// 领圣币的东东
+	M_REGISTER_PLAYER_RECV_CMD( NC_ReceiveYuanBao,					&HandleNC_ReceiveYuanBao,				_T("NC_ReceiveYuanBao") );
+		
+#ifdef ON_GAMEGUARD
+	M_REGISTER_PLAYER_RECV_CMD( NC_AnswerKoreaCSApprove,				&HandleAnswerKoreaCSApprove,				_T("NC_AnswerKoreaCSApprove"));
+	M_REGISTER_PLAYER_RECV_CMD( NC_GameGuardReport,				&HandleGameGuardReport,				_T("NC_GameGuardReport"));
+#endif
+
+
+}
+
+//------------------------------------------------------------------------------------
+// 注册所有的发送消息
+//------------------------------------------------------------------------------------
+VOID PlayerSession::RegisterALLSendCmd()
+{
+	// 进入游戏
+	m_PlayerNetMgr.RegisterSendProc("NS_JoinGame");
+
+	// 选人界面
+	m_PlayerNetMgr.RegisterSendProc("NS_EnumRole");
+	m_PlayerNetMgr.RegisterSendProc("NS_CreateRole");
+	m_PlayerNetMgr.RegisterSendProc("NS_DeleteRole");
+	m_PlayerNetMgr.RegisterSendProc("NS_SelectRole");
+	m_PlayerNetMgr.RegisterSendProc("NS_SafeCode");
+	m_PlayerNetMgr.RegisterSendProc("NS_ResetSafeCode");
+	m_PlayerNetMgr.RegisterSendProc("NS_CancelSafeCodeReset");
+
+	// 属性和状态
+	m_PlayerNetMgr.RegisterSendProc("NS_SetState");
+	m_PlayerNetMgr.RegisterSendProc("NS_UnSetState");
+	m_PlayerNetMgr.RegisterSendProc("NS_SetRoleState");
+	m_PlayerNetMgr.RegisterSendProc("NS_UnSetRoleState");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetRoleInitState_Att");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetRoleInitState_Skill");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetRoleInitState_CompleteQuest");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetRoleInitState_IncompleteQuest");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetRoleInitState_Item");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetRoleInitState_Suit");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetRoleInitState_ItemCDTime");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetRoleInitState_Money");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetRemoteRoleState");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetRemoteCreatureState");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleAttChangeSingle");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleAttChangeMutiple");
+	m_PlayerNetMgr.RegisterSendProc("NS_RemoteAttChangeSingle");
+	m_PlayerNetMgr.RegisterSendProc("NS_RemoteAttChangeMutiple");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleExpChange");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleLevelChange");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleBidAttPoint");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleClearAttPoint");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleAttPointAddChange");
+	m_PlayerNetMgr.RegisterSendProc("NS_SendFriendBlackList");
+	m_PlayerNetMgr.RegisterSendProc("NS_RemoveRemote");
+	m_PlayerNetMgr.RegisterSendProc("NS_RolePracticeTalentPoint");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleGetTalentPoint");
+	m_PlayerNetMgr.RegisterSendProc("NS_SynPvPStatics");
+	
+
+	// 名字和ID
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleGetID");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleGetName");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetNamebyNameID");
+	
+	// 移动
+	m_PlayerNetMgr.RegisterSendProc("NS_SyncWalk");
+	m_PlayerNetMgr.RegisterSendProc("NS_SyncJump");
+	m_PlayerNetMgr.RegisterSendProc("NS_SyncDrop");
+	m_PlayerNetMgr.RegisterSendProc("NS_SyncVDrop");
+	m_PlayerNetMgr.RegisterSendProc("NS_SyncSlide");
+	m_PlayerNetMgr.RegisterSendProc("NS_SyncStand");
+	m_PlayerNetMgr.RegisterSendProc("NS_MoveFailed");
+	m_PlayerNetMgr.RegisterSendProc("NS_HitFly");
+	m_PlayerNetMgr.RegisterSendProc("NS_MoveSpeedChange");
+	m_PlayerNetMgr.RegisterSendProc("NS_CanGoToPos");
+
+	// 聊天
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleChat");
+
+	//群聊
+	m_PlayerNetMgr.RegisterSendProc("NS_CreateGroupChat");
+	m_PlayerNetMgr.RegisterSendProc("NS_DeleteGroupChat");
+	m_PlayerNetMgr.RegisterSendProc("NS_LoginOutGroupChat");
+	m_PlayerNetMgr.RegisterSendProc("NS_AddRoleToGroupChat");
+	m_PlayerNetMgr.RegisterSendProc("NS_InviteRoleToGroupChat");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleJoinToGroupChat");
+	m_PlayerNetMgr.RegisterSendProc("NS_InviteRoleJoinToGroupChat");
+	m_PlayerNetMgr.RegisterSendProc("NS_KickRoleFromGroupChat");
+
+	// 战斗
+	m_PlayerNetMgr.RegisterSendProc("NS_Skill");
+	m_PlayerNetMgr.RegisterSendProc("NS_SkillInterrupt");
+	m_PlayerNetMgr.RegisterSendProc("NS_UseItem");
+	m_PlayerNetMgr.RegisterSendProc("NS_UseItemInterrupt");
+	m_PlayerNetMgr.RegisterSendProc("NS_HitTarget");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleHPChange");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleDead");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleRevive");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleReviveNotify");
+	m_PlayerNetMgr.RegisterSendProc("NS_AddRoleBuff");
+	m_PlayerNetMgr.RegisterSendProc("NS_RemoveRoleBuff");
+	m_PlayerNetMgr.RegisterSendProc("NS_UpdateRoleBuff");
+	m_PlayerNetMgr.RegisterSendProc("NS_StopAction");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleStyleAction");
+	m_PlayerNetMgr.RegisterSendProc("NS_MonsterEnterCombat");
+
+	// 生产
+	m_PlayerNetMgr.RegisterSendProc("NS_Produce");
+	m_PlayerNetMgr.RegisterSendProc("NS_Decomposition");
+	m_PlayerNetMgr.RegisterSendProc("NS_ConsolidatePosy");
+	m_PlayerNetMgr.RegisterSendProc("NS_ConsolidateEngrave");
+	m_PlayerNetMgr.RegisterSendProc("NS_ConsolidateQuench");
+	m_PlayerNetMgr.RegisterSendProc("NS_Inlay");
+	m_PlayerNetMgr.RegisterSendProc("NS_Brand");
+	m_PlayerNetMgr.RegisterSendProc("NS_LoongSoul");
+	m_PlayerNetMgr.RegisterSendProc("NS_Chisel");
+	m_PlayerNetMgr.RegisterSendProc("NS_DyeFashion");
+
+	// 金钱和元宝
+	m_PlayerNetMgr.RegisterSendProc("NS_BagSilver");
+	m_PlayerNetMgr.RegisterSendProc("NS_WareSilver");
+	m_PlayerNetMgr.RegisterSendProc("NS_BagYuanBao");
+	m_PlayerNetMgr.RegisterSendProc("NS_BaiBaoYuanBao");
+	m_PlayerNetMgr.RegisterSendProc("NS_Mark");
+	
+
+	// 交易
+	m_PlayerNetMgr.RegisterSendProc("NS_ExchangeReq");
+	m_PlayerNetMgr.RegisterSendProc("NS_ExchangeReqRes");
+	m_PlayerNetMgr.RegisterSendProc("NS_ExchangeAdd_2Src");
+	m_PlayerNetMgr.RegisterSendProc("NS_ExchangeAdd_2Dst");
+	m_PlayerNetMgr.RegisterSendProc("NS_ExchangeDec");
+	m_PlayerNetMgr.RegisterSendProc("NS_ExchangeMoney");
+	m_PlayerNetMgr.RegisterSendProc("NS_ExchangeLock");
+	m_PlayerNetMgr.RegisterSendProc("NS_ExchangeCancel");
+	m_PlayerNetMgr.RegisterSendProc("NS_ExchangeFinish");
+
+	// 职能NPC
+	m_PlayerNetMgr.RegisterSendProc("NS_Dak");
+	m_PlayerNetMgr.RegisterSendProc("NS_WareExtend");
+	m_PlayerNetMgr.RegisterSendProc("NS_BagExtend");
+	m_PlayerNetMgr.RegisterSendProc("NS_SaveSilver");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetSilver");
+	m_PlayerNetMgr.RegisterSendProc("NS_SaveYuanBao");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetYuanBao");
+	m_PlayerNetMgr.RegisterSendProc("NS_Abrase");
+
+	// 组队
+	m_PlayerNetMgr.RegisterSendProc("NS_InviteToLeader");
+	m_PlayerNetMgr.RegisterSendProc("NS_InviteJoinTeam");
+	m_PlayerNetMgr.RegisterSendProc("NS_InviteReply");
+	m_PlayerNetMgr.RegisterSendProc("NS_KickMember");
+	m_PlayerNetMgr.RegisterSendProc("NS_LeaveTeam");
+	m_PlayerNetMgr.RegisterSendProc("NS_SetPickMode");
+	m_PlayerNetMgr.RegisterSendProc("NS_ChangeLeader");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleStateToTeam");
+	m_PlayerNetMgr.RegisterSendProc("NS_RolePosToTeam");
+
+	// 物品和装备
+	m_PlayerNetMgr.RegisterSendProc("NS_Equip");
+	m_PlayerNetMgr.RegisterSendProc("NS_Unequip");
+	m_PlayerNetMgr.RegisterSendProc("NS_SwapWeapon");
+	m_PlayerNetMgr.RegisterSendProc("NS_AvatarEquipChange");
+	m_PlayerNetMgr.RegisterSendProc("NS_IdentifyEquip");
+	m_PlayerNetMgr.RegisterSendProc("NS_EquipChange");
+	m_PlayerNetMgr.RegisterSendProc("NS_EquipSingleChange");
+	m_PlayerNetMgr.RegisterSendProc("NS_SuitEffect");
+	m_PlayerNetMgr.RegisterSendProc("NS_SuitNum");
+	m_PlayerNetMgr.RegisterSendProc("NS_ItemPosChange");
+	m_PlayerNetMgr.RegisterSendProc("NS_ItemPosChangeEx");
+	m_PlayerNetMgr.RegisterSendProc("NS_ItemAdd");
+	m_PlayerNetMgr.RegisterSendProc("NS_NewItemAdd");
+	m_PlayerNetMgr.RegisterSendProc("NS_NewEquipAdd");
+	m_PlayerNetMgr.RegisterSendProc("NS_ItemRemove");
+	m_PlayerNetMgr.RegisterSendProc("NS_ItemCDUpdate");
+
+	// 掉落
+	m_PlayerNetMgr.RegisterSendProc("NS_SyncGroundItem");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleGroundItemDisappear");
+	m_PlayerNetMgr.RegisterSendProc("NS_PutDownItem");
+	m_PlayerNetMgr.RegisterSendProc("NS_RolePutDownItem");
+	m_PlayerNetMgr.RegisterSendProc("NS_RolePickUpItem");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetGroundItemInfo");
+
+	// 地图
+	m_PlayerNetMgr.RegisterSendProc("NS_EnterInstance");
+	m_PlayerNetMgr.RegisterSendProc("NS_GotoNewMap");
+	m_PlayerNetMgr.RegisterSendProc("NS_InstanceNofity");
+	m_PlayerNetMgr.RegisterSendProc("NS_InstanceAgree");
+	m_PlayerNetMgr.RegisterSendProc("NS_InstanceComplete");
+	m_PlayerNetMgr.RegisterSendProc("NS_SyncInstanceTime");
+	m_PlayerNetMgr.RegisterSendProc("NS_BindRebornMap");
+
+	// PK
+	m_PlayerNetMgr.RegisterSendProc("NS_SafeGuard");
+	m_PlayerNetMgr.RegisterSendProc("NS_PK");
+	m_PlayerNetMgr.RegisterSendProc("NS_RolePKStateChange");
+
+	// 商店
+	m_PlayerNetMgr.RegisterSendProc("NS_GetShopItems");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetShopEquips");
+	m_PlayerNetMgr.RegisterSendProc("NS_BuyShopItem");
+	m_PlayerNetMgr.RegisterSendProc("NS_BuyShopEquip");
+	m_PlayerNetMgr.RegisterSendProc("NS_FeedbackFromShop");
+	m_PlayerNetMgr.RegisterSendProc("NS_MallRecommendingItem");
+
+
+	// 展示物品和装备
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleShowEquip");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleShowItem");
+
+	// 社会关系
+	m_PlayerNetMgr.RegisterSendProc("NS_LoginToFriend");
+	m_PlayerNetMgr.RegisterSendProc("NS_LogoutToFriend");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleMakeFriend");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleCancelFriend");
+	m_PlayerNetMgr.RegisterSendProc("NS_UpdateFriGroup");
+	m_PlayerNetMgr.RegisterSendProc("NS_MoveToBlackList");
+	m_PlayerNetMgr.RegisterSendProc("NS_DeleteBlackList");
+	m_PlayerNetMgr.RegisterSendProc("NS_SendGiftToFri");
+	m_PlayerNetMgr.RegisterSendProc("NS_SendGiftToSender");
+	m_PlayerNetMgr.RegisterSendProc("NS_SendGiftBroadcast");
+	m_PlayerNetMgr.RegisterSendProc("NS_SendBlackList");
+	m_PlayerNetMgr.RegisterSendProc("NS_UpdateFriEnemyState");
+	m_PlayerNetMgr.RegisterSendProc("NS_MakeFriNotice");
+	m_PlayerNetMgr.RegisterSendProc("NS_UpdateFriValue");
+
+	// 摆摊
+	m_PlayerNetMgr.RegisterSendProc("NS_StallStart");
+	m_PlayerNetMgr.RegisterSendProc("NS_StallSetGoods");
+	m_PlayerNetMgr.RegisterSendProc("NS_StallUnsetGoods");
+	m_PlayerNetMgr.RegisterSendProc("NS_StallSetTitle");
+	//m_PlayerNetMgr.RegisterSendProc("NS_StallSetAdText");
+	//m_PlayerNetMgr.RegisterSendProc("NS_StallSetAdFlag");
+	m_PlayerNetMgr.RegisterSendProc("NS_StallSetFinish");
+	m_PlayerNetMgr.RegisterSendProc("NS_StallClose");
+	m_PlayerNetMgr.RegisterSendProc("NS_StallBuyRefresh");
+	m_PlayerNetMgr.RegisterSendProc("NS_StallSetRefresh");
+	m_PlayerNetMgr.RegisterSendProc("NS_StallUnsetRefresh");
+	m_PlayerNetMgr.RegisterSendProc("NS_StallGet");
+	m_PlayerNetMgr.RegisterSendProc("NS_StallGetTitle");
+	m_PlayerNetMgr.RegisterSendProc("NS_StallBuy");
+	m_PlayerNetMgr.RegisterSendProc("NS_StallGetSpec");
+
+	// 天资及技能
+	m_PlayerNetMgr.RegisterSendProc("NS_LearnSkill");
+	m_PlayerNetMgr.RegisterSendProc("NS_AddSkill");
+	m_PlayerNetMgr.RegisterSendProc("NS_LevelUpSkill");
+	m_PlayerNetMgr.RegisterSendProc("NS_UpdateSkill");
+	m_PlayerNetMgr.RegisterSendProc("NS_UpdateSkillCoolDown");
+	m_PlayerNetMgr.RegisterSendProc("NS_ForgetSkill");
+	m_PlayerNetMgr.RegisterSendProc("NS_ClearTalent");
+	m_PlayerNetMgr.RegisterSendProc("NS_RemoveSkill");
+	m_PlayerNetMgr.RegisterSendProc("NS_AddTalent");
+	m_PlayerNetMgr.RegisterSendProc("NS_RemoveTalent");
+	m_PlayerNetMgr.RegisterSendProc("NS_UpdateTalent");
+
+	// 任务
+	m_PlayerNetMgr.RegisterSendProc("NS_AcceptQuest");
+	m_PlayerNetMgr.RegisterSendProc("NS_AddQuest");
+	m_PlayerNetMgr.RegisterSendProc("NS_CompleteQuest");
+	m_PlayerNetMgr.RegisterSendProc("NS_DeleteQuest");
+	m_PlayerNetMgr.RegisterSendProc("NS_QuestUpdateKillCreature");
+	m_PlayerNetMgr.RegisterSendProc("NS_QuestUpdateItem");
+	m_PlayerNetMgr.RegisterSendProc("NS_QuestUpdateNPCTalk");
+	m_PlayerNetMgr.RegisterSendProc("NS_QuestUpdateTrigger");
+    m_PlayerNetMgr.RegisterSendProc("NS_GetSingleQuestDoneInfo");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetRoleInitState_DailyCompleteQuest");
+    
+
+	// 声望
+	m_PlayerNetMgr.RegisterSendProc("NS_GetReputation");
+
+	// 反外挂
+	m_PlayerNetMgr.RegisterSendProc("NS_GameGuarder");
+
+	// 名人堂
+	m_PlayerNetMgr.RegisterSendProc("NS_GetFameHallRoles");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetReputeTop");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetActClanTreasure");
+	m_PlayerNetMgr.RegisterSendProc("NS_ActiveTreasure");
+	m_PlayerNetMgr.RegisterSendProc("NS_NewActivedTreasure");
+	m_PlayerNetMgr.RegisterSendProc("NS_TreasureActCountChange");
+	m_PlayerNetMgr.RegisterSendProc("NS_BecomeFame");
+
+	// 角色名贴
+	m_PlayerNetMgr.RegisterSendProc("NS_GetRoleVCard");
+	m_PlayerNetMgr.RegisterSendProc("NS_SetRoleVCard");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetRoleHeadPicURL");
+	
+	// 称号
+	m_PlayerNetMgr.RegisterSendProc("NS_ActiveRoleTitle");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetRoleTitles");
+	m_PlayerNetMgr.RegisterSendProc("NS_NewTitles");
+	m_PlayerNetMgr.RegisterSendProc("NS_RoleTitleChangeBroadcast");
+
+	// 帮派
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildCreateBroad");
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildDismissBroad");
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildJoinReq");
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildJoinReqRes");
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildJoinBroad");
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildLeaveBroad");
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildKickBroad");
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildTurnoverBroad");
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildDemissBroad");
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildAppointBroad");
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildTenetChangeBroad");
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildProcFailed");
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildGetAllMembers");
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildGetMemberEx");
+	m_PlayerNetMgr.RegisterSendProc("NS_GuildRefMember");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetGuildName");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetGuildTenet");
+    m_PlayerNetMgr.RegisterSendProc("NS_GuildChangeName");
+
+	// 百宝袋
+	m_PlayerNetMgr.RegisterSendProc("NS_InitBaiBaoRecord");
+	m_PlayerNetMgr.RegisterSendProc("NS_SingleBaiBaoRecord");
+
+	// NPC
+	m_PlayerNetMgr.RegisterSendProc("NS_NPCTalk");
+
+	// 宠物
+	m_PlayerNetMgr.RegisterSendProc("NS_GetPetAttr");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetPetDispInfo");
+	m_PlayerNetMgr.RegisterSendProc("NS_PetDispInfoChange");
+	m_PlayerNetMgr.RegisterSendProc("NS_UsePetEgg");
+	m_PlayerNetMgr.RegisterSendProc("NS_PetAttrChange");
+	m_PlayerNetMgr.RegisterSendProc("NS_CallPet");
+
+	m_PlayerNetMgr.RegisterSendProc("NS_PetEquip");
+	m_PlayerNetMgr.RegisterSendProc("NS_PetUnequip");
+	m_PlayerNetMgr.RegisterSendProc("NS_PetEquipPosSwap");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetPetPourExpMoneyNeed");
+	
+	m_PlayerNetMgr.RegisterSendProc("NS_PetSkillUse");
+	m_PlayerNetMgr.RegisterSendProc("NS_AddPetSkill");
+	m_PlayerNetMgr.RegisterSendProc("NS_RemovePetSkill");
+
+	// 宠物交易
+	m_PlayerNetMgr.RegisterSendProc("NS_PetExchangeReq");
+	m_PlayerNetMgr.RegisterSendProc("NS_PetExchangeReqRes");
+	m_PlayerNetMgr.RegisterSendProc("NS_PetExchangeAdd_2Src");
+	m_PlayerNetMgr.RegisterSendProc("NS_PetExchangeAdd_2Dst");
+	m_PlayerNetMgr.RegisterSendProc("NS_PetExchangeDec");
+	m_PlayerNetMgr.RegisterSendProc("NS_PetExchangeMoney");
+	m_PlayerNetMgr.RegisterSendProc("NS_PetExchangeLock");
+	m_PlayerNetMgr.RegisterSendProc("NS_PetExchangeCancel");
+	m_PlayerNetMgr.RegisterSendProc("NS_PetExchangeFinish");
+
+
+	// 跑商相关
+	m_PlayerNetMgr.RegisterSendProc("NS_GetCofCInfo");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetCommodityInfo");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetTaelInfo");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetCommerceRank");
+
+	//	宝箱
+	m_PlayerNetMgr.RegisterSendProc("NS_StartTreasureChest");
+	m_PlayerNetMgr.RegisterSendProc("NS_TreasureChest");
+	m_PlayerNetMgr.RegisterSendProc("NS_StopTreasureChest");
+	m_PlayerNetMgr.RegisterSendProc("NS_AgainTreasureChest");
+	m_PlayerNetMgr.RegisterSendProc("NS_ChestGetItem");
+
+	// 返回角色选择
+	m_PlayerNetMgr.RegisterSendProc("NS_ReturnRoleSelect");
+
+	//夫妻相关
+	m_PlayerNetMgr.RegisterSendProc("NS_GetMarriageReq");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetMarriageReqRes");
+	m_PlayerNetMgr.RegisterSendProc("NC_BreakMarriageReq");
+	m_PlayerNetMgr.RegisterSendProc("NC_BreakMarriageReqRes");
+
+	// 城战
+	m_PlayerNetMgr.RegisterSendProc("NS_WaitSummon");
+	m_PlayerNetMgr.RegisterSendProc("NS_BeginSummon");
+	m_PlayerNetMgr.RegisterSendProc("NS_SummonPersonChange");
+	m_PlayerNetMgr.RegisterSendProc("NS_CityStruggleInfo");
+	m_PlayerNetMgr.RegisterSendProc("NS_CityStruggleInfoChange");
+
+	// 精力系统
+	m_PlayerNetMgr.RegisterSendProc("NS_SpiritReward");
+	m_PlayerNetMgr.RegisterSendProc("NS_StrengthReward");
+
+	//竞技系统
+    m_PlayerNetMgr.RegisterSendProc("NS_PvPEnterHall");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPLeaveHall");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPGetRoomList");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPGetRoomInfo");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPGetSimRoomInfo");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPJoinRoom");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPCreateRoom");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPLeaveRoom");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPChangePosition");
+    m_PlayerNetMgr.RegisterSendProc("NS_PvPPrepare");
+    m_PlayerNetMgr.RegisterSendProc("NS_PvPUnPrepare");
+    m_PlayerNetMgr.RegisterSendProc("NS_PvPKickPlayer"); 
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPKicked");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPStart");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPStarted");
+    m_PlayerNetMgr.RegisterSendProc("NS_PvPStarted");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPInviteJoin");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPInvite");
+     
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPGetPvPState");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPNotifyKill");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPResultInfo");
+	m_PlayerNetMgr.RegisterSendProc("NS_PvPSetIntoRoom");
+
+	// 师徒
+	m_PlayerNetMgr.RegisterSendProc("NS_ApprenticeApplyMaster");
+	m_PlayerNetMgr.RegisterSendProc("NS_MasterNotice");
+	m_PlayerNetMgr.RegisterSendProc("NS_MasterReply");
+	m_PlayerNetMgr.RegisterSendProc("NS_MasterReplyApprentice");
+	m_PlayerNetMgr.RegisterSendProc("NS_MasterAcceptApprentice");
+	m_PlayerNetMgr.RegisterSendProc("NS_ApprenticeNotice");
+	m_PlayerNetMgr.RegisterSendProc("NS_ApprenticeReply");
+	m_PlayerNetMgr.RegisterSendProc("NS_ApprenticeReplyMaster");
+	m_PlayerNetMgr.RegisterSendProc("NS_MatesInfo");
+	m_PlayerNetMgr.RegisterSendProc("NS_ApprenticeInfo");
+	m_PlayerNetMgr.RegisterSendProc("NS_GiveJingWuPoint");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetJingWuPoint");
+	m_PlayerNetMgr.RegisterSendProc("NS_JingWu2Client");
+	m_PlayerNetMgr.RegisterSendProc("NS_UseJingWuPoint");
+	m_PlayerNetMgr.RegisterSendProc("NS_BreakOutMaster");
+	m_PlayerNetMgr.RegisterSendProc("NS_BreakOutMasterConfirm");
+	m_PlayerNetMgr.RegisterSendProc("NS_BreakOutApprentice");
+	m_PlayerNetMgr.RegisterSendProc("NS_BreakOutApprenticeConfirm");
+	m_PlayerNetMgr.RegisterSendProc("NS_GraduateNotice");
+    
+	//快捷栏保存数据库
+	m_PlayerNetMgr.RegisterSendProc("NS_MsgQuickBarData");
+	m_PlayerNetMgr.RegisterSendProc("NS_MsgIsSavedQuickBarData");
+    
+	// 龙之试炼系统
+	m_PlayerNetMgr.RegisterSendProc("NS_GetTrainList");
+	m_PlayerNetMgr.RegisterSendProc("NS_FinishTrain");
+	m_PlayerNetMgr.RegisterSendProc("NS_OpenTrain");
+
+	// 易容师
+	m_PlayerNetMgr.RegisterSendProc("NS_AppearanceTransform");
+	m_PlayerNetMgr.RegisterSendProc("NS_SyncAvataHairAndFace");
+
+	// 战斗挂机系统服务器发送给客户端的消息
+	m_PlayerNetMgr.RegisterSendProc("NS_UseZhanDouFu");
+	m_PlayerNetMgr.RegisterSendProc("NS_SyncAutoFightState");
+	m_PlayerNetMgr.RegisterSendProc("NS_ZhanDouFuTimeOut");
+
+	// 仇敌列表相关消息
+	m_PlayerNetMgr.RegisterSendProc("NS_InsertEnemy");
+	m_PlayerNetMgr.RegisterSendProc("NS_DeleteEnemy");
+	m_PlayerNetMgr.RegisterSendProc("NS_EnemyLogin");
+
+	// 客户端反外挂
+	m_PlayerNetMgr.RegisterSendProc("NS_WGCheck_On");
+
+	// 结拜系统
+	m_PlayerNetMgr.RegisterSendProc("NS_TryMakeBrother");
+	m_PlayerNetMgr.RegisterSendProc("NS_BrotherLeftSecond");
+	m_PlayerNetMgr.RegisterSendProc("NS_BrotherEnd");
+	// 经脉系统
+	m_PlayerNetMgr.RegisterSendProc("NS_ActivePulse");
+	m_PlayerNetMgr.RegisterSendProc("NS_PulseCanLearnNum");
+
+	// 老虎机
+	m_PlayerNetMgr.RegisterSendProc("NC_GetTigerResult");
+	
+	// 元神系统相关
+	m_PlayerNetMgr.RegisterSendProc("NS_ActivateHolySoul");
+	m_PlayerNetMgr.RegisterSendProc("NS_SoulEquip");
+	m_PlayerNetMgr.RegisterSendProc("NS_UnSoulEquip");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetSoulInfo");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetHolyAffuse");
+	m_PlayerNetMgr.RegisterSendProc("NS_GetHolyReborn");
+	m_PlayerNetMgr.RegisterSendProc("NS_HolySoulAttChange");
+	m_PlayerNetMgr.RegisterSendProc("NS_RemoteHolySoulAttChange");
+
+	//  元神装备冲星
+	m_PlayerNetMgr.RegisterSendProc("NS_StarEnhance");
+	//m_PlayerNetMgr.RegisterSendProc("");
+}
+
+//------------------------------------------------------------------------------------
+// 撤销所有客户端网络命令
+//------------------------------------------------------------------------------------
+VOID PlayerSession::UnRegisterALL()
+{
+	// 将本次统计信息写入log
+	m_PlayerNetMgr.LogAllMsg();
+
+	m_PlayerNetMgr.UnRegisterAll();
+	m_GMCommandMgr.UnRegisterAll();
+}
+
+VOID PlayerSession::LogNetAnalyze()
+{
+	m_PlayerNetMgr.LogNetAnalyze(1);
+}
+
+//------------------------------------------------------------------------------------
+// 消息处理主函数（当返回GT_INVALID, 则说明连接已经丢失，要删除该session）
+//------------------------------------------------------------------------------------
+INT PlayerSession::HandleMessage()
+{
+	m_PlayerNetLock.Acquire();
+
+	// 检测客户端是否已经失去连接
+	if( m_bConnectionLost )
+	{
+		LogoutPlayer();
+		m_PlayerNetLock.Release();
+		return CON_LOST;
+	}
+
+	// 处理客户端消息
+	DWORD dwSize = 0;
+	LPBYTE pMsg = RecvMsg(dwSize);
+
+	m_PlayerNetLock.Release();
+	if( !P_VALID(pMsg) ) return 0;
+
+	tagNetCmd* pCmd = (tagNetCmd*)pMsg;
+
+	// 战斗挂机系统在接到客户端消息时验证挂机状态
+	if (P_VALID(GetRole()) &&
+		P_VALID(pCmd) &&
+		pCmd->dwExID == m_dwExtID &&
+		pCmd->dwID != m_dwSyncAfs &&
+		pCmd->dwID != m_dwUseZDF)
+	{
+		if (GetRole()->CanAutoFight() == FALSE)
+		{
+			return 0;
+		}
+	}
+
+	NETMSGHANDLER pHandler = m_PlayerNetMgr.GetHandler(pCmd, dwSize, GetLastRecvTime(pCmd->dwID));
+
+	TheNetCmdViewer.Log(m_dwAccountID, P_VALID(GetRole())?GetRole()->GetID():-1, *pCmd);
+
+	LARGE_INTEGER nCmdBeginTime;
+	QueryPerformanceCounter(&nCmdBeginTime);
+
+	DWORD dwRet = GT_INVALID;
+	if( NULL != pHandler )
+	{
+		dwRet = (this->*pHandler)(pCmd);
+	}
+
+	m_PlayerNetMgr.AddCmdRunTime(pCmd->dwID, nCmdBeginTime);
+
+	// 判断是否需上层处理
+	if( RET_TRANS == dwRet )
+	{
+		g_worldNetCmdMgr.Add(GetSessionID(), pMsg, dwSize);
+	}
+	else if (E_Success == dwRet)
+	{
+		SetLastRecvTime(pCmd->dwID);
+	}
+	else
+	{
+		RecycleMsg(pMsg);
+	}
+
+
+	// 如果发现session的m_bPushed被设置成TRUE，则说明客户端在此消息处理之后被移动出地图	
+
+
+	return 0;
+}
+
+//------------------------------------------------------------------------------------
+// 发送消息接口
+//------------------------------------------------------------------------------------
+VOID PlayerSession::SendMessage(LPVOID pMsg, DWORD dwSize)
+{
+	if( g_world.IsShutingdown() )
+		return;
+	if( !P_VALID(pMsg) || dwSize == 0 || m_bConnectionLost || m_bKicked)
+		return;
+
+	m_PlayerNetLock.Acquire();
+
+	// 记录发包数量
+	m_PlayerNetMgr.CountServerMsg(*(DWORD*)pMsg);	
+
+	if( dwSize > g_world.GetMaxMsgSize() )
+	{
+		g_world.SetMaxMsgSize(dwSize);
+	}
+
+	// 发送到网络底层
+	SendMsg((LPBYTE)pMsg, dwSize);
+
+	m_PlayerNetLock.Release();
+}
+
+//------------------------------------------------------------------------------
+// 完全登陆玩家（要将玩家从选人界面session列表移动到一个mapmgr的session列表中）
+//------------------------------------------------------------------------------
+BOOL PlayerSession::FullLogin(Role* pRole, BOOL bFirst)
+{
+	ASSERT( P_VALID(pRole) );
+
+	SetRole(pRole);
+
+	m_bRoleLoading = false;
+
+	DWORD dwSessionID = m_dwAccountID;	// 保证预先取出sessionID，线程安全
+
+	// 将该角色加入到地图中
+	if( !pRole->AddToWorld(bFirst) )
+	{
+		SetRole(NULL);
+		return FALSE;
+	}
+
+	// 清空dressid
+	if( bFirst )
+	{
+		tagNDBC_ClearRoleDressMdID send;
+		send.dwRoleID	= pRole->GetID();
+		send.wNewVal	= DressMdIDInvalid;
+		g_dbSession.Send(&send, send.dwSize);
+	}
+
+	// 已经加入到地图中，从全局列表中删除自己
+	g_worldSession.RemoveGlobalSession(dwSessionID);
+
+	// Jason 2010-1-15 v1.3.2 离线奖励
+	if( m_pOfflineExperienceReward )
+		m_pOfflineExperienceReward->PlayerLogin  (pRole);
+
+	// 同帮派在线人数发生变化，通知客户端
+	// 同门在线人数发生变化，通知客户端
+	SyncOnlineNum(pRole, FALSE);
+
+	// 同步与角色所属公会处于战争状态的帮派
+	g_guildWarDeclareMgr.SyncWarStateGuild(pRole);
+
+	// 记录各个媒体的在线人数
+	g_worldSession.OnRoleLogin(GetDistributionID());
+
+	// 载入role data
+	tagNDBC_RequestLogRoleData send;
+	send.dwRoleID = pRole->GetID();
+	g_dbSession.Send(&send, send.dwSize);
+
+	return TRUE;
+}
+
+//------------------------------------------------------------------------------
+// 接收消息
+//------------------------------------------------------------------------------
+LPBYTE PlayerSession::RecvMsg(DWORD& dwSize)
+{
+	return g_worldSession.RecvMsg(dwSize, m_nMsgNum, m_dwInternalIndex);
+}
+
+//------------------------------------------------------------------------------
+// 归还消息
+//------------------------------------------------------------------------------
+VOID PlayerSession::ReturnMsg(LPBYTE pMsg)
+{
+	g_worldSession.ReturnMsg(pMsg);
+}
+
+//------------------------------------------------------------------------------
+// 发送消息
+//------------------------------------------------------------------------------
+VOID PlayerSession::SendMsg(LPBYTE pMsg, DWORD dwSize)
+{
+	g_worldSession.SendMsg(m_dwInternalIndex, pMsg, dwSize);
+}
+
+//------------------------------------------------------------------------------
+// 登出玩家
+//------------------------------------------------------------------------------
+VOID PlayerSession::LogoutPlayer()
+{
+	Role* pRole = GetRole();
+	if( !P_VALID(pRole) ) return;
+
+	// 同帮派在线人数发生变化，通知客户端
+	// 同门在线人数发生变化，通知客户端
+	//SyncOnlineNum(pRole, TRUE);
+
+	// 记录玩家要登出
+	g_mapCreator.RoleLogOut(pRole->GetID());
+
+	// 分类统计各个媒体的在线人数
+	g_worldSession.OnRoleLogout(GetDistributionID());
+}
+
+//------------------------------------------------------------------------------
+// 重置session的内容，用于返回选人界面
+//------------------------------------------------------------------------------
+VOID PlayerSession::Refresh()
+{
+	m_bRoleEnuming		=	false;
+	m_bRoleEnumDone		=	false;
+	m_bRoleEnumSuccess	=	false;
+	m_bRoleLoading		=	false;
+	m_bRoleDeleting		=	false;
+	m_bRoleCreating		=	false;
+	m_bRoleInWorld		=	false;
+
+	m_pRole				=	NULL;
+}
+
+//------------------------------------------------------------------------------
+// 判断是否帐号下是否有该角色
+//------------------------------------------------------------------------------
+BOOL PlayerSession::IsRoleExist(const DWORD dwRoleID) const
+{
+	if(GT_INVALID == dwRoleID)
+	{
+		return FALSE;
+	}
+
+	for(INT i=0; i<MAX_ROLENUM_ONEACCOUNT; ++i)
+	{
+		if(dwRoleID == m_dwRoleID[i])
+		{
+			return TRUE;
+		}
+	}
+
+	return FALSE;
+}
+
+//------------------------------------------------------------------------------
+// 帐号添加新角色
+//------------------------------------------------------------------------------
+BOOL PlayerSession::AddRole(const DWORD dwRoleID)
+{
+	for(INT i=0; i<MAX_ROLENUM_ONEACCOUNT; ++i)
+	{
+		if(GT_INVALID == m_dwRoleID[i])
+		{
+			m_dwRoleID[i] = dwRoleID;
+			++m_n8RoleNum;
+			return TRUE;
+		}
+	}
+
+	return FALSE;
+}
+
+//------------------------------------------------------------------------------
+// 删除帐号下角色
+//------------------------------------------------------------------------------
+BOOL PlayerSession::RemoveRole(const DWORD dwRoleID)
+{
+	for(INT i=0; i<MAX_ROLENUM_ONEACCOUNT; ++i)
+	{
+		if(dwRoleID == m_dwRoleID[i])
+		{
+			m_dwRoleID[i] = GT_INVALID;
+			--m_n8RoleNum;
+			return TRUE;
+		}
+	}
+
+	return FALSE;
+}
+
+//------------------------------------------------------------------------------
+// 判断是否可以设置安全码
+//------------------------------------------------------------------------------
+BOOL PlayerSession::CanSetSafeCode()
+{
+	// 没有设置过安全码
+	if(GT_INVALID == m_sAccountCommon.sSafeCode.dwSafeCodeCrc)
+	{
+		return TRUE;
+	}
+		
+	// 当前有安全码，而且没有重置过
+	if(GT_INVALID == m_sAccountCommon.sSafeCode.dwTimeReset)
+	{
+		return FALSE;
+	}
+
+	// 重置时间未够72小时
+	if(CalcTimeDiff(g_world.GetWorldTime(), m_sAccountCommon.sSafeCode.dwTimeReset) < MAX_SAFECODE_RESET_TIME)
+	{
+		return FALSE;
+	}
+
+	return TRUE;
+}
+
+//------------------------------------------------------------------------------
+// 判断是否可以重置安全码
+//------------------------------------------------------------------------------
+BOOL PlayerSession::CanResetSafeCode() const
+{
+	// 没有设置过安全码
+	if(GT_INVALID == m_sAccountCommon.sSafeCode.dwSafeCodeCrc)
+	{
+		return FALSE;
+	}
+
+	// 当前有安全码，而且没有重置过
+	if(GT_INVALID == m_sAccountCommon.sSafeCode.dwTimeReset)
+	{
+		return TRUE;
+	}
+
+	return FALSE;
+}
+
+//------------------------------------------------------------------------------
+// 判断是否可以取消安全码重置
+//------------------------------------------------------------------------------
+BOOL PlayerSession::CanCancelSafeCodeReset() const
+{
+	// 没有设置过安全码
+	if(GT_INVALID == m_sAccountCommon.sSafeCode.dwSafeCodeCrc)
+	{
+		return FALSE;
+	}
+
+	// 当前有安全码，而且没有重置过
+	if(GT_INVALID == m_sAccountCommon.sSafeCode.dwTimeReset)
+	{
+		return FALSE;
+	}
+
+	return TRUE;
+}
+
+//------------------------------------------------------------------------------
+// 在当前频道向九宫格内所有玩家广播消息
+//------------------------------------------------------------------------------
+VOID PlayerSession::BroadcastCurrChannel(LPCTSTR szMsg)
+{
+	if (!P_VALID(szMsg))
+	{
+		return;
+	}
+
+	size_t len = _tcslen(szMsg);
+	INT	nSzMsg = len * sizeof(TCHAR);
+	if (len > MAX_BROADCAST_MSG_LEN)
+	{
+		return;
+	}
+
+	if (!P_VALID(m_pRole))
+	{
+		return;
+	}
+
+	Map* pMap = m_pRole->GetMap();
+	if (!P_VALID(pMap))
+	{
+		return;
+	}
+
+	TCHAR msg[1024] = {0};
+
+	tagNS_RoleChat* pSend   = (tagNS_RoleChat*)msg;
+	pSend->byChannel		= (BYTE)ESCC_Current;
+	pSend->dwID				= TObjRef<Util>()->Crc32("NS_RoleChat");
+	pSend->dwDestRoleID		= m_pRole->GetID();
+	pSend->dwSrcRoleID		= m_pRole->GetID(); 
+	pSend->dwErrorCode		= 0;
+	// Jason 2010-1-5 v1.3.1 adding
+	pSend->n16Sex			= ES_Null;
+	pSend->dwSize			= sizeof(tagNS_RoleChat) + nSzMsg;
+	IFASTCODE->MemCpy(pSend->szMsg, szMsg, nSzMsg);
+
+	// 加字符串结束符
+	pSend->szMsg[len] = _T('\0');
+
+	pMap->SendBigVisTileMsg(m_pRole, (LPVOID)pSend, pSend->dwSize);
+}
+
+//-----------------------------------------------------------------------
+// 回收消息Unit(有用则再利用，无用则释放)
+//-----------------------------------------------------------------------
+VOID PlayerSession::RecycleMsg(LPBYTE pMsg)
+{
+	g_worldSession.ReturnMsg(pMsg);
+}
+
+//-----------------------------------------------------------------------------
+// 更新
+//----------------------------------------------------------------------------
+INT PlayerSession::Update()
+{
+	// Jason 2010-4-26 v2.1.0
+	if( m_bPKRunaway )
+	{
+		if( --m_nPKRunawayTick <= 0 )
+		{
+			InterlockedExchange((LPLONG)(&m_bPKRunaway), FALSE);
+			m_nPKRunawayTick = 0;
+			// 这种情况下，让handlemessage做最后的清理
+			// 防止意外发生，比如，又登进来了
+			SetConnectionLost();
+		}
+		else
+			return CON_LOST + 10;
+	}
+
+	g_XTrapGuarder.UpdateCSStep1((VOID*)this, m_dwPreXtrapUpdateTime, m_XtrapBuffSession);	
+
+	return HandleMessage();
+}
+
+//-----------------------------------------------------------------------------
+// 查找当前地图中的玩家
+//----------------------------------------------------------------------------
+Role* PlayerSession::GetOtherInMap( DWORD dwRoleID ) const 
+{
+	MTRANS_ELSE_RET(pThisRole,	GetRole(),					Role,	NULL);
+	MTRANS_ELSE_RET(pMap,		pThisRole->GetMap(),		Map,	NULL);
+	MTRANS_ELSE_RET(pRole,		pMap->FindRole(dwRoleID),	Role,	NULL);
+	return pRole;
+}
+
+INT PlayerSession::GetVNBExpRate() const
+{
+	return g_VipNetBarMgr.GetRate(m_dwIP, 0);
+}
+
+INT PlayerSession::GetVNBLootRate() const
+{
+	return g_VipNetBarMgr.GetRate(m_dwIP, 1);
+}
+
+VOID PlayerSession::SessionLogout()
+{
+	g_VipNetBarMgr.PlayerLogout(m_dwIP);
+
+	m_PlayerNetLock.Acquire();
+	SetConnectionLost();
+	m_PlayerNetLock.Release();
+
+	// Jason 2010-4-26 v2.1.0
+	Role * pRole = GetRole();
+	if( P_VALID(pRole) )
+	{
+		ConvenientTeam& easy_team = ConvenientTeam::GetInstance();
+		easy_team.DeleteCTInfoOfPlayer(pRole);
+		if( pRole->IsInRoleState(ERS_Combat) && ( pRole->IsInRoleState(ERS_PK) ||
+			pRole->IsInRoleState(ERS_PKEX) ) )
+		{
+			InterlockedExchange((LPLONG)(&m_bPKRunaway), TRUE);
+			m_nPKRunawayTick = g_world.GetPKRunawayTickCount();
+			// 通知login server
+			g_loginSession.SendPlayerPKRunaway(GetSessionID(),m_nPKRunawayTick);
+		}
+	}
+}
+
+LPCTSTR PlayerSession::GetVNBName() const
+{
+	return g_VipNetBarMgr.GetVNBName(m_dwIP);
+}
+
+// Jason 2009-12-7 神龙赐福
+DWORD	PlayerSession::HandleLessingLoong(tagNetCmd * pCmd)
+{
+	Role * pRole = static_cast<Role*>( GetRole() );
+	if( P_VALID( pRole ) )
+	{
+		return pRole->ReceiveLessingOfLoong();
+	}
+	return GT_INVALID;
+}
+
+DWORD PlayerSession::HandleGoldStone(tagNetCmd * pCmd)
+{
+	Role * pRole = static_cast<Role*>( GetRole() );
+	tagNC_BeGoldStone * msg = (tagNC_BeGoldStone *)pCmd;
+	DWORD dwErr = 0;
+	if( P_VALID( pRole ) && P_VALID( msg ) )
+	{
+		dwErr = pRole->ProcessGoldStoneMsg(msg->n64SrcItemID,msg->n64DstItemID);
+	}
+	tagNS_BeGoldStone msg1;
+	msg1.dwErrCode = dwErr;
+	SendMessage  (&msg1,msg1.dwSize);
+	return dwErr;
+}
+
+// Jason 2010-1-15 v1.3.2 离线奖励
+VOID PlayerSession::RegisterUserOffline(Role * player)
+{
+	if( P_VALID(m_pOfflineExperienceReward) )
+		m_pOfflineExperienceReward->PlayerLogout  (player,TRUE);
+}
+
+// Jason 2010-1-15 v1.3.2 玩家回归
+DWORD PlayerSession::HandlePlayerRegression(tagNetCmd * pCmd)
+{
+	Role * pRole = static_cast<Role*>( GetRole() );
+	tagNC_PlayerRegressionOk * msg = (tagNC_PlayerRegressionOk *)pCmd;
+	if( P_VALID(msg) )
+	{
+		PlayerRegression * p = TPlayerRegression::Instance  ();
+		if( P_VALID(p) )
+		{
+			//return p->RoleGotoNpc  (pRole);
+			return p->RewardPlayerBack(pRole);
+		}
+	}
+	return GT_INVALID;
+}
+
+DWORD PlayerSession::HandleGetOfflineExp(tagNetCmd * pCmd)
+{
+	Role * pRole = static_cast<Role*>( GetRole() );
+	if( P_VALID(m_pOfflineExperienceReward) && P_VALID(pRole) )
+	{
+		tagNC_GetOfflineExp * p = (tagNC_GetOfflineExp*)pCmd;
+		if(P_VALID(p))
+		{
+			INT exp = 0;
+			DWORD r = m_pOfflineExperienceReward->RecExp(pRole,p->byType,exp);
+
+			tagNS_GetOfflineExp msg;
+			msg.dwErrorCode = r;
+			msg.dwExperience = exp;
+
+			if( OfflineReward::E_NotEnoughMoney == r )
+				msg.dwErrorCode = EOFFE_NotEnoughYuanBao;
+
+			SendMessage  (&msg,msg.dwSize);
+
+			return E_Success;
+		}
+	}
+	return GT_INVALID;
+}
+
+DWORD	PlayerSession::HandlePetPocketExtendRequest(tagNetCmd* pCmd)
+{
+	Role * pRole = static_cast<Role*>( GetRole() );
+
+	if(P_VALID(pRole) && P_VALID(pCmd))
+	{
+		PetPocket* pPocket = pRole->GetPetPocket();
+
+		tagNS_ExtendPetPocket msg;
+		msg.dwErrorCode = E_Pets_Success;
+		if( !P_VALID(pPocket) )
+		{
+			msg.dwErrorCode = E_Pets_UnkownErr;
+			msg.u16MaxCapacity	= 0;
+			msg.u16Remained		= 0;
+			SendMessage  (&msg,msg.dwSize);
+			return GT_INVALID;
+		}
+
+		
+
+		tagNC_ExtendPetPocket * pMsg = (tagNC_ExtendPetPocket*)pCmd;
+		msg.ePetType = pMsg->ePetType;
+
+		if ( PET_FOLLOWING == pMsg->ePetType)
+		{
+
+			msg.u16MaxCapacity	= pRole->FollowPetPocketValue();
+			msg.u16Remained		= pPocket->GetFreeFollowPetSize();
+		}
+		else
+		{
+            msg.u16MaxCapacity	= pRole->RidingPetPocketValue();
+			msg.u16Remained		= pPocket->GetFreeRidingPetSize();
+		}
+
+		tagItem * pItem = pRole->GetItemMgr  ().GetBag  ().GetItem  (pMsg->n64ItemID);
+
+		if( P_VALID( pItem ) )
+		{
+			if( pItem->pProtoType->eSpecFunc == EISF_PetPocketExtItem )
+			{
+
+				if ( PET_FOLLOWING == pMsg->ePetType )
+				{
+					if( pRole->IncFollowPetPocketValve() )
+					{
+						pRole->GetItemMgr  ().DelFromBag  (pMsg->n64ItemID,ELCLD_PET_PocketExtend_Costed,1);
+						msg.u16MaxCapacity	= pRole->FollowPetPocketValue();
+						msg.u16Remained		= pPocket->GetFreeFollowPetSize();
+						msg.dwErrorCode = E_Pets_Success;
+					}
+					else
+					{
+						msg.dwErrorCode = E_FollowPets_Pocket_UpperLimit;
+					}
+				}
+				else if( PET_RIDING == pMsg->ePetType )
+				{
+					if( pRole->IncRidingPetPocketValve() )
+					{
+						pRole->GetItemMgr  ().DelFromBag  (pMsg->n64ItemID,ELCLD_PET_PocketExtend_Costed,1);
+						msg.u16MaxCapacity	= pRole->RidingPetPocketValue();
+						msg.u16Remained		= pPocket->GetFreeRidingPetSize();
+						msg.dwErrorCode = E_Pets_Success;
+					} 
+					else
+					{
+						msg.dwErrorCode =  E_RidingPets_Pocket_UpperLimit;
+					}
+				}
+				else
+				{
+					msg.dwErrorCode  = E_Pets_Pocket_Error;
+				}
+
+			}
+			else
+				msg.dwErrorCode = E_Pets_Pocket_ExtItem_MatchingInvalid;
+		}
+		else
+			msg.dwErrorCode = E_Pets_Pocket_ItemNotExists;
+
+		SendMessage  (&msg,msg.dwSize);
+	}
+	return GT_INVALID;
+}
+
+
+DWORD	PlayerSession::HandleQuickBarDataSaveToServer(tagNetCmd* pCmd)
+{
+
+	  tagNC_MsgQuickBarData* pMsg = (tagNC_MsgQuickBarData*)pCmd ;
+	  if( !P_VALID( pMsg ) )
+	  {
+		  return GT_INVALID;
+	  }
+
+      if ( !P_VALID( m_pRole ))
+	  {
+		  return GT_INVALID;
+	  }
+	  if ( pMsg->dwRoleID != m_pRole->GetID())
+	  {
+		  return 0;
+	  }
+	  if ( (pMsg->nLn >= 0 && pMsg->nLn < 10) && (pMsg->nCol >=0 && pMsg->nCol < 8) )
+	  {
+          m_pRole->SetShortCutBarData(pMsg->nLn,pMsg->nCol,pMsg->btnData);
+	  }
+
+	 return 0;
+}
+
+DWORD	PlayerSession::HandleQuickBarDataLoadFromServer(tagNetCmd* pCmd)
+{
+	tagNC_MsgQuickBarDataLoadFromDB* pMsg = (tagNC_MsgQuickBarDataLoadFromDB*)pCmd ;
+	if( !P_VALID( pMsg ) )
+	{
+		return GT_INVALID;
+	}
+
+	Role* pRole = GetRole();
+	if ( !P_VALID(pRole) )
+	{
+		return GT_INVALID;
+	}
+
+	if ( pMsg->dwRoleID != m_pRole->GetID())
+	{
+		return 0;
+	}
+	if ( !pRole->GetLoadFromDBFlag() )
+	{
+		
+	}
+	else
+	{
+		if (!pRole->GetShortCutBarReqFlag() )
+		{
+			pRole->SendShortCutBarDataToClient();
+		}
+
+
+	}
+	pRole->SetShortCutBarReqFlag(TRUE);
+
+
+    
+
+	 return 0;
+}
+
+
+DWORD	PlayerSession::HandleInformSaveQuickBarData(tagNetCmd* pCmd)
+{
+
+   if ( !P_VALID(pCmd) )
+   {
+	   return GT_INVALID;
+   }
+   Role* pRole = GetRole();
+   
+   if ( P_VALID(pRole) )
+   {
+	   //pRole->SaveQuickBarData2DB();
+   }
+   
+
+    return 0;
+}
+
+DWORD	PlayerSession::HandleIsSavedQuickBarData(tagNetCmd* pCmd)
+{
+	tagNC_MsgIsSavedQuickBarData* pMsg = (tagNC_MsgIsSavedQuickBarData*)pCmd ;
+	if ( !P_VALID(pCmd) )
+	{
+		return GT_INVALID;
+	}
+    
+	Role* pRole = GetRole();
+    
+
+	/*if( pRole->GetIsSavedQuickBarData() == Enum_Saved)
+	{
+		return 0;
+	}*/
+	if( !P_VALID( pRole ) )
+	{
+        return GT_INVALID;
+	}
+	if( pMsg->dwRoleID != pRole->GetID() )
+	{
+		return 0;
+	}
+
+	if ( P_VALID(pRole) )
+	{
+		pRole->SendHaveNotSavedQuickBarMsg();
+	}
+     return  0;
+}
+DWORD	PlayerSession::HandlePetGetPocketMaxCount(tagNetCmd * pCmd)
+{
+	Role * pRole = static_cast<Role*>( GetRole() );
+	if(P_VALID(pRole) && P_VALID(pCmd))
+	{
+		tagNC_GetRoleMaxPetsCount * pRecv = (tagNC_GetRoleMaxPetsCount*)pCmd;
+		PetPocket* pPocket = pRole->GetPetPocket();
+		if( pRecv->dwRoleID == pRole->GetID() && P_VALID(pPocket) )
+		{
+			if ( PET_FOLLOWING == pRecv->ePetType )
+			{
+        		tagNS_GetRoleMaxPetsCount msg;
+				msg.dwRoleID = pRecv->dwRoleID;
+				msg.u16MaxCapacity = pRole->FollowPetPocketValue();
+				msg.u16Remained = pPocket->GetFreeFollowPetSize();
+				msg.ePetType = PET_FOLLOWING;
+				SendMessage(&msg,msg.dwSize);
+			}
+			else if ( PET_RIDING == pRecv->ePetType )
+			{
+				tagNS_GetRoleMaxPetsCount msg;
+				msg .dwRoleID = pRecv->dwRoleID;
+				msg.u16MaxCapacity = pRole->RidingPetPocketValue();
+				msg.u16Remained = pPocket->GetFreeRidingPetSize();
+				msg.ePetType = PET_RIDING;
+				SendMessage(&msg,msg.dwSize);  
+			}
+		}
+	}
+	return GT_INVALID;
+}
+static tagFabaoSpec fabaoSpec;
+DWORD PlayerSession::HandleFabaoPractice(tagNetCmd * pCmd)
+{
+	Role * pRole = static_cast<Role*>( GetRole() );
+	if(P_VALID(pRole) && P_VALID(pCmd))
+	{
+		tagNS_FabaoPractice msg;
+		tagNC_FabaoPractice * p = (tagNC_FabaoPractice*)pCmd;
+		msg.dwErrorCode = pRole->PracticeFabao(p->n64SrcItemID,p->nSrcItemNum,p->n64FabaoID,fabaoSpec);
+		SendMessage(&msg,msg.dwSize);
+		return E_Success;
+	}
+	return GT_INVALID;
+}
+DWORD PlayerSession::HandleFabaoInlay(tagNetCmd * pCmd)
+{
+	Role * pRole = static_cast<Role*>( GetRole() );
+	if(P_VALID(pRole) && P_VALID(pCmd))
+	{
+		tagNS_FabaoInlay msg;
+		tagNC_FabaoInlay * p = (tagNC_FabaoInlay*)pCmd;
+		INT64 beads[1] = {0};
+		beads[0] = p->n64Bead;
+		msg.dwErrorCode = pRole->InlayFabao(p->n64FabaoID,1,beads,fabaoSpec);
+		SendMessage(&msg,msg.dwSize);
+		return E_Success;
+	}
+	return GT_INVALID;
+}
+
+DWORD PlayerSession::HandleFabaoWuxingReversal(tagNetCmd * pCmd)
+{
+	Role * pRole = static_cast<Role*>( GetRole() );
+	if(P_VALID(pRole) && P_VALID(pCmd))
+	{
+		tagNS_FabaoWuxingReversal msg;
+		tagNC_FabaoWuxingReversal * p = (tagNC_FabaoWuxingReversal*)pCmd;
+		msg.dwErrorCode = pRole->ReverseFabao(p->n64MainFabaoID,p->n64SecondaryFabaoID,fabaoSpec);
+		SendMessage(&msg,msg.dwSize);
+		return E_Success;
+	}
+	return GT_INVALID;
+}
+DWORD PlayerSession::HandleFabaoWuxingMerging(tagNetCmd * pCmd)
+{
+	Role * pRole = static_cast<Role*>( GetRole() );
+	if(P_VALID(pRole) && P_VALID(pCmd))
+	{
+		tagNS_FabaoWuxingMerging msg;
+		tagNC_FabaoWuxingMerging * p = (tagNC_FabaoWuxingMerging*)pCmd;
+		msg.dwErrorCode = pRole->MergeFabao(p->n64MainFabaoID,p->n64SecondaryFabaoID,fabaoSpec);
+		SendMessage(&msg,msg.dwSize);
+		return E_Success;
+	}
+	return GT_INVALID;
+}
+
+// 给所有帮派成员发送在线人数变化消息
+VOID PlayerSession::SyncOnlineNum2AllGuildMumber(DWORD dwGuildID, BOOL bLogout)
+{
+	Guild* pGuild = g_guildMgr.GetGuild(dwGuildID);
+	if (P_VALID(pGuild))
+	{
+		pGuild->SyncOnlineNum2AllGuildMumber(bLogout);
+	}
+}
+
+VOID PlayerSession::SyncOnlineNum(Role* pRole, BOOL bLogout)
+{
+	// 同帮派在线人数发生变化，通知客户端
+	SyncOnlineNum2AllGuildMumber(pRole->GetGuildID(), bLogout);
+
+	// 同门在线人数发生变化，通知客户端
+	pRole->SyncOnlineNum2MasterApprenticesClassmates(bLogout);
+}
+
+BOOL PlayerSession::IsInPKRunawayPunishmentState(VOID)
+{
+	return m_bPKRunaway;
+}
+
+static DWORD nGodScriptWeekDay[] =
+{
+	2,4,6
+};
+static BOOL IsInGodScriptWeekDay(tagDWORDTime t)
+{
+	DWORD weekday = WhichWeekday(t);
+	for( INT i = 0; i < sizeof(nGodScriptWeekDay)/sizeof(nGodScriptWeekDay[0]); ++i )
+		if( nGodScriptWeekDay[i] == weekday )
+			return TRUE;
+	return FALSE;
+}
+
+DWORD PlayerSession::HandleEarthTemple(tagNetCmd * pCmd)
+{
+	Role * pRole = static_cast<Role*>( GetRole() );
+	if(P_VALID(pRole) && P_VALID(pCmd))
+	{
+		tagNS_EarthTemple msg;
+		tagNC_EarthTemple * p = (tagNC_EarthTemple*)pCmd;
+
+		DWORD dwRet = E_Success;
+
+		if( pRole->IsInRoleState(ERS_PrisonArea) ||
+			pRole->IsInState(ES_CSDefence) ||
+			pRole->IsInState(ES_CSAttack))
+			dwRet = E_Area_Limitted;
+		else if(
+			pRole->IsInRoleState(ERS_Stall) || 
+			pRole->IsInRoleState(ERS_Commerce) ||
+			pRole->IsInRoleState(ERS_Mount) ||
+			pRole->IsInRoleState(ERS_Mount2) ||
+			pRole->IsInState(ES_Dead) ||
+			pRole->IsInState(ES_Dizzy) ||
+			pRole->IsInState(ES_Tie) ||
+			pRole->IsInState(ES_Spor) ||
+			pRole->IsInState(ES_NoMovement) 
+		  )
+			dwRet = E_Role_Status_Limitted;
+		else
+		{
+			if(p->bDirectOpen)
+			{
+				MapMgr* pMapMgr = g_mapCreator.GetMapMgr(pRole->GetMapID());
+				if(!P_VALID(pMapMgr))
+					return GT_INVALID;
+
+				if( !pMapMgr->IsNormalMap() || IsCityStruggleMap(pMapMgr->GetMapInfo()->dwID) )
+				{
+					dwRet = E_Area_Limitted;
+					msg.dwErrorCode = dwRet;
+					SendMessage(&msg,msg.dwSize);
+					return GT_INVALID;
+				}
+
+				// 目标是牢狱区？;
+				tagDWORDTime dwTime = GetCurrentDWORDTime();
+				Map * pMap = g_mapCreator.GetMap(p->dwMapID,0);
+				if( !P_VALID(pMap) )
+					dwRet = E_Cannot_FindMap;
+				else if( EMT_Normal != pMap->GetMapType() )
+					dwRet = E_Area_Limitted;
+				else if( pMap->CheckAreaEx(pRole->GetAABBox(),p->destPos) & ERS_PrisonArea )
+					dwRet = E_Area_Limitted;
+				else if( IsGuildBattleMap(p->dwMapID))
+					dwRet = E_Area_Limitted;
+				else
+				{
+					const RoleScript* pRoleScript = g_ScriptMgr.GetRoleScript();
+					if (P_VALID(pRoleScript))
+					{
+						if (pRole->IsInRoleState(ERS_HoldChest))
+							pRoleScript->ForceLootChase(pRole);
+						if (!pRoleScript->CanUseEarthTemple(pRole, p->dwMapID,p->destPos.x,p->destPos.y,p->destPos.z))
+							return GT_INVALID;
+					}
+					msg.dwErrorCode = E_Success;
+					SendMessage(&msg,msg.dwSize);
+					pRole->GotoNewMap(p->dwMapID,p->destPos.x,p->destPos.y,p->destPos.z);
+					return E_Success;
+				}
+			}
+			else
+			{
+				tagItem * pItem = pRole->GetItemMgr().GetBagItem(p->n64ItemID);
+				if( !P_VALID(pItem) )
+					dwRet = E_Item_NotFound;
+				else
+				{
+					if( EISF_EarthTemple != pItem->pProtoType->eSpecFunc )
+						dwRet = E_Item_Used_NotValid;
+					else
+					{
+						if (pRole->IsHaveBuff(PLAYER_TRACK_LIMIT_BUFF))
+						{
+							dwRet = E_Role_Buff_Limit;
+							msg.dwErrorCode = dwRet;
+							SendMessage(&msg,msg.dwSize);
+							return GT_INVALID;
+						}
+
+						MapMgr* pMapMgr = g_mapCreator.GetMapMgr(pRole->GetMapID());
+						if(!P_VALID(pMapMgr))
+							return GT_INVALID;
+						if( !pMapMgr->IsNormalMap() || IsCityStruggleMap(pMapMgr->GetMapInfo()->dwID) )
+						{
+							dwRet = E_Area_Limitted;
+							msg.dwErrorCode = dwRet;
+							SendMessage(&msg,msg.dwSize);
+							return GT_INVALID;
+						}
+						// 目标是牢狱区？;
+						tagDWORDTime dwTime = GetCurrentDWORDTime();
+						Map * pMap = g_mapCreator.GetMap(p->dwMapID,0);
+						if( !P_VALID(pMap) )
+							dwRet = E_Cannot_FindMap;
+						else if( EMT_Normal != pMap->GetMapType() )
+							dwRet = E_Area_Limitted;
+						else if( pMap->CheckAreaEx(pRole->GetAABBox(),p->destPos) & ERS_PrisonArea )
+							dwRet = E_Area_Limitted;
+						else if( IsGuildBattleMap(p->dwMapID))
+							dwRet = E_Area_Limitted;
+						else
+						{
+							const RoleScript* pRoleScript = g_ScriptMgr.GetRoleScript();
+							if (P_VALID(pRoleScript))
+							{
+								if (pRole->IsInRoleState(ERS_HoldChest))
+									pRoleScript->ForceLootChase(pRole);
+								if (!pRoleScript->CanUseEarthTemple(pRole, p->dwMapID,p->destPos.x,p->destPos.y,p->destPos.z))
+									return GT_INVALID;
+							}
+							pRole->GetItemMgr().DelFromBag(pItem->n64Serial,ELCLD_Item_CostedByEarthTemple,1);
+							msg.dwErrorCode = E_Success;
+							SendMessage(&msg,msg.dwSize);
+							pRole->GotoNewMap(p->dwMapID,p->destPos.x,p->destPos.y,p->destPos.z);
+							return E_Success;
+						}
+					}
+				}
+			}
+		}
+		msg.dwErrorCode = dwRet;
+		SendMessage(&msg,msg.dwSize);
+
+		return E_Success;
+	}
+	return GT_INVALID;
+}
+DWORD PlayerSession::HandleRaiseEquipPotval(tagNetCmd * pCmd)
+{
+	return GT_INVALID;
+	Role * pRole = static_cast<Role*>( GetRole() );
+	if(!P_VALID(pRole) || !P_VALID(pCmd))
+	{
+		return GT_INVALID;
+	}
+	tagNC_RaiseEquipPotval * pRecv = (tagNC_RaiseEquipPotval *)pCmd;
+	tagEquip * pEquip;
+	tagItem * pItem,*pTemp;
+	pTemp = pRole->GetItemMgr().GetBagItem(pRecv->n64EquipID);
+	pItem = pRole->GetItemMgr().GetBagItem(pRecv->n64ItemID);
+	tagNS_RaiseEquipPotval backmsg;
+	if( !P_VALID(pTemp) )
+	{
+		backmsg.dwErrorCode = E_Consolidate_Equip_Not_Exist;
+		SendMessage(&backmsg,backmsg.dwSize);
+		return GT_INVALID;
+	}
+	else if( !P_VALID(pItem) )
+	{
+		backmsg.dwErrorCode = E_Item_NotFound;
+		SendMessage(&backmsg,backmsg.dwSize);
+		return GT_INVALID;
+	}
+	else if( !MIsEquipment(pTemp->pProtoType->dwTypeID) )
+	{
+		backmsg.dwErrorCode = E_Item_NotEquipment;
+		SendMessage(&backmsg,backmsg.dwSize);
+		return GT_INVALID;
+	}
+	pEquip = (tagEquip*)pTemp;
+	if( pEquip->equipSpec.byQuality < EIQ_White || pEquip->equipSpec.byQuality > EIQ_Purple )
+	{
+		backmsg.dwErrorCode = E_Compose_EquipUnidentify;
+		SendMessage(&backmsg,backmsg.dwSize);
+		return GT_INVALID;
+	}
+	else if( EISF_UpgradeEquipMaxPotValue != pItem->pProtoType->eSpecFunc )
+	{
+		backmsg.dwErrorCode = E_EquipPotval_ItemTypeInvalid;
+		SendMessage(&backmsg,backmsg.dwSize);
+		return GT_INVALID;
+	}
+	else if( pEquip->pEquipProto->eEquipPos != pItem->pProtoType->nSpecFuncVal1 )
+	{
+		backmsg.dwErrorCode = E_EquipPotval_EquipPosInvalid;
+		SendMessage(&backmsg,backmsg.dwSize);
+		return GT_INVALID;
+	}
+	else if( pEquip->equipSpec.nPotVal + pEquip->equipSpec.nPotValUsed >= pItem->pProtoType->nSpecFuncVal2 )
+	{
+		backmsg.dwErrorCode = E_UpgradeMaxPot_NoNeed;
+		SendMessage(&backmsg,backmsg.dwSize);
+		return GT_INVALID;
+	}
+	else if( pEquip->pEquipProto->nMaxPotVal < pItem->pProtoType->nSpecFuncVal2 )
+	{
+		backmsg.dwErrorCode = E_UpgradeMaxPot_EquipPotTooLow;
+		SendMessage(&backmsg,backmsg.dwSize);
+		return GT_INVALID;
+	}
+
+	pEquip->equipSpec.nPotVal = pItem->pProtoType->nSpecFuncVal2 - pEquip->equipSpec.nPotValUsed;
+	backmsg.dwErrorCode = E_Success;
+	SendMessage(&backmsg,backmsg.dwSize);
+	pRole->GetItemMgr().UpdateEquipSpec(*pEquip);
+	pRole->GetItemMgr().DelFromBag(pRecv->n64ItemID,ELCID_Spec_Raise_Potval,1);
+
+	return E_Success;
+}
+
+// 易容师
+DWORD PlayerSession::HandleAppearanceTransform(tagNetCmd * pCmd)
+{
+	Role * pRole = static_cast<Role*>( GetRole() );
+	if (!P_VALID(pCmd) || !P_VALID(pRole))
+	{
+		return GT_INVALID;
+	}
+
+	tagNC_AppearanceTransform* pRecv = (tagNC_AppearanceTransform*)pCmd;
+	tagNS_AppearanceTransform send;
+
+	// NPC检查
+	send.dwErrorCode = pRole->CheckFuncNPC(pRecv->dwNPCID, EFNPCT_Dresser);
+	if(E_Success != send.dwErrorCode)
+	{
+		SendMessage(&send, send.dwSize);
+		return GT_INVALID;
+	}
+
+	// AvatarID合法性检查
+	if (pRecv->wFaceDetailTexID > DressMdIDInvalid ||
+		pRecv->wFaceMdlID 		> DressMdIDInvalid ||
+		pRecv->wHairMdlID 		> DressMdIDInvalid ||
+		pRecv->wHairTexID 		> DressMdIDInvalid)
+	{
+		return GT_INVALID;
+	}
+
+	// 取外观属性
+	const tagAvatarAtt* pAvatar = pRole->GetAvatar();
+	if (!P_VALID(pAvatar))
+	{
+		return GT_INVALID;
+	}
+
+	// 跟当前容貌一样，不需要易容
+	if (pAvatar->wHairMdlID == pRecv->wHairMdlID &&
+		pAvatar->wHairTexID == pRecv->wHairTexID &&
+		pAvatar->wFaceMdlID == pRecv->wFaceMdlID &&
+		pAvatar->wFaceDetailTexID == pRecv->wFaceDetailTexID)
+	{
+		return GT_INVALID;
+	}
+
+	// 判断角色背包中是否有易容卷道具
+	if (pRole->GetItemMgr().GetBagSameItemCount(APPEARANCE_TRANSFORM_ITEM) < APPEARANCE_TRANS_ITEM_EXPEND)
+	{
+		// 设置错误码,发送消息
+		send.dwErrorCode = EATE_NoTransformItem;
+		SendMessage(&send, send.dwSize);
+	}
+	else
+	{
+		send.dwRoleID = pRole->GetID();
+		send.wFaceDetailTexID = pRecv->wFaceDetailTexID;
+		send.wFaceMdlID = pRecv->wFaceMdlID;
+		send.wHairMdlID = pRecv->wHairMdlID;
+		send.wHairTexID = pRecv->wHairTexID;
+
+		// 改变容貌
+		pRole->SetAvatarHairAndFace(pRecv->wHairMdlID, pRecv->wHairTexID, pRecv->wFaceMdlID, pRecv->wFaceDetailTexID);
+
+		// 存储数据库
+		tagNDBC_SaveAvatarFaceAndHair SaveAvatarFaceAndHair;
+		SaveAvatarFaceAndHair.dwRoleID = pRole->GetID();
+		SaveAvatarFaceAndHair.wFaceDetailTexID = pRecv->wFaceDetailTexID;
+		SaveAvatarFaceAndHair.wFaceMdlID = pRecv->wFaceMdlID;
+		SaveAvatarFaceAndHair.wHairMdlID = pRecv->wHairMdlID;
+		SaveAvatarFaceAndHair.wHairTexID = pRecv->wHairTexID;
+		g_dbSession.Send(&SaveAvatarFaceAndHair, SaveAvatarFaceAndHair.dwSize);
+
+		// 删除道具
+		pRole->GetItemMgr().RemoveFromRole(APPEARANCE_TRANSFORM_ITEM, 1, ELCLD_Appearance_Transform);
+
+		// 设置错误码,发送消息
+		send.dwErrorCode = EATE_Success;
+		SendMessage(&send, send.dwSize);
+
+		// 易容成功后要给周围的人发消息
+		Map* pMap = pRole->GetMap();
+		if (P_VALID(pMap))
+		{
+			// 给九宫格内的玩家发送要重设错误码
+			send.dwErrorCode = EATE_SendBigVisTileMsg;
+			pMap->SendBigVisTileMsg(pRole, &send, send.dwSize);
+		}
+	}
+	
+	return E_Success;
+}
+
+DWORD PlayerSession::HandleKeyCode(tagNetCmd* pCmd)
+{
+	Role * pRole = static_cast<Role*>( GetRole() );
+	if(!P_VALID(pRole) || !P_VALID(pCmd))
+	{
+		return GT_INVALID;
+	}
+
+	tagNC_KeyCode* pRecv = (tagNC_KeyCode*)pCmd;
+	tagNS_KeyCode send;
+
+	// NPC检查
+	send.nErrorCode = E_Success;//= pRole->CheckFuncNPC(pRecv->dwNPCID, EFNPCT_KeyCodeNPC); //不检查NPC了
+	if(E_Success != send.nErrorCode)
+	{
+		SendMessage(&send, send.dwSize);
+		return GT_INVALID;
+	}
+	else
+	{
+		g_keyCodeBridgeSession.Proof(GetAccount(), pRole->GetID(), pRecv->szKeyCode, m_dwIP);
+	}
+	return E_Success;
+}
+
+// 使用VIP卡片道具
+DWORD PlayerSession::HandleUseVipCard(tagNetCmd * pCmd)
+{
+	tagNC_UseVipCard* pRecv = (tagNC_UseVipCard*)pCmd;
+	if (!P_VALID(pRecv))
+		return GT_INVALID;
+
+	Role * pRole = static_cast<Role*>( GetRole() );
+	if(!P_VALID(pRole))
+		return GT_INVALID;
+
+	pRole->UseVipCard(pRecv->n64ItemID);
+	return E_Success;
+}
+
+DWORD PlayerSession::HandleRewardByKeyCode(tagNetCmd* pCmd)
+{
+	MGET_MSG(pRecv, pCmd, NC_NewKeyCode);
+
+	if (!P_VALID(pRecv))
+	{
+		return GT_INVALID;
+	}
+
+	Role* pRole = GetRole();
+	if (!P_VALID(pRole))
+	{
+		return GT_INVALID;
+	}
+
+	Map* pMap = pRole->GetMap();
+	if (!P_VALID(pMap))
+	{
+		return GT_INVALID;
+	}
+
+	Creature* pNPC =pMap->FindCreature(pRecv->dwNPCID);
+	if( P_VALID(pNPC) && TRUE == pNPC->CheckNPCTalkDistance(pRole) && TRUE == pNPC->IsFunctionNPC(EFNPCT_NewKeyCodeNPC)) 
+	{
+		if (0!=pRole->GetKeyCodeRewardedState())
+		{
+			tagNS_NewKeyCode send;
+			send.dwErrorCode = E_KeyCode_OnlyOnce;
+			SendMessage(&send, send.dwSize);
+			return 0;
+		}
+
+		DWORD dwKeyCode = 0;
+		dwKeyCode = (DWORD)_atoi64(pRecv->szKeyCode);
+		const AttRes::tagKeyCodeRewardProto* pRewardProto = g_attRes.GetKeyCodeReward(dwKeyCode);
+		if (!P_VALID(pRewardProto))
+		{
+			tagNS_NewKeyCode send;
+			send.dwErrorCode = E_KeyCode_CodeInvalid;
+			SendMessage(&send, send.dwSize);
+			return 0;
+		}
+
+		for(INT n = 0; n < AttRes::M_MaxKeyCodeRewardNum; ++n)
+		{
+			if( !P_VALID(pRewardProto->dwItemTypeID[n]) || pRewardProto->nItemNum[n] <= 0 ) continue;
+
+			if( MIsEquipment(pRewardProto->dwItemTypeID[n]))
+			{
+				pRole->RewardEquip(EICM_KeyCodeReward, pRole->GetID(), pRewardProto->dwItemTypeID[n], (INT16)pRewardProto->nItemNum[n], EIQ_Null, ELCID_KeyCode_Reward);
+			}
+			else
+			{
+				pRole->GetItemMgr().Add2Role(EICM_KeyCodeReward, pRole->GetID(), pRewardProto->dwItemTypeID[n], (INT16)pRewardProto->nItemNum[n], EIQ_Null, ELCID_KeyCode_Reward);
+			}
+		}
+
+		pRole->SetKeyCodeRewardedState(dwKeyCode);
+	}
+	else
+	{
+		tagNS_NewKeyCode send;
+		send.dwErrorCode = E_KeyCode_NPCInvalid;
+		SendMessage(&send, send.dwSize);
+	}
+
+	return E_Success;
+}
+
+DWORD PlayerSession::HandleAccountReactive(tagNetCmd* pCmd)
+{
+	MGET_MSG(pRecv, pCmd, NC_ReactiveKeyCode);
+
+	Role* pRole = GetRole();
+	if (!P_VALID(pRole))
+	{
+		return GT_INVALID;
+	}
+
+	DWORD dwAccountID = this->GetSessionID();
+	if (!P_VALID(dwAccountID))
+	{
+		return GT_INVALID;
+	}
+
+	tagNS_ReactiveKeyCode ret;
+	if (EARI_BeIntro != pRole->IsAccountReactiver())
+	{
+		ret.dwErrorCode = E_AccountReactive_IdentityLimit;
+		SendMessage(&ret, ret.dwSize);
+		return E_Success;
+	}
+
+	tagNDBC_AccountReactiveCode send;
+	send.dwAccountID = dwAccountID;
+	send.dwKeyCode = pRecv->dwKeyCode;
+	send.byLevel = pRole->GetLevel();
+	send.dwExp = pRole->GetCurLevelExp();
+	g_dbSession.Send(&send, send.dwSize);
+
+	return E_Success;
+}
+
+//  DWORD PlayerSession::HandleRewardReactiveAccount(tagNetCmd* pCmd)
+//  {
+// 	 MGET_MSG(pRecv, pCmd, NC_RewardReactive);
+// 
+//  	Role* pRole = GetRole();
+//  	if (!P_VALID(pRole))
+//  	{
+//  		return GT_INVALID;
+//  	}
+//  
+//  	DWORD dwAccountID = this->GetSessionID();
+//  	if (!P_VALID(dwAccountID))
+//  	{
+//  		return GT_INVALID;
+//  	}
+//  
+//  	tagNS_RewardReactive ret;
+//  	if (EARI_Intro != pRole->IsAccountReactiver())
+//  	{
+//  		ret.dwErrorCode = E_AccountReactive_IdentityLimit;
+//  	}
+// 
+// 	BYTE byRewardLevel = 0;
+// 
+// 	else if(pRole->GetRewardReactiveLevel() >= byRewardLevel)
+// 	{
+// 		ret.dwErrorCode = E_AccountReactive_Reward_Already;
+// 	}
+// 	else
+// 	{
+//  		ret.dwErrorCode = pRole->RewardReactive(byRewardLevel);
+// 	}
+// 	SendMessage(&ret, ret.dwSize);
+// 
+// 	if (ret.dwErrorCode == E_Success)
+// 	{
+// 		pRole->SetRewardReactiveLevel(byRewardLevel);
+// 		tagNDBC_UpdateRewardReactiveLevel db;
+// 		db.dwAccountID = dwAccountID;
+// 		db.byLevel = byRewardLevel;
+// 		g_dbSession.Send(&db, db.dwSize);
+// 	}
+// 	return E_Success;
+//  }
+
+//-------------------------------------------------------------------
+DWORD PlayerSession::HandleGetServiceInfo(tagNetCmd* pCmd)
+{
+	tagNS_GetServiceInfo send;
+
+	strncpy( send.szIP, g_world.GetIP(), 64 );
+	strncpy( send.szMac, g_world.GetMAC(), 64 );
+	strncpy( send.szMd5, g_world.GetMD5(), 48 );
+	strncpy( send.szSign, g_world.GetSign(), 32 );
+
+	SendMessage(&send, send.dwSize);
+
+	return E_Success; 
+}
+//-------------------------------------------------------------------
+DWORD PlayerSession::HandleGetLiLianExp(tagNetCmd* pCmd)
+{
+	tagNS_GetLiLianExp send;
+
+	Role* pRole = GetRole();
+	if (!P_VALID(pRole))
+	{
+		return GT_INVALID;
+	}
+
+	send.dwExp = pRole->GetAwardPoint();
+	send.dwReceiveNum = pRole->GetAwardFlag();
+
+	SendMessage(&send, send.dwSize);
+
+	return E_Success; 
+}
+//-------------------------------------------------------------------
+DWORD PlayerSession::HandleReceiveGift(tagNetCmd* pCmd)
+{
+	tagNS_ReceiveGift send;
+
+	Role* pRole = GetRole();
+	if (!P_VALID(pRole))
+	{
+		return GT_INVALID;
+	}
+
+	send.dwErrcode = pRole->AddGiftByAwardPoint();
+
+	SendMessage(&send, send.dwSize);
+
+	return E_Success; 
+}
+//-------------------------------------------------------------------
+
+DWORD PlayerSession::HandleNC_GetKeyCodeGift(tagNetCmd* pCmd)
+{
+	MGET_MSG(pRecv, pCmd, NC_GetKeyCodeGift);
+	tagNS_NewKeyCode send;
+
+	Role* pRole = GetRole();
+	if(!P_VALID(pRole))
+	{
+		return GT_INVALID;
+	}
+
+	send.dwErrorCode = pRole->AddNewKeyCodeGift(pRecv->dwKeyCodeCrc);
+}
+
+// 保存玩家手机号
+DWORD  PlayerSession::HandleNC_SaveTelNum(tagNetCmd* pCmd)
+{
+	if(!P_VALID(pCmd)) return GT_INVALID;
+	MGET_MSG(pRecv, pCmd, NC_SaveTelNum);
+
+	Role* pRole = GetRole();
+	if(!P_VALID(pRole))
+	{
+		return GT_INVALID;
+	}
+
+	tagNWL_SaveTelNum msg;	
+	msg.dwAccountID = m_dwAccountID;
+	strncpy(msg.szAccount, m_szAccount, X_SHORT_NAME);
+	msg.n64TelNum  = pRecv->n64TelNum;	
+	msg.dwRoleID = pRole->GetID();	
+	g_loginSession.Send(&msg,msg.dwSize);
+	return E_Success;
+
+}
+
+// 玩家不存储手机号
+DWORD  PlayerSession::HandleNC_NotSaveTelNum(tagNetCmd* pCmd)
+{
+	if(!P_VALID(pCmd)) return GT_INVALID;
+	MGET_MSG(pRecv, pCmd, NC_NotSaveTelNum);
+
+	Role* pRole = GetRole();
+	if(!P_VALID(pRole))
+	{
+		return GT_INVALID;
+	}
+
+	tagNWL_NotSaveTelNum msg;	
+	msg.dwAccountID = m_dwAccountID;	
+	g_loginSession.Send(&msg,msg.dwSize);
+	return E_Success;
+}
+
+// 领取圣币卷
+DWORD PlayerSession::HandleNC_ReceiveYuanBao(tagNetCmd* pCmd)
+{
+	if(!P_VALID(pCmd)) return GT_INVALID;
+	MGET_MSG(pRecv, pCmd, NC_ReceiveYuanBao);
+
+	Role* pRole = GetRole();
+	if(!P_VALID(pRole))
+	{
+		return GT_INVALID;
+	}
+	tagNDBC_ReceiveYuanBao send;
+	send.dwRoleID = pRole->GetID();
+	g_dbSession.Send(&send, send.dwSize);
+
+}

@@ -1,0 +1,15 @@
+sampler2D g_lightMap 	: register(s0);
+sampler2D g_attenTex 	: register(s1);
+
+
+float4 main( float2 uv0 : TEXCOORD0 ) : COLOR0
+{
+	float4 color=1;
+	
+	float4 light	=tex2D(g_lightMap,uv0);
+	float4 atten	=tex2D(g_attenTex,uv0);
+
+	color.rgb=light.rgb*atten.rgb*0.5f;
+
+	return color;
+}

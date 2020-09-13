@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40050" />
+    <entry Name="喂养妖精" />
+    <entry Conditions="使用一次秘制话梅" />
+    <entry Overview="使用&lt;I&gt;秘制话梅&lt;/I&gt;来使&lt;A&gt;妖精&lt;/A&gt;的&lt;S&gt;心情&lt;/S&gt;提升。若&lt;A&gt;妖精&lt;/A&gt;处于&lt;S&gt;亢奋&lt;/S&gt;状态时，则无法使用妖精食物。" />
+</quest-local>

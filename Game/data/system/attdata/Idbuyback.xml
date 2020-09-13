@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <Idbuyback id="1" exp="100" itemID1="4530110" itemID2="3070056" itemID3="3070018" itemID4="4700082" itemID5="3010037" />
+    <Idbuyback id="2" exp="200" itemID1="4530110" itemID2="3070056" itemID3="3070018" itemID4="4700082" itemID5="3010037" />
+    <Idbuyback id="3" exp="300" itemID1="4530110" itemID2="3070056" itemID3="3070018" itemID4="4700082" itemID5="3010037" />
+    <Idbuyback id="4" exp="400" itemID1="4530110" itemID2="3070056" itemID3="3070018" itemID4="4700082" itemID5="3010037" />
+    <Idbuyback id="5" exp="500" itemID1="4530110" itemID2="3070056" itemID3="3070018" itemID4="4700082" itemID5="3010037" />
+    <Idbuyback id="6" exp="600" itemID1="4530110" itemID2="3070056" itemID3="3070018" itemID4="4700082" itemID5="3010037" />
+    <Idbuyback id="7" exp="700" itemID1="4530110" itemID2="3070056" itemID3="3070018" itemID4="4700082" itemID5="3010037" />
+    <Idbuyback id="8" exp="800" itemID1="4530110" itemID2="3070056" itemID3="3070018" itemID4="4700082" itemID5="3010037" />
+    <Idbuyback id="9" exp="900" itemID1="4530110" itemID2="3070056" itemID3="3070018" itemID4="4700082" itemID5="3010037" />
+    <Idbuyback id="10" exp="1000" gift="4700102" itemID1="4530110" itemID2="3070056" itemID3="3070018" itemID4="4700082" itemID5="3010037" />
+    <Idbuyback id="11" exp="1150" gift="4700102" itemID1="4530110" itemID2="4210202" itemID3="3010053" itemID4="3070032" itemID5="3010037" />
+    <Idbuyback id="12" exp="1300" gift="4700102" itemID1="4530110" itemID2="4210202" itemID3="3010053" itemID4="3070032" itemID5="3010037" />
+    <Idbuyback id="13" exp="1450" gift="4700102" itemID1="4530110" itemID2="4210202" itemID3="3010053" itemID4="3070032" itemID5="3010037" />
+    <Idbuyback id="14" exp="1600" gift="4700102" itemID1="4530110" itemID2="4210202" itemID3="3010053" itemID4="3070032" itemID5="3010037" />
+    <Idbuyback id="15" exp="1750" gift="4700102" itemID1="4530110" itemID2="4210202" itemID3="3010053" itemID4="3070032" itemID5="3010037" />
+    <Idbuyback id="16" exp="1900" gift="4700102" itemID1="4530110" itemID2="4210202" itemID3="3010053" itemID4="3070032" itemID5="3010037" />
+    <Idbuyback id="17" exp="2050" gift="4700102" itemID1="4530110" itemID2="4210202" itemID3="3010053" itemID4="3070032" itemID5="3010037" />
+    <Idbuyback id="18" exp="2200" gift="4700102" itemID1="4530110" itemID2="4210202" itemID3="3010053" itemID4="3070032" itemID5="3010037" />
+    <Idbuyback id="19" exp="2350" gift="4700102" itemID1="4530110" itemID2="4210202" itemID3="3010053" itemID4="3070032" itemID5="3010037" />
+    <Idbuyback id="20" exp="2500" gift="4700103" itemID1="4530110" itemID2="4210202" itemID3="3010053" itemID4="3070032" itemID5="3010037" />
+    <Idbuyback id="21" exp="2700" gift="4700103" itemID1="4530110" itemID2="4220202" itemID3="3090017" itemID4="3030130" itemID5="3030133" />
+    <Idbuyback id="22" exp="2900" gift="4700103" itemID1="4530110" itemID2="4220202" itemID3="3090017" itemID4="3030130" itemID5="3030133" />
+    <Idbuyback id="23" exp="3100" gift="4700103" itemID1="4530110" itemID2="4220202" itemID3="3090017" itemID4="3030130" itemID5="3030133" />
+    <Idbuyback id="24" exp="3300" gift="4700103" itemID1="4530110" itemID2="4220202" itemID3="3090017" itemID4="3030130" itemID5="3030133" />
+    <Idbuyback id="25" exp="3500" gift="4700103" itemID1="4530110" itemID2="4220202" itemID3="3090017" itemID4="3030130" itemID5="3030133" />
+    <Idbuyback id="26" exp="3700" gift="4700103" itemID1="4530110" itemID2="4220202" itemID3="3090017" itemID4="3030130" itemID5="3030133" />
+    <Idbuyback id="27" exp="3900" gift="4700103" itemID1="4530110" itemID2="4220202" itemID3="3090017" itemID4="3030130" itemID5="3030133" />
+    <Idbuyback id="28" exp="4100" gift="4700103" itemID1="4530110" itemID2="4220202" itemID3="3090017" itemID4="3030130" itemID5="3030133" />
+    <Idbuyback id="29" exp="4300" gift="4700103" itemID1="4530110" itemID2="4220202" itemID3="3090017" itemID4="3030130" itemID5="3030133" />
+    <Idbuyback id="30" exp="4500" gift="4700104" itemID1="4530110" itemID2="4220202" itemID3="3090017" itemID4="3030130" itemID5="3030133" />
+    <Idbuyback id="31" exp="4800" gift="4700104" itemID1="4530110" itemID2="4400054" itemID3="3070064" itemID4="3070065" itemID5="4080089" />
+    <Idbuyback id="32" exp="5100" gift="4700104" itemID1="4530110" itemID2="4400054" itemID3="3070064" itemID4="3070065" itemID5="4080089" />
+    <Idbuyback id="33" exp="5400" gift="4700104" itemID1="4530110" itemID2="4400054" itemID3="3070064" itemID4="3070065" itemID5="4080089" />
+    <Idbuyback id="34" exp="5700" gift="4700104" itemID1="4530110" itemID2="4400054" itemID3="3070064" itemID4="3070065" itemID5="4080089" />
+    <Idbuyback id="35" exp="6000" gift="4700104" itemID1="4530110" itemID2="4400054" itemID3="3070064" itemID4="3070065" itemID5="4080089" />
+    <Idbuyback id="36" exp="6300" gift="4700104" itemID1="4530110" itemID2="4400054" itemID3="3070064" itemID4="3070065" itemID5="4080089" />
+    <Idbuyback id="37" exp="6600" gift="4700104" itemID1="4530110" itemID2="4400054" itemID3="3070064" itemID4="3070065" itemID5="4080089" />
+    <Idbuyback id="38" exp="6900" gift="4700104" itemID1="4530110" itemID2="4400054" itemID3="3070064" itemID4="3070065" itemID5="4080089" />
+    <Idbuyback id="39" exp="7200" gift="4700104" itemID1="4530110" itemID2="4400054" itemID3="3070064" itemID4="3070065" itemID5="4080089" />
+    <Idbuyback id="40" exp="7500" gift="4700105" itemID1="4530110" itemID2="4400054" itemID3="3070064" itemID4="3070065" itemID5="4080089" />
+    <Idbuyback id="41" exp="7900" gift="4700105" itemID1="4530110" itemID2="4400054" itemID3="3050069" itemID4="3050070" itemID5="3090018" />
+    <Idbuyback id="42" exp="8300" gift="4700105" itemID1="4530110" itemID2="4400054" itemID3="3050069" itemID4="3050070" itemID5="3090018" />
+    <Idbuyback id="43" exp="8700" gift="4700105" itemID1="4530110" itemID2="4400054" itemID3="3050069" itemID4="3050070" itemID5="3090018" />
+    <Idbuyback id="44" exp="9100" gift="4700105" itemID1="4530110" itemID2="4400054" itemID3="3050069" itemID4="3050070" itemID5="3090018" />
+    <Idbuyback id="45" exp="9500" gift="4700105" itemID1="4530110" itemID2="4400054" itemID3="3050069" itemID4="3050070" itemID5="3090018" />
+    <Idbuyback id="46" exp="9900" gift="4700105" itemID1="4530110" itemID2="4400054" itemID3="3050069" itemID4="3050070" itemID5="3090018" />
+    <Idbuyback id="47" exp="10300" gift="4700105" itemID1="4530110" itemID2="4400054" itemID3="3050069" itemID4="3050070" itemID5="3090018" />
+    <Idbuyback id="48" exp="10700" gift="4700105" itemID1="4530110" itemID2="4400054" itemID3="3050069" itemID4="3050070" itemID5="3090018" />
+    <Idbuyback id="49" exp="11100" gift="4700105" itemID1="4530110" itemID2="4400054" itemID3="3050069" itemID4="3050070" itemID5="3090018" />
+    <Idbuyback id="50" exp="11500" gift="4700106" itemID1="4530110" itemID2="4400054" itemID3="3050069" itemID4="3050070" itemID5="3090018" />
+    <Idbuyback id="51" exp="12000" gift="4700106" itemID1="3070022" itemID2="4300003" itemID3="3070077" itemID4="4530103" itemID5="4530112" />
+    <Idbuyback id="52" exp="12500" gift="4700106" itemID1="3070022" itemID2="4300003" itemID3="3070077" itemID4="4530103" itemID5="4530112" />
+    <Idbuyback id="53" exp="13000" gift="4700106" itemID1="3070022" itemID2="4300003" itemID3="3070077" itemID4="4530103" itemID5="4530112" />
+    <Idbuyback id="54" exp="13500" gift="4700106" itemID1="3070022" itemID2="4300003" itemID3="3070077" itemID4="4530103" itemID5="4530112" />
+    <Idbuyback id="55" exp="14000" gift="4700106" itemID1="3070022" itemID2="4300003" itemID3="3070077" itemID4="4530103" itemID5="4530112" />
+    <Idbuyback id="56" exp="14500" gift="4700106" itemID1="3070022" itemID2="4300003" itemID3="3070077" itemID4="4530103" itemID5="4530112" />
+    <Idbuyback id="57" exp="15000" gift="4700106" itemID1="3070022" itemID2="4300003" itemID3="3070077" itemID4="4530103" itemID5="4530112" />
+    <Idbuyback id="58" exp="15500" gift="4700106" itemID1="3070022" itemID2="4300003" itemID3="3070077" itemID4="4530103" itemID5="4530112" />
+    <Idbuyback id="59" exp="16000" gift="4700106" itemID1="3070022" itemID2="4300003" itemID3="3070077" itemID4="4530103" itemID5="4530112" />
+    <Idbuyback id="60" exp="16500" gift="4700107" itemID1="3070022" itemID2="4300003" itemID3="3070077" itemID4="4530103" itemID5="4530112" />
+    <Idbuyback id="61" exp="17500" gift="4700107" itemID1="4220803" itemID2="4211304" itemID3="4530096" itemID4="4400054" itemID5="3070007" />
+    <Idbuyback id="62" exp="18500" gift="4700107" itemID1="4220803" itemID2="4211304" itemID3="4530096" itemID4="4400054" itemID5="3070007" />
+    <Idbuyback id="63" exp="19500" gift="4700107" itemID1="4220803" itemID2="4211304" itemID3="4530096" itemID4="4400054" itemID5="3070007" />
+    <Idbuyback id="64" exp="20500" gift="4700107" itemID1="4220803" itemID2="4211304" itemID3="4530096" itemID4="4400054" itemID5="3070007" />
+    <Idbuyback id="65" exp="21500" gift="4700107" itemID1="4220803" itemID2="4211304" itemID3="4530096" itemID4="4400054" itemID5="3070007" />
+    <Idbuyback id="66" exp="22500" gift="4700107" itemID1="4220803" itemID2="4211304" itemID3="4530096" itemID4="4400054" itemID5="3070007" />
+    <Idbuyback id="67" exp="23500" gift="4700107" itemID1="4220803" itemID2="4211304" itemID3="4530096" itemID4="4400054" itemID5="3070007" />
+    <Idbuyback id="68" exp="24500" gift="4700107" itemID1="4220803" itemID2="4211304" itemID3="4530096" itemID4="4400054" itemID5="3070007" />
+    <Idbuyback id="69" exp="25500" gift="4700107" itemID1="4220803" itemID2="4211304" itemID3="4530096" itemID4="4400054" itemID5="3070007" />
+    <Idbuyback id="70" exp="26500" gift="4700108" itemID1="4220803" itemID2="4211304" itemID3="4530096" itemID4="4400054" itemID5="3070007" />
+    <Idbuyback id="71" exp="29000" gift="4700108" itemID1="3070069" itemID2="4530112" itemID3="4530097" itemID4="4530105" itemID5="3070078" />
+    <Idbuyback id="72" exp="31500" gift="4700108" itemID1="3070069" itemID2="4530112" itemID3="4530097" itemID4="4530105" itemID5="3070078" />
+    <Idbuyback id="73" exp="34000" gift="4700108" itemID1="3070069" itemID2="4530112" itemID3="4530097" itemID4="4530105" itemID5="3070078" />
+    <Idbuyback id="74" exp="36500" gift="4700108" itemID1="3070069" itemID2="4530112" itemID3="4530097" itemID4="4530105" itemID5="3070078" />
+    <Idbuyback id="75" exp="39000" gift="4700108" itemID1="3070069" itemID2="4530112" itemID3="4530097" itemID4="4530105" itemID5="3070078" />
+    <Idbuyback id="76" exp="41500" gift="4700108" itemID1="3070069" itemID2="4530112" itemID3="4530097" itemID4="4530105" itemID5="3070078" />
+    <Idbuyback id="77" exp="44000" gift="4700108" itemID1="3070069" itemID2="4530112" itemID3="4530097" itemID4="4530105" itemID5="3070078" />
+    <Idbuyback id="78" exp="46500" gift="4700108" itemID1="3070069" itemID2="4530112" itemID3="4530097" itemID4="4530105" itemID5="3070078" />
+    <Idbuyback id="79" exp="49000" gift="4700108" itemID1="3070069" itemID2="4530112" itemID3="4530097" itemID4="4530105" itemID5="3070078" />
+    <Idbuyback id="80" exp="51500" gift="4700109" itemID1="3070069" itemID2="4530112" itemID3="4530097" itemID4="4530105" itemID5="3070078" />
+    <Idbuyback id="81" exp="56500" gift="4700109" itemID1="4220304" itemID2="4210103" itemID3="4400055" itemID4="4630201" itemID5="3070014" />
+    <Idbuyback id="82" exp="61500" gift="4700109" itemID1="4220304" itemID2="4210103" itemID3="4400055" itemID4="4630201" itemID5="3070014" />
+    <Idbuyback id="83" exp="66500" gift="4700109" itemID1="4220304" itemID2="4210103" itemID3="4400055" itemID4="4630201" itemID5="3070014" />
+    <Idbuyback id="84" exp="71500" gift="4700109" itemID1="4220304" itemID2="4210103" itemID3="4400055" itemID4="4630201" itemID5="3070014" />
+    <Idbuyback id="85" exp="76500" gift="4700109" itemID1="4220304" itemID2="4210103" itemID3="4400055" itemID4="4630201" itemID5="3070014" />
+    <Idbuyback id="86" exp="81500" gift="4700109" itemID1="4220304" itemID2="4210103" itemID3="4400055" itemID4="4630201" itemID5="3070014" />
+    <Idbuyback id="87" exp="86500" gift="4700109" itemID1="4220304" itemID2="4210103" itemID3="4400055" itemID4="4630201" itemID5="3070014" />
+    <Idbuyback id="88" exp="91500" gift="4700109" itemID1="4220304" itemID2="4210103" itemID3="4400055" itemID4="4630201" itemID5="3070014" />
+    <Idbuyback id="89" exp="96500" gift="4700109" itemID1="4220304" itemID2="4210103" itemID3="4400055" itemID4="4630201" itemID5="3070014" />
+    <Idbuyback id="90" exp="101500" gift="4700110" itemID1="4220304" itemID2="4210103" itemID3="4400055" itemID4="4630201" itemID5="3070014" />
+    <Idbuyback id="91" exp="131500" gift="4700110" itemID1="3070073" itemID2="4400055" itemID3="4530097" itemID4="4530105" itemID5="4530112" />
+    <Idbuyback id="92" exp="161500" gift="4700110" itemID1="3070073" itemID2="4400055" itemID3="4530097" itemID4="4530105" itemID5="4530112" />
+    <Idbuyback id="93" exp="191500" gift="4700110" itemID1="3070073" itemID2="4400055" itemID3="4530097" itemID4="4530105" itemID5="4530112" />
+    <Idbuyback id="94" exp="221500" gift="4700110" itemID1="3070073" itemID2="4400055" itemID3="4530097" itemID4="4530105" itemID5="4530112" />
+    <Idbuyback id="95" exp="251500" gift="4700110" itemID1="3070073" itemID2="4400055" itemID3="4530097" itemID4="4530105" itemID5="4530112" />
+    <Idbuyback id="96" exp="281500" gift="4700110" itemID1="3070073" itemID2="4400055" itemID3="4530097" itemID4="4530105" itemID5="4530112" />
+    <Idbuyback id="97" exp="311500" gift="4700110" itemID1="3070073" itemID2="4400055" itemID3="4530097" itemID4="4530105" itemID5="4530112" />
+    <Idbuyback id="98" exp="341500" gift="4700110" itemID1="3070073" itemID2="4400055" itemID3="4530097" itemID4="4530105" itemID5="4530112" />
+    <Idbuyback id="99" exp="371500" gift="4700110" itemID1="3070073" itemID2="4400055" itemID3="4530097" itemID4="4530105" itemID5="4530112" />
+    <Idbuyback id="100" exp="401500" gift="4700111" itemID1="3070073" itemID2="4400055" itemID3="4530097" itemID4="4530105" itemID5="4530112" />
+</root>

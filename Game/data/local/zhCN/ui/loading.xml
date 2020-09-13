@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<desktop>
+    <UIControl Name="panel" ClassName="CGUIStatic" MoveFather="yes" TopMost="yes" Size_x="1023" Size_y="682" AlignControl="desktop" Font="龙字体" FontWeight="1000" TextRect_right="1023" TextRect_bottom="682" TextColor="0xFFFAFAFA" ShadeColor="0xF0F0F" TextAlign="Center" PicColor="0xFFFDFDFD" AlphaWrite="Write">
+        <UIControl Name="progress" ClassName="CGUIProgress" TopMost="yes" LogicPos_x="361" LogicPos_y="362" Size_x="300" Size_y="300" AlignControl="\desktop\panel" AlignType="InnerBottom" AlignOffset_y="-20" Font="龙字体" FontHeight="30" FontWeight="40" TextRect_right="300" TextRect_bottom="215" TextColor="0xFFFFFFFF" ShadeColor="0xFF290404" TextAlign="CenterBottom" PicFileName="data\ui\loading\l_loading-chilun.bmp" PicRect_right="412" PicRect_bottom="408" PicColor="0xFFFFFFFF" AlphaWrite="Write" Horizon="yes" ForePicColor="0xFFFFFFFF" />
+        <UIControl Name="text" ClassName="CGUIStatic" LogicPos_x="211" LogicPos_y="662" Size_x="600" Size_y="20" AlignControl="\desktop\panel" AlignType="InnerBottom" Font="龙字体" FontHeight="16" TextRect_right="600" TextRect_bottom="20" TextColor="0xFFFFFFFF" ShadeColor="0xFF000000" TextAlign="Center" PicColor="0xFFFFFF" />
+    </UIControl>
+</desktop>

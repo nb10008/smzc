@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <fabao id="10000" type="0" trigger_id="1050050" buff_id="1052401" be_compre="0" be_binding="0" />
+    <fabao id="100001" type="-1" trigger_id="1020000" buff_id="3300101" be_compre="0" be_binding="1" />
+    <fabao id="100002" type="-1" trigger_id="1020000" buff_id="3300201" be_compre="0" be_binding="1" />
+    <fabao id="100003" type="-1" trigger_id="1020000" buff_id="3300301" be_compre="0" be_binding="1" />
+    <fabao id="100004" type="-1" trigger_id="1020000" buff_id="3300401" be_compre="0" be_binding="1" />
+    <fabao id="100005" type="-1" trigger_id="1020000" buff_id="3300501" be_compre="0" be_binding="1" />
+    <fabao id="100006" type="-1" trigger_id="1020000" buff_id="3300601" be_compre="0" be_binding="1" />
+    <fabao id="100007" type="-1" trigger_id="1020000" buff_id="3300701" be_compre="0" be_binding="1" />
+    <fabao id="100008" type="-1" trigger_id="1020000" buff_id="3300801" be_compre="0" be_binding="1" />
+    <fabao id="100009" type="-1" trigger_id="1020000" buff_id="3300901" be_compre="0" be_binding="1" />
+    <fabao id="100010" type="-1" trigger_id="1020000" buff_id="3301001" be_compre="0" be_binding="1" />
+    <fabao id="100011" type="-1" trigger_id="1020000" buff_id="3304701" be_compre="0" be_binding="1" />
+    <fabao id="100012" type="-1" trigger_id="1020000" buff_id="3304801" be_compre="0" be_binding="1" />
+    <fabao id="100013" type="-1" trigger_id="1020000" buff_id="3304901" be_compre="0" be_binding="1" />
+    <fabao id="100014" type="-1" trigger_id="1020000" buff_id="3305001" be_compre="0" be_binding="1" />
+    <fabao id="100015" type="-1" trigger_id="1020000" buff_id="3305101" be_compre="0" be_binding="1" />
+    <fabao id="100016" type="-1" trigger_id="1020000" buff_id="3305201" be_compre="0" be_binding="1" />
+    <fabao id="100017" type="-1" trigger_id="1020000" buff_id="3305301" be_compre="0" be_binding="1" />
+    <fabao id="100018" type="-1" trigger_id="1020000" buff_id="3305401" be_compre="0" be_binding="1" />
+    <fabao id="100019" type="-1" trigger_id="1020000" buff_id="3305501" be_compre="0" be_binding="1" />
+    <fabao id="100020" type="-1" trigger_id="1020000" buff_id="3305601" be_compre="0" be_binding="1" />
+    <fabao id="100021" type="-1" trigger_id="1020000" buff_id="3305701" be_compre="0" be_binding="1" />
+    <fabao id="100022" type="-1" trigger_id="1020000" buff_id="3305801" be_compre="0" be_binding="1" />
+    <fabao id="100023" type="-1" trigger_id="1020000" buff_id="3305901" be_compre="0" be_binding="1" />
+    <fabao id="100024" type="-1" trigger_id="1020000" buff_id="3306001" be_compre="0" be_binding="1" />
+    <fabao id="100025" type="-1" trigger_id="1020000" buff_id="3306101" be_compre="0" be_binding="1" />
+    <fabao id="100026" type="-1" trigger_id="1020000" buff_id="3306201" be_compre="0" be_binding="1" />
+    <fabao id="100027" type="-1" trigger_id="1020000" buff_id="3306301" be_compre="0" be_binding="1" />
+    <fabao id="100028" type="-1" trigger_id="1020000" buff_id="3306401" be_compre="0" be_binding="1" />
+    <fabao id="100029" type="-1" trigger_id="1020000" buff_id="3306501" be_compre="0" be_binding="1" />
+    <fabao id="100030" type="-1" trigger_id="1020000" buff_id="3306601" be_compre="0" be_binding="1" />
+    <fabao id="100031" type="-1" trigger_id="1020000" buff_id="3307501" be_compre="0" be_binding="1" />
+    <fabao id="100032" type="-1" trigger_id="1020000" buff_id="3307601" be_compre="0" be_binding="1" />
+    <fabao id="100033" type="-1" trigger_id="1020000" buff_id="3306901" be_compre="0" be_binding="1" />
+    <fabao id="100034" type="-1" trigger_id="1020000" buff_id="3307001" be_compre="0" be_binding="1" />
+    <fabao id="100035" type="-1" trigger_id="1020000" buff_id="3307101" be_compre="0" be_binding="1" />
+    <fabao id="100036" type="-1" trigger_id="1020000" buff_id="3307201" be_compre="0" be_binding="1" />
+    <fabao id="100037" type="-1" trigger_id="1020000" buff_id="3307301" be_compre="0" be_binding="1" />
+    <fabao id="100038" type="-1" trigger_id="1020000" buff_id="3307401" be_compre="0" be_binding="1" />
+    <fabao id="110001" type="0" trigger_id="1020000" buff_id="3301101" be_compre="1" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="110002" type="0" trigger_id="1040010" buff_id="3301201" be_compre="1" compre_quali_limit="60" compre_level_limit="60" be_binding="0" />
+    <fabao id="110003" type="0" trigger_id="2110050" buff_id="3301401" be_compre="1" compre_quali_limit="60" compre_level_limit="70" be_binding="0" />
+    <fabao id="110004" type="0" trigger_id="1040005" buff_id="3301601" be_compre="1" compre_quali_limit="70" compre_level_limit="70" be_binding="0" />
+    <fabao id="110005" type="0" trigger_id="1040002" buff_id="3301701" be_compre="1" compre_quali_limit="70" compre_level_limit="80" be_binding="0" />
+    <fabao id="110006" type="0" trigger_id="1020000" buff_id="3307701" be_compre="0" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="120001" type="1" trigger_id="1020000" buff_id="3301901" be_compre="1" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="120002" type="1" trigger_id="1020000" buff_id="3302001" be_compre="1" compre_quali_limit="60" compre_level_limit="60" be_binding="0" />
+    <fabao id="120003" type="1" trigger_id="1020000" buff_id="3302101" be_compre="1" compre_quali_limit="60" compre_level_limit="70" be_binding="0" />
+    <fabao id="120004" type="1" trigger_id="1040005" buff_id="3302201" be_compre="1" compre_quali_limit="70" compre_level_limit="70" be_binding="0" />
+    <fabao id="120005" type="1" trigger_id="1040005" buff_id="3302401" be_compre="1" compre_quali_limit="70" compre_level_limit="80" be_binding="0" />
+    <fabao id="120006" type="1" trigger_id="1020000" buff_id="3307901" be_compre="0" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="120007" type="1" trigger_id="1020000" buff_id="3308001" be_compre="0" compre_quali_limit="60" compre_level_limit="60" be_binding="0" />
+    <fabao id="120008" type="1" trigger_id="1020000" buff_id="3308101" be_compre="0" compre_quali_limit="60" compre_level_limit="60" be_binding="0" />
+    <fabao id="130001" type="2" trigger_id="1020000" buff_id="3302601" be_compre="1" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="130002" type="2" trigger_id="1090000" buff_id="3302701" be_compre="1" compre_quali_limit="60" compre_level_limit="60" be_binding="0" />
+    <fabao id="130003" type="2" trigger_id="1040010" buff_id="3302801" be_compre="1" compre_quali_limit="60" compre_level_limit="70" be_binding="0" />
+    <fabao id="130004" type="2" trigger_id="1020000" buff_id="3303001" be_compre="1" compre_quali_limit="70" compre_level_limit="70" be_binding="0" />
+    <fabao id="130005" type="2" trigger_id="1020000" buff_id="3303101" be_compre="1" compre_quali_limit="70" compre_level_limit="80" be_binding="0" />
+    <fabao id="130006" type="2" trigger_id="1020000" buff_id="3307801" be_compre="0" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="140001" type="3" trigger_id="1020000" buff_id="3303201" be_compre="1" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="140002" type="3" trigger_id="1020000" buff_id="3303301" be_compre="1" compre_quali_limit="60" compre_level_limit="60" be_binding="0" />
+    <fabao id="140003" type="3" trigger_id="1020000" buff_id="3303401" be_compre="1" compre_quali_limit="60" compre_level_limit="70" be_binding="0" />
+    <fabao id="140004" type="3" trigger_id="1040010" buff_id="3303501" be_compre="1" compre_quali_limit="70" compre_level_limit="70" be_binding="0" />
+    <fabao id="140005" type="3" trigger_id="1100000" buff_id="3303601" be_compre="1" compre_quali_limit="70" compre_level_limit="80" be_binding="0" />
+    <fabao id="140006" type="3" trigger_id="1020000" buff_id="3308201" be_compre="0" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="140007" type="3" trigger_id="1020000" buff_id="3308301" be_compre="0" compre_quali_limit="60" compre_level_limit="60" be_binding="0" />
+    <fabao id="140008" type="3" trigger_id="1020000" buff_id="3308401" be_compre="0" compre_quali_limit="60" compre_level_limit="70" be_binding="0" />
+    <fabao id="150001" type="4" trigger_id="1020000" buff_id="3303701" be_compre="1" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="150002" type="4" trigger_id="1020000" buff_id="3303801" be_compre="1" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="150003" type="4" trigger_id="1020000" buff_id="3303901" be_compre="1" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="150004" type="4" trigger_id="1020000" buff_id="3304001" be_compre="1" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="150005" type="4" trigger_id="1020000" buff_id="3304101" be_compre="1" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="150006" type="4" trigger_id="1020000" buff_id="3308501" be_compre="0" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="150007" type="4" trigger_id="1020000" buff_id="3308601" be_compre="0" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="150008" type="4" trigger_id="1020000" buff_id="3308701" be_compre="0" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="150009" type="4" trigger_id="1020000" buff_id="3308801" be_compre="0" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="150010" type="4" trigger_id="1020000" buff_id="3308901" be_compre="0" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="160001" type="5" trigger_id="1020000" buff_id="3304201" be_compre="1" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="160002" type="5" trigger_id="1020000" buff_id="3304301" be_compre="1" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="160003" type="5" trigger_id="1020000" buff_id="3304401" be_compre="1" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="160004" type="5" trigger_id="1020000" buff_id="3304501" be_compre="1" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="160005" type="5" trigger_id="1020000" buff_id="3304601" be_compre="1" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="160006" type="5" trigger_id="1020000" buff_id="3309001" be_compre="0" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="160007" type="5" trigger_id="1020000" buff_id="3309101" be_compre="0" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="160008" type="5" trigger_id="1020000" buff_id="3309201" be_compre="0" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="160009" type="5" trigger_id="1020000" buff_id="3309301" be_compre="0" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="160010" type="5" trigger_id="1020000" buff_id="3309401" be_compre="0" compre_quali_limit="50" compre_level_limit="60" be_binding="0" />
+    <fabao id="170001" type="-1" trigger_id="1020000" buff_id="3306701" be_compre="0" compre_quali_limit="70" compre_level_limit="70" be_binding="0" />
+    <fabao id="170002" type="-1" trigger_id="1020000" buff_id="3306801" be_compre="0" compre_quali_limit="70" compre_level_limit="80" be_binding="0" />
+</root>

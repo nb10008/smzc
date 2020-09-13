@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <skill_box id="1000" learn_limit="1" skill_id1="10101" skill_id2="10102" skill_id3="10103" skill_id4="10104" skill_id5="10105" />
+    <skill_box id="1001" learn_limit="1" skill_id1="10106" skill_id2="10107" skill_id3="10108" skill_id4="10109" skill_id5="10110" />
+    <skill_box id="1002" learn_limit="1" skill_id1="10001" skill_id2="10002" skill_id3="10003" skill_id4="10004" skill_id5="10005" />
+    <skill_box id="1003" learn_limit="1" skill_id1="10113" skill_id2="10114" skill_id3="10115" skill_id4="10116" skill_id5="10117" />
+    <skill_box id="1004" learn_limit="0" skill_id1="1011801" skill_id2="1011901" skill_id3="1012001" />
+    <skill_box id="1005" learn_limit="0" skill_id1="1021901" skill_id2="1022001" />
+    <skill_box id="1006" learn_limit="0" skill_id1="1022301" skill_id2="1022401" />
+    <skill_box id="1007" learn_limit="0" skill_id1="1031801" skill_id2="1031901" />
+    <skill_box id="1008" learn_limit="0" skill_id1="1032201" skill_id2="1032301" />
+    <skill_box id="1009" learn_limit="0" skill_id1="1041801" skill_id2="1042001" />
+    <skill_box id="1010" learn_limit="0" skill_id1="1042201" skill_id2="1042401" />
+    <skill_box id="1011" learn_limit="0" skill_id1="1052301" skill_id2="1052401" />
+    <skill_box id="1012" learn_limit="0" skill_id1="10101" skill_id2="10102" skill_id3="10103" skill_id4="10104" skill_id5="10105" skill_id6="10106" skill_id7="10107" skill_id8="10108" skill_id9="10109" skill_id10="10110" />
+    <skill_box id="1013" learn_limit="0" skill_id1="10601" skill_id2="10602" skill_id3="10603" skill_id4="10604" skill_id5="10605" skill_id6="10606" skill_id7="10607" skill_id8="10608" />
+</root>

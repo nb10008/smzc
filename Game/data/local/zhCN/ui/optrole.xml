@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<desktop>
+    <UIControl Name="optwin" ClassName="CGUIWindow" LogicPos_x="10" LogicPos_y="528" Size_x="240" Size_y="150" AlignControl="\desktop" AlignType="InnerLeftBottom" AlignOffset_x="10" AlignOffset_y="-10" PopupSound="window_popup">
+        <UIControl Name="optpic" ClassName="CGUIStatic" Resizable="yes" MoveFather="yes" Size_x="240" Size_y="150" Font="龙字体" TextRect_right="300" TextRect_bottom="141" TextColor="0xFFFFFFFF" ShadeColor="0xFF290404" PicFileName="data\ui\login\l-login01.bmp" PicRect_left="328" PicRect_right="604" PicRect_bottom="144" PicColor="0xFFFFFF" AlphaWrite="Write">
+            <UIControl Name="playermessage0" ClassName="CGUIStatic" LogicPos_y="69" Size_x="240" Size_y="54" Font="龙字体" FontHeight="16" TextRect_left="4" TextRect_top="4" TextRect_right="240" TextRect_bottom="54" TextColor="0xFFFFFFFF" ShadeColor="0xFF000000" TextWriteAlpha="yes" PicColor="0xFFFFFF" />
+            <UIControl Name="playermessage" ClassName="CGUIStatic" LogicPos_x="1" LogicPos_y="42" Size_x="238" Size_y="18" Font="龙字体" FontHeight="18" TextRect_right="238" TextRect_bottom="18" TextColor="0xFFFFFFFF" ShadeColor="0xFF000000" TextWriteAlpha="yes" TextAlign="Center" PicColor="0xFFFFFF" />
+            <UIControl Name="playername" ClassName="CGUIStatic" LogicPos_x="1" LogicPos_y="16" Size_x="238" Size_y="22" Font="龙字体" FontHeight="18" TextRect_right="238" TextRect_bottom="22" TextColor="0xFFFCF15A" ShadeColor="0xFF000000" TextWriteAlpha="yes" TextAlign="Center" PicColor="0xFFFFFF" />
+        </UIControl>
+    </UIControl>
+</desktop>

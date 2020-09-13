@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30679" />
+    <entry Name="槲寄生收集" />
+    <entry Conditions="" />
+    <entry Overview="当获得了&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;槲寄生嫩叶&lt;/I&gt;，同时拥有&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;雪人之心&lt;/I&gt;后，便可去&lt;D&gt;&lt;L=s02,5600011&gt;雪国长者尼古拉&lt;/L&gt;&lt;/D&gt;交付任务。\n提示：&lt;I&gt;槲寄生嫩叶&lt;/I&gt;可通过好友赠送&lt;I&gt;槲寄生&lt;/I&gt;获得。&lt;I&gt;雪人之心&lt;/I&gt; 可通过滚雪球获得。" />
+</quest-local>

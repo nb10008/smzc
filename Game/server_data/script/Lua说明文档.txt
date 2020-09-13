@@ -1,0 +1,1531 @@
+//-------------------------------show_pic.xml--------------------------------------------------
+--HPT_AcceptQuest = 1,
+--HPT_DoneQuest,
+--HPT_LevelUp,
+--HPT_GetItem,
+// 地图CRC对照表
+//-------------------------------------------------------------------------------------
+地图名	     地图名CRC  |     地图名	  地图名CRC  		|	地图名	      地图名CRC	|	地图名	      地图名CRC |	地图名	      地图名CRC 
+test02<----->  3618849499	|     d01   <----->	  3951677761	| 	h01   <----->  619033530	| 	f01   <----->  1266372430	| 	q01   <----->  1826990631
+s01	 <----->  3424072744	|     d02   <----->	  3951678017	|	h02	 <----->  619032762	| 	f02   <----->  1266371662	| 	q02   <----->  1826990375
+s02	 <----->  3424073512	|     d03	<----->	  3951678273	|	h03	 <----->  619033018	| 	f03   <----->  1266371918	| 	q03   <----->  1826990119
+s03	 <----->  3424073256	|     d04	<----->	  3951678529	|	h04	 <----->  619034298	| 	f04   <----->  1266371150	| 	q04   <----->  1826991911
+s04	 <----->  3424071976	|     d05	<----->	  3951678785	|	h05	 <----->  619034554	| 	f05   <----->  1266371406	| 	q05   <----->  1826991655
+s05	 <----->  3424071720	|     d06	<----->	  3951679041	|	h06	 <----->  619033786	| 	f06   <----->  1266370638	| 	q06   <----->  1826991399
+s06	 <----->  3424072488	|     d07	<----->	  3951679297	|	h07	 <----->  619034042	| 	f07   <----->  1266370894	| 	q07   <----->  1826991143
+s07	 <----->  3424072232	|     d08	<----->	  3951679553	|	h08	 <----->  619035322	| 	f08   <----->  1266370126	| 	q08   <----->  1826988839
+s08	 <----->  3424075048	|     d09	<----->	  3951679809	|	h09	 <----->  619035578	| 	f09   <----->  1266370382	| 	q09   <----->  1826988583
+s08	 <----->  3424075048	|     d10	<----->	  3934900289	|	h10	 <----->  635810490	| 	f10   <----->  1249594958	| 	q10   <----->  1843768103
+	
+	
+//-------------------------------------------------------------------------------------
+// 注册包脚本接口说明
+//-------------------------------------------------------------------------------------
+// 特殊说明……………………………………………
+暂无a
+
+//函数库名称 …………………………………………
+aux
+
+//Lua接口………………………………………………
+"RegisterCreatureEvent",			
+"RegisterQuestEvent",				
+"RegisterRoleEvent",				
+"RegisterMapEvent",				
+"RegisterActEvent",			
+"RegisterWorldEvent",		
+"RegisterItemEvent",				
+"RegisterSkillEvent",				
+"RegisterMotionEvent",
+
+//补充 aux库下的其他函数
+
+功能：设置全服多倍经验或掉率
+函数：MultiRateReward(类型，倍率，持续时间) 类型：0经验 1掉率，倍率：100代表100%，持续时间：以秒为单位，无返回值
+
+
+//------------------------------------------------------------
+//脚本数据类型ScriptData说明
+//--------所属库，个数上限。-------------------------
+
+enum EScirptData
+{
+	ESD_Quest		=	10,	// Quest	脚本数据个数,		role库
+	ESD_Role		=	200,	// Role	脚本数据个数,		role库
+	ESD_Creature	=	8,	// Creature脚本数据个数，包括怪物和NPC,	cre库
+	ESD_Activity	=	50,	// Act	脚本数据个数,		act库
+	ESD_Map		=	40,	// Map	脚本数据个数,		map库
+};
+//举例：
+role.SetQuestScriptData(
+	DWORD	dwRoleID,		//RoleID
+	UINT16	u16QuestID,	//任务ID
+	INT		nParamNdx,	 // 参数个数
+	INT ndx,				// 存第位脚本数据，如0-9
+	INT value,				// 值
+	)
+role.GetQuestScriptData(dwRoleID,u16QuestID,nParamNdx,ndx)
+
+示例:
+设置一组数据
+role.SetQuestScriptData(
+	100,		// roleid =100
+	101010,	// quest id = 101010
+	1,		// 存一组数据
+	0,		// 第一个数的index
+	100		// 第一个数据值
+);
+设置两组数据
+role.SetQuestScriptData(
+	100,		// roleid =100
+	101010,	// quest id = 101010
+	2,		// 存两组数据
+	0,		// 第一组数的index=0
+	100，	// 第一组数据值
+	6,		// 第二组数的index=6
+	200		// 第二组数据值
+);
+
+修改脚本数据，是在原来的数上面，做 += 算法
+role.ModQuestScriptData(
+	DWORD dwRoleID,
+	UINT16 u16QuestID,
+	INT 		nParamNum, 	// 个数
+	INT ndx,				// 存第位脚本数据，如0-9
+	INT value,				// 值
+);
+示例:
+修改一组数据
+role.ModQuestScriptData(
+	100,		// roleid =100
+	101010,	// quest id = 101010
+	1,		// 存一组数据
+	0,		// 第一个数的index
+	100		// 第一个数据值
+);
+修改两组数据
+role.ModQuestScriptData(
+	100,		// roleid =100
+	101010,	// quest id = 101010
+	2,		// 修改两组数据
+	0,		// 第一组数的index=0
+	100，	// 第一组数据值
+	6,		// 第二组数的index=6
+	200		// 第二组数据值
+);
+
+获取脚本数据
+role.GetQuestScriptData(
+	DWORD dwRoleID,
+	UINT16 u16QuestID,
+	INT 		nParamNum, 	// 个数
+	INT ndx				// 第位脚本数据，如0-9
+);
+示例:
+读取一组数据
+local data0 = role.GetQuestScriptData(
+	100,		// roleid =100
+	101010,	// quest id = 101010
+	1,		// 存一组数据
+	0 		// 第一个数的index
+)
+读取两组数据
+local data0, data1 = role.GetQuestScriptData(
+	100,		// roleid =100
+	101010,	// quest id = 101010
+	2,		// 读两组数据
+	0,		// 第一组数的index=0
+	6,		// 第二组数的index=6
+);
+
+
+//注册怪物相关事件
+RegisterCreatureEvent(怪物TypeID,事件类型,脚本函数名)
+事件类型
+{
+	ESCAE_On_Load		=	0,	// 载入
+	(地图ID,副本ID(默认-1), 怪物ID)
+	ESCAE_On_Respawn	=	1,	// 重生
+	(地图ID,副本ID(默认-1), 怪物ID)
+	ESCAE_On_Enter_Combat	=	2,	// 进入战斗
+	(地图ID,副本ID(默认-1), 怪物ID)
+	ESCAE_On_Leave_Combat	=	3,	// 离开战斗
+	(地图ID,副本ID(默认-1), 怪物ID)
+	ESCAE_On_Die		=	4,	// 死亡
+	(地图ID,副本ID(默认-1), 怪物ID, 怪物TypeID, 击杀者ID)
+	ESCAE_On_Timer		=	5,	// 定时触发
+	ESCAE_On_Invest		=	6,	// 被调查
+	(MapID, InstanceID, TargetID, TargetTypeID, RoleID)
+	(地图ID,副本ID(默认-1), 怪物ID, 怪物TypeID, 调查者ID)
+	ESCAE_On_Talk			=	7,			// 被说话
+	(地图ID,副本ID(默认-1), 怪物ID, 怪物TypeID, 调查者ID, 对话选项索引)
+
+	// AI事件
+	ESCAE_On_UpdateAI		=	8,			// 更新AI状态机
+	(地图ID,副本ID(默认-1),怪物ID, 怪物ai状态)		怪物ai状态见最下
+
+
+	ESCAE_On_UpdateCurAI		=	9,			// 更新当前AI状态
+	(地图ID,副本ID(默认-1),怪物ID, 怪物ai状态)
+	ESCAE_On_EnterCurAI		=	10,			// 进入当前AI状态
+	(地图ID,副本ID(默认-1),怪物ID, 怪物ai状态)
+	ESCAE_On_LeaveCurAI		=	11,			// 离开当前AI状态
+	(地图ID,副本ID(默认-1),怪物ID, 怪物ai状态)
+	ESCAE_On_EventCurAI		=	12,			// 当前AI状态事件触发
+	(地图ID,副本ID(默认-1),怪物ID, 怪物ai状态)	返回1代表触发  0为不触发
+	ESCAE_On_Disappear		=	13,			// 怪物消失触发
+	(地图ID,副本ID(默认-1),怪物ID, 怪物ai状态)
+
+	ESCAE_On_BeAttacked		=	14,			// 怪物在被攻击
+
+	ESCAE_On_IsShopOpened	=	15,			// 商店是否可以买卖
+	ESCAE_On_CanShopping	= 16,	// 玩家是否可以在商店购买物品装备
+	
+	ESCAE_On_BePulled		=	18,			// 拉怪状态
+  (地图ID,副本ID(默认-1),怪物ID, x，y，z，boll拉怪结果)
+}
+
+//注册任务相关事件
+RegisterQuestEvent(任务ID, 事件类型, 脚本函数名)
+事件类型
+{
+	ESQE_On_Accept		=	0,			// 任务接取
+	(地图ID,  副本ID(默认-1), 任务ID, 玩家ID, NPCID)
+	ESQE_On_Complete	=	1,			// 任务完成
+	(地图ID,  副本ID(默认-1), 任务ID, 玩家ID, NPCID)
+	ESQE_On_Cancel		=	2,			// 任务取消
+	(地图ID,  副本ID(默认-1), 任务ID, 玩家ID)
+	ESQE_On_Creature_Kill	=	3,			// 杀死一只怪物
+	(地图ID,  副本ID(默认-1), 任务ID, 玩家ID, 被杀怪物TypeID)
+	ESQE_On_CheckAccept	=	4,			// 检测接取
+	(地图ID,  副本ID(默认-1), 任务ID, 玩家ID, NPCID)	返回1代表可接取 0为不可接取
+	
+	ESQE_On_CheckComplete	=	5,			// 检测交任务
+	(地图ID,  副本ID(默认-1), 任务ID, 玩家ID, NPCID)	返回1代表可交 0为不可交
+	
+	ESQE_On_NPC_Talk	=	6,			// 和NPC对话
+	(地图ID,  副本ID(默认-1), 任务ID, 玩家ID, NPCID, NPCTypeID)
+	ESQE_On_Init			=	7,			// 任务初始化
+	(地图ID,  副本ID(默认-1), 任务ID, 玩家ID)
+	ESQE_On_Dlg_Default		=	8,			// 服务器可控对话框缺省事件
+	(地图ID,  副本ID(默认-1), 任务ID, 玩家ID, 对话框选项)
+	ESQE_On_Invest			=	9,			// 调查地物
+	(地图ID,  副本ID(默认-1), 任务ID, 玩家ID, CreatureTypeID)
+	ESQE_On_Invest			=	10,			// 活动读取客户端反馈用
+	ESQE_On_Invest			=	1,			// 任务版任务完成
+}
+
+//注册玩家相关事件
+RegisterRoleEvent(事件类型, 脚本函数名)
+事件类型
+{
+	ESRE_On_Online		=	0,			// 上线
+	(玩家ID)
+	ESRE_On_FirstOnline	=	1,			// 进入新地图
+	(玩家ID)
+	ESRE_On_IntoWorld			=	2,			// 进入游戏世界
+	(地图ID,  副本ID(默认-1), 玩家ID)
+	ESRE_On_EnterMap			=	4,			// 进入地图
+	(地图ID,  副本ID(默认-1), 玩家ID)
+	ESRE_On_EnterMap			=	5,			// 玩家死亡
+	(地图ID,  副本ID(默认-1), 玩家ID,杀死他的人或者怪物的id)
+	ESRE_On_LevelChange			=	6,			// 等级提升
+	(地图ID,  副本ID(默认-1), 玩家ID)
+	ESRE_On_GetMarriage			=	11,			// 结婚
+	(地图ID,  副本ID(默认-1), 申请玩家ID, 对象玩家ID)
+	ESRE_On_GetMarriageCheck	=	12,			// 结婚检查
+	(地图ID,  副本ID(默认-1), 申请玩家ID, 对象玩家ID)	返回错误码  -- 错误码见最下面
+	ESRE_On_BreakMarriage		=	13,			// 离婚
+	(地图ID,  副本ID(默认-1), 申请玩家ID, 对象玩家ID)
+	ESRE_On_BreakMarriageCheck	=	14,			// 离婚检查
+	(地图ID,  副本ID(默认-1), 申请玩家ID, 对象玩家ID)	返回错误码 -- 错误码见最下面
+	ESRE_IsEquipLootPenalty		=   	15,			// 装备掉落惩罚
+	(地图ID,  副本ID(默认-1), 玩家ID)			返回是否有惩罚  true为有  false为没有
+	ESRE_IsExpPenalty		=	16,			// 经验惩罚
+	(地图ID,  副本ID(默认-1), 玩家ID)			返回是否有惩罚  true为有  false为没有
+	ESRE_IsInjuryPenalty		=	17,			// 内伤惩罚
+	(地图ID,  副本ID(默认-1), 玩家ID)			返回是否有惩罚  true为有  false为没有
+	ESRE_IsMoralityPenalty		=	18,			// 道德惩罚
+	(地图ID,  副本ID(默认-1), 玩家ID)			返回是否有惩罚  true为有  false为没有
+	ESRE_IsHostilityPenalty		=	19,			// 戾气惩罚
+	(地图ID,  副本ID(默认-1), 玩家ID)			返回是否有惩罚  true为有  false为没有
+	ESRE_IsCommercePenalty		=	20,			// 跑商商银惩罚
+	(地图ID,  副本ID(默认-1), 玩家ID)			返回是否有惩罚  true为有  false为没有
+	ESRE_GetRoleFishingExp		=	21,			// 钓鱼经验（离线用）
+
+	ESRE_CanCancelPenalty		=	22,			// 是否能免除死亡惩罚
+	(地图ID,  副本ID(默认-1), 玩家ID,击杀者ID)		返回是否有装备、经验、内伤、跑商商银惩罚 true  false
+
+	ESRE_On_CompleteCommerce	=	23,			// 完成跑商
+	ESRE_WaitSummon				=	24,			// 激活守护石
+	ESRE_CancelSummon			=	25,			// 取消召唤
+	ESRE_UseJingWuPoint			=	26,			// 使用精武点数
+
+	ESRE_HandleMaster			=	27,			// 拜师
+	ESRE_FinishTrain			=	28,			// 龙之试炼系统--完成试炼
+	(地图ID,  副本ID(默认-1), 玩家ID, 试炼ID)			返回是否通过试炼
+
+	ESME_OnObtainItem			=	29,			// 玩家获得一件道具的事件接口
+	(玩家ID, 道具ID, 获得方式枚举值)
+
+	ESME_OnSilverIncrease			=	30,			// 玩家游戏币增加的事件接口
+	(玩家ID,  游戏币增加量)
+
+	ESME_OnObtainTitle			=	31,			// 玩家获得一个称号的事件接口
+	(玩家ID, 称号ID)
+
+	ESME_OnItemConsolidate			=	32,			// 玩家完成一次装备强化的事件接口
+	(强化类型枚举值,  玩家ID, 装备ID, 强化等级, 是否成功)
+
+	ESME_OnActiveLonghunSuccess		=	33,			// 玩家激活龙魂成功的事件接口
+	(玩家ID, 装备ID,龙魂技能ID)
+
+	ESRE_OnTrainFinished			=	34,			// 玩家完成一个试炼
+	(玩家ID)
+	
+	ESRE_OnFabaoAttChange			=	35,			// 法宝属性改变
+	(地图ID，副本ID，玩家ID，法宝ID，值1，值2)
+		值1的取值：
+		RFAE_LevelUp		=	0,	// 法宝升阶，值2为法宝的新等级
+		RFAE_HoleAttReset	=	1,	// 法宝灵槽属性重置，值2为副法宝的ID
+	  RFAE_WuxingXSReset	=	2,	// 法宝五行相生重置，值2为副法宝的ID
+
+
+  ESRE_OnReadyToSoaring		=	39,			// 开始飞升，通知脚本，要飞升了，接飞升任务
+  (地图ID，副本ID，玩家ID)
+
+  ESRE_OnMakeFriend				=	46,		// 增加好友
+  (地图ID，副本ID，玩家ID，好友ID)
+  
+	ESRE_OnLearnSkill				=	47,		// 玩家学会新技能
+	(地图ID，副本ID，玩家ID，技能7位ID)
+	
+	ESRE_OnEquipConsolidateLevelUp		=	48,		// 装备强化等级提升
+	(地图ID，副本ID，玩家ID，装备TYPEID，升级前等级，升级后等级)
+	
+	ESRE_OnProduceEquip		=	49,		// 制造装备
+	(地图ID，副本ID，玩家ID，装备TYPEID，装备品质（0-6）)
+	
+	ESRE_OnEquipDigHole		=	50,		// 玩家开凿镶嵌孔
+	(地图ID，副本ID，玩家ID，装备ID，成功与否（0或1），开凿后孔数)
+	
+	ESRE_OnCutStone				=	51,		// 玩家切割宝石原石
+	(地图ID，副本ID，玩家ID，点金石ID，被点物品的ID，生成的物品的ID)
+	
+	ESRE_OnDressEquip			=	52,		// 玩家穿着装备
+	(地图ID，副本ID，玩家ID，装备TYPEID，是否装备（1是），装备位置，装备ID高段，装备ID低段)
+	(MapID, InstanceID, RoleID, EquipID, WearorPutoff, Pos, IDHigh, IDLow)
+	
+	ESRE_OnBrandEquip			=	53,		// 对装备使用圣印
+  (地图ID，副本ID，玩家ID，装备TYPEID，圣印ID，成功与否（0或1），装备追加数)
+
+  ESRE_OnItemIntoBag			=	54,		// 道具进入背包
+  (玩家ID，道具TYPEID)
+  
+  ESRE_OnCreateGuild      = 57   //玩家创建公会
+  (地图ID，副本ID，玩家ID，帮派ID)
+  
+	ESRE_OnKillMonster = 59,			// 杀怪事件
+	(地图ID，副本ID，玩家ID，怪物ID)
+	
+	ESRE_CanUseDakNPC = 67,	// 是否可以使用驿站NPC   return true or false
+	(地图ID，副本ID，玩家ID，目标地图，目标x，目标y，目标z)
+	
+	ESRE_CanUseEarthTemple = 68,		// 是否可以使用土地庙    return true or false
+	(地图ID，副本ID，玩家ID，目标地图，目标x，目标y，目标z)
+	
+	ESRE_Criticle = 69,		// 暴击时返回是否会暴击 return true or false
+  (地图ID，副本ID，玩家ID，目标ID)
+  
+  ESRE_OffLine = 70,    // 玩家下线
+  (地图ID，副本ID，玩家ID)
+  
+  ESRE_On_StartChest = 71,	// 开宝箱开始播动画
+	(地图ID，副本ID，玩家ID)
+	
+	ESRE_On_FashionSuitNumChg	= 72, // 角色衣橱内集齐时装的套数改变
+	(地图ID，副本ID，玩家ID)
+	
+	ESRE_On_WardLevelUp = 73,	// 衣橱升级
+	(地图ID，副本ID，玩家ID)
+	
+
+
+//注册地图相关事件
+RegisterMapEvent(地图名,事件类型, 脚本函数名)
+事件类型
+{
+	ESME_OnInit		=	0,			// 初始化时
+	(地图ID, 副本ID(默认-1))
+	ESME_OnTimer		=	1,			// 定时更新
+
+	ESME_OnPlayerEnter	=	2,			// 玩家进入
+	(地图ID,  副本ID(默认-1), 玩家ID)
+	ESME_OnPlayerLeave	=	3,			// 玩家离开
+	(地图ID,  副本ID(默认-1), 玩家ID)
+	ESME_OnCreatureDie	=	4,			// 生物死亡
+	(地图ID,  副本ID(默认-1), 生物ID, 生物TypeID, 击杀者ID)
+	ESME_OnRoleDie		=	5,			// 玩家死亡
+	(地图ID,  副本ID(默认-1), 玩家ID, 击杀者ID)
+	ESME_OnEnterTrigger	=	6,			// 进入触发器
+	(地图ID,  副本ID(默认-1), 玩家ID,  触发器objID)
+	ESME_OnEnterArea	=	7,			// 进入区域
+	(地图ID,  副本ID(默认-1), 玩家ID,  区域objID)
+	ESME_CanInviteJoinTeam		=	8,			// 是否允许邀请组队
+	(地图ID,  副本ID(默认-1))	返回1能组队  0不能组队
+	ESME_CanLeaveTeam		=	9,			// 是否允许离开队伍
+	(地图ID,  副本ID(默认-1))	返回1能退队  0不能退队
+	ESME_CanChangeLeader		=	10,			// 是否能移交队长
+	(地图ID,  副本ID(默认-1))	返回1能移交  0不能移交
+	ESME_On_Revive			=	11,			// 玩家复活
+	(地图ID,  副本ID(默认-1), 玩家ID, 复活类型(见最下), HP, MP, x坐标, y坐标, z坐标
+		重生地图ID)
+	返回复活HP,复活MP,复活X坐标,y坐标,z坐标,复活地图ID
+	ESME_CanEnterWhenOnline		=   	12,			// 玩家上线时是否能进入地图
+	(出口地图ID,  玩家ID)		返回出口地图ID,出口x坐标,y坐标,z坐标
+	ESME_GetExportMapAndCoord	=	13,			// 得到玩家离开当前地图后的地图ＩＤ和坐标
+	(地图ID,  副本ID(默认-1),玩家ID)	返回能否离开地图(1或0), 离开后传送到得地图ID ,地图x坐标,y坐标,z坐标
+	ESME_GetOnePerfectMap		=   	14,			// 找到最佳的副本实例
+
+	ESME_CanEnter			=	15,			// 玩家是否能进入该地图
+	(地图ID,  副本ID(默认-1),玩家ID)	返回1或0
+	ESME_FriendEnemy		=	16,			// 两个对象间的敌我关系
+
+	ESME_CanKickMember		=	17,			// 是否允许踢掉队友
+	(地图ID,  副本ID(默认-1))		返回1或0
+	ESME_OnCreatureDisappear	=	18,			// 生物消失
+	(地图ID,  副本ID(默认-1), 怪物ID, 怪物TypeID)
+	ESME_Safeguard			=	19,			// 是否允许玩家开启保护模式
+	(地图ID,  副本ID(默认-1))		返回true或false
+	ESME_CanUseItem			=	20,			// 是否允许使用物品
+	(地图ID,  副本ID(默认-1), 物品TypeID)		返回true或false
+	ESME_CanUseSkill		=	21,			// 是否允许使用技能
+	(地图ID,  副本ID(默认-1), 技能ID)		返回0或其他错误码	错误码见最后
+
+	ESME_CityBroadCast			=	22,			// 城市广播
+	ESME_OnLeaveArea			=	23,			// 玩家离开某一区域
+
+	ESME_OnCreatePvPMap			=	24,	// 竞技场-创建一个新的竞技场地图
+	ESME_OnPlayerLeaveW			=	25,			// 玩家离开，包括下线
+	ESME_ExperienceInstance		=   26,			// 玩家进入体验副本事件
+
+}
+
+//注册固定活动任务相关事件
+RegisterActEvent(活动ID, 事件类型, 脚本函数名)
+事件类型
+{
+	ESAE_OnInit		=	0,			// 初始化时
+	(活动ID)
+	ESAE_OnTimer		=	1,			// 定时更新
+	(活动ID,已经过时间(秒))
+	ESAE_OnStart		=	2,			// 活动开始
+	(活动ID)
+	ESAE_OnEnd		=	3,			// 活动结束
+	(活动ID)
+	ESAE_OnTimerMin		=	4,			// 活动每分钟更新
+	(活动ID)
+	ESAE_Broad		=	6,			// 活动广播
+	(广播类型(见最下面))
+	
+	  ESQE_OnClientCallback		= 10,		// 活动，读取客户端反馈用
+	  (MapID,InstanceID,RoleID,MsgID, ToMapID, x, y, z)
+}
+
+// 注册游戏世界事件
+RegisterWorldEvent(事件类型, 脚本函数名)
+{
+		ESWE_Adventure			=	0,			// 奇遇产生
+			(玩家ID)
+		ESWE_OnCreatePvPMap3v3  =	1,          // 创建竞技场 
+		ESWE_OnLoot				=	2,			// 掉落
+		ESWE_BeKill_DropSilver	=	3,			// 怪物被击杀后掉落金钱
+		ESWE_CreateItem			=	4,			// 生成一个新道具
+		ESWE_DelItem			=	5,			// 物品消失（被点化或者被删除或者时间到或者出售，不包括直接交易和摆摊交易）
+		ESWE_ExchangeItem		=	6,			// 物品被交易（通过摆摊售卖）	
+		ESWE_GetSoulCrystalQlty = 7,	// 获得魂晶品级
+		ESWE_GetSoulCrystalSkillID = 8, // 获得魂晶技能id
+		ESWE_GetSoulCrystalAtt = 9, // 获得魂晶属性id
+
+}	
+
+// 注册物品事件
+aux.RegisterItemEvent(物品TypeID,事件类型, 脚本函数名)
+{
+	ESIE_CanUse		=	0,			// 物品是否可用
+	(地图ID, 副本ID(默认-1), 物品TypeID, 使用对象ID)	返回是否能使用物品(1或0), 忽略之后的通用判断(true或false)
+	ESIE_Use		=	1,			// 物品使用
+	(地图ID, 副本ID(默认-1), 物品TypeID, 使用对象ID)  返回是否继续执行物品功能（1或0），1直接返回，0继续执行。默认返回1。
+	ESIE_CanDelGroundItem		=	2,			// 掉在地上物品是否可以删除
+	ESIE_PutDownItem		=	3,			// 丢弃物品
+	ESIE_CanPickUpItem		=	4,			// 判断是否可以捡起物品
+	ESIE_PickUpItem			=	5,			// 捡起物品时触发
+	ESIE_CanPutDown			=	6,			// 判断是否可以丢弃
+	ESIE_CanDelGroundItemOnRoleInit			=	7,			// 角色初始化时，检查背包中物品需要……
+	ESIE_Get		=	8,			// 物品获得
+	(地图ID, 副本ID(默认-1), 物品TypeID, j角色ID , 获得类型)
+				enum EItemCreateMode	// 物品&装备生产方式
+			{
+				EICM_Null			= 0,	// 没有记录
+				EICM_GM				= 1,	// GM命令生成
+				EICM_Loot			= 2,	// 怪物掉落
+				EICM_Quest			= 3,	// 任务奖励
+				EICM_Product		= 4,	// 玩家生产
+				EICM_ShopNPC		= 5,	// 商店NPC
+				EICM_AccQuest		= 6,	// 接任务
+				EICM_Mall			= 7,	// 商城
+				EICM_Gift			= 8,	// 礼品包
+				EICM_ActTreasure	= 9,	// 激活氏族珍宝
+				EICM_GMTool			= 10,	// GM工具生成
+				EICM_PetSkill		= 11,	// 宠物技能
+				EICM_VipNetBar		= 12,	// 金牌网吧
+				EICM_ReGet			= 13,	// 道具恢复
+				EICM_Activity		= 14,	// 活动奖励
+				EICM_LessingLoong	= 15,	// 神龙赐福
+				EICM_GoldStone		= 16,	// 点金石
+				EICM_GemRemoval		= 17,	// 宝石拆除
+				EICM_ServerMerge	= 18,	// 合服生产
+				EICM_CityProduce	= 19,	// 城市产出
+				EICM_SpiritReward	= 20,	// 精力系统奖励
+				EICM_StrengthReward	= 21,	// 精力系统奖励-实力
+				EICM_Spin			= 22,	// 精纺
+				EICM_Xihun			= 23,	// 吸魂，产生附魂石
+				EICM_GuildDailyReward	= 24,	// 公会每日在线奖励领取
+				EICM_ExpPilularBind	= 25,	// 妖精经验封印-水晶球约定
+				EICM_GodBid	= 26,	// 神之竞标
+				EICM_FairyBirth	= 27,	// 妖精繁殖
+				EICM_EggBroker	= 28,	// 砸金蛋
+				EICM_PlayerBack = 29,	// 玩家回归奖励
+				EICM_AdvancedCompose = 30,	// 高级合成
+				EICM_FamilyQuest	= 31,	//家族任务
+				EICM_KeyCodeReward	= 32, // 输入Key码领取奖励
+				EICM_Zhanghao	= 33, // 账号回购
+				EICM_Tiger	= 34, // 老虎机
+				EICM_NewGiftBox = 35, //新宝箱
+				EICM_FairyFusion = 36,	// 妖精融合 [3/22/2012 zhangzhihua]
+				EICM_NewKeyCode = 37,	//新Key码
+				EICM_HolySoulEquipInlay=38,//元神装备镶嵌，失败后删除并生成低一级的天影神石
+				EICM_HolySoulEquipRemove=39,//元神装备摘除
+
+
+}
+
+// 技能事件脚本
+
+RegisterSkillEvent(技能ID, 时间类型, 脚本函数名)
+{
+	ESSE_CanCast			=	0,			// 技能是否可用
+	(地图ID, 副本ID(默认-1), 技能ID(5位), 使用者ID, 使用对象ID)	返回0或错误码  错误码见最后
+	ESSE_Cast			=	1,			// 技能使用
+	(地图ID, 副本ID(默认-1), 技能ID(5位), 使用者ID)		返回是否触发buff(true或false)
+
+	ESSE_SealSkill			=	2,			// 封印
+	
+	ESSE_CancelSkill		=	3,			// 取消技能使用
+	
+  ESSE_OnSkillChange			=	4,			// 玩家技能改变，学会，等级变化等
+  (地图ID, 副本ID(默认-1), 角色ID，技能修炼前等级, 当前技能等级)
+  
+  ESSE_Cast2SingleTarget	=	5,			// 使用单目标的技能
+  (地图ID, 副本ID(默认-1), 技能ID(5位)， 使用者ID，技能的目标ID)  返回是否触发buff(true或false)
+  
+	ESSE_End
+};
+// 注册BUFF事件
+RegisterBuffEvent(事件类型, 脚本函数名)
+{
+	Buff_OnDestroy			=	0		// 当buff结束
+	(地图ID, 副本ID, 角色ID, buffID )	不需要返回
+}
+
+
+
+//-------------------------------------------------------------------------------------
+// Lua地图脚本接口说明
+//-------------------------------------------------------------------------------------
+
+// 特殊说明………………………………………………
+1. 坐标单位为格子坐标。
+
+//函数库名称 ……………………………………………
+map
+
+//地图Lua接口……………………………………………
+//地图动态刷出怪物
+MapCreateCreature(地图ID,副本ID(默认-1), 怪物TypeID,x坐标,y坐标,y坐标)   return 1.刷出怪物的ID
+
+//删除怪物
+MapDeleteCreature(地图ID, 副本ID(默认-1), 怪物ID)
+
+//刷出有导航点的怪物
+MapCreateColCreature(地图ID,副本ID(默认-1),怪物TypeID,x坐标,y坐标,y坐标, 是否是碰撞怪,导航点名字)
+
+//玩家是否在某一脚本类型的区域
+IsInArea(地图ID,副本ID(默认-1),玩家ID, 地图区域ObjID) return 1 true or false
+
+//播放场景特效
+PlaySceneEffect(地图ID,副本ID(默认-1),特效类型(0-固定特效/1-指定特效),场景特效ObjID,特效ID(scn_sfx_name.xml中ID),播放位置X, Y, Z)
+
+//停止场景特效
+StopSceneEffect(地图ID,副本ID(默认-1),场景特效ObjID)
+
+//开关单独objID门
+OpenCloseDoor(dwMapID,dwInstanceID,dwObjID,bOpen)--bOpen：1 关闭 nil 打开
+
+//开关所有场景内的门
+OpenCloseAllDoors(dwMapID,dwInstanceID,bOpen)--同上
+
+//是否在某区域内
+IsInArea(地图ID, 副本ID(默认-1), 玩家ID, objID)	返回true或false
+
+// 打开/关闭地图上指定的门
+OpenCloseDoor(地图ID, 副本ID(默认-1), objID, bool(true打开,false关闭))
+
+// 打开/关闭地图上所有的门
+OpenCloseAllDoors(地图ID, 副本ID(默认-1),bool(关闭或打开))
+
+//获取当前场景内所有玩家
+GetMapAllRoleID(地图ID, 副本ID(默认-1))，返回table
+
+//防守地图开始刷怪
+SetMonsterGenState(dwCurMapID,dwInstanceID,dwState)
+	EMGS_UPDATE = 0,		// 刷新
+	EMGS_START,				// 开始
+	EMGS_WAITING,			// 等待
+	EMGS_STOP,				// 停止
+	EMGS_CONTINUE,			// 继续
+
+//-------------------------------------------------------------------------------------
+// 玩家脚本接口说明
+//-------------------------------------------------------------------------------------
+
+// 特殊说明………………………………………………
+1. 坐标单位为格子坐标。
+//函数库名称 ……………………………………………
+role
+
+//玩家Lua接口…………………………………………………………………………………………………
+//玩家去一个新地图
+RoleGotoNewMap(当前地图ID,当前副本ID(默认-1),玩家ID,目标地图ID,目标地图x坐标,目标地图y坐标,目标地图y坐标)	return 0
+
+//给玩家增加一个任务
+AddQuest(玩家ID,任务ID)
+
+//获取角色创建日期
+GetRoleCreateTime(MapID, InstanceID, RoleID)
+返回年、月、日、时四个参数（年是两位数字，比如2012.3.12 18：20 创建的角色，返回值是12，3，12，18）
+
+//给玩家删除一个任务
+DeleteQuest(玩家ID, 任务ID)
+
+//给玩家完成一个任务
+RoleCompleteQuest(玩家ID, 任务ID, NPCID)
+
+//得到玩家等级
+GetRoleLevel(地图ID, 副本ID, 玩家ID) return 1 玩家等级	需要检查返回值为nil
+
+//得到玩家当前属性
+GetRoleAttValue(地图ID, 副本ID, 玩家ID,属性类型) return 1 玩家属性	需要检查返回值为nil
+
+//修改玩家当前属性
+ModRoleAttValue(地图ID, 副本ID, 玩家ID, 属性类型, 属性改变量)
+
+//玩家通过任务获得物品装备
+QuestAddRoleItem(地图ID, 副本ID, 玩家ID, 任务ID, 物品TypeID, 物品数量, 物品品质, 记录log类型) return 2 物品64位ID及装备位置 需要检查返回值为nil
+
+//添加技能
+AddSkill(玩家ID, 技能TypeID)
+
+//获得玩家名字
+GetRoleName(玩家ID) return 1 玩家名字	需要检测返回值是否为nil
+
+//玩家是否有小队
+IsRoleHaveTeam(地图ID, 副本ID, 玩家ID) return 1 小队ID	需要判断返回值是否为nil
+
+//获得玩家小队成员ID
+GetRoleTeamMemID(小队ID) return MAX_TEAM_NUM 小队成员ID列表	需要判断每个小队id是否为nil
+
+//玩家是否接取了该任务
+IsRoleHaveQuest(地图ID, 副本ID, 玩家ID, 任务ID) return 1 true or false
+
+//玩家获得物品装备
+AddRoleItem(地图ID, 副本ID, 玩家ID,物品TypeID, 物品数量, 物品品质, 生成模式,记录log类型) return 0
+
+//玩家百宝袋获得物品装备
+BaibaoAddRoleItem(地图ID, 副本ID, 玩家ID,物品TypeID, 物品数量, 物品品质, 记录log类型) return 0
+
+//从背包或任务栏删除玩家物品
+//RemoveFromRole(地图ID, 副本ID, 玩家ID,物品TypeID, 物品数量, 记录log类型) return 1 (0表示删除成功) 需要检查返回值为nil
+
+//获得玩家背包空闲空间数量
+GetBagFreeSize(玩家ID)	return 1 数量	需要检查返回值为nil
+
+//增加玩家经验
+AddRoleExp(地图ID, 副本ID, 玩家ID, 经验增加量) return 0
+注意：经验增加量的最大值为2147483648
+
+//获得玩家升级所需经验
+GetRoleLevelUpExp(地图ID，副本ID，角色ID)
+返回经验高32位  经验低32位
+
+//得到玩家当前经验
+GetRoleExp(地图ID，副本ID，玩家ID)
+经验值高32位，经验值低32位
+
+//增加玩家金钱
+AddRoleSilver(地图ID,副本ID,玩家ID,金钱增加量, 记录log类型) return 0
+
+//增加玩家金钱
+AddRoleSilver(地图ID,副本ID,玩家ID,金钱增加量, 记录log类型) return 0
+
+//删除玩家赠点
+DecRoleSilver(地图ID,副本ID,玩家ID,赠点增加量, 记录log类型) return 0
+
+//检查玩家状态
+IsRoleInStatus(玩家ID, 玩家状态) return 1 玩家是否在指定状态	需要判断返回值是否为nil(代表指定玩家不在线)
+
+//玩家是否学过指定技能
+IsLearnedSkill(玩家ID, 技能ID(5位的)) return 1 技能等级		需要检查返回值为nil(代表不在线或者没学过)
+
+//玩家是否有某buff
+IsRoleHaveBuff(地图ID,副本ID,玩家ID,buffID(前五位ID))	return bool
+
+//玩家是否完成过某任务
+IsRoleCompleteQuest(地图ID,副本ID,玩家ID,QuestID)		return bool
+
+//物品是否需要广播(含装备)
+ItemNeedBroadcast(物品ID)		return 1
+
+//玩家是否已经结婚
+IsRoleMarried(玩家ID)		return bool
+
+//是否互为夫妻
+IsCouple(玩家ID, 玩家ID)	return bool
+
+// 获得玩家元宝数
+GetRoleYuanbao(地图ID, 副本ID, 玩家ID)
+
+// 获得玩家金钱
+GetRoleSilver(地图ID,副本ID,玩家ID)
+
+// 通知试炼开启
+OpenTrain(玩家ID, 试炼ID);
+
+// 获取玩家指定氏族的声望值
+GetClanRepValue(玩家ID,氏族类别);
+
+// 获取玩家所拥有的灵兽中灵阶最高的灵兽的灵阶值
+GetPetStepGrade(玩家ID);
+
+// 获取玩家行囊中第一个格子中的装备的铭文等级
+GetFstBoxWpnPosyTimes(玩家ID);
+
+// 获取玩家行囊中第一个格子中的装备的镌刻等级
+GetFstBoxWpnEngraveTimes(玩家ID);
+
+// 获取玩家行囊中第一个格子中的装备的镶嵌孔数
+GetFstBoxWpnEquipHoleCnt(玩家ID);
+
+// 获取玩家的帮派功勋值
+GetGuildExploit(玩家ID);
+
+// 获取玩家已完成的试炼数量
+GetPlayerTrainCnt(玩家ID);
+
+//判断玩家是否有某个称号
+IsRoleHaveTitle(玩家ID, 称号ID)		有返回true,没有返回false
+
+// 获得称号接口
+SigTitleEvent(玩家ID, 参数1)
+
+// 弹出各种界面接口
+OpenFramePage(玩家ID, 界面类型)
+enum EFrameType
+{
+	//角色界面、行囊界面、天资界面、任务界面、灵兽界面、好友界面、帮派界面、称号界面、声望界面、固定活动界面
+	EFRT_Role = 1,
+	EFRT_Bag,
+	EFRT_TalentPoint,
+	EFRT_Quest,
+	EFRT_Pet,
+	EFRT_Friend,
+	EFRT_Guild,
+	EFRT_Title,
+	EFRT_Fame,
+	EFRT_Activity,
+};
+// 删除技能
+RemoveSkill( 玩家ID, 技能5位ID)           return 1    删掉1,没删掉0
+
+
+// 获得师傅ID
+GetMasterID(地图ID, 副本ID, 玩家ID)
+
+// 成为师傅(完成师傅资格任务后)
+RoleBecomeMaster(地图ID, 副本ID, 玩家ID)
+
+// 徒弟升级为师父增加精武点数
+LevelUpAddJingWuPoint(地图ID, 副本ID, 玩家ID)
+
+// 获得玩家所在的地图和副本
+GetRoleMapID(玩家ID) return 2    MapID,InstanceID
+
+// 取消玩家的摆摊状态
+CancelRoleStallState(地图ID,副本ID, 玩家ID)  return 1   成功返回0 不成功返回非零
+
+// 获得玩家的帮派的一个属性
+GetRoleGuildAtt(玩家ID，帮派属性枚举值)    成功返回值 不成功返回nil
+  //帮派属性枚举值
+	//{
+	//	EGAN_NULL		= -1,
+
+	//	EGAN_LeaderID = 0,	帮主
+	//	EGAN_Level = 1, 帮派等级
+	//	EGAN_SpecState = 2, 帮派特殊状态
+	//	EGAN_Fund = 3, 帮派资金
+	//	EGAN_Material = 4,帮派当前资材
+	//	EGAN_Reputation = 5,帮派当前威望
+	//	EGAN_GroupPurchase = 6,帮派团购指数
+	//	EGAN_Peace = 7,帮派当前安宁度
+	//	EGAN_MemberNum = 8,帮派当前成员数量
+	//	EGAN_Rank = 9,帮派当前排名
+	//	EGAN_MinJoinLevel = 10,最低加入等级
+	//	EGAN_Commendation = 11,帮派跑商嘉奖状态
+	//	EGAN_DailyCost = 12,帮派每日维护费用
+
+	//	EGAN_END
+	//};
+
+// 获得玩家飞升标记
+GetSoarValue(玩家ID)    返回0，没有飞升，1已经飞升，2还没有完成飞升任务,255未定义(同0)
+
+// 设置玩家的飞升状态
+GetSoarValue(玩家ID，value)    返回0，没有飞升，1已经飞升，2还没有完成飞升任务,255未定义(同0)
+value可以取值为0,1,2。
+
+// 获取妖精等级接口，返回妖精的等级
+GetYaojingLevel(地图ID,副本ID, 玩家ID)    返回妖精等级 
+
+// 获取玩家身上的某个BUFF的叠加层数以及施加者ID
+GetBuffLayer(BUFF拥有者ID，7位BUFFID)    返回2 ：层数，施加者
+-1，nil 当dwRoleID不在线时，返回叠加次数-1和buff释加者id（nil）
+0，-1 当role在线，但是没有这个buff时，返回叠加次数0和-1（buff施加者）
+
+// 判断一个道具是否是法宝
+IsFairyItem(道具ID)    返回 true or false
+
+// 发送与成就等相关的消息给facebook边界服务器
+NotifyFBBS（角色id，通信指令id，参数） 返回0
+
+// 判断老服新玩家特权是否开放
+IsOldSerNewPlayer(角色id) 返回 true和false
+
+// 获得角色当前级别的升级经验值
+GetRoleLevelUpExp(地图ID，副本ID，角色ID) 返回值有2个，分别是：经验值的高位，经验值的低位
+
+使用例子：
+local high,low = role.GetRoleLevelUpExp(MapID,InstaneceID,RoleID)
+local Exp = high * 1000000000 + low    -- 需要进行拼接，才能得到正确的经验值
+
+// 获得某个成就的完成状态
+GetTrialState(角色ID, 成就ID)        返回值为0，1，2，3。分别对应未开启，开启未完成，完成未领奖，完成已领奖。
+
+// 开启一个成就
+OpenTrain(角色ID, 成就ID)   返回0 开启成就后会使隐藏的成就显示出来
+
+// 开启一个成就
+SetTrialCompleteNum(角色ID, 成就ID, 需要改变的值)   返回0 为一个成就设置完成度。完成度超过最大完成度的话客户端会显示最大完成度。
+
+// 获得一个成就的完成度
+GetTrialCompleteNum(角色ID, 成就ID)   返回成就的完成度值
+
+// 完成一个成就
+TrialComplete(角色ID, 成就ID)   返回0 调用用成就会变成“完成未领取”状态
+
+// 获得一个玩家现在的神职
+GetRoleClergy(地图ID，副本ID，角色ID) 返回值为神职的ID。未晋升的为0
+
+// 获得角色衣橱相关信息
+GetWardrobeDetailInfo(地图ID，副本ID，角色ID) 返回值五个，分别为：衣橱内时装总气质值，集齐的一级时装套数，集齐的二级时装套数，集齐的三级时装套数，时装总套数
+
+// 获得神魂和魔魂
+GetRoleSoul（MapID，InstanceID，RoleID）   两个返回值	，第一个是神魂，第二个是魔魂		
+// 设置神魂和魔魂
+SetRoleSoul（MapID，InstanceID，RoleID，God，Monster）		
+// 获得神魂声望和魔魂声望
+GetRoleSoulPoint（MapID，InstanceID，RoleID）两个返回值，第一个是神魂声望，第二个是魔魂声望
+// 设置神魂声望和魔魂声望
+SetRoleSoulPoint（MapID，InstanceID，RoleID，GodPoint，MonsterPoint）    
+//战场金币获得
+AddWarMoney(地图id，副本id，角色id，战场金币增加量)
+//战场结算接口
+ShowWarResult(地图ID， 副本ID， 角色ID， 物品1ID， 物品2ID， 物品3ID, 是否守护成功)1表示守护成功0表示守护失败
+
+//-------------------------------------------------------------------------------------
+// 玩家和怪物通用脚本接口说明
+//-------------------------------------------------------------------------------------
+
+// 特殊说明………………………………………………
+暂无
+
+
+//函数库名称 ……………………………………………
+unit
+
+//玩家和怪物通用Lua接口………………………………
+//改变HP
+ChangeHP(地图ID,副本ID(默认-1), UnitID, HP改变量)	return 0
+
+//改变MP
+ChangeMP(地图ID,副本ID(默认-1), UnitID, MP改变量)	return 0
+
+//增加一个buff
+AddBuff(地图ID,副本ID(默认-1),目标UnitID,buffTypeID,释放者UnitID)	return 0
+
+//删除一个buff
+CancelBuff(地图ID,副本ID(默认-1),目标UnitID,buffTypeID) return 0
+
+//获取当前坐标
+GetPosition(地图ID,副本ID(默认-1),目标UnitID) return 3: 坐标(格子)x,坐标(世界)y,坐标(格子)z, 上层检查是否为nil
+
+//是否死亡
+IsDead(地图ID, 副本ID, 生物ID)	return bool
+
+// 是否是玩家
+IsPlayer(生物ID)		return bool
+
+// 是否是怪物
+IsCreature(生物ID)
+
+// 让某单位停止移动
+StopMove(地图ID, 副本ID, 生物ID, 是否发送同步消息(true或false))
+
+// 让某单位停止攻击
+StopAttack(地图ID, 副本ID, 生物ID)
+
+// 单位是否在战斗中,只适用于怪物
+IsAttack(地图ID, 副本ID, 怪物ID)
+
+// 获取怪物属性
+GetUnitAttValue(地图ID, 副本ID, 怪物ID, 属性索引)
+
+//怪物朝向
+SetFaceTo（地图id，副本id，角色id，x，z）--角色ID or 怪物 ID  x,z为所朝向坐标不是当前坐标
+//-------------------------------------------------------------------------------------
+// 怪物脚本接口说明
+//-------------------------------------------------------------------------------------
+//函数库名称 ……………………………………………
+cre
+
+// 怪物是否具有指定buff
+IsHaveBuff(地图ID, 副本ID, 怪物ID, BuffID) 返回bool值
+
+//-------------------------------------------------------------------------------------
+// 固定活动脚本接口说明
+//-------------------------------------------------------------------------------------
+
+// 特殊说明………………………………………………
+1. 存放时间点table中,时间的单位是秒。
+
+//函数库名称 ……………………………………………
+act
+
+//固定活动Lua接口………………………………………
+//初始化活动时间事件的触发时间
+InitEventTime(存放时间点table的名字, 时间点的个数, 活动ID)    return 0
+
+//活动是否开始
+GetActIsStart(活动ID)	return 1.活动是否开始
+
+//给服务器所有玩家添加buff
+AddAllRoleBuff(buffID)
+
+//将活动的SCRIPTDATA保存入数据库
+SaveActScriptData(活动ID)
+
+//-------------------------------------------------------------------------------------
+// 帮派相关接口说明
+//-------------------------------------------------------------------------------------
+// 特殊说明………………………………………………
+暂无
+
+//函数库名称 ……………………………………………
+guild
+
+//帮派相关接口 …………………………………………
+//取得玩家帮派ID
+GetRoleGuildID(玩家ID)		return 1 帮派ID(无帮派时为-1)			需要判断返回值是否为nil
+
+//取得帮派成员职位
+GetRoleGuildPos(帮派ID(玩家在线时可以写-1), 玩家ID)	return 1 帮派中职位	需要判断返回值是否为nil
+
+//取得帮派资金
+GetGuildFund(帮派ID)		return 1 帮派资金	需要判断返回值是否为nil
+
+//取得帮派资材
+GetGuildMaterial(帮派ID)	return 1 帮派资材	需要判断返回值是否为nil
+
+//取得帮派安定度
+GetGuildPeace(帮派ID)		return 1 帮派安定度	需要判断返回值是否为nil
+
+//取得帮派声望
+GetGuildReputation(帮派ID)	return 1 帮派声望	需要判断返回值是否为nil
+
+//帮派成员贡献变更
+ModifyRoleContribute(帮派ID, 玩家ID, 贡献变化量, log类型)	return 0
+
+//帮派资金变更
+ModifyGuildFund(帮派ID, 玩家ID, 资金变化量, log类型)		return 0
+
+//帮派资材变更
+ModifyGuildMaterial(帮派ID, 玩家ID, 资材变化量, log类型)	return 0
+
+//帮派安定度变更
+ModifyGuildPeace(帮派ID, 玩家ID, 安定度变化量, log类型)		return 0
+
+//帮派声望变更
+ModifyGuildReputation(帮派ID, 玩家ID, 声望变化量, log类型)	return 0
+
+//检查帮派是否处于指定状态
+IsGuildInStatus(帮派ID, 帮派状态) return 1 是否在状态中	需要判断返回值是否为nil
+
+//返回帮派的等级
+GetGuildAtt(帮派ID) return 1 返回帮派等级
+
+//帮派新增两个空属性，可以自定义内容
+SetGuildValue(帮派id,参数1，参数2)
+GetGuildValue(帮派id) 返回值是2个，参数1和参数2
+
+//--------------------------------------------------------------------------------------
+// 消息事件接口
+//--------------------------------------------------------------------------------------
+
+// 创建脚本通用消息
+BeginMsgEvent()		return MsgInfoID
+
+// 向消息中添加相关事件数据
+AddMsgEvent(MsgInfoID, EMsgUnitType, MsgUnit)
+//---------------------------------------------------
+EMsgUnitType常用枚举：
+消息类型：13 聊天框 MsgUnit 0为普通，1为公告
+          26 错误提示
+          20 NPC对话框上文本部分
+          21 对话框选项
+          71 带确定的提示框
+          100 屏幕上方小字跑马灯
+          101 屏幕中部大字屏显
+          102 屏幕中上大字跑马灯
+           
+其他：1 配合聊天框类型、对话框选项使用，显示文字
+      2 玩家的名字（RoleID）
+      4 道具的名字（ItemID）
+      5 怪物的名字（CreatureTypeID）
+      6 地图的名字（MapID）
+      9 数字
+      19 帮派的名字
+//---------------------------------------------------
+
+// 发送脚本通用消息给玩家
+DispatchRoleMsgEvent(玩家ID, MsgInfoID)
+
+// 给服务器所有地图内的玩家发送脚本通用消息
+DispatchWorldMsgEvent(MsgInfoID)
+
+// 给服务器指定地图内的玩家发送脚本通用消息
+DispatchMapMsgEvent(MsgInfoID, 地图ID,副本ID(默认-1))
+
+// 给该帮派的成员发脚本消息
+DispatchGuildMsgEvent(MsgInfoID, 帮派ID)
+
+// 播放指定ID的服务器广播
+DispatchBroadcast(MsgInfoID,地图ID,副本ID(默认-1),帮派ID)
+
+// 对某个玩家弹出可交互的对话框（仅点确定有效）
+SendRoleSwitchMsg(索引，地图ID,副本ID，玩家ID，Type，objID）
+索引：msg_switch.xml中的索引id值
+Type：1是活动事件，0是任务事件。
+objID：活动或者任务的ID
+	
+// 对某个等级段的玩家弹出可交互的对话框（仅点确定有效）
+SendRoleSwitchMsg(索引，mini_level,max_level，Type，objID）
+
+
+//---------------------------------------------------
+//	其他备注
+//---------------------------------------------------
+
+//----------------------------------------------------
+//	结婚错误码
+//----------------------------------------------------
+E_Marriage_Accept				= E_Success,	// 对方同意
+E_Marriage_Refuse				= 1,	// 对方拒绝
+E_Marriage_SameSex				= 2,	// 性别相同
+E_Marriage_NotEnough_FriendShip			= 3,	// 友好度不够
+E_Marriage_Applicant_AlreadyMarried		= 4,	// 申请者已婚 结婚时的处理
+E_Marriage_BeApplicant_AlreadyMarried		= 5,	// 被申请者已婚
+E_Marriage_OutOfRange				= 6,	// 双方应在NPC月老附近[10格子之内]
+E_Marriage_NotEnough_Money			= 7,	// 申请者必须拥有66金。
+E_Marriage_NotInSame_Map			= 8,	// 不在同一区域
+E_Marriage_NotAnswer				= 9,	// 对方没有响应
+E_Marriage_LackItem				= 10,	// 缺少必要物品
+E_Marriage_NotMerried				= 11,	// 未婚 离婚时的处理
+E_Marriage_NotEnough_BagSpace			= 12,   // 背包空间不够
+
+
+//----------------------------------------------------
+//	怪物ai状态
+//----------------------------------------------------
+		0	--	空闲状态
+		1	--	追击状态
+		2	--	攻击状态
+		3	--	逃跑状态
+		4	--	呼救状态
+		5	--	返回状态
+		6	--	跟随状态
+		7	--	拉开距离
+
+//----------------------------------------------------
+//	复活类型
+//----------------------------------------------------
+	ERRT_ReturnCity			= 0,		// 回城复活
+	ERRT_Locus			= 1,		// 原地复活
+	ERRT_Accept			= 2,		// 接受复活
+	ERRT_Prison			= 3,		// 狱中复活
+
+//----------------------------------------------------
+//	广播类型
+//----------------------------------------------------
+	0	--	即将开始
+	1	--	开始
+	2	--	即将结束
+	3	--	结束
+//----------------------------------------------------
+//	装备强化类型
+//----------------------------------------------------
+	EAllCliDateT_NULL 		= 0,		//无
+	EAllCliDateT_Posy		= 1,		//铭纹
+	EAllCliDateT_Engrave		= 2,		//镌刻
+	EAllCliDateT_Quench		= 3,		//淬火
+	EAllCliDateT_Chisel		= 4,		//开凿
+	EAllCliDateT_HoleGem		= 5,		//镶嵌
+	EAllCliDateT_HoleGem		= 6,		//烙印
+	EAllCliDateT_LongFu		= 7,		//龙附
+
+
+//----------------------------------------------------
+//	技能错误码  （如果在脚本里面返回对应id_msg的错误码的话,请返回999,是一个空显示）
+//----------------------------------------------------
+	E_UseSkill_SkillNotExist		=	1,		// 技能不存在
+	E_UseSkill_TargetInvalid		=	2,		// 目标非法
+	E_UseSkill_PassiveSkill			=	3,		// 被动技能不能使用
+	E_UseSkill_SkillTargetInvalid		=	4,		// 技能本身不是针对于战斗目标
+	E_UseSkill_CoolDowning			=	5,		// 技能正在冷却
+	E_UseSkill_Operating			=	6,		// 技能正在发动
+	E_UseSkill_UseLimit			=	7,		// 发动条件不满足
+	E_UseSkill_SexLimit			=	8,		// 性别不满足
+	E_UseSkill_PosLimitFront		=	9,		// 位置不满足（必须在身前）
+	E_UseSkill_PosLimitBack			=	10,		// 位置不满足（必须在身后）
+	E_UseSkill_DistLimit			=	11,		// 距离不满足
+	E_UseSkill_RayLimit			=	12,		// 射线检测不满足
+	E_UseSkill_CostLimit			=	13,		// 消耗不够
+	E_UseSkill_TargetLimit			=	14,		// 目标限制
+	E_UseSkill_StallLimit			=	15,		// 摆摊状态下不可使用技能
+	E_UseSkill_WeaponLimit			=	16,		// 武器限制
+	E_UseSkill_SelfStateLimit		=	17,		// 自身状态限制
+	E_UseSkill_TargetStateLimit		=	18,		// 目标状态限制
+	E_UseSkill_SelfBuffLimit		=	19,		// 自身Buff限制
+	E_UseSkill_TargetBuffLimit		=	20,		// 目标Buff限制
+	E_UseSkill_Mount_NoPreparingPet		=	21,		// 没有预备宠物
+	E_UseSkill_VocationLimit		=	22,		// 职业限制
+	E_UseSkill_MapLimit			=	23,		// 无法在该地图内使用
+
+	E_UseItem_ItemNotExist			=	30,		// 物品不存在
+	E_UseItem_TargetInvalid			=	31,		// 目标非法
+	E_UseItem_ItemCanNotUse			=	32,		// 物品不可使用
+	E_UseItem_CoolDowning			=	33,		// 物品正在冷却
+	E_UseItem_SexLimit			=	34,		// 性别不满足
+	E_UseItem_LevelLimit			=   	35,		// 等级限制
+	E_UseItem_DistLimit			=	36,		// 距离不满足
+	E_UseItem_RayLimit			=	37,		// 射线检测不满足
+	E_UseItem_UseLimit			=	38,		// 人物以死亡,不能使用
+	E_UseItem_Operating			=	39,		// 物品正在北使用
+	E_UseItem_NotEnoughSpace		=   	40,		// 背包空间不足
+	E_UseItem_ReAcceptQuest			=	41,		// 您已经接取过该任务
+	E_UseItem_ActivityLimit			=	42,		// 该道道具只可在固定活动中使用
+	E_UseItem_PosLimit			=	43,		// 不可在该位置使用该物品
+	E_UseItem_SelfStateLimit		=	44,		// 玩家自身状态限制
+	E_UseItem_AcceptSimQuest		=	45,		// 您身上已经有同类任务
+	E_UseItem_VocationLimit			=	46,		// 职业限制物品使用
+	E_UseItem_MapLimit			=	47,		// 无法在该地图内使用
+	E_UseItem_SpecFunError			=	48,		// 物品的特殊使用类型不匹配
+
+	E_Revive_Unknown			=	50,		// 未知复活类型
+	E_Revive_NotDead			=	51,		// 不在死亡状态
+	E_Revive_CanNotTransmit			=	52,		// 回城复活时传送失败
+	E_Revive_ItemLimit			=	53,		// 原地复活时缺少相应道具
+	E_Revive_CanNotAccept			=	54,		// 接受复活时失败
+	E_Revive_MapNotFound			=	55,		// 没有找到复活地图
+	E_Revive_CanNotReviveOnCityStruggle	=	56,		// 无法在城战时原地复活
+
+    	E_SkillMsg_NoMsg                	=   	999,    // 空提示
+
+
+	//-----------------------------------------------------------------
+	// 界面类型
+	//-----------------------------------------------------------------
+	EFRT_Role 						= 1,		// 角色界面
+	EFRT_Bag							= 2,		// 背包界面
+	EFRT_TalentPoint			= 3,		// 天资界面
+	EFRT_Quest						= 4,		// 任务界面
+	EFRT_Pet							= 5,		// 灵兽界面
+	EFRT_Friend						= 6,		// 好友界面
+	EFRT_Guild						= 7,		// 帮派界面
+	EFRT_Title						= 8,		// 称号界面
+	EFRT_Fame							= 9,		// 声望界面
+	EFRT_Activity					= 10,		// 活动界面
+
+
+
+//----------2010-5-21 玩家身上的状态位----------
+// 玩家身上的状态位
+//-----------------------------------------------------------------
+      ERS_Safeguard	        = 1,	// 被保护
+	ERS_Combat		 = 2,	// 战斗姿态
+	ERS_PK			 = 4,	// 行凶状态1（攻击所有玩家）
+	ERS_Arena		 = 8,	// 擂台(用于PVP活动或战场，该状态由脚本设置）
+
+	ERS_SafeArea	        = 16,	// 安全区
+	ERS_PVPArea		 = 32,	// PVP区
+	ERS_StallArea	        = 64,	// 摆摊区
+	ERS_PVP			= 128,	// PVP状态
+
+	ERS_Shop		 = 256,	// 商店交易
+	ERS_Exchange	        = 512,	// 玩家间直接交易
+	ERS_Stall		 = 1024,	// 摆摊交易
+	ERS_StallSet	        = 2048,	// 设置摆摊物品
+
+	ERS_PrisonArea	 = 4096,	// 牢狱状态
+
+	ERS_Mount		 = 8192,	// 骑乘
+	ERS_WaterWalk         = 16384,   // 水上行走
+	ERS_Mount2		 = 32768,	// 骑乘2
+     ERS_Commerce	        = 65536,	// 跑商中
+	ERS_PetExchange 	 = 0x20000,	// 宠物交易
+
+	ERS_Hostility	        = 0x40000,	// 戾气状态
+
+	ERS_Wedding		 = 0x80000,	// 婚礼状态
+
+	ERS_PKEX		 = 0x100000,	//	行凶状态2（只攻击行凶玩家）
+
+	ERS_TaxArea		 = 0x200000,	// 收税区
+	ERS_ScriptArea    	 = 0x400000,	// 脚本区
+
+	ERS_End		= 0x40000000,
+
+
+
+
+//-----------------------------------------------------------------
+// 记录LOG的类型
+//-----------------------------------------------------------------
+enum ELogCmdID
+{
+	ELCID_Null					= 0,	// 无
+
+	// 商店相关
+	ELCID_Shop_BuyItem			= 1,	// 买物品(非装备)
+	ELCID_Shop_BuyEquip			= 2,	// 买装备
+	ELCID_Shop_Sell				= 3,	// 卖物品&装备
+
+	// PK保护相关
+	ELCID_Open_SafeGuard		= 11,	// 开启PK保护
+
+	// 死亡惩罚
+	ELCID_Dead_Penalty			= 12,	// PK惩罚
+
+	// 百宝袋相关
+	ELCID_BaiBao_LoadFromDB		= 20,	// 从item_baibao表中读取的物品
+	ELCID_BaiBao_Bill_YuanBao	= 21,	// 元宝直冲
+
+	// 行囊相关
+	ELCID_Bag_PosOverlap		= 30,	// 初始化角色背包时，发现物品位置重叠
+
+	// 洗点
+	ELCID_Clear_Att				= 40,	// 洗属性点
+	ELCID_Clear_Talent			= 41,	// 洗天资点
+    ELCID_Buy_Talent            = 42,   // 购买天资点
+
+	// 角色仓库相关
+	ELCID_RoleWare_PosOverlap	= 50,	// 初始化角色仓库时，发现物品位置重叠
+	ELCID_RoleWare_SaveSilver	= 51,	// 存钱
+	//ELCID_RoleWare_SaveYuanBao	= 52,	// 存元宝
+	ELCID_RoleWare_GetSilver	= 53,	// 取钱
+	ELCID_RoleWare_GetYuanBao	= 54,	// 取元宝
+
+	
+	// 商城
+	ELCID_Mall_BuyItem			= 60,	// 购买商城物品
+	ELCID_Mall_BuyPack			= 61,	// 购买商城礼品包
+	ELCID_Mall_FreeItem			= 62,	// 领取商城免费物品
+	ELCID_Mall_BuyItem_Add		= 63,	// 购买商城物品时附带
+	ELCID_Mall_BuyPack_Add		= 64,	// 购买商城礼品包时附带
+	ELCID_Mall_PresentItem		= 65,	// 赠送商城物品
+	ELCID_Mall_PresentPack		= 66,	// 赠送商城礼品包
+	ELCID_Mall_PresentItem_Add	= 67,	// 赠送商城物品时附带
+	ELCID_Mall_PresentPack_Add	= 68,	// 赠送商城礼品包时附带
+
+	// 元宝交易
+	ELCID_Trade_SaveYuanBao		= 70,	// 向交易账户存元宝
+	ELCID_Trade_SaveSilver		= 71,	// 向交易账户存金钱
+	ELCID_Trade_DepositYuanBao  = 72,	// 从交易账户取出元宝
+	ELCID_Trade_DepositSilver	= 73,	// 从交易账户取出金钱
+	ELCID_Trade_Tax				= 74,	// 提交订单时扣除手续费
+
+	// 商城 - 续
+	ELCLD_Mall_ExchangeItem		= 80,	// 兑换商城物品
+	ELCLD_Mall_ExchangePack		= 81,	// 兑换商城礼品包
+	ELCLD_Mall_ExchangeItem_Add	= 82,	// 兑换商城物品时附带
+	ELCLD_Mall_ExchangePack_Add	= 83,	// 兑换商城礼品包时附带
+	// Jason 2010-3-16 v1.5.0 脚本增加赠点接口
+	ELCLD_MALL_LUA_AddGiftPoint	= 84,	// 脚本接口，用于每周领取赠点活动。
+	ELCLD_MALL_GiftPointCosted	= 85,	// 赠点消耗
+
+	// 团购
+	ELCID_GroupPurchase_Faild		= 90,	// 团购失败返还所得
+	ELCLD_GroupPurchase_BuyItem		= 91,	// 团购购买商城物品
+	ELCLD_GroupPurchase_BuyItem_Add	= 92,	// 团购商城物品附带
+
+	// 任务相关
+	ELCID_Quest_Loot			= 100,	// 任务掉落
+	ELCID_Quest_Complete		= 101,	// 完成任务
+	ELCID_Quest_Accept			= 102,	// 接取任务
+	ELCID_Quest_Discard			= 103,	// 放弃任务
+	ELCID_Quest_rewards			= 104,  // 任务奖励
+
+	// 装备强化相关
+	ELCLD_Compose_Spin			= 149,	// 精纺
+	ELCID_Compose_Posy			= 150,	// 铭文
+	ELCID_Compose_Engrave		= 151,	// 镌刻
+	ELCID_Compose_Enchase		= 152,	// 镶嵌
+	ELCID_Compose_Brand			= 153,	// 烙印
+	ELCID_Compose_LongFu		= 154,	// 龙附
+	ELCID_Compose_Produce		= 155,	// 合成
+	ELCID_Compose_Quench		= 156,	// 淬火
+	ELCID_Compose_Decompose		= 157,	// 点化,装备分解
+	ELCID_Compose_Chisel		= 158,	// 开凿
+	ELCID_Compose_Dye			= 159,	// 染色
+
+
+	// 玩家间交易
+	ELCID_Exchange_Verify		= 160,	// 交易确认
+	// Jason 没有位置了，暂时放这里，2009-12-6
+	ELCID_Raise_PotVal			= 165,	// 没有空隙了，看看怎么处理啊，郁闷
+	ELCID_LessingLoong			= 166,	// 神龙赐福
+	ELCID_PhilosophersStone		= 167,	// 点金石
+	// 特殊潜力提升，不需要消耗潜力提升次数
+	ELCID_Spec_Raise_Potval		= 168,
+	// 神石洗装备
+	ELCID_RockStone				= 169,
+
+	// 战场参战奖励
+	ELCID_CapPointRewards = 170, // 战场占领分数奖励
+	ELCID_ActiveTimeRewards = 171, // 活跃时间奖励
+
+	// 原地复活,完美复活
+	ELCLD_Revive_Locus			= 180,
+	ELCLD_Revive_Perfect		= 181,
+
+	// 摆摊
+	ELCLD_Stall_BeSold			= 190,	// 摆摊卖出
+	ELCLD_Stall_Buy				= 191,	// 从摊位上购买
+
+	// 换场景
+	ELCLD_Dak					= 200,
+
+	// 物品
+	ELCLD_Item_Use				= 300,	// 物品使用
+	ELCLD_Item_Move				= 301,	// 同一容器内移动
+	ELCLD_Item_Move2Other		= 302,	// 不同容器间移动
+	// Jason 2010-5-14 v2.1.0 土地庙消耗物品
+	ELCLD_Item_CostedByEarthTemple	= 303,	// 土地庙消耗道具
+	ELCLD_Item_UseVipCard	= 304,	// 使用VIP身份道具
+
+	ELCLD_Item_AtTerm			= 310,	// 有时限物品，到期删除
+
+	// 装备
+	ELCLD_Equip_Identify		= 350,	// 装备鉴定
+	ELCLD_Equip_ReGet			= 351,	// 装备恢复
+	
+	// 新手
+	ELCD_1stOnline_Item			= 380,	// 新手发放
+
+	// 玩家吃从背包扔掉物品
+	ELCLD_Role_Discard_Item		= 401,
+
+	// 玩家拾取物品
+	ELCLD_PickUp_Item			= 402,
+	ELCLD_PickUp_Money			= 403,
+
+	// 给好友送礼物
+	ELCLD_Send_Gift				= 410,
+
+	// 礼品包
+	ELCLD_Gift_Bag				= 420,
+
+	// 职能NPC相关
+	ELCLD_Bag_Extend			= 450,	// 扩充背包
+	ELCLD_RoleWare_Extend		= 451,	// 角色仓库扩充
+	ELCLD_CureInjure			= 452,	// npc治疗内伤
+	
+	// 普通掉落
+	ELCID_Loot					= 500,	// 普通掉落
+
+	// 帮派相关
+	ELCLD_Guild_Create			= 600,	// 创建帮派
+	ELCLD_Guild_Upgrade			= 601,	// 帮派设施升级
+	ELCLD_Guild_SpreadAffair	= 602,	// 发布帮务
+	ELCLD_Guild_DailyCost		= 603,	// 日常消耗
+	ELCLD_Guild_SkillResearch	= 604,	// 帮派技能升级
+	ELCLD_Guild_SkillLearn		= 605,	// 学习帮派技能
+	ELCLD_Guild_Commerce		= 606,	// 跑商
+	ELCLD_Guild_Reputation		= 607,	// 帮派声望变更
+	ELCID_Guild_ChangeName      = 608,  // 帮派改名
+	ELCID_Guild_DeclareWar      = 609,  // 宣战
+	ELCID_Guild_BattleField_SignUp  = 610,  // 战场报名消耗
+	ELCLD_Guild_Skill_Active	= 611,	// 公会技能激活
+	ELCLD_Guild_BattleField_Hold = 612, //领战场公会的公会资金每日22:00额外产出
+
+	// 聊天相关
+	ELCLD_CHAT_WORLD_CHANNEL		= 700,	//在世界频道发言
+	ELCLD_SHOW_EQUIP_WORLD_CHANNEL	= 701,	//在世界频道展示装备
+	ELCLD_SHOW_ITEM_WORLD_CHANNEL	= 702,	//在世界频道展示物品
+	ELCLD_CAST_TALK_IM				= 703,	//传音使用IM道具(绑定)
+  ELCLD_WORLD_TALK_IM             = 704,  //世界使用IM道具
+  ELCLD_WORLD_TALK_IM_UNBIND      = 705,  //世界使用IM道具(非绑定)
+	ELCLD_CAST_TALK_IM_UNBIND		= 706,	//传音使用IM道具(非绑定)
+
+	// 宠物相关
+	ELCLD_PET_ITEM_CREATE_PET		= 800,	// 生成宠物
+	ELCLD_PET_ITEM_FEED_PET			= 801,	// 宠物喂食
+	ELCLD_PET_ITEM_PET_LEARNSKILL	= 802,	// 宠物学习技能
+	ELCLD_PET_ITEM_PET_REVIVE		= 803,	// 宠物复活
+	ELCLD_PET_ITEM_PET_EQUIP		= 804,	// 宠物装备
+	ELCLD_RolePourExpPet			= 805,	// 灌注经验
+	ELCLD_PET_ITEM_PET_Enhance		= 806,	// 宠物装备
+	ELCLD_PET_ITEM_PET_Lock			= 807,	// 宠物锁定
+	ELCLD_PET_ITEM_PET_UnLock		= 808,	// 宠物解锁
+	ELCLD_PET_ITEM_PET_Food			= 809,	// 宠物食物
+	ELCLD_PET_SKILL_SALE			= 810,	// 宠物小贩技能
+	
+	ELCLD_PET_CREATE_PET			= 811,	// 创建宠物
+	ELCLD_PET_GAIN_PET				= 812,	// 获得宠物
+	ELCLD_PET_DEL_PET_CREATE		= 813,	// 删除宠物（创建失败）
+	ELCLD_PET_DEL_PET_INIT			= 814,	// 删除宠物（初始化失败）
+	ELCLD_PET_DEL_PET_CLIENT		= 815,	// 删除宠物（客户端命令）
+	ELCLD_PET_LOSE_PET				= 816,	// 失去宠物
+	// Jason v1.3.2 2010-1-31 扩充宠物背包消耗
+	ELCLD_PET_PocketExtend_Costed	= 817,	// 
+	// 妖精元素伤害类型转换
+	ELCLD_Fabao_EleTypeChange_Costed = 850,	// 妖精转换元素伤害类型消耗
+	ELCLD_Fabao_IncEleAbility_Costed		= 851,  // 提升妖精能力
+	ELCLD_Fabao_StuntBook					= 852,	// 妖精特技书消耗
+	// 妖精重生消耗物品
+	ELCLD_Fabao_Nirvana					= 853,	// 妖精重生消耗
+	ELCLD_Fabao_Birth						= 854,	// 妖精繁殖
+
+	// 氏族相关
+	ELCLD_ACT_TREASURE				= 900,	// 激活氏族珍宝获得
+
+	//固定活动相关
+	ELCLD_WU_SE_SHI					= 1000, // 固定活动删除五色石
+	ELCLD_PVP						= 1001, // pvp固定活动
+
+	// VIP摊位相关
+	ELCLD_VIP_Stall_Rent			= 1100,	// VIP摊位租赁
+
+	// 金牌网吧
+	ELCLD_VIP_NetBar				= 1200,	// 金牌网吧
+
+	// 技能
+	ELCLD_Skill_Use					= 1300, // 技能
+
+	// 修炼仙界技能
+	ELCLD_PracticeM_Skill			= 1350, // 练习仙界技能
+	ELCID_PracticeSoaringSkill		= 1351,	// 联系飞升技能消耗
+
+	// 职业相关
+	ELCLD_Class_Change				= 1400, // 转职
+	ELCLD_Class_Get					= 1401, // 就职
+
+	// 城市系统
+	ELCLD_City_Produce				= 1301,	// 城市产出
+	ELCLD_City_Prolificacy			= 1302,	// 提升城市生产力
+	ELCLD_City_TransformTaxation	= 1303,	// 提取税金
+	ELCLD_City_SignUp				= 1304,	// 城战报名
+	ELCLD_City_Examine				= 1305,	// 查看城市信息
+
+	// 精力系统
+	ELCLD_Spirit_Reward				= 1400, // 精力系统奖励道具
+	ELCLD_Strength_Reward			= 1401, // 精力系统奖励道具-实力
+
+	// 其他相关在此处之上加
+	ELCID_GemRemoval				= 1500,	// 宝石拆除
+
+	// Jason v1.3.2 2010-1-20 玩家离线经验领取
+	ELCID_PlayerOfflineReward		= 1501,
+	// 飞升炼器
+	ELCID_Soaring_BuildEquip		= 1502,	// 飞升炼器标志
+	ELCID_Casting_SoaringEquip		= 1503, // 熔铸已经飞升装备
+
+	ELCID_GuildDailyReward		= 1504,	// 公会战，每日在线奖励
+	
+	// Jason 2010-4-16 v2.0.0 法宝相关
+	ELCID_Fabao_RemoveYuLingzhu		= 1550,	// 法宝成长消耗御灵珠
+	ELCID_Fabao_RemoveLingzhu		= 1551,	// 法宝灵槽契合，消耗灵珠
+	ELCID_Fabao_ReversalCosted		= 1552,	// 法宝五行逆转消耗辅助法宝
+	ELCID_Fabao_MergingCosted		= 1553, // 法宝五行相生重置消耗
+	ELCID_Fabao_FairyPowderCosted	= 1554, // 妖精之粉消耗
+	ELCID_GodStrengthen_Costed		= 1555, // 神铸消耗
+	ELCID_Fabao_Feeding				= 1556,	// 妖精喂食消耗
+	ELCID_Fabao_StoreExp_Costed		= 1557,	// 妖精经验封印消耗
+	ELCID_Fabao_StoreExp_Created		= 1558,	// 妖精经验封印生成
+
+	// 师徒
+	ELCLD_Apprentice_UseBaoJian		= 1600,	// 徒弟使用宝鉴升级
+    
+	// 选秀
+	ELCLD_VoteShow_UseNecklace      = 1700, // 选秀消耗珍珠项链
+
+	// 易容
+	ELCLD_Appearance_Transform		= 1800, // 易容消耗道具
+
+	ELCID_FCompose_Consolidate		= 1850,	// F计划，强化消耗
+	ELCID_FCompose_Xinhun				= 1851,	// F计划，吸魂
+	ELCID_FCompose_Fuhun				= 1852,	// F计划，附魂
+
+	// 妖精契约型消耗
+	ELCID_Fairy_Costed						= 1900,	// 圣魔，妖精契约消耗
+
+	// 神之竞标
+	ELCID_Godbid_NormalBid_Cost = 1910,			// 普通竞标消耗
+	ELCID_Godbid_NormalBid_Added = 1911,		// 普通竞标
+	ELCID_Godbid_BlackBid_Cost = 1912,				// 黑市竞标消耗
+	ELCID_Godbid_BlackBid_Added = 1913,			// 黑市竞标
+
+	// 砸金蛋
+	ELCID_Egg_Broker_Cost = 1914,
+	ELCID_Egg_Broker_Added = 1915,
+	
+	// GM命令
+	ELCID_GM_ClearBag				= 1000000,	// 清理背包
+	ELCID_GM_CreateItem				= 1000001,	// 创建物品/装备/时装
+	ELCID_GM_GetMoney				= 1000002,	// 获得金钱
+	ELCID_GM_GetYuanBao				= 1000003,	// 获得元宝
+	ELCID_GM_GetExVolume			= 1000004,	// 获得赠点
+	ELCID_GM_GetFund				= 1000005,	// 获得帮派资金
+	ELCID_GM_GetMaterial			= 1000006,	// 获得帮派资材
+	ELCID_GM_GetContribute			= 1000007,	// 获得帮派个人贡献
+    ELCID_GM_GetVIPPoint            = 1000008,  // 获得积分 
+};
+

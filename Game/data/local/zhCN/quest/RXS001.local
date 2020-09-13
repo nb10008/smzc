@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20001" />
+    <entry Name="仙兵初到" />
+    <entry Conditions="" />
+    <entry Overview="使用&lt;S&gt;鼠标左键&lt;/S&gt;点击地面或使用键盘的&lt;S&gt;A、S、D、W&lt;/S&gt;可进行移动。NPC头顶的&lt;S&gt;黄色叹号&lt;/S&gt;代表可&lt;S&gt;接受任务&lt;/S&gt;。头顶标记为&lt;S&gt;黄色问号&lt;/S&gt;代表可&lt;S&gt;交付任务&lt;/S&gt;。\n请与&lt;D&gt;&lt;L=m10,5010011&gt;永坠之神&lt;/L&gt;&lt;/D&gt;对话，选择交付任务。（点击绿色字体进行自动寻路，找到对应的NPC）&#x0A;" />
+</quest-local>

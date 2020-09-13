@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40031" />
+    <entry Name="宝石原石" />
+    <entry Conditions="" />
+    <entry Overview="帮&lt;D&gt;&lt;L=s02,5010085&gt;七彩之海谢拉&lt;/L&gt;&lt;/D&gt;杀死&lt;C&gt;30&lt;/C&gt;个&lt;D&gt;&lt;L=s05,1040015&gt;黑心盗猎者&lt;/L&gt;&lt;/D&gt;，完成后可以领取到宝石原石的奖励" />
+</quest-local>

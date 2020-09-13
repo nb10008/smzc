@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40066" />
+    <entry Name="预言者盖拉" />
+    <entry Conditions="" />
+    <entry Overview="&lt;D&gt;&lt;L=s02,5010243&gt;三界主宰艾辛萨&lt;/L&gt;&lt;/D&gt;让你去&lt;P&gt;奔雷裂谷&lt;/P&gt;和&lt;D&gt;&lt;L=s04,5610001&gt;预言者盖拉&lt;/L&gt;&lt;/D&gt;谈一谈如何获得&lt;M&gt;信仰&lt;/M&gt;。" />
+</quest-local>

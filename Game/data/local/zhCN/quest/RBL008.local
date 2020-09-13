@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20208" />
+    <entry Name="石头的请求" />
+    <entry Conditions="" />
+    <entry Overview="清理&lt;N&gt;普兰多山路&lt;/N&gt;，清理掉&lt;C&gt;6&lt;/C&gt;只&lt;A&gt;&lt;L=s04,1030006&gt;裂谷白龙&lt;/L&gt;&lt;/A&gt;和&lt;C&gt;3&lt;/C&gt;个&lt;A&gt;&lt;L=s04,1030015&gt;莫库之灵&lt;/L&gt;&lt;/A&gt;，然后回复&lt;D&gt;&lt;L=s04,5010078&gt;岩神奥利佛&lt;/L&gt;&lt;/D&gt;。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;北洲天雪:30级后可前往&lt;N&gt;北洲天雪&lt;/N&gt;练级&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;知识竞猜:30级后可参与&lt;P&gt;知识竞猜活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;勇闯魔窟:30级后可参与&lt;P&gt;勇闯魔窟活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;妖精遗产:30级后可参与&lt;P&gt;妖精遗产活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;妖精喂养:30级后妖精需要进行喂养&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;斗技场:40级后&lt;P&gt;报名斗技场&lt;/P&gt;&#x0A;" />
+</quest-local>

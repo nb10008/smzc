@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30869" />
+    <entry Name="赶制春节时装" />
+    <entry Conditions="" />
+    <entry Overview="去&lt;N&gt;奔雷裂谷&lt;/N&gt;杀死一些&lt;A&gt;&lt;L=s04,3040374&gt;狐狸&lt;/L&gt;&lt;/A&gt;，收集&lt;C&gt;20&lt;/C&gt;个&lt;I&gt;狐皮&lt;/I&gt;，完成后向&lt;D&gt;&lt;L=s02,6040022&gt;春节使者米莲妮&lt;/L&gt;&lt;/D&gt;回话。" />
+</quest-local>

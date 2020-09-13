@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30369" />
+    <entry Name="兑换（100个）" />
+    <entry Conditions="" />
+    <entry Overview="在&lt;D&gt;&lt;L=s02,5610045&gt;信仰之怒兑换人&lt;/L&gt;&lt;/D&gt;处交付指定道具可以获得&lt;I&gt;白银·信仰之怒&lt;/I&gt;。" />
+</quest-local>

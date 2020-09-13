@@ -1,0 +1,35 @@
+//-----------------------------------------------------------------------------
+// File: Blur.ps
+//
+// Desc: Æ½¾ùÄ£ºý
+// Copyright (c) TengWu Corporation. All rights reserved.
+//-----------------------------------------------------------------------------
+
+sampler2D g_sam0 : register(s0);
+ 
+
+float2 PixelCoords[4] =
+{
+
+  	{ -1.5,   0.0 },
+		{  1.5,   0.0 },
+
+		{  0.0,  -1.5 },
+		{  0.0,   1.5 },
+
+};
+
+half4 PSMain( float2 Tex : TEXCOORD0 ) : COLOR0
+{
+		half4 c=0;
+
+		c.rgb += tex2D( g_sam0, Tex + PixelCoords[0].xy ).rgb;                 
+		c.rgb += tex2D( g_sam0, Tex + PixelCoords[1].xy ).rgb;  		           
+		c.rgb += tex2D( g_sam0, Tex + PixelCoords[2].xy ).rgb;  		           		
+		c.rgb += tex2D( g_sam0, Tex + PixelCoords[3].xy ).rgb;  		           		
+		
+		c.rgb *= 0.25;
+		
+		return c;
+ }
+

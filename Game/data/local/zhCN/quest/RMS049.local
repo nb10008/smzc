@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20649" />
+    <entry Name="毒血的势力" />
+    <entry Conditions="" />
+    <entry Overview="干掉&lt;color=0xffff0000&gt;&lt;L=s08,1070085&gt;毒血&lt;/L&gt;&lt;color=0xffffffff&gt;和其身边的&lt;C&gt;40&lt;/C&gt;名&lt;color=0xffff6000&gt;&lt;L=s08,1070064&gt;狂风精英贵族&lt;/L&gt;&lt;color=0xffffffff&gt;，之后回复&lt;D&gt;&lt;L=s08,5010210&gt;瓦尔特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

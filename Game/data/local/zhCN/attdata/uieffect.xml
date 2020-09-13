@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<uieffect id="1" txname="txui003" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="-10" PosY="90" PosZ="300" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="2" txname="txui003_a" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="-10" PosY="90" PosZ="300" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="2"/>
+	<uieffect id="3" txname="txui004" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="50" PosZ="300" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="4" txname="txui005" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="50" PosZ="300" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="5" txname="txui006" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="0" PosZ="950" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="6" txname="txui007" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="50" PosZ="300" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="7" txname="txui008" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="350" PosY="20" PosZ="200" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="2"/>
+	<uieffect id="8" txname="txui009" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="20" PosZ="300" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="9" txname="txui010" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="10" PosY="-10" PosZ="50" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="2"/>
+	<uieffect id="10" txname="txui011" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="90" PosZ="300" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="11" txname="txui012" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="0" PosZ="100" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="2"/>
+	<uieffect id="12" txname="txui013" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="0" PosZ="100" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="2"/>
+	<uieffect id="13" txname="txui014" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="0" PosZ="100" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="14" txname="txui014_a" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="0" PosZ="100" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="2"/>
+	<uieffect id="15" txname="txui015" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="0" PosZ="100" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="16" txname="txui015_a" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="0" PosZ="100" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="2"/>
+	<uieffect id="17" txname="txui016" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="0" PosZ="100" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="18" txname="txui018" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="200" PosZ="900" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+	<uieffect id="19" txname="txui019" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="90" PosZ="500" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="20" txname="txui019_a" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="90" PosZ="500" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="2"/>
+	<uieffect id="21" txname="txui020" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="90" PosZ="500" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="22" txname="txui020_a" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="90" PosZ="500" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="2"/>
+	<uieffect id="23" txname="txui021" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="90" PosZ="500" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="24" txname="txui021_a" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="90" PosZ="500" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="2"/>
+	<uieffect id="25" txname="txui022" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="90" PosZ="500" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="26" txname="txui022_a" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="90" PosZ="500" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="2"/>
+	<uieffect id="27" txname="txui026" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="-20" PosY="65" PosZ="100" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="2"/>
+	<uieffect id="28" txname="txui027" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="0" PosZ="900" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="29" txname="txui028" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="-250" PosZ="2000" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="30" txname="txui029" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="-250" PosZ="500" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="31" txname="txui030" CamFromX="0" CamFromY="0" CamFromZ="-330" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="0" PosZ="0" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+	<uieffect id="32" txname="txui031" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="-50" PosZ="-400" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+        <uieffect id="33" txname="txui032" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="-20" PosZ="-500" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+        <uieffect id="34" txname="txui033" CamFromX="0" CamFromY="0" CamFromZ="-190" CamAtX="0" CamAtY="0" CamAtZ="0" PosX="0" PosY="-60" PosZ="-20" ScaleX="1" ScaleY="1" ScaleZ="1" Blend_mode="1"/>
+</root>
+

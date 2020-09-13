@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20632" />
+    <entry Name="魔晶与脚印" />
+    <entry Conditions="" />
+    <entry Overview="从&lt;A&gt;&lt;L=s08,1070022&gt;哀号的灵魂&lt;/L&gt;&lt;/A&gt;、&lt;A&gt;&lt;L=s08,1070023&gt;冥山龙&lt;/L&gt;&lt;/A&gt;、&lt;A&gt;&lt;L=s08,1070024&gt;嗜月血狼&lt;/L&gt;&lt;/A&gt;身上找来&lt;C&gt;150&lt;/C&gt;块&lt;I&gt;魔晶&lt;/I&gt;，并拓下2张&lt;M&gt;&lt;L=s08,6010024&gt;大地割裂之王的脚印&lt;/L&gt;&lt;/M&gt;，之后交给&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

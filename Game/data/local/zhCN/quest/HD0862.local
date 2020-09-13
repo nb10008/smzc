@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30862" />
+    <entry Name="招财" />
+    <entry Conditions="获得10层财气效果" />
+    <entry Overview="&lt;D&gt;善财使者&lt;/D&gt;让你调查散落在斗战天城的&lt;I&gt;&lt;Z=s02,47100,27090,50200&#x0A;&gt;紫气聚宝盆&lt;/Z&gt;&lt;/I&gt;或者&lt;I&gt;&lt;Z=s02,14100,27100,50650&#x0A;&gt;春色聚宝盆&lt;/Z&gt;&lt;/I&gt;之一，获得“财气”效果，调查完&lt;C&gt;10&lt;/C&gt;次后，向&lt;D&gt;&lt;Z=s02,33950,23510,39450&gt;善财使者&lt;/Z&gt;&lt;/D&gt;复命。" />
+</quest-local>

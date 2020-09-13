@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30672" />
+    <entry Name="雪国大作战" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;N&gt;北洲天雪&lt;/N&gt;，&lt;N&gt;白龙洞&lt;/N&gt;的&lt;A&gt;&lt;L=d03,1040007&gt;寒狼&lt;/L&gt;&lt;/A&gt;和&lt;N&gt;白龙谷&lt;/N&gt;的&lt;A&gt;&lt;L=s05,1040003&gt;雪地强盗&lt;/L&gt;&lt;/A&gt;正在破坏这次的圣诞活动，快去消灭它们。完成任务后可以到&lt;D&gt;&lt;L=s02,5600011&gt;雪国长者尼古拉&lt;/L&gt;&lt;/D&gt;那里领取奖励。" />
+</quest-local>

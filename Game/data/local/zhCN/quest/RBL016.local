@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20216" />
+    <entry Name="岩祖洞" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;N&gt;岩祖洞&lt;/N&gt;，消灭&lt;C&gt;5&lt;/C&gt;个&lt;A&gt;&lt;L=d02,1030017&gt;魔岩&lt;/L&gt;&lt;/A&gt;，然后回复&lt;D&gt;&lt;L=s04,5010080&gt;火神加尔&lt;/L&gt;&lt;/D&gt;。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;北洲天雪:30级后可前往&lt;N&gt;北洲天雪&lt;/N&gt;练级&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;知识竞猜:30级后可参与&lt;P&gt;知识竞猜活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;勇闯魔窟:30级后可参与&lt;P&gt;勇闯魔窟活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;妖精遗产:30级后可参与&lt;P&gt;妖精遗产活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;妖精喂养:30级后妖精需要进行喂养&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;斗技场:40级后&lt;P&gt;报名斗技场&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv50]&lt;/S&gt;天之行会:50级后可接取&lt;P&gt;天之行会任务&lt;/P&gt;&#x0A;" />
+</quest-local>

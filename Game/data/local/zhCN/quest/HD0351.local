@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30351" />
+    <entry Name="职业领域Ⅱ" />
+    <entry Conditions="" />
+    <entry Overview="将&lt;C&gt;10&lt;/C&gt;个&lt;I&gt;神光核&lt;/I&gt;、&lt;C&gt;10&lt;/C&gt;个&lt;I&gt;魔光核&lt;/I&gt;和&lt;C&gt;10&lt;/C&gt;个&lt;I&gt;深渊水晶&lt;/I&gt;交给&lt;D&gt;&lt;L=s02,5010243&gt;三界主宰艾辛萨&lt;/L&gt;&lt;/D&gt;即可换取当前职业的职业技能自选领域。" />
+</quest-local>

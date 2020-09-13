@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="50004" />
+    <entry Name="兑换毁灭菇" />
+    <entry Conditions="" />
+    <entry Overview="用&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;生命菇&lt;/I&gt;可在&lt;D&gt;&lt;L=s03,5010197&gt;蘑菇收集人&lt;/L&gt;&lt;/D&gt;处兑换&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;毁灭菇&lt;/I&gt;" />
+</quest-local>

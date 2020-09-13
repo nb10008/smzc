@@ -1,0 +1,42 @@
+sampler2D g_posMap 	: register(s0);
+sampler2D g_normalMap 	: register(s1);
+sampler2D g_shadowMap 	: register(s2);
+
+static const int MAX_MATERIAL = 40;
+float4 g_vecDiffuseMtl[MAX_MATERIAL];
+float3 g_lightPos;
+float4 g_lightDiffuse;
+float  g_lightRange;
+float3 g_lightAtten;	//1, D, D^2
+int    g_numMtl;
+
+float4 main( float2 uv0 : TEXCOORD0 ) : COLOR0
+{
+	float4 color=0;
+	
+	float4 pos	=tex2D(g_posMap,uv0);
+	int    mtlID	=round(pos.a*g_numMtl)-1;	//根据pos.a获得相应材质ID
+		
+	float4 normal	=tex2D(g_normalMap,uv0);
+	float  shadow 	=tex2D(g_shadowMap,uv0).x;
+	
+	float dist=distance(g_lightPos,pos.xyz);
+	if(dist<g_lightRange)
+	{
+		float3 lightDir=normalize(g_lightPos-pos.xyz);
+		float dot=max(dot(lightDir,normal.xyz),0);
+	
+		float atten=1.0f/(g_lightAtten.x +
+					g_lightAtten.y*dist+
+					g_lightAtten.z*dist*dist);
+					
+		color.rgb=g_lightDiffuse.rgb*g_vecDiffuseMtl[mtlID]*atten*dot;
+	}	
+
+	color.rgb*=shadow;
+	
+	// 曝光效果预先除以2
+	color.rgb*=0.5f;
+	
+	return color;
+}

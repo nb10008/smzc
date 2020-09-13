@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="50032" />
+    <entry Name="林中的足迹" />
+    <entry Conditions="" />
+    <entry Overview="对&lt;N&gt;西洲幻林&lt;/N&gt;进行初步调查，你最好去这些地点调查：&lt;N&gt;&lt;Z=s06,50563,3800,65689&gt;曲寨&lt;/Z&gt;&lt;/N&gt;、&lt;N&gt;&lt;Z=s06,36619,3100,20055&gt;遗忘古迹&lt;/Z&gt;&lt;/N&gt;、&lt;N&gt;&lt;Z=s06,80292,7050,21315&#x0A;&gt;虎啸林&lt;/Z&gt;&lt;/N&gt;、&lt;N&gt;&lt;Z=s06,73521&#x09;,5799,64884&#x0A;&gt;淼峰山&lt;/Z&gt;&lt;/N&gt;，集齐&lt;C&gt;3&lt;/C&gt;个&lt;M&gt;探索足迹&lt;/M&gt;，然后回来告诉&lt;D&gt;&lt;L=s06,5511012&gt;游客&lt;/L&gt;&lt;/D&gt;这里的状况。" />
+</quest-local>

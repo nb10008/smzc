@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20631" />
+    <entry Name="大地割裂之王" />
+    <entry Conditions="" />
+    <entry Overview="等您到达&lt;C&gt;90&lt;/C&gt;级后再回来与&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;对话。" />
+</quest-local>

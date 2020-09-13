@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <QuestHelp QuestId="999999" StartPicName="data\ui\help\tutorial\2.jpg" FinishPicName="data\ui\help\tutorial\1.jpg" StartPicPage="1" FinishPicPage="2" />
+</root>

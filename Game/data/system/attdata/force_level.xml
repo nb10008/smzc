@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<forcelevel id="0" point="0"/>
+	<forcelevel id="1" point="3000"/>
+	<forcelevel id="2" point="10000"/>
+	<forcelevel id="3" point="21000"/>
+	<forcelevel id="4" point="44000"/>
+	<forcelevel id="5" point="1000000"/>
+	<forcelevel id="10" point="0"/>
+	<forcelevel id="11" point="3000"/>
+	<forcelevel id="12" point="10000"/>
+	<forcelevel id="13" point="21000"/>
+	<forcelevel id="14" point="44000"/>
+	<forcelevel id="15" point="1000000"/>
+</root>

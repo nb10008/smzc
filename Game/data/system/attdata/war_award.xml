@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <war id="1" identity="2" num="1" item_id="4500101" buff_id="9003701" />
+    <war id="2" identity="2" num="2" item_id="4500102" buff_id="9003701" />
+    <war id="3" identity="2" num="3" item_id="4500103" buff_id="9003701" />
+    <war id="4" identity="3" num="1" item_id="4500104" buff_id="9003801" />
+    <war id="5" identity="3" num="2" item_id="4500105" buff_id="9003801" />
+    <war id="6" identity="3" num="3" item_id="4500106" buff_id="9003801" />
+    <war id="7" identity="4" num="1" item_id="4500107" buff_id="9003901" />
+    <war id="8" identity="4" num="2" item_id="4500108" buff_id="9003901" />
+    <war id="9" identity="4" num="3" item_id="4500109" buff_id="9003901" />
+    <war id="10" identity="1" num="1" item_id="4500110" buff_id="9004001" />
+    <war id="11" identity="1" num="2" item_id="4500111" buff_id="9004001" />
+    <war id="12" identity="1" num="3" item_id="4500112" buff_id="9004001" />
+    <war id="13" identity="0" num="1" item_id="4500113" buff_id="9004101" />
+    <war id="14" identity="0" num="2" item_id="4500114" buff_id="9004101" />
+    <war id="15" identity="0" num="3" item_id="4500115" buff_id="9004101" />
+</root>

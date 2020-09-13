@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40015" />
+    <entry Name="活力" />
+    <entry Conditions="" />
+    <entry Overview="在&lt;D&gt;&lt;L=s02,5010034&gt;杂货商&lt;/L&gt;&lt;/D&gt;处购买&lt;C&gt;1&lt;C&gt;份&lt;I&gt;空白制作书&lt;/I&gt;，完成后回复&lt;D&gt;&lt;L=s02,5010081&gt;匠神依利安&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

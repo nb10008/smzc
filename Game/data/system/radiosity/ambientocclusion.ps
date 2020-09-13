@@ -1,0 +1,26 @@
+#define SHADOW_EPSILON 0.00003f
+#define SMAP_SIZE 2048
+
+float4x4  g_matViewPrj;
+int	  g_iLightCount;
+
+sampler2D g_posMap 	: register(s0);
+sampler2D g_depthMap 	: register(s1);
+
+float4 main( float2 uv0 : TEXCOORD0 ) : COLOR0
+{
+	float visable=0.0f;
+	
+	float3 pos=tex2D(g_posMap,uv0).xyz;
+	float4 prjPos=mul(float4(pos.xyz,1.0f),g_matViewPrj);
+	prjPos.xyz/=prjPos.w;
+	prjPos.xy*=0.5;
+	prjPos.xy+=0.5;
+	prjPos.y=1.0f-prjPos.y;
+	
+	float z=tex2D(g_depthMap,prjPos.xy).x;
+	visable=(prjPos.z <= z+SHADOW_EPSILON) ? 1.0f : 0.0f;
+	visable/=(float)g_iLightCount;
+	
+	return float4(visable,visable,visable,visable);
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20653" />
+    <entry Name="灵魂结晶" />
+    <entry Conditions="" />
+    <entry Overview="把&lt;I&gt;灵魂结晶&lt;/I&gt;丢入&lt;M&gt;&lt;L=s08,6010026&gt;神像&lt;/L&gt;&lt;/M&gt;净化，之后回复&lt;D&gt;&lt;L=s08,5010210&gt;瓦尔特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

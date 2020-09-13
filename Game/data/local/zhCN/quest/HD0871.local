@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30871" />
+    <entry Name="方舟船票" />
+    <entry Conditions="" />
+    <entry Overview="前去&lt;N&gt;北洲天雪&lt;/N&gt;，杀死一只&lt;A&gt;&lt;L=s05,3040373&gt;爱偷东西的熊猫&lt;/L&gt;&lt;/A&gt;，得到&lt;I&gt;定情信物&lt;/I&gt;后，回复&lt;D&gt;&lt;L=s02,6040022&gt;春节使者米莲妮&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

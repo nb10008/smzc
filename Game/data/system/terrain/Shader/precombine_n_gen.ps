@@ -1,0 +1,15 @@
+sampler g_renderTex : register(s0);
+sampler g_tileTex 	: register(s1);
+sampler g_alphaMap 	: register(s2);
+
+float4 main(float2 renderTex 	: TEXCOORD0,
+						float2 tileTex		: TEXCOORD1,
+						float2 alphaMap		: TEXCOORD2) : COLOR0
+{
+	float4 renderColor=tex2D(g_renderTex,renderTex);
+	float4 tileColor=tex2D(g_tileTex,tileTex);
+	float alpha=tex2D(g_alphaMap,alphaMap).a;
+	
+	return tileColor*alpha + renderColor*(1-alpha);
+}
+

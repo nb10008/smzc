@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <item name="小三世界" worldid="900501" boroughid="900500" borogh="loong" boroughrank="2" ip="172.17.1.109" port="4200" state="80" recommend="0" worldrank="0" recorank="0" greenflag="" />
+  <item name="圣魔之血117" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="172.17.1.117" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />    
+  <item name="圣魔之血118" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="172.17.1.118" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />
+<item name="圣魔之血115" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="172.17.1.115" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />
+<item name="圣魔之血108" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="218.247.140.216" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />
+</root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30826" />
+    <entry Name="制作烤肉大餐" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;50&lt;/C&gt;个&lt;I&gt;猪肉&lt;/I&gt;、&lt;C&gt;50&lt;/C&gt;个&lt;I&gt;鸡翅&lt;/I&gt;和&lt;C&gt;10&lt;/C&gt;株&lt;I&gt;辣椒&lt;/I&gt;到斗战天城&lt;D&gt;&lt;Z=s02,30150,23094,34150&gt;嫦娥&lt;/Z&gt;&lt;/D&gt;处交付任务。\n提示：打倒野外地图怪物有几率获得&lt;I&gt;猪肉&lt;/I&gt;与&lt;I&gt;鸡翅&lt;/I&gt;。&lt;I&gt;辣椒&lt;/I&gt;可以在野外地图采集获得" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40033" />
+    <entry Name="凿石" />
+    <entry Conditions="" />
+    <entry Overview="用&lt;C&gt;20&lt;/C&gt;块&lt;I&gt;原矿&lt;/I&gt;和&lt;D&gt;&lt;L=s02,5010085&gt;七彩之海谢拉&lt;/L&gt;&lt;/D&gt;交换1块&lt;I&gt;初级凿石&lt;/I&gt;。" />
+</quest-local>

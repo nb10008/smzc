@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20640" />
+    <entry Name="沙龙的味道" />
+    <entry Conditions="" />
+    <entry Overview="挖来&lt;C&gt;30&lt;/C&gt;条&lt;M&gt;&lt;L=s08,6010029&gt;沙龙&lt;/L&gt;&lt;/M&gt;，交给&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;！" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30789" />
+    <entry Name="粽子背后的阴谋" />
+    <entry Conditions="" />
+    <entry Overview="去&lt;N&gt;黑暗学院&lt;/N&gt;杀死&lt;A&gt;恶灵女骑士米尔卡&lt;/A&gt;获得&lt;I&gt;禁锢的水晶&lt;/I&gt;，并在&lt;D&gt;&lt;Z=s02,25250,23510,37950&gt;食神杰斯&lt;/Z&gt;&lt;/D&gt;处将其转化为&lt;I&gt;联络水晶&lt;/I&gt;。之后在&lt;N&gt;白银魔窟（620,474）&lt;/N&gt;附近使用&lt;I&gt;联络水晶&lt;/I&gt;，召唤并消灭占据商道的&lt;D&gt;米希尔&lt;/D&gt;。" />
+</quest-local>

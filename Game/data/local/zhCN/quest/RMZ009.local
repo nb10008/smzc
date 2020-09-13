@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20509" />
+    <entry Name="试着接受" />
+    <entry Conditions="" />
+    <entry Overview="杀死&lt;C&gt;80&lt;/C&gt;个&lt;A&gt;&lt;L=s07,1060011&gt;丛林暗杀者&lt;/L&gt;&lt;/A&gt;，然后回复&lt;D&gt;&lt;L=s07,5010166&gt;魔纳尔&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

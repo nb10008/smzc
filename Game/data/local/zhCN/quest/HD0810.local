@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30810" />
+    <entry Name="历练之旅Ⅵ" />
+    <entry Conditions="获得5000历练值" />
+    <entry Overview="\n击杀【勇闯魔窟】中的&lt;A&gt;魔窟首领&lt;/A&gt;可以获得历练值。\n击杀【百鬼炼狱】中的&lt;A&gt;鬼王&lt;/A&gt;可以获得历练经验。\n使用&lt;I&gt;特效活力药水&lt;/I&gt;可以获得历练经验。\n注：获得&lt;C&gt;5000&lt;/C&gt;历练值后可在&lt;D&gt;回购指引人&lt;/D&gt;处完成任务。\n温馨提示：当历练值达到任务完成的要求时，历练值不会再继续增加" />
+</quest-local>

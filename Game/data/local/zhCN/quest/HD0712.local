@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30712" />
+    <entry Name="圣诞礼物" />
+    <entry Conditions="" />
+    <entry Overview="圣诞节期间每日可以从&lt;M&gt;&lt;L=s02,5600019&gt;圣诞树&lt;/L&gt;&lt;/M&gt;领取一份圣诞礼物。" />
+</quest-local>

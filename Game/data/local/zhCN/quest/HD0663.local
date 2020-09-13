@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30663" />
+    <entry Name="疯狂的雪国大作战" />
+    <entry Conditions="" />
+    <entry Overview="前往副本&lt;N&gt;&lt;Z=s08,118051,11351,122700&gt;幽冥神殿&lt;/Z&gt;&lt;/N&gt;，那里的&lt;A&gt;凯龙亡魂&lt;/A&gt;、&lt;A&gt;摄魂刺客&lt;/A&gt;和&lt;A&gt;海波里恩之子&lt;/A&gt;正在破坏这次的圣诞活动，快去消灭它们。完成任务后可以到&lt;D&gt;&lt;L=s02,5600011&gt;雪国长者尼古拉&lt;/L&gt;&lt;/D&gt;那里领取奖励。" />
+</quest-local>

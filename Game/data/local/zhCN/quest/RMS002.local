@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20602" />
+    <entry Name="神圣之水的效果" />
+    <entry Conditions="" />
+    <entry Overview="超度&lt;C&gt;30&lt;/C&gt;名&lt;color=0xffff6000&gt;&lt;L=s08,1070049&gt;精英训熊者&lt;/L&gt;&lt;color=0xffffffff&gt;后，回来找&lt;D&gt;&lt;L=s08,5010205&gt;奥克山&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ANSI" ?>
+<skin File="E:\MaxÄ£ÐÍ\N22\std.max" BasePath="D:\loong_client\Game\" MdlPath="data\model\batch\" MtlPath="data\model\batch\" >
+	<node Name="obj1" ExpName="test" NormalMap="0" MultiPass="0" />
+	<node Name="obj2" ExpName="test" NormalMap="0" MultiPass="0" />
+	<node Name="obj3" ExpName="test" NormalMap="0" MultiPass="0" />
+</skin>

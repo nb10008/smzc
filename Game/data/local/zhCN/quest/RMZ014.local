@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20514" />
+    <entry Name="狼人妖核" />
+    <entry Conditions="" />
+    <entry Overview="先清除&lt;C&gt;5&lt;/C&gt;名&lt;color=0xffff6000&gt;&lt;L=d07,1060041&gt;密林狂狼&lt;/L&gt;&lt;color=0xffffffff&gt;和&lt;C&gt;10&lt;/C&gt;只&lt;color=0xffff6000&gt;&lt;L=d07,1060040&gt;沼泽巨魔熊&lt;/L&gt;&lt;color=0xffffffff&gt;，之后从石狼洞的&lt;A&gt;&lt;L=d07,1060020&gt;密林狼人&lt;/L&gt;&lt;/A&gt;、&lt;A&gt;&lt;L=d07,1060021&gt;丛林狼妖&lt;/L&gt;&lt;/A&gt;身上收集&lt;C&gt;90&lt;/C&gt;个&lt;I&gt;妖核&lt;/I&gt;，交给&lt;D&gt;&lt;L=s07,5010167&gt;魔纳特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

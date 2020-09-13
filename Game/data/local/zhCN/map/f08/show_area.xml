@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <item id="1452" box_max_x="50507.42" box_max_y="5010.00" box_max_z="35685.58" box_min_x="37329.99" box_min_y="10.00" box_min_z="4196.95" minimap_size="1024" title="最后的战役"/>
+    <item id="1454" box_max_x="25806.10" box_max_y="7100.00" box_max_z="48840.86" box_min_x="7776.08" box_min_y="100.00" box_min_z="24837.67" minimap_size="1024" title="最后的战役"/>
+    <item id="1455" box_max_x="32460.75" box_max_y="8100.00" box_max_z="26186.63" box_min_x="237.76" box_min_y="100.00" box_min_z="231.02" minimap_size="1024" title="最后的战役"/>
+</root>

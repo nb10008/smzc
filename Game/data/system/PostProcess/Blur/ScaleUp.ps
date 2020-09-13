@@ -1,0 +1,24 @@
+//-----------------------------------------------------------------------------
+// File: ScaleUp.ps
+//
+// Desc: 放大
+// Copyright (c) TengWu Corporation. All rights reserved.
+//-----------------------------------------------------------------------------
+
+sampler2D g_sam =
+sampler_state
+{
+    Texture = NULL;
+    AddressU = Clamp;
+    AddressV = Clamp;
+    MinFilter = Point;
+    MagFilter = Linear;
+    MipFilter = Linear;
+};
+
+
+float4 PSMain( float2 Tex : TEXCOORD0 ) : COLOR0
+{
+		return tex2D( g_sam, Tex );
+}
+

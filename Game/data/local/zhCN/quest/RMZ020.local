@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20520" />
+    <entry Name="泪海寻踪" />
+    <entry Conditions="" />
+    <entry Overview="将等级提升至&lt;C&gt;78&lt;/C&gt;级，然后从&lt;color=0xffff6000&gt;&lt;L=s07,1060044&gt;精英撕裂者&lt;/L&gt;&lt;color=0xffffffff&gt;身上取得&lt;C&gt;20&lt;/C&gt;颗&lt;I&gt;精英撕裂者的心脏&lt;/I&gt;前往泪海沼泽找到&lt;D&gt;&lt;L=s07,5010204&gt;雷丁&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

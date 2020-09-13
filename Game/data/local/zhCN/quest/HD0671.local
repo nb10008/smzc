@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30671" />
+    <entry Name="激烈的雪国大作战" />
+    <entry Conditions="" />
+    <entry Overview="在&lt;N&gt;东洲冥山&lt;/N&gt;中，&lt;N&gt;狂沙穴&lt;/N&gt;的&lt;A&gt;&lt;L=d09,1070060&gt;熔洞大型石魔&lt;/L&gt;&lt;/A&gt;和&lt;N&gt;翠玉乡&lt;/N&gt;的&lt;A&gt;&lt;L=s08,1070063&gt;天地蛮人&lt;/L&gt;&lt;/A&gt;正在破坏这次的圣诞活动，快去消灭它们。完成任务后可以到&lt;D&gt;&lt;L=s02,5600011&gt;雪国长者尼古拉&lt;/L&gt;&lt;/D&gt;那里领取奖励。" />
+</quest-local>

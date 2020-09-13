@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40058" />
+    <entry Name="初试净化" />
+    <entry Conditions="" />
+    <entry Overview="使用&lt;I&gt;魔化之瓶&lt;/I&gt;召唤出&lt;A&gt;瓶中怪&lt;/A&gt;，用&lt;S&gt;灵魂净化&lt;/S&gt;技能净化掉它的“魔气萦绕”状态后将其杀死并回复&lt;D&gt;&lt;L=s02,5010243&gt;三界主宰艾辛萨&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

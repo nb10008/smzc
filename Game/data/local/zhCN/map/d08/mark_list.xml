@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="东洲冥山" pos_x="11294" pos_y="2101" pos_z="16953"/>
+	<map_point id="2" type="1" show_name="悬赏榜" pos_x="14630" pos_y="2125" pos_z="17326"/>
+	<map_point id="3" type="2" show_name="原神教护法" pos_x="19623" pos_y="2171" pos_z="7893"/>
+	<map_point id="4" type="2" show_name="原神教神官" pos_x="21326" pos_y="2122" pos_z="24367"/>
+	<map_point id="5" type="2" show_name="原神教魔女" pos_x="11572" pos_y="2168" pos_z="43498"/>
+	<map_point id="6" type="2" show_name="恐怖卫士" pos_x="45955" pos_y="650" pos_z="35986"/>
+	<map_point id="7" type="2" show_name="原神教神官" pos_x="41708" pos_y="660" pos_z="26932"/>
+	<map_point id="8" type="2" show_name="原神教精英神官" pos_x="10478" pos_y="2126" pos_z="33982"/>
+	<map_point id="9" type="2" show_name="原神魔使" pos_x="45402" pos_y="663" pos_z="20024"/>
+	<map_point id="10" type="2" show_name="精英恐怖卫士" pos_x="38243" pos_y="692" pos_z="13540"/>
+	<map_point id="11" type="2" show_name="护法天伤" pos_x="25386" pos_y="2158" pos_z="47082"/>
+	<map_point id="12" type="2" show_name="神使彻天左" pos_x="48179" pos_y="723" pos_z="6956"/>
+</root>

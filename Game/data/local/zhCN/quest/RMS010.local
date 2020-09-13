@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20610" />
+    <entry Name="控魂纹章" />
+    <entry Conditions="" />
+    <entry Overview="从&lt;A&gt;&lt;L=d11,1070011&gt;原神教教徒&lt;/L&gt;&lt;/A&gt;、&lt;A&gt;&lt;L=d11,1070012&gt;原神教杀手&lt;/L&gt;&lt;/A&gt;身上收回&lt;C&gt;150&lt;/C&gt;份&lt;I&gt;控魂纹章&lt;/I&gt;，清除&lt;color=0xffff6000&gt;&lt;L=d11,1070053&gt;原神精英教徒&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;25&lt;/C&gt;名，&lt;color=0xffff0000&gt;&lt;L=d11,1070074&gt;千人杀米雪&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;1&lt;/C&gt;名，之后回复&lt;D&gt;&lt;L=s08,5010205&gt;奥克山&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

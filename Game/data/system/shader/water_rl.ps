@@ -1,0 +1,35 @@
+sampler g_bumpMap 		: register(s0);
+sampler g_alphaMap 		: register(s1);
+sampler g_reflectMap 	: register(s2);
+
+float 		g_bumpScale;
+float4 		g_blendColor;
+
+half4 main(  float3 alphaMap 	: TEXCOORD0,
+			 float3 reflectMap  : TEXCOORD1,
+			 float2 Wave0		: TEXCOORD2, 
+			 float2 Wave1		: TEXCOORD3,
+			 float2 Wave2		: TEXCOORD4, 
+			 float2 Wave3		: TEXCOORD5 ) : COLOR0
+{
+	half fAlpha = tex2D(g_alphaMap, alphaMap.xy).a;
+	
+	// Get bump layers
+    half3 vBumpTexA = tex2D(g_bumpMap, Wave0.xy).xyz;
+    half3 vBumpTexB = tex2D(g_bumpMap, Wave1.xy).xyz;
+    half3 vBumpTexC = tex2D(g_bumpMap, Wave2.xy).xyz;
+    half3 vBumpTexD = tex2D(g_bumpMap, Wave3.xy).xyz;
+  
+    // Average bump layers
+    half2 bump=normalize(2.0 * (vBumpTexA.xyz + vBumpTexB.xyz + vBumpTexC.xyz + vBumpTexD.xyz)-4.0).xy;
+	bump *= g_bumpScale * fAlpha;
+	
+	reflectMap.xy/=reflectMap.z;
+	half3 reflect=tex2D(g_reflectMap, reflectMap.xy+bump).rgb;
+	
+	half4 ret;	
+	ret.rgb=reflect.rgb*g_blendColor.a + g_blendColor.rgb*(1-g_blendColor.a);
+	ret.a = fAlpha==0?0:min(max(alphaMap.z/50,0.01),1);
+	
+	return ret;
+}

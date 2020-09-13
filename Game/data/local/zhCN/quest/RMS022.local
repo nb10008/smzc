@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20622" />
+    <entry Name="施以援手" />
+    <entry Conditions="" />
+    <entry Overview="再次与&lt;D&gt;&lt;L=s08,5010207&gt;索尔&lt;/L&gt;&lt;/D&gt;交谈。" />
+</quest-local>

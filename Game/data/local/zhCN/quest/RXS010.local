@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20010" />
+    <entry Name="统帅伊万夫" />
+    <entry Conditions="" />
+    <entry Overview="找到&lt;D&gt;&lt;L=m10,5010016&gt;统帅伊万夫&lt;/L&gt;&lt;/D&gt;（点击绿色字体进行自动寻路）" />
+</quest-local>

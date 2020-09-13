@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <PetSkill id="1300901" type1="1" type2="3" type3="6" cast_type="1" level="1" cast_condition="110" cooldown_time="500" work_time="0" wuxing_cost="0" spirit_cost="0" wuxing_add="0" learn_condition="1" potential_cost="0" learn_prob="10000" learn_step="0" learn_grade="1" learn_rolelvl="1" att1="-1" att2="-1" att3="-1" att4="-1" att5="-1" att6="-1" pet_att="-1" />
+</root>

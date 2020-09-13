@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="50037" />
+    <entry Name="元素神殿" />
+    <entry Conditions="" />
+    <entry Overview="到&lt;N&gt;元素神殿&lt;/N&gt;中，收集&lt;C&gt;10&lt;/C&gt;个元素核心，然后交付给&lt;D&gt;&lt;L=s02,1085203&gt;神殿日常任务发布人&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

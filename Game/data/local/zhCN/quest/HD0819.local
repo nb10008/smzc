@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30819" />
+    <entry Name="最靓的风景线！" />
+    <entry Conditions="跟showgirl交谈" />
+    <entry Overview="跟&lt;D&gt;&lt;L=s02,5610050&gt;showgirl小姐&lt;/L&gt;&lt;/D&gt;交谈，完成任务。" />
+</quest-local>

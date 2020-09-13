@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20311" />
+    <entry Name="冰冻的牙齿" />
+    <entry Conditions="" />
+    <entry Overview="在&lt;N&gt;白龙洞&lt;/N&gt;中找到&lt;color=0xffff0000&gt;&lt;L=d03,1040043&gt;寒狼之王&lt;/L&gt;&lt;color=0xffffffff&gt;，击败它后将&lt;I&gt;冰晶狼牙&lt;/I&gt;交给&lt;D&gt;&lt;L=d03,5010091&gt;雪荣&lt;/L&gt;&lt;/D&gt;。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv37]&lt;/S&gt;白银魔窟:37级后可挑战&lt;P&gt;副本白银魔窟&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;传说装备:40级后可获得&lt;I&gt;传说装备&lt;/I&gt;&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;师门任务:40级后可接取&lt;P&gt;师门任务&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;百鬼炼狱:40级后可参与&lt;P&gt;百鬼炼狱活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;斗技场:40级后&lt;P&gt;报名斗技场&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;公会战场:40级后可参与&lt;P&gt;公会战场&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv50]&lt;/S&gt;天之行会:50级后可接取&lt;P&gt;天之行会任务&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv60]&lt;/S&gt;职业进阶:60级后可进行&lt;T&gt;二次转职&lt;/T&gt;&#x0A;" />
+</quest-local>

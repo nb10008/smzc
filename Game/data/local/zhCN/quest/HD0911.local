@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30911" />
+    <entry Name="收集卡片" />
+    <entry Conditions="" />
+    <entry Overview="博博罗曼岛的&lt;M&gt;&lt;L=s61,5610095&gt;情人节天使&lt;/L&gt;&lt;/M&gt;正为情人节忙碌着，目前还缺少一些卡片（&lt;I&gt;拥抱卡&lt;/I&gt;、&lt;I&gt;依靠卡&lt;/I&gt;、&lt;I&gt;依偎卡&lt;/I&gt;、&lt;I&gt;亲密卡&lt;/I&gt;、&lt;I&gt;亲吻卡&lt;/I&gt;），如果你找到1个，可以交给&lt;M&gt;&lt;L=s61,5610095&gt;情人节天使&lt;/L&gt;&lt;/M&gt;获得奖励。\n各种卡片可以通过击杀野外怪物获得" />
+</quest-local>

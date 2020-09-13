@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <BeGoldStone id="1" GoldStoneType="1" ScrItemID="3030102" DestItemID1="3030001" DestItemPCT1="2000" DestItemID2="3030029" DestItemPCT2="2000" DestItemID3="3030072" DestItemPCT3="2000" DestItemID4="3030111" DestItemPCT4="4000" />
+    <BeGoldStone id="2" GoldStoneType="1" ScrItemID="3030103" DestItemID1="3030009" DestItemPCT1="2000" DestItemID2="3030037" DestItemPCT2="2000" DestItemID3="3030080" DestItemPCT3="2000" DestItemID4="3030111" DestItemPCT4="4000" />
+    <BeGoldStone id="3" GoldStoneType="1" ScrItemID="3030104" DestItemID1="3030001" DestItemPCT1="1500" DestItemID2="3030002" DestItemPCT2="500" DestItemID3="3030029" DestItemPCT3="1500" DestItemID4="3030030" DestItemPCT4="500" DestItemID5="3030072" DestItemPCT5="1500" DestItemID6="3030073" DestItemPCT6="500" DestItemID7="3030111" DestItemPCT7="4000" />
+    <BeGoldStone id="4" GoldStoneType="1" ScrItemID="3030105" DestItemID1="3030009" DestItemPCT1="1500" DestItemID2="3030010" DestItemPCT2="500" DestItemID3="3030037" DestItemPCT3="1500" DestItemID4="3030038" DestItemPCT4="500" DestItemID5="3030080" DestItemPCT5="1500" DestItemID6="3030081" DestItemPCT6="500" DestItemID7="3030111" DestItemPCT7="4000" />
+    <BeGoldStone id="5" GoldStoneType="2" ScrItemID="3030106" DestItemID1="3030001" DestItemPCT1="400" DestItemID2="3030002" DestItemPCT2="1000" DestItemID3="3030003" DestItemPCT3="100" DestItemID4="3030029" DestItemPCT4="600" DestItemID5="3030030" DestItemPCT5="1200" DestItemID6="3030031" DestItemPCT6="200" DestItemID7="3030072" DestItemPCT7="400" DestItemID8="3030073" DestItemPCT8="800" DestItemID9="3030074" DestItemPCT9="200" DestItemID10="3030023" DestItemPCT10="800" DestItemID11="3030051" DestItemPCT11="800" DestItemID12="3030093" DestItemPCT12="100" DestItemID13="3030096" DestItemPCT13="100" DestItemID14="3030099" DestItemPCT14="100" DestItemID15="3030111" DestItemPCT15="3200" />
+    <BeGoldStone id="6" GoldStoneType="2" ScrItemID="3030107" DestItemID1="3030009" DestItemPCT1="400" DestItemID2="3030010" DestItemPCT2="1000" DestItemID3="3030011" DestItemPCT3="100" DestItemID4="3030037" DestItemPCT4="600" DestItemID5="3030038" DestItemPCT5="1200" DestItemID6="3030039" DestItemPCT6="200" DestItemID7="3030080" DestItemPCT7="400" DestItemID8="3030081" DestItemPCT8="800" DestItemID9="3030082" DestItemPCT9="200" DestItemID10="3030017" DestItemPCT10="800" DestItemID11="3030045" DestItemPCT11="800" DestItemID12="3030093" DestItemPCT12="100" DestItemID13="3030096" DestItemPCT13="100" DestItemID14="3030099" DestItemPCT14="100" DestItemID15="3030111" DestItemPCT15="3200" />
+    <BeGoldStone id="7" GoldStoneType="3" ScrItemID="3030108" DestItemID1="3030002" DestItemPCT1="600" DestItemID2="3030003" DestItemPCT2="800" DestItemID3="3030004" DestItemPCT3="100" DestItemID4="3030030" DestItemPCT4="600" DestItemID5="3030031" DestItemPCT5="1000" DestItemID6="3030032" DestItemPCT6="200" DestItemID7="3030073" DestItemPCT7="600" DestItemID8="3030074" DestItemPCT8="800" DestItemID9="3030075" DestItemPCT9="200" DestItemID10="3030023" DestItemPCT10="800" DestItemID11="3030024" DestItemPCT11="400" DestItemID12="3030051" DestItemPCT12="800" DestItemID13="3030052" DestItemPCT13="400" DestItemID14="3030057" DestItemPCT14="200" DestItemID15="3030067" DestItemPCT15="200" DestItemID16="3030093" DestItemPCT16="100" DestItemID17="3030096" DestItemPCT17="100" DestItemID18="3030099" DestItemPCT18="100" DestItemID19="3030111" DestItemPCT19="2000" />
+    <BeGoldStone id="8" GoldStoneType="3" ScrItemID="3030109" DestItemID1="3030010" DestItemPCT1="600" DestItemID2="3030011" DestItemPCT2="800" DestItemID3="3030012" DestItemPCT3="100" DestItemID4="3030038" DestItemPCT4="600" DestItemID5="3030039" DestItemPCT5="1000" DestItemID6="3030040" DestItemPCT6="200" DestItemID7="3030081" DestItemPCT7="600" DestItemID8="3030082" DestItemPCT8="800" DestItemID9="3030083" DestItemPCT9="200" DestItemID10="3030017" DestItemPCT10="800" DestItemID11="3030018" DestItemPCT11="400" DestItemID12="3030045" DestItemPCT12="800" DestItemID13="3030046" DestItemPCT13="400" DestItemID14="3030062" DestItemPCT14="200" DestItemID15="3030088" DestItemPCT15="200" DestItemID16="3030093" DestItemPCT16="100" DestItemID17="3030096" DestItemPCT17="100" DestItemID18="3030099" DestItemPCT18="100" DestItemID19="3030111" DestItemPCT19="2000" />
+    <BeGoldStone id="9" GoldStoneType="3" ScrItemID="3030110" DestItemID1="3030003" DestItemPCT1="800" DestItemID2="3030004" DestItemPCT2="400" DestItemID3="3030011" DestItemPCT3="1000" DestItemID4="3030012" DestItemPCT4="600" DestItemID5="3030031" DestItemPCT5="800" DestItemID6="3030032" DestItemPCT6="400" DestItemID7="3030039" DestItemPCT7="1000" DestItemID8="3030040" DestItemPCT8="600" DestItemID9="3030074" DestItemPCT9="800" DestItemID10="3030075" DestItemPCT10="400" DestItemID11="3030082" DestItemPCT11="1000" DestItemID12="3030083" DestItemPCT12="600" DestItemID13="3030111" DestItemPCT13="1600" />
+    <BeGoldStone id="10" GoldStoneType="4" ScrItemID="4080056" DestItemID1="4080058" DestItemPCT1="1000" DestItemID2="4080059" DestItemPCT2="1000" DestItemID3="4080060" DestItemPCT3="1000" DestItemID4="4080061" DestItemPCT4="1000" DestItemID5="4080062" DestItemPCT5="5000" DestItemID6="3020004" DestItemPCT6="1000" />
+    <BeGoldStone id="11" GoldStoneType="5" ScrItemID="3030201" DestItemID1="3030002" DestItemPCT1="10000" />
+    <BeGoldStone id="12" GoldStoneType="5" ScrItemID="3030202" DestItemID1="3030003" DestItemPCT1="10000" />
+    <BeGoldStone id="13" GoldStoneType="5" ScrItemID="3030208" DestItemID1="3030010" DestItemPCT1="10000" />
+    <BeGoldStone id="14" GoldStoneType="5" ScrItemID="3030209" DestItemID1="3030011" DestItemPCT1="10000" />
+    <BeGoldStone id="15" GoldStoneType="5" ScrItemID="3030215" DestItemID1="3030030" DestItemPCT1="10000" />
+    <BeGoldStone id="16" GoldStoneType="5" ScrItemID="3030216" DestItemID1="3030031" DestItemPCT1="10000" />
+    <BeGoldStone id="17" GoldStoneType="5" ScrItemID="3030222" DestItemID1="3030038" DestItemPCT1="10000" />
+    <BeGoldStone id="18" GoldStoneType="5" ScrItemID="3030223" DestItemID1="3030039" DestItemPCT1="10000" />
+    <BeGoldStone id="19" GoldStoneType="5" ScrItemID="3030234" DestItemID1="3030073" DestItemPCT1="10000" />
+    <BeGoldStone id="20" GoldStoneType="5" ScrItemID="3030235" DestItemID1="3030074" DestItemPCT1="10000" />
+    <BeGoldStone id="21" GoldStoneType="5" ScrItemID="3030241" DestItemID1="3030081" DestItemPCT1="10000" />
+    <BeGoldStone id="22" GoldStoneType="5" ScrItemID="3030242" DestItemID1="3030082" DestItemPCT1="10000" />
+    <BeGoldStone id="23" GoldStoneType="6" ScrItemID="3030203" DestItemID1="3030004" DestItemPCT1="10000" />
+    <BeGoldStone id="24" GoldStoneType="6" ScrItemID="3030204" DestItemID1="3030005" DestItemPCT1="10000" />
+    <BeGoldStone id="25" GoldStoneType="6" ScrItemID="3030210" DestItemID1="3030012" DestItemPCT1="10000" />
+    <BeGoldStone id="26" GoldStoneType="6" ScrItemID="3030211" DestItemID1="3030013" DestItemPCT1="10000" />
+    <BeGoldStone id="27" GoldStoneType="6" ScrItemID="3030217" DestItemID1="3030032" DestItemPCT1="10000" />
+    <BeGoldStone id="28" GoldStoneType="6" ScrItemID="3030218" DestItemID1="3030033" DestItemPCT1="10000" />
+    <BeGoldStone id="29" GoldStoneType="6" ScrItemID="3030224" DestItemID1="3030040" DestItemPCT1="10000" />
+    <BeGoldStone id="30" GoldStoneType="6" ScrItemID="3030225" DestItemID1="3030041" DestItemPCT1="10000" />
+    <BeGoldStone id="31" GoldStoneType="6" ScrItemID="3030229" DestItemID1="3030067" DestItemPCT1="10000" />
+    <BeGoldStone id="32" GoldStoneType="6" ScrItemID="3030230" DestItemID1="3030068" DestItemPCT1="10000" />
+    <BeGoldStone id="33" GoldStoneType="6" ScrItemID="3030236" DestItemID1="3030075" DestItemPCT1="10000" />
+    <BeGoldStone id="34" GoldStoneType="6" ScrItemID="3030237" DestItemID1="3030076" DestItemPCT1="10000" />
+    <BeGoldStone id="35" GoldStoneType="6" ScrItemID="3030243" DestItemID1="3030083" DestItemPCT1="10000" />
+    <BeGoldStone id="36" GoldStoneType="6" ScrItemID="3030244" DestItemID1="3030084" DestItemPCT1="10000" />
+    <BeGoldStone id="37" GoldStoneType="6" ScrItemID="3030248" DestItemID1="3030088" DestItemPCT1="10000" />
+    <BeGoldStone id="38" GoldStoneType="6" ScrItemID="3030249" DestItemID1="3030089" DestItemPCT1="10000" />
+    <BeGoldStone id="39" GoldStoneType="7" ScrItemID="3030205" DestItemID1="3030006" DestItemPCT1="10000" />
+    <BeGoldStone id="40" GoldStoneType="7" ScrItemID="3030206" DestItemID1="3030007" DestItemPCT1="10000" />
+    <BeGoldStone id="41" GoldStoneType="7" ScrItemID="3030212" DestItemID1="3030014" DestItemPCT1="10000" />
+    <BeGoldStone id="42" GoldStoneType="7" ScrItemID="3030213" DestItemID1="3030015" DestItemPCT1="10000" />
+    <BeGoldStone id="43" GoldStoneType="7" ScrItemID="3030219" DestItemID1="3030034" DestItemPCT1="10000" />
+    <BeGoldStone id="44" GoldStoneType="7" ScrItemID="3030220" DestItemID1="3030035" DestItemPCT1="10000" />
+    <BeGoldStone id="45" GoldStoneType="7" ScrItemID="3030226" DestItemID1="3030042" DestItemPCT1="10000" />
+    <BeGoldStone id="46" GoldStoneType="7" ScrItemID="3030227" DestItemID1="3030043" DestItemPCT1="10000" />
+    <BeGoldStone id="47" GoldStoneType="7" ScrItemID="3030231" DestItemID1="3030069" DestItemPCT1="10000" />
+    <BeGoldStone id="48" GoldStoneType="7" ScrItemID="3030232" DestItemID1="3030070" DestItemPCT1="10000" />
+    <BeGoldStone id="49" GoldStoneType="7" ScrItemID="3030238" DestItemID1="3030077" DestItemPCT1="10000" />
+    <BeGoldStone id="50" GoldStoneType="7" ScrItemID="3030239" DestItemID1="3030078" DestItemPCT1="10000" />
+    <BeGoldStone id="51" GoldStoneType="7" ScrItemID="3030245" DestItemID1="3030085" DestItemPCT1="10000" />
+    <BeGoldStone id="52" GoldStoneType="7" ScrItemID="3030246" DestItemID1="3030086" DestItemPCT1="10000" />
+    <BeGoldStone id="53" GoldStoneType="7" ScrItemID="3030250" DestItemID1="3030090" DestItemPCT1="10000" />
+    <BeGoldStone id="54" GoldStoneType="7" ScrItemID="3030251" DestItemID1="3030091" DestItemPCT1="10000" />
+    <BeGoldStone id="55" GoldStoneType="8" ScrItemID="3030207" DestItemID1="3030008" DestItemPCT1="10000" />
+    <BeGoldStone id="56" GoldStoneType="8" ScrItemID="3030214" DestItemID1="3030016" DestItemPCT1="10000" />
+    <BeGoldStone id="57" GoldStoneType="8" ScrItemID="3030221" DestItemID1="3030036" DestItemPCT1="10000" />
+    <BeGoldStone id="58" GoldStoneType="8" ScrItemID="3030228" DestItemID1="3030044" DestItemPCT1="10000" />
+    <BeGoldStone id="59" GoldStoneType="8" ScrItemID="3030233" DestItemID1="3030071" DestItemPCT1="10000" />
+    <BeGoldStone id="60" GoldStoneType="8" ScrItemID="3030240" DestItemID1="3030079" DestItemPCT1="10000" />
+    <BeGoldStone id="61" GoldStoneType="8" ScrItemID="3030247" DestItemID1="3030087" DestItemPCT1="10000" />
+    <BeGoldStone id="62" GoldStoneType="8" ScrItemID="3030252" DestItemID1="3030092" DestItemPCT1="10000" />
+    <BeGoldStone id="63" GoldStoneType="9" ScrItemID="8017007" DestItemID1="8017009" DestItemPCT1="9990" DestItemID2="8013007" DestItemPCT2="10" />
+    <BeGoldStone id="64" GoldStoneType="9" ScrItemID="8017008" DestItemID1="8017010" DestItemPCT1="9990" DestItemID2="8013009" DestItemPCT2="10" />
+    <BeGoldStone id="65" GoldStoneType="9" ScrItemID="8027007" DestItemID1="8027009" DestItemPCT1="9990" DestItemID2="8023007" DestItemPCT2="10" />
+    <BeGoldStone id="66" GoldStoneType="9" ScrItemID="8027008" DestItemID1="8027010" DestItemPCT1="9990" DestItemID2="8023009" DestItemPCT2="10" />
+    <BeGoldStone id="67" GoldStoneType="9" ScrItemID="8037007" DestItemID1="8037009" DestItemPCT1="9990" DestItemID2="8033007" DestItemPCT2="10" />
+    <BeGoldStone id="68" GoldStoneType="9" ScrItemID="8037008" DestItemID1="8037010" DestItemPCT1="9990" DestItemID2="8033009" DestItemPCT2="10" />
+    <BeGoldStone id="69" GoldStoneType="9" ScrItemID="8047007" DestItemID1="8047009" DestItemPCT1="9990" DestItemID2="8043007" DestItemPCT2="10" />
+    <BeGoldStone id="70" GoldStoneType="9" ScrItemID="8047008" DestItemID1="8047010" DestItemPCT1="9990" DestItemID2="8043009" DestItemPCT2="10" />
+    <BeGoldStone id="71" GoldStoneType="9" ScrItemID="8050807" DestItemID1="8050809" DestItemPCT1="9990" DestItemID2="8050307" DestItemPCT2="10" />
+    <BeGoldStone id="72" GoldStoneType="9" ScrItemID="8050808" DestItemID1="8050810" DestItemPCT1="9990" DestItemID2="8050309" DestItemPCT2="10" />
+    <BeGoldStone id="73" GoldStoneType="9" ScrItemID="8050811" DestItemID1="8050813" DestItemPCT1="9990" DestItemID2="8050407" DestItemPCT2="10" />
+    <BeGoldStone id="74" GoldStoneType="9" ScrItemID="8050812" DestItemID1="8050814" DestItemPCT1="9990" DestItemID2="8050409" DestItemPCT2="10" />
+    <BeGoldStone id="75" GoldStoneType="9" ScrItemID="8051807" DestItemID1="8051809" DestItemPCT1="9990" DestItemID2="8051307" DestItemPCT2="10" />
+    <BeGoldStone id="76" GoldStoneType="9" ScrItemID="8051808" DestItemID1="8051810" DestItemPCT1="9990" DestItemID2="8051309" DestItemPCT2="10" />
+    <BeGoldStone id="77" GoldStoneType="9" ScrItemID="8051811" DestItemID1="8051813" DestItemPCT1="9990" DestItemID2="8051407" DestItemPCT2="10" />
+    <BeGoldStone id="78" GoldStoneType="9" ScrItemID="8051812" DestItemID1="8051814" DestItemPCT1="9990" DestItemID2="8051409" DestItemPCT2="10" />
+    <BeGoldStone id="79" GoldStoneType="9" ScrItemID="8060807" DestItemID1="8060809" DestItemPCT1="9990" DestItemID2="8060307" DestItemPCT2="10" />
+    <BeGoldStone id="80" GoldStoneType="9" ScrItemID="8060808" DestItemID1="8060810" DestItemPCT1="9990" DestItemID2="8060309" DestItemPCT2="10" />
+    <BeGoldStone id="81" GoldStoneType="9" ScrItemID="8060811" DestItemID1="8060813" DestItemPCT1="9990" DestItemID2="8060407" DestItemPCT2="10" />
+    <BeGoldStone id="82" GoldStoneType="9" ScrItemID="8060812" DestItemID1="8060814" DestItemPCT1="9990" DestItemID2="8060409" DestItemPCT2="10" />
+    <BeGoldStone id="83" GoldStoneType="9" ScrItemID="8061807" DestItemID1="8061809" DestItemPCT1="9990" DestItemID2="8061307" DestItemPCT2="10" />
+    <BeGoldStone id="84" GoldStoneType="9" ScrItemID="8061808" DestItemID1="8061810" DestItemPCT1="9990" DestItemID2="8061309" DestItemPCT2="10" />
+    <BeGoldStone id="85" GoldStoneType="9" ScrItemID="8061811" DestItemID1="8061813" DestItemPCT1="9990" DestItemID2="8061407" DestItemPCT2="10" />
+    <BeGoldStone id="86" GoldStoneType="9" ScrItemID="8061812" DestItemID1="8061814" DestItemPCT1="9990" DestItemID2="8061409" DestItemPCT2="10" />
+    <BeGoldStone id="87" GoldStoneType="9" ScrItemID="8070807" DestItemID1="8070809" DestItemPCT1="9990" DestItemID2="8070307" DestItemPCT2="10" />
+    <BeGoldStone id="88" GoldStoneType="9" ScrItemID="8070808" DestItemID1="8070810" DestItemPCT1="9990" DestItemID2="8070309" DestItemPCT2="10" />
+    <BeGoldStone id="89" GoldStoneType="9" ScrItemID="8070811" DestItemID1="8070813" DestItemPCT1="9990" DestItemID2="8070407" DestItemPCT2="10" />
+    <BeGoldStone id="90" GoldStoneType="9" ScrItemID="8070812" DestItemID1="8070814" DestItemPCT1="9990" DestItemID2="8070409" DestItemPCT2="10" />
+    <BeGoldStone id="91" GoldStoneType="9" ScrItemID="8071807" DestItemID1="8071809" DestItemPCT1="9990" DestItemID2="8071307" DestItemPCT2="10" />
+    <BeGoldStone id="92" GoldStoneType="9" ScrItemID="8071808" DestItemID1="8071810" DestItemPCT1="9990" DestItemID2="8071309" DestItemPCT2="10" />
+    <BeGoldStone id="93" GoldStoneType="9" ScrItemID="8071811" DestItemID1="8071813" DestItemPCT1="9990" DestItemID2="8071407" DestItemPCT2="10" />
+    <BeGoldStone id="94" GoldStoneType="9" ScrItemID="8071812" DestItemID1="8071814" DestItemPCT1="9990" DestItemID2="8071409" DestItemPCT2="10" />
+    <BeGoldStone id="95" GoldStoneType="9" ScrItemID="8080807" DestItemID1="8080809" DestItemPCT1="9990" DestItemID2="8080307" DestItemPCT2="10" />
+    <BeGoldStone id="96" GoldStoneType="9" ScrItemID="8080808" DestItemID1="8080810" DestItemPCT1="9990" DestItemID2="8080309" DestItemPCT2="10" />
+    <BeGoldStone id="97" GoldStoneType="9" ScrItemID="8080811" DestItemID1="8080813" DestItemPCT1="9990" DestItemID2="8080407" DestItemPCT2="10" />
+    <BeGoldStone id="98" GoldStoneType="9" ScrItemID="8080812" DestItemID1="8080814" DestItemPCT1="9990" DestItemID2="8080409" DestItemPCT2="10" />
+    <BeGoldStone id="99" GoldStoneType="9" ScrItemID="8081807" DestItemID1="8081809" DestItemPCT1="9990" DestItemID2="8081307" DestItemPCT2="10" />
+    <BeGoldStone id="100" GoldStoneType="9" ScrItemID="8081808" DestItemID1="8081810" DestItemPCT1="9990" DestItemID2="8081309" DestItemPCT2="10" />
+    <BeGoldStone id="101" GoldStoneType="9" ScrItemID="8081811" DestItemID1="8081813" DestItemPCT1="9990" DestItemID2="8081407" DestItemPCT2="10" />
+    <BeGoldStone id="102" GoldStoneType="9" ScrItemID="8081812" DestItemID1="8081814" DestItemPCT1="9990" DestItemID2="8081409" DestItemPCT2="10" />
+    <BeGoldStone id="103" GoldStoneType="9" ScrItemID="8090807" DestItemID1="8090809" DestItemPCT1="9990" DestItemID2="8090307" DestItemPCT2="10" />
+    <BeGoldStone id="104" GoldStoneType="9" ScrItemID="8090808" DestItemID1="8090810" DestItemPCT1="9990" DestItemID2="8090309" DestItemPCT2="10" />
+    <BeGoldStone id="105" GoldStoneType="9" ScrItemID="8090811" DestItemID1="8090813" DestItemPCT1="9990" DestItemID2="8090407" DestItemPCT2="10" />
+    <BeGoldStone id="106" GoldStoneType="9" ScrItemID="8090812" DestItemID1="8090814" DestItemPCT1="9990" DestItemID2="8090409" DestItemPCT2="10" />
+    <BeGoldStone id="107" GoldStoneType="9" ScrItemID="8091807" DestItemID1="8091809" DestItemPCT1="9990" DestItemID2="8091307" DestItemPCT2="10" />
+    <BeGoldStone id="108" GoldStoneType="9" ScrItemID="8091808" DestItemID1="8091810" DestItemPCT1="9990" DestItemID2="8091309" DestItemPCT2="10" />
+    <BeGoldStone id="109" GoldStoneType="9" ScrItemID="8091811" DestItemID1="8091813" DestItemPCT1="9990" DestItemID2="8091407" DestItemPCT2="10" />
+    <BeGoldStone id="110" GoldStoneType="9" ScrItemID="8091812" DestItemID1="8091814" DestItemPCT1="9990" DestItemID2="8091409" DestItemPCT2="10" />
+    <BeGoldStone id="111" GoldStoneType="9" ScrItemID="8101207" DestItemID1="8101209" DestItemPCT1="9990" DestItemID2="8100307" DestItemPCT2="10" />
+    <BeGoldStone id="112" GoldStoneType="9" ScrItemID="8101208" DestItemID1="8101210" DestItemPCT1="9990" DestItemID2="8100309" DestItemPCT2="10" />
+    <BeGoldStone id="113" GoldStoneType="9" ScrItemID="8101211" DestItemID1="8101213" DestItemPCT1="9990" DestItemID2="8100407" DestItemPCT2="10" />
+    <BeGoldStone id="114" GoldStoneType="9" ScrItemID="8101212" DestItemID1="8101214" DestItemPCT1="9990" DestItemID2="8100409" DestItemPCT2="10" />
+    <BeGoldStone id="115" GoldStoneType="9" ScrItemID="8101215" DestItemID1="8101217" DestItemPCT1="9990" DestItemID2="8100507" DestItemPCT2="10" />
+    <BeGoldStone id="116" GoldStoneType="9" ScrItemID="8101216" DestItemID1="8101218" DestItemPCT1="9990" DestItemID2="8100509" DestItemPCT2="10" />
+    <BeGoldStone id="117" GoldStoneType="9" ScrItemID="8101219" DestItemID1="8101221" DestItemPCT1="9990" DestItemID2="8100607" DestItemPCT2="10" />
+    <BeGoldStone id="118" GoldStoneType="9" ScrItemID="8101220" DestItemID1="8101222" DestItemPCT1="9990" DestItemID2="8100609" DestItemPCT2="10" />
+    <BeGoldStone id="119" GoldStoneType="9" ScrItemID="8110807" DestItemID1="8110809" DestItemPCT1="9990" DestItemID2="8110307" DestItemPCT2="10" />
+    <BeGoldStone id="120" GoldStoneType="9" ScrItemID="8110808" DestItemID1="8110810" DestItemPCT1="9990" DestItemID2="8110309" DestItemPCT2="10" />
+    <BeGoldStone id="121" GoldStoneType="9" ScrItemID="8111807" DestItemID1="8111809" DestItemPCT1="9990" DestItemID2="8111307" DestItemPCT2="10" />
+    <BeGoldStone id="122" GoldStoneType="9" ScrItemID="8111808" DestItemID1="8111810" DestItemPCT1="9990" DestItemID2="8111309" DestItemPCT2="10" />
+    <BeGoldStone id="123" GoldStoneType="9" ScrItemID="8121807" DestItemID1="8121809" DestItemPCT1="9990" DestItemID2="8121307" DestItemPCT2="10" />
+    <BeGoldStone id="124" GoldStoneType="9" ScrItemID="8121808" DestItemID1="8121810" DestItemPCT1="9990" DestItemID2="8121309" DestItemPCT2="10" />
+    <BeGoldStone id="125" GoldStoneType="9" ScrItemID="8122807" DestItemID1="8122809" DestItemPCT1="9990" DestItemID2="8122307" DestItemPCT2="10" />
+    <BeGoldStone id="126" GoldStoneType="9" ScrItemID="8122808" DestItemID1="8122810" DestItemPCT1="9990" DestItemID2="8122309" DestItemPCT2="10" />
+    <BeGoldStone id="127" GoldStoneType="9" ScrItemID="8130807" DestItemID1="8130809" DestItemPCT1="9990" DestItemID2="8130307" DestItemPCT2="10" />
+    <BeGoldStone id="128" GoldStoneType="9" ScrItemID="8130808" DestItemID1="8130810" DestItemPCT1="9990" DestItemID2="8130309" DestItemPCT2="10" />
+    <BeGoldStone id="129" GoldStoneType="9" ScrItemID="8130811" DestItemID1="8130813" DestItemPCT1="9990" DestItemID2="8130407" DestItemPCT2="10" />
+    <BeGoldStone id="130" GoldStoneType="9" ScrItemID="8130812" DestItemID1="8130814" DestItemPCT1="9990" DestItemID2="8130409" DestItemPCT2="10" />
+    <BeGoldStone id="131" GoldStoneType="10" ScrItemID="8160001" DestItemID1="4400032" DestItemPCT1="10000" />
+    <BeGoldStone id="132" GoldStoneType="10" ScrItemID="8160002" DestItemID1="4400032" DestItemPCT1="10000" />
+    <BeGoldStone id="133" GoldStoneType="10" ScrItemID="8160003" DestItemID1="4400032" DestItemPCT1="10000" />
+    <BeGoldStone id="134" GoldStoneType="10" ScrItemID="8160004" DestItemID1="4400032" DestItemPCT1="10000" />
+    <BeGoldStone id="135" GoldStoneType="10" ScrItemID="8160005" DestItemID1="4400034" DestItemPCT1="10000" />
+    <BeGoldStone id="136" GoldStoneType="10" ScrItemID="8160006" DestItemID1="4400034" DestItemPCT1="10000" />
+    <BeGoldStone id="137" GoldStoneType="10" ScrItemID="8160007" DestItemID1="4400034" DestItemPCT1="10000" />
+    <BeGoldStone id="138" GoldStoneType="10" ScrItemID="8160008" DestItemID1="4400034" DestItemPCT1="10000" />
+    <BeGoldStone id="139" GoldStoneType="10" ScrItemID="8160009" DestItemID1="4400036" DestItemPCT1="10000" />
+    <BeGoldStone id="140" GoldStoneType="10" ScrItemID="8160010" DestItemID1="4400036" DestItemPCT1="10000" />
+    <BeGoldStone id="141" GoldStoneType="10" ScrItemID="8160011" DestItemID1="4400036" DestItemPCT1="10000" />
+    <BeGoldStone id="142" GoldStoneType="10" ScrItemID="8160012" DestItemID1="4400036" DestItemPCT1="10000" />
+    <BeGoldStone id="143" GoldStoneType="10" ScrItemID="8160013" DestItemID1="4400038" DestItemPCT1="10000" />
+    <BeGoldStone id="144" GoldStoneType="10" ScrItemID="8160014" DestItemID1="4400038" DestItemPCT1="10000" />
+    <BeGoldStone id="145" GoldStoneType="10" ScrItemID="8160015" DestItemID1="4400038" DestItemPCT1="10000" />
+    <BeGoldStone id="146" GoldStoneType="10" ScrItemID="8160016" DestItemID1="4400038" DestItemPCT1="10000" />
+    <BeGoldStone id="147" GoldStoneType="10" ScrItemID="8160017" DestItemID1="4400040" DestItemPCT1="10000" />
+    <BeGoldStone id="148" GoldStoneType="10" ScrItemID="8160018" DestItemID1="4400040" DestItemPCT1="10000" />
+    <BeGoldStone id="149" GoldStoneType="10" ScrItemID="8160019" DestItemID1="4400040" DestItemPCT1="10000" />
+    <BeGoldStone id="150" GoldStoneType="10" ScrItemID="8160020" DestItemID1="4400040" DestItemPCT1="10000" />
+    <BeGoldStone id="151" GoldStoneType="10" ScrItemID="8160021" DestItemID1="4400042" DestItemPCT1="10000" />
+    <BeGoldStone id="152" GoldStoneType="10" ScrItemID="8160022" DestItemID1="4400042" DestItemPCT1="10000" />
+    <BeGoldStone id="153" GoldStoneType="10" ScrItemID="8170001" DestItemID1="4400033" DestItemPCT1="10000" />
+    <BeGoldStone id="154" GoldStoneType="10" ScrItemID="8170002" DestItemID1="4400033" DestItemPCT1="10000" />
+    <BeGoldStone id="155" GoldStoneType="10" ScrItemID="8170003" DestItemID1="4400033" DestItemPCT1="10000" />
+    <BeGoldStone id="156" GoldStoneType="10" ScrItemID="8170004" DestItemID1="4400033" DestItemPCT1="10000" />
+    <BeGoldStone id="157" GoldStoneType="10" ScrItemID="8170005" DestItemID1="4400035" DestItemPCT1="10000" />
+    <BeGoldStone id="158" GoldStoneType="10" ScrItemID="8170006" DestItemID1="4400035" DestItemPCT1="10000" />
+    <BeGoldStone id="159" GoldStoneType="10" ScrItemID="8170007" DestItemID1="4400035" DestItemPCT1="10000" />
+    <BeGoldStone id="160" GoldStoneType="10" ScrItemID="8170008" DestItemID1="4400035" DestItemPCT1="10000" />
+    <BeGoldStone id="161" GoldStoneType="10" ScrItemID="8170009" DestItemID1="4400037" DestItemPCT1="10000" />
+    <BeGoldStone id="162" GoldStoneType="10" ScrItemID="8170010" DestItemID1="4400037" DestItemPCT1="10000" />
+    <BeGoldStone id="163" GoldStoneType="10" ScrItemID="8170011" DestItemID1="4400037" DestItemPCT1="10000" />
+    <BeGoldStone id="164" GoldStoneType="10" ScrItemID="8170012" DestItemID1="4400037" DestItemPCT1="10000" />
+    <BeGoldStone id="165" GoldStoneType="10" ScrItemID="8170013" DestItemID1="4400039" DestItemPCT1="10000" />
+    <BeGoldStone id="166" GoldStoneType="10" ScrItemID="8170014" DestItemID1="4400039" DestItemPCT1="10000" />
+    <BeGoldStone id="167" GoldStoneType="10" ScrItemID="8170015" DestItemID1="4400039" DestItemPCT1="10000" />
+    <BeGoldStone id="168" GoldStoneType="10" ScrItemID="8170016" DestItemID1="4400039" DestItemPCT1="10000" />
+    <BeGoldStone id="169" GoldStoneType="10" ScrItemID="8170017" DestItemID1="4400041" DestItemPCT1="10000" />
+    <BeGoldStone id="170" GoldStoneType="10" ScrItemID="8170018" DestItemID1="4400041" DestItemPCT1="10000" />
+    <BeGoldStone id="171" GoldStoneType="10" ScrItemID="8170019" DestItemID1="4400041" DestItemPCT1="10000" />
+    <BeGoldStone id="172" GoldStoneType="10" ScrItemID="8170020" DestItemID1="4400041" DestItemPCT1="10000" />
+    <BeGoldStone id="173" GoldStoneType="10" ScrItemID="8170021" DestItemID1="4400042" DestItemPCT1="10000" />
+    <BeGoldStone id="174" GoldStoneType="10" ScrItemID="8170022" DestItemID1="4400042" DestItemPCT1="10000" />
+    <BeGoldStone id="175" GoldStoneType="11" ScrItemID="8013007" DestItemID1="8013007" DestItemPCT1="10000" />
+    <BeGoldStone id="176" GoldStoneType="11" ScrItemID="8013009" DestItemID1="8013009" DestItemPCT1="10000" />
+    <BeGoldStone id="177" GoldStoneType="11" ScrItemID="8013010" DestItemID1="8013010" DestItemPCT1="10000" />
+    <BeGoldStone id="178" GoldStoneType="11" ScrItemID="8013011" DestItemID1="8013011" DestItemPCT1="10000" />
+    <BeGoldStone id="179" GoldStoneType="11" ScrItemID="8014010" DestItemID1="8014010" DestItemPCT1="10000" />
+    <BeGoldStone id="180" GoldStoneType="11" ScrItemID="8016001" DestItemID1="8016001" DestItemPCT1="10000" />
+    <BeGoldStone id="181" GoldStoneType="11" ScrItemID="8016002" DestItemID1="8016002" DestItemPCT1="10000" />
+    <BeGoldStone id="182" GoldStoneType="11" ScrItemID="8016003" DestItemID1="8016003" DestItemPCT1="10000" />
+    <BeGoldStone id="183" GoldStoneType="11" ScrItemID="8023007" DestItemID1="8023007" DestItemPCT1="10000" />
+    <BeGoldStone id="184" GoldStoneType="11" ScrItemID="8023009" DestItemID1="8023009" DestItemPCT1="10000" />
+    <BeGoldStone id="185" GoldStoneType="11" ScrItemID="8023010" DestItemID1="8023010" DestItemPCT1="10000" />
+    <BeGoldStone id="186" GoldStoneType="11" ScrItemID="8023011" DestItemID1="8023011" DestItemPCT1="10000" />
+    <BeGoldStone id="187" GoldStoneType="11" ScrItemID="8024010" DestItemID1="8024010" DestItemPCT1="10000" />
+    <BeGoldStone id="188" GoldStoneType="11" ScrItemID="8026001" DestItemID1="8026001" DestItemPCT1="10000" />
+    <BeGoldStone id="189" GoldStoneType="11" ScrItemID="8026002" DestItemID1="8026002" DestItemPCT1="10000" />
+    <BeGoldStone id="190" GoldStoneType="11" ScrItemID="8026003" DestItemID1="8026003" DestItemPCT1="10000" />
+    <BeGoldStone id="191" GoldStoneType="11" ScrItemID="8033007" DestItemID1="8033007" DestItemPCT1="10000" />
+    <BeGoldStone id="192" GoldStoneType="11" ScrItemID="8033009" DestItemID1="8033009" DestItemPCT1="10000" />
+    <BeGoldStone id="193" GoldStoneType="11" ScrItemID="8033010" DestItemID1="8033010" DestItemPCT1="10000" />
+    <BeGoldStone id="194" GoldStoneType="11" ScrItemID="8033011" DestItemID1="8033011" DestItemPCT1="10000" />
+    <BeGoldStone id="195" GoldStoneType="11" ScrItemID="8034010" DestItemID1="8034010" DestItemPCT1="10000" />
+    <BeGoldStone id="196" GoldStoneType="11" ScrItemID="8036001" DestItemID1="8036001" DestItemPCT1="10000" />
+    <BeGoldStone id="197" GoldStoneType="11" ScrItemID="8036002" DestItemID1="8036002" DestItemPCT1="10000" />
+    <BeGoldStone id="198" GoldStoneType="11" ScrItemID="8036003" DestItemID1="8036003" DestItemPCT1="10000" />
+    <BeGoldStone id="199" GoldStoneType="11" ScrItemID="8043007" DestItemID1="8043007" DestItemPCT1="10000" />
+    <BeGoldStone id="200" GoldStoneType="11" ScrItemID="8043009" DestItemID1="8043009" DestItemPCT1="10000" />
+    <BeGoldStone id="201" GoldStoneType="11" ScrItemID="8043010" DestItemID1="8043010" DestItemPCT1="10000" />
+    <BeGoldStone id="202" GoldStoneType="11" ScrItemID="8043011" DestItemID1="8043011" DestItemPCT1="10000" />
+    <BeGoldStone id="203" GoldStoneType="11" ScrItemID="8044010" DestItemID1="8044010" DestItemPCT1="10000" />
+    <BeGoldStone id="204" GoldStoneType="11" ScrItemID="8046001" DestItemID1="8046001" DestItemPCT1="10000" />
+    <BeGoldStone id="205" GoldStoneType="11" ScrItemID="8046002" DestItemID1="8046002" DestItemPCT1="10000" />
+    <BeGoldStone id="206" GoldStoneType="11" ScrItemID="8046003" DestItemID1="8046003" DestItemPCT1="10000" />
+    <BeGoldStone id="207" GoldStoneType="11" ScrItemID="8050307" DestItemID1="8050307" DestItemPCT1="10000" />
+    <BeGoldStone id="208" GoldStoneType="11" ScrItemID="8050309" DestItemID1="8050309" DestItemPCT1="10000" />
+    <BeGoldStone id="209" GoldStoneType="11" ScrItemID="8050310" DestItemID1="8050310" DestItemPCT1="10000" />
+    <BeGoldStone id="210" GoldStoneType="11" ScrItemID="8050311" DestItemID1="8050311" DestItemPCT1="10000" />
+    <BeGoldStone id="211" GoldStoneType="11" ScrItemID="8050407" DestItemID1="8050407" DestItemPCT1="10000" />
+    <BeGoldStone id="212" GoldStoneType="11" ScrItemID="8050409" DestItemID1="8050409" DestItemPCT1="10000" />
+    <BeGoldStone id="213" GoldStoneType="11" ScrItemID="8050410" DestItemID1="8050410" DestItemPCT1="10000" />
+    <BeGoldStone id="214" GoldStoneType="11" ScrItemID="8050411" DestItemID1="8050411" DestItemPCT1="10000" />
+    <BeGoldStone id="215" GoldStoneType="11" ScrItemID="8050610" DestItemID1="8050610" DestItemPCT1="10000" />
+    <BeGoldStone id="216" GoldStoneType="11" ScrItemID="8051307" DestItemID1="8051307" DestItemPCT1="10000" />
+    <BeGoldStone id="217" GoldStoneType="11" ScrItemID="8051309" DestItemID1="8051309" DestItemPCT1="10000" />
+    <BeGoldStone id="218" GoldStoneType="11" ScrItemID="8051310" DestItemID1="8051310" DestItemPCT1="10000" />
+    <BeGoldStone id="219" GoldStoneType="11" ScrItemID="8051311" DestItemID1="8051311" DestItemPCT1="10000" />
+    <BeGoldStone id="220" GoldStoneType="11" ScrItemID="8051407" DestItemID1="8051407" DestItemPCT1="10000" />
+    <BeGoldStone id="221" GoldStoneType="11" ScrItemID="8051409" DestItemID1="8051409" DestItemPCT1="10000" />
+    <BeGoldStone id="222" GoldStoneType="11" ScrItemID="8051410" DestItemID1="8051410" DestItemPCT1="10000" />
+    <BeGoldStone id="223" GoldStoneType="11" ScrItemID="8051411" DestItemID1="8051411" DestItemPCT1="10000" />
+    <BeGoldStone id="224" GoldStoneType="11" ScrItemID="8051610" DestItemID1="8051610" DestItemPCT1="10000" />
+    <BeGoldStone id="225" GoldStoneType="11" ScrItemID="8060307" DestItemID1="8060307" DestItemPCT1="10000" />
+    <BeGoldStone id="226" GoldStoneType="11" ScrItemID="8060309" DestItemID1="8060309" DestItemPCT1="10000" />
+    <BeGoldStone id="227" GoldStoneType="11" ScrItemID="8060310" DestItemID1="8060310" DestItemPCT1="10000" />
+    <BeGoldStone id="228" GoldStoneType="11" ScrItemID="8060311" DestItemID1="8060311" DestItemPCT1="10000" />
+    <BeGoldStone id="229" GoldStoneType="11" ScrItemID="8060407" DestItemID1="8060407" DestItemPCT1="10000" />
+    <BeGoldStone id="230" GoldStoneType="11" ScrItemID="8060409" DestItemID1="8060409" DestItemPCT1="10000" />
+    <BeGoldStone id="231" GoldStoneType="11" ScrItemID="8060410" DestItemID1="8060410" DestItemPCT1="10000" />
+    <BeGoldStone id="232" GoldStoneType="11" ScrItemID="8060411" DestItemID1="8060411" DestItemPCT1="10000" />
+    <BeGoldStone id="233" GoldStoneType="11" ScrItemID="8060610" DestItemID1="8060610" DestItemPCT1="10000" />
+    <BeGoldStone id="234" GoldStoneType="11" ScrItemID="8061307" DestItemID1="8061307" DestItemPCT1="10000" />
+    <BeGoldStone id="235" GoldStoneType="11" ScrItemID="8061309" DestItemID1="8061309" DestItemPCT1="10000" />
+    <BeGoldStone id="236" GoldStoneType="11" ScrItemID="8061310" DestItemID1="8061310" DestItemPCT1="10000" />
+    <BeGoldStone id="237" GoldStoneType="11" ScrItemID="8061311" DestItemID1="8061311" DestItemPCT1="10000" />
+    <BeGoldStone id="238" GoldStoneType="11" ScrItemID="8061407" DestItemID1="8061407" DestItemPCT1="10000" />
+    <BeGoldStone id="239" GoldStoneType="11" ScrItemID="8061409" DestItemID1="8061409" DestItemPCT1="10000" />
+    <BeGoldStone id="240" GoldStoneType="11" ScrItemID="8061410" DestItemID1="8061410" DestItemPCT1="10000" />
+    <BeGoldStone id="241" GoldStoneType="11" ScrItemID="8061411" DestItemID1="8061411" DestItemPCT1="10000" />
+    <BeGoldStone id="242" GoldStoneType="11" ScrItemID="8061610" DestItemID1="8061610" DestItemPCT1="10000" />
+    <BeGoldStone id="243" GoldStoneType="11" ScrItemID="8070307" DestItemID1="8070307" DestItemPCT1="10000" />
+    <BeGoldStone id="244" GoldStoneType="11" ScrItemID="8070309" DestItemID1="8070309" DestItemPCT1="10000" />
+    <BeGoldStone id="245" GoldStoneType="11" ScrItemID="8070310" DestItemID1="8070310" DestItemPCT1="10000" />
+    <BeGoldStone id="246" GoldStoneType="11" ScrItemID="8070311" DestItemID1="8070311" DestItemPCT1="10000" />
+    <BeGoldStone id="247" GoldStoneType="11" ScrItemID="8070407" DestItemID1="8070407" DestItemPCT1="10000" />
+    <BeGoldStone id="248" GoldStoneType="11" ScrItemID="8070409" DestItemID1="8070409" DestItemPCT1="10000" />
+    <BeGoldStone id="249" GoldStoneType="11" ScrItemID="8070410" DestItemID1="8070410" DestItemPCT1="10000" />
+    <BeGoldStone id="250" GoldStoneType="11" ScrItemID="8070411" DestItemID1="8070411" DestItemPCT1="10000" />
+    <BeGoldStone id="251" GoldStoneType="11" ScrItemID="8070610" DestItemID1="8070610" DestItemPCT1="10000" />
+    <BeGoldStone id="252" GoldStoneType="11" ScrItemID="8071307" DestItemID1="8071307" DestItemPCT1="10000" />
+    <BeGoldStone id="253" GoldStoneType="11" ScrItemID="8071309" DestItemID1="8071309" DestItemPCT1="10000" />
+    <BeGoldStone id="254" GoldStoneType="11" ScrItemID="8071310" DestItemID1="8071310" DestItemPCT1="10000" />
+    <BeGoldStone id="255" GoldStoneType="11" ScrItemID="8071311" DestItemID1="8071311" DestItemPCT1="10000" />
+    <BeGoldStone id="256" GoldStoneType="11" ScrItemID="8071407" DestItemID1="8071407" DestItemPCT1="10000" />
+    <BeGoldStone id="257" GoldStoneType="11" ScrItemID="8071409" DestItemID1="8071409" DestItemPCT1="10000" />
+    <BeGoldStone id="258" GoldStoneType="11" ScrItemID="8071410" DestItemID1="8071410" DestItemPCT1="10000" />
+    <BeGoldStone id="259" GoldStoneType="11" ScrItemID="8071411" DestItemID1="8071411" DestItemPCT1="10000" />
+    <BeGoldStone id="260" GoldStoneType="11" ScrItemID="8071610" DestItemID1="8071610" DestItemPCT1="10000" />
+    <BeGoldStone id="261" GoldStoneType="11" ScrItemID="8080307" DestItemID1="8080307" DestItemPCT1="10000" />
+    <BeGoldStone id="262" GoldStoneType="11" ScrItemID="8080309" DestItemID1="8080309" DestItemPCT1="10000" />
+    <BeGoldStone id="263" GoldStoneType="11" ScrItemID="8080310" DestItemID1="8080310" DestItemPCT1="10000" />
+    <BeGoldStone id="264" GoldStoneType="11" ScrItemID="8080311" DestItemID1="8080311" DestItemPCT1="10000" />
+    <BeGoldStone id="265" GoldStoneType="11" ScrItemID="8080407" DestItemID1="8080407" DestItemPCT1="10000" />
+    <BeGoldStone id="266" GoldStoneType="11" ScrItemID="8080409" DestItemID1="8080409" DestItemPCT1="10000" />
+    <BeGoldStone id="267" GoldStoneType="11" ScrItemID="8080410" DestItemID1="8080410" DestItemPCT1="10000" />
+    <BeGoldStone id="268" GoldStoneType="11" ScrItemID="8080411" DestItemID1="8080411" DestItemPCT1="10000" />
+    <BeGoldStone id="269" GoldStoneType="11" ScrItemID="8080610" DestItemID1="8080610" DestItemPCT1="10000" />
+    <BeGoldStone id="270" GoldStoneType="11" ScrItemID="8081307" DestItemID1="8081307" DestItemPCT1="10000" />
+    <BeGoldStone id="271" GoldStoneType="11" ScrItemID="8081309" DestItemID1="8081309" DestItemPCT1="10000" />
+    <BeGoldStone id="272" GoldStoneType="11" ScrItemID="8081310" DestItemID1="8081310" DestItemPCT1="10000" />
+    <BeGoldStone id="273" GoldStoneType="11" ScrItemID="8081311" DestItemID1="8081311" DestItemPCT1="10000" />
+    <BeGoldStone id="274" GoldStoneType="11" ScrItemID="8081407" DestItemID1="8081407" DestItemPCT1="10000" />
+    <BeGoldStone id="275" GoldStoneType="11" ScrItemID="8081409" DestItemID1="8081409" DestItemPCT1="10000" />
+    <BeGoldStone id="276" GoldStoneType="11" ScrItemID="8081410" DestItemID1="8081410" DestItemPCT1="10000" />
+    <BeGoldStone id="277" GoldStoneType="11" ScrItemID="8081411" DestItemID1="8081411" DestItemPCT1="10000" />
+    <BeGoldStone id="278" GoldStoneType="11" ScrItemID="8081610" DestItemID1="8081610" DestItemPCT1="10000" />
+    <BeGoldStone id="279" GoldStoneType="11" ScrItemID="8090307" DestItemID1="8090307" DestItemPCT1="10000" />
+    <BeGoldStone id="280" GoldStoneType="11" ScrItemID="8090309" DestItemID1="8090309" DestItemPCT1="10000" />
+    <BeGoldStone id="281" GoldStoneType="11" ScrItemID="8090310" DestItemID1="8090310" DestItemPCT1="10000" />
+    <BeGoldStone id="282" GoldStoneType="11" ScrItemID="8090311" DestItemID1="8090311" DestItemPCT1="10000" />
+    <BeGoldStone id="283" GoldStoneType="11" ScrItemID="8090407" DestItemID1="8090407" DestItemPCT1="10000" />
+    <BeGoldStone id="284" GoldStoneType="11" ScrItemID="8090409" DestItemID1="8090409" DestItemPCT1="10000" />
+    <BeGoldStone id="285" GoldStoneType="11" ScrItemID="8090410" DestItemID1="8090410" DestItemPCT1="10000" />
+    <BeGoldStone id="286" GoldStoneType="11" ScrItemID="8090411" DestItemID1="8090411" DestItemPCT1="10000" />
+    <BeGoldStone id="287" GoldStoneType="11" ScrItemID="8090610" DestItemID1="8090610" DestItemPCT1="10000" />
+    <BeGoldStone id="288" GoldStoneType="11" ScrItemID="8091307" DestItemID1="8091307" DestItemPCT1="10000" />
+    <BeGoldStone id="289" GoldStoneType="11" ScrItemID="8091309" DestItemID1="8091309" DestItemPCT1="10000" />
+    <BeGoldStone id="290" GoldStoneType="11" ScrItemID="8091310" DestItemID1="8091310" DestItemPCT1="10000" />
+    <BeGoldStone id="291" GoldStoneType="11" ScrItemID="8091311" DestItemID1="8091311" DestItemPCT1="10000" />
+    <BeGoldStone id="292" GoldStoneType="11" ScrItemID="8091407" DestItemID1="8091407" DestItemPCT1="10000" />
+    <BeGoldStone id="293" GoldStoneType="11" ScrItemID="8091409" DestItemID1="8091409" DestItemPCT1="10000" />
+    <BeGoldStone id="294" GoldStoneType="11" ScrItemID="8091410" DestItemID1="8091410" DestItemPCT1="10000" />
+    <BeGoldStone id="295" GoldStoneType="11" ScrItemID="8091411" DestItemID1="8091411" DestItemPCT1="10000" />
+    <BeGoldStone id="296" GoldStoneType="11" ScrItemID="8091610" DestItemID1="8091610" DestItemPCT1="10000" />
+    <BeGoldStone id="297" GoldStoneType="11" ScrItemID="8100307" DestItemID1="8100307" DestItemPCT1="10000" />
+    <BeGoldStone id="298" GoldStoneType="11" ScrItemID="8100309" DestItemID1="8100309" DestItemPCT1="10000" />
+    <BeGoldStone id="299" GoldStoneType="11" ScrItemID="8100310" DestItemID1="8100310" DestItemPCT1="10000" />
+    <BeGoldStone id="300" GoldStoneType="11" ScrItemID="8100311" DestItemID1="8100311" DestItemPCT1="10000" />
+    <BeGoldStone id="301" GoldStoneType="11" ScrItemID="8100407" DestItemID1="8100407" DestItemPCT1="10000" />
+    <BeGoldStone id="302" GoldStoneType="11" ScrItemID="8100409" DestItemID1="8100409" DestItemPCT1="10000" />
+    <BeGoldStone id="303" GoldStoneType="11" ScrItemID="8100410" DestItemID1="8100410" DestItemPCT1="10000" />
+    <BeGoldStone id="304" GoldStoneType="11" ScrItemID="8100411" DestItemID1="8100411" DestItemPCT1="10000" />
+    <BeGoldStone id="305" GoldStoneType="11" ScrItemID="8100507" DestItemID1="8100507" DestItemPCT1="10000" />
+    <BeGoldStone id="306" GoldStoneType="11" ScrItemID="8100509" DestItemID1="8100509" DestItemPCT1="10000" />
+    <BeGoldStone id="307" GoldStoneType="11" ScrItemID="8100510" DestItemID1="8100510" DestItemPCT1="10000" />
+    <BeGoldStone id="308" GoldStoneType="11" ScrItemID="8100511" DestItemID1="8100511" DestItemPCT1="10000" />
+    <BeGoldStone id="309" GoldStoneType="11" ScrItemID="8100607" DestItemID1="8100607" DestItemPCT1="10000" />
+    <BeGoldStone id="310" GoldStoneType="11" ScrItemID="8100609" DestItemID1="8100609" DestItemPCT1="10000" />
+    <BeGoldStone id="311" GoldStoneType="11" ScrItemID="8100610" DestItemID1="8100610" DestItemPCT1="10000" />
+    <BeGoldStone id="312" GoldStoneType="11" ScrItemID="8100611" DestItemID1="8100611" DestItemPCT1="10000" />
+    <BeGoldStone id="313" GoldStoneType="11" ScrItemID="8100810" DestItemID1="8100810" DestItemPCT1="10000" />
+    <BeGoldStone id="314" GoldStoneType="11" ScrItemID="8101010" DestItemID1="8101010" DestItemPCT1="10000" />
+    <BeGoldStone id="315" GoldStoneType="11" ScrItemID="8110307" DestItemID1="8110307" DestItemPCT1="10000" />
+    <BeGoldStone id="316" GoldStoneType="11" ScrItemID="8110309" DestItemID1="8110309" DestItemPCT1="10000" />
+    <BeGoldStone id="317" GoldStoneType="11" ScrItemID="8110310" DestItemID1="8110310" DestItemPCT1="10000" />
+    <BeGoldStone id="318" GoldStoneType="11" ScrItemID="8110311" DestItemID1="8110311" DestItemPCT1="10000" />
+    <BeGoldStone id="319" GoldStoneType="11" ScrItemID="8110610" DestItemID1="8110610" DestItemPCT1="10000" />
+    <BeGoldStone id="320" GoldStoneType="11" ScrItemID="8111307" DestItemID1="8111307" DestItemPCT1="10000" />
+    <BeGoldStone id="321" GoldStoneType="11" ScrItemID="8111309" DestItemID1="8111309" DestItemPCT1="10000" />
+    <BeGoldStone id="322" GoldStoneType="11" ScrItemID="8111310" DestItemID1="8111310" DestItemPCT1="10000" />
+    <BeGoldStone id="323" GoldStoneType="11" ScrItemID="8111311" DestItemID1="8111311" DestItemPCT1="10000" />
+    <BeGoldStone id="324" GoldStoneType="11" ScrItemID="8111610" DestItemID1="8111610" DestItemPCT1="10000" />
+    <BeGoldStone id="325" GoldStoneType="11" ScrItemID="8121307" DestItemID1="8121307" DestItemPCT1="10000" />
+    <BeGoldStone id="326" GoldStoneType="11" ScrItemID="8121309" DestItemID1="8121309" DestItemPCT1="10000" />
+    <BeGoldStone id="327" GoldStoneType="11" ScrItemID="8121310" DestItemID1="8121310" DestItemPCT1="10000" />
+    <BeGoldStone id="328" GoldStoneType="11" ScrItemID="8121311" DestItemID1="8121311" DestItemPCT1="10000" />
+    <BeGoldStone id="329" GoldStoneType="11" ScrItemID="8121610" DestItemID1="8121610" DestItemPCT1="10000" />
+    <BeGoldStone id="330" GoldStoneType="11" ScrItemID="8122307" DestItemID1="8122307" DestItemPCT1="10000" />
+    <BeGoldStone id="331" GoldStoneType="11" ScrItemID="8122309" DestItemID1="8122309" DestItemPCT1="10000" />
+    <BeGoldStone id="332" GoldStoneType="11" ScrItemID="8122310" DestItemID1="8122310" DestItemPCT1="10000" />
+    <BeGoldStone id="333" GoldStoneType="11" ScrItemID="8122311" DestItemID1="8122311" DestItemPCT1="10000" />
+    <BeGoldStone id="334" GoldStoneType="11" ScrItemID="8122610" DestItemID1="8122610" DestItemPCT1="10000" />
+    <BeGoldStone id="335" GoldStoneType="11" ScrItemID="8130307" DestItemID1="8130307" DestItemPCT1="10000" />
+    <BeGoldStone id="336" GoldStoneType="11" ScrItemID="8130309" DestItemID1="8130309" DestItemPCT1="10000" />
+    <BeGoldStone id="337" GoldStoneType="11" ScrItemID="8130310" DestItemID1="8130310" DestItemPCT1="10000" />
+    <BeGoldStone id="338" GoldStoneType="11" ScrItemID="8130311" DestItemID1="8130311" DestItemPCT1="10000" />
+    <BeGoldStone id="339" GoldStoneType="11" ScrItemID="8130407" DestItemID1="8130407" DestItemPCT1="10000" />
+    <BeGoldStone id="340" GoldStoneType="11" ScrItemID="8130409" DestItemID1="8130409" DestItemPCT1="10000" />
+    <BeGoldStone id="341" GoldStoneType="11" ScrItemID="8130410" DestItemID1="8130410" DestItemPCT1="10000" />
+    <BeGoldStone id="342" GoldStoneType="11" ScrItemID="8130411" DestItemID1="8130411" DestItemPCT1="10000" />
+    <BeGoldStone id="343" GoldStoneType="11" ScrItemID="8130610" DestItemID1="8130610" DestItemPCT1="10000" />
+    <BeGoldStone id="344" GoldStoneType="12" ScrItemID="8210001" DestItemID1="8210002" DestItemPCT1="10000" />
+    <BeGoldStone id="345" GoldStoneType="12" ScrItemID="8210002" DestItemID1="8210003" DestItemPCT1="8000" DestItemID2="8210001" DestItemPCT2="2000" />
+    <BeGoldStone id="346" GoldStoneType="12" ScrItemID="8210003" DestItemID1="8210004" DestItemPCT1="5000" DestItemID2="8210002" DestItemPCT2="5000" />
+    <BeGoldStone id="347" GoldStoneType="12" ScrItemID="8210004" DestItemID1="8210005" DestItemPCT1="3000" DestItemID2="8210003" DestItemPCT2="7000" />
+    <BeGoldStone id="348" GoldStoneType="12" ScrItemID="8210005" DestItemID1="8210006" DestItemPCT1="1500" DestItemID2="8210004" DestItemPCT2="8500" />
+    <BeGoldStone id="349" GoldStoneType="12" ScrItemID="8210006" DestItemID1="8210006" DestItemPCT1="10000" />
+    <BeGoldStone id="350" GoldStoneType="12" ScrItemID="8210101" DestItemID1="8210102" DestItemPCT1="10000" />
+    <BeGoldStone id="351" GoldStoneType="12" ScrItemID="8210102" DestItemID1="8210103" DestItemPCT1="7000" DestItemID2="8210101" DestItemPCT2="2000" DestItemID3="8210102" DestItemPCT3="1000" />
+    <BeGoldStone id="352" GoldStoneType="12" ScrItemID="8210103" DestItemID1="8210104" DestItemPCT1="4000" DestItemID2="8210102" DestItemPCT2="4000" DestItemID3="8210103" DestItemPCT3="2000" />
+    <BeGoldStone id="353" GoldStoneType="12" ScrItemID="8210104" DestItemID1="8210105" DestItemPCT1="2000" DestItemID2="8210103" DestItemPCT2="6000" DestItemID3="8210104" DestItemPCT3="2000" />
+    <BeGoldStone id="354" GoldStoneType="12" ScrItemID="8210105" DestItemID1="8210106" DestItemPCT1="1000" DestItemID2="8210104" DestItemPCT2="7000" DestItemID3="8210105" DestItemPCT3="2000" />
+    <BeGoldStone id="355" GoldStoneType="12" ScrItemID="8210106" DestItemID1="8210106" DestItemPCT1="10000" />
+    <BeGoldStone id="356" GoldStoneType="12" ScrItemID="8210204" DestItemID1="8210205" DestItemPCT1="2000" DestItemID2="8210204" DestItemPCT2="8000" />
+    <BeGoldStone id="357" GoldStoneType="12" ScrItemID="8210205" DestItemID1="8210206" DestItemPCT1="1000" DestItemID2="8210204" DestItemPCT2="7000" DestItemID3="8210205" DestItemPCT3="2000" />
+    <BeGoldStone id="358" GoldStoneType="12" ScrItemID="8210206" DestItemID1="8210206" DestItemPCT1="10000" />
+    <BeGoldStone id="359" GoldStoneType="12" ScrItemID="8211001" DestItemID1="8211002" DestItemPCT1="10000" />
+    <BeGoldStone id="360" GoldStoneType="12" ScrItemID="8211002" DestItemID1="8211003" DestItemPCT1="8000" DestItemID2="8211001" DestItemPCT2="2000" />
+    <BeGoldStone id="361" GoldStoneType="12" ScrItemID="8211003" DestItemID1="8211004" DestItemPCT1="5000" DestItemID2="8211002" DestItemPCT2="5000" />
+    <BeGoldStone id="362" GoldStoneType="12" ScrItemID="8211004" DestItemID1="8211005" DestItemPCT1="3000" DestItemID2="8211003" DestItemPCT2="7000" />
+    <BeGoldStone id="363" GoldStoneType="12" ScrItemID="8211005" DestItemID1="8211006" DestItemPCT1="1500" DestItemID2="8211004" DestItemPCT2="8500" />
+    <BeGoldStone id="364" GoldStoneType="12" ScrItemID="8211006" DestItemID1="8211006" DestItemPCT1="10000" />
+    <BeGoldStone id="365" GoldStoneType="12" ScrItemID="8211101" DestItemID1="8211102" DestItemPCT1="10000" />
+    <BeGoldStone id="366" GoldStoneType="12" ScrItemID="8211102" DestItemID1="8211103" DestItemPCT1="7000" DestItemID2="8211101" DestItemPCT2="2000" DestItemID3="8211102" DestItemPCT3="1000" />
+    <BeGoldStone id="367" GoldStoneType="12" ScrItemID="8211103" DestItemID1="8211104" DestItemPCT1="4000" DestItemID2="8211102" DestItemPCT2="4000" DestItemID3="8211103" DestItemPCT3="2000" />
+    <BeGoldStone id="368" GoldStoneType="12" ScrItemID="8211104" DestItemID1="8211105" DestItemPCT1="2000" DestItemID2="8211103" DestItemPCT2="6000" DestItemID3="8211104" DestItemPCT3="2000" />
+    <BeGoldStone id="369" GoldStoneType="12" ScrItemID="8211105" DestItemID1="8211106" DestItemPCT1="1000" DestItemID2="8211104" DestItemPCT2="7000" DestItemID3="8211105" DestItemPCT3="2000" />
+    <BeGoldStone id="370" GoldStoneType="12" ScrItemID="8211106" DestItemID1="8211106" DestItemPCT1="10000" />
+    <BeGoldStone id="371" GoldStoneType="12" ScrItemID="8211204" DestItemID1="8211205" DestItemPCT1="2000" DestItemID2="8211204" DestItemPCT2="8000" />
+    <BeGoldStone id="372" GoldStoneType="12" ScrItemID="8211205" DestItemID1="8211206" DestItemPCT1="1000" DestItemID2="8211204" DestItemPCT2="7000" DestItemID3="8211205" DestItemPCT3="2000" />
+    <BeGoldStone id="373" GoldStoneType="12" ScrItemID="8211206" DestItemID1="8211206" DestItemPCT1="10000" />
+    <BeGoldStone id="374" GoldStoneType="12" ScrItemID="8212001" DestItemID1="8212002" DestItemPCT1="10000" />
+    <BeGoldStone id="375" GoldStoneType="12" ScrItemID="8212002" DestItemID1="8212003" DestItemPCT1="8000" DestItemID2="8212001" DestItemPCT2="2000" />
+    <BeGoldStone id="376" GoldStoneType="12" ScrItemID="8212003" DestItemID1="8212004" DestItemPCT1="5000" DestItemID2="8212002" DestItemPCT2="5000" />
+    <BeGoldStone id="377" GoldStoneType="12" ScrItemID="8212004" DestItemID1="8212005" DestItemPCT1="3000" DestItemID2="8212003" DestItemPCT2="7000" />
+    <BeGoldStone id="378" GoldStoneType="12" ScrItemID="8212005" DestItemID1="8212006" DestItemPCT1="1500" DestItemID2="8212004" DestItemPCT2="8500" />
+    <BeGoldStone id="379" GoldStoneType="12" ScrItemID="8212006" DestItemID1="8212006" DestItemPCT1="10000" />
+    <BeGoldStone id="380" GoldStoneType="12" ScrItemID="8212101" DestItemID1="8212102" DestItemPCT1="10000" />
+    <BeGoldStone id="381" GoldStoneType="12" ScrItemID="8212102" DestItemID1="8212103" DestItemPCT1="7000" DestItemID2="8212101" DestItemPCT2="2000" DestItemID3="8212102" DestItemPCT3="1000" />
+    <BeGoldStone id="382" GoldStoneType="12" ScrItemID="8212103" DestItemID1="8212104" DestItemPCT1="4000" DestItemID2="8212102" DestItemPCT2="4000" DestItemID3="8212103" DestItemPCT3="2000" />
+    <BeGoldStone id="383" GoldStoneType="12" ScrItemID="8212104" DestItemID1="8212105" DestItemPCT1="2000" DestItemID2="8212103" DestItemPCT2="6000" DestItemID3="8212104" DestItemPCT3="2000" />
+    <BeGoldStone id="384" GoldStoneType="12" ScrItemID="8212105" DestItemID1="8212106" DestItemPCT1="1000" DestItemID2="8212104" DestItemPCT2="7000" DestItemID3="8212105" DestItemPCT3="2000" />
+    <BeGoldStone id="385" GoldStoneType="12" ScrItemID="8212106" DestItemID1="8212106" DestItemPCT1="10000" />
+    <BeGoldStone id="386" GoldStoneType="12" ScrItemID="8212204" DestItemID1="8212205" DestItemPCT1="2000" DestItemID2="8212204" DestItemPCT2="8000" />
+    <BeGoldStone id="387" GoldStoneType="12" ScrItemID="8212205" DestItemID1="8212206" DestItemPCT1="1000" DestItemID2="8212204" DestItemPCT2="7000" DestItemID3="8212205" DestItemPCT3="2000" />
+    <BeGoldStone id="388" GoldStoneType="12" ScrItemID="8212206" DestItemID1="8212206" DestItemPCT1="10000" />
+    <BeGoldStone id="389" GoldStoneType="12" ScrItemID="8213001" DestItemID1="8213002" DestItemPCT1="10000" />
+    <BeGoldStone id="390" GoldStoneType="12" ScrItemID="8213002" DestItemID1="8213003" DestItemPCT1="8000" DestItemID2="8213001" DestItemPCT2="2000" />
+    <BeGoldStone id="391" GoldStoneType="12" ScrItemID="8213003" DestItemID1="8213004" DestItemPCT1="5000" DestItemID2="8213002" DestItemPCT2="5000" />
+    <BeGoldStone id="392" GoldStoneType="12" ScrItemID="8213004" DestItemID1="8213005" DestItemPCT1="3000" DestItemID2="8213003" DestItemPCT2="7000" />
+    <BeGoldStone id="393" GoldStoneType="12" ScrItemID="8213005" DestItemID1="8213006" DestItemPCT1="1500" DestItemID2="8213004" DestItemPCT2="8500" />
+    <BeGoldStone id="394" GoldStoneType="12" ScrItemID="8213006" DestItemID1="8213006" DestItemPCT1="10000" />
+    <BeGoldStone id="395" GoldStoneType="12" ScrItemID="8213101" DestItemID1="8213102" DestItemPCT1="10000" />
+    <BeGoldStone id="396" GoldStoneType="12" ScrItemID="8213102" DestItemID1="8213103" DestItemPCT1="7000" DestItemID2="8213101" DestItemPCT2="2000" DestItemID3="8213102" DestItemPCT3="1000" />
+    <BeGoldStone id="397" GoldStoneType="12" ScrItemID="8213103" DestItemID1="8213104" DestItemPCT1="4000" DestItemID2="8213102" DestItemPCT2="4000" DestItemID3="8213103" DestItemPCT3="2000" />
+    <BeGoldStone id="398" GoldStoneType="12" ScrItemID="8213104" DestItemID1="8213105" DestItemPCT1="2000" DestItemID2="8213103" DestItemPCT2="6000" DestItemID3="8213104" DestItemPCT3="2000" />
+    <BeGoldStone id="399" GoldStoneType="12" ScrItemID="8213105" DestItemID1="8213106" DestItemPCT1="1000" DestItemID2="8213104" DestItemPCT2="7000" DestItemID3="8213105" DestItemPCT3="2000" />
+    <BeGoldStone id="400" GoldStoneType="12" ScrItemID="8213106" DestItemID1="8213106" DestItemPCT1="10000" />
+    <BeGoldStone id="401" GoldStoneType="12" ScrItemID="8213204" DestItemID1="8213205" DestItemPCT1="2000" DestItemID2="8213204" DestItemPCT2="8000" />
+    <BeGoldStone id="402" GoldStoneType="12" ScrItemID="8213205" DestItemID1="8213206" DestItemPCT1="1000" DestItemID2="8213204" DestItemPCT2="7000" DestItemID3="8213205" DestItemPCT3="2000" />
+    <BeGoldStone id="403" GoldStoneType="12" ScrItemID="8213206" DestItemID1="8213206" DestItemPCT1="10000" />
+    <BeGoldStone id="404" GoldStoneType="11" ScrItemID="8210204" DestItemID1="8210204" DestItemPCT1="10000" />
+    <BeGoldStone id="405" GoldStoneType="11" ScrItemID="8210205" DestItemID1="8210205" DestItemPCT1="10000" />
+    <BeGoldStone id="406" GoldStoneType="11" ScrItemID="8210206" DestItemID1="8210206" DestItemPCT1="10000" />
+    <BeGoldStone id="407" GoldStoneType="11" ScrItemID="8211204" DestItemID1="8211204" DestItemPCT1="10000" />
+    <BeGoldStone id="408" GoldStoneType="11" ScrItemID="8211205" DestItemID1="8211205" DestItemPCT1="10000" />
+    <BeGoldStone id="409" GoldStoneType="11" ScrItemID="8211206" DestItemID1="8211206" DestItemPCT1="10000" />
+    <BeGoldStone id="410" GoldStoneType="11" ScrItemID="8212204" DestItemID1="8212204" DestItemPCT1="10000" />
+    <BeGoldStone id="411" GoldStoneType="11" ScrItemID="8212205" DestItemID1="8212205" DestItemPCT1="10000" />
+    <BeGoldStone id="412" GoldStoneType="11" ScrItemID="8212206" DestItemID1="8212206" DestItemPCT1="10000" />
+    <BeGoldStone id="413" GoldStoneType="11" ScrItemID="8213204" DestItemID1="8213204" DestItemPCT1="10000" />
+    <BeGoldStone id="414" GoldStoneType="11" ScrItemID="8213205" DestItemID1="8213205" DestItemPCT1="10000" />
+    <BeGoldStone id="415" GoldStoneType="11" ScrItemID="8213206" DestItemID1="8213206" DestItemPCT1="10000" />
+    <BeGoldStone id="416" GoldStoneType="13" ScrItemID="4810013" DestItemID1="4810012" DestItemPCT1="10000" />
+    <BeGoldStone id="417" GoldStoneType="14" ScrItemID="4810025" DestItemID1="4090022" DestItemPCT1="6000" DestItemID2="4090028" DestItemPCT2="1000" DestItemID3="4090029" DestItemPCT3="1000" DestItemID4="4090030" DestItemPCT4="1000" DestItemID5="4090031" DestItemPCT5="1000" />
+    <BeGoldStone id="418" GoldStoneType="15" ScrItemID="3030001" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="419" GoldStoneType="15" ScrItemID="3030002" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="420" GoldStoneType="15" ScrItemID="3030003" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="421" GoldStoneType="15" ScrItemID="3030004" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="422" GoldStoneType="15" ScrItemID="3030009" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="423" GoldStoneType="15" ScrItemID="3030010" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="424" GoldStoneType="15" ScrItemID="3030011" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="425" GoldStoneType="15" ScrItemID="3030012" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="426" GoldStoneType="15" ScrItemID="3030017" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="427" GoldStoneType="15" ScrItemID="3030018" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="428" GoldStoneType="15" ScrItemID="3030023" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="429" GoldStoneType="15" ScrItemID="3030024" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="430" GoldStoneType="15" ScrItemID="3030029" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="431" GoldStoneType="15" ScrItemID="3030030" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="432" GoldStoneType="15" ScrItemID="3030031" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="433" GoldStoneType="15" ScrItemID="3030032" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="434" GoldStoneType="15" ScrItemID="3030037" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="435" GoldStoneType="15" ScrItemID="3030038" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="436" GoldStoneType="15" ScrItemID="3030039" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="437" GoldStoneType="15" ScrItemID="3030040" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="438" GoldStoneType="15" ScrItemID="3030045" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="439" GoldStoneType="15" ScrItemID="3030046" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="440" GoldStoneType="15" ScrItemID="3030051" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="441" GoldStoneType="15" ScrItemID="3030052" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="442" GoldStoneType="15" ScrItemID="3030057" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="443" GoldStoneType="15" ScrItemID="3030062" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="444" GoldStoneType="15" ScrItemID="3030067" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="445" GoldStoneType="15" ScrItemID="3030072" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="446" GoldStoneType="15" ScrItemID="3030073" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="447" GoldStoneType="15" ScrItemID="3030074" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="448" GoldStoneType="15" ScrItemID="3030075" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="449" GoldStoneType="15" ScrItemID="3030080" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="450" GoldStoneType="15" ScrItemID="3030081" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="451" GoldStoneType="15" ScrItemID="3030082" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="452" GoldStoneType="15" ScrItemID="3030083" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="453" GoldStoneType="15" ScrItemID="3030088" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="454" GoldStoneType="15" ScrItemID="3030093" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="455" GoldStoneType="15" ScrItemID="3030094" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="456" GoldStoneType="15" ScrItemID="3030096" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="457" GoldStoneType="15" ScrItemID="3030097" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="458" GoldStoneType="15" ScrItemID="3030099" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="459" GoldStoneType="15" ScrItemID="3030100" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="460" GoldStoneType="15" ScrItemID="3030111" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="461" GoldStoneType="2" ScrItemID="3030421" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="462" GoldStoneType="2" ScrItemID="3030422" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="463" GoldStoneType="3" ScrItemID="3030423" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="464" GoldStoneType="3" ScrItemID="3030424" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="465" GoldStoneType="3" ScrItemID="3030425" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="466" GoldStoneType="3" ScrItemID="3030426" DestItemID1="3050087" DestItemPCT1="10000" />
+    <BeGoldStone id="467" GoldStoneType="6" ScrItemID="3030301" DestItemID1="3030203" DestItemPCT1="10000" />
+    <BeGoldStone id="468" GoldStoneType="6" ScrItemID="3030302" DestItemID1="3030204" DestItemPCT1="10000" />
+    <BeGoldStone id="469" GoldStoneType="6" ScrItemID="3030306" DestItemID1="3030203" DestItemPCT1="10000" />
+    <BeGoldStone id="470" GoldStoneType="6" ScrItemID="3030307" DestItemID1="3030204" DestItemPCT1="10000" />
+    <BeGoldStone id="471" GoldStoneType="6" ScrItemID="3030311" DestItemID1="3030203" DestItemPCT1="10000" />
+    <BeGoldStone id="472" GoldStoneType="6" ScrItemID="3030312" DestItemID1="3030204" DestItemPCT1="10000" />
+    <BeGoldStone id="473" GoldStoneType="6" ScrItemID="3030316" DestItemID1="3030203" DestItemPCT1="10000" />
+    <BeGoldStone id="474" GoldStoneType="6" ScrItemID="3030317" DestItemID1="3030204" DestItemPCT1="10000" />
+    <BeGoldStone id="475" GoldStoneType="6" ScrItemID="3030321" DestItemID1="3030210" DestItemPCT1="10000" />
+    <BeGoldStone id="476" GoldStoneType="6" ScrItemID="3030322" DestItemID1="3030211" DestItemPCT1="10000" />
+    <BeGoldStone id="477" GoldStoneType="6" ScrItemID="3030326" DestItemID1="3030210" DestItemPCT1="10000" />
+    <BeGoldStone id="478" GoldStoneType="6" ScrItemID="3030327" DestItemID1="3030211" DestItemPCT1="10000" />
+    <BeGoldStone id="479" GoldStoneType="6" ScrItemID="3030331" DestItemID1="3030210" DestItemPCT1="10000" />
+    <BeGoldStone id="480" GoldStoneType="6" ScrItemID="3030332" DestItemID1="3030211" DestItemPCT1="10000" />
+    <BeGoldStone id="481" GoldStoneType="6" ScrItemID="3030336" DestItemID1="3030210" DestItemPCT1="10000" />
+    <BeGoldStone id="482" GoldStoneType="6" ScrItemID="3030337" DestItemID1="3030211" DestItemPCT1="10000" />
+    <BeGoldStone id="483" GoldStoneType="6" ScrItemID="3030341" DestItemID1="3030254" DestItemPCT1="10000" />
+    <BeGoldStone id="484" GoldStoneType="6" ScrItemID="3030342" DestItemID1="3030255" DestItemPCT1="10000" />
+    <BeGoldStone id="485" GoldStoneType="6" ScrItemID="3030346" DestItemID1="3030254" DestItemPCT1="10000" />
+    <BeGoldStone id="486" GoldStoneType="6" ScrItemID="3030347" DestItemID1="3030255" DestItemPCT1="10000" />
+    <BeGoldStone id="487" GoldStoneType="6" ScrItemID="3030351" DestItemID1="3030254" DestItemPCT1="10000" />
+    <BeGoldStone id="488" GoldStoneType="6" ScrItemID="3030352" DestItemID1="3030255" DestItemPCT1="10000" />
+    <BeGoldStone id="489" GoldStoneType="6" ScrItemID="3030356" DestItemID1="3030254" DestItemPCT1="10000" />
+    <BeGoldStone id="490" GoldStoneType="6" ScrItemID="3030357" DestItemID1="3030255" DestItemPCT1="10000" />
+    <BeGoldStone id="491" GoldStoneType="6" ScrItemID="3030361" DestItemID1="3030254" DestItemPCT1="10000" />
+    <BeGoldStone id="492" GoldStoneType="6" ScrItemID="3030362" DestItemID1="3030255" DestItemPCT1="10000" />
+    <BeGoldStone id="493" GoldStoneType="6" ScrItemID="3030366" DestItemID1="3030254" DestItemPCT1="10000" />
+    <BeGoldStone id="494" GoldStoneType="6" ScrItemID="3030367" DestItemID1="3030255" DestItemPCT1="10000" />
+    <BeGoldStone id="495" GoldStoneType="6" ScrItemID="3030371" DestItemID1="3030236" DestItemPCT1="10000" />
+    <BeGoldStone id="496" GoldStoneType="6" ScrItemID="3030372" DestItemID1="3030237" DestItemPCT1="10000" />
+    <BeGoldStone id="497" GoldStoneType="6" ScrItemID="3030376" DestItemID1="3030236" DestItemPCT1="10000" />
+    <BeGoldStone id="498" GoldStoneType="6" ScrItemID="3030377" DestItemID1="3030237" DestItemPCT1="10000" />
+    <BeGoldStone id="499" GoldStoneType="6" ScrItemID="3030381" DestItemID1="3030236" DestItemPCT1="10000" />
+    <BeGoldStone id="500" GoldStoneType="6" ScrItemID="3030382" DestItemID1="3030237" DestItemPCT1="10000" />
+    <BeGoldStone id="501" GoldStoneType="6" ScrItemID="3030386" DestItemID1="3030236" DestItemPCT1="10000" />
+    <BeGoldStone id="502" GoldStoneType="6" ScrItemID="3030387" DestItemID1="3030237" DestItemPCT1="10000" />
+    <BeGoldStone id="503" GoldStoneType="6" ScrItemID="3030391" DestItemID1="3030236" DestItemPCT1="10000" />
+    <BeGoldStone id="504" GoldStoneType="6" ScrItemID="3030392" DestItemID1="3030237" DestItemPCT1="10000" />
+    <BeGoldStone id="505" GoldStoneType="6" ScrItemID="3030396" DestItemID1="3030248" DestItemPCT1="10000" />
+    <BeGoldStone id="506" GoldStoneType="6" ScrItemID="3030397" DestItemID1="3030249" DestItemPCT1="10000" />
+    <BeGoldStone id="507" GoldStoneType="6" ScrItemID="3030401" DestItemID1="3030248" DestItemPCT1="10000" />
+    <BeGoldStone id="508" GoldStoneType="6" ScrItemID="3030402" DestItemID1="3030249" DestItemPCT1="10000" />
+    <BeGoldStone id="509" GoldStoneType="6" ScrItemID="3030406" DestItemID1="3030248" DestItemPCT1="10000" />
+    <BeGoldStone id="510" GoldStoneType="6" ScrItemID="3030407" DestItemID1="3030249" DestItemPCT1="10000" />
+    <BeGoldStone id="511" GoldStoneType="6" ScrItemID="3030411" DestItemID1="3030248" DestItemPCT1="10000" />
+    <BeGoldStone id="512" GoldStoneType="6" ScrItemID="3030412" DestItemID1="3030249" DestItemPCT1="10000" />
+    <BeGoldStone id="513" GoldStoneType="6" ScrItemID="3030416" DestItemID1="3030248" DestItemPCT1="10000" />
+    <BeGoldStone id="514" GoldStoneType="6" ScrItemID="3030417" DestItemID1="3030249" DestItemPCT1="10000" />
+    <BeGoldStone id="515" GoldStoneType="7" ScrItemID="3030303" DestItemID1="3030205" DestItemPCT1="10000" />
+    <BeGoldStone id="516" GoldStoneType="7" ScrItemID="3030304" DestItemID1="3030206" DestItemPCT1="10000" />
+    <BeGoldStone id="517" GoldStoneType="7" ScrItemID="3030308" DestItemID1="3030205" DestItemPCT1="10000" />
+    <BeGoldStone id="518" GoldStoneType="7" ScrItemID="3030309" DestItemID1="3030206" DestItemPCT1="10000" />
+    <BeGoldStone id="519" GoldStoneType="7" ScrItemID="3030313" DestItemID1="3030205" DestItemPCT1="10000" />
+    <BeGoldStone id="520" GoldStoneType="7" ScrItemID="3030314" DestItemID1="3030206" DestItemPCT1="10000" />
+    <BeGoldStone id="521" GoldStoneType="7" ScrItemID="3030318" DestItemID1="3030205" DestItemPCT1="10000" />
+    <BeGoldStone id="522" GoldStoneType="7" ScrItemID="3030319" DestItemID1="3030206" DestItemPCT1="10000" />
+    <BeGoldStone id="523" GoldStoneType="7" ScrItemID="3030323" DestItemID1="3030212" DestItemPCT1="10000" />
+    <BeGoldStone id="524" GoldStoneType="7" ScrItemID="3030324" DestItemID1="3030213" DestItemPCT1="10000" />
+    <BeGoldStone id="525" GoldStoneType="7" ScrItemID="3030328" DestItemID1="3030212" DestItemPCT1="10000" />
+    <BeGoldStone id="526" GoldStoneType="7" ScrItemID="3030329" DestItemID1="3030213" DestItemPCT1="10000" />
+    <BeGoldStone id="527" GoldStoneType="7" ScrItemID="3030333" DestItemID1="3030212" DestItemPCT1="10000" />
+    <BeGoldStone id="528" GoldStoneType="7" ScrItemID="3030334" DestItemID1="3030213" DestItemPCT1="10000" />
+    <BeGoldStone id="529" GoldStoneType="7" ScrItemID="3030338" DestItemID1="3030212" DestItemPCT1="10000" />
+    <BeGoldStone id="530" GoldStoneType="7" ScrItemID="3030339" DestItemID1="3030213" DestItemPCT1="10000" />
+    <BeGoldStone id="531" GoldStoneType="7" ScrItemID="3030343" DestItemID1="3030256" DestItemPCT1="10000" />
+    <BeGoldStone id="532" GoldStoneType="7" ScrItemID="3030344" DestItemID1="3030257" DestItemPCT1="10000" />
+    <BeGoldStone id="533" GoldStoneType="7" ScrItemID="3030348" DestItemID1="3030256" DestItemPCT1="10000" />
+    <BeGoldStone id="534" GoldStoneType="7" ScrItemID="3030349" DestItemID1="3030257" DestItemPCT1="10000" />
+    <BeGoldStone id="535" GoldStoneType="7" ScrItemID="3030353" DestItemID1="3030256" DestItemPCT1="10000" />
+    <BeGoldStone id="536" GoldStoneType="7" ScrItemID="3030354" DestItemID1="3030257" DestItemPCT1="10000" />
+    <BeGoldStone id="537" GoldStoneType="7" ScrItemID="3030358" DestItemID1="3030256" DestItemPCT1="10000" />
+    <BeGoldStone id="538" GoldStoneType="7" ScrItemID="3030359" DestItemID1="3030257" DestItemPCT1="10000" />
+    <BeGoldStone id="539" GoldStoneType="7" ScrItemID="3030363" DestItemID1="3030256" DestItemPCT1="10000" />
+    <BeGoldStone id="540" GoldStoneType="7" ScrItemID="3030364" DestItemID1="3030257" DestItemPCT1="10000" />
+    <BeGoldStone id="541" GoldStoneType="7" ScrItemID="3030368" DestItemID1="3030256" DestItemPCT1="10000" />
+    <BeGoldStone id="542" GoldStoneType="7" ScrItemID="3030369" DestItemID1="3030257" DestItemPCT1="10000" />
+    <BeGoldStone id="543" GoldStoneType="7" ScrItemID="3030373" DestItemID1="3030238" DestItemPCT1="10000" />
+    <BeGoldStone id="544" GoldStoneType="7" ScrItemID="3030374" DestItemID1="3030239" DestItemPCT1="10000" />
+    <BeGoldStone id="545" GoldStoneType="7" ScrItemID="3030378" DestItemID1="3030238" DestItemPCT1="10000" />
+    <BeGoldStone id="546" GoldStoneType="7" ScrItemID="3030379" DestItemID1="3030239" DestItemPCT1="10000" />
+    <BeGoldStone id="547" GoldStoneType="7" ScrItemID="3030383" DestItemID1="3030238" DestItemPCT1="10000" />
+    <BeGoldStone id="548" GoldStoneType="7" ScrItemID="3030384" DestItemID1="3030239" DestItemPCT1="10000" />
+    <BeGoldStone id="549" GoldStoneType="7" ScrItemID="3030388" DestItemID1="3030238" DestItemPCT1="10000" />
+    <BeGoldStone id="550" GoldStoneType="7" ScrItemID="3030389" DestItemID1="3030239" DestItemPCT1="10000" />
+    <BeGoldStone id="551" GoldStoneType="7" ScrItemID="3030393" DestItemID1="3030238" DestItemPCT1="10000" />
+    <BeGoldStone id="552" GoldStoneType="7" ScrItemID="3030394" DestItemID1="3030239" DestItemPCT1="10000" />
+    <BeGoldStone id="553" GoldStoneType="7" ScrItemID="3030398" DestItemID1="3030250" DestItemPCT1="10000" />
+    <BeGoldStone id="554" GoldStoneType="7" ScrItemID="3030399" DestItemID1="3030251" DestItemPCT1="10000" />
+    <BeGoldStone id="555" GoldStoneType="7" ScrItemID="3030403" DestItemID1="3030250" DestItemPCT1="10000" />
+    <BeGoldStone id="556" GoldStoneType="7" ScrItemID="3030404" DestItemID1="3030251" DestItemPCT1="10000" />
+    <BeGoldStone id="557" GoldStoneType="7" ScrItemID="3030408" DestItemID1="3030250" DestItemPCT1="10000" />
+    <BeGoldStone id="558" GoldStoneType="7" ScrItemID="3030409" DestItemID1="3030251" DestItemPCT1="10000" />
+    <BeGoldStone id="559" GoldStoneType="7" ScrItemID="3030413" DestItemID1="3030250" DestItemPCT1="10000" />
+    <BeGoldStone id="560" GoldStoneType="7" ScrItemID="3030414" DestItemID1="3030251" DestItemPCT1="10000" />
+    <BeGoldStone id="561" GoldStoneType="7" ScrItemID="3030418" DestItemID1="3030250" DestItemPCT1="10000" />
+    <BeGoldStone id="562" GoldStoneType="7" ScrItemID="3030419" DestItemID1="3030251" DestItemPCT1="10000" />
+    <BeGoldStone id="563" GoldStoneType="8" ScrItemID="3030305" DestItemID1="3030207" DestItemPCT1="10000" />
+    <BeGoldStone id="564" GoldStoneType="8" ScrItemID="3030310" DestItemID1="3030207" DestItemPCT1="10000" />
+    <BeGoldStone id="565" GoldStoneType="8" ScrItemID="3030315" DestItemID1="3030207" DestItemPCT1="10000" />
+    <BeGoldStone id="566" GoldStoneType="8" ScrItemID="3030320" DestItemID1="3030207" DestItemPCT1="10000" />
+    <BeGoldStone id="567" GoldStoneType="8" ScrItemID="3030325" DestItemID1="3030214" DestItemPCT1="10000" />
+    <BeGoldStone id="568" GoldStoneType="8" ScrItemID="3030330" DestItemID1="3030214" DestItemPCT1="10000" />
+    <BeGoldStone id="569" GoldStoneType="8" ScrItemID="3030335" DestItemID1="3030214" DestItemPCT1="10000" />
+    <BeGoldStone id="570" GoldStoneType="8" ScrItemID="3030340" DestItemID1="3030214" DestItemPCT1="10000" />
+    <BeGoldStone id="571" GoldStoneType="8" ScrItemID="3030345" DestItemID1="3030258" DestItemPCT1="10000" />
+    <BeGoldStone id="572" GoldStoneType="8" ScrItemID="3030350" DestItemID1="3030258" DestItemPCT1="10000" />
+    <BeGoldStone id="573" GoldStoneType="8" ScrItemID="3030355" DestItemID1="3030258" DestItemPCT1="10000" />
+    <BeGoldStone id="574" GoldStoneType="8" ScrItemID="3030360" DestItemID1="3030258" DestItemPCT1="10000" />
+    <BeGoldStone id="575" GoldStoneType="8" ScrItemID="3030365" DestItemID1="3030258" DestItemPCT1="10000" />
+    <BeGoldStone id="576" GoldStoneType="8" ScrItemID="3030370" DestItemID1="3030258" DestItemPCT1="10000" />
+    <BeGoldStone id="577" GoldStoneType="8" ScrItemID="3030375" DestItemID1="3030240" DestItemPCT1="10000" />
+    <BeGoldStone id="578" GoldStoneType="8" ScrItemID="3030380" DestItemID1="3030240" DestItemPCT1="10000" />
+    <BeGoldStone id="579" GoldStoneType="8" ScrItemID="3030385" DestItemID1="3030240" DestItemPCT1="10000" />
+    <BeGoldStone id="580" GoldStoneType="8" ScrItemID="3030390" DestItemID1="3030240" DestItemPCT1="10000" />
+    <BeGoldStone id="581" GoldStoneType="8" ScrItemID="3030395" DestItemID1="3030240" DestItemPCT1="10000" />
+    <BeGoldStone id="582" GoldStoneType="8" ScrItemID="3030400" DestItemID1="3030252" DestItemPCT1="10000" />
+    <BeGoldStone id="583" GoldStoneType="8" ScrItemID="3030405" DestItemID1="3030252" DestItemPCT1="10000" />
+    <BeGoldStone id="584" GoldStoneType="8" ScrItemID="3030410" DestItemID1="3030252" DestItemPCT1="10000" />
+    <BeGoldStone id="585" GoldStoneType="8" ScrItemID="3030415" DestItemID1="3030252" DestItemPCT1="10000" />
+    <BeGoldStone id="586" GoldStoneType="8" ScrItemID="3030420" DestItemID1="3030252" DestItemPCT1="10000" />
+    <BeGoldStone id="587" GoldStoneType="5" ScrItemID="3030253" DestItemID1="3030421" DestItemPCT1="10000" />
+    <BeGoldStone id="588" GoldStoneType="6" ScrItemID="3030254" DestItemID1="3030422" DestItemPCT1="10000" />
+    <BeGoldStone id="589" GoldStoneType="6" ScrItemID="3030255" DestItemID1="3030423" DestItemPCT1="10000" />
+    <BeGoldStone id="590" GoldStoneType="7" ScrItemID="3030256" DestItemID1="3030424" DestItemPCT1="10000" />
+    <BeGoldStone id="591" GoldStoneType="7" ScrItemID="3030257" DestItemID1="3030425" DestItemPCT1="10000" />
+    <BeGoldStone id="592" GoldStoneType="8" ScrItemID="3030258" DestItemID1="3030426" DestItemPCT1="10000" />
+    <BeGoldStone id="593" GoldStoneType="16" ScrItemID="8018004" DestItemID1="8018004" DestItemPCT1="10000" />
+    <BeGoldStone id="594" GoldStoneType="16" ScrItemID="8018005" DestItemID1="8018005" DestItemPCT1="10000" />
+    <BeGoldStone id="595" GoldStoneType="16" ScrItemID="8050904" DestItemID1="8050904" DestItemPCT1="10000" />
+    <BeGoldStone id="596" GoldStoneType="16" ScrItemID="8050906" DestItemID1="8050906" DestItemPCT1="10000" />
+    <BeGoldStone id="597" GoldStoneType="16" ScrItemID="8060904" DestItemID1="8060904" DestItemPCT1="10000" />
+    <BeGoldStone id="598" GoldStoneType="16" ScrItemID="8060906" DestItemID1="8060906" DestItemPCT1="10000" />
+    <BeGoldStone id="599" GoldStoneType="16" ScrItemID="8070904" DestItemID1="8070904" DestItemPCT1="10000" />
+    <BeGoldStone id="600" GoldStoneType="16" ScrItemID="8070906" DestItemID1="8070906" DestItemPCT1="10000" />
+    <BeGoldStone id="601" GoldStoneType="16" ScrItemID="8080904" DestItemID1="8080904" DestItemPCT1="10000" />
+    <BeGoldStone id="602" GoldStoneType="16" ScrItemID="8080906" DestItemID1="8080906" DestItemPCT1="10000" />
+    <BeGoldStone id="603" GoldStoneType="16" ScrItemID="8090904" DestItemID1="8090904" DestItemPCT1="10000" />
+    <BeGoldStone id="604" GoldStoneType="16" ScrItemID="8090906" DestItemID1="8090906" DestItemPCT1="10000" />
+    <BeGoldStone id="605" GoldStoneType="16" ScrItemID="8101307" DestItemID1="8101307" DestItemPCT1="10000" />
+    <BeGoldStone id="606" GoldStoneType="16" ScrItemID="8101311" DestItemID1="8101311" DestItemPCT1="10000" />
+    <BeGoldStone id="607" GoldStoneType="16" ScrItemID="8110904" DestItemID1="8110904" DestItemPCT1="10000" />
+    <BeGoldStone id="608" GoldStoneType="16" ScrItemID="8110905" DestItemID1="8110905" DestItemPCT1="10000" />
+    <BeGoldStone id="609" GoldStoneType="16" ScrItemID="8110908" DestItemID1="8110908" DestItemPCT1="10000" />
+    <BeGoldStone id="610" GoldStoneType="16" ScrItemID="8110909" DestItemID1="8110909" DestItemPCT1="10000" />
+    <BeGoldStone id="611" GoldStoneType="16" ScrItemID="8121904" DestItemID1="8121904" DestItemPCT1="10000" />
+    <BeGoldStone id="612" GoldStoneType="16" ScrItemID="8121906" DestItemID1="8121906" DestItemPCT1="10000" />
+    <BeGoldStone id="613" GoldStoneType="16" ScrItemID="8130907" DestItemID1="8130907" DestItemPCT1="10000" />
+    <BeGoldStone id="614" GoldStoneType="16" ScrItemID="8130911" DestItemID1="8130911" DestItemPCT1="10000" />
+    <BeGoldStone id="615" GoldStoneType="17" ScrItemID="8110906" DestItemID1="8110906" DestItemPCT1="10000" />
+    <BeGoldStone id="616" GoldStoneType="17" ScrItemID="8110907" DestItemID1="8110907" DestItemPCT1="10000" />
+    <BeGoldStone id="617" GoldStoneType="17" ScrItemID="8110910" DestItemID1="8110910" DestItemPCT1="10000" />
+    <BeGoldStone id="618" GoldStoneType="17" ScrItemID="8110911" DestItemID1="8110911" DestItemPCT1="10000" />
+    <BeGoldStone id="619" GoldStoneType="17" ScrItemID="8121905" DestItemID1="8121905" DestItemPCT1="10000" />
+    <BeGoldStone id="620" GoldStoneType="17" ScrItemID="8121907" DestItemID1="8121907" DestItemPCT1="10000" />
+    <BeGoldStone id="621" GoldStoneType="17" ScrItemID="8130908" DestItemID1="8130908" DestItemPCT1="10000" />
+    <BeGoldStone id="622" GoldStoneType="17" ScrItemID="8130912" DestItemID1="8130912" DestItemPCT1="10000" />
+    <BeGoldStone id="623" GoldStoneType="17" ScrItemID="8028004" DestItemID1="8028004" DestItemPCT1="10000" />
+    <BeGoldStone id="624" GoldStoneType="17" ScrItemID="8028005" DestItemID1="8028005" DestItemPCT1="10000" />
+    <BeGoldStone id="625" GoldStoneType="17" ScrItemID="8050905" DestItemID1="8050905" DestItemPCT1="10000" />
+    <BeGoldStone id="626" GoldStoneType="17" ScrItemID="8050907" DestItemID1="8050907" DestItemPCT1="10000" />
+    <BeGoldStone id="627" GoldStoneType="17" ScrItemID="8060905" DestItemID1="8060905" DestItemPCT1="10000" />
+    <BeGoldStone id="628" GoldStoneType="17" ScrItemID="8060907" DestItemID1="8060907" DestItemPCT1="10000" />
+    <BeGoldStone id="629" GoldStoneType="17" ScrItemID="8070905" DestItemID1="8070905" DestItemPCT1="10000" />
+    <BeGoldStone id="630" GoldStoneType="17" ScrItemID="8070907" DestItemID1="8070907" DestItemPCT1="10000" />
+    <BeGoldStone id="631" GoldStoneType="17" ScrItemID="8080905" DestItemID1="8080905" DestItemPCT1="10000" />
+    <BeGoldStone id="632" GoldStoneType="17" ScrItemID="8080907" DestItemID1="8080907" DestItemPCT1="10000" />
+    <BeGoldStone id="633" GoldStoneType="17" ScrItemID="8090905" DestItemID1="8090905" DestItemPCT1="10000" />
+    <BeGoldStone id="634" GoldStoneType="17" ScrItemID="8090907" DestItemID1="8090907" DestItemPCT1="10000" />
+    <BeGoldStone id="635" GoldStoneType="17" ScrItemID="8101308" DestItemID1="8101308" DestItemPCT1="10000" />
+    <BeGoldStone id="636" GoldStoneType="17" ScrItemID="8101312" DestItemID1="8101312" DestItemPCT1="10000" />
+    <BeGoldStone id="637" GoldStoneType="18" ScrItemID="8048004" DestItemID1="8048004" DestItemPCT1="10000" />
+    <BeGoldStone id="638" GoldStoneType="18" ScrItemID="8048005" DestItemID1="8048005" DestItemPCT1="10000" />
+    <BeGoldStone id="639" GoldStoneType="18" ScrItemID="8051904" DestItemID1="8051904" DestItemPCT1="10000" />
+    <BeGoldStone id="640" GoldStoneType="18" ScrItemID="8051906" DestItemID1="8051906" DestItemPCT1="10000" />
+    <BeGoldStone id="641" GoldStoneType="18" ScrItemID="8061904" DestItemID1="8061904" DestItemPCT1="10000" />
+    <BeGoldStone id="642" GoldStoneType="18" ScrItemID="8061906" DestItemID1="8061906" DestItemPCT1="10000" />
+    <BeGoldStone id="643" GoldStoneType="18" ScrItemID="8071904" DestItemID1="8071904" DestItemPCT1="10000" />
+    <BeGoldStone id="644" GoldStoneType="18" ScrItemID="8071906" DestItemID1="8071906" DestItemPCT1="10000" />
+    <BeGoldStone id="645" GoldStoneType="18" ScrItemID="8081904" DestItemID1="8081904" DestItemPCT1="10000" />
+    <BeGoldStone id="646" GoldStoneType="18" ScrItemID="8081906" DestItemID1="8081906" DestItemPCT1="10000" />
+    <BeGoldStone id="647" GoldStoneType="18" ScrItemID="8091904" DestItemID1="8091904" DestItemPCT1="10000" />
+    <BeGoldStone id="648" GoldStoneType="18" ScrItemID="8091906" DestItemID1="8091906" DestItemPCT1="10000" />
+    <BeGoldStone id="649" GoldStoneType="18" ScrItemID="8101309" DestItemID1="8101309" DestItemPCT1="10000" />
+    <BeGoldStone id="650" GoldStoneType="18" ScrItemID="8101313" DestItemID1="8101313" DestItemPCT1="10000" />
+    <BeGoldStone id="651" GoldStoneType="18" ScrItemID="8111904" DestItemID1="8111904" DestItemPCT1="10000" />
+    <BeGoldStone id="652" GoldStoneType="18" ScrItemID="8111905" DestItemID1="8111905" DestItemPCT1="10000" />
+    <BeGoldStone id="653" GoldStoneType="18" ScrItemID="8111908" DestItemID1="8111908" DestItemPCT1="10000" />
+    <BeGoldStone id="654" GoldStoneType="18" ScrItemID="8111909" DestItemID1="8111909" DestItemPCT1="10000" />
+    <BeGoldStone id="655" GoldStoneType="18" ScrItemID="8122904" DestItemID1="8122904" DestItemPCT1="10000" />
+    <BeGoldStone id="656" GoldStoneType="18" ScrItemID="8122906" DestItemID1="8122906" DestItemPCT1="10000" />
+    <BeGoldStone id="657" GoldStoneType="18" ScrItemID="8130909" DestItemID1="8130909" DestItemPCT1="10000" />
+    <BeGoldStone id="658" GoldStoneType="18" ScrItemID="8130913" DestItemID1="8130913" DestItemPCT1="10000" />
+    <BeGoldStone id="659" GoldStoneType="19" ScrItemID="8111906" DestItemID1="8111906" DestItemPCT1="10000" />
+    <BeGoldStone id="660" GoldStoneType="19" ScrItemID="8111907" DestItemID1="8111907" DestItemPCT1="10000" />
+    <BeGoldStone id="661" GoldStoneType="19" ScrItemID="8111910" DestItemID1="8111910" DestItemPCT1="10000" />
+    <BeGoldStone id="662" GoldStoneType="19" ScrItemID="8111911" DestItemID1="8111911" DestItemPCT1="10000" />
+    <BeGoldStone id="663" GoldStoneType="19" ScrItemID="8122905" DestItemID1="8122905" DestItemPCT1="10000" />
+    <BeGoldStone id="664" GoldStoneType="19" ScrItemID="8122907" DestItemID1="8122907" DestItemPCT1="10000" />
+    <BeGoldStone id="665" GoldStoneType="19" ScrItemID="8130910" DestItemID1="8130910" DestItemPCT1="10000" />
+    <BeGoldStone id="666" GoldStoneType="19" ScrItemID="8130914" DestItemID1="8130914" DestItemPCT1="10000" />
+    <BeGoldStone id="667" GoldStoneType="19" ScrItemID="8051905" DestItemID1="8051905" DestItemPCT1="10000" />
+    <BeGoldStone id="668" GoldStoneType="19" ScrItemID="8051907" DestItemID1="8051907" DestItemPCT1="10000" />
+    <BeGoldStone id="669" GoldStoneType="19" ScrItemID="8061905" DestItemID1="8061905" DestItemPCT1="10000" />
+    <BeGoldStone id="670" GoldStoneType="19" ScrItemID="8061907" DestItemID1="8061907" DestItemPCT1="10000" />
+    <BeGoldStone id="671" GoldStoneType="19" ScrItemID="8071905" DestItemID1="8071905" DestItemPCT1="10000" />
+    <BeGoldStone id="672" GoldStoneType="19" ScrItemID="8071907" DestItemID1="8071907" DestItemPCT1="10000" />
+    <BeGoldStone id="673" GoldStoneType="19" ScrItemID="8081905" DestItemID1="8081905" DestItemPCT1="10000" />
+    <BeGoldStone id="674" GoldStoneType="19" ScrItemID="8081907" DestItemID1="8081907" DestItemPCT1="10000" />
+    <BeGoldStone id="675" GoldStoneType="19" ScrItemID="8091905" DestItemID1="8091905" DestItemPCT1="10000" />
+    <BeGoldStone id="676" GoldStoneType="19" ScrItemID="8091907" DestItemID1="8091907" DestItemPCT1="10000" />
+    <BeGoldStone id="677" GoldStoneType="19" ScrItemID="8101310" DestItemID1="8101310" DestItemPCT1="10000" />
+    <BeGoldStone id="678" GoldStoneType="19" ScrItemID="8101314" DestItemID1="8101314" DestItemPCT1="10000" />
+    <BeGoldStone id="679" GoldStoneType="19" ScrItemID="8038004" DestItemID1="8038004" DestItemPCT1="10000" />
+    <BeGoldStone id="680" GoldStoneType="19" ScrItemID="8038005" DestItemID1="8038005" DestItemPCT1="10000" />
+    <BeGoldStone id="681" GoldStoneType="11" ScrItemID="8110012" DestItemID1="8110012" DestItemPCT1="10000" />
+    <BeGoldStone id="682" GoldStoneType="11" ScrItemID="8110013" DestItemID1="8110013" DestItemPCT1="10000" />
+    <BeGoldStone id="683" GoldStoneType="11" ScrItemID="8111012" DestItemID1="8111012" DestItemPCT1="10000" />
+    <BeGoldStone id="684" GoldStoneType="11" ScrItemID="8111013" DestItemID1="8111013" DestItemPCT1="10000" />
+    <BeGoldStone id="685" GoldStoneType="20" ScrItemID="8220001" DestItemID1="8220101" DestItemPCT1="10000" />
+    <BeGoldStone id="686" GoldStoneType="20" ScrItemID="8220201" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="687" GoldStoneType="20" ScrItemID="8220301" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="688" GoldStoneType="20" ScrItemID="8220302" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="689" GoldStoneType="20" ScrItemID="8220303" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="690" GoldStoneType="20" ScrItemID="8220304" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="691" GoldStoneType="20" ScrItemID="8220305" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="692" GoldStoneType="20" ScrItemID="8220306" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="693" GoldStoneType="20" ScrItemID="8220307" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="694" GoldStoneType="20" ScrItemID="8220308" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="695" GoldStoneType="20" ScrItemID="8220309" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="696" GoldStoneType="20" ScrItemID="8220310" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="697" GoldStoneType="20" ScrItemID="8220311" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="698" GoldStoneType="20" ScrItemID="8220312" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="699" GoldStoneType="20" ScrItemID="8220313" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="700" GoldStoneType="20" ScrItemID="8220314" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="701" GoldStoneType="20" ScrItemID="8220315" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="702" GoldStoneType="20" ScrItemID="8220316" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="703" GoldStoneType="20" ScrItemID="8220317" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="704" GoldStoneType="20" ScrItemID="8220318" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="705" GoldStoneType="20" ScrItemID="8220319" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="706" GoldStoneType="20" ScrItemID="8220320" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="707" GoldStoneType="20" ScrItemID="8220321" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="708" GoldStoneType="20" ScrItemID="8220322" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="709" GoldStoneType="20" ScrItemID="8220323" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="710" GoldStoneType="20" ScrItemID="8220324" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="711" GoldStoneType="20" ScrItemID="8220325" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="712" GoldStoneType="20" ScrItemID="8220326" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="713" GoldStoneType="20" ScrItemID="8220327" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="714" GoldStoneType="20" ScrItemID="8220328" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="715" GoldStoneType="20" ScrItemID="8220329" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="716" GoldStoneType="20" ScrItemID="8220330" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="717" GoldStoneType="20" ScrItemID="8220331" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="718" GoldStoneType="20" ScrItemID="8220332" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="719" GoldStoneType="20" ScrItemID="8220333" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="720" GoldStoneType="20" ScrItemID="8220334" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="721" GoldStoneType="20" ScrItemID="8220335" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="722" GoldStoneType="20" ScrItemID="8220336" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="723" GoldStoneType="20" ScrItemID="8220337" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="724" GoldStoneType="20" ScrItemID="8220338" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="725" GoldStoneType="20" ScrItemID="8220339" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="726" GoldStoneType="20" ScrItemID="8220340" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="727" GoldStoneType="20" ScrItemID="8220341" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="728" GoldStoneType="20" ScrItemID="8220342" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="729" GoldStoneType="20" ScrItemID="8220343" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="730" GoldStoneType="20" ScrItemID="8220344" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="731" GoldStoneType="20" ScrItemID="8220345" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="732" GoldStoneType="20" ScrItemID="8220346" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="733" GoldStoneType="20" ScrItemID="8220347" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="734" GoldStoneType="20" ScrItemID="8220348" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="735" GoldStoneType="20" ScrItemID="8220349" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="736" GoldStoneType="20" ScrItemID="8220350" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="737" GoldStoneType="20" ScrItemID="8220351" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="738" GoldStoneType="20" ScrItemID="8220352" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="739" GoldStoneType="20" ScrItemID="8220353" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="740" GoldStoneType="20" ScrItemID="8220354" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="741" GoldStoneType="20" ScrItemID="8220355" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="742" GoldStoneType="20" ScrItemID="8220356" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="743" GoldStoneType="20" ScrItemID="8220357" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="744" GoldStoneType="20" ScrItemID="8220358" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="745" GoldStoneType="20" ScrItemID="8220359" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="746" GoldStoneType="20" ScrItemID="8220360" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="747" GoldStoneType="20" ScrItemID="8220361" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="748" GoldStoneType="20" ScrItemID="8220362" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="749" GoldStoneType="20" ScrItemID="8220363" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="750" GoldStoneType="20" ScrItemID="8220364" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="751" GoldStoneType="20" ScrItemID="8220365" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="752" GoldStoneType="20" ScrItemID="8220366" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="753" GoldStoneType="20" ScrItemID="8220367" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="754" GoldStoneType="20" ScrItemID="8220368" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="755" GoldStoneType="20" ScrItemID="8220369" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="756" GoldStoneType="20" ScrItemID="8220370" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="757" GoldStoneType="20" ScrItemID="8220371" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="758" GoldStoneType="20" ScrItemID="8220372" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="759" GoldStoneType="20" ScrItemID="8220373" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="760" GoldStoneType="20" ScrItemID="8220374" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="761" GoldStoneType="20" ScrItemID="8220375" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="762" GoldStoneType="20" ScrItemID="8220376" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="763" GoldStoneType="20" ScrItemID="8220377" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="764" GoldStoneType="20" ScrItemID="8220378" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="765" GoldStoneType="20" ScrItemID="8220379" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="766" GoldStoneType="20" ScrItemID="8220380" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="767" GoldStoneType="20" ScrItemID="8220381" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="768" GoldStoneType="20" ScrItemID="8220382" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="769" GoldStoneType="20" ScrItemID="8220383" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="770" GoldStoneType="20" ScrItemID="8220384" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="771" GoldStoneType="20" ScrItemID="8220385" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="772" GoldStoneType="20" ScrItemID="8220386" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="773" GoldStoneType="20" ScrItemID="8220387" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="774" GoldStoneType="20" ScrItemID="8220388" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="775" GoldStoneType="20" ScrItemID="8220389" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="776" GoldStoneType="20" ScrItemID="8220390" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="777" GoldStoneType="20" ScrItemID="8220391" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="778" GoldStoneType="20" ScrItemID="8220392" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="779" GoldStoneType="20" ScrItemID="8220393" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="780" GoldStoneType="20" ScrItemID="8220394" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="781" GoldStoneType="20" ScrItemID="8220395" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="782" GoldStoneType="20" ScrItemID="8220396" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="783" GoldStoneType="20" ScrItemID="8220397" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="784" GoldStoneType="20" ScrItemID="8220398" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="785" GoldStoneType="20" ScrItemID="8220399" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="786" GoldStoneType="20" ScrItemID="8220400" DestItemID1="8220301" DestItemPCT1="10000" />
+    <BeGoldStone id="787" GoldStoneType="20" ScrItemID="8220101" DestItemID1="8220101" DestItemPCT1="10000" />
+    <BeGoldStone id="788" GoldStoneType="21" ScrItemID="4820122" DestItemID1="8220501" DestItemPCT1="10000" />
+    <BeGoldStone id="789" GoldStoneType="21" ScrItemID="4820123" DestItemID1="8220502" DestItemPCT1="10000" />
+    <BeGoldStone id="790" GoldStoneType="21" ScrItemID="4820124" DestItemID1="8220503" DestItemPCT1="10000" />
+    <BeGoldStone id="791" GoldStoneType="21" ScrItemID="4820125" DestItemID1="8220504" DestItemPCT1="10000" />
+    <BeGoldStone id="792" GoldStoneType="21" ScrItemID="4820126" DestItemID1="8220505" DestItemPCT1="10000" />
+    <BeGoldStone id="793" GoldStoneType="21" ScrItemID="4820127" DestItemID1="8220506" DestItemPCT1="10000" />
+    <BeGoldStone id="794" GoldStoneType="21" ScrItemID="4820128" DestItemID1="8220507" DestItemPCT1="10000" />
+    <BeGoldStone id="795" GoldStoneType="21" ScrItemID="4820129" DestItemID1="8220508" DestItemPCT1="10000" />
+    <BeGoldStone id="796" GoldStoneType="21" ScrItemID="4820130" DestItemID1="8220509" DestItemPCT1="10000" />
+    <BeGoldStone id="797" GoldStoneType="21" ScrItemID="4820131" DestItemID1="8220510" DestItemPCT1="10000" />
+    <BeGoldStone id="798" GoldStoneType="21" ScrItemID="4820132" DestItemID1="8220511" DestItemPCT1="10000" />
+    <BeGoldStone id="799" GoldStoneType="21" ScrItemID="4820133" DestItemID1="8220512" DestItemPCT1="10000" />
+    <BeGoldStone id="800" GoldStoneType="21" ScrItemID="4820134" DestItemID1="8220513" DestItemPCT1="10000" />
+    <BeGoldStone id="801" GoldStoneType="21" ScrItemID="4820135" DestItemID1="8220514" DestItemPCT1="10000" />
+    <BeGoldStone id="802" GoldStoneType="21" ScrItemID="4820136" DestItemID1="8220515" DestItemPCT1="10000" />
+    <BeGoldStone id="803" GoldStoneType="21" ScrItemID="4820137" DestItemID1="8220516" DestItemPCT1="10000" />
+    <BeGoldStone id="804" GoldStoneType="21" ScrItemID="4820138" DestItemID1="8220517" DestItemPCT1="10000" />
+    <BeGoldStone id="805" GoldStoneType="21" ScrItemID="4820139" DestItemID1="8220518" DestItemPCT1="10000" />
+    <BeGoldStone id="806" GoldStoneType="21" ScrItemID="4820140" DestItemID1="8220519" DestItemPCT1="10000" />
+    <BeGoldStone id="807" GoldStoneType="21" ScrItemID="4820141" DestItemID1="8220520" DestItemPCT1="10000" />
+    <BeGoldStone id="808" GoldStoneType="22" ScrItemID="4820142" DestItemID1="8220601" DestItemPCT1="10000" />
+    <BeGoldStone id="809" GoldStoneType="22" ScrItemID="4820143" DestItemID1="8220602" DestItemPCT1="10000" />
+    <BeGoldStone id="810" GoldStoneType="22" ScrItemID="4820144" DestItemID1="8220603" DestItemPCT1="10000" />
+    <BeGoldStone id="811" GoldStoneType="22" ScrItemID="4820145" DestItemID1="8220604" DestItemPCT1="10000" />
+    <BeGoldStone id="812" GoldStoneType="22" ScrItemID="4820146" DestItemID1="8220605" DestItemPCT1="10000" />
+    <BeGoldStone id="813" GoldStoneType="22" ScrItemID="4820147" DestItemID1="8220606" DestItemPCT1="10000" />
+    <BeGoldStone id="814" GoldStoneType="22" ScrItemID="4820148" DestItemID1="8220607" DestItemPCT1="10000" />
+    <BeGoldStone id="815" GoldStoneType="22" ScrItemID="4820149" DestItemID1="8220608" DestItemPCT1="10000" />
+    <BeGoldStone id="816" GoldStoneType="22" ScrItemID="4820150" DestItemID1="8220609" DestItemPCT1="10000" />
+    <BeGoldStone id="817" GoldStoneType="22" ScrItemID="4820151" DestItemID1="8220610" DestItemPCT1="10000" />
+    <BeGoldStone id="818" GoldStoneType="22" ScrItemID="4820152" DestItemID1="8220611" DestItemPCT1="10000" />
+    <BeGoldStone id="819" GoldStoneType="22" ScrItemID="4820153" DestItemID1="8220612" DestItemPCT1="10000" />
+    <BeGoldStone id="820" GoldStoneType="22" ScrItemID="4820154" DestItemID1="8220613" DestItemPCT1="10000" />
+    <BeGoldStone id="821" GoldStoneType="22" ScrItemID="4820155" DestItemID1="8220614" DestItemPCT1="10000" />
+    <BeGoldStone id="822" GoldStoneType="22" ScrItemID="4820156" DestItemID1="8220615" DestItemPCT1="10000" />
+    <BeGoldStone id="823" GoldStoneType="22" ScrItemID="4820157" DestItemID1="8220616" DestItemPCT1="10000" />
+    <BeGoldStone id="824" GoldStoneType="22" ScrItemID="4820158" DestItemID1="8220617" DestItemPCT1="10000" />
+    <BeGoldStone id="825" GoldStoneType="22" ScrItemID="4820159" DestItemID1="8220618" DestItemPCT1="10000" />
+    <BeGoldStone id="826" GoldStoneType="22" ScrItemID="4820160" DestItemID1="8220619" DestItemPCT1="10000" />
+    <BeGoldStone id="827" GoldStoneType="22" ScrItemID="4820161" DestItemID1="8220620" DestItemPCT1="10000" />
+    <BeGoldStone id="828" GoldStoneType="23" ScrItemID="4820192" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="829" GoldStoneType="23" ScrItemID="4820193" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="830" GoldStoneType="23" ScrItemID="4820194" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="831" GoldStoneType="23" ScrItemID="4820195" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="832" GoldStoneType="23" ScrItemID="4820196" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="833" GoldStoneType="23" ScrItemID="4820197" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="834" GoldStoneType="23" ScrItemID="4820198" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="835" GoldStoneType="23" ScrItemID="4820199" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="836" GoldStoneType="23" ScrItemID="4820200" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="837" GoldStoneType="23" ScrItemID="4820201" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="838" GoldStoneType="23" ScrItemID="4820202" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="839" GoldStoneType="23" ScrItemID="4820203" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="840" GoldStoneType="23" ScrItemID="4820204" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="841" GoldStoneType="23" ScrItemID="4820205" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="842" GoldStoneType="23" ScrItemID="4820206" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="843" GoldStoneType="23" ScrItemID="4820207" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="844" GoldStoneType="23" ScrItemID="4820208" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="845" GoldStoneType="23" ScrItemID="4820209" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="846" GoldStoneType="23" ScrItemID="4820210" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="847" GoldStoneType="23" ScrItemID="4820211" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="848" GoldStoneType="23" ScrItemID="4820212" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="849" GoldStoneType="23" ScrItemID="4820213" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="850" GoldStoneType="23" ScrItemID="4820214" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="851" GoldStoneType="23" ScrItemID="4820215" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="852" GoldStoneType="23" ScrItemID="4820216" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="853" GoldStoneType="23" ScrItemID="4820217" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="854" GoldStoneType="23" ScrItemID="4820218" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="855" GoldStoneType="23" ScrItemID="4820219" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="856" GoldStoneType="23" ScrItemID="4820220" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="857" GoldStoneType="23" ScrItemID="4820221" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="858" GoldStoneType="23" ScrItemID="4820222" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="859" GoldStoneType="23" ScrItemID="4820223" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="860" GoldStoneType="23" ScrItemID="4820224" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="861" GoldStoneType="23" ScrItemID="4820225" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="862" GoldStoneType="23" ScrItemID="4820226" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="863" GoldStoneType="23" ScrItemID="4820227" DestItemID1="4800248" DestItemPCT1="10000" />
+    <BeGoldStone id="864" GoldStoneType="8" ScrItemID="3030427" DestItemID1="3030154" DestItemPCT1="10000" />
+    <BeGoldStone id="865" GoldStoneType="8" ScrItemID="3030428" DestItemID1="3030155" DestItemPCT1="10000" />
+    <BeGoldStone id="866" GoldStoneType="8" ScrItemID="3030429" DestItemID1="3030158" DestItemPCT1="10000" />
+    <BeGoldStone id="867" GoldStoneType="8" ScrItemID="3030430" DestItemID1="3030159" DestItemPCT1="10000" />
+    <BeGoldStone id="868" GoldStoneType="8" ScrItemID="3030431" DestItemID1="3030164" DestItemPCT1="10000" />
+    <BeGoldStone id="869" GoldStoneType="8" ScrItemID="3030432" DestItemID1="3030165" DestItemPCT1="10000" />
+    <BeGoldStone id="870" GoldStoneType="8" ScrItemID="3030433" DestItemID1="3030166" DestItemPCT1="10000" />
+    <BeGoldStone id="871" GoldStoneType="8" ScrItemID="3030434" DestItemID1="3030167" DestItemPCT1="10000" />
+    <BeGoldStone id="872" GoldStoneType="8" ScrItemID="3030436" DestItemID1="3030435" DestItemPCT1="10000" />
+    <BeGoldStone id="873" GoldStoneType="8" ScrItemID="3030437" DestItemID1="3030427" DestItemPCT1="10000" />
+    <BeGoldStone id="874" GoldStoneType="8" ScrItemID="3030438" DestItemID1="3030427" DestItemPCT1="10000" />
+    <BeGoldStone id="875" GoldStoneType="8" ScrItemID="3030439" DestItemID1="3030427" DestItemPCT1="10000" />
+    <BeGoldStone id="876" GoldStoneType="8" ScrItemID="3030440" DestItemID1="3030427" DestItemPCT1="10000" />
+    <BeGoldStone id="877" GoldStoneType="8" ScrItemID="3030441" DestItemID1="3030428" DestItemPCT1="10000" />
+    <BeGoldStone id="878" GoldStoneType="8" ScrItemID="3030442" DestItemID1="3030428" DestItemPCT1="10000" />
+    <BeGoldStone id="879" GoldStoneType="8" ScrItemID="3030443" DestItemID1="3030428" DestItemPCT1="10000" />
+    <BeGoldStone id="880" GoldStoneType="8" ScrItemID="3030444" DestItemID1="3030428" DestItemPCT1="10000" />
+    <BeGoldStone id="881" GoldStoneType="8" ScrItemID="3030445" DestItemID1="3030436" DestItemPCT1="10000" />
+    <BeGoldStone id="882" GoldStoneType="8" ScrItemID="3030446" DestItemID1="3030436" DestItemPCT1="10000" />
+    <BeGoldStone id="883" GoldStoneType="8" ScrItemID="3030447" DestItemID1="3030436" DestItemPCT1="10000" />
+    <BeGoldStone id="884" GoldStoneType="8" ScrItemID="3030448" DestItemID1="3030436" DestItemPCT1="10000" />
+    <BeGoldStone id="885" GoldStoneType="8" ScrItemID="3030449" DestItemID1="3030436" DestItemPCT1="10000" />
+    <BeGoldStone id="886" GoldStoneType="8" ScrItemID="3030450" DestItemID1="3030436" DestItemPCT1="10000" />
+    <BeGoldStone id="887" GoldStoneType="8" ScrItemID="3030451" DestItemID1="3030432" DestItemPCT1="10000" />
+    <BeGoldStone id="888" GoldStoneType="8" ScrItemID="3030452" DestItemID1="3030432" DestItemPCT1="10000" />
+    <BeGoldStone id="889" GoldStoneType="8" ScrItemID="3030453" DestItemID1="3030432" DestItemPCT1="10000" />
+    <BeGoldStone id="890" GoldStoneType="8" ScrItemID="3030454" DestItemID1="3030432" DestItemPCT1="10000" />
+    <BeGoldStone id="891" GoldStoneType="8" ScrItemID="3030455" DestItemID1="3030432" DestItemPCT1="10000" />
+    <BeGoldStone id="892" GoldStoneType="8" ScrItemID="3030456" DestItemID1="3030434" DestItemPCT1="10000" />
+    <BeGoldStone id="893" GoldStoneType="8" ScrItemID="3030457" DestItemID1="3030434" DestItemPCT1="10000" />
+    <BeGoldStone id="894" GoldStoneType="8" ScrItemID="3030458" DestItemID1="3030434" DestItemPCT1="10000" />
+    <BeGoldStone id="895" GoldStoneType="8" ScrItemID="3030459" DestItemID1="3030434" DestItemPCT1="10000" />
+    <BeGoldStone id="896" GoldStoneType="8" ScrItemID="3030460" DestItemID1="3030434" DestItemPCT1="10000" />
+    <BeGoldStone id="897" GoldStoneType="24" ScrItemID="8170124" DestItemID1="8170124" DestItemPCT1="1600" DestItemID2="8170125" DestItemPCT2="1600" DestItemID3="8170126" DestItemPCT3="1700" DestItemID4="8170127" DestItemPCT4="1700" DestItemID5="8170128" DestItemPCT5="1700" DestItemID6="8170144" DestItemPCT6="1700" />
+    <BeGoldStone id="898" GoldStoneType="24" ScrItemID="8170125" DestItemID1="8170125" DestItemPCT1="1600" DestItemID2="8170126" DestItemPCT2="1600" DestItemID3="8170127" DestItemPCT3="1700" DestItemID4="8170128" DestItemPCT4="1700" DestItemID5="8170124" DestItemPCT5="1700" DestItemID6="8170144" DestItemPCT6="1700" />
+    <BeGoldStone id="899" GoldStoneType="24" ScrItemID="8170126" DestItemID1="8170126" DestItemPCT1="1600" DestItemID2="8170127" DestItemPCT2="1600" DestItemID3="8170128" DestItemPCT3="1700" DestItemID4="8170124" DestItemPCT4="1700" DestItemID5="8170125" DestItemPCT5="1700" DestItemID6="8170144" DestItemPCT6="1700" />
+    <BeGoldStone id="900" GoldStoneType="24" ScrItemID="8170127" DestItemID1="8170127" DestItemPCT1="1600" DestItemID2="8170128" DestItemPCT2="1600" DestItemID3="8170124" DestItemPCT3="1700" DestItemID4="8170125" DestItemPCT4="1700" DestItemID5="8170126" DestItemPCT5="1700" DestItemID6="8170144" DestItemPCT6="1700" />
+    <BeGoldStone id="901" GoldStoneType="24" ScrItemID="8170128" DestItemID1="8170128" DestItemPCT1="1600" DestItemID2="8170124" DestItemPCT2="1600" DestItemID3="8170125" DestItemPCT3="1700" DestItemID4="8170126" DestItemPCT4="1700" DestItemID5="8170127" DestItemPCT5="1700" DestItemID6="8170144" DestItemPCT6="1700" />
+    <BeGoldStone id="902" GoldStoneType="24" ScrItemID="8170129" DestItemID1="8170130" DestItemPCT1="1100" DestItemID2="8170131" DestItemPCT2="1100" DestItemID3="8170132" DestItemPCT3="1100" DestItemID4="8170133" DestItemPCT4="1100" DestItemID5="8170134" DestItemPCT5="1100" DestItemID6="8170135" DestItemPCT6="1100" DestItemID7="8170136" DestItemPCT7="1100" DestItemID8="8170137" DestItemPCT8="1100" DestItemID9="8170129" DestItemPCT9="1200" />
+    <BeGoldStone id="903" GoldStoneType="24" ScrItemID="8170130" DestItemID1="8170131" DestItemPCT1="1100" DestItemID2="8170132" DestItemPCT2="1100" DestItemID3="8170133" DestItemPCT3="1100" DestItemID4="8170134" DestItemPCT4="1100" DestItemID5="8170135" DestItemPCT5="1100" DestItemID6="8170136" DestItemPCT6="1100" DestItemID7="8170137" DestItemPCT7="1100" DestItemID8="8170129" DestItemPCT8="1100" DestItemID9="8170130" DestItemPCT9="1200" />
+    <BeGoldStone id="904" GoldStoneType="24" ScrItemID="8170131" DestItemID1="8170132" DestItemPCT1="1100" DestItemID2="8170133" DestItemPCT2="1100" DestItemID3="8170134" DestItemPCT3="1100" DestItemID4="8170135" DestItemPCT4="1100" DestItemID5="8170136" DestItemPCT5="1100" DestItemID6="8170137" DestItemPCT6="1100" DestItemID7="8170129" DestItemPCT7="1100" DestItemID8="8170130" DestItemPCT8="1100" DestItemID9="8170131" DestItemPCT9="1200" />
+    <BeGoldStone id="905" GoldStoneType="24" ScrItemID="8170132" DestItemID1="8170133" DestItemPCT1="1100" DestItemID2="8170134" DestItemPCT2="1100" DestItemID3="8170135" DestItemPCT3="1100" DestItemID4="8170136" DestItemPCT4="1100" DestItemID5="8170137" DestItemPCT5="1100" DestItemID6="8170129" DestItemPCT6="1100" DestItemID7="8170130" DestItemPCT7="1100" DestItemID8="8170131" DestItemPCT8="1100" DestItemID9="8170132" DestItemPCT9="1200" />
+    <BeGoldStone id="906" GoldStoneType="24" ScrItemID="8170133" DestItemID1="8170134" DestItemPCT1="1100" DestItemID2="8170135" DestItemPCT2="1100" DestItemID3="8170136" DestItemPCT3="1100" DestItemID4="8170137" DestItemPCT4="1100" DestItemID5="8170129" DestItemPCT5="1100" DestItemID6="8170130" DestItemPCT6="1100" DestItemID7="8170131" DestItemPCT7="1100" DestItemID8="8170132" DestItemPCT8="1100" DestItemID9="8170133" DestItemPCT9="1200" />
+    <BeGoldStone id="907" GoldStoneType="24" ScrItemID="8170134" DestItemID1="8170135" DestItemPCT1="1100" DestItemID2="8170136" DestItemPCT2="1100" DestItemID3="8170137" DestItemPCT3="1100" DestItemID4="8170129" DestItemPCT4="1100" DestItemID5="8170130" DestItemPCT5="1100" DestItemID6="8170131" DestItemPCT6="1100" DestItemID7="8170132" DestItemPCT7="1100" DestItemID8="8170133" DestItemPCT8="1100" DestItemID9="8170134" DestItemPCT9="1200" />
+    <BeGoldStone id="908" GoldStoneType="24" ScrItemID="8170135" DestItemID1="8170136" DestItemPCT1="1100" DestItemID2="8170137" DestItemPCT2="1100" DestItemID3="8170129" DestItemPCT3="1100" DestItemID4="8170130" DestItemPCT4="1100" DestItemID5="8170131" DestItemPCT5="1100" DestItemID6="8170132" DestItemPCT6="1100" DestItemID7="8170133" DestItemPCT7="1100" DestItemID8="8170134" DestItemPCT8="1100" DestItemID9="8170135" DestItemPCT9="1200" />
+    <BeGoldStone id="909" GoldStoneType="24" ScrItemID="8170136" DestItemID1="8170137" DestItemPCT1="1100" DestItemID2="8170129" DestItemPCT2="1100" DestItemID3="8170130" DestItemPCT3="1100" DestItemID4="8170131" DestItemPCT4="1100" DestItemID5="8170132" DestItemPCT5="1100" DestItemID6="8170133" DestItemPCT6="1100" DestItemID7="8170134" DestItemPCT7="1100" DestItemID8="8170135" DestItemPCT8="1100" DestItemID9="8170136" DestItemPCT9="1200" />
+    <BeGoldStone id="910" GoldStoneType="24" ScrItemID="8170137" DestItemID1="8170129" DestItemPCT1="1100" DestItemID2="8170130" DestItemPCT2="1100" DestItemID3="8170131" DestItemPCT3="1100" DestItemID4="8170132" DestItemPCT4="1100" DestItemID5="8170133" DestItemPCT5="1100" DestItemID6="8170134" DestItemPCT6="1100" DestItemID7="8170135" DestItemPCT7="1100" DestItemID8="8170136" DestItemPCT8="1100" DestItemID9="8170137" DestItemPCT9="1200" />
+    <BeGoldStone id="911" GoldStoneType="24" ScrItemID="8170138" DestItemID1="8170138" DestItemPCT1="1600" DestItemID2="8170139" DestItemPCT2="1600" DestItemID3="8170140" DestItemPCT3="1700" DestItemID4="8170141" DestItemPCT4="1700" DestItemID5="8170142" DestItemPCT5="1700" DestItemID6="8170143" DestItemPCT6="1700" />
+    <BeGoldStone id="912" GoldStoneType="24" ScrItemID="8170139" DestItemID1="8170139" DestItemPCT1="1600" DestItemID2="8170140" DestItemPCT2="1600" DestItemID3="8170141" DestItemPCT3="1700" DestItemID4="8170142" DestItemPCT4="1700" DestItemID5="8170143" DestItemPCT5="1700" DestItemID6="8170138" DestItemPCT6="1700" />
+    <BeGoldStone id="913" GoldStoneType="24" ScrItemID="8170140" DestItemID1="8170140" DestItemPCT1="1600" DestItemID2="8170141" DestItemPCT2="1600" DestItemID3="8170142" DestItemPCT3="1700" DestItemID4="8170143" DestItemPCT4="1700" DestItemID5="8170138" DestItemPCT5="1700" DestItemID6="8170139" DestItemPCT6="1700" />
+    <BeGoldStone id="914" GoldStoneType="24" ScrItemID="8170141" DestItemID1="8170141" DestItemPCT1="1600" DestItemID2="8170142" DestItemPCT2="1600" DestItemID3="8170143" DestItemPCT3="1700" DestItemID4="8170138" DestItemPCT4="1700" DestItemID5="8170139" DestItemPCT5="1700" DestItemID6="8170140" DestItemPCT6="1700" />
+    <BeGoldStone id="915" GoldStoneType="24" ScrItemID="8170142" DestItemID1="8170142" DestItemPCT1="1600" DestItemID2="8170143" DestItemPCT2="1600" DestItemID3="8170138" DestItemPCT3="1700" DestItemID4="8170139" DestItemPCT4="1700" DestItemID5="8170140" DestItemPCT5="1700" DestItemID6="8170141" DestItemPCT6="1700" />
+    <BeGoldStone id="916" GoldStoneType="24" ScrItemID="8170143" DestItemID1="8170143" DestItemPCT1="1600" DestItemID2="8170138" DestItemPCT2="1600" DestItemID3="8170139" DestItemPCT3="1700" DestItemID4="8170140" DestItemPCT4="1700" DestItemID5="8170141" DestItemPCT5="1700" DestItemID6="8170142" DestItemPCT6="1700" />
+    <BeGoldStone id="917" GoldStoneType="24" ScrItemID="8170145" DestItemID1="8170145" DestItemPCT1="3300" DestItemID2="8170146" DestItemPCT2="3300" DestItemID3="8170147" DestItemPCT3="3400" />
+    <BeGoldStone id="918" GoldStoneType="24" ScrItemID="8170146" DestItemID1="8170146" DestItemPCT1="3300" DestItemID2="8170147" DestItemPCT2="3300" DestItemID3="8170145" DestItemPCT3="3400" />
+    <BeGoldStone id="919" GoldStoneType="24" ScrItemID="8170147" DestItemID1="8170147" DestItemPCT1="3300" DestItemID2="8170145" DestItemPCT2="3300" DestItemID3="8170146" DestItemPCT3="3400" />
+    <BeGoldStone id="920" GoldStoneType="24" ScrItemID="8160039" DestItemID1="8160039" DestItemPCT1="2000" DestItemID2="8160040" DestItemPCT2="2000" DestItemID3="8160041" DestItemPCT3="2000" DestItemID4="8160042" DestItemPCT4="2000" DestItemID5="8160043" DestItemPCT5="2000" />
+    <BeGoldStone id="921" GoldStoneType="24" ScrItemID="8160040" DestItemID1="8160040" DestItemPCT1="2000" DestItemID2="8160041" DestItemPCT2="2000" DestItemID3="8160042" DestItemPCT3="2000" DestItemID4="8160043" DestItemPCT4="2000" DestItemID5="8160039" DestItemPCT5="2000" />
+    <BeGoldStone id="922" GoldStoneType="24" ScrItemID="8160041" DestItemID1="8160041" DestItemPCT1="2000" DestItemID2="8160042" DestItemPCT2="2000" DestItemID3="8160043" DestItemPCT3="2000" DestItemID4="8160039" DestItemPCT4="2000" DestItemID5="8160040" DestItemPCT5="2000" />
+    <BeGoldStone id="923" GoldStoneType="24" ScrItemID="8160042" DestItemID1="8160042" DestItemPCT1="2000" DestItemID2="8160043" DestItemPCT2="2000" DestItemID3="8160039" DestItemPCT3="2000" DestItemID4="8160040" DestItemPCT4="2000" DestItemID5="8160041" DestItemPCT5="2000" />
+    <BeGoldStone id="924" GoldStoneType="24" ScrItemID="8160043" DestItemID1="8160043" DestItemPCT1="2000" DestItemID2="8160039" DestItemPCT2="2000" DestItemID3="8160040" DestItemPCT3="2000" DestItemID4="8160041" DestItemPCT4="2000" DestItemID5="8160042" DestItemPCT5="2000" />
+    <BeGoldStone id="925" GoldStoneType="24" ScrItemID="8160044" DestItemID1="8160044" DestItemPCT1="1100" DestItemID2="8160045" DestItemPCT2="1100" DestItemID3="8160046" DestItemPCT3="1100" DestItemID4="8160047" DestItemPCT4="1100" DestItemID5="8160048" DestItemPCT5="1100" DestItemID6="8160049" DestItemPCT6="1100" DestItemID7="8160050" DestItemPCT7="1100" DestItemID8="8160051" DestItemPCT8="1100" DestItemID9="8160052" DestItemPCT9="1200" />
+    <BeGoldStone id="926" GoldStoneType="24" ScrItemID="8160045" DestItemID1="8160045" DestItemPCT1="1100" DestItemID2="8160046" DestItemPCT2="1100" DestItemID3="8160047" DestItemPCT3="1100" DestItemID4="8160048" DestItemPCT4="1100" DestItemID5="8160049" DestItemPCT5="1100" DestItemID6="8160050" DestItemPCT6="1100" DestItemID7="8160051" DestItemPCT7="1100" DestItemID8="8160052" DestItemPCT8="1100" DestItemID9="8160044" DestItemPCT9="1200" />
+    <BeGoldStone id="927" GoldStoneType="24" ScrItemID="8160046" DestItemID1="8160046" DestItemPCT1="1100" DestItemID2="8160047" DestItemPCT2="1100" DestItemID3="8160048" DestItemPCT3="1100" DestItemID4="8160049" DestItemPCT4="1100" DestItemID5="8160050" DestItemPCT5="1100" DestItemID6="8160051" DestItemPCT6="1100" DestItemID7="8160052" DestItemPCT7="1100" DestItemID8="8160044" DestItemPCT8="1100" DestItemID9="8160045" DestItemPCT9="1200" />
+    <BeGoldStone id="928" GoldStoneType="24" ScrItemID="8160047" DestItemID1="8160047" DestItemPCT1="1100" DestItemID2="8160048" DestItemPCT2="1100" DestItemID3="8160049" DestItemPCT3="1100" DestItemID4="8160050" DestItemPCT4="1100" DestItemID5="8160051" DestItemPCT5="1100" DestItemID6="8160052" DestItemPCT6="1100" DestItemID7="8160044" DestItemPCT7="1100" DestItemID8="8160045" DestItemPCT8="1100" DestItemID9="8160046" DestItemPCT9="1200" />
+    <BeGoldStone id="929" GoldStoneType="24" ScrItemID="8160048" DestItemID1="8160048" DestItemPCT1="1100" DestItemID2="8160049" DestItemPCT2="1100" DestItemID3="8160050" DestItemPCT3="1100" DestItemID4="8160051" DestItemPCT4="1100" DestItemID5="8160052" DestItemPCT5="1100" DestItemID6="8160044" DestItemPCT6="1100" DestItemID7="8160045" DestItemPCT7="1100" DestItemID8="8160046" DestItemPCT8="1100" DestItemID9="8160047" DestItemPCT9="1200" />
+    <BeGoldStone id="930" GoldStoneType="24" ScrItemID="8160049" DestItemID1="8160049" DestItemPCT1="1100" DestItemID2="8160050" DestItemPCT2="1100" DestItemID3="8160051" DestItemPCT3="1100" DestItemID4="8160052" DestItemPCT4="1100" DestItemID5="8160044" DestItemPCT5="1100" DestItemID6="8160045" DestItemPCT6="1100" DestItemID7="8160046" DestItemPCT7="1100" DestItemID8="8160047" DestItemPCT8="1100" DestItemID9="8160048" DestItemPCT9="1200" />
+    <BeGoldStone id="931" GoldStoneType="24" ScrItemID="8160050" DestItemID1="8160050" DestItemPCT1="1100" DestItemID2="8160051" DestItemPCT2="1100" DestItemID3="8160052" DestItemPCT3="1100" DestItemID4="8160044" DestItemPCT4="1100" DestItemID5="8160045" DestItemPCT5="1100" DestItemID6="8160046" DestItemPCT6="1100" DestItemID7="8160047" DestItemPCT7="1100" DestItemID8="8160048" DestItemPCT8="1100" DestItemID9="8160049" DestItemPCT9="1200" />
+    <BeGoldStone id="932" GoldStoneType="24" ScrItemID="8160051" DestItemID1="8160051" DestItemPCT1="1100" DestItemID2="8160052" DestItemPCT2="1100" DestItemID3="8160044" DestItemPCT3="1100" DestItemID4="8160045" DestItemPCT4="1100" DestItemID5="8160046" DestItemPCT5="1100" DestItemID6="8160047" DestItemPCT6="1100" DestItemID7="8160048" DestItemPCT7="1100" DestItemID8="8160049" DestItemPCT8="1100" DestItemID9="8160050" DestItemPCT9="1200" />
+    <BeGoldStone id="933" GoldStoneType="24" ScrItemID="8160052" DestItemID1="8160052" DestItemPCT1="1100" DestItemID2="8160044" DestItemPCT2="1100" DestItemID3="8160045" DestItemPCT3="1100" DestItemID4="8160046" DestItemPCT4="1100" DestItemID5="8160047" DestItemPCT5="1100" DestItemID6="8160048" DestItemPCT6="1100" DestItemID7="8160049" DestItemPCT7="1100" DestItemID8="8160050" DestItemPCT8="1100" DestItemID9="8160051" DestItemPCT9="1200" />
+    <BeGoldStone id="934" GoldStoneType="24" ScrItemID="8160053" DestItemID1="8160053" DestItemPCT1="1600" DestItemID2="8160054" DestItemPCT2="1600" DestItemID3="8160055" DestItemPCT3="1700" DestItemID4="8160056" DestItemPCT4="1700" DestItemID5="8160057" DestItemPCT5="1700" DestItemID6="8160058" DestItemPCT6="1700" />
+    <BeGoldStone id="935" GoldStoneType="24" ScrItemID="8160054" DestItemID1="8160054" DestItemPCT1="1600" DestItemID2="8160055" DestItemPCT2="1600" DestItemID3="8160056" DestItemPCT3="1700" DestItemID4="8160057" DestItemPCT4="1700" DestItemID5="8160058" DestItemPCT5="1700" DestItemID6="8160053" DestItemPCT6="1700" />
+    <BeGoldStone id="936" GoldStoneType="24" ScrItemID="8160055" DestItemID1="8160055" DestItemPCT1="1600" DestItemID2="8160056" DestItemPCT2="1600" DestItemID3="8160057" DestItemPCT3="1700" DestItemID4="8160058" DestItemPCT4="1700" DestItemID5="8160053" DestItemPCT5="1700" DestItemID6="8160054" DestItemPCT6="1700" />
+    <BeGoldStone id="937" GoldStoneType="24" ScrItemID="8160056" DestItemID1="8160056" DestItemPCT1="1600" DestItemID2="8160057" DestItemPCT2="1600" DestItemID3="8160058" DestItemPCT3="1700" DestItemID4="8160053" DestItemPCT4="1700" DestItemID5="8160054" DestItemPCT5="1700" DestItemID6="8160055" DestItemPCT6="1700" />
+    <BeGoldStone id="938" GoldStoneType="24" ScrItemID="8160057" DestItemID1="8160057" DestItemPCT1="1600" DestItemID2="8160058" DestItemPCT2="1600" DestItemID3="8160053" DestItemPCT3="1700" DestItemID4="8160054" DestItemPCT4="1700" DestItemID5="8160055" DestItemPCT5="1700" DestItemID6="8160056" DestItemPCT6="1700" />
+    <BeGoldStone id="939" GoldStoneType="24" ScrItemID="8160058" DestItemID1="8160058" DestItemPCT1="1600" DestItemID2="8160053" DestItemPCT2="1600" DestItemID3="8160054" DestItemPCT3="1700" DestItemID4="8160055" DestItemPCT4="1700" DestItemID5="8160056" DestItemPCT5="1700" DestItemID6="8160057" DestItemPCT6="1700" />
+    <BeGoldStone id="940" GoldStoneType="25" ScrItemID="8230000" DestItemID1="8230034" DestItemPCT1="10000" />
+    <BeGoldStone id="941" GoldStoneType="25" ScrItemID="8230002" DestItemID1="8230035" DestItemPCT1="10000" />
+    <BeGoldStone id="942" GoldStoneType="25" ScrItemID="8230004" DestItemID1="8230030" DestItemPCT1="10000" />
+    <BeGoldStone id="943" GoldStoneType="25" ScrItemID="8230006" DestItemID1="8230031" DestItemPCT1="10000" />
+    <BeGoldStone id="944" GoldStoneType="25" ScrItemID="8230008" DestItemID1="8230032" DestItemPCT1="10000" />
+    <BeGoldStone id="945" GoldStoneType="25" ScrItemID="8230010" DestItemID1="8230033" DestItemPCT1="10000" />
+    <BeGoldStone id="946" GoldStoneType="25" ScrItemID="8230012" DestItemID1="8230034" DestItemPCT1="10000" />
+    <BeGoldStone id="947" GoldStoneType="25" ScrItemID="8230014" DestItemID1="8230035" DestItemPCT1="10000" />
+    <BeGoldStone id="948" GoldStoneType="25" ScrItemID="8230016" DestItemID1="8230030" DestItemPCT1="10000" />
+    <BeGoldStone id="949" GoldStoneType="25" ScrItemID="8230018" DestItemID1="8230031" DestItemPCT1="10000" />
+    <BeGoldStone id="950" GoldStoneType="25" ScrItemID="8230020" DestItemID1="8230032" DestItemPCT1="10000" />
+    <BeGoldStone id="951" GoldStoneType="25" ScrItemID="8230022" DestItemID1="8230033" DestItemPCT1="10000" />
+    <BeGoldStone id="952" GoldStoneType="25" ScrItemID="8230024" DestItemID1="8230034" DestItemPCT1="10000" />
+    <BeGoldStone id="953" GoldStoneType="25" ScrItemID="8230025" DestItemID1="8230035" DestItemPCT1="10000" />
+    <BeGoldStone id="954" GoldStoneType="25" ScrItemID="8230026" DestItemID1="8230030" DestItemPCT1="10000" />
+    <BeGoldStone id="955" GoldStoneType="25" ScrItemID="8230027" DestItemID1="8230031" DestItemPCT1="10000" />
+    <BeGoldStone id="956" GoldStoneType="25" ScrItemID="8230028" DestItemID1="8230032" DestItemPCT1="10000" />
+    <BeGoldStone id="957" GoldStoneType="25" ScrItemID="8230029" DestItemID1="8230033" DestItemPCT1="10000" />
+    <BeGoldStone id="958" GoldStoneType="26" ScrItemID="8230005" DestItemID1="8230036" DestItemPCT1="10000" />
+    <BeGoldStone id="959" GoldStoneType="26" ScrItemID="8230007" DestItemID1="8230037" DestItemPCT1="10000" />
+    <BeGoldStone id="960" GoldStoneType="26" ScrItemID="8230017" DestItemID1="8230036" DestItemPCT1="10000" />
+    <BeGoldStone id="961" GoldStoneType="26" ScrItemID="8230019" DestItemID1="8230037" DestItemPCT1="10000" />
+    <BeGoldStone id="962" GoldStoneType="25" ScrItemID="8230030" DestItemID1="8230030" DestItemPCT1="10000" />
+    <BeGoldStone id="963" GoldStoneType="25" ScrItemID="8230031" DestItemID1="8230031" DestItemPCT1="10000" />
+    <BeGoldStone id="964" GoldStoneType="25" ScrItemID="8230032" DestItemID1="8230032" DestItemPCT1="10000" />
+    <BeGoldStone id="965" GoldStoneType="25" ScrItemID="8230033" DestItemID1="8230033" DestItemPCT1="10000" />
+    <BeGoldStone id="966" GoldStoneType="25" ScrItemID="8230034" DestItemID1="8230034" DestItemPCT1="10000" />
+    <BeGoldStone id="967" GoldStoneType="25" ScrItemID="8230035" DestItemID1="8230035" DestItemPCT1="10000" />
+    <BeGoldStone id="968" GoldStoneType="26" ScrItemID="8230036" DestItemID1="8230036" DestItemPCT1="10000" />
+    <BeGoldStone id="969" GoldStoneType="26" ScrItemID="8230037" DestItemID1="8230037" DestItemPCT1="10000" />
+    <BeGoldStone id="970" GoldStoneType="27" ScrItemID="3550001" DestItemID1="9850001" DestItemPCT1="7200" DestItemID2="9850101" DestItemPCT2="2500" DestItemID3="9850201" DestItemPCT3="300" />
+    <BeGoldStone id="971" GoldStoneType="27" ScrItemID="3550002" DestItemID1="9850002" DestItemPCT1="7200" DestItemID2="9850102" DestItemPCT2="2500" DestItemID3="9850202" DestItemPCT3="300" />
+    <BeGoldStone id="972" GoldStoneType="27" ScrItemID="3550003" DestItemID1="9850003" DestItemPCT1="7200" DestItemID2="9850103" DestItemPCT2="2500" DestItemID3="9850203" DestItemPCT3="300" />
+    <BeGoldStone id="973" GoldStoneType="27" ScrItemID="3550004" DestItemID1="9850004" DestItemPCT1="7200" DestItemID2="9850104" DestItemPCT2="2500" DestItemID3="9850204" DestItemPCT3="300" />
+    <BeGoldStone id="974" GoldStoneType="27" ScrItemID="3550005" DestItemID1="9850005" DestItemPCT1="7200" DestItemID2="9850105" DestItemPCT2="2500" DestItemID3="9850205" DestItemPCT3="300" />
+    <BeGoldStone id="975" GoldStoneType="27" ScrItemID="3550006" DestItemID1="9850006" DestItemPCT1="7200" DestItemID2="9850106" DestItemPCT2="2500" DestItemID3="9850206" DestItemPCT3="300" />
+    <BeGoldStone id="976" GoldStoneType="27" ScrItemID="3550007" DestItemID1="9850007" DestItemPCT1="7200" DestItemID2="9850107" DestItemPCT2="2500" DestItemID3="9850207" DestItemPCT3="300" />
+    <BeGoldStone id="977" GoldStoneType="27" ScrItemID="3550008" DestItemID1="9850008" DestItemPCT1="7200" DestItemID2="9850108" DestItemPCT2="2500" DestItemID3="9850208" DestItemPCT3="300" />
+    <BeGoldStone id="978" GoldStoneType="28" ScrItemID="3550001" DestItemID1="9850001" DestItemPCT1="3300" DestItemID2="9850101" DestItemPCT2="6000" DestItemID3="9850201" DestItemPCT3="700" />
+    <BeGoldStone id="979" GoldStoneType="28" ScrItemID="3550002" DestItemID1="9850002" DestItemPCT1="3300" DestItemID2="9850102" DestItemPCT2="6000" DestItemID3="9850202" DestItemPCT3="700" />
+    <BeGoldStone id="980" GoldStoneType="28" ScrItemID="3550003" DestItemID1="9850003" DestItemPCT1="3300" DestItemID2="9850103" DestItemPCT2="6000" DestItemID3="9850203" DestItemPCT3="700" />
+    <BeGoldStone id="981" GoldStoneType="28" ScrItemID="3550004" DestItemID1="9850004" DestItemPCT1="3300" DestItemID2="9850104" DestItemPCT2="6000" DestItemID3="9850204" DestItemPCT3="700" />
+    <BeGoldStone id="982" GoldStoneType="28" ScrItemID="3550005" DestItemID1="9850005" DestItemPCT1="3300" DestItemID2="9850105" DestItemPCT2="6000" DestItemID3="9850205" DestItemPCT3="700" />
+    <BeGoldStone id="983" GoldStoneType="28" ScrItemID="3550006" DestItemID1="9850006" DestItemPCT1="3300" DestItemID2="9850106" DestItemPCT2="6000" DestItemID3="9850206" DestItemPCT3="700" />
+    <BeGoldStone id="984" GoldStoneType="28" ScrItemID="3550007" DestItemID1="9850007" DestItemPCT1="3300" DestItemID2="9850107" DestItemPCT2="6000" DestItemID3="9850207" DestItemPCT3="700" />
+    <BeGoldStone id="985" GoldStoneType="28" ScrItemID="3550008" DestItemID1="9850008" DestItemPCT1="3300" DestItemID2="9850108" DestItemPCT2="6000" DestItemID3="9850208" DestItemPCT3="700" />
+    <BeGoldStone id="986" GoldStoneType="28" ScrItemID="3550009" DestItemID1="9850301" DestItemPCT1="1100" DestItemID2="9850302" DestItemPCT2="1100" DestItemID3="9850303" DestItemPCT3="1100" DestItemID4="9850304" DestItemPCT4="1100" DestItemID5="9850305" DestItemPCT5="1100" DestItemID6="9850306" DestItemPCT6="1100" DestItemID7="9850307" DestItemPCT7="1100" DestItemID8="9850308" DestItemPCT8="1100" DestItemID9="9850309" DestItemPCT9="1200" />
+    <BeGoldStone id="987" GoldStoneType="27" ScrItemID="3550009" DestItemID1="9850301" DestItemPCT1="1250" DestItemID2="9850302" DestItemPCT2="1250" DestItemID3="9850303" DestItemPCT3="500" DestItemID4="9850304" DestItemPCT4="1500" DestItemID5="9850305" DestItemPCT5="1500" DestItemID6="9850306" DestItemPCT6="1500" DestItemID7="9850307" DestItemPCT7="1500" DestItemID8="9850308" DestItemPCT8="500" DestItemID9="9850309" DestItemPCT9="500" />
+</root>

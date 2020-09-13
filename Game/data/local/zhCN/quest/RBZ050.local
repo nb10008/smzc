@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20350" />
+    <entry Name="踏雪无痕" />
+    <entry Conditions="" />
+    <entry Overview="到&lt;N&gt;&lt;Z=s05,66321,17541,43219&gt;踏雪峰&lt;/Z&gt;&lt;/N&gt;去看一看，然后告诉&lt;D&gt;&lt;L=s05,5010089&gt;元天&lt;/L&gt;&lt;/D&gt;那里的情况。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv37]&lt;/S&gt;白银魔窟:37级后可挑&lt;P&gt;战副本白银魔窟&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;传说装备:40级后可获得&lt;I&gt;传说装备&lt;/I&gt;&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;师门任务:40级后可接取&lt;P&gt;师门任务&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;百鬼炼狱:40级后可参与&lt;P&gt;百鬼炼狱活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;斗技场:40级后&lt;P&gt;报名斗技场&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv40]&lt;/S&gt;公会战场:40级后可参与&lt;P&gt;公会战场&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv50]&lt;/S&gt;天之行会:50级后可接取&lt;P&gt;天之行会任务&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv60]&lt;/S&gt;职业进阶:60级后可进行&lt;T&gt;二次转职&lt;/T&gt;&#x0A;" />
+</quest-local>

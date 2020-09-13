@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20624" />
+    <entry Name="平乱平乐坡" />
+    <entry Conditions="" />
+    <entry Overview="在平乐坡干掉&lt;C&gt;40&lt;/C&gt;只&lt;color=0xffff6000&gt;&lt;L=s08,1070056&gt;原神强力僵尸&lt;/L&gt;&lt;color=0xffffffff&gt;，得到&lt;C&gt;1&lt;/C&gt;只&lt;color=0xffff0000&gt;&lt;L=s08,1070077&gt;万年走尸&lt;/L&gt;&lt;color=0xffffffff&gt;的&lt;I&gt;头颅&lt;/I&gt;后回复&lt;D&gt;&lt;L=s08,5010207&gt;索尔&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

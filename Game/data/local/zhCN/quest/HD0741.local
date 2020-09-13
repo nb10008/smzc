@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30741" />
+    <entry Name="水晶玲珑腊八粥（一）" />
+    <entry Conditions="" />
+    <entry Overview="完成此任务需要&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;腊八粥材料&lt;/I&gt;，和&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;玲珑水晶心&lt;/I&gt;。\n提示：&lt;I&gt;腊八粥的材料&lt;/I&gt;所有怪物均有掉落，&lt;I&gt;玲珑水晶心&lt;/I&gt;可以在商城中买到。" />
+</quest-local>

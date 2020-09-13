@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20518" />
+    <entry Name="再寻神印" />
+    <entry Conditions="" />
+    <entry Overview="从&lt;color=0xffff6000&gt;&lt;L=s07,1060043&gt;变异蛮使&lt;/L&gt;&lt;color=0xffffffff&gt;身上找到&lt;C&gt;20&lt;/C&gt;枚&lt;I&gt;天神印记&lt;/I&gt;，交给&lt;D&gt;&lt;L=s07,5010203&gt;左德&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

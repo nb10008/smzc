@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<trigger name="花海之根瞭望处" map="s01" x="19534" y="5591" z="21399" id="1"/>
+	<trigger name="踏雪峰勘察处" map="s05" x="66357" Y="17541" z="43252" id="2"/>
+
+</root>

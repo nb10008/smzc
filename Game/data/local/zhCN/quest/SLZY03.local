@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="51003" />
+    <entry Name="圣纹刻印" />
+    <entry Conditions="" />
+    <entry Overview="&lt;M&gt;圣纹刻印&lt;/M&gt;是增强&lt;T&gt;圣灵&lt;/T&gt;的另一个途径，&lt;I&gt;圣纹&lt;/I&gt;是刻印在&lt;T&gt;圣灵&lt;/T&gt;身上的一种特殊符文，快去斗战天成找&lt;D&gt;&lt;L=s02,6040030&gt;圣灵召唤者&lt;/L&gt;&lt;/D&gt;了解一下吧！\n\n\n\n\n\n" />
+</quest-local>

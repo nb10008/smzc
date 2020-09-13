@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<soar_levelup id="0" soar_levelupexp="75" green_num="10" blue_num="50" orange_num="140" purple_num="300" pink_num="300" money_cost="100000"/>
+	<soar_levelup id="1" soar_levelupexp="210" green_num="10" blue_num="50" orange_num="140" purple_num="300" pink_num="300" money_cost="120000"/>
+	<soar_levelup id="2" soar_levelupexp="405" green_num="10" blue_num="50" orange_num="140" purple_num="300" pink_num="300" money_cost="140000"/>
+	<soar_levelup id="3" soar_levelupexp="660" green_num="10" blue_num="50" orange_num="140" purple_num="300" pink_num="300" money_cost="170000"/>
+	<soar_levelup id="4" soar_levelupexp="975" green_num="10" blue_num="50" orange_num="140" purple_num="300" pink_num="300" money_cost="200000"/>
+	<soar_levelup id="5" soar_levelupexp="1350" green_num="10" blue_num="50" orange_num="140" purple_num="300" pink_num="300" money_cost="230000"/>
+	<soar_levelup id="6" soar_levelupexp="1785" green_num="10" blue_num="50" orange_num="140" purple_num="300" pink_num="300" money_cost="260000"/>
+	<soar_levelup id="7" soar_levelupexp="2280" green_num="10" blue_num="50" orange_num="140" purple_num="300" pink_num="300" money_cost="300000"/>
+	<soar_levelup id="8" soar_levelupexp="2835" green_num="10" blue_num="50" orange_num="140" purple_num="300" pink_num="300" money_cost="300000"/>
+	<soar_levelup id="9" soar_levelupexp="3450" green_num="10" blue_num="50" orange_num="140" purple_num="300" pink_num="300" money_cost="300000"/>
+	<soar_levelup id="10" soar_levelupexp="0" green_num="0" blue_num="0" orange_num="0" purple_num="0" pink_num="0" money_cost="0"/>
+</root>

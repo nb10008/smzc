@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20652" />
+    <entry Name="原神之殇" />
+    <entry Conditions="" />
+    <entry Overview="消灭&lt;color=0xffff0000&gt;&lt;L=d08,1070086&gt;护法天伤&lt;/L&gt;&lt;color=0xffffffff&gt;和&lt;color=0xffff0000&gt;&lt;L=d08,1070087&gt;神使彻天左&lt;/L&gt;&lt;color=0xffffffff&gt;，之后回复&lt;D&gt;&lt;L=s08,5010210&gt;瓦尔特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="七花之海" pos_x="1592" pos_y="254" pos_z="17474"/>
+	<map_point id="2" type="1" show_name="悬赏榜" pos_x="2807" pos_y="235" pos_z="16830"/>
+	<map_point id="3" type="2" show_name="黑暗野人" pos_x="4814" pos_y="210" pos_z="14229"/>
+	<map_point id="4" type="2" show_name="地穴野人" pos_x="5830" pos_y="209" pos_z="20318"/>
+	<map_point id="5" type="2" show_name="地穴魔灵" pos_x="16283" pos_y="338" pos_z="6484"/>
+	<map_point id="6" type="2" show_name="维特拉" pos_x="13990" pos_y="192" pos_z="21880"/>
+</root>

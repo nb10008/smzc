@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<desktop>
+    <UIControl Name="god_dailyexp" ClassName="CGUIWindow" LogicPos_x="904" LogicPos_y="528" Size_x="80" Size_y="135" AlignControl="\desktop\systemback" AlignType="OuterLeftBottom" AlignOffset_y="-25" PopupSound="window_popup">
+        <UIControl Name="pro_back" ClassName="CGUIStatic" LogicPos_x="14" LogicPos_y="12" Size_x="50" Size_y="123" Font="龙字体" TextRect_right="50" TextRect_bottom="123" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicFileName="data\ui\main\l_sz_01.bmp" PicRect_left="618" PicRect_top="506" PicRect_right="668" PicRect_bottom="629" PicColor="0xFFFFFFFF" AlphaWrite="Write">
+            <UIControl Name="pro" ClassName="CGUIProgress" LogicPos_x="11" LogicPos_y="9" Size_x="28" Size_y="58" Font="龙字体" TextRect_right="28" TextRect_bottom="58" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicFileName="data\ui\main\l_sz_01.bmp" PicRect_left="629" PicRect_top="514" PicRect_right="657" PicRect_bottom="572" PicColor="0xFFFFFFFF" ForePicFileName="data\ui\main\l_sz_01.bmp" ForePicRect_left="670" ForePicRect_top="506" ForePicRect_right="698" ForePicRect_bottom="508" ForePicColor="0xFFFFFFFF" />
+            <UIControl Name="expnum" ClassName="CGUIStaticEx" LogicPos_y="-11" Size_x="50" Size_y="12" AlignControl="\desktop\god_dailyexp\god_dailyexp_pic\pro_back" AlignType="OuterTop" AlignOffset_y="1" Text="1000/1000" Font="龙字体" FontHeight="12" TextRect_right="50" TextRect_bottom="12" TextColor="0xFFFFFFFF" ShadeColor="0xFF000000" TextWriteAlpha="yes" TextAlign="Center" PicColor="0xFFFFFF" AlphaWrite="Write" RowHeight="2" />
+        </UIControl>
+    </UIControl>
+</desktop>

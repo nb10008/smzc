@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30868" />
+    <entry Name="置办年货" />
+    <entry Conditions="" />
+    <entry Overview="和&lt;D&gt;&lt;L=s02,5010083&gt;罗梅达亚&lt;/L&gt;&lt;/D&gt;对话，交代春节使者米莲妮送年货的任务，完成后回复&lt;D&gt;&lt;L=s02,6040022&gt;春节使者米莲妮&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

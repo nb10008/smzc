@@ -1,0 +1,9 @@
+sampler g_baseTex : register(s0);
+
+half4 main( float2 baseTex : TEXCOORD0,
+							float4 diffuse : COLOR0 ) : COLOR0
+{
+	half4 ret=1;
+	ret.rgb=tex2D(g_baseTex, baseTex).rgb*diffuse.rgb*2.0f;
+	return ret;
+}

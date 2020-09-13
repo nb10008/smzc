@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <activity id="1" name="女神的英姿" prompt="0" activitymode="1" activitytype="5" weekday="2" starthour="15" startminute="00" endhour="16" endminute="0" AcceptNpcID="5510401" MinLevel="10" MaxLevel="110" />
+    <activity id="2" name="女神的英姿" prompt="0" activitymode="1" activitytype="5" weekday="2" starthour="20" startminute="00" endhour="21" endminute="0" AcceptNpcID="5510401" MinLevel="10" MaxLevel="110" />
+    <activity id="3" name="女神的英姿" prompt="0" activitymode="1" activitytype="5" weekday="5" starthour="15" startminute="00" endhour="16" endminute="0" AcceptNpcID="5510401" MinLevel="10" MaxLevel="110" />
+    <activity id="4" name="女神的英姿" prompt="0" activitymode="1" activitytype="5" weekday="5" starthour="20" startminute="00" endhour="21" endminute="0" AcceptNpcID="5510401" MinLevel="10" MaxLevel="110" />
+    <activity id="5" name="战神的荣耀" prompt="0" activitymode="1" activitytype="5" weekday="1" starthour="15" startminute="00" endhour="16" endminute="0" AcceptNpcID="5510402" MinLevel="10" MaxLevel="110" />
+    <activity id="6" name="战神的荣耀" prompt="0" activitymode="1" activitytype="5" weekday="1" starthour="20" startminute="0" endhour="21" endminute="0" AcceptNpcID="5510402" MinLevel="10" MaxLevel="110" />
+    <activity id="7" name="战神的荣耀" prompt="0" activitymode="1" activitytype="5" weekday="4" starthour="15" startminute="0" endhour="16" endminute="0" AcceptNpcID="5510402" MinLevel="10" MaxLevel="110" />
+    <activity id="8" name="战神的荣耀" prompt="0" activitymode="1" activitytype="5" weekday="4" starthour="20" startminute="00" endhour="21" endminute="0" AcceptNpcID="5510402" MinLevel="10" MaxLevel="110" />
+    <activity id="9" name="魔神的咆哮" prompt="0" activitymode="1" activitytype="5" weekday="3" starthour="15" startminute="00" endhour="16" endminute="0" AcceptNpcID="5510403" MinLevel="10" MaxLevel="110" />
+    <activity id="10" name="魔神的咆哮" prompt="0" activitymode="1" activitytype="5" weekday="3" starthour="20" startminute="00" endhour="21" endminute="0" AcceptNpcID="5510403" MinLevel="10" MaxLevel="110" />
+    <activity id="11" name="魔神的咆哮" prompt="0" activitymode="1" activitytype="5" weekday="6" starthour="15" startminute="00" endhour="16" endminute="0" AcceptNpcID="5510403" MinLevel="10" MaxLevel="110" />
+    <activity id="12" name="魔神的咆哮" prompt="0" activitymode="1" activitytype="5" weekday="6" starthour="20" startminute="00" endhour="21" endminute="0" AcceptNpcID="5510403" MinLevel="10" MaxLevel="110" />
+    <activity id="13" name="勇闯魔窟" prompt="0" activitymode="0" activitytype="4" starthour="9" startminute="00" endhour="10" endminute="0" AcceptNpcID="5510501" MinLevel="30" MaxLevel="110" />
+    <activity id="14" name="勇闯魔窟" prompt="0" activitymode="0" activitytype="4" starthour="13" startminute="00" endhour="14" endminute="0" AcceptNpcID="5510501" MinLevel="30" MaxLevel="110" />
+    <activity id="15" name="勇闯魔窟" prompt="0" activitymode="0" activitytype="4" starthour="18" startminute="1" endhour="19" endminute="0" AcceptNpcID="5510501" MinLevel="30" MaxLevel="110" />
+    <activity id="16" name="勇闯魔窟" prompt="0" activitymode="0" activitytype="4" starthour="22" startminute="58" endhour="23" endminute="58" AcceptNpcID="5510501" MinLevel="30" MaxLevel="110" />
+    <activity id="17" name="魔族入侵" prompt="0" activitymode="0" activitytype="6" starthour="0" startminute="30" endhour="1" endminute="30" MinLevel="20" MaxLevel="110" />
+    <activity id="18" name="魔族入侵" prompt="0" activitymode="0" activitytype="6" starthour="8" startminute="30" endhour="9" endminute="30" MinLevel="20" MaxLevel="110" />
+    <activity id="19" name="魔族入侵" prompt="0" activitymode="0" activitytype="6" starthour="12" startminute="30" endhour="13" endminute="30" MinLevel="20" MaxLevel="110" />
+    <activity id="20" name="魔族入侵" prompt="0" activitymode="0" activitytype="6" starthour="16" startminute="30" endhour="17" endminute="30" MinLevel="20" MaxLevel="110" />
+    <activity id="21" name="魔族入侵" prompt="0" activitymode="0" activitytype="6" starthour="20" startminute="30" endhour="21" endminute="30" MinLevel="20" MaxLevel="110" />
+    <activity id="22" name="百鬼炼狱" prompt="0" activitymode="0" activitytype="4" starthour="19" startminute="0" endhour="20" endminute="0" AcceptNpcID="5510201" MinLevel="40" MaxLevel="110" />
+    <activity id="23" name="知识竞猜" prompt="0" activitymode="0" activitytype="2" starthour="12" startminute="0" endhour="14" endminute="0" MinLevel="30" MaxLevel="110" />
+    <activity id="24" name="知识竞猜" prompt="0" activitymode="0" activitytype="2" starthour="19" startminute="30" endhour="21" endminute="30" MinLevel="30" MaxLevel="110" />
+    <activity id="25" name="公会战场" prompt="0" activitymode="4" activitytype="3" MinLevel="1" MaxLevel="110" />
+    <activity id="26" name="游戏知识问答" prompt="0" activitymode="0" activitytype="2" starthour="0" startminute="1" endhour="23" endminute="58" MinLevel="10" MaxLevel="30" />
+    <activity id="27" name="夺宝奇兵" prompt="0" activitymode="4" activitytype="3" starthour="99" startminute="99" MinLevel="20" MaxLevel="110" />
+    <activity id="28" name="真假魔王" prompt="0" activitymode="0" activitytype="6" starthour="21" startminute="0" endhour="23" endminute="0" MinLevel="55" MaxLevel="110" />
+    <activity id="29" name="系统活动" prompt="0" activitymode="4" activitytype="3" MinLevel="20" MaxLevel="110" />
+    <activity id="30" name="万圣节活动" prompt="0" activitymode="4" activitytype="3" MinLevel="20" MaxLevel="110" />
+    <activity id="31" name="神魔斗技场" prompt="0" activitymode="0" activitytype="6" starthour="19" startminute="58" endhour="21" endminute="58" MinLevel="40" MaxLevel="110" />
+    <activity id="32" name="神魔斗技场" prompt="0" activitymode="0" activitytype="6" starthour="11" startminute="58" endhour="13" endminute="58" MinLevel="40" MaxLevel="110" />
+    <activity id="33" name="妖精的遗产" prompt="0" activitymode="0" activitytype="6" starthour="18" startminute="0" endhour="23" endminute="59" MinLevel="30" MaxLevel="110" />
+    <activity id="34" name="双旦活动" prompt="1" activitymode="3" activitytype="0" startyear="11" startmonth="12" startday="23" starthour="0" startminute="0" endyear="12" endmonth="1" endday="11" endhour="23" endminute="59" MinLevel="30" MaxLevel="110" />
+    <activity id="36" name="新年活动" prompt="0" activitymode="3" activitytype="0" startyear="10" startmonth="12" startday="21" starthour="0" startminute="0" endyear="11" endmonth="1" endday="11" endhour="23" endminute="59" MinLevel="30" MaxLevel="110" />
+    <activity id="37" name="春节活动" prompt="0" activitymode="3" activitytype="0" startyear="11" startmonth="1" startday="25" starthour="0" startminute="0" endyear="11" endmonth="2" endday="15" endhour="23" endminute="59" MinLevel="30" MaxLevel="110" />
+    <activity id="38" name="情人节活动" prompt="0" activitymode="3" activitytype="0" startyear="11" startmonth="2" startday="11" starthour="0" startminute="0" endyear="11" endmonth="2" endday="25" endhour="23" endminute="59" />
+    <activity id="39" name="母亲节活动" prompt="0" activitymode="3" activitytype="0" startyear="11" startmonth="5" startday="4" starthour="0" startminute="0" endyear="11" endmonth="5" endday="17" endhour="23" endminute="59" MinLevel=" " MaxLevel=" " />
+    <activity id="40" name="端午节活动" prompt="0" activitymode="3" activitytype="0" startyear="11" startmonth="5" startday="31" starthour="0" startminute="0" endyear="11" endmonth="6" endday="14" endhour="23" endminute="59" />
+    <activity id="41" name="奖学金计划" prompt="0" activitymode="3" activitytype="0" startyear="11" startmonth="6" startday="23" starthour="0" startminute="0" endyear="11" endmonth="9" endday="14" endhour="23" endminute="59" />
+    <activity id="42" name="世界BOSS嘉年华" prompt="0" activitymode="3" activitytype="0" startyear="11" startmonth="7" startday="25" starthour="0" startminute="0" endyear="11" endmonth="12" endday="28" endhour="23" endminute="59" />
+    <activity id="43" name="宝库探险" prompt="0" activitymode="1" activitytype="5" weekday="1" starthour="20" startminute="00" endhour="21" endminute="0" AcceptNpcID="5610056" MinLevel="60" MaxLevel="110" />
+    <activity id="44" name="中秋节活动" prompt="0" activitymode="3" activitytype="0" startyear="11" startmonth="9" startday="6" starthour="0" startminute="0" endyear="11" endmonth="9" endday="19" endhour="23" endminute="59" MinLevel="30" MaxLevel="110" />
+    <activity id="45" name="国庆活动" prompt="1" activitymode="3" activitytype="0" startyear="11" startmonth="9" startday="27" starthour="0" startminute="0" endyear="11" endmonth="10" endday="10" endhour="23" endminute="59" MinLevel="50" MaxLevel="110" />
+    <activity id="46" name="母亲节活动" prompt="0" activitymode="3" activitytype="0" startyear="11" startmonth="5" startday="4" starthour="0" startminute="0" endyear="11" endmonth="5" endday="17" endhour="23" endminute="59" MinLevel=" " MaxLevel=" " />
+    <activity id="47" name="天选者之战" prompt="0" activitymode="1" activitytype="3" weekday="3" starthour="21" startminute="0" endhour="21" endminute="58" MinLevel="50" MaxLevel="110" />
+    <activity id="48" name="天选者之战" prompt="0" activitymode="1" activitytype="3" weekday="0" starthour="21" startminute="0" endhour="21" endminute="58" MinLevel="50" MaxLevel="110" />
+    <activity id="49" name="感恩节活动" prompt="0" activitymode="3" activitytype="0" startyear="11" startmonth="11" startday="22" starthour="0" startminute="0" endyear="11" endmonth="11" endday="28" endhour="23" endminute="59" MinLevel="10" MaxLevel="110" />
+    <activity id="50" name="春节活动" prompt="0" activitymode="3" activitytype="0" startyear="12" startmonth="1" startday="17" starthour="0" startminute="0" endyear="12" endmonth="2" endday="10" endhour="23" endminute="59" />
+    <activity id="51" name="副本体验活动" prompt="1" activitymode="1" activitytype="0" weekday="0" starthour="14" startminute="0" endhour="17" endminute="58" MinLevel="40" MaxLevel="89" />
+    <activity id="52" name="副本体验活动" prompt="1" activitymode="1" activitytype="0" weekday="6" starthour="14" startminute="0" endhour="17" endminute="58" MinLevel="40" MaxLevel="89" />
+    <activity id="53" name="情人节活动" prompt="0" activitymode="3" activitytype="0" startyear="12" startmonth="2" startday="9" starthour="0" startminute="0" endyear="12" endmonth="2" endday="27" endhour="23" endminute="59" MinLevel="40" MaxLevel="110" />
+    <activity id="54" name="跨服Pk" prompt="0" activitymode="0" activitytype="6" starthour="19" startminute="20" endhour="20" endminute="30" />
+    <activity id="55" name="系统活动" prompt="0" activitymode="4" activitytype="3" MinLevel="20" MaxLevel="110" />
+    <activity id="56" name="奥运金牌活动" prompt="1" activitymode="3" activitytype="0" startyear="12" startmonth="7" startday="31" starthour="18" startminute="0" endyear="12" endmonth="8" endday="21" endhour="23" endminute="59" />
+</root>

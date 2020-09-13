@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="51004" />
+    <entry Name="圣纹制作" />
+    <entry Conditions="制作出一枚&lt;color=0xff00a2ff&gt;未鉴定的圣纹装备" />
+    <entry Overview="在斗战天城&lt;D&gt;&lt;L=s02,6040031&gt;圣纹制作师&lt;/L&gt;&lt;/D&gt;处，合成一枚圣纹，完成后，去斗战天成找&lt;D&gt;&lt;L=s02,6040030&gt;圣灵召唤者&lt;/L&gt;&lt;/D&gt;领取奖励吧！" />
+</quest-local>

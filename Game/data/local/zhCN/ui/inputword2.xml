@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<desktop>
+    <UIControl Name="inputback" ClassName="CGUIStatic" LogicPos_x="388" LogicPos_y="556" Size_x="192" Size_y="22" AlignControl="\desktop\inputpic" AlignType="OuterTop" Font="龙字体" FontHeight="16" TextRect_left="4" TextRect_top="2" TextRect_right="192" TextRect_bottom="22" TextColor="0xFFFFFFFF" ShadeColor="0xFF000000" PicFileName="data\ui\common\l-common.bmp" PicRect_left="278" PicRect_top="490" PicRect_right="576" PicRect_bottom="512" PicColor="0xFFFFFFFF" AlphaWrite="Write" />
+</desktop>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30785" />
+    <entry Name="领取除虫剂" />
+    <entry Conditions="" />
+    <entry Overview="每天可以在&lt;D&gt;&lt;L=s52,5600029&gt;博博先生&lt;/L&gt;&lt;/D&gt;处领取&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;除虫剂&lt;/I&gt;。" />
+</quest-local>

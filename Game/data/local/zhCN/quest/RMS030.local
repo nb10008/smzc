@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20630" />
+    <entry Name="神王的仆人" />
+    <entry Conditions="" />
+    <entry Overview="去&lt;N&gt;肃界沙漠&lt;/N&gt;，找到&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

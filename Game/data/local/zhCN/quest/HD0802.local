@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30802" />
+    <entry Name="寻找爱侣" />
+    <entry Conditions="" />
+    <entry Overview="同斗战天城的&lt;D&gt;&lt;L=s02,5600058&gt;爱神丘比特&lt;/L&gt;&lt;/D&gt;交谈。\n注：完成任务给予一定历练值奖励。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30680" />
+    <entry Name="领取雪之银币" />
+    <entry Conditions="" />
+    <entry Overview="领取&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;雪之银币&lt;/I&gt;" />
+</quest-local>

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<seractive id="1" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="烽火连天" time="周一-周日" content="20-30级玩家可参与"/>
+	<seractive id="2" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="五色炼炉" time="周一-周日" content="30-60级玩家可参与"/>
+	<seractive id="3" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="尘缘未了" time="周一-周日" content="30-60级玩家可参与"/>
+	<seractive id="4" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="星宿下凡" time="周一-周日" content="20级以上玩家可参与"/>
+	<seractive id="5" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="承安之殿" time="周一-周日" content="45级以上玩家可参与"/>
+	<seractive id="6" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="游龙戏凤" time="周一-周日" content="45-80级玩家可参与"/>
+	<seractive id="7" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="三毒心魔" time="周一-周日" content="75级以上玩家可参与 "/>
+	<seractive id="8" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="十殿阎罗" time="周一-周日" content="55-80级玩家可参与 "/>
+	<seractive id="9" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="百晓生" time="周一-周日" content="16级以上玩家可参与"/>
+	<seractive id="10" mode="0" date1="1" date5="1" color="FF2EDB15" name="英雄乱武" time="周一和周五" content="PVP，40级以上玩家可参与"/>
+	<seractive id="11" mode="0" date3="1" date7="1" color="FF2EDB15" name="群雄逐鹿" time="周三和周日" content="PVP，40级以上玩家可参与"/>
+	<seractive id="12" mode="0" date6="1" date7="1" color="FF2EDB15" name="文曲夺星" time="周六-周日" content="16级以上玩家可参与"/>
+	<seractive id="13" mode="1" month="1" day="1" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="14" mode="1" month="1" day="2" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="15" mode="1" month="1" day="3" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="16" mode="1" month="1" day="4" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="17" mode="1" month="1" day="5" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="18" mode="1" month="1" day="6" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="19" mode="1" month="1" day="7" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="20" mode="1" month="1" day="8" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="21" mode="1" month="1" day="9" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="22" mode="1" month="1" day="10" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="23" mode="1" month="1" day="11" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="24" mode="1" month="1" day="12" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="25" mode="1" month="1" day="13" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="26" mode="1" month="1" day="14" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="27" mode="1" month="1" day="15" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="28" mode="1" month="1" day="16" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="29" mode="1" month="1" day="17" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="30" mode="1" month="1" day="18" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="31" mode="1" month="1" day="19" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="32" mode="1" month="1" day="20" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="33" mode="1" month="1" day="21" color="FFFF0000" name="元旦活动" time="1.1~1.21" content="热闹的元旦活动！"/>
+	<seractive id="34" mode="0" date6="1" color="FF2EDB15" name="凤翔城战" time="周六" content="凤翔府城战，60级以上玩家可参与！"/>
+	<seractive id="35" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="酆都鬼节" time="周一-周日" content="55-100级玩家可参与"/>
+	<seractive id="36" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="战神重现" time="周一-周日" content="70-100级玩家可参与"/>
+	<seractive id="37" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="炼化太极" time="周一-周日" content="80-100级玩家可参与"/>
+	<seractive id="38" mode="1" month="1" day="22" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="39" mode="1" month="1" day="23" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="40" mode="1" month="1" day="24" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="41" mode="1" month="1" day="25" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="42" mode="1" month="1" day="26" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="43" mode="1" month="1" day="27" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="44" mode="1" month="1" day="28" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="45" mode="1" month="1" day="29" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="46" mode="1" month="1" day="30" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="47" mode="1" month="1" day="31" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="48" mode="1" month="2" day="1" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="49" mode="1" month="2" day="2" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="50" mode="1" month="2" day="3" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="51" mode="1" month="2" day="4" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="52" mode="1" month="2" day="5" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="53" mode="1" month="2" day="6" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="54" mode="1" month="2" day="7" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="55" mode="1" month="2" day="8" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="56" mode="1" month="2" day="9" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="57" mode="1" month="2" day="10" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="58" mode="1" month="2" day="11" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="59" mode="1" month="2" day="12" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="60" mode="1" month="2" day="13" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="61" mode="1" month="2" day="14" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="62" mode="1" month="2" day="15" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="63" mode="1" month="2" day="16" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="64" mode="1" month="2" day="17" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="65" mode="1" month="2" day="18" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="66" mode="1" month="2" day="19" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="67" mode="1" month="2" day="20" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="68" mode="1" month="2" day="21" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="69" mode="1" month="2" day="22" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="70" mode="1" month="2" day="23" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="71" mode="1" month="2" day="24" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="72" mode="1" month="2" day="25" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="73" mode="1" month="2" day="26" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="74" mode="1" month="2" day="27" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="75" mode="1" month="2" day="28" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="76" mode="1" month="3" day="1" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="77" mode="1" month="3" day="2" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="78" mode="1" month="3" day="3" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="79" mode="1" month="3" day="4" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="80" mode="1" month="3" day="5" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="81" mode="1" month="3" day="6" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="82" mode="1" month="3" day="7" color="FFFF0000" name="新春活动" time="1.22~3.7" content="新春来临齐贺佳节！"/>
+	<seractive id="83" mode="1" month="2" day="5" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="84" mode="1" month="2" day="6" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="85" mode="1" month="2" day="7" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="86" mode="1" month="2" day="8" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="87" mode="1" month="2" day="9" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="88" mode="1" month="2" day="10" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="89" mode="1" month="2" day="11" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="90" mode="1" month="2" day="12" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="91" mode="1" month="2" day="13" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="92" mode="1" month="2" day="14" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="93" mode="1" month="2" day="15" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="94" mode="1" month="2" day="16" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="95" mode="1" month="2" day="17" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="96" mode="1" month="2" day="18" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="97" mode="1" month="2" day="19" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="98" mode="1" month="2" day="20" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="99" mode="1" month="2" day="21" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="100" mode="1" month="2" day="22" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="101" mode="1" month="2" day="23" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="102" mode="1" month="2" day="24" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="103" mode="1" month="2" day="25" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="104" mode="1" month="2" day="26" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="105" mode="1" month="2" day="27" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="106" mode="1" month="2" day="28" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="107" mode="1" month="3" day="1" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="108" mode="1" month="3" day="2" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="109" mode="1" month="3" day="3" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="110" mode="1" month="3" day="4" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="111" mode="1" month="3" day="5" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="112" mode="1" month="3" day="6" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="113" mode="1" month="3" day="7" color="FFFF0000" name="☆情人节" time="1.22~3.7" content="和心爱的人一起玩《龙》！"/>
+	<seractive id="114" mode="1" month="3" day="3" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>	
+  <seractive id="115" mode="1" month="3" day="4" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+  <seractive id="116" mode="1" month="3" day="5" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+  <seractive id="117" mode="1" month="3" day="6" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+  <seractive id="118" mode="1" month="3" day="7" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+  <seractive id="119" mode="1" month="3" day="8" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+  <seractive id="120" mode="1" month="3" day="9" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+  <seractive id="121" mode="1" month="3" day="10" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+  <seractive id="122" mode="1" month="3" day="11" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+  <seractive id="123" mode="1" month="3" day="12" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+  <seractive id="124" mode="1" month="3" day="13" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+  <seractive id="125" mode="1" month="3" day="14" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+  <seractive id="126" mode="1" month="3" day="15" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+  <seractive id="127" mode="1" month="3" day="16" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+  <seractive id="128" mode="1" month="3" day="17" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+  <seractive id="129" mode="1" month="3" day="18" color="FFFF0000" name="开学活动" time="3.3~3.18" content="收集雷锋帽，兑换奖学金！"/>
+	<seractive id="130" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="天降灵苗" time="周一-周日" content="10-100级玩家可参与"/>
+	<seractive id="131" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="免费修炼场" time="周一-周日" content="10-100级玩家可参与"/>
+  <seractive id="132" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="寻找散仙" time="周一-周日" content="10-100级玩家可参与"/>
+  <seractive id="133" mode="0" date1="1" date5="1" color="FFFFF2A4" name="食神传说" time="周一和周五" content="15-100级玩家可参与"/>
+  <seractive id="134" mode="0" date2="1" date4="1" color="FFFFF2A4" name="战神传说" time="周一和周五" content="15-100级玩家可参与"/>
+  <seractive id="135" mode="0" date3="1" color="FFFFF2A4" name="封神传说" time="周三" content="15-100级玩家可参与"/>
+	<seractive id="136" mode="0" date7="1" color="FF2EDB15" name="涿鹿城战" time="周日" content="黄帝城城战，60级以上玩家可参与！"/>
+	<seractive id="137" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="竞技场历练" time="周一-周日" content="30级以上玩家可参与"/>
+	<seractive id="138" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date6="1" date7="1" color="FFFFF2A4" name="众志成城" time="周一-周日" content="20-100级玩家可参与"/>
+	<seractive id="139" mode="0" date1="1" date2="1" date3="1" date4="1" date5="1" date7="1" color="FFFFF2A4" name="百斩修罗" time="周六除外" content="40-100级玩家可参与"/>
+	<seractive id="140" mode="1" month="4" day="17" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="141" mode="1" month="4" day="18" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="142" mode="1" month="4" day="19" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="143" mode="1" month="4" day="20" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="144" mode="1" month="4" day="21" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="145" mode="1" month="4" day="22" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="146" mode="1" month="4" day="23" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="147" mode="1" month="4" day="24" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="148" mode="1" month="4" day="25" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="149" mode="1" month="4" day="26" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="150" mode="1" month="4" day="27" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="151" mode="1" month="4" day="28" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="152" mode="1" month="4" day="29" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="153" mode="1" month="4" day="30" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="154" mode="1" month="5" day="1" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="155" mode="1" month="5" day="2" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="156" mode="1" month="5" day="3" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="157" mode="1" month="5" day="4" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="158" mode="1" month="5" day="5" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="159" mode="1" month="5" day="6" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="160" mode="1" month="5" day="7" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="161" mode="1" month="5" day="8" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="162" mode="1" month="5" day="9" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="163" mode="1" month="5" day="10" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="164" mode="1" month="5" day="11" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="165" mode="1" month="5" day="12" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="166" mode="1" month="5" day="13" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="167" mode="1" month="5" day="14" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="168" mode="1" month="5" day="15" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="169" mode="1" month="5" day="16" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="170" mode="1" month="5" day="17" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="171" mode="1" month="5" day="17" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="172" mode="1" month="5" day="18" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="173" mode="1" month="5" day="19" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="174" mode="1" month="5" day="20" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="175" mode="1" month="5" day="21" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="176" mode="1" month="5" day="22" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="177" mode="1" month="5" day="23" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="178" mode="1" month="5" day="24" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="179" mode="1" month="5" day="25" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="180" mode="1" month="5" day="26" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="181" mode="1" month="5" day="27" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="182" mode="1" month="5" day="28" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="183" mode="1" month="5" day="29" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="184" mode="1" month="5" day="30" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="185" mode="1" month="5" day="31" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="186" mode="1" month="6" day="1" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="187" mode="1" month="6" day="2" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="188" mode="1" month="6" day="3" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="189" mode="1" month="6" day="4" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="190" mode="1" month="6" day="5" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="191" mode="1" month="6" day="6" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="192" mode="1" month="6" day="7" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="193" mode="1" month="6" day="8" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="194" mode="1" month="6" day="9" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="195" mode="1" month="6" day="10" color="FFFF0000" name="世博会活动" time="4.17~6.30" content="参与有机会获得大奖！"/>
+	<seractive id="217" mode="1" month="5" day="1" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="218" mode="1" month="5" day="2" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="219" mode="1" month="5" day="3" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="220" mode="1" month="5" day="4" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="221" mode="1" month="5" day="5" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="222" mode="1" month="5" day="6" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="223" mode="1" month="5" day="7" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="224" mode="1" month="5" day="8" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="225" mode="1" month="5" day="9" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="226" mode="1" month="5" day="10" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="227" mode="1" month="5" day="11" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="228" mode="1" month="5" day="12" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="229" mode="1" month="5" day="13" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="230" mode="1" month="5" day="14" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="231" mode="1" month="5" day="15" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="232" mode="1" month="5" day="16" color="FFFF0000" name="劳动节活动" time="5.1~5.16" content="劳动最光荣！"/>
+	<seractive id="233" mode="0" date2="1" date4="1" date6="1" color="FFFFF2A4" name="神迹争夺" time="周二四六" content="拥有帮派即可参与"/>
+	<seractive id="234" mode="1" month="6" day="11" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="235" mode="1" month="6" day="12" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="236" mode="1" month="6" day="13" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="237" mode="1" month="6" day="14" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="238" mode="1" month="6" day="15" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="239" mode="1" month="6" day="16" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="240" mode="1" month="6" day="17" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="241" mode="1" month="6" day="18" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="242" mode="1" month="6" day="19" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="243" mode="1" month="6" day="20" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="244" mode="1" month="6" day="21" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="245" mode="1" month="6" day="22" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="246" mode="1" month="6" day="23" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="247" mode="1" month="6" day="24" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="248" mode="1" month="6" day="25" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="249" mode="1" month="6" day="26" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="250" mode="1" month="6" day="27" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="251" mode="1" month="6" day="28" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="252" mode="1" month="6" day="29" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="253" mode="1" month="6" day="30" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="254" mode="1" month="7" day="1" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="255" mode="1" month="7" day="2" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="256" mode="1" month="7" day="3" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="257" mode="1" month="7" day="4" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="258" mode="1" month="7" day="5" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="259" mode="1" month="7" day="6" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="260" mode="1" month="7" day="7" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="261" mode="1" month="7" day="8" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="262" mode="1" month="7" day="9" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="263" mode="1" month="7" day="10" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="264" mode="1" month="7" day="11" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="265" mode="1" month="7" day="12" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="266" mode="1" month="7" day="13" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="267" mode="1" month="7" day="14" color="FFFF0000" name="世界杯活动" time="6.11~7.14" content="谁才是世界冠军？"/>
+	<seractive id="268" mode="1" month="6" day="16" color="FFFF0000" name="端午节活动" time="6.16~6.25" content="吃粽子，获奖励！"/>
+	<seractive id="269" mode="1" month="6" day="17" color="FFFF0000" name="端午节活动" time="6.16~6.25" content="吃粽子，获奖励！"/>
+	<seractive id="270" mode="1" month="6" day="18" color="FFFF0000" name="端午节活动" time="6.16~6.25" content="吃粽子，获奖励！"/>
+	<seractive id="271" mode="1" month="6" day="19" color="FFFF0000" name="端午节活动" time="6.16~6.25" content="吃粽子，获奖励！"/>
+	<seractive id="272" mode="1" month="6" day="20" color="FFFF0000" name="端午节活动" time="6.16~6.25" content="吃粽子，获奖励！"/>
+	<seractive id="273" mode="1" month="6" day="21" color="FFFF0000" name="端午节活动" time="6.16~6.25" content="吃粽子，获奖励！"/>
+	<seractive id="274" mode="1" month="6" day="22" color="FFFF0000" name="端午节活动" time="6.16~6.25" content="吃粽子，获奖励！"/>
+	<seractive id="275" mode="1" month="6" day="23" color="FFFF0000" name="端午节活动" time="6.16~6.25" content="吃粽子，获奖励！"/>
+	<seractive id="276" mode="1" month="6" day="24" color="FFFF0000" name="端午节活动" time="6.16~6.25" content="吃粽子，获奖励！"/>
+	<seractive id="277" mode="1" month="6" day="25" color="FFFF0000" name="端午节活动" time="6.16~6.25" content="吃粽子，获奖励！"/>
+	<seractive id="278" mode="1" month="6" day="14" color="FFFF0000" name="端午节活动" time="6.16~6.25" content="吃粽子，获奖励！"/>
+	<seractive id="279" mode="1" month="6" day="15" color="FFFF0000" name="端午节活动" time="6.16~6.25" content="吃粽子，获奖励！"/>
+</root>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="斗战天城" pos_x="45419" pos_y="7480" pos_z="43448"/>
+	<map_point id="2" type="2" show_name="新手药剂商(东南)" pos_x="28756" pos_y="4850" pos_z="15902"/>
+	<map_point id="3" type="2" show_name="新手药剂商(东北)" pos_x="27439" pos_y="3230" pos_z="32124"/>
+	<map_point id="4" type="3" show_name="永坠之神" pos_x="42836" pos_y="5691" pos_z="17492"/>
+	<map_point id="5" type="3" show_name="艾弗丝" pos_x="32344" pos_y="4872" pos_z="18401"/>
+	<map_point id="6" type="3" show_name="殇帝" pos_x="29147" pos_y="4580" pos_z="16162"/>
+	<map_point id="7" type="3" show_name="神教官艾斯" pos_x="29184" pos_y="4829" pos_z="15040"/>
+	<map_point id="8" type="3" show_name="神教官达蒙" pos_x="19665" pos_y="3034" pos_z="8983"/>
+	<map_point id="9" type="3" show_name="统帅伊万夫" pos_x="16909" pos_y="3608" pos_z="32249"/>
+	<map_point id="10" type="3" show_name="法斯兰特" pos_x="13464" pos_y="3943" pos_z="33440"/>
+	<map_point id="11" type="3" show_name="萨默斯" pos_x="28204" pos_y="3203" pos_z="31811"/>
+	<map_point id="12" type="3" show_name="魔神度撒" pos_x="37347" pos_y="5619" pos_z="37914"/>
+	<map_point id="13" type="3" show_name="罗斯特" pos_x="45346" pos_y="7480" pos_z="42575"/>
+	<map_point id="14" type="3" show_name="花妖之神" pos_x="20153" pos_y="2448" pos_z="19348"/>
+	<map_point id="15" type="4" show_name="蓝魔" pos_x="32826" pos_y="5002" pos_z="10068"/>
+	<map_point id="16" type="4" show_name="白灵" pos_x="13367" pos_y="2718" pos_z="9717"/>
+	<map_point id="17" type="4" show_name="花妖" pos_x="18315" pos_y="2448" pos_z="17578"/>
+	<map_point id="18" type="4" show_name="金色魔花" pos_x="10412" pos_y="3889" pos_z="35438"/>
+	<map_point id="19" type="4" show_name="暗之魅妖" pos_x="36030" pos_y="5806" pos_z="42823"/>
+	<map_point id="20" type="4" show_name="紫色魔花" pos_x="41813" pos_y="4862" pos_z="32683"/>
+	<map_point id="21" type="4" show_name="黑魔" pos_x="25526" pos_y="3284" pos_z="35088"/>
+</root>

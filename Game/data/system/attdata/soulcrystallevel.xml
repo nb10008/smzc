@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<soulcrystallevel id="1" soulrequire="100" goldrequire="500000"/>
+	<soulcrystallevel id="2" soulrequire="200" goldrequire="500000"/>
+	<soulcrystallevel id="3" soulrequire="300" goldrequire="500000"/>
+	<soulcrystallevel id="4" soulrequire="400" goldrequire="500000"/>
+	<soulcrystallevel id="5" soulrequire="500" goldrequire="1000000"/>
+	<soulcrystallevel id="6" soulrequire="600" goldrequire="1000000"/>
+	<soulcrystallevel id="7" soulrequire="700" goldrequire="1000000"/>
+	<soulcrystallevel id="8" soulrequire="800" goldrequire="2000000"/>
+	<soulcrystallevel id="9" soulrequire="900" goldrequire="2000000"/>
+	<soulcrystallevel id="10" soulrequire="1000" goldrequire="5000000"/>
+</root>

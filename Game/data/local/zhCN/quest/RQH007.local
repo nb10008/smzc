@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20107" />
+    <entry Name="林中之变" />
+    <entry Conditions="" />
+    <entry Overview="帮助法兰斯清理&lt;N&gt;花海之根&lt;/N&gt;的食人龙，杀死&lt;C&gt;12&lt;/C&gt;只&lt;A&gt;&lt;L=s03_1,1020005&gt;食人龙&lt;/L&gt;&lt;/A&gt;后，回复&lt;D&gt;&lt;L=s03,5010074&gt;法兰斯&lt;/L&gt;&lt;/D&gt;。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv11]&lt;/S&gt;每日问答:11级后可进行&lt;P&gt;游戏知识问答&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv11]&lt;/S&gt;悬赏任务:可以在悬赏榜接取&lt;P&gt;悬赏任务&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv15]&lt;/S&gt;新手妖精:达到15级可获得&lt;A&gt;新手妖精&lt;/A&gt;&#x0A;\n&lt;S&gt;[Lv20]&lt;/S&gt;就职:达到20级可进行&lt;T&gt;就职&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv20]&lt;/S&gt;创建公会:20级后可&lt;T&gt;创建公会&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv20]&lt;/S&gt;生产技能:20级后可使用&lt;T&gt;生产技能&lt;/T&gt;&#x0A;" />
+</quest-local>

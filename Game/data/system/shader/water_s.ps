@@ -1,0 +1,19 @@
+sampler g_baseTex  : register(s0);
+sampler g_alphaMap : register(s1);
+
+half4 main( float2 baseTex 	: TEXCOORD0,
+		float2 alphaMap : TEXCOORD1,
+		float4 diffuse  : COLOR0,
+		float4 specular : COLOR1 ) : COLOR0
+{
+	half4 ret=tex2D(g_baseTex, baseTex);
+	
+	ret.rgb*=diffuse.rgb*2.0f;
+	
+	specular.rgb*=ret.a;
+	ret.rgb+=specular.rgb;
+	
+	ret.a=tex2D(g_alphaMap, alphaMap).a;
+	
+	return ret;
+}

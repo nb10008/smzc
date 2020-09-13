@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30733" />
+    <entry Name="装备兑换（法术）III" />
+    <entry Conditions="" />
+    <entry Overview="将&lt;C&gt;7&lt;/C&gt;个&lt;I&gt;七彩宝玉&#x0A;&lt;/I&gt;交给&lt;M&gt;&lt;Z=s02,31500,23094,33600&gt;新人特权使者&lt;/Z&gt;&lt;/M&gt;可以获得一件指定的&lt;C&gt;40&lt;/C&gt;级蓝色魔性装备。\n【提示：&lt;I&gt;七彩宝玉&lt;/I&gt;可以通过使用&lt;I&gt;天火之匣&lt;/I&gt;炼化&lt;P&gt;七花之海&lt;/P&gt;、&lt;P&gt;花海之根&lt;/P&gt;、&lt;P&gt;奔雷裂谷&lt;/P&gt;、&lt;P&gt;北洲天雪&lt;/P&gt;、&lt;P&gt;西州幻林&lt;/P&gt;中怪物掉落的各种灵石获得。】" />
+</quest-local>

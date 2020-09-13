@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30720" />
+    <entry Name="清剿碎石洞穴" />
+    <entry Conditions="" />
+    <entry Overview="在&lt;N&gt;北洲天雪&lt;/N&gt;找到&lt;M&gt;&lt;L=s05,5810004&gt;晶石使者&lt;/L&gt;&lt;/M&gt;进入&lt;N&gt;碎石洞穴&lt;/N&gt;，杀死里面的怪物然后将&lt;C&gt;15&lt;/C&gt;个&lt;I&gt;小型熔岩结晶&#x0A;&lt;/I&gt;、&lt;C&gt;6&lt;/C&gt;个&lt;I&gt;中型熔岩结晶&#x0A;&lt;/I&gt;、&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;巨型熔岩结晶&lt;/I&gt;带回来交给&lt;M&gt;&lt;L=s05,5510627&gt;悬赏使者&lt;/L&gt;&lt;/M&gt;。\n提示：必须和&lt;C&gt;30&lt;/C&gt;至&lt;C&gt;49&lt;/C&gt;级的玩家组队才能进入碎石洞穴。" />
+</quest-local>

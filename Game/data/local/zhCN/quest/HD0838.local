@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30838" />
+    <entry Name="魔之悲叹" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;N&gt;憎恶魔窟&lt;/N&gt;或&lt;N&gt;古神陵墓&lt;/N&gt;，收集&lt;C&gt;30&lt;/C&gt;个&lt;I&gt;魔族勇士之魂&lt;/I&gt;，然后向&lt;D&gt;憎恶魔窟护卫&lt;/D&gt;复命。（&lt;S&gt;完成任务后可以获得500魔族声望和200魔魂，同时降低250点天神声望&lt;/S&gt;）" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40000" />
+    <entry Name="天神下凡" />
+    <entry Conditions="" />
+    <entry Overview="尝试使用1次&lt;color=0xff80ff00&gt;天神下凡技能&lt;color=0xffffffff&gt;，并击杀&lt;C&gt;8&lt;/C&gt;只&lt;A&gt;&lt;L=s03,1020002&gt;灵蝶&lt;/L&gt;&lt;/A&gt;，完成后回复&lt;D&gt;&lt;L=s03,5010021&gt;斗神希拉&lt;/L&gt;&lt;/D&gt;。\n  \n&lt;T&gt;提示：天神下凡技能需在新手技能中投点学习\n提示：天神下凡状态下属性会得到大幅度提升，但是有一定的时间限制\n提示：使用天神下凡技能会消耗努气，怒气可通过打怪来积攒。&lt;/T&gt;" />
+</quest-local>

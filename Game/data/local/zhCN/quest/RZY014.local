@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40014" />
+    <entry Name="元神材料" />
+    <entry Conditions="" />
+    <entry Overview="获得&lt;C&gt;20&lt;/C&gt;份&lt;I&gt;初等元神&lt;/I&gt;，完成后回复&lt;D&gt;&lt;L=s02,5010024&gt;工神鲁斯&lt;/L&gt;&lt;/D&gt;。\n \n&lt;T&gt;提示：50-60级的怪物均有几率掉落初等元神&lt;/T&gt;" />
+</quest-local>

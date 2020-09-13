@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40035" />
+    <entry Name="圣印传说" />
+    <entry Conditions="" />
+    <entry Overview="击杀&lt;C&gt;30&lt;/C&gt;只&lt;D&gt;&lt;L=s06,1050017&gt;三鬼教徒&lt;/L&gt;&lt;/D&gt;和&lt;C&gt;30&lt;/C&gt;只&lt;D&gt;&lt;L=s06,1050018&gt;三鬼教众&lt;/L&gt;&lt;/D&gt;，完成后回复&lt;D&gt;&lt;L=s02,5010024&gt;工神鲁斯&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

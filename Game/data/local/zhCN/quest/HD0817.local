@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30817" />
+    <entry Name="老规矩，你懂的！" />
+    <entry Conditions="" />
+    <entry Overview="准备好修改衣服的材料：&lt;I&gt;大兽牙&lt;/I&gt;&lt;C&gt;5&lt;/C&gt;个（可在东洲冥山的奇货商处买到）、&lt;I&gt;沼润石&lt;/I&gt;&lt;C&gt;5&lt;/C&gt;个（可在南洲迷沼的奇货商处买到）、&lt;I&gt;冥山炎石&lt;/I&gt;&lt;C&gt;30&lt;/C&gt;个（80-84级怪物掉落），然后交给&lt;D&gt;&lt;L=s02,5610053&gt;张三&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

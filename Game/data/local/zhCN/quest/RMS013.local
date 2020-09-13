@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20613" />
+    <entry Name="刺客之魂" />
+    <entry Conditions="" />
+    <entry Overview="带着&lt;I&gt;安魂迷香&lt;/I&gt;在&lt;A&gt;&lt;L=s08,1070014&gt;原神教刺客&lt;/L&gt;&lt;/A&gt;群中获得&lt;C&gt;3&lt;/C&gt;颗&lt;I&gt;刺客的灵魂&lt;/I&gt;后，交给&lt;D&gt;&lt;L=s08,5010206&gt;幽露&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

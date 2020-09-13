@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <mall id="401" typeid="4510003" level="50" price="10" />
+    <mall id="402" typeid="4510004" level="50" price="50" />
+    <mall id="403" typeid="4510005" level="50" price="100" />
+    <mall id="404" typeid="4510006" level="60" price="10" />
+    <mall id="405" typeid="4510007" level="60" price="50" />
+    <mall id="406" typeid="4510008" level="60" price="100" />
+    <mall id="407" typeid="4510009" level="70" price="10" />
+    <mall id="408" typeid="4510010" level="70" price="50" />
+    <mall id="409" typeid="4510011" level="70" price="100" />
+    <mall id="410" typeid="4510012" level="80" price="10" />
+    <mall id="411" typeid="4510013" level="80" price="50" />
+    <mall id="412" typeid="4510014" level="80" price="100" />
+</root>

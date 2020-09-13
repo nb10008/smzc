@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="41011" />
+    <entry Name="转职神侍" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;N&gt;西洲幻林&lt;/N&gt;的圣器祭坛，挑战&lt;C&gt;100&lt;/C&gt;个&lt;color=0xffff6000&gt;&lt;L=s06,1050045&gt;圣器守护者&lt;/L&gt;&lt;color=0xffffffff&gt;，然后挑战上&lt;color=0xffff0000&gt;&lt;L=s06,1050048&gt;上古法器之灵&lt;/L&gt;&lt;color=0xffffffff&gt;，最后将神侍的证明交给&lt;D&gt;&lt;L=s02,5010194&gt;魔琴之灵&lt;/L&gt;&lt;/D&gt;，便可进行职业的二转。" />
+</quest-local>

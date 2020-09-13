@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="29004" />
+    <entry Name="黑暗的导师" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;N&gt;黑暗学院&lt;/N&gt;，找到黑暗学院中的&lt;color=0xffff0000&gt;魔法导师赫达&lt;color=0xffffffff&gt;，将其消灭后回复神&lt;D&gt;&lt;L=s04,5510635&gt;神学院长奥德利&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

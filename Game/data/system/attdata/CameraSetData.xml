@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <CameraSetData id="1" IsShake="0" LoginCameraPos_x="1310" LoginCameraPos_y="2450" LoginCameraPos_z="10620" LoginCameraLookAt_x="3876" LoginCameraLookAt_y="1658" LoginCameraLookAt_z="10979" SelectRoleCameraPos_x="17350" SelectRoleCameraPos_y="1880" SelectRoleCameraPos_z="5660" SelectRoleCameraLookAt_x="13900" SelectRoleCameraLookAt_y="2500" SelectRoleCameraLookAt_z="12200" Role1Pos_x="16766" Role1Pos_y="1480" Role1Pos_z="6767" Role2Pos_x="16315" Role2Pos_y="1432" Role2Pos_z="6490" Role3Pos_x="17230" Role3Pos_y="1452" Role3Pos_z="6830" CreateRolePos_x="19050" CreateRolePos_y="10000" CreateRolePos_z="14200" CreateCameraLookat_x="19250" CreateCameraLookat_y="10100" CreateCameraLookat_z="14600" CreateCameraNearLookat_x="19230" CreateCameraNearLookat_y="10160" CreateCameraNearLookat_z="14900" CreateCamPitch="0" CreateCamRoll="0" CreateCamYaw="13" CreateMAXCamDist="800"/>
+</root>

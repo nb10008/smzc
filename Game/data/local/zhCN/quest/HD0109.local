@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30109" />
+    <entry Name="百鬼炼狱" />
+    <entry Conditions="击杀百鬼之魂" />
+    <entry Overview="进入&lt;P&gt;百鬼炼狱&lt;/P&gt;，只要击退里面的10波怪物进攻，并杀死最后出现的&lt;M&gt;百鬼之魂&lt;/M&gt;,即可完成任务。每击退一波怪物也可获得可观的经验奖励。" />
+</quest-local>

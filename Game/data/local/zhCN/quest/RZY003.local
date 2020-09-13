@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40003" />
+    <entry Name="妖精的资质" />
+    <entry Conditions="妖精等级达到10级" />
+    <entry Overview="将妖精的等级提升至&lt;C&gt;10&lt;/C&gt;级，达成后找&lt;D&gt;&lt;L=s02,5010023&gt;灵魂使者法娜&lt;/L&gt;&lt;/D&gt;交付任务。\n  \n&lt;T&gt;提示：携带妖精进行战斗，妖精也会获得经验\n \n提示：可使用妖精之粉来提升妖精的培育程度&lt;/T&gt;" />
+</quest-local>

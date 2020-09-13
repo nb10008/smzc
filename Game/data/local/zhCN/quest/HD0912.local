@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30912" />
+    <entry Name="情人之吻" />
+    <entry Conditions="" />
+    <entry Overview="带着&lt;I&gt;情人节亲吻卡&lt;/I&gt;，完成五次亲吻动作，将得到的5个&lt;I&gt;情人节之吻&lt;/I&gt;交给博博罗曼岛的&lt;M&gt;&lt;L=s61,5610095&gt;情人节天使&lt;/L&gt;&lt;/M&gt;\n当身上有“甜蜜之吻”状态时，亲吻动作无法获得&lt;I&gt;情人节之吻&lt;/I&gt;" />
+</quest-local>

@@ -1,0 +1,42 @@
+﻿龙 出版本流程
+
+出版本分为2种
+1.更新
+	每次出版本之前，质检部会发邮件说明所出tag号。
+	1）代码
+		（1）通知同事提交修改。
+		（2）切到loong/trunk
+		（3）根据tag号，把loong/trunk修改bug的版本合并到的loong/tag，并记录下具体的版本号，按照日志内容写更新说明。
+		（4）编译有变动的工程，看是否有错误
+		（5）提交代码到loong/tag
+	2）二进制文件
+		（1）/game/server切换到loong_vesion/tag上
+		（2）代码切换到tag上
+		（3）按照日志，编译有改动的工程，生成二进制文件到/game/release
+		（4）把release下面有变动的文件覆盖到/game/server
+		（5）添加更新说明
+		（6）提交/game/server	
+	3）服务器脚本资源
+		（1）通知同事及时提交修改
+		（2）切换到server_script/tag上
+		（3）合并server_scritp/trunk上的内容到server_script/tag上
+		（4）提交到server_script/tag
+		（5）切换到loong_version/tag  
+		（6）合并server_script/trunk上的内容到loong_version/tag上
+		（7）提交到loong_version/tag
+		（8）切换到loong_version/trunk
+		（9）合并server_script/trunk上的内容到loong_version/trunk上
+		（10）提交到loong_version/trunk
+	4）配置文件
+		（1）sql文件
+			在更新代码的过程中和代码一并处理
+			loong/trunk上loongdb中的sql复制到loong_version/trunk上的game/server_config中并提交
+			loong/tag上loongdb中的sql复制到loong_version/tag上的game/server_config中并提交
+		（2）ini文件
+			把loong/tag中内容关联的loong_research/trunk下的ini复制到loong_version/tag中并提交
+			loong_research/trunk上的ini文件复制到loong_version/trunk上并提交
+			loong_research/trunk上的
+2.添加
+	每次出版本之前质检部会发邮件说明要打新版本tag
+	1）代码
+		（1）通知同事提交修改

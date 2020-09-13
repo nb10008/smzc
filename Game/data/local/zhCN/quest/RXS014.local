@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20014" />
+    <entry Name="最终试炼" />
+    <entry Conditions="" />
+    <entry Overview="请挑战&lt;A&gt;&lt;L=m10,1010017&gt;暗之魅妖&lt;/L&gt;&lt;/A&gt;，作为最后的考验！\n击败&lt;A&gt;&lt;L=m10,1010017&gt;暗之魅妖&lt;/L&gt;&lt;/A&gt;后回复&lt;D&gt;&lt;L=m10,5010020&gt;魔神度撒&lt;/L&gt;&lt;/D&gt;。\n&lt;T&gt;提示：魅魔比较强大，请随时注意自己的体力。&lt;/T&gt;" />
+</quest-local>

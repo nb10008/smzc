@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40064" />
+    <entry Name="圣衣材料" />
+    <entry Conditions="将神格提升至3级" />
+    <entry Overview="&lt;D&gt;&lt;L=s02,5010243&gt;三界主宰艾辛萨&lt;/L&gt;&lt;/D&gt;让你将神格提升至&lt;C&gt;3&lt;/C&gt;级。\n&lt;T&gt;神格达到3级之后才能装备各种圣衣。圣衣的材料可以通过在装备萃取师处萃取装备获得。&lt;/T&gt;" />
+</quest-local>

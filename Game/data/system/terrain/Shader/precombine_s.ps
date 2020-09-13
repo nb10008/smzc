@@ -1,0 +1,10 @@
+sampler g_combineTex : register(s0);
+
+half4 main( float2 tex : TEXCOORD0,
+							float4 specular : COLOR1 ) : COLOR0
+{
+	half4 ret=tex2D(g_combineTex, tex);
+	ret.rgb*=2.0f;
+	ret.rgb+=specular.rgb*ret.a;
+	return ret;
+}

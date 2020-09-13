@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40012" />
+    <entry Name="加工原矿" />
+    <entry Conditions="" />
+    <entry Overview="首先采集原矿，再使用&lt;N&gt;加工&lt;/N&gt;技能，制造&lt;C&gt;2&lt;/C&gt;块&lt;I&gt;一等生铁&lt;/I&gt;，完成后回复&lt;D&gt;&lt;L=s02,5010024&gt;工神鲁斯&lt;/L&gt;&lt;/D&gt;。\n \n&lt;T&gt;提示：你可以在技能列表中查看和使用生产技能&lt;/T&gt;" />
+</quest-local>

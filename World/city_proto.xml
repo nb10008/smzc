@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 城市系统表xml映射 -->
+<root>
+    <city id="" shell_city="" kernel_city="" clan_type="" fund_output="" material_output="" item_type_1="" item_num_1="" item_limit_1="" item_type_2="" item_num_2="" item_limit_2="" item_type_3="" item_num_3="" item_limit_3="" item_type_4="" item_num_4="" item_limit_4="" item_type_5="" item_num_5="" item_limit_5=""/>
+    <city id="" shell_city="" kernel_city="" clan_type="" fund_output="" material_output="" item_type_1="" item_num_1="" item_limit_1="" item_type_2="" item_num_2="" item_limit_2="" item_type_3="" item_num_3="" item_limit_3="" item_type_4="" item_num_4="" item_limit_4="" item_type_5="" item_num_5="" item_limit_5=""/>
+</root>

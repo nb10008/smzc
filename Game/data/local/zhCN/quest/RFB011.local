@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="29011" />
+    <entry Name="迷幻仙宫的审判" />
+    <entry Conditions="" />
+    <entry Overview="到&lt;N&gt;&lt;Z=s07,78266,5730,99098&gt;迷幻仙宫&lt;/Z&gt;&lt;/N&gt;里面，击杀&lt;A&gt;仙宫行刑者&lt;/A&gt;&lt;C&gt;10&lt;/C&gt;只,击杀&lt;A&gt;仙宫信徒&lt;/A&gt;&lt;C&gt;10&lt;/C&gt;只,击杀&lt;A&gt;鳄鱼&lt;/A&gt;&lt;C&gt;10&lt;/C&gt;只,击杀&lt;A&gt;苏泰大人&lt;/A&gt;,以上完成其中一项即可,然后回复&lt;D&gt;&lt;L=s02,5010227&gt;审判者奥斯威德&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

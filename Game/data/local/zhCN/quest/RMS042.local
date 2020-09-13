@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20642" />
+    <entry Name="宝物" />
+    <entry Conditions="" />
+    <entry Overview="抓捕&lt;C&gt;1&lt;/C&gt;名&lt;A&gt;&lt;L=s08,1070032&gt;原神觅宝者&lt;/L&gt;&lt;/A&gt;，之后回复&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

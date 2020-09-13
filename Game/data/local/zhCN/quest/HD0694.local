@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30694" />
+    <entry Name="疯狂的雪国大作战" />
+    <entry Conditions="" />
+    <entry Overview="前往副本&lt;N&gt;&lt;Z=s07,78266,5730,99098&gt;迷幻仙宫&lt;/Z&gt;&lt;/N&gt;，那里的&lt;A&gt;鲁莽的阿尔泰&lt;/A&gt;、&lt;A&gt;秘境守卫&lt;/A&gt;和&lt;A&gt;蓝色妖姬妮特丽&lt;/A&gt;正在破坏这次的圣诞活动，快去消灭它们。完成任务后可以到&lt;D&gt;&lt;L=s02,5600011&gt;雪国长者尼古拉&lt;/L&gt;&lt;/D&gt;那里领取奖励。" />
+</quest-local>

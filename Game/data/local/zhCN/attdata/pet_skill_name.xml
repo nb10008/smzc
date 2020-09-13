@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <Skill id="1101601" display_type="驯化" name="野性" desc="坐骑野性未除，不可被驾御！可使用《驯兽术：晶玉虎》来驯化其可被驾御" icon="TJP16" />
+    <Skill id="1101602" display_type="驯化" name="驯服" desc="坐骑野性已除，可被驾御。可使用《双人骑术：晶玉虎》来训练其成为双人坐骑。" icon="TJP17" />
+    <Skill id="1101603" display_type="驯化" name="强壮" desc="坐骑野性已除，体魄健壮，可供双人骑乘！" icon="TJP18" />
+    <Skill id="1300901" display_type="通灵" name="辅助拾取" desc="开启后灵兽将自动拾取附近的掉落。\n每次拾取消耗精气25点，恢复时间0.5秒。\n\n&lt;color=0xff00a2ff&gt;灵兽休息后可缓慢恢复精气&lt;color=0xfffff7e0&gt;\n\n鼠标点击进行设置\n\n商城类辅助灵兽天生习得的拾取技能，不可升级。" icon="TJT11" />
+</root>

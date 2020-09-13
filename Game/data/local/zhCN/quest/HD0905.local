@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30905" />
+    <entry Name="幸福传递" />
+    <entry Conditions="" />
+    <entry Overview="收集10个&lt;I&gt;幸福传递&lt;/I&gt;，然后找斗战天城的幸福使者&lt;M&gt;&lt;L=s02,5610094&gt;贝尔蒂&lt;/L&gt;&lt;/M&gt;兑换经验。" />
+</quest-local>

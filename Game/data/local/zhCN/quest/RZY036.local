@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40036" />
+    <entry Name="加深了解" />
+    <entry Conditions="" />
+    <entry Overview="与&lt;D&gt;&lt;L=s02,5010086&gt;圣印师拉米萨&lt;/L&gt;&lt;/D&gt;对话。" />
+</quest-local>

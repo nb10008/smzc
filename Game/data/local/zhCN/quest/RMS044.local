@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20644" />
+    <entry Name="倾巢之举" />
+    <entry Conditions="" />
+    <entry Overview="&lt;A&gt;&lt;L=s08,1070033&gt;原神教术师&lt;/L&gt;&lt;/A&gt;&lt;C&gt;100&lt;/C&gt;名，&lt;A&gt;&lt;L=s08,1070034&gt;原神教妖师&lt;/L&gt;&lt;/A&gt;&lt;C&gt;100&lt;/C&gt;名，&lt;color=0xffff6000&gt;&lt;L=s08,1070062&gt;原神魔妖&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;45&lt;/C&gt;名，达成目标后回复&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30501" />
+    <entry Name="魔域探险" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;P&gt;混沌魔域一层&lt;/P&gt;，从里面的各种恶魔仆从身上获取&lt;A&gt;50&lt;/A&gt;个&lt;I&gt;初级魔仆徽记&lt;/I&gt;，然后交给&lt;D&gt;&lt;L=s06,5010101&gt;武神贝蒂&lt;/L&gt;&lt;/D&gt;。\n&lt;T&gt;混沌魔域只有在每天的21：00-22：00之间才能通过斗战天城【588，303】、【332，521】、【952，527】的恶魔之子进入。击杀魔域中的怪物可以获得高额的经验，同时还有一定几率刷新出拥有极好掉落的首领级怪物。&lt;/T&gt;" />
+</quest-local>

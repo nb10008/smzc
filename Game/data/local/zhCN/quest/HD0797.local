@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30797" />
+    <entry Name="每日升级" />
+    <entry Conditions="完成5次悬赏任务" />
+    <entry Overview="&lt;D&gt;&lt;L=s03,5010038&gt;悬赏榜&lt;/L&gt;&lt;/D&gt;处接取并完成&lt;C&gt;5&lt;/C&gt;次悬赏任务，完成后向&lt;D&gt;&lt;L=s02,6040055&gt;天使呼啦啦&lt;/L&gt;&lt;/D&gt;复命，可获得升&lt;C&gt;1&lt;/C&gt;级的奖励" />
+</quest-local>

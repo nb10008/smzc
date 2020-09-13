@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20426" />
+    <entry Name="五鬼再现" />
+    <entry Conditions="" />
+    <entry Overview="消灭&lt;C&gt;30&lt;/C&gt;个&lt;A&gt;&lt;L=s06,1050036&gt;五鬼百人屠&lt;/L&gt;&lt;/A&gt; ，然后回复&lt;D&gt;&lt;L=s06,5010163&gt;汉娜&lt;/L&gt;&lt;/D&gt;。&#x0A;\n注意：到达&lt;C&gt;70&lt;/C&gt;级之后，可在副本：&lt;N&gt;迷幻仙宫&lt;/N&gt;中获得进阶职业技能书并学习。" />
+</quest-local>

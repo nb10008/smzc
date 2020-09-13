@@ -1,0 +1,42 @@
+sampler2D g_lightMap 	: register(s0);
+sampler2D g_uvMap	: register(s1);
+
+static const float2 g_uvOffset[8] =
+{
+  	{ -0.5f,   0.0f },
+	{  0.5f,   0.0f },
+	{  0.0f,  -0.5f },
+	{  0.0f,   0.5f },
+	{  -0.5f, -0.5f },
+	{  -0.5f,  0.5f },
+	{  0.5f,  -0.5f },
+	{  0.5f,   0.5f }
+};
+
+float2 g_lightMapSize={256.0f,256.0f};
+
+
+float4 main( float2 uv0 : TEXCOORD0 ) : COLOR0
+{
+	float4 color=0;
+	
+	int validCount=0;
+	for(int i=0;i<8;i++)
+	{
+		float2 uv=uv0+g_uvOffset[i]/g_lightMapSize;
+		bool isValid = tex2D(g_uvMap,uv).a>0.9f ? true : false;
+		
+		if( isValid )
+		{
+			color+=tex2D(g_lightMap,uv);
+			validCount++;
+		}
+	}
+	
+	if( validCount > 1 )
+		color/=validCount;
+	else
+		color = tex2D(g_lightMap, float2(0.0f,0.0f));
+	
+	return color;
+}

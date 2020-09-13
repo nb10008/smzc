@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <item id="1" MinLevel="1" MaxLevel="30" Item1="3070002" Item2="3070003" Item3="3070025" Item4="3070019" Item5="3010018" Item6="3010023" Item7="3070009" Item8="3010042" Item9="3070052" Item10="3010038" />
+    <item id="2" MinLevel="31" MaxLevel="60" Item1="3070002" Item2="3020061" Item3="3020052" Item4="3030003" />
+    <item id="3" MinLevel="61" MaxLevel="100" Item1="3070002" Item2="3020061" Item3="3020052" Item4="3030003" />
+</root>

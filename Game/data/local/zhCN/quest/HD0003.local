@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30003" />
+    <entry Name="抵抗魔物" />
+    <entry Conditions="" />
+    <entry Overview="" />
+</quest-local>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <godarea_proto id="1000001" Type="1" nature_type="1" use_type="1" level="1" level_limit="60" godhead_limit="1" faith_val="0" skill_id="2010101" contest="0" />
+    <godarea_proto id="1000002" Type="1" nature_type="1" use_type="1" level="2" level_limit="80" godhead_limit="1" pre_godarea_id="1000001" faith_val="0" skill_id="2010102" contest="0" />
+    <godarea_proto id="1000003" Type="1" nature_type="1" use_type="1" level="3" level_limit="80" godhead_limit="1" pre_godarea_id="1000002" faith_val="0" skill_id="2010103" contest="0" />
+    <godarea_proto id="1000004" Type="1" nature_type="1" use_type="1" level="4" level_limit="80" godhead_limit="1" pre_godarea_id="1000003" faith_val="0" skill_id="2010104" contest="0" />
+    <godarea_proto id="1000101" Type="1" nature_type="1" use_type="1" level="1" level_limit="20" godhead_limit="1" faith_val="0" skill_id="2010201" contest="0" />
+    <godarea_proto id="1000102" Type="1" nature_type="1" use_type="1" level="2" level_limit="40" godhead_limit="1" pre_godarea_id="1000101" faith_val="0" skill_id="2010202" contest="0" />
+    <godarea_proto id="1000103" Type="1" nature_type="1" use_type="1" level="3" level_limit="60" godhead_limit="1" pre_godarea_id="1000102" faith_val="0" skill_id="2010203" contest="0" />
+    <godarea_proto id="1000104" Type="1" nature_type="1" use_type="1" level="4" level_limit="80" godhead_limit="1" pre_godarea_id="1000103" faith_val="0" skill_id="2010204" contest="0" />
+    <godarea_proto id="1000105" Type="1" nature_type="1" use_type="1" level="5" level_limit="80" godhead_limit="1" pre_godarea_id="1000104" faith_val="0" skill_id="2010205" contest="0" />
+    <godarea_proto id="1000106" Type="1" nature_type="1" use_type="1" level="6" level_limit="80" godhead_limit="1" pre_godarea_id="1000105" faith_val="0" skill_id="2010206" contest="0" />
+    <godarea_proto id="1000201" Type="1" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2010301" contest="0" />
+    <godarea_proto id="1000202" Type="1" nature_type="1" use_type="1" level="2" level_limit="80" godhead_limit="1" pre_godarea_id="1000201" faith_val="0" skill_id="2010302" contest="0" />
+    <godarea_proto id="1000301" Type="1" nature_type="1" use_type="1" level="1" level_limit="20" godhead_limit="1" faith_val="0" skill_id="2010401" contest="0" />
+    <godarea_proto id="1000302" Type="1" nature_type="1" use_type="1" level="2" level_limit="40" godhead_limit="1" pre_godarea_id="1000301" faith_val="0" skill_id="2010402" contest="0" />
+    <godarea_proto id="1000303" Type="1" nature_type="1" use_type="1" level="3" level_limit="60" godhead_limit="1" pre_godarea_id="1000302" faith_val="0" skill_id="2010403" contest="0" />
+    <godarea_proto id="1000304" Type="1" nature_type="1" use_type="1" level="4" level_limit="80" godhead_limit="1" pre_godarea_id="1000303" faith_val="0" skill_id="2010404" contest="0" />
+    <godarea_proto id="1000305" Type="1" nature_type="1" use_type="1" level="5" level_limit="80" godhead_limit="1" pre_godarea_id="1000304" faith_val="0" skill_id="2010405" contest="0" />
+    <godarea_proto id="1000306" Type="1" nature_type="1" use_type="1" level="6" level_limit="80" godhead_limit="1" pre_godarea_id="1000305" faith_val="0" skill_id="2010406" contest="0" />
+    <godarea_proto id="1000401" Type="1" nature_type="1" use_type="1" level="1" level_limit="40" godhead_limit="1" faith_val="0" skill_id="2010601" contest="0" />
+    <godarea_proto id="1000402" Type="1" nature_type="1" use_type="1" level="2" level_limit="60" godhead_limit="1" pre_godarea_id="1000401" faith_val="0" skill_id="2010602" contest="0" />
+    <godarea_proto id="1000403" Type="1" nature_type="1" use_type="1" level="3" level_limit="80" godhead_limit="1" pre_godarea_id="1000402" faith_val="0" skill_id="2010603" contest="0" />
+    <godarea_proto id="1000404" Type="1" nature_type="1" use_type="1" level="4" level_limit="80" godhead_limit="1" pre_godarea_id="1000403" faith_val="0" skill_id="2010604" contest="0" />
+    <godarea_proto id="1000405" Type="1" nature_type="1" use_type="1" level="5" level_limit="80" godhead_limit="1" pre_godarea_id="1000404" faith_val="0" skill_id="2010605" contest="0" />
+    <godarea_proto id="2000001" Type="1" nature_type="1" use_type="2" level="1" level_limit="40" godhead_limit="1" faith_val="0" skill_id="2010801" contest="0" />
+    <godarea_proto id="2000101" Type="1" nature_type="1" use_type="2" level="1" level_limit="40" godhead_limit="1" faith_val="0" skill_id="2010901" contest="0" />
+    <godarea_proto id="2000201" Type="1" nature_type="1" use_type="1" level="1" level_limit="60" godhead_limit="1" faith_val="0" skill_id="2011001" contest="0" />
+    <godarea_proto id="2000301" Type="1" nature_type="1" use_type="1" level="1" level_limit="60" godhead_limit="1" faith_val="0" skill_id="2011101" contest="0" />
+    <godarea_proto id="2000401" Type="1" nature_type="1" use_type="1" level="1" level_limit="60" godhead_limit="1" faith_val="0" skill_id="2011201" contest="0" />
+    <godarea_proto id="2000501" Type="1" nature_type="1" use_type="1" level="1" level_limit="60" godhead_limit="1" faith_val="0" skill_id="2011301" contest="0" />
+    <godarea_proto id="2000601" Type="1" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2011401" contest="0" />
+    <godarea_proto id="2000701" Type="1" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2011501" contest="0" />
+    <godarea_proto id="2000801" Type="1" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2011601" contest="0" />
+    <godarea_proto id="2000901" Type="1" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2011701" contest="0" />
+    <godarea_proto id="2001001" Type="1" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2011801" contest="0" />
+    <godarea_proto id="2001101" Type="1" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2011901" contest="0" />
+    <godarea_proto id="2001201" Type="1" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2012001" contest="0" />
+    <godarea_proto id="2001301" Type="1" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2012101" contest="0" />
+    <godarea_proto id="2001401" Type="1" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2012201" contest="0" />
+    <godarea_proto id="2001501" Type="1" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2012301" contest="0" />
+    <godarea_proto id="2001601" Type="1" nature_type="3" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2010501" buff_id="3506501" contest="0" />
+    <godarea_proto id="2001701" Type="1" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2012501" contest="0" />
+    <godarea_proto id="2001801" Type="1" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2012601" contest="0" />
+    <godarea_proto id="2001901" Type="1" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2012701" contest="0" />
+    <godarea_proto id="2002001" Type="1" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2012801" contest="0" />
+    <godarea_proto id="2002101" Type="1" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2012901" contest="0" />
+    <godarea_proto id="2002201" Type="1" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2013001" contest="0" />
+    <godarea_proto id="2002301" Type="1" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2013101" contest="0" />
+    <godarea_proto id="2002401" Type="1" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2013201" contest="0" />
+    <godarea_proto id="2002501" Type="1" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2013301" contest="0" />
+    <godarea_proto id="2002601" Type="1" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2013401" contest="0" />
+    <godarea_proto id="2002701" Type="1" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2013501" contest="0" />
+    <godarea_proto id="2002801" Type="1" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2013601" contest="0" />
+    <godarea_proto id="2002901" Type="1" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2013701" contest="0" />
+    <godarea_proto id="2003001" Type="1" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="1" faith_val="0" skill_id="2013801" contest="0" />
+    <godarea_proto id="2003101" Type="2" nature_type="1" use_type="1" level="1" level_limit="20" godhead_limit="1" faith_val="50" skill_id="2100001" buff_id="3501001" contest="0" />
+    <godarea_proto id="2003201" Type="2" nature_type="1" use_type="1" level="1" level_limit="20" godhead_limit="1" faith_val="50" skill_id="2100101" contest="0" />
+    <godarea_proto id="2003301" Type="2" nature_type="1" use_type="1" level="1" level_limit="20" godhead_limit="1" faith_val="50" skill_id="2100201" contest="0" />
+    <godarea_proto id="2003401" Type="2" nature_type="1" use_type="2" level="1" level_limit="20" godhead_limit="2" faith_val="200" skill_id="2100301" contest="0" />
+    <godarea_proto id="2003501" Type="2" nature_type="1" use_type="2" level="1" level_limit="50" godhead_limit="4" faith_val="500" skill_id="2100401" contest="0" />
+    <godarea_proto id="2003502" Type="2" nature_type="1" use_type="2" level="2" level_limit="65" godhead_limit="4" pre_godarea_id="2003501" faith_val="800" skill_id="2100402" contest="0" />
+    <godarea_proto id="2003601" Type="2" nature_type="1" use_type="2" level="1" level_limit="40" godhead_limit="3" faith_val="500" skill_id="2100501" contest="0" />
+    <godarea_proto id="2003602" Type="2" nature_type="1" use_type="2" level="2" level_limit="55" godhead_limit="3" pre_godarea_id="2003601" faith_val="800" skill_id="2100502" contest="0" />
+    <godarea_proto id="2003701" Type="2" nature_type="1" use_type="2" level="1" level_limit="55" godhead_limit="5" faith_val="500" skill_id="2100601" contest="0" />
+    <godarea_proto id="2003702" Type="2" nature_type="1" use_type="2" level="2" level_limit="70" godhead_limit="5" pre_godarea_id="2003701" faith_val="800" skill_id="2100602" contest="0" />
+    <godarea_proto id="2003801" Type="2" nature_type="1" use_type="2" level="1" level_limit="30" godhead_limit="2" faith_val="200" skill_id="2100701" contest="0" />
+    <godarea_proto id="2003802" Type="2" nature_type="1" use_type="2" level="2" level_limit="45" godhead_limit="2" pre_godarea_id="2003801" faith_val="400" skill_id="2100702" contest="0" />
+    <godarea_proto id="2003803" Type="2" nature_type="1" use_type="2" level="3" level_limit="60" godhead_limit="2" pre_godarea_id="2003802" faith_val="500" skill_id="2100703" contest="0" />
+    <godarea_proto id="2003901" Type="2" nature_type="1" use_type="2" level="1" level_limit="20" godhead_limit="2" faith_val="100" skill_id="2100801" contest="0" />
+    <godarea_proto id="2003902" Type="2" nature_type="1" use_type="2" level="2" level_limit="30" godhead_limit="2" pre_godarea_id="2003901" faith_val="200" skill_id="2100802" contest="0" />
+    <godarea_proto id="2003903" Type="2" nature_type="1" use_type="2" level="3" level_limit="40" godhead_limit="2" pre_godarea_id="2003902" faith_val="300" skill_id="2100803" contest="0" />
+    <godarea_proto id="2003904" Type="2" nature_type="1" use_type="2" level="4" level_limit="50" godhead_limit="2" pre_godarea_id="2003903" faith_val="400" skill_id="2100804" contest="0" />
+    <godarea_proto id="2003905" Type="2" nature_type="1" use_type="2" level="5" level_limit="60" godhead_limit="2" pre_godarea_id="2003904" faith_val="500" skill_id="2100805" contest="0" />
+    <godarea_proto id="2004101" Type="2" nature_type="1" use_type="2" level="1" level_limit="40" godhead_limit="3" faith_val="500" skill_id="2101201" contest="0" />
+    <godarea_proto id="2004401" Type="2" nature_type="1" use_type="1" level="1" level_limit="40" godhead_limit="3" faith_val="200" skill_id="2101501" contest="0" />
+    <godarea_proto id="2004501" Type="2" nature_type="1" use_type="1" level="1" level_limit="50" godhead_limit="4" faith_val="50" skill_id="2101601" contest="0" />
+    <godarea_proto id="2004502" Type="2" nature_type="1" use_type="1" level="2" level_limit="60" godhead_limit="4" pre_godarea_id="2004501" faith_val="100" skill_id="2101602" contest="0" />
+    <godarea_proto id="2004503" Type="2" nature_type="1" use_type="1" level="3" level_limit="70" godhead_limit="4" pre_godarea_id="2004502" faith_val="150" skill_id="2101603" contest="0" />
+    <godarea_proto id="2004504" Type="2" nature_type="1" use_type="1" level="4" level_limit="80" godhead_limit="4" pre_godarea_id="2004503" faith_val="200" skill_id="2101604" contest="0" />
+    <godarea_proto id="2004505" Type="2" nature_type="1" use_type="1" level="5" level_limit="90" godhead_limit="4" pre_godarea_id="2004504" faith_val="250" skill_id="2101605" contest="0" />
+    <godarea_proto id="2004506" Type="2" nature_type="1" use_type="1" level="6" level_limit="100" godhead_limit="4" pre_godarea_id="2004505" faith_val="300" skill_id="2101606" contest="0" />
+    <godarea_proto id="2004601" Type="2" nature_type="1" use_type="2" level="1" level_limit="25" godhead_limit="2" faith_val="200" skill_id="2101701" contest="0" />
+    <godarea_proto id="2004602" Type="2" nature_type="1" use_type="2" level="2" level_limit="35" godhead_limit="2" pre_godarea_id="2004601" faith_val="400" skill_id="2101702" contest="0" />
+    <godarea_proto id="2004603" Type="2" nature_type="1" use_type="2" level="3" level_limit="60" godhead_limit="2" pre_godarea_id="2004602" faith_val="600" skill_id="2101703" contest="0" />
+    <godarea_proto id="2004701" Type="2" nature_type="1" use_type="2" level="1" level_limit="50" godhead_limit="5" faith_val="50" skill_id="2101801" contest="0" />
+    <godarea_proto id="2004702" Type="2" nature_type="1" use_type="2" level="2" level_limit="60" godhead_limit="5" pre_godarea_id="2004701" faith_val="100" skill_id="2101802" contest="0" />
+    <godarea_proto id="2004703" Type="2" nature_type="1" use_type="2" level="3" level_limit="70" godhead_limit="5" pre_godarea_id="2004702" faith_val="200" skill_id="2101803" contest="0" />
+    <godarea_proto id="2004704" Type="2" nature_type="1" use_type="2" level="4" level_limit="80" godhead_limit="5" pre_godarea_id="2004703" faith_val="500" skill_id="2101804" contest="0" />
+    <godarea_proto id="2004801" Type="2" nature_type="1" use_type="2" level="1" level_limit="50" godhead_limit="5" faith_val="50" skill_id="2101901" contest="0" />
+    <godarea_proto id="2004802" Type="2" nature_type="1" use_type="2" level="2" level_limit="60" godhead_limit="5" pre_godarea_id="2004801" faith_val="100" skill_id="2101902" contest="0" />
+    <godarea_proto id="2004803" Type="2" nature_type="1" use_type="2" level="3" level_limit="70" godhead_limit="5" pre_godarea_id="2004802" faith_val="200" skill_id="2101903" contest="0" />
+    <godarea_proto id="2004804" Type="2" nature_type="1" use_type="2" level="4" level_limit="80" godhead_limit="5" pre_godarea_id="2004803" faith_val="500" skill_id="2101904" contest="0" />
+    <godarea_proto id="2004901" Type="2" nature_type="1" use_type="2" level="1" level_limit="35" godhead_limit="1" faith_val="200" skill_id="2102001" contest="0" />
+    <godarea_proto id="2005001" Type="2" nature_type="1" use_type="2" level="1" level_limit="45" godhead_limit="2" faith_val="200" skill_id="2102101" contest="0" />
+    <godarea_proto id="2005101" Type="2" nature_type="1" use_type="2" level="1" level_limit="55" godhead_limit="5" faith_val="200" skill_id="2102201" contest="0" />
+    <godarea_proto id="2005201" Type="2" nature_type="1" use_type="2" level="1" level_limit="65" godhead_limit="7" faith_val="200" skill_id="2102301" contest="0" />
+    <godarea_proto id="2005301" Type="2" nature_type="1" use_type="2" level="1" level_limit="75" godhead_limit="9" faith_val="200" skill_id="2102401" contest="0" />
+    <godarea_proto id="2005401" Type="2" nature_type="1" use_type="2" level="1" level_limit="85" godhead_limit="11" faith_val="200" skill_id="2102501" contest="0" />
+    <godarea_proto id="2005501" Type="2" nature_type="1" use_type="2" level="1" level_limit="95" godhead_limit="15" faith_val="200" skill_id="2102601" contest="0" />
+    <godarea_proto id="2005701" Type="2" nature_type="1" use_type="1" level="1" level_limit="35" godhead_limit="2" faith_val="50" skill_id="2102801" contest="0" />
+    <godarea_proto id="2005702" Type="2" nature_type="1" use_type="1" level="2" level_limit="45" godhead_limit="2" pre_godarea_id="2005701" faith_val="100" skill_id="2102802" contest="0" />
+    <godarea_proto id="2005703" Type="2" nature_type="1" use_type="1" level="3" level_limit="55" godhead_limit="2" pre_godarea_id="2005702" faith_val="150" skill_id="2102803" contest="0" />
+    <godarea_proto id="2005704" Type="2" nature_type="1" use_type="1" level="4" level_limit="65" godhead_limit="2" pre_godarea_id="2005703" faith_val="200" skill_id="2102804" contest="0" />
+    <godarea_proto id="2005705" Type="2" nature_type="1" use_type="1" level="5" level_limit="75" godhead_limit="2" pre_godarea_id="2005704" faith_val="250" skill_id="2102805" contest="0" />
+    <godarea_proto id="2005706" Type="2" nature_type="1" use_type="1" level="6" level_limit="85" godhead_limit="2" pre_godarea_id="2005705" faith_val="300" skill_id="2102806" contest="0" />
+    <godarea_proto id="2005801" Type="2" nature_type="1" use_type="1" level="1" level_limit="50" godhead_limit="4" faith_val="100" skill_id="2102901" contest="0" />
+    <godarea_proto id="2005802" Type="2" nature_type="1" use_type="1" level="2" level_limit="60" godhead_limit="4" pre_godarea_id="2005801" faith_val="150" skill_id="2102902" contest="0" />
+    <godarea_proto id="2005803" Type="2" nature_type="1" use_type="1" level="3" level_limit="70" godhead_limit="4" pre_godarea_id="2005802" faith_val="200" skill_id="2102903" contest="0" />
+    <godarea_proto id="2005804" Type="2" nature_type="1" use_type="1" level="4" level_limit="80" godhead_limit="4" pre_godarea_id="2005803" faith_val="250" skill_id="2102904" contest="0" />
+    <godarea_proto id="2005805" Type="2" nature_type="1" use_type="1" level="5" level_limit="90" godhead_limit="4" pre_godarea_id="2005804" faith_val="300" skill_id="2102905" contest="0" />
+    <godarea_proto id="2005901" Type="2" nature_type="1" use_type="1" level="1" level_limit="55" godhead_limit="5" faith_val="150" skill_id="2103001" contest="0" />
+    <godarea_proto id="2005902" Type="2" nature_type="1" use_type="1" level="2" level_limit="65" godhead_limit="5" pre_godarea_id="2005901" faith_val="200" skill_id="2103002" contest="0" />
+    <godarea_proto id="2005903" Type="2" nature_type="1" use_type="1" level="3" level_limit="75" godhead_limit="5" pre_godarea_id="2005902" faith_val="250" skill_id="2103003" contest="0" />
+    <godarea_proto id="2005904" Type="2" nature_type="1" use_type="1" level="4" level_limit="85" godhead_limit="5" pre_godarea_id="2005903" faith_val="300" skill_id="2103004" contest="0" />
+    <godarea_proto id="2006001" Type="2" nature_type="1" use_type="1" level="1" level_limit="70" godhead_limit="8" faith_val="200" skill_id="2103101" contest="0" />
+    <godarea_proto id="2006002" Type="2" nature_type="1" use_type="1" level="2" level_limit="80" godhead_limit="8" pre_godarea_id="2006001" faith_val="250" skill_id="2103102" contest="0" />
+    <godarea_proto id="2006003" Type="2" nature_type="1" use_type="1" level="3" level_limit="90" godhead_limit="8" pre_godarea_id="2006002" faith_val="300" skill_id="2103103" contest="0" />
+    <godarea_proto id="2006101" Type="2" nature_type="1" use_type="2" level="1" level_limit="35" godhead_limit="4" faith_val="100" skill_id="2103201" contest="0" />
+    <godarea_proto id="2006102" Type="2" nature_type="1" use_type="2" level="2" level_limit="45" godhead_limit="4" pre_godarea_id="2006101" faith_val="200" skill_id="2103202" contest="0" />
+    <godarea_proto id="2006103" Type="2" nature_type="1" use_type="2" level="3" level_limit="55" godhead_limit="4" pre_godarea_id="2006102" faith_val="350" skill_id="2103203" contest="0" />
+    <godarea_proto id="2006104" Type="2" nature_type="1" use_type="2" level="4" level_limit="65" godhead_limit="4" pre_godarea_id="2006103" faith_val="500" skill_id="2103204" contest="0" />
+    <godarea_proto id="2006105" Type="2" nature_type="1" use_type="2" level="5" level_limit="75" godhead_limit="4" pre_godarea_id="2006104" faith_val="650" skill_id="2103205" contest="0" />
+    <godarea_proto id="2006106" Type="2" nature_type="1" use_type="2" level="6" level_limit="85" godhead_limit="4" pre_godarea_id="2006105" faith_val="800" skill_id="2103206" contest="0" />
+    <godarea_proto id="2006107" Type="2" nature_type="1" use_type="2" level="7" level_limit="95" godhead_limit="4" pre_godarea_id="2006106" faith_val="1000" skill_id="2103207" contest="0" />
+    <godarea_proto id="2006201" Type="2" nature_type="1" use_type="2" level="1" level_limit="35" godhead_limit="4" faith_val="100" skill_id="2103301" contest="0" />
+    <godarea_proto id="2006202" Type="2" nature_type="1" use_type="2" level="2" level_limit="45" godhead_limit="4" pre_godarea_id="2006201" faith_val="200" skill_id="2103302" contest="0" />
+    <godarea_proto id="2006203" Type="2" nature_type="1" use_type="2" level="3" level_limit="55" godhead_limit="4" pre_godarea_id="2006202" faith_val="350" skill_id="2103303" contest="0" />
+    <godarea_proto id="2006204" Type="2" nature_type="1" use_type="2" level="4" level_limit="65" godhead_limit="4" pre_godarea_id="2006203" faith_val="500" skill_id="2103304" contest="0" />
+    <godarea_proto id="2006205" Type="2" nature_type="1" use_type="2" level="5" level_limit="75" godhead_limit="4" pre_godarea_id="2006204" faith_val="650" skill_id="2103305" contest="0" />
+    <godarea_proto id="2006206" Type="2" nature_type="1" use_type="2" level="6" level_limit="85" godhead_limit="4" pre_godarea_id="2006205" faith_val="800" skill_id="2103306" contest="0" />
+    <godarea_proto id="2006207" Type="2" nature_type="1" use_type="2" level="7" level_limit="95" godhead_limit="4" pre_godarea_id="2006206" faith_val="1000" skill_id="2103307" contest="0" />
+    <godarea_proto id="2006301" Type="2" nature_type="1" use_type="2" level="1" level_limit="65" godhead_limit="9" faith_val="200" skill_id="2103401" contest="0" />
+    <godarea_proto id="2006302" Type="2" nature_type="1" use_type="2" level="2" level_limit="75" godhead_limit="9" pre_godarea_id="2006301" faith_val="360" skill_id="2103402" contest="0" />
+    <godarea_proto id="2006303" Type="2" nature_type="1" use_type="2" level="3" level_limit="85" godhead_limit="9" pre_godarea_id="2006302" faith_val="600" skill_id="2103403" contest="0" />
+    <godarea_proto id="2006304" Type="2" nature_type="1" use_type="2" level="4" level_limit="95" godhead_limit="9" pre_godarea_id="2006303" faith_val="900" skill_id="2103404" contest="0" />
+    <godarea_proto id="2006401" Type="2" nature_type="1" use_type="2" level="1" level_limit="65" godhead_limit="9" faith_val="200" skill_id="2103501" contest="0" />
+    <godarea_proto id="2006402" Type="2" nature_type="1" use_type="2" level="2" level_limit="75" godhead_limit="9" pre_godarea_id="2006401" faith_val="360" skill_id="2103502" contest="0" />
+    <godarea_proto id="2006403" Type="2" nature_type="1" use_type="2" level="3" level_limit="85" godhead_limit="9" pre_godarea_id="2006402" faith_val="600" skill_id="2103503" contest="0" />
+    <godarea_proto id="2006404" Type="2" nature_type="1" use_type="2" level="4" level_limit="95" godhead_limit="9" pre_godarea_id="2006403" faith_val="900" skill_id="2103504" contest="0" />
+    <godarea_proto id="2006501" Type="2" nature_type="1" use_type="2" level="1" level_limit="55" godhead_limit="7" faith_val="100" skill_id="2103601" contest="0" />
+    <godarea_proto id="2006502" Type="2" nature_type="1" use_type="2" level="2" level_limit="65" godhead_limit="7" pre_godarea_id="2006501" faith_val="200" skill_id="2103602" contest="0" />
+    <godarea_proto id="2006503" Type="2" nature_type="1" use_type="2" level="3" level_limit="75" godhead_limit="7" pre_godarea_id="2006502" faith_val="360" skill_id="2103603" contest="0" />
+    <godarea_proto id="2006504" Type="2" nature_type="1" use_type="2" level="4" level_limit="85" godhead_limit="7" pre_godarea_id="2006503" faith_val="600" skill_id="2103604" contest="0" />
+    <godarea_proto id="2006601" Type="2" nature_type="1" use_type="2" level="1" level_limit="55" godhead_limit="7" faith_val="100" skill_id="2103701" contest="0" />
+    <godarea_proto id="2006602" Type="2" nature_type="1" use_type="2" level="2" level_limit="65" godhead_limit="7" pre_godarea_id="2006601" faith_val="200" skill_id="2103702" contest="0" />
+    <godarea_proto id="2006603" Type="2" nature_type="1" use_type="2" level="3" level_limit="75" godhead_limit="7" pre_godarea_id="2006602" faith_val="360" skill_id="2103703" contest="0" />
+    <godarea_proto id="2006604" Type="2" nature_type="1" use_type="2" level="4" level_limit="85" godhead_limit="7" pre_godarea_id="2006603" faith_val="600" skill_id="2103704" contest="0" />
+    <godarea_proto id="2006701" Type="2" nature_type="1" use_type="2" level="1" level_limit="55" godhead_limit="6" faith_val="100" skill_id="2103801" contest="0" />
+    <godarea_proto id="2006702" Type="2" nature_type="1" use_type="2" level="2" level_limit="65" godhead_limit="6" pre_godarea_id="2006701" faith_val="200" skill_id="2103802" contest="0" />
+    <godarea_proto id="2006703" Type="2" nature_type="1" use_type="2" level="3" level_limit="75" godhead_limit="6" pre_godarea_id="2006702" faith_val="360" skill_id="2103803" contest="0" />
+    <godarea_proto id="2006704" Type="2" nature_type="1" use_type="2" level="4" level_limit="85" godhead_limit="6" pre_godarea_id="2006703" faith_val="600" skill_id="2103804" contest="0" />
+    <godarea_proto id="2006801" Type="2" nature_type="1" use_type="2" level="1" level_limit="55" godhead_limit="6" faith_val="100" skill_id="2103901" contest="0" />
+    <godarea_proto id="2006802" Type="2" nature_type="1" use_type="2" level="2" level_limit="65" godhead_limit="6" pre_godarea_id="2006801" faith_val="200" skill_id="2103902" contest="0" />
+    <godarea_proto id="2006803" Type="2" nature_type="1" use_type="2" level="3" level_limit="75" godhead_limit="6" pre_godarea_id="2006802" faith_val="360" skill_id="2103903" contest="0" />
+    <godarea_proto id="2006804" Type="2" nature_type="1" use_type="2" level="4" level_limit="85" godhead_limit="6" pre_godarea_id="2006803" faith_val="600" skill_id="2103904" contest="0" />
+    <godarea_proto id="2006901" Type="2" nature_type="1" use_type="2" level="1" level_limit="65" godhead_limit="8" faith_val="200" skill_id="2104001" contest="0" />
+    <godarea_proto id="2006902" Type="2" nature_type="1" use_type="2" level="2" level_limit="75" godhead_limit="8" pre_godarea_id="2006901" faith_val="360" skill_id="2104002" contest="0" />
+    <godarea_proto id="2006903" Type="2" nature_type="1" use_type="2" level="3" level_limit="85" godhead_limit="8" pre_godarea_id="2006902" faith_val="600" skill_id="2104003" contest="0" />
+    <godarea_proto id="2006904" Type="2" nature_type="1" use_type="2" level="4" level_limit="95" godhead_limit="8" pre_godarea_id="2006903" faith_val="900" skill_id="2104004" contest="0" />
+    <godarea_proto id="2007001" Type="2" nature_type="1" use_type="2" level="1" level_limit="65" godhead_limit="8" faith_val="200" skill_id="2104101" contest="0" />
+    <godarea_proto id="2007002" Type="2" nature_type="1" use_type="2" level="2" level_limit="75" godhead_limit="8" pre_godarea_id="2007001" faith_val="360" skill_id="2104102" contest="0" />
+    <godarea_proto id="2007003" Type="2" nature_type="1" use_type="2" level="3" level_limit="85" godhead_limit="8" pre_godarea_id="2007002" faith_val="600" skill_id="2104103" contest="0" />
+    <godarea_proto id="2007004" Type="2" nature_type="1" use_type="2" level="4" level_limit="95" godhead_limit="8" pre_godarea_id="2007003" faith_val="900" skill_id="2104104" contest="0" />
+    <godarea_proto id="2007201" Type="2" nature_type="1" use_type="2" level="1" level_limit="40" godhead_limit="6" faith_val="40" skill_id="2104301" contest="0" />
+    <godarea_proto id="2007202" Type="2" nature_type="1" use_type="2" level="2" level_limit="40" godhead_limit="6" pre_godarea_id="2007201" faith_val="80" skill_id="2104302" contest="0" />
+    <godarea_proto id="2007203" Type="2" nature_type="1" use_type="2" level="3" level_limit="40" godhead_limit="6" pre_godarea_id="2007202" faith_val="120" skill_id="2104303" contest="0" />
+    <godarea_proto id="2007204" Type="2" nature_type="1" use_type="2" level="4" level_limit="40" godhead_limit="6" pre_godarea_id="2007203" faith_val="160" skill_id="2104304" contest="0" />
+    <godarea_proto id="2007205" Type="2" nature_type="1" use_type="2" level="5" level_limit="50" godhead_limit="6" pre_godarea_id="2007204" faith_val="200" skill_id="2104305" contest="0" />
+    <godarea_proto id="2007206" Type="2" nature_type="1" use_type="2" level="6" level_limit="50" godhead_limit="6" pre_godarea_id="2007205" faith_val="240" skill_id="2104306" contest="0" />
+    <godarea_proto id="2007207" Type="2" nature_type="1" use_type="2" level="7" level_limit="50" godhead_limit="6" pre_godarea_id="2007206" faith_val="280" skill_id="2104307" contest="0" />
+    <godarea_proto id="2007208" Type="2" nature_type="1" use_type="2" level="8" level_limit="50" godhead_limit="6" pre_godarea_id="2007207" faith_val="320" skill_id="2104308" contest="0" />
+    <godarea_proto id="2007209" Type="2" nature_type="1" use_type="2" level="9" level_limit="60" godhead_limit="6" pre_godarea_id="2007208" faith_val="360" skill_id="2104309" contest="0" />
+    <godarea_proto id="2007210" Type="2" nature_type="1" use_type="2" level="10" level_limit="60" godhead_limit="6" pre_godarea_id="2007209" faith_val="400" skill_id="2104310" contest="0" />
+    <godarea_proto id="2007211" Type="2" nature_type="1" use_type="2" level="11" level_limit="60" godhead_limit="6" pre_godarea_id="2007210" faith_val="500" skill_id="2104311" contest="0" />
+    <godarea_proto id="2007212" Type="2" nature_type="1" use_type="2" level="12" level_limit="60" godhead_limit="6" pre_godarea_id="2007211" faith_val="600" skill_id="2104312" contest="0" />
+    <godarea_proto id="2007213" Type="2" nature_type="1" use_type="2" level="13" level_limit="70" godhead_limit="6" pre_godarea_id="2007212" faith_val="700" skill_id="2104313" contest="0" />
+    <godarea_proto id="2007214" Type="2" nature_type="1" use_type="2" level="14" level_limit="70" godhead_limit="6" pre_godarea_id="2007213" faith_val="800" skill_id="2104314" contest="0" />
+    <godarea_proto id="2007215" Type="2" nature_type="1" use_type="2" level="15" level_limit="70" godhead_limit="6" pre_godarea_id="2007214" faith_val="900" skill_id="2104315" contest="0" />
+    <godarea_proto id="2007216" Type="2" nature_type="1" use_type="2" level="16" level_limit="70" godhead_limit="6" pre_godarea_id="2007215" faith_val="1000" skill_id="2104316" contest="0" />
+    <godarea_proto id="2007217" Type="2" nature_type="1" use_type="2" level="17" level_limit="80" godhead_limit="6" pre_godarea_id="2007216" faith_val="1100" skill_id="2104317" contest="0" />
+    <godarea_proto id="2007218" Type="2" nature_type="1" use_type="2" level="18" level_limit="80" godhead_limit="6" pre_godarea_id="2007217" faith_val="1200" skill_id="2104318" contest="0" />
+    <godarea_proto id="2007219" Type="2" nature_type="1" use_type="2" level="19" level_limit="80" godhead_limit="6" pre_godarea_id="2007218" faith_val="1300" skill_id="2104319" contest="0" />
+    <godarea_proto id="2007220" Type="2" nature_type="1" use_type="2" level="20" level_limit="80" godhead_limit="6" pre_godarea_id="2007219" faith_val="1400" skill_id="2104320" contest="0" />
+    <godarea_proto id="2007401" Type="2" nature_type="1" use_type="2" level="1" level_limit="40" godhead_limit="6" faith_val="40" skill_id="2104501" contest="0" />
+    <godarea_proto id="2007402" Type="2" nature_type="1" use_type="2" level="2" level_limit="40" godhead_limit="6" pre_godarea_id="2007401" faith_val="80" skill_id="2104502" contest="0" />
+    <godarea_proto id="2007403" Type="2" nature_type="1" use_type="2" level="3" level_limit="40" godhead_limit="6" pre_godarea_id="2007402" faith_val="120" skill_id="2104503" contest="0" />
+    <godarea_proto id="2007404" Type="2" nature_type="1" use_type="2" level="4" level_limit="40" godhead_limit="6" pre_godarea_id="2007403" faith_val="160" skill_id="2104504" contest="0" />
+    <godarea_proto id="2007405" Type="2" nature_type="1" use_type="2" level="5" level_limit="50" godhead_limit="6" pre_godarea_id="2007404" faith_val="200" skill_id="2104505" contest="0" />
+    <godarea_proto id="2007406" Type="2" nature_type="1" use_type="2" level="6" level_limit="50" godhead_limit="6" pre_godarea_id="2007405" faith_val="240" skill_id="2104506" contest="0" />
+    <godarea_proto id="2007407" Type="2" nature_type="1" use_type="2" level="7" level_limit="50" godhead_limit="6" pre_godarea_id="2007406" faith_val="280" skill_id="2104507" contest="0" />
+    <godarea_proto id="2007408" Type="2" nature_type="1" use_type="2" level="8" level_limit="50" godhead_limit="6" pre_godarea_id="2007407" faith_val="320" skill_id="2104508" contest="0" />
+    <godarea_proto id="2007409" Type="2" nature_type="1" use_type="2" level="9" level_limit="60" godhead_limit="6" pre_godarea_id="2007408" faith_val="360" skill_id="2104509" contest="0" />
+    <godarea_proto id="2007410" Type="2" nature_type="1" use_type="2" level="10" level_limit="60" godhead_limit="6" pre_godarea_id="2007409" faith_val="400" skill_id="2104510" contest="0" />
+    <godarea_proto id="2007411" Type="2" nature_type="1" use_type="2" level="11" level_limit="60" godhead_limit="6" pre_godarea_id="2007410" faith_val="500" skill_id="2104511" contest="0" />
+    <godarea_proto id="2007412" Type="2" nature_type="1" use_type="2" level="12" level_limit="60" godhead_limit="6" pre_godarea_id="2007411" faith_val="600" skill_id="2104512" contest="0" />
+    <godarea_proto id="2007413" Type="2" nature_type="1" use_type="2" level="13" level_limit="70" godhead_limit="6" pre_godarea_id="2007412" faith_val="700" skill_id="2104513" contest="0" />
+    <godarea_proto id="2007414" Type="2" nature_type="1" use_type="2" level="14" level_limit="70" godhead_limit="6" pre_godarea_id="2007413" faith_val="800" skill_id="2104514" contest="0" />
+    <godarea_proto id="2007415" Type="2" nature_type="1" use_type="2" level="15" level_limit="70" godhead_limit="6" pre_godarea_id="2007414" faith_val="900" skill_id="2104515" contest="0" />
+    <godarea_proto id="2007416" Type="2" nature_type="1" use_type="2" level="16" level_limit="70" godhead_limit="6" pre_godarea_id="2007415" faith_val="1000" skill_id="2104516" contest="0" />
+    <godarea_proto id="2007417" Type="2" nature_type="1" use_type="2" level="17" level_limit="80" godhead_limit="6" pre_godarea_id="2007416" faith_val="1100" skill_id="2104517" contest="0" />
+    <godarea_proto id="2007418" Type="2" nature_type="1" use_type="2" level="18" level_limit="80" godhead_limit="6" pre_godarea_id="2007417" faith_val="1200" skill_id="2104518" contest="0" />
+    <godarea_proto id="2007419" Type="2" nature_type="1" use_type="2" level="19" level_limit="80" godhead_limit="6" pre_godarea_id="2007418" faith_val="1300" skill_id="2104519" contest="0" />
+    <godarea_proto id="2007420" Type="2" nature_type="1" use_type="2" level="20" level_limit="80" godhead_limit="6" pre_godarea_id="2007419" faith_val="1400" skill_id="2104520" contest="0" />
+    <godarea_proto id="2007501" Type="2" nature_type="1" use_type="2" level="1" level_limit="50" godhead_limit="4" faith_val="750" skill_id="2100901" contest="0" />
+    <godarea_proto id="2007601" Type="2" nature_type="1" use_type="2" level="1" level_limit="60" godhead_limit="4" faith_val="1500" skill_id="2101001" contest="0" />
+    <godarea_proto id="2007801" Type="1" nature_type="1" use_type="1" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2010501" contest="0" />
+    <godarea_proto id="2007901" Type="2" nature_type="1" use_type="1" level="1" level_limit="20" godhead_limit="2" faith_val="50" skill_id="2104601" contest="0" />
+    <godarea_proto id="2008001" Type="2" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2104701" contest="0" />
+    <godarea_proto id="2008002" Type="2" nature_type="1" use_type="1" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2008001" faith_val="0" skill_id="2104702" contest="0" />
+    <godarea_proto id="2008003" Type="2" nature_type="1" use_type="1" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2008002" faith_val="0" skill_id="2104703" contest="0" />
+    <godarea_proto id="2008004" Type="2" nature_type="1" use_type="1" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2008003" faith_val="0" skill_id="2104704" contest="0" />
+    <godarea_proto id="2008101" Type="2" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2104801" contest="0" />
+    <godarea_proto id="2008102" Type="2" nature_type="1" use_type="2" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2008101" faith_val="0" skill_id="2104802" contest="0" />
+    <godarea_proto id="2008103" Type="2" nature_type="1" use_type="2" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2008102" faith_val="0" skill_id="2104803" contest="0" />
+    <godarea_proto id="2008104" Type="2" nature_type="1" use_type="2" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2008103" faith_val="0" skill_id="2104804" contest="0" />
+    <godarea_proto id="2008201" Type="2" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2104901" contest="0" />
+    <godarea_proto id="2008202" Type="2" nature_type="1" use_type="1" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2008201" faith_val="0" skill_id="2104902" contest="0" />
+    <godarea_proto id="2008203" Type="2" nature_type="1" use_type="1" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2008202" faith_val="0" skill_id="2104903" contest="0" />
+    <godarea_proto id="2008204" Type="2" nature_type="1" use_type="1" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2008203" faith_val="0" skill_id="2104904" contest="0" />
+    <godarea_proto id="2008301" Type="2" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2105001" contest="0" />
+    <godarea_proto id="2008302" Type="2" nature_type="1" use_type="2" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2008301" faith_val="0" skill_id="2105002" contest="0" />
+    <godarea_proto id="2008303" Type="2" nature_type="1" use_type="2" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2008302" faith_val="0" skill_id="2105003" contest="0" />
+    <godarea_proto id="2008304" Type="2" nature_type="1" use_type="2" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2008303" faith_val="0" skill_id="2105004" contest="0" />
+    <godarea_proto id="2008401" Type="2" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2105101" contest="0" />
+    <godarea_proto id="2008402" Type="2" nature_type="1" use_type="1" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2008401" faith_val="0" skill_id="2105102" contest="0" />
+    <godarea_proto id="2008403" Type="2" nature_type="1" use_type="1" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2008402" faith_val="0" skill_id="2105103" contest="0" />
+    <godarea_proto id="2008404" Type="2" nature_type="1" use_type="1" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2008403" faith_val="0" skill_id="2105104" contest="0" />
+    <godarea_proto id="2008501" Type="2" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2105201" contest="0" />
+    <godarea_proto id="2008502" Type="2" nature_type="1" use_type="2" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2008501" faith_val="0" skill_id="2105202" contest="0" />
+    <godarea_proto id="2008503" Type="2" nature_type="1" use_type="2" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2008502" faith_val="0" skill_id="2105203" contest="0" />
+    <godarea_proto id="2008504" Type="2" nature_type="1" use_type="2" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2008503" faith_val="0" skill_id="2105204" contest="0" />
+    <godarea_proto id="2008601" Type="2" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2105301" contest="0" />
+    <godarea_proto id="2008602" Type="2" nature_type="1" use_type="1" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2008601" faith_val="0" skill_id="2105302" contest="0" />
+    <godarea_proto id="2008603" Type="2" nature_type="1" use_type="1" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2008602" faith_val="0" skill_id="2105303" contest="0" />
+    <godarea_proto id="2008604" Type="2" nature_type="1" use_type="1" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2008603" faith_val="0" skill_id="2105304" contest="0" />
+    <godarea_proto id="2008701" Type="2" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2105401" contest="0" />
+    <godarea_proto id="2008702" Type="2" nature_type="1" use_type="2" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2008701" faith_val="0" skill_id="2105402" contest="0" />
+    <godarea_proto id="2008703" Type="2" nature_type="1" use_type="2" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2008702" faith_val="0" skill_id="2105403" contest="0" />
+    <godarea_proto id="2008704" Type="2" nature_type="1" use_type="2" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2008703" faith_val="0" skill_id="2105404" contest="0" />
+    <godarea_proto id="2008801" Type="2" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2105501" contest="0" />
+    <godarea_proto id="2008802" Type="2" nature_type="1" use_type="1" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2008801" faith_val="0" skill_id="2105502" contest="0" />
+    <godarea_proto id="2008803" Type="2" nature_type="1" use_type="1" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2008802" faith_val="0" skill_id="2105503" contest="0" />
+    <godarea_proto id="2008804" Type="2" nature_type="1" use_type="1" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2008803" faith_val="0" skill_id="2105504" contest="0" />
+    <godarea_proto id="2008901" Type="2" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2105601" contest="0" />
+    <godarea_proto id="2008902" Type="2" nature_type="1" use_type="2" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2008901" faith_val="0" skill_id="2105602" contest="0" />
+    <godarea_proto id="2008903" Type="2" nature_type="1" use_type="2" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2008902" faith_val="0" skill_id="2105603" contest="0" />
+    <godarea_proto id="2008904" Type="2" nature_type="1" use_type="2" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2008903" faith_val="0" skill_id="2105604" contest="0" />
+    <godarea_proto id="2009001" Type="2" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2105701" contest="0" />
+    <godarea_proto id="2009002" Type="2" nature_type="1" use_type="1" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2009001" faith_val="0" skill_id="2105702" contest="0" />
+    <godarea_proto id="2009003" Type="2" nature_type="1" use_type="1" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2009002" faith_val="0" skill_id="2105703" contest="0" />
+    <godarea_proto id="2009004" Type="2" nature_type="1" use_type="1" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2009003" faith_val="0" skill_id="2105704" contest="0" />
+    <godarea_proto id="2009101" Type="2" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2105801" contest="0" />
+    <godarea_proto id="2009102" Type="2" nature_type="1" use_type="1" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2009101" faith_val="0" skill_id="2105802" contest="0" />
+    <godarea_proto id="2009103" Type="2" nature_type="1" use_type="1" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2009102" faith_val="0" skill_id="2105803" contest="0" />
+    <godarea_proto id="2009104" Type="2" nature_type="1" use_type="1" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2009103" faith_val="0" skill_id="2105804" contest="0" />
+    <godarea_proto id="2009201" Type="2" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2105901" contest="0" />
+    <godarea_proto id="2009202" Type="2" nature_type="1" use_type="1" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2009201" faith_val="0" skill_id="2105902" contest="0" />
+    <godarea_proto id="2009203" Type="2" nature_type="1" use_type="1" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2009202" faith_val="0" skill_id="2105903" contest="0" />
+    <godarea_proto id="2009204" Type="2" nature_type="1" use_type="1" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2009203" faith_val="0" skill_id="2105904" contest="0" />
+    <godarea_proto id="2009301" Type="2" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2106001" contest="0" />
+    <godarea_proto id="2009302" Type="2" nature_type="1" use_type="1" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2009301" faith_val="0" skill_id="2106002" contest="0" />
+    <godarea_proto id="2009303" Type="2" nature_type="1" use_type="1" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2009302" faith_val="0" skill_id="2106003" contest="0" />
+    <godarea_proto id="2009304" Type="2" nature_type="1" use_type="1" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2009303" faith_val="0" skill_id="2106004" contest="0" />
+    <godarea_proto id="2009401" Type="2" nature_type="1" use_type="1" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2106101" contest="0" />
+    <godarea_proto id="2009402" Type="2" nature_type="1" use_type="1" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2009401" faith_val="0" skill_id="2106102" contest="0" />
+    <godarea_proto id="2009403" Type="2" nature_type="1" use_type="1" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2009402" faith_val="0" skill_id="2106103" contest="0" />
+    <godarea_proto id="2009404" Type="2" nature_type="1" use_type="1" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2009403" faith_val="0" skill_id="2106104" contest="0" />
+    <godarea_proto id="2009501" Type="2" nature_type="1" use_type="2" level="1" level_limit="80" godhead_limit="12" faith_val="0" skill_id="2106201" contest="0" />
+    <godarea_proto id="2009502" Type="2" nature_type="1" use_type="2" level="2" level_limit="85" godhead_limit="12" pre_godarea_id="2009501" faith_val="0" skill_id="2106202" contest="0" />
+    <godarea_proto id="2009503" Type="2" nature_type="1" use_type="2" level="3" level_limit="90" godhead_limit="12" pre_godarea_id="2009502" faith_val="0" skill_id="2106203" contest="0" />
+    <godarea_proto id="2009504" Type="2" nature_type="1" use_type="2" level="4" level_limit="95" godhead_limit="12" pre_godarea_id="2009503" faith_val="0" skill_id="2106204" contest="0" />
+    <godarea_proto id="3000001" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2200001" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3000101" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2200101" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3000201" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2200201" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3000301" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2200301" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3000401" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2200401" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3000501" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2200501" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3000601" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2200601" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3000701" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2200701" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3000801" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2200801" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3000901" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2200901" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3001001" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2201001" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3001101" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2201101" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3001201" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2201201" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3001301" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2201301" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3001401" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2201401" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3001501" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2201501" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3001601" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2201601" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3001701" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2201701" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3001801" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2201801" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3001901" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2201901" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3002001" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2202001" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3002101" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2202101" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3002201" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2202201" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3002301" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2202301" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3002401" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2202401" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3002501" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2202501" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3002601" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2202601" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3002701" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2202701" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3002801" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2202801" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3002901" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2202901" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3003001" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2203001" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3003101" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2203101" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3003201" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2203201" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="3003301" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2203301" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="4000001" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2400001" skill_timecontrol="604800" contest="0" />
+    <godarea_proto id="4000101" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2400101" skill_timecontrol="604800" contest="0" />
+    <godarea_proto id="4000201" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2400201" skill_timecontrol="604800" contest="0" />
+    <godarea_proto id="4000301" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2400301" skill_timecontrol="604800" contest="0" />
+    <godarea_proto id="4000401" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2400401" skill_timecontrol="604800" contest="0" />
+    <godarea_proto id="4000501" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2400501" skill_timecontrol="604800" contest="0" />
+    <godarea_proto id="4000601" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2400601" skill_timecontrol="604800" contest="0" />
+    <godarea_proto id="4000701" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2400701" skill_timecontrol="604800" contest="0" />
+    <godarea_proto id="4000801" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2400801" skill_timecontrol="604800" contest="1" />
+    <godarea_proto id="4000901" Type="3" nature_type="1" use_type="2" level="1" level_limit="1" godhead_limit="2" faith_val="0" skill_id="2400901" skill_timecontrol="604800" contest="1" />
+</root>

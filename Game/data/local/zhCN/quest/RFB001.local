@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="29001" />
+    <entry Name="黑暗学院" />
+    <entry Conditions="" />
+    <entry Overview="再次与&lt;D&gt;&lt;L=s04,5510635&gt;神学院长奥德利&lt;/L&gt;&lt;/D&gt;对话。" />
+</quest-local>

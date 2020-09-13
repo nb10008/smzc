@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40049" />
+    <entry Name="妖精的食物" />
+    <entry Conditions="" />
+    <entry Overview="到&lt;N&gt;天雪镇&lt;/N&gt;的&lt;D&gt;&lt;L=s05,5510639&gt;妖精食物商&lt;/L&gt;&lt;/D&gt;处购买&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;秘制话梅&lt;/I&gt;，然后回复&lt;D&gt;&lt;L=s05, 5511027&gt;妖精法蒂拉&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

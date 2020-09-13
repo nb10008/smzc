@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40057" />
+    <entry Name="灵魂净化" />
+    <entry Conditions="" />
+    <entry Overview="&lt;D&gt;&lt;L=s02,5010243&gt;三界主宰艾辛萨&lt;/L&gt;&lt;/D&gt;将会教授你如何使用&lt;S&gt;灵魂净化&lt;/S&gt;技能。\n&lt;T&gt;使用灵魂净化技能可以净化带有“魔气萦绕”状态的目标，同时将会获得一定数量的信仰。每天完成&lt;/T&gt;&lt;D&gt;预言者盖拉&lt;/D&gt;&lt;T&gt;给予的任务也能提升信仰。&lt;/T&gt;" />
+</quest-local>

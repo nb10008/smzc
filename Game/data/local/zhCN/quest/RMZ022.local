@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20522" />
+    <entry Name="惊闻秘辛" />
+    <entry Conditions="" />
+    <entry Overview="请再次与魔子&lt;D&gt;&lt;L=s07,5010204&gt;雷丁&lt;/L&gt;&lt;/D&gt;对话。" />
+</quest-local>

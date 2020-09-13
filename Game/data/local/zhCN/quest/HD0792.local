@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30792" />
+    <entry Name="showgirl小姐的请求" />
+    <entry Conditions="完成5次师门任务" />
+    <entry Overview="到&lt;D&gt;&lt;L=s02,5010057&gt;师门任务使者&lt;/L&gt;&lt;/D&gt;那里，完成5次师门任务后回去找&lt;D&gt;&lt;L=s02,5610050&gt;showgirl小姐&lt;/L&gt;&lt;/D&gt;！" />
+</quest-local>

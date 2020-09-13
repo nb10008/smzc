@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="50031" />
+    <entry Name="哇啦雪人" />
+    <entry Conditions="" />
+    <entry Overview="杀死&lt;C&gt;5&lt;/C&gt;只&lt;A&gt;哇啦哇啦雪人&lt;/A&gt;，然后回复&lt;D&gt;&lt;L=s05,5010226&gt;新新雪子&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

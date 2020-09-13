@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40043" />
+    <entry Name="妖精契约" />
+    <entry Conditions="" />
+    <entry Overview="在&lt;N&gt;妖精之家&lt;/N&gt;练习使用契约术来获得一个&lt;I&gt;妖精精华&lt;/I&gt;，然后将它带给&lt;D&gt;&lt;L=s04,5010076&gt;翼神琼纳斯&lt;/L&gt;&lt;/D&gt;。\n&lt;T&gt;请确保身上具有5种契约道具每种3个以上。如果在道具用完后还没有与妖精缔结契约，请删除任务，然后收集足够的道具再重新接取此任务。&lt;/T&gt;" />
+</quest-local>

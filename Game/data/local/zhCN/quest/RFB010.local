@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="29010" />
+    <entry Name="黑暗学院的审判二" />
+    <entry Conditions="" />
+    <entry Overview="到&lt;N&gt;&lt;Z=s04,66229,20830,69706&gt;黑暗学院&lt;/Z&gt;&lt;/N&gt;里面，击杀&lt;A&gt;石怪&lt;/A&gt;&lt;C&gt;5&lt;/C&gt;个,击杀&lt;A&gt;重生的古堡侍应生&lt;/A&gt;&lt;C&gt;5&lt;/C&gt;只,击杀&lt;A&gt;重生的暗黑女仆&lt;A&gt;&lt;C&gt;5&lt;/C&gt;只,&#x0A;,以上完成其中一项即可,然后回复&lt;D&gt;&lt;L=s02,5010227&gt;审判者奥斯威德&lt;/L&gt;&lt;/D&gt;。&#x0A;" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<tiger id="1" times_1="0" num_1="200" times_2="0" num_2="50" times_3="50" num_3="20" times_4="100" num_4="10" times_5="300" num_5="5" times_6="1000" num_6="2" times_7="4000" num_7="1"/>
+	<tiger id="5" times_1="0" num_1="2000" times_2="0" num_2="500" times_3="22" num_3="200" times_4="50" num_4="100" times_5="300" num_5="25" times_6="1000" num_6="10" times_7="4000" num_7="5"/>
+	<tiger id="10" times_1="0" num_1="6000" times_2="0" num_2="1500" times_3="17" num_3="600" times_4="33" num_4="300" times_5="300" num_5="50" times_6="1000" num_6="20" times_7="4000" num_7="10"/>
+	<tiger id="50" times_1="0" num_1="100000" times_2="0" num_2="25000" times_3="5" num_3="10000" times_4="10" num_4="5000" times_5="300" num_5="250" times_6="1000" num_6="100" times_7="4000" num_7="50"/>
+</root>

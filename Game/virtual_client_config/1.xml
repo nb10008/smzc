@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<Account id="0" type="1" user="12" pwd="1" wayPoint="1" sendTime="800"/>
+	<Account id="1" type="1" user="13" pwd="1" wayPoint="2" sendTime="800"/>
+	<Account id="2" type="1" user="14" pwd="1" wayPoint="3" sendTime="800"/>
+	<Account id="3" type="1" user="15" pwd="1" wayPoint="4" sendTime="800"/>
+	<Account id="4" type="1" user="16" pwd="1" wayPoint="5" sendTime="800"/>
+	<Account id="5" type="1" user="17" pwd="1" wayPoint="6" sendTime="800"/>
+>
+</root>

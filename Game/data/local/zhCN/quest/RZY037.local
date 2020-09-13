@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40037" />
+    <entry Name="归元石" />
+    <entry Conditions="" />
+    <entry Overview="替&lt;D&gt;&lt;L=s02,5010086&gt;圣印师拉米萨&lt;/L&gt;&lt;/D&gt;击杀西洲幻林&#x0A;&lt;N&gt;武岩洞&lt;/N&gt;中的&lt;D&gt;&lt;L=d06,1050043&gt;无影&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

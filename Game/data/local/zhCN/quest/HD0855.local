@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30855" />
+    <entry Name="圣魔饺子宴" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;高汤饺子&lt;/I&gt;，交给&lt;D&gt;沸腾的神锅&lt;/D&gt;。为圣魔饺子宴贡献自己的一份力量。&#x0A;" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="29000" />
+    <entry Name="营救平民" />
+    <entry Conditions="" />
+    <entry Overview="找到副本内的平民。" />
+</quest-local>

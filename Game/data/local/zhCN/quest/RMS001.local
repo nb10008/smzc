@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20601" />
+    <entry Name="曾经的猎人" />
+    <entry Conditions="" />
+    <entry Overview="智慧之神奥克山让你超度&lt;C&gt;100&lt;/C&gt;名发狂的&lt;A&gt;&lt;L=s08,1070003&gt;石皮训熊者&lt;/L&gt;&lt;/A&gt;，和&lt;C&gt;100&lt;/C&gt;只&lt;A&gt;&lt;L=s08,1070002&gt;石皮野熊&lt;/L&gt;&lt;/A&gt;，之后回复&lt;D&gt;&lt;L=s08,5010205&gt;奥克山&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30836" />
+    <entry Name="魔之意志" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;N&gt;古神陵墓&lt;/N&gt;，收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;神之结晶&lt;/I&gt;，然后向&lt;D&gt;憎恶魔窟护卫&lt;/D&gt;复命。（&lt;S&gt;完成任务后可以获得500魔族声望和200魔魂，同时降低250点天神声望&lt;/S&gt;）" />
+</quest-local>

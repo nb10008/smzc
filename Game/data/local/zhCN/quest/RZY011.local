@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40011" />
+    <entry Name="采集原矿" />
+    <entry Conditions="" />
+    <entry Overview="在矿洞内&lt;N&gt;使用矿镐&lt;/N&gt;，采集&lt;C&gt;10&lt;/C&gt;块&lt;I&gt;原矿&lt;/I&gt;，完成后回复&lt;D&gt;&lt;L=d10,5010025&gt;弗伊达&lt;/L&gt;&lt;/D&gt;。\n \n&lt;T&gt;提示：矿镐可以在杂货商那里购买获得&lt;/T&gt;" />
+</quest-local>

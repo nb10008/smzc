@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <godarea id="1000001" name="刺藤狂舞曲" icon="TBP01" desc="自然之力爆发，催生周围生长出大量刺藤对敌方造成伤害，并用藤蔓定住对方" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000002" name="刺藤狂舞曲" icon="TBP01" desc="自然之力爆发，周围生长出无限的刺藤对敌方造成高伤害，并用藤蔓定住对方" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000003" name="刺藤狂舞曲" icon="TBP01" desc="自然之力爆发，周围生长出无限的刺藤对敌方造成高伤害，并用藤蔓定住对方" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000004" name="刺藤狂舞曲" icon="TBP01" desc="自然之力爆发，周围生长出无限的刺藤对敌方造成高伤害，并用藤蔓定住对方" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000101" name="死亡射线·瞬" icon="TBP08" desc="从空中射出一道激光扫射面前的敌人。激光伤害会波及到直线扫射到的每一个敌人，并使他们受到灼烧伤害，技能等级提升，技能威力提升，灼烧伤害提升" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000102" name="死亡射线·瞬" icon="TBP08" desc="从空中射出一道激光扫射面前的敌人。激光伤害会波及到直线扫射到的每一个敌人，并使他们受到灼烧伤害，技能等级提升，技能威力提升，灼烧伤害提升" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000103" name="死亡射线·瞬" icon="TBP08" desc="从空中射出一道激光扫射面前的敌人。激光伤害会波及到直线扫射到的每一个敌人，并使他们受到灼烧伤害，技能等级提升，技能威力提升，灼烧伤害提升" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000104" name="死亡射线·瞬" icon="TBP08" desc="从空中射出一道激光扫射面前的敌人。激光伤害会波及到直线扫射到的每一个敌人，并使他们受到灼烧伤害，技能等级提升，技能威力提升，灼烧伤害提升" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000105" name="死亡射线·瞬" icon="TBP08" desc="从空中射出一道激光扫射面前的敌人。激光伤害会波及到直线扫射到的每一个敌人，并使他们受到灼烧伤害，技能等级提升，技能威力提升，灼烧伤害提升" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000106" name="死亡射线·瞬" icon="TBP08" desc="从空中射出一道激光扫射面前的敌人。激光伤害会波及到直线扫射到的每一个敌人，并使他们受到灼烧伤害，技能等级提升，技能威力提升，灼烧伤害提升" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000201" name="死亡射线·圆" icon="TJC20" desc="起身用光线扫射身周对周围敌对目标造成可观伤害，被扫中目标受到伤害并且受到火焰束缚,火焰束缚会随着时间的增加而逐渐发挥减速作用，束缚消失的时候会造成短时间的定身" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000202" name="死亡射线·圆" icon="TJC20" desc="起身用光线扫射身周对周围敌对目标造成可观伤害，被扫中目标受到伤害并且受到火焰束缚,火焰束缚会随着时间的增加而逐渐发挥减速作用，束缚消失的时候会造成短时间的定身" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000301" name="炼狱红莲" icon="TJD30" desc="从地底召唤出四道火柱，对周围敌人造成大量伤害，并在火焰喷射后&lt;color=0xff05ff00&gt;30&lt;color=0xffffffff&gt;秒内使自己附带高温效果增加自身攻击力，让攻击自己的敌人的武器软化，武器伤害下降并对其造成瞬间烧伤效果，持续&lt;color=0xff05ff00&gt;12&lt;color=0xffffffff&gt;秒，技能等级提升，技能威力提升，高温效果提高" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000302" name="炼狱红莲" icon="TJD30" desc="从地底召唤出四道火柱，对周围敌人造成大量伤害，并在火焰喷射后&lt;color=0xff05ff00&gt;30&lt;color=0xffffffff&gt;秒内使自己附带高温效果增加自身攻击力，让攻击自己的敌人的武器软化，武器伤害下降并对其造成瞬间烧伤效果，持续&lt;color=0xff05ff00&gt;12&lt;color=0xffffffff&gt;秒，技能等级提升，技能威力提升，高温效果提高" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000303" name="炼狱红莲" icon="TJD30" desc="从地底召唤出四道火柱，对周围敌人造成大量伤害，并在火焰喷射后&lt;color=0xff05ff00&gt;30&lt;color=0xffffffff&gt;秒内使自己附带高温效果增加自身攻击力，让攻击自己的敌人的武器软化，武器伤害下降并对其造成瞬间烧伤效果，持续&lt;color=0xff05ff00&gt;12&lt;color=0xffffffff&gt;秒，技能等级提升，技能威力提升，高温效果提高" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000304" name="炼狱红莲" icon="TJD30" desc="从地底召唤出四道火柱，对周围敌人造成大量伤害，并在火焰喷射后&lt;color=0xff05ff00&gt;30&lt;color=0xffffffff&gt;秒内使自己附带高温效果增加自身攻击力，让攻击自己的敌人的武器软化，武器伤害下降并对其造成瞬间烧伤效果，持续&lt;color=0xff05ff00&gt;12&lt;color=0xffffffff&gt;秒，技能等级提升，技能威力提升，高温效果提高" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000305" name="炼狱红莲" icon="TJD30" desc="从地底召唤出四道火柱，对周围敌人造成大量伤害，并在火焰喷射后&lt;color=0xff05ff00&gt;30&lt;color=0xffffffff&gt;秒内使自己附带高温效果增加自身攻击力，让攻击自己的敌人的武器软化，武器伤害下降并对其造成瞬间烧伤效果，持续&lt;color=0xff05ff00&gt;12&lt;color=0xffffffff&gt;秒，技能等级提升，技能威力提升，高温效果提高" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000306" name="炼狱红莲" icon="TJD30" desc="从地底召唤出四道火柱，对周围敌人造成大量伤害，并在火焰喷射后&lt;color=0xff05ff00&gt;30&lt;color=0xffffffff&gt;秒内使自己附带高温效果增加自身攻击力，让攻击自己的敌人的武器软化，武器伤害下降并对其造成瞬间烧伤效果，持续&lt;color=0xff05ff00&gt;12&lt;color=0xffffffff&gt;秒，技能等级提升，技能威力提升，高温效果提高" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000401" name="气旋风暴" icon="TJC39" desc="通过高速旋转造成的气旋对敌人造成伤害并击退，也会让敌对目标的攻击产生偏斜，自身闪避提高&lt;color=0xff05ff00&gt;10%&lt;color=0xffffffff&gt;，技能等级提升，技能威力提升，闪避效果增强" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000402" name="气旋风暴" icon="TJC39" desc="通过高速旋转造成的气旋对敌人造成伤害并击退，也会让敌对目标的攻击产生偏斜，自身闪避提高&lt;color=0xff05ff00&gt;20%&lt;color=0xffffffff&gt;，技能等级提升，技能威力提升，闪避效果增强" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000403" name="气旋风暴" icon="TJC39" desc="通过高速旋转造成的气旋对敌人造成伤害并击退，也会让敌对目标的攻击产生偏斜，自身闪避提高&lt;color=0xff05ff00&gt;30%&lt;color=1xffffffff&gt;，技能等级提升，技能威力提升，闪避效果增强" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000404" name="气旋风暴" icon="TJC39" desc="通过高速旋转造成的气旋对敌人造成伤害并击退，也会让敌对目标的攻击产生偏斜，自身闪避提高&lt;color=0xff05ff00&gt;40%&lt;color=1xffffffff&gt;，技能等级提升，技能威力提升，闪避效果增强" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="1000405" name="气旋风暴" icon="TJC39" desc="通过高速旋转造成的气旋对敌人造成伤害并击退，也会让敌对目标的攻击产生偏斜，自身闪避提高&lt;color=0xff05ff00&gt;50%&lt;color=2xffffffff&gt;，技能等级提升，技能威力提升，闪避效果增强" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2000001" name="守护" icon="TJD18" desc="化身守护提高物理伤害加深，物理攻击" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2000101" name="审判" icon="TJN25" desc="化身审判提高法术伤害加深，法术攻击" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2000201" name="烈火之刃" icon="TJD29" desc="使用后&lt;color=0xff05ff00&gt;20&lt;color=0xffffffff&gt;秒内让武器附带火焰伤害，每次攻击都有几率产生额外伤害，并附带灼烧的持续减目标体力效果" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2000301" name="风暴之眼" icon="TJJ32" desc="使用后，角色获得风暴赐予的力量增加爆击，但是由于集中意念于双瞳移动速度降低，持续&lt;color=0xff05ff00&gt;10&lt;color=0xffffffff&gt;秒" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2000401" name="雷神之躯" icon="TJZ06" desc="使用后，角色承载雷神的意愿进入&lt;color=0xff05ff00&gt;15&lt;color=0xffffffff&gt;秒的电磁爆状态，攻击该状态下的角色，有&lt;color=0xff05ff00&gt;25%&lt;color=0xffffffff&gt;几率被击晕&lt;color=0xff05ff00&gt;2&lt;color=0xffffffff&gt;秒" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2000501" name="海洋之心" icon="TJZ08" desc="海洋的感恩，用深蓝的酝酿之力为自己和队友恢复体力" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2000601" name="神之领域" icon="TJZ10" desc="神的优势，身为神本身拥有能力，提高自身防御" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2000701" name="正义" icon="TJZ31" desc="禀明神旨，以身作则，享受天神的赐福体力增加&lt;color=0xff05ff00&gt;20000&lt;color=0xffffffff&gt;点" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2000801" name="风云变幻" icon="TJY41" desc="喜怒无形的神，变换着他的意志，暴击率增加&lt;color=0xff05ff00&gt;5%&lt;color=0xffffffff&gt;，暴击量增加&lt;color=0xff05ff00&gt;5%&lt;color=0xffffffff&gt;" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2000901" name="法神赐福" icon="TJY31" desc="使用技能，获得远古法术神邸的祝福25秒内伤害减免&lt;color=0xff05ff00&gt;40%&lt;color=0xffffffff&gt;，在赐福效果中每&lt;color=0xff05ff00&gt;3&lt;color=0xffffffff&gt;秒恢复大量的真气" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2001001" name="海洋呼唤" icon="TJR38" desc="呼唤海洋之力，为你和你的队友恢复较多的体力" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2001101" name="玛斯的传人" icon="TJR12" desc="作为传承者的优势，攻击时有一定几率对目标造成的额外伤害" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2001201" name="阿波罗之魂" icon="TJQ14" desc="浑身散发着太阳的光耀刺痛敌方双目，使用后一定范围内的非友方，攻击失误率上升" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2001301" name="法术奥秘" icon="TJNPC04" desc="窥探法术中的奥妙在每次攻击后，可增加&lt;color=0xff05ff00&gt;1&lt;color=0xffffffff&gt;点法术伤害加深，最多可叠加&lt;color=0xff05ff00&gt;300&lt;color=0xffffffff&gt;层，持续一定时间" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2001401" name="庇护" icon="TJN25" desc="以神的名义保护你的队友，使用后指定友方全部伤害减免极高，持续&lt;color=0xff05ff00&gt;15&lt;color=0xffffffff&gt;秒" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2001501" name="迫害" icon="TJJ34" desc="神力充盈的气场无穷无尽的压迫着你的对手，攻击时，有一定几率造成高额的额外伤害" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2001601" name="死亡宣告" icon="TJG45" desc="命中敌方会有几率产生死亡标记，根据不同标记使用死亡宣告造成根据层数不同的伤害，死亡标记最多可叠加&lt;color=0xff05ff00&gt;15&lt;color=0xffffffff&gt;层（死亡宣告只对玩家生效，对怪物无效）" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2001701" name="暗遁" icon="TJP06" desc="攻击后，有一定几率将敌人定身&lt;color=0xff05ff00&gt;3&lt;color=0xffffffff&gt;秒，该效果在&lt;color=0xff05ff00&gt;10&lt;color=0xffffffff&gt;秒内无法重复触发" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2001801" name="影" icon="TJQ29" desc="影即我，我即影，在被攻击后，吸收影传来的能力产生移动速度提高和抗性提升的状态，持续&lt;color=0xff05ff00&gt;30&lt;color=0xffffffff&gt;秒，可叠加&lt;color=0xff05ff00&gt;20&lt;color=0xffffffff&gt;层" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2001901" name="元素庇护" icon="TJR05" desc="掌控元素的规则，使元素为你所战，每次被攻击后，有可能产生魔法护盾，增加全部伤害减免，持续&lt;color=0xff05ff00&gt;30&lt;color=0xffffffff&gt;秒，可叠加&lt;color=0xff05ff00&gt;10&lt;color=0xffffffff&gt;层" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2002001" name="魔法免疫" icon="TJR07" desc="被混沌的气息包围，自身的乾坤伤害减免提高较大，法术伤害减免到达极致" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2002101" name="反噬" icon="TJR18" desc="当体力低于&lt;color=0xff05ff00&gt;50%&lt;color=0xffffffff&gt;时，每次受到伤害，都反弹伤害" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2002201" name="海妖的祈祷" icon="TJR11" desc="生于海洋，立于海洋的妖界之王为你和你的队友祈祷，恢复大量体力" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2002301" name="残暴" icon="TJZ30" desc="使用后进入残暴状态，一定时间内免疫大部分有害状态，并且大幅度增加武器伤害和移动速度" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2002401" name="灵魂收割" icon="TJZ29" desc="每次击杀敌人，都可能收获敌人的灵魂得获得增加武器伤害的状态，持续&lt;color=0xff05ff00&gt;5&lt;color=0xffffffff&gt;分钟，可叠加&lt;color=0xff05ff00&gt;15&lt;color=0xffffffff&gt;次，该状态死亡后消失" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2002501" name="黑暗掌控者" icon="TJZ37" desc="使用后，一定范围内的友方（队友及公会成员）全部进入隐身状态，持续&lt;color=0xff05ff00&gt;30&lt;color=0xffffffff&gt;秒，这些隐身状态在攻击或被攻击后自动消失，这些状态消失时，队友会获得增加伤害的状态，持续&lt;color=0xff05ff00&gt;15&lt;color=0xffffffff&gt;秒（副本内不可使用）" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2002601" name="迷茫" icon="TJY40" desc="蓄力射出震撼迷茫的一箭，对指定目标范围敌方造成轻微伤害并迷茫&lt;color=0xff05ff00&gt;4&lt;color=0xffffffff&gt;秒，迷茫状态不可攻击不可施法不可移动，迷茫状态的目标被攻击会苏醒不再迷茫" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2002701" name="元素入侵" icon="TJY39" desc="享受元素掌控的快感，使用后，使自己进入可以掌控元素的状态，该状态下，每次伤害都有可能随机触发4种效果：&lt;color=0xff05ff00&gt;火（持续灼烧伤害），风（降低目标速度），雷（击晕），水（削弱对方真气）&lt;color=0xffffffff&gt;" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2002801" name="魔法失效领域" icon="TJY37" desc="创造魔法失效的结界，使用后，一定范围内的非友方，法术伤害降低&lt;color=0xff05ff00&gt;90%&lt;color=0xffffffff&gt;" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2002901" name="痛苦" icon="TJR33" desc="只能对玩家释放。给目标玩家标注痛苦，持续30秒，当目标体力高于&lt;color=0xff05ff00&gt;50%&lt;color=0xffffffff&gt;时会造成轻微痛苦的持续掉体力伤害，当目标的体力低于&lt;color=0xff05ff00&gt;50%&lt;color=0xffffffff&gt;的时候会造成刻骨痛苦的效果，每秒持续掉高额伤害" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2003001" name="厄运来临" icon="TJR29" desc="厄运降临，使用后产生1个以使用者为中心的可移动的结界，一定范围内的非友方，全属性下降" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2003101" name="空间行者" icon="TJR10" desc="使用后可以弹出飞翔石界面，10分钟可使用1次" desc_type="自选技能" getdesc="商城购买" />
+    <godarea id="2003201" name="悬赏使者" icon="TJR09" desc="使用后可以弹出悬赏榜界面" desc_type="自选技能" getdesc="商城购买" />
+    <godarea id="2003301" name="商人守护者" icon="TJR08" desc="使用后可以弹出杂货商界面" desc_type="自选技能" getdesc="商城购买" />
+    <godarea id="2003401" name="旅行" icon="TJR35" desc="骑乘速度增加10%" desc_type="自选技能" getdesc="达到20级完成神格指引任务即可获得" />
+    <godarea id="2003501" name="工匠守护" icon="TJY22" desc="强化任何等级的装备，强化成功几率增加1%" desc_type="自选技能" getdesc="用10000金币可以在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2003502" name="工匠守护" icon="TJY22" desc="强化任何等级的装备，强化成功几率增加2%" desc_type="自选技能" getdesc="用30000金币可以在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2003601" name="强化保佑" icon="TJY09" desc="强化等级在+15级以下的装备，强化成功几率增加2%" desc_type="自选技能" getdesc="用1500金币可以在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2003602" name="强化保佑" icon="TJY09" desc="强化等级在+15级以下的装备，强化成功几率增加4%" desc_type="自选技能" getdesc="用4500金币可以在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2003701" name="神铸之手" icon="TJY01" desc="强化等级在+21级以上的装备，强化成功几率增加1%" desc_type="自选技能" getdesc="用20000金币可以在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2003702" name="神铸之手" icon="TJY01" desc="强化等级在+21级以上的装备，强化成功几率增加2%" desc_type="自选技能" getdesc="用40000金币可以在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2003801" name="活力充沛" icon="TJZ33" desc="进行任何生产时，活力消耗量为原来的80%" desc_type="自选技能" getdesc="用100金币可以在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2003802" name="活力充沛" icon="TJZ33" desc="进行任何生产时，活力消耗量为原来的60%" desc_type="自选技能" getdesc="用200金币可以在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2003803" name="活力充沛" icon="TJZ33" desc="进行任何生产时，活力消耗量为原来的40%" desc_type="自选技能" getdesc="用300金币可以在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2003901" name="御妖术" icon="TJR24" desc="妖精所获得的战斗经验分成提高10%（实际为总经验的22%）" desc_type="自选技能" getdesc="用100金币可以在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2003902" name="御妖术" icon="TJR24" desc="妖精所获得的战斗经验分成增加25%（实际为总经验的25%）" desc_type="自选技能" getdesc="用150金币可以在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2003903" name="御妖术" icon="TJR24" desc="妖精所获得的战斗经验分成增加50%（实际为总经验的30%）" desc_type="自选技能" getdesc="用200金币可以在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2003904" name="御妖术" icon="TJR24" desc="妖精所获得的战斗经验分成增加75%（实际为总经验的35%）" desc_type="自选技能" getdesc="用250金币可以在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2003905" name="御妖术" icon="TJR24" desc="妖精所获得的战斗经验分成增加100%（实际为总经验的40%）" desc_type="自选技能" getdesc="用300金币可以在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2004101" name="斗神之怒" icon="TJJ20" desc="每次攻击后额外获得1点怒气" desc_type="自选技能" getdesc="赢得斗技场比赛的胜利，开启&lt;color=0xff00ddbb&gt;斗技场宝箱&lt;color=0xffffffff&gt;时小几率获得" />
+    <godarea id="2004401" name="起源" icon="TJC22" desc="仅限于斗技场和战场内使用，刷新全部除起源的技能冷却时间" desc_type="自选技能" getdesc="花费60枚斗技场金币在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2004501" name="泯灭炸弹" icon="TJC35" desc="仅限于斗技场和战场内使用，在场内放置一枚大炸弹，30秒后或被击杀后，立刻对周围的所有单位造成20000伤害" desc_type="自选技能" getdesc="花费10枚斗技场金币在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2004502" name="泯灭炸弹" icon="TJC35" desc="仅限于斗技场和战场内使用，在场内放置一枚大炸弹，30秒后或被击杀后，立刻对周围的所有单位造成25000伤害" desc_type="自选技能" getdesc="花费15枚斗技场金币在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2004503" name="泯灭炸弹" icon="TJC35" desc="仅限于斗技场和战场内使用，在场内放置一枚大炸弹，30秒后或被击杀后，立刻对周围的所有单位造成30000伤害" desc_type="自选技能" getdesc="花费20枚斗技场金币在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2004504" name="泯灭炸弹" icon="TJC35" desc="仅限于斗技场和战场内使用，在场内放置一枚大炸弹，30秒后或被击杀后，立刻对周围的所有单位造成35000伤害" desc_type="自选技能" getdesc="花费25枚斗技场在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处金币购买领域秘卷" />
+    <godarea id="2004505" name="泯灭炸弹" icon="TJC35" desc="仅限于斗技场和战场内使用，在场内放置一枚大炸弹，30秒后或被击杀后，立刻对周围的所有单位造成40000伤害" desc_type="自选技能" getdesc="花费30枚斗技场金币在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2004506" name="泯灭炸弹" icon="TJC35" desc="仅限于斗技场和战场内使用，在场内放置一枚大炸弹，30秒后或被击杀后，立刻对周围的所有单位造成45000伤害" desc_type="自选技能" getdesc="花费40枚斗技场金币在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2004601" name="魔界穿行者" icon="TJD46" desc="进入副本的疲劳值消耗减少4点" desc_type="自选技能" getdesc="开启20级以上副本的最终宝箱后低几率获得" />
+    <godarea id="2004602" name="魔界穿行者" icon="TJD46" desc="进入副本的疲劳值消耗减少8点" desc_type="自选技能" getdesc="开启40级以上副本的最终宝箱后低几率获得" />
+    <godarea id="2004603" name="魔界穿行者" icon="TJD46" desc="进入副本的疲劳值消耗减少12点" desc_type="自选技能" getdesc="开启60级以上副本的最终宝箱后低几率获得" />
+    <godarea id="2004701" name="冒险家的优势" icon="TJN35" desc="在副本中，可获得体力恢复速度的提升" desc_type="自选技能" getdesc="使用6个神钻碎片和10枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2004702" name="冒险家的优势" icon="TJN35" desc="在副本中，可获得体力恢复速度的提升" desc_type="自选技能" getdesc="使用8个神钻碎片和30枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2004703" name="冒险家的优势" icon="TJN35" desc="在副本中，可获得体力恢复速度的提升" desc_type="自选技能" getdesc="使用2个神钻和100枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2004704" name="冒险家的优势" icon="TJN35" desc="在副本中，可获得体力恢复速度的提升" desc_type="自选技能" getdesc="使用3个神钻和150枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2004801" name="冒险家的天赋" icon="TJN36" desc="在副本中，可获得真气恢复速度的提升" desc_type="自选技能" getdesc="使用6个神钻碎片和10枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2004802" name="冒险家的天赋" icon="TJN36" desc="在副本中，可获得真气恢复速度的提升" desc_type="自选技能" getdesc="使用8个神钻碎片和30枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2004803" name="冒险家的天赋" icon="TJN36" desc="在副本中，可获得真气恢复速度的提升" desc_type="自选技能" getdesc="使用2个神钻和100枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2004804" name="冒险家的天赋" icon="TJN36" desc="在副本中，可获得真气恢复速度的提升" desc_type="自选技能" getdesc="使用3个神钻和150枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2004901" name="黑暗中的曙光" icon="TJR37" desc="在黑暗学院中，可获得属性提升和物品掉率提升" desc_type="自选技能" getdesc="使用5个神钻碎片和100枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005001" name="白银的赐福" icon="TJXJ01_3" desc="在白银魔窟中，可获得属性提升和物品掉率提升" desc_type="自选技能" getdesc="使用10个神钻碎片和200枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005101" name="极寒的回馈" icon="TJZ21" desc="在冰寒魔域中，可获得属性提升和物品掉率提升" desc_type="自选技能" getdesc="使用15个神钻碎片和300枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005201" name="裁决的赠予" icon="TJY30" desc="在裁决之所中，可获得属性提升和物品掉率提升" desc_type="自选技能" getdesc="使用20个神钻碎片和400枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005301" name="迷幻的辉煌" icon="TJXJ03_3" desc="在迷幻仙宫中，可获得属性提升和物品掉率提升" desc_type="自选技能" getdesc="使用25个神钻碎片和600枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005401" name="幽冥的祈祷" icon="TJY16" desc="在幽冥神殿中，可获得属性提升和物品掉率提升" desc_type="自选技能" getdesc="使用30个神钻碎片和800枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005501" name="回廊中的歌声" icon="TJZ27" desc="在失忆的回廊中，可获得属性提升和物品掉率提升" desc_type="自选技能" getdesc="使用35个神钻碎片和1000枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005701" name="疗伤技巧" icon="TJY10" desc="只能在副本中使用，立刻为自己恢复大量体力" desc_type="自选技能" getdesc="使用3个神钻碎片和10枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005702" name="疗伤技巧" icon="TJY10" desc="只能在副本中使用，立刻为自己恢复大量体力" desc_type="自选技能" getdesc="使用6个神钻碎片和20枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005703" name="疗伤技巧" icon="TJY10" desc="只能在副本中使用，立刻为自己恢复大量体力" desc_type="自选技能" getdesc="使用10个神钻碎片和30枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005704" name="疗伤技巧" icon="TJY10" desc="只能在副本中使用，立刻为自己恢复大量体力" desc_type="自选技能" getdesc="使用3个神钻和100枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005705" name="疗伤技巧" icon="TJY10" desc="只能在副本中使用，立刻为自己恢复大量体力" desc_type="自选技能" getdesc="使用4个神钻和150枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005706" name="疗伤技巧" icon="TJY10" desc="只能在副本中使用，立刻为自己恢复大量体力" desc_type="自选技能" getdesc="使用5个神钻和200枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005801" name="生存欲望" icon="TJN44" desc="只能在副本中使用，立刻提高自己的全部伤害减免，持续10秒" desc_type="自选技能" getdesc="使用10个神钻碎片和20枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005802" name="生存欲望" icon="TJN44" desc="只能在副本中使用，立刻提高自己的全部伤害减免，持续10秒" desc_type="自选技能" getdesc="使用15个神钻碎片和30枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005803" name="生存欲望" icon="TJN44" desc="只能在副本中使用，立刻提高自己的全部伤害减免，持续10秒" desc_type="自选技能" getdesc="使用20个神钻碎片和40枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005804" name="生存欲望" icon="TJN44" desc="只能在副本中使用，立刻提高自己的全部伤害减免，持续10秒" desc_type="自选技能" getdesc="使用4个神钻和150枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005805" name="生存欲望" icon="TJN44" desc="只能在副本中使用，立刻提高自己的全部伤害减免，持续10秒" desc_type="自选技能" getdesc="使用5个神钻和200枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005901" name="乾坤轮转" icon="TJNPC03" desc="只能在副本中使用，将自身周围的所有非首领怪物都拖动到自己身边，并使他们击晕1秒" desc_type="自选技能" getdesc="使用15个神钻碎片和20枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005902" name="乾坤轮转" icon="TJNPC03" desc="只能在副本中使用，将自身周围的所有非首领怪物都拖动到自己身边，并使他们击晕1.5秒" desc_type="自选技能" getdesc="使用20个神钻碎片和30枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005903" name="乾坤轮转" icon="TJNPC03" desc="只能在副本中使用，将自身周围的所有非首领怪物都拖动到自己身边，并使他们击晕2秒" desc_type="自选技能" getdesc="使用4个神钻和100枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2005904" name="乾坤轮转" icon="TJNPC03" desc="只能在副本中使用，将自身周围的所有非首领怪物都拖动到自己身边，并使他们击晕2.5秒" desc_type="自选技能" getdesc="使用5个神钻和120枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006001" name="破绽" icon="TJN18" desc="对目标怪物释放，降低其全部伤害减免，持续30秒" desc_type="自选技能" getdesc="使用30个神钻碎片和50枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006002" name="破绽" icon="TJN18" desc="对目标怪物释放，降低其全部伤害减免，持续30秒" desc_type="自选技能" getdesc="使用6个神钻和200枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006003" name="破绽" icon="TJN18" desc="对目标怪物释放，降低其全部伤害减免，持续30秒" desc_type="自选技能" getdesc="使用8个神钻和300枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006101" name="坚韧" icon="TJJ28" desc="韧性提升20" desc_type="自选技能" getdesc="使用6枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006102" name="坚韧" icon="TJJ28" desc="韧性提升40" desc_type="自选技能" getdesc="使用7枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006103" name="坚韧" icon="TJJ28" desc="韧性提升60" desc_type="自选技能" getdesc="使用8枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006104" name="坚韧" icon="TJJ28" desc="韧性提升80" desc_type="自选技能" getdesc="使用9枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006105" name="坚韧" icon="TJJ28" desc="韧性提升100" desc_type="自选技能" getdesc="使用10枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006106" name="坚韧" icon="TJJ28" desc="韧性提升120" desc_type="自选技能" getdesc="使用11枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006107" name="坚韧" icon="TJJ28" desc="韧性提升140" desc_type="自选技能" getdesc="使用12枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006201" name="刚毅" icon="TJJ10" desc="暴击抵消提升200" desc_type="自选技能" getdesc="使用6枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006202" name="刚毅" icon="TJJ10" desc="暴击抵消提升400" desc_type="自选技能" getdesc="使用7枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006203" name="刚毅" icon="TJJ10" desc="暴击抵消提升600" desc_type="自选技能" getdesc="使用8枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006204" name="刚毅" icon="TJJ10" desc="暴击抵消提升800" desc_type="自选技能" getdesc="使用9枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006205" name="刚毅" icon="TJJ10" desc="暴击抵消提升1000" desc_type="自选技能" getdesc="使用10枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006206" name="刚毅" icon="TJJ10" desc="暴击抵消提升1200" desc_type="自选技能" getdesc="使用11枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006207" name="刚毅" icon="TJJ10" desc="暴击抵消提升1400" desc_type="自选技能" getdesc="使用12枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006301" name="控制加深" icon="TJN01" desc="控制效果加深提高25" desc_type="自选技能" getdesc="花费30枚斗技场金币在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006302" name="控制加深" icon="TJN01" desc="控制效果加深提高50" desc_type="自选技能" getdesc="花费40枚斗技场金币在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006303" name="控制加深" icon="TJN01" desc="控制效果加深提高75" desc_type="自选技能" getdesc="花费50枚斗技场金币在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006304" name="控制加深" icon="TJN01" desc="控制效果加深提高100" desc_type="自选技能" getdesc="花费60枚斗技场金币在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006401" name="控制抵抗" icon="TJN03" desc="控制效果抵抗提高10" desc_type="自选技能" getdesc="花费50枚斗技场金币在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006402" name="控制抵抗" icon="TJN03" desc="控制效果抵抗提高20" desc_type="自选技能" getdesc="花费60枚斗技场金币在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006403" name="控制抵抗" icon="TJN03" desc="控制效果抵抗提高30" desc_type="自选技能" getdesc="花费70枚斗技场金币在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006404" name="控制抵抗" icon="TJN03" desc="控制效果抵抗提高40" desc_type="自选技能" getdesc="花费80枚斗技场金币在&lt;color=0xff00ddbb&gt;斗技场金币商人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006501" name="减速加深" icon="TJN08" desc="减速效果强化提高25" desc_type="自选技能" getdesc="使用2个神钻和200枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006502" name="减速加深" icon="TJN08" desc="减速效果强化提高50" desc_type="自选技能" getdesc="使用3个神钻和300枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006503" name="减速加深" icon="TJN08" desc="减速效果强化提高75" desc_type="自选技能" getdesc="使用5个神钻和500枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006504" name="减速加深" icon="TJN08" desc="减速效果强化提高100" desc_type="自选技能" getdesc="使用8个神钻和800枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006601" name="减速抵抗" icon="TJN05" desc="减速效果抵抗提高10" desc_type="自选技能" getdesc="使用2个神钻和200枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006602" name="减速抵抗" icon="TJN05" desc="减速效果抵抗提高20" desc_type="自选技能" getdesc="使用3个神钻和300枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006603" name="减速抵抗" icon="TJN05" desc="减速效果抵抗提高30" desc_type="自选技能" getdesc="使用5个神钻和500枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006604" name="减速抵抗" icon="TJN05" desc="减速效果抵抗提高40" desc_type="自选技能" getdesc="使用8个神钻和800枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006701" name="衰弱加深" icon="TJJ38" desc="衰弱效果强化提高25" desc_type="自选技能" getdesc="使用2个神钻和200枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006702" name="衰弱加深" icon="TJJ38" desc="衰弱效果强化提高50" desc_type="自选技能" getdesc="使用3个神钻和300枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006703" name="衰弱加深" icon="TJJ38" desc="衰弱效果强化提高75" desc_type="自选技能" getdesc="使用5个神钻和500枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006704" name="衰弱加深" icon="TJJ38" desc="衰弱效果强化提高100" desc_type="自选技能" getdesc="使用8个神钻和800枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006801" name="衰弱抵抗" icon="TJG42" desc="衰弱效果抵抗提高10" desc_type="自选技能" getdesc="使用2个神钻和200枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006802" name="衰弱抵抗" icon="TJG42" desc="衰弱效果抵抗提高20" desc_type="自选技能" getdesc="使用3个神钻和300枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006803" name="衰弱抵抗" icon="TJG42" desc="衰弱效果抵抗提高30" desc_type="自选技能" getdesc="使用5个神钻和500枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006804" name="衰弱抵抗" icon="TJG42" desc="衰弱效果抵抗提高40" desc_type="自选技能" getdesc="使用8个神钻和800枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006901" name="固定伤害加深" icon="TJG44" desc="固定伤害强化提高25" desc_type="自选技能" getdesc="使用2个神钻和200枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006902" name="固定伤害加深" icon="TJG44" desc="固定伤害强化提高50" desc_type="自选技能" getdesc="使用3个神钻和300枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006903" name="固定伤害加深" icon="TJG44" desc="固定伤害强化提高75" desc_type="自选技能" getdesc="使用5个神钻和500枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2006904" name="固定伤害加深" icon="TJG44" desc="固定伤害强化提高100" desc_type="自选技能" getdesc="使用8个神钻和800枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007001" name="固定伤害抵抗" icon="TJJ42" desc="固定伤害抵抗提高10" desc_type="自选技能" getdesc="使用2个神钻和200枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007002" name="固定伤害抵抗" icon="TJJ42" desc="固定伤害抵抗提高20" desc_type="自选技能" getdesc="使用3个神钻和300枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007003" name="固定伤害抵抗" icon="TJJ42" desc="固定伤害抵抗提高30" desc_type="自选技能" getdesc="使用5个神钻和500枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007004" name="固定伤害抵抗" icon="TJJ42" desc="固定伤害抵抗提高40" desc_type="自选技能" getdesc="使用8个神钻和800枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007201" name="防御技巧" icon="TJR27" desc="物理伤害减免提高10" desc_type="自选技能" getdesc="使用10个神钻碎片和30枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007202" name="防御技巧" icon="TJR27" desc="物理伤害减免提高20" desc_type="自选技能" getdesc="使用15个神钻碎片和50枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=1xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007203" name="防御技巧" icon="TJR27" desc="物理伤害减免提高30" desc_type="自选技能" getdesc="使用20个神钻碎片和70枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=2xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007204" name="防御技巧" icon="TJR27" desc="物理伤害减免提高40" desc_type="自选技能" getdesc="使用25个神钻碎片和90枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=3xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007205" name="防御技巧" icon="TJR27" desc="物理伤害减免提高50" desc_type="自选技能" getdesc="使用30个神钻碎片和110枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=4xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007206" name="防御技巧" icon="TJR27" desc="物理伤害减免提高60" desc_type="自选技能" getdesc="使用35个神钻碎片和130枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=5xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007207" name="防御技巧" icon="TJR27" desc="物理伤害减免提高70" desc_type="自选技能" getdesc="使用40个神钻碎片和150枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=6xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007208" name="防御技巧" icon="TJR27" desc="物理伤害减免提高80" desc_type="自选技能" getdesc="使用45个神钻碎片和170枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=7xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007209" name="防御技巧" icon="TJR27" desc="物理伤害减免提高90" desc_type="自选技能" getdesc="使用50个神钻碎片和190枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=8xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007210" name="防御技巧" icon="TJR27" desc="物理伤害减免提高100" desc_type="自选技能" getdesc="使用55个神钻碎片和210枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=9xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007211" name="防御技巧" icon="TJR27" desc="物理伤害减免提高110" desc_type="自选技能" getdesc="使用6枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007212" name="防御技巧" icon="TJR27" desc="物理伤害减免提高120" desc_type="自选技能" getdesc="使用7枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007213" name="防御技巧" icon="TJR27" desc="物理伤害减免提高130" desc_type="自选技能" getdesc="使用8枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007214" name="防御技巧" icon="TJR27" desc="物理伤害减免提高140" desc_type="自选技能" getdesc="使用9枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007215" name="防御技巧" icon="TJR27" desc="物理伤害减免提高150" desc_type="自选技能" getdesc="使用10枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007216" name="防御技巧" icon="TJR27" desc="物理伤害减免提高160" desc_type="自选技能" getdesc="使用11枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007217" name="防御技巧" icon="TJR27" desc="物理伤害减免提高170" desc_type="自选技能" getdesc="使用12枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007218" name="防御技巧" icon="TJR27" desc="物理伤害减免提高180" desc_type="自选技能" getdesc="使用13枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007219" name="防御技巧" icon="TJR27" desc="物理伤害减免提高190" desc_type="自选技能" getdesc="使用14枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007220" name="防御技巧" icon="TJR27" desc="物理伤害减免提高200" desc_type="自选技能" getdesc="使用15枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007401" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高10" desc_type="自选技能" getdesc="使用10个神钻碎片和30枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=9xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007402" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高20" desc_type="自选技能" getdesc="使用15个神钻碎片和50枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=10xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007403" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高30" desc_type="自选技能" getdesc="使用20个神钻碎片和70枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=11xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007404" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高40" desc_type="自选技能" getdesc="使用25个神钻碎片和90枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=12xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007405" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高50" desc_type="自选技能" getdesc="使用30个神钻碎片和110枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=13xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007406" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高60" desc_type="自选技能" getdesc="使用35个神钻碎片和130枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=14xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007407" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高70" desc_type="自选技能" getdesc="使用40个神钻碎片和150枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=15xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007408" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高80" desc_type="自选技能" getdesc="使用45个神钻碎片和170枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=16xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007409" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高90" desc_type="自选技能" getdesc="使用50个神钻碎片和190枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=17xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007410" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高100" desc_type="自选技能" getdesc="使用55个神钻碎片和210枚金币斗战天城&lt;color=0xff00ddbb&gt;神钻碎片兑换商&lt;color=18xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007411" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高110" desc_type="自选技能" getdesc="使用6枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007412" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高120" desc_type="自选技能" getdesc="使用7枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007413" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高130" desc_type="自选技能" getdesc="使用8枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007414" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高140" desc_type="自选技能" getdesc="使用9枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007415" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高150" desc_type="自选技能" getdesc="使用10枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007416" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高160" desc_type="自选技能" getdesc="使用11枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007417" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高170" desc_type="自选技能" getdesc="使用12枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007418" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高180" desc_type="自选技能" getdesc="使用13枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007419" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高190" desc_type="自选技能" getdesc="使用14枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007420" name="灵魂之墙" icon="TJR17" desc="法术伤害减免提高200" desc_type="自选技能" getdesc="使用15枚统治勋章在斗战天城&lt;color=0xff00ddbb&gt;统治勋章兑换人&lt;color=0xffffffff&gt;处购买领域秘卷" />
+    <godarea id="2007501" name="初级宝石工艺" icon="TBWP103" desc="4到5级宝石的合成成功几率提升10%" desc_type="自选技能" getdesc="使用10000金在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2007601" name="中级宝石工艺" icon="TBWP102_3" desc="5到6级宝石的合成成功几率提升10%" desc_type="自选技能" getdesc="使用30000金在&lt;color=0xff00ddbb&gt;领域神卷商人&lt;color=0xffffffff&gt;处购买神卷，然后集齐神卷上记载的各种道具即可获得" />
+    <godarea id="2007801" name="死亡宣告" icon="TJY29" desc="宣告目标死亡，根据目标身上的死亡标记会造成不同程度的伤害" desc_type="神职技能" getdesc="晋升神职后自动获得" />
+    <godarea id="2007901" name="诱敌霸气" icon="TJC40" desc="使用后吸引周围怪物前来攻击" desc_type="自选技能" getdesc="在杂货商处花费100枚金币购买" />
+    <godarea id="2008001" name="天盾" icon="TJC19" desc="使用后攻击有天盾状态的人都会被反弹其攻击15%伤害，且有天盾状态神甲控制效果强化提高50 移动速度提高60%，持续&lt;color=0xff05ff00&gt;30&lt;color=0xffffffff&gt;秒，需要玄武状态\n\n&lt;color=0xffff0000&gt;限神兵 王者 神甲&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008002" name="天盾" icon="TJC19" desc="使用后攻击有天盾状态的人都会被反弹其攻击20%伤害，且有天盾状态神甲控制效果强化提高80 移动速度提高60%，持续&lt;color=0xff05ff00&gt;30&lt;color=0xffffffff&gt;秒，需要玄武状态\n\n&lt;color=0xffff0000&gt;限神兵 王者 神甲&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008003" name="天盾" icon="TJC19" desc="使用后攻击有天盾状态的人都会被反弹其攻击25%伤害，且有天盾状态神甲控制效果强化提高100 移动速度提高60%，持续&lt;color=0xff05ff00&gt;30&lt;color=0xffffffff&gt;秒，需要玄武状态\n\n&lt;color=0xffff0000&gt;限神兵 王者 神甲&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008004" name="天盾" icon="TJC19" desc="使用后攻击有天盾状态的人都会被反弹其攻击30%伤害，且有天盾状态神甲控制效果强化提高120 移动速度提高60%，持续&lt;color=0xff05ff00&gt;30&lt;color=0xffffffff&gt;秒，需要玄武状态\n\n&lt;color=0xffff0000&gt;限神兵 王者 神甲&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008101" name="无法撼动之力" icon="TJC20" desc="延长盾甲的增益效果持续时间&lt;color=0xff05ff00&gt;5&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限神甲&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008102" name="无法撼动之力" icon="TJC20" desc="延长盾甲的增益效果持续时间&lt;color=0xff05ff00&gt;8&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限神甲&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008103" name="无法撼动之力" icon="TJC20" desc="延长盾甲的增益效果持续时间&lt;color=0xff05ff00&gt;12&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限神甲&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008104" name="无法撼动之力" icon="TJC20" desc="延长盾甲的增益效果持续时间&lt;color=0xff05ff00&gt;15&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限神甲&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008201" name="怒气爆发" icon="TJG17" desc="暴怒的对地面进行攻击，震动的地面对周围造成伤害并且受到伤害的目标减速&lt;color=0xff05ff00&gt;50%&lt;color=0xffffffff&gt;持续&lt;color=0xff05ff00&gt;5&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限神兵 王者 神甲&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008202" name="怒气爆发" icon="TJG17" desc="暴怒的对地面进行攻击，震动的地面对周围造成伤害并且受到伤害的目标减速&lt;color=0xff05ff00&gt;55%&lt;color=0xffffffff&gt;持续&lt;color=0xff05ff00&gt;6&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限神兵 王者 神甲&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008203" name="怒气爆发" icon="TJG17" desc="暴怒的对地面进行攻击，震动的地面对周围造成伤害并且受到伤害的目标减速&lt;color=0xff05ff00&gt;60%&lt;color=0xffffffff&gt;持续&lt;color=0xff05ff00&gt;7&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限神兵 王者 神甲&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008204" name="怒气爆发" icon="TJG17" desc="暴怒的对地面进行攻击，震动的地面对周围造成伤害并且受到伤害的目标减速&lt;color=0xff05ff00&gt;70%&lt;color=0xffffffff&gt;持续&lt;color=0xff05ff00&gt;8&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限神兵 王者 神甲&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008301" name="虎啸" icon="TJN23" desc="白虎状态下控制状态效果强化提高&lt;color=0xff05ff00&gt;20&lt;color=0xffffffff&gt;，此技能需要重新激活白虎状态才会生效\n\n&lt;color=0xffff0000&gt;限王者&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008302" name="虎啸" icon="TJN23" desc="白虎状态下控制状态效果强化提高&lt;color=0xff05ff00&gt;40&lt;color=0xffffffff&gt;，此技能需要重新激活白虎状态才会生效\n\n&lt;color=0xffff0000&gt;限王者&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008303" name="虎啸" icon="TJN23" desc="白虎状态下控制状态效果强化提高&lt;color=0xff05ff00&gt;60&lt;color=0xffffffff&gt;，此技能需要重新激活白虎状态才会生效\n\n&lt;color=0xffff0000&gt;限王者&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008304" name="虎啸" icon="TJN23" desc="白虎状态下控制状态效果强化提高&lt;color=0xff05ff00&gt;80&lt;color=0xffffffff&gt;，此技能需要重新激活白虎状态才会生效\n\n&lt;color=0xffff0000&gt;限王者&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神甲或者王者职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008401" name="虚灵神箭" icon="TJG38" desc="蓄力向面对方向射出距离极远的一箭，在范围内受到高伤害，命中降低目标一定灵力，随着等级提高伤害提高降低灵力提高\n\n&lt;color=0xffff0000&gt;限玄翎 占星 幻矢&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008402" name="虚灵神箭" icon="TJG38" desc="蓄力向面对方向射出距离极远的一箭，在范围内受到高伤害，命中降低目标一定灵力，随着等级提高伤害提高降低灵力提高\n\n&lt;color=0xffff0000&gt;限玄翎 占星 幻矢&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008403" name="虚灵神箭" icon="TJG38" desc="蓄力向面对方向射出距离极远的一箭，在范围内受到高伤害，命中降低目标一定灵力，随着等级提高伤害提高降低灵力提高\n\n&lt;color=0xffff0000&gt;限玄翎 占星 幻矢&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008404" name="虚灵神箭" icon="TJG38" desc="蓄力向面对方向射出距离极远的一箭，在范围内受到高伤害，命中降低目标一定灵力，随着等级提高伤害提高降低灵力提高\n\n&lt;color=0xffff0000&gt;限玄翎 占星 幻矢&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008501" name="星瞬" icon="TJZ43" desc="使用星移后会有&lt;color=0xff05ff00&gt;5&lt;color=0xffffffff&gt;秒时间移动速度提高60%\n\n&lt;color=0xffff0000&gt;限幻矢&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008502" name="星瞬" icon="TJZ43" desc="使用星移后会有&lt;color=0xff05ff00&gt;6&lt;color=0xffffffff&gt;秒时间移动速度提高60%\n\n&lt;color=0xffff0000&gt;限幻矢&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008503" name="星瞬" icon="TJZ43" desc="使用星移后会有&lt;color=0xff05ff00&gt;7&lt;color=0xffffffff&gt;秒时间移动速度提高60%\n\n&lt;color=0xffff0000&gt;限幻矢&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008504" name="星瞬" icon="TJZ43" desc="使用星移后会有&lt;color=0xff05ff00&gt;8&lt;color=0xffffffff&gt;秒时间移动速度提高60%\n\n&lt;color=0xffff0000&gt;限幻矢&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008601" name="神虚" icon="TJY35" desc="使用后控制效果强化提高20，&lt;color=0xff05ff00&gt;6&lt;color=0xffffffff&gt;秒内移动速度提高100%，并且降低受到的物理伤害\n\n&lt;color=0xffff0000&gt;限占星&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008602" name="神虚" icon="TJY35" desc="使用后控制效果强化提高40，&lt;color=0xff05ff00&gt;8&lt;color=0xffffffff&gt;秒内移动速度提高100%，并且大幅度降低受到的物理伤害\n\n&lt;color=0xffff0000&gt;限占星&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008603" name="神虚" icon="TJY35" desc="使用后控制效果强化提高60，&lt;color=0xff05ff00&gt;10&lt;color=0xffffffff&gt;秒内移动速度提高100%，并且极大幅度降低受到的物理伤害\n\n&lt;color=0xffff0000&gt;限占星&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008604" name="神虚" icon="TJY35" desc="使用后控制效果强化提高80，&lt;color=0xff05ff00&gt;12&lt;color=0xffffffff&gt;秒内移动速度提高100%，并且几乎免疫受到的物理伤害\n\n&lt;color=0xffff0000&gt;限占星&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008701" name="天变" icon="TJG24" desc="减少陨落冷却时间&lt;color=0xff05ff00&gt;20&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限占星&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008702" name="天变" icon="TJG24" desc="减少陨落冷却时间&lt;color=0xff05ff00&gt;30&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限占星&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008703" name="天变" icon="TJG24" desc="减少陨落冷却时间&lt;color=0xff05ff00&gt;40&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限占星&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008704" name="天变" icon="TJG24" desc="减少陨落冷却时间&lt;color=0xff05ff00&gt;50&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限占星&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="幻矢或者占星职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008801" name="漪澜空间" icon="TJJ43" desc="创造自己的空间，受到伤害后立即空间作用使对方流失&lt;color=0xff05ff00&gt;5%&lt;color=0xffffffff&gt;的真气\n\n&lt;color=0xffff0000&gt;限仙音 天仪 神侍&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008802" name="漪澜空间" icon="TJJ43" desc="创造自己的空间，受到伤害后立即空间作用使对方流失&lt;color=0xff05ff00&gt;8%&lt;color=0xffffffff&gt;的真气\n\n&lt;color=0xffff0000&gt;限仙音 天仪 神侍&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008803" name="漪澜空间" icon="TJJ43" desc="创造自己的空间，受到伤害后立即空间作用使对方流失&lt;color=0xff05ff00&gt;10%&lt;color=0xffffffff&gt;的真气\n\n&lt;color=0xffff0000&gt;限仙音 天仪 神侍&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008804" name="漪澜空间" icon="TJJ43" desc="创造自己的空间，受到伤害后立即空间作用使对方流失&lt;color=0xff05ff00&gt;12%&lt;color=0xffffffff&gt;的真气\n\n&lt;color=0xffff0000&gt;限仙音 天仪 神侍&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008901" name="源质荆棘" icon="TJXJ03_3" desc="原质护盾增加反弹伤害效果，对攻击带有护盾的目标造成&lt;color=0xff05ff00&gt;6%&lt;color=0xffffffff&gt;伤害反弹，并且降低&lt;color=0xff05ff00&gt;5%&lt;color=0xffffffff&gt;攻击消除几率\n\n&lt;color=0xffff0000&gt;限神侍&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008902" name="源质荆棘" icon="TJXJ03_3" desc="原质护盾增加反弹伤害效果，对攻击带有护盾的目标造成&lt;color=0xff05ff00&gt;9%&lt;color=0xffffffff&gt;伤害反弹，并且降低&lt;color=0xff05ff00&gt;10%&lt;color=0xffffffff&gt;攻击消除几率\n\n&lt;color=0xffff0000&gt;限神侍&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008903" name="源质荆棘" icon="TJXJ03_3" desc="原质护盾增加反弹伤害效果，对攻击带有护盾的目标造成&lt;color=0xff05ff00&gt;12%&lt;color=0xffffffff&gt;伤害反弹，并且降低&lt;color=0xff05ff00&gt;15%&lt;color=0xffffffff&gt;攻击消除几率\n\n&lt;color=0xffff0000&gt;限神侍&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2008904" name="源质荆棘" icon="TJXJ03_3" desc="原质护盾增加反弹伤害效果，对攻击带有护盾的目标造成&lt;color=0xff05ff00&gt;15%&lt;color=0xffffffff&gt;伤害反弹，并且降低&lt;color=0xff05ff00&gt;20%&lt;color=0xffffffff&gt;攻击消除几率\n\n&lt;color=0xffff0000&gt;限神侍&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009001" name="天佑" icon="TJZ11" desc="提高物理防御和法术防御力到极致持续&lt;color=0xff05ff00&gt;12&lt;color=0xffffffff&gt;秒，可对友方使用\n\n&lt;color=0xffff0000&gt;限仙音 天仪 神侍&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009002" name="天佑" icon="TJZ11" desc="提高物理防御和法术防御力到极致持续&lt;color=0xff05ff00&gt;15&lt;color=0xffffffff&gt;秒，可对友方使用\n\n&lt;color=0xffff0000&gt;限仙音 天仪 神侍&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009003" name="天佑" icon="TJZ11" desc="提高物理防御和法术防御力到极致持续&lt;color=0xff05ff00&gt;18&lt;color=0xffffffff&gt;秒，可对友方使用\n\n&lt;color=0xffff0000&gt;限仙音 天仪 神侍&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009004" name="天佑" icon="TJZ11" desc="提高物理防御和法术防御力到极致持续&lt;color=0xff05ff00&gt;21&lt;color=0xffffffff&gt;秒，可对友方使用\n\n&lt;color=0xffff0000&gt;限仙音 天仪 神侍&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009101" name="神苏" icon="TJG15" desc="神在苏醒的时刻散发的恐怖气息，对周围造成较高伤害，随着等级提高对周围造成的伤害提高\n\n&lt;color=0xffff0000&gt;限天仪&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009102" name="神苏" icon="TJG15" desc="神在苏醒的时刻散发的恐怖气息，对周围造成较高伤害，随着等级提高对周围造成的伤害提高\n\n&lt;color=0xffff0000&gt;限天仪&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009103" name="神苏" icon="TJG15" desc="神在苏醒的时刻散发的恐怖气息，对周围造成较高伤害，随着等级提高对周围造成的伤害提高\n\n&lt;color=0xffff0000&gt;限天仪&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009104" name="神苏" icon="TJG15" desc="神在苏醒的时刻散发的恐怖气息，对周围造成较高伤害，随着等级提高对周围造成的伤害提高\n\n&lt;color=0xffff0000&gt;限天仪&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="神侍或者天仪职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009201" name="爆炎" icon="TJG09" desc="集结周身元素之力，在瞬间爆发对目标造成巨大伤害，随着等级提升伤害增加\n\n&lt;color=0xffff0000&gt;限乾坤 破魔 雷神&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009202" name="爆炎" icon="TJG09" desc="集结周身元素之力，在瞬间爆发对目标造成巨大伤害，随着等级提升伤害增加\n\n&lt;color=0xffff0000&gt;限乾坤 破魔 雷神&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009203" name="爆炎" icon="TJG09" desc="集结周身元素之力，在瞬间爆发对目标造成巨大伤害，随着等级提升伤害增加\n\n&lt;color=0xffff0000&gt;限乾坤 破魔 雷神&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009204" name="爆炎" icon="TJG09" desc="集结周身元素之力，在瞬间爆发对目标造成巨大伤害，随着等级提升伤害增加\n\n&lt;color=0xffff0000&gt;限乾坤 破魔 雷神&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009301" name="莲语" icon="TJJ17" desc="使用后1分钟内处于莲语状态，攻击目标会附带法力燃烧效果，随等级提高每次燃烧目标的真气量提高\n\n&lt;color=0xffff0000&gt;限乾坤 破魔 雷神&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009302" name="莲语" icon="TJJ17" desc="使用后1分钟内处于莲语状态，攻击目标会附带法力燃烧效果，随等级提高每次燃烧目标的真气量提高\n\n&lt;color=0xffff0000&gt;限乾坤 破魔 雷神&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009303" name="莲语" icon="TJJ17" desc="使用后1分钟内处于莲语状态，攻击目标会附带法力燃烧效果，随等级提高每次燃烧目标的真气量提高\n\n&lt;color=0xffff0000&gt;限乾坤 破魔 雷神&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009304" name="莲语" icon="TJJ17" desc="使用后1分钟内处于莲语状态，攻击目标会附带法力燃烧效果，随等级提高每次燃烧目标的真气量提高\n\n&lt;color=0xffff0000&gt;限乾坤 破魔 雷神&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009401" name="雷斥" icon="TJG14" desc="承载雷电之力，使用后30秒内拥有雷电之力状态 该状态下被攻击 攻击方会被麻痹加减速状态并逐渐叠可叠加10层，每层减速5%，持续20秒\n\n&lt;color=0xffff0000&gt;限雷神&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009402" name="雷斥" icon="TJG14" desc="承载雷电之力，使用后40秒内拥有雷电之力状态 该状态下被攻击 攻击方会被麻痹加减速状态并逐渐叠可叠加10层，每层减速5%，持续20秒\n\n&lt;color=0xffff0000&gt;限雷神&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009403" name="雷斥" icon="TJG14" desc="承载雷电之力，使用后50秒内拥有雷电之力状态 该状态下被攻击 攻击方会被麻痹加减速状态并逐渐叠可叠加10层，每层减速5%，持续20秒\n\n&lt;color=0xffff0000&gt;限雷神&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009404" name="雷斥" icon="TJG14" desc="承载雷电之力，使用后60秒内拥有雷电之力状态 该状态下被攻击 攻击方会被麻痹加减速状态并逐渐叠可叠加10层，每层减速5%，持续20秒\n\n&lt;color=0xffff0000&gt;限雷神&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009501" name="万恶" icon="TJD20" desc="延长百邪不侵击退后的定身时间&lt;color=0xff05ff00&gt;2&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限破魔&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到79级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009502" name="万恶" icon="TJD20" desc="延长百邪不侵击退后的定身时间&lt;color=0xff05ff00&gt;2.3&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限破魔&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到84级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009503" name="万恶" icon="TJD20" desc="延长百邪不侵击退后的定身时间&lt;color=0xff05ff00&gt;2.7&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限破魔&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到89级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="2009504" name="万恶" icon="TJD20" desc="延长百邪不侵击退后的定身时间&lt;color=0xff05ff00&gt;3&lt;color=0xffffffff&gt;秒\n\n&lt;color=0xffff0000&gt;限破魔&lt;color=0xffffffff&gt;" desc_type="自选技能" getdesc="破魔或者雷神职业在等级达到94级之后可以在三界主宰处完成兑换任务获得" />
+    <godarea id="3000001" name="斗神领域" icon="TJN43" desc="击杀怪物后额外获得1点怒气（和斗神之怒可以同时生效）" desc_type="稀有技能" />
+    <godarea id="3000101" name="降临之神" icon="TJFS01_2" desc="天神下凡的持续时间增加30秒" desc_type="稀有技能" />
+    <godarea id="3000201" name="生灵" icon="TJD25" desc="体力最大值增加25000" desc_type="稀有技能" />
+    <godarea id="3000301" name="万物之主" icon="TJQ38" desc="体力最大值增加50000" desc_type="稀有技能" />
+    <godarea id="3000401" name="源泉" icon="TJZ05" desc="真气最大值增加5000" desc_type="稀有技能" />
+    <godarea id="3000501" name="无尽的能量" icon="TJJ14" desc="真气最大值增加10000" desc_type="稀有技能" />
+    <godarea id="3000601" name="力量" icon="TJN13" desc="物理攻击增加3000" desc_type="稀有技能" />
+    <godarea id="3000701" name="无尽的力量" icon="TJN14" desc="物理攻击增加6000" desc_type="稀有技能" />
+    <godarea id="3000801" name="屏障" icon="TJZ02" desc="物理防御增加3000" desc_type="稀有技能" />
+    <godarea id="3000901" name="钢铁的屏障" icon="TJZ03" desc="物理防御增加6000" desc_type="稀有技能" />
+    <godarea id="3001001" name="法力" icon="TJQ09" desc="法术攻击增加3000" desc_type="稀有技能" />
+    <godarea id="3001101" name="无尽的法力" icon="TJQ10" desc="法术攻击增加6000" desc_type="稀有技能" />
+    <godarea id="3001201" name="结界" icon="TJC21" desc="法术防御增加3000" desc_type="稀有技能" />
+    <godarea id="3001301" name="虚空结界" icon="TJC22" desc="法术防御增加6000" desc_type="稀有技能" />
+    <godarea id="3001401" name="慧眼" icon="TJQ23" desc="精准增加1000" desc_type="稀有技能" />
+    <godarea id="3001501" name="真视之眼" icon="TJQ24" desc="精准增加1500" desc_type="稀有技能" />
+    <godarea id="3001601" name="魅影" icon="TJZ34" desc="灵巧增加1000" desc_type="稀有技能" />
+    <godarea id="3001701" name="魅影迷踪" icon="TJJ29" desc="灵巧增加1500" desc_type="稀有技能" />
+    <godarea id="3001801" name="天谴" icon="TJN42" desc="暴击率增加10%" desc_type="稀有技能" />
+    <godarea id="3001901" name="宙斯的愤怒" icon="TJN34" desc="暴击率增加15%" desc_type="稀有技能" />
+    <godarea id="3002001" name="意志" icon="TBWP195" desc="韧性增加200" desc_type="稀有技能" />
+    <godarea id="3002101" name="百折不摧" icon="TBWP196" desc="韧性增加300" desc_type="稀有技能" />
+    <godarea id="3002201" name="震雷" icon="TJY26" desc="暴击量增加15%" desc_type="稀有技能" />
+    <godarea id="3002301" name="动如雷霆" icon="TJN30" desc="暴击量增加30%" desc_type="稀有技能" />
+    <godarea id="3002401" name="磐石" icon="TBWP216" desc="暴击抵消增加2000" desc_type="稀有技能" />
+    <godarea id="3002501" name="不动如山" icon="TBWP205" desc="暴击抵消增加4000" desc_type="稀有技能" />
+    <godarea id="3002601" name="聚灵" icon="TJN29" desc="灵力增加900" desc_type="稀有技能" />
+    <godarea id="3002701" name="海纳百川" icon="TBWP244" desc="灵力增加1500" desc_type="稀有技能" />
+    <godarea id="3002801" name="武器精通" icon="TBWP207" desc="武器伤害增加100" desc_type="稀有技能" />
+    <godarea id="3002901" name="武器大师" icon="TBWP211" desc="武器伤害增加200" desc_type="稀有技能" />
+    <godarea id="3003001" name="法器精通" icon="TBWP217" desc="法器伤害增加100" desc_type="稀有技能" />
+    <godarea id="3003101" name="法器大师" icon="TJN11" desc="法器伤害增加200" desc_type="稀有技能" />
+    <godarea id="3003201" name="护甲精通" icon="TBWP208" desc="护甲增加500" desc_type="稀有技能" />
+    <godarea id="3003301" name="护甲大师" icon="TJFS06" desc="护甲增加800" desc_type="稀有技能" />
+    <godarea id="4000001" name="苍龙斩" icon="TJD08" desc="神兵伤害加深增加150" desc_type="稀有技能" />
+    <godarea id="4000101" name="流星落" icon="TJG39" desc="玄翎伤害加深增加150" desc_type="稀有技能" />
+    <godarea id="4000201" name="两仪绝" icon="TJN39" desc="乾坤伤害加深增加150" desc_type="稀有技能" />
+    <godarea id="4000301" name="安魂曲" icon="TJQ39" desc="仙音伤害加深增加150" desc_type="稀有技能" />
+    <godarea id="4000401" name="玄武盾" icon="TJQ19" desc="神兵伤害减免增加150" desc_type="稀有技能" />
+    <godarea id="4000501" name="星云集" icon="TJJ36" desc="玄翎伤害减免增加150" desc_type="稀有技能" />
+    <godarea id="4000601" name="四象印" icon="TJG22" desc="乾坤伤害减免增加150" desc_type="稀有技能" />
+    <godarea id="4000701" name="镇魂歌" icon="TJQ40" desc="仙音伤害减免增加150" desc_type="稀有技能" />
+    <godarea id="4000801" name="守护之境" icon="TWP66" desc="法术伤害反弹30%" desc_type="稀有技能" />
+    <godarea id="4000901" name="守护之盾" icon="TWYS06" desc="物理伤害反弹30%" desc_type="稀有技能" />
+</root>

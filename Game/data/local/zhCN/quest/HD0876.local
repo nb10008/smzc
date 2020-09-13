@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30876" />
+    <entry Name="艾辛萨的顾虑" />
+    <entry Conditions="" />
+    <entry Overview="分别除掉位于北洲天雪的&lt;A&gt;&lt;Z=s05,127500,14346,164350&gt;埃克里亚&lt;/Z&gt;&lt;/A&gt;、南洲迷沼的&lt;A&gt;&lt;Z=s07,112800,4919,94850&gt;克普斯&lt;/Z&gt;&lt;/A&gt;、西洲幻林的&lt;A&gt;&lt;Z=s06,29650,7050,22250&gt;亚迪尔&lt;/Z&gt;&lt;/A&gt;以及东洲冥山的&lt;A&gt;&lt;Z=s08,45200,10460,130150&gt;阿基里特&lt;/Z&gt;&lt;/A&gt;，完成后回复&lt;D&gt;&lt;L=s02,5010243&gt;三界主宰艾辛萨&lt;/L&gt;&lt;/D&gt;\n注意：怪物具有一定实力，请邀请队友一同前往" />
+</quest-local>

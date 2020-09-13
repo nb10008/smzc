@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20511" />
+    <entry Name="清理沼泽" />
+    <entry Conditions="" />
+    <entry Overview="在纳溪沼泽除掉&lt;C&gt;45&lt;/C&gt;个&lt;A&gt;&lt;L=s07,1060014&gt;沼泽巨鳄&lt;/L&gt;&lt;/A&gt;和&lt;C&gt;45&lt;/C&gt;个&lt;A&gt;&lt;L=s07,1060015&gt;沼泽食人花&lt;/L&gt;&lt;/A&gt;，然后回复&lt;D&gt;&lt;L=s07,5010166&gt;魔纳尔&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

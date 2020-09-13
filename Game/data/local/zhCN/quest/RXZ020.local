@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20420" />
+    <entry Name="林中蝶精" />
+    <entry Conditions="" />
+    <entry Overview="从附近的&lt;A&gt;&lt;L=s06,1050019&gt;怜歌蝶精&lt;/L&gt;&lt;/A&gt; 或&lt;A&gt;&lt;L=s06,1050020&gt;迷音蝶精&lt;/L&gt;&lt;/A&gt; 身上收集&lt;C&gt;80&lt;/C&gt;个&lt;I&gt;妖气铃&lt;/I&gt;，然后交给&lt;D&gt;&lt;L=s06,5010162&gt;辛西娅&lt;/L&gt;&lt;/D&gt;。&#x0A;" />
+</quest-local>

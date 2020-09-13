@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+   <type id="1" name="主线任务"/>
+   <type id="2" name="指引任务"/>
+   <type id="3" name="支线任务"/>
+   <type id="4" name="活动任务"/>
+   <type id="5" name="副本任务"/>
+   <type id="6" name="氏族任务"/>
+   <type id="7" name="每日任务"/>
+   <type id="8" name="随机任务"/>
+   <type id="9" name="重复任务"/>
+   <type id="10" name="其他任务"/>
+</root>

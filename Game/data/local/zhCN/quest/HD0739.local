@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30739" />
+    <entry Name="制作腊八粥（二）" />
+    <entry Conditions="" />
+    <entry Overview="完成此任务需要&lt;C&gt;8&lt;/C&gt;个&lt;I&gt;腊八粥材料&lt;/I&gt;。\n提示：&lt;I&gt;腊八粥的材料&lt;/I&gt;所有怪物均有掉落。" />
+</quest-local>

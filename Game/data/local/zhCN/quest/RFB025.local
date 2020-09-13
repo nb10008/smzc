@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="29025" />
+    <entry Name="围剿白银魔窟" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;N&gt;白银洞窟&lt;/N&gt;，杀死白银洞窟中的&lt;A&gt;傀儡艾尔特斯&lt;/A&gt;、&lt;A&gt;偷袭者罗纳德&lt;/A&gt;、&lt;A&gt;狂怒的阿尔特鲁&lt;/A&gt;、&lt;A&gt;独裁者奥德&lt;/A&gt;，将其消灭后回复&lt;D&gt;&lt;L=s05,5010094&gt;河神巴克&lt;/L&gt;&lt;/D&gt;（建议1-4人一起前往）" />
+</quest-local>

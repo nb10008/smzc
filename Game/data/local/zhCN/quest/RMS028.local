@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20628" />
+    <entry Name="万石之魂的力量" />
+    <entry Conditions="" />
+    <entry Overview="清除沿途&lt;C&gt;40&lt;/C&gt;只&lt;color=0xffff6000&gt;&lt;L=s08,1070057&gt;熔岩魔巨人&lt;/L&gt;&lt;color=0xffffffff&gt;后，从&lt;color=0xffff0000&gt;&lt;L=s08,1070078&gt;万石之魂&lt;/L&gt;&lt;color=0xffffffff&gt;身上取来&lt;I&gt;圣魔精元&lt;/I&gt;，交给&lt;D&gt;&lt;L=s08,5010208&gt;亚雷斯&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

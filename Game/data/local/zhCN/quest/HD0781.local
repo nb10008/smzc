@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30781" />
+    <entry Name="燃炎玫瑰（限女性）" />
+    <entry Conditions="" />
+    <entry Overview="将&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;燃炎玫瑰&lt;/I&gt;交给&lt;D&gt;&lt;L=s52,5600027&gt;博博小姐&lt;/L&gt;&lt;/D&gt;，可兑换&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;罗曼徽章&lt;/I&gt;。&lt;I&gt;燃炎玫瑰&lt;/I&gt;为男性玩家在玫瑰种植园种植玫瑰过程中小几率获得，可交给女性玩家，由女性玩家到&lt;D&gt;博博小姐&lt;/D&gt;处兑换&lt;I&gt;罗曼徽章&lt;/I&gt;。" />
+</quest-local>

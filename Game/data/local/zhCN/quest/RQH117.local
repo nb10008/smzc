@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20117" />
+    <entry Name="野人知识问答" />
+    <entry Conditions="" />
+    <entry Overview="回答野人首领&lt;D&gt;&lt;L=s03,5010075&gt;杰克·萨里&lt;/L&gt;&lt;/D&gt;提出的问题。" />
+</quest-local>

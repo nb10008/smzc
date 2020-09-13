@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="50011" />
+    <entry Name="悬赏使者" />
+    <entry Conditions="完成5次悬赏任务" />
+    <entry Overview="在&lt;D&gt;&lt;L=s04,5010038&gt;悬赏榜&lt;/L&gt;&lt;/D&gt;处接取并&lt;T&gt;完成5次悬赏任务&lt;/T&gt;，完成后向&lt;D&gt;&lt;L=s04,5510627&gt;悬赏使者&lt;/L&gt;&lt;/D&gt;复命，可获得高额的奖励\n&lt;T&gt;提示：最多可同时接取6个悬赏任务，悬赏任务分为不同品级，品级越高，奖励越丰富。完成1个悬赏任务后，未接取的悬赏任务会进行刷新。完成任务后会获得一小时的双倍经验&lt;/T&gt;" />
+</quest-local>

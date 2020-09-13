@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20012" />
+    <entry Name="继续除魔" />
+    <entry Conditions="" />
+    <entry Overview="前往神灵之谷的北部，从&lt;A&gt;&lt;L=m10,1010014&gt;黑魔&lt;/L&gt;&lt;/A&gt;身上收集&lt;C&gt;6&lt;/C&gt;个&lt;I&gt;黑魔塔牌&lt;/I&gt;，交给&lt;D&gt;&lt;L=m10,5010019&gt;萨默斯&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

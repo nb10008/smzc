@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <item name="小三世界" worldid="900501" boroughid="900500" borogh="loong" boroughrank="2" ip="172.17.3.17" port="4200" state="80" recommend="0" worldrank="0" recorank="0" greenflag="" />
+  <item name="圣魔之血117" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="172.17.1.117" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />    
+  <item name="圣魔之血118" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="172.17.1.118" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />
+  <item name="Jay_World" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="172.17.3.16" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />
+  <item name="圣魔之血" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="172.17.3.24" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />
+  <item name="lfmeng" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="172.17.3.18" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />
+	<item name="圣魔之血115" worldid="0" boroughid="11" borogh="loong" boroughrank="11" ip="172.17.1.115" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />
+	<item name="JasonWorld" worldid="0" boroughid="12" borogh="loong" boroughrank="11" ip="172.17.3.29" port="4200" state="20" recommend="0" worldrank="0" recorank="1" greenflag="" />
+</root>

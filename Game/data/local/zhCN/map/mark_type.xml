@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map id="s01" type1="传送" type2="职能" type3="任务" type4="怪物"/>
+	<map id="m10" type1="传送" type2="职能" type3="任务" type4="怪物"/>
+	<map id="s02" type1="最新活动" type2="传送" type3="职能" type4="任务"/>
+	<map id="s03" type1="传送" type2="职能" type3="任务" type4="怪物"/>
+	<map id="s03_1" type1="传送" type2="职能" type3="任务" type4="怪物"/>
+	<map id="s04" type1="传送" type2="职能" type3="任务" type4="怪物"/>
+	<map id="s05" type1="传送" type2="职能" type3="任务" type4="怪物"/>
+	<map id="s06" type1="传送" type2="职能" type3="任务" type4="怪物"/>
+	<map id="s07" type1="传送" type2="职能" type3="任务" type4="怪物"/>
+	<map id="s08" type1="传送" type2="职能" type3="任务" type4="怪物"/>
+	<map id="s51" type1="传送" type2="常用"/>
+	<map id="s52" type1="传送" type2="常用"/>
+	<map id="s54" type1="常用"/>
+	<map id="s55_1" type1="常用"/>
+	<map id="s55_2" type1="常用"/>
+	<map id="s55_3" type1="常用"/>
+	<map id="s59" type1="常用"/>
+	<map id="s65" type1="常用"/>
+	<map id="d01" type1="常用" type2="怪物"/>
+	<map id="d02" type1="常用" type2="怪物"/>
+	<map id="d03" type1="常用" type2="怪物"/>
+	<map id="d04" type1="常用" type2="怪物"/>
+	<map id="d05" type1="常用" type2="怪物"/>
+	<map id="d06" type1="常用" type2="怪物"/>
+	<map id="d07" type1="常用" type2="怪物"/>
+	<map id="d08" type1="常用" type2="怪物"/>
+	<map id="d09" type1="常用" type2="怪物"/>
+	<map id="d10" type1="常用"/>
+	<map id="d10_2" type1="常用"/>
+	<map id="d11" type1="常用" type2="怪物"/>
+	<map id="j01" type1="战旗" type2="进攻方专用" type3="防守方专用"/>
+	<map id="j03" type1="战旗" type2="进攻方专用" type3="防守方专用"/>
+	<map id="j04" type1="战旗" type2="进攻方专用" type3="防守方专用"/>
+	<map id="h04" type1="职能"/>
+	<map id="h05" type1="传送" type2="职能"/>
+	<map id="h06" type1="传送"/>
+	<map id="h06_1" type1="传送"/>
+</root>

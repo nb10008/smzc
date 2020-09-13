@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20005" />
+    <entry Name="赠与礼包" />
+    <entry Conditions="" />
+    <entry Overview="再次与&lt;D&gt;&lt;L=m10,5020014&gt;神教官艾斯&lt;/L&gt;&lt;/D&gt;对话获得奖励。" />
+</quest-local>

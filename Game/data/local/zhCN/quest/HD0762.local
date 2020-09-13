@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30762" />
+    <entry Name="新春嘉奖" />
+    <entry Conditions="" />
+    <entry Overview="集齐&lt;C&gt;88&lt;/C&gt;个&lt;I&gt;地晶石&lt;/I&gt;和&lt;C&gt;6&lt;/C&gt;个&lt;I&gt;天晶石&lt;/I&gt;就可获得高额奖励。\n经验奖励各等级如下：\n30级-35级：&lt;T&gt;188W经验值&lt;/T&gt;\n35级-39级：&lt;T&gt;358W经验值&lt;/T&gt;\n40级-44级：&lt;T&gt;606W经验值&lt;/T&gt;\n45级-49级：&lt;T&gt;808W经验值&lt;/T&gt;\n50级-54级：&lt;T&gt;1106W经验值&lt;/T&gt;\n55级-59级：&lt;T&gt;1406W经验值&lt;/T&gt;\n60级-64级：&lt;T&gt;1806W经验值&lt;/T&gt;\n65级-69级：&lt;T&gt;2406W经验值&lt;/T&gt;\n70级-74级：&lt;T&gt;2806W经验值&lt;/T&gt;\n75级-79级：&lt;T&gt;3406W经验值&lt;/T&gt;\n80级-90级：&lt;T&gt;5000W经验值&lt;/T&gt;\n90级以上：&lt;T&gt;9000W经验值&lt;/T&gt;" />
+</quest-local>

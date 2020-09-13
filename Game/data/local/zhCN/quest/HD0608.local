@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30608" />
+    <entry Name="魔窟压制" />
+    <entry Conditions="击杀魔窟中的最终BOSS" />
+    <entry Overview="每日&lt;C&gt;09：00、13：00、18：00、23：00&lt;/C&gt;开始，在&lt;N&gt;奔雷裂谷&lt;/N&gt;和&lt;N&gt;北洲天雪&lt;/N&gt;会出现&lt;D&gt;“魔窟之门”&lt;/D&gt;，在组队的状态下，与&lt;D&gt;“魔窟之门”&lt;/D&gt;对话就可以进入&lt;D&gt;“魔窟”&lt;/D&gt;。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30818" />
+    <entry Name="让我再想想！" />
+    <entry Conditions="" />
+    <entry Overview="准备一个&lt;I&gt;高级凿石&lt;/I&gt;，交给&lt;D&gt;&lt;L=s02,5610053&gt;张三&lt;/L&gt;&lt;/D&gt;。（&lt;I&gt;高级凿石&lt;/I&gt;可以通过铸造技能制作）" />
+</quest-local>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30793" />
+    <entry Name="寻找帅锅" />
+    <entry Conditions="" />
+    <entry Overview="寻找制作衣服的材料：&lt;I&gt;蝶精粉尘&lt;/I&gt;&lt;C&gt;5&lt;/C&gt;个（在西洲幻林奇货商处购买）、&lt;I&gt;雪晶片&lt;/I&gt;&lt;C&gt;5&lt;/C&gt;个（在北洲天雪奇货商处购买）、&lt;I&gt;原矿&lt;/I&gt;&lt;C&gt;100&lt;/C&gt;个、&lt;I&gt;幻林金钻&lt;/I&gt;&lt;C&gt;50&lt;/C&gt;个，集齐后交给&lt;D&gt;&lt;L=s02,5610053&gt;张三&lt;/L&gt;&lt;/D&gt;" />
+</quest-local>

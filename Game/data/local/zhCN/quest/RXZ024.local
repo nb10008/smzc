@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20424" />
+    <entry Name="找到伙伴" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;N&gt;太平坡&lt;/N&gt;，找到&lt;D&gt;&lt;L=s06,5010163&gt;汉娜&lt;/L&gt;&lt;/D&gt;。&#x0A;" />
+</quest-local>

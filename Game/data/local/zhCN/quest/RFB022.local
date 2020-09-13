@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="29022" />
+    <entry Name="白银首领" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;N&gt;白银洞窟&lt;/N&gt;，找到白银洞窟中的&lt;color=0xffff0000&gt;独裁者奥德&lt;color=0xffffffff&gt;，将其消灭后回复&lt;D&gt;&lt;L=s05,5010094&gt;河神巴克&lt;/L&gt;&lt;/D&gt;" />
+</quest-local>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<mall_title id="1" name1="练级必备"/>
+	<mall_title id="2" name1="辅助物品"/>
+	<mall_title id="3" name1="装备强化"/>
+	<mall_title id="4" name1="宠物坐骑"/>
+	<mall_title id="5" name1="个性时装"/>
+	<mall_title id="6" name1="活动庆典"/>
+	<mall_title id="7" name1="赠点专页"/>
+	<mall_title id="8" name1="积分专页"/>
+	<mall_title id="10" name1="商城优惠"/>
+</root>

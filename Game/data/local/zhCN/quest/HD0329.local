@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30329" />
+    <entry Name="幽怨妖精之魂" />
+    <entry Conditions="" />
+    <entry Overview="&lt;D&gt;&lt;L=s54,5610002&gt;幽怨妖精之魂&lt;/L&gt;&lt;/D&gt;请你收集&lt;C&gt;15&lt;/C&gt;个&lt;I&gt;梦境粉尘&lt;/I&gt;回应&lt;D&gt;幽怨妖精之魂&lt;/D&gt;后便可获得丰厚的回报。&lt;T&gt;该任务每天可以完成2次，每次完成该任务可以获得150点信仰&lt;/T&gt;" />
+</quest-local>

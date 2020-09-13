@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40025" />
+    <entry Name="罗梅达亚的条件" />
+    <entry Conditions="" />
+    <entry Overview="击杀&lt;C&gt;50&lt;/C&gt;只&lt;D&gt;&lt;L=s07,1060012&gt;觅食蛇妖&lt;/L&gt;&lt;/D&gt;和&lt;C&gt;50&lt;/C&gt;只&lt;D&gt;&lt;L=s07,1060013&gt;饥饿蛇妖&lt;/L&gt;&lt;/D&gt;，完成条件后与&lt;D&gt;&lt;L=s02,5010083&gt;罗梅达亚&lt;/L&gt;&lt;/D&gt;交换更多的强化石和幸运符" />
+</quest-local>

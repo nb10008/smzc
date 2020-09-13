@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40054" />
+    <entry Name="辛勤耕种NO.2" />
+    <entry Conditions="到种植区浇水" />
+    <entry Overview="从&lt;N&gt;妖精农场&lt;/N&gt;的&lt;M&gt;&lt;L=s51,6020001&gt;井&lt;/L&gt;&lt;/M&gt;中取得&lt;C&gt;一&lt;/C&gt;桶&lt;I&gt;井水&lt;/I&gt;，然后到&lt;N&gt;种植区&lt;/N&gt;，通过&lt;S&gt;浇水&lt;/S&gt;选项将&lt;C&gt;一&lt;/C&gt;桶&lt;I&gt;井水&lt;/I&gt;浇灌到土壤中。完成后回复庄园主&lt;D&gt;&lt;L=s51,5800075&gt;艾欧里奥&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

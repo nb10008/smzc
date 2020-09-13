@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20101" />
+    <entry Name="守护大地" />
+    <entry Conditions="" />
+    <entry Overview="找到&lt;N&gt;坦伯特&lt;/N&gt;附近的那些&lt;M&gt;&lt;L=s03,6010010&gt;花海之根&lt;/L&gt;&lt;/M&gt;，将圣魂药水倒在这些巨大的根上，然后收集&lt;C&gt;3&lt;/C&gt;个&lt;I&gt;净化后的嫩芽&lt;/I&gt;交给&lt;D&gt;&lt;L=s03,5010031&gt;幻神艾丽娜&lt;/L&gt;&lt;/D&gt;。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv10]&lt;/S&gt;开启成就:10级开启&lt;T&gt;成就系统&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv10]&lt;/S&gt;三神传说:10级后可参与&lt;P&gt;三神传说活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv11]&lt;/S&gt;每日问答:11级后可进行&lt;P&gt;游戏知识问答&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv11]&lt;/S&gt;悬赏任务:可以在悬赏榜接取&lt;P&gt;悬赏任务&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv15]&lt;/S&gt;新手妖精:达到15级可获得&lt;A&gt;新手妖精&lt;/A&gt;&#x0A;\n&lt;S&gt;[Lv20]&lt;/S&gt;就职:达到20级可进行&lt;T&gt;就职&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv20]&lt;/S&gt;创建公会:20级后可&lt;T&gt;创建公会&lt;/T&gt;&#x0A;" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20513" />
+    <entry Name="洞中寻宝" />
+    <entry Conditions="" />
+    <entry Overview="消灭&lt;C&gt;10&lt;/C&gt;名&lt;color=0xffff6000&gt;&lt;L=d07,1060039&gt;南蛮精英勇士&lt;/L&gt;&lt;color=0xffffffff&gt;，并从&lt;N&gt;石狼洞&lt;/N&gt;的&lt;A&gt;&lt;L=d07,1060019&gt;南沼石魔&lt;/L&gt;&lt;/A&gt;身上收集&lt;C&gt;80&lt;/C&gt;个&lt;I&gt;原魔石&lt;/I&gt;，然后交给&lt;D&gt;&lt;L=s07,5010167&gt;魔纳特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

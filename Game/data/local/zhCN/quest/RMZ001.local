@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20501" />
+    <entry Name="沼地的变化" />
+    <entry Conditions="" />
+    <entry Overview="除掉&lt;C&gt;85&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060004&gt;南沼花妖&lt;/L&gt;&lt;/A&gt;，然后回复&lt;D&gt;&lt;L=s07,5010164&gt;树神哈伦斯&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

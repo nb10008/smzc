@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40061" />
+    <entry Name="神的领域" />
+    <entry Conditions="激活自选领域：旅行[Lv1]" />
+    <entry Overview="升到&lt;C&gt;30&lt;/C&gt;级，将神格提升至&lt;C&gt;2&lt;/C&gt;级并激活自选领域&lt;S&gt;旅行[Lv1]&lt;/S&gt;，然后回复&lt;D&gt;&lt;L=s02,5010243&gt;三界主宰艾辛萨&lt;/L&gt;&lt;/D&gt;。\n  &lt;T&gt;自选领域必须要激活后才会生效。打开领域界面后切换到自选领域分页，然后选中需要激活的自选领域即可将其激活。&lt;/T&gt;\n  &lt;C&gt;如果你想获取更多的信仰，可以在预言者盖拉处接取信仰每日任务。你可以在奔雷裂谷之后的高等级场景中见到预言者盖拉。&lt;/C&gt;" />
+</quest-local>

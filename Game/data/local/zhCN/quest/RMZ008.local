@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20508" />
+    <entry Name="魔族使者" />
+    <entry Conditions="" />
+    <entry Overview="将等级提升至&lt;C&gt;69&lt;/C&gt;级，然后前往&lt;N&gt;纳溪沼泽&lt;/N&gt;，找到魔族使者&lt;D&gt;&lt;L=s07,5010166&gt;魔纳尔&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

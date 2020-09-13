@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40065" />
+    <entry Name="圣衣武器" />
+    <entry Conditions="获得任意一件圣衣武器" />
+    <entry Overview="&lt;D&gt;&lt;L=s02,5010243&gt;三界主宰艾辛萨&lt;/L&gt;&lt;/D&gt;让你为自己制作一件圣衣武器（任意等级的圣衣武器均可）。\n&lt;T&gt;圣衣可以在&lt;D&gt;&lt;L=s02,5516005&gt;低阶圣衣兑换人&lt;/L&gt;&lt;/D&gt;及其周围的兑换人处合成。&lt;/T&gt;\n&lt;M&gt;任务完成不会扣除已经获得的圣衣武器。&lt;/M&gt;" />
+</quest-local>

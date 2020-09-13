@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<desktop>
+    <UIControl Name="scenetips" ClassName="CGUIStatic" CanMoveOutOfFather="yes" LogicPos_x="417" LogicPos_y="161" Size_x="50" Size_y="20" AlignControl="\desktop" Font="龙字体" FontHeight="16" TextRect_right="50" TextRect_bottom="20" TextColor="0xFFFFFFFF" ShadeColor="0xFF290404" TextAlign="Center" PicColor="0xFFFFFF" />
+</desktop>

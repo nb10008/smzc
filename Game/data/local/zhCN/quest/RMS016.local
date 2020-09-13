@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20616" />
+    <entry Name="天神的目的" />
+    <entry Conditions="" />
+    <entry Overview="再次询问&lt;D&gt;&lt;L=s08,5010206&gt;幽露&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

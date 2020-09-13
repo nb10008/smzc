@@ -1,0 +1,25 @@
+//-----------------------------------------------------------------------------
+// File: Mul.ps
+//
+// Desc: »ìºÏ
+// Copyright (c) TengWu Corporation. All rights reserved.
+//-----------------------------------------------------------------------------
+
+
+sampler g_sam0 : register(s0); //blur
+sampler g_sam1 : register(s1); //scene
+
+half4 PSMain( float2 Tex : TEXCOORD0 ) : COLOR0
+{
+	half4 a = tex2D(g_sam0, Tex);
+	half4 b = tex2D(g_sam1, Tex);
+	
+	b.rgb=0.0*(a.rgb-b.rgb)+b.rgb;
+	a.rgb*=a.rgb;
+	
+	half4 ret;
+	ret.a=1;
+	ret.rgb=a.rgb*0.0+b.rgb;
+	return ret;
+}
+

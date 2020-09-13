@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30347" />
+    <entry Name="速度极限" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;P&gt;东洲冥山&lt;/P&gt;的&lt;D&gt;&lt;L=s08,5010207&gt;索尔&lt;/L&gt;&lt;/D&gt;处完成任务。\n&lt;M&gt;在风之祝福状态结束前到达目标NPC处可以获得额外奖励。&lt;/M&gt;\n&lt;T&gt;该任务完成前将无法使用三界传送人以及飞翔石的传送功能。&lt;/T&gt;" />
+</quest-local>

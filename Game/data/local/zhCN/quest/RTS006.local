@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="50006" />
+    <entry Name="高级僵尸药水" />
+    <entry Conditions="" />
+    <entry Overview="用&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;低级僵尸药水&lt;/I&gt;可在&lt;D&gt;&lt;L=s03,5010198&gt;僵尸博士&lt;/L&gt;&lt;/D&gt;处兑换&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;高级僵尸药水&lt;/I&gt;" />
+</quest-local>

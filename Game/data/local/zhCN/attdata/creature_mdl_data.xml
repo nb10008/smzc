@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<NPC id="FM01" tag_Face="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX64_1" sd_roar="SX64_2" sd_howl="SX64_3" sd_dead="SX64_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="0"/>
+	<NPC id="FM01_1" tag_Face="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX64_1" sd_roar="SX64_2" sd_howl="SX64_3" sd_dead="SX64_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="0"/>
+	<NPC id="FM01_2" tag_Face="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX64_1" sd_roar="SX64_2" sd_howl="SX64_3" sd_dead="SX64_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="0"/>
+	<NPC id="FM01_3" tag_Face="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX64_1" sd_roar="SX64_2" sd_howl="SX64_3" sd_dead="SX64_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="0"/>
+	<NPC id="FM02" tag_Face="Bip01 hat" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX65_1" sd_roar="SX65_2" sd_howl="SX65_3" sd_dead="SX65_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="FM02_1" tag_Face="Bip01 hat" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX65_1" sd_roar="SX65_2" sd_howl="SX65_3" sd_dead="SX65_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="FM02_2" tag_Face="Bip01 hat" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX65_1" sd_roar="SX65_2" sd_howl="SX65_3" sd_dead="SX65_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="FM02_3" tag_Face="Bip01 hat" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX65_1" sd_roar="SX65_2" sd_howl="SX65_3" sd_dead="SX65_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="FM02_4" tag_Face="Bip01 hat" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX65_1" sd_roar="SX65_2" sd_howl="SX65_3" sd_dead="SX65_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="FM02_5" tag_Face="Bip01 hat" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX65_1" sd_roar="SX65_2" sd_howl="SX65_3" sd_dead="SX65_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="FM03" tag_Face="Bone04" tag_Hat="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX63_1" sd_roar="SX63_2" sd_howl="SX63_3" sd_dead="SX63_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="FM03_1" tag_Face="Bone04" tag_Hat="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX63_1" sd_roar="SX63_2" sd_howl="SX63_3" sd_dead="SX63_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="FM03_2" tag_Face="Bone04" tag_Hat="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX63_1" sd_roar="SX63_2" sd_howl="SX63_3" sd_dead="SX63_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="FM03_3" tag_Face="Bone04" tag_Hat="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX63_1" sd_roar="SX63_2" sd_howl="SX63_3" sd_dead="SX63_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="FM03_4" tag_Face="Bone04" tag_Hat="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX63_1" sd_roar="SX63_2" sd_howl="SX63_3" sd_dead="SX63_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="FM04" tag_Face="Bone72" tag_Hat="Bone71" tag_Back="Bone72" tag_RSld="Bone03" tag_LSld="Bone06" tag_RHd="Bone31" tag_LHd="Bone08" sd_inter_combat="SX66_1" sd_roar="SX66_2" sd_howl="SX66_3" sd_dead="SX66_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="FM04_1" tag_Face="Bone72" tag_Hat="Bone71" tag_Back="Bone72" tag_RSld="Bone03" tag_LSld="Bone06" tag_RHd="Bone31" tag_LHd="Bone08" sd_inter_combat="SX66_1" sd_roar="SX66_2" sd_howl="SX66_3" sd_dead="SX66_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="FM04_2" tag_Face="Bone72" tag_Hat="Bone71" tag_Back="Bone72" tag_RSld="Bone03" tag_LSld="Bone06" tag_RHd="Bone31" tag_LHd="Bone08" sd_inter_combat="SX66_1" sd_roar="SX66_2" sd_howl="SX66_3" sd_dead="SX66_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="FM04_3" tag_Face="Bone72" tag_Hat="Bone71" tag_Back="Bone72" tag_RSld="Bone03" tag_LSld="Bone06" tag_RHd="Bone31" tag_LHd="Bone08" sd_inter_combat="SX66_1" sd_roar="SX66_2" sd_howl="SX66_3" sd_dead="SX66_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="FM05" tag_Face="Dummy01" tag_Back="Dummy01" tag_RSld="Bone02(mirrored)" tag_LSld="Bone02" tag_RHd="Bone07(mirrored)" tag_LHd="Bone07" sd_inter_combat="SX67_1" sd_roar="SX67_2" sd_howl="SX67_3" sd_dead="SX67_4" txm_zoom="2" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="FM05_1" tag_Face="Dummy01" tag_Back="Dummy01" tag_RSld="Bone02(mirrored)" tag_LSld="Bone02" tag_RHd="Bone07(mirrored)" tag_LHd="Bone07" sd_inter_combat="SX67_1" sd_roar="SX67_2" sd_howl="SX67_3" sd_dead="SX67_4" txm_zoom="2" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="FM05_2" tag_Face="Dummy01" tag_Back="Dummy01" tag_RSld="Bone02(mirrored)" tag_LSld="Bone02" tag_RHd="Bone07(mirrored)" tag_LHd="Bone07" sd_inter_combat="SX67_1" sd_roar="SX67_2" sd_howl="SX67_3" sd_dead="SX67_4" txm_zoom="2" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="FM06" tag_Face="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX69_1" sd_roar="SX69_2" sd_howl="SX69_3" sd_dead="SX69_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="FM06_1" tag_Face="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX69_1" sd_roar="SX69_2" sd_howl="SX69_3" sd_dead="SX69_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="FM07" sd_inter_combat="SX33_1" sd_roar="SX33_2" sd_howl="SX33_3" sd_dead="SX33_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M002_a" tag_Face="Bip01 Ponytail1" tag_Hat="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX62_1" sd_roar="SX62_2" sd_howl="SX62_3" sd_dead="SX62_4" txm_zoom="0.7" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M002_b" tag_Face="Bip01 Ponytail1" tag_Hat="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX62_1" sd_roar="SX62_2" sd_howl="SX62_3" sd_dead="SX62_4" txm_zoom="0.7" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M002_c" tag_Face="Bip01 Ponytail1" tag_Hat="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX62_1" sd_roar="SX62_2" sd_howl="SX62_3" sd_dead="SX62_4" txm_zoom="0.7" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M002_d" tag_Face="Bip01 Ponytail1" tag_Hat="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX62_1" sd_roar="SX62_2" sd_howl="SX62_3" sd_dead="SX62_4" txm_zoom="0.7" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M002_e" tag_Face="Bip01 Ponytail1" tag_Hat="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX62_1" sd_roar="SX62_2" sd_howl="SX62_3" sd_dead="SX62_4" txm_zoom="0.7" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M002_f" tag_Face="Bip01 Ponytail1" tag_Hat="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX62_1" sd_roar="SX62_2" sd_howl="SX62_3" sd_dead="SX62_4" txm_zoom="0.7" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M010_a" tag_Face="Bip01 Ponytail1" tag_Hat="Bip01 Neck1" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX62_1" sd_roar="SX62_2" sd_howl="SX62_3" sd_dead="SX62_4" txm_zoom="1.5" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M010_b" tag_Face="Bip01 Ponytail1" tag_Hat="Bip01 Neck1" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX62_1" sd_roar="SX62_2" sd_howl="SX62_3" sd_dead="SX62_4" txm_zoom="1.5" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M010_c" tag_Face="Bip01 Ponytail1" tag_Hat="Bip01 Neck1" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX62_1" sd_roar="SX62_2" sd_howl="SX62_3" sd_dead="SX62_4" txm_zoom="1.5" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M010_e" tag_Face="Bip01 Ponytail1" tag_Hat="Bip01 Neck1" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX62_1" sd_roar="SX62_2" sd_howl="SX62_3" sd_dead="SX62_4" txm_zoom="1.5" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M01_a1" tag_Face="Bip01 tb" tag_Hat="Bone76" tag_Back="Bip01 tb" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX22_1" sd_roar="SX22_2" sd_howl="SX22_3" sd_dead="SX22_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M01_a2" tag_Face="Bip01 tb" tag_Hat="Bone76" tag_Back="Bip01 tb" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX22_1" sd_roar="SX22_2" sd_howl="SX22_3" sd_dead="SX22_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M01_a3" tag_Face="Bip01 tb" tag_Hat="Bone76" tag_Back="Bip01 tb" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX22_1" sd_roar="SX22_2" sd_howl="SX22_3" sd_dead="SX22_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M01_b1" tag_Face="Bip01 tb" tag_Hat="Bone76" tag_Back="Bip01 tb" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX22_1" sd_roar="SX22_2" sd_howl="SX22_3" sd_dead="SX22_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M01_b2" tag_Face="Bip01 tb" tag_Hat="Bone76" tag_Back="Bip01 tb" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX22_1" sd_roar="SX22_2" sd_howl="SX22_3" sd_dead="SX22_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M01_b3" tag_Face="Bip01 tb" tag_Hat="Bone76" tag_Back="Bip01 tb" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX22_1" sd_roar="SX22_2" sd_howl="SX22_3" sd_dead="SX22_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M04_a1" tag_Face="Bip03 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip03 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX25_1" sd_roar="SX25_2" sd_howl="SX25_3" sd_dead="SX25_4" txm_zoom="0.5" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M04_a2" tag_Face="Bip03 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip03 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX25_1" sd_roar="SX25_2" sd_howl="SX25_3" sd_dead="SX25_4" txm_zoom="0.5" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M04_b1" tag_Face="Bip03 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip03 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX25_1" sd_roar="SX25_2" sd_howl="SX25_3" sd_dead="SX25_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M04_b2" tag_Face="Bip03 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip03 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX25_1" sd_roar="SX25_2" sd_howl="SX25_3" sd_dead="SX25_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M04_c1" tag_Face="Bip03 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip03 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX25_1" sd_roar="SX25_2" sd_howl="SX25_3" sd_dead="SX25_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M04_c2" tag_Face="Bip03 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip03 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX25_1" sd_roar="SX25_2" sd_howl="SX25_3" sd_dead="SX25_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M07_a1" tag_Face="Bone07" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX28_1" sd_roar="SX28_2" sd_howl="SX28_3" sd_dead="SX28_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M07_a2" tag_Face="Bone07" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX28_1" sd_roar="SX28_2" sd_howl="SX28_3" sd_dead="SX28_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M07_b1" tag_Face="Bone13" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX28_1" sd_roar="SX28_2" sd_howl="SX28_3" sd_dead="SX28_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M07_b2" tag_Face="Bone07" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX28_1" sd_roar="SX28_2" sd_howl="SX28_3" sd_dead="SX28_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M07_c1" tag_Face="Bone13" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX28_1" sd_roar="SX28_2" sd_howl="SX28_3" sd_dead="SX28_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M07_c2" tag_Face="Bone13" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX28_1" sd_roar="SX28_2" sd_howl="SX28_3" sd_dead="SX28_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M07_d1" tag_Face="Bone13" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX28_1" sd_roar="SX28_2" sd_howl="SX28_3" sd_dead="SX28_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M07_d2" tag_Face="Bone13" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX28_1" sd_roar="SX28_2" sd_howl="SX28_3" sd_dead="SX28_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M07_e1" tag_Face="Bone07" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX28_1" sd_roar="SX28_2" sd_howl="SX28_3" sd_dead="SX28_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M12_a1" tag_Face="Bip01 Head" tag_Hat="Bip01 Ponytail1Nub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" tag_Wep1="Bone16" sd_inter_combat="SX33_1" sd_roar="SX33_2" sd_howl="SX33_3" sd_dead="SX33_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M12_a2" tag_Face="Bip01 Head" tag_Hat="Bip01 Ponytail1Nub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" tag_Wep1="Bone16" sd_inter_combat="SX33_1" sd_roar="SX33_2" sd_howl="SX33_3" sd_dead="SX33_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M12_b1" tag_Face="Bip01 Head" tag_Hat="Bip01 Ponytail1Nub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX33_1" sd_roar="SX33_2" sd_howl="SX33_3" sd_dead="SX33_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M12_c1" tag_Face="Bip01 Head" tag_Hat="Bip01 Ponytail1Nub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX33_1" sd_roar="SX33_2" sd_howl="SX33_3" sd_dead="SX33_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M12_c2" tag_Face="Bip01 Head" tag_Hat="Bip01 Ponytail1Nub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX33_1" sd_roar="SX33_2" sd_howl="SX33_3" sd_dead="SX33_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M12_e1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX34_1" sd_roar="SX34_2" sd_howl="SX34_3" sd_dead="SX34_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M12_e2" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX34_1" sd_roar="SX34_2" sd_howl="SX34_3" sd_dead="SX34_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M12_f1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX34_1" sd_roar="SX34_2" sd_howl="SX34_3" sd_dead="SX34_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M12_g1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX34_1" sd_roar="SX34_2" sd_howl="SX34_3" sd_dead="SX34_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M12_g2" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX34_1" sd_roar="SX34_2" sd_howl="SX34_3" sd_dead="SX34_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M12_h1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX34_1" sd_roar="SX34_2" sd_howl="SX34_3" sd_dead="SX34_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M14_a1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX36_1" sd_roar="SX36_2" sd_howl="SX36_3" sd_dead="SX36_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M14_a2" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX36_1" sd_roar="SX36_2" sd_howl="SX36_3" sd_dead="SX36_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M14_c1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX36_1" sd_roar="SX36_2" sd_howl="SX36_3" sd_dead="SX36_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M14_c2" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX36_1" sd_roar="SX36_2" sd_howl="SX36_3" sd_dead="SX36_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M14_e1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX36_1" sd_roar="SX36_2" sd_howl="SX36_3" sd_dead="SX36_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M17_a1" tag_Face="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX41_1" sd_roar="SX41_2" sd_howl="SX41_3" sd_dead="SX41_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M17_a2" tag_Face="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX41_1" sd_roar="SX41_2" sd_howl="SX41_3" sd_dead="SX41_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M17_a3" tag_Face="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX41_1" sd_roar="SX41_2" sd_howl="SX41_3" sd_dead="SX41_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M17_a4" tag_Face="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX41_1" sd_roar="SX41_2" sd_howl="SX41_3" sd_dead="SX41_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M18_a1" tag_Face="Bone15" tag_Hat="Bip01 toubuNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX42_1" sd_roar="SX42_2" sd_howl="SX42_3" sd_dead="SX42_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M18_a2" tag_Face="Bone15" tag_Hat="Bip01 toubuNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX42_1" sd_roar="SX42_2" sd_howl="SX42_3" sd_dead="SX42_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M18_a3" tag_Face="Bone15" tag_Hat="Bip01 toubuNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX42_1" sd_roar="SX42_2" sd_howl="SX42_3" sd_dead="SX42_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M18_a4" tag_Face="Bone15" tag_Hat="Bip01 toubuNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX42_1" sd_roar="SX42_2" sd_howl="SX42_3" sd_dead="SX42_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M20_b1" tag_Face="Bip01 Head" tag_Back="Bip01 Spine" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX44_1" sd_roar="SX44_2" sd_howl="SX44_3" sd_dead="SX44_4" txm_zoom="0.6" can_pitch="0" tx_natk="Tx_crm7" run_adjust="1"/>
+	<NPC id="M20_b2" tag_Face="Bip01 Head" tag_Back="Bip01 Spine" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX44_1" sd_roar="SX44_2" sd_howl="SX44_3" sd_dead="SX44_4" txm_zoom="0.6" can_pitch="0" tx_natk="Tx_crm7" run_adjust="1"/>
+	<NPC id="M20_c1" tag_Face="Bip01 Head" tag_Back="Bip01 Spine" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX44_1" sd_roar="SX44_2" sd_howl="SX44_3" sd_dead="SX44_4" txm_zoom="0.6" can_pitch="0" tx_natk="Tx_crm7" run_adjust="1"/>
+	<NPC id="M20_c2" tag_Face="Bip01 Head" tag_Back="Bip01 Spine" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX44_1" sd_roar="SX44_2" sd_howl="SX44_3" sd_dead="SX44_4" txm_zoom="0.6" can_pitch="0" tx_natk="Tx_crm7" run_adjust="1"/>
+	<NPC id="M20_d1" tag_Face="Bip01 Head" tag_Back="Bip01 Spine" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX44_1" sd_roar="SX44_2" sd_howl="SX44_3" sd_dead="SX44_4" txm_zoom="0.6" can_pitch="0" tx_natk="Tx_crm7" run_adjust="1"/>
+	<NPC id="M20_d2" tag_Face="Bip01 Head" tag_Back="Bip01 Spine" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX44_1" sd_roar="SX44_2" sd_howl="SX44_3" sd_dead="SX44_4" txm_zoom="0.6" can_pitch="0" tx_natk="Tx_crm7" run_adjust="1"/>
+	<NPC id="M21_a1" sd_inter_combat="SX74_1" sd_roar="SX74_2" sd_howl="SX74_3" sd_dead="SX74_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M21_a2" sd_inter_combat="SX74_1" sd_roar="SX74_2" sd_howl="SX74_3" sd_dead="SX74_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M21_a3" sd_inter_combat="SX74_1" sd_roar="SX74_2" sd_howl="SX74_3" sd_dead="SX74_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M21_b1" sd_inter_combat="SX83_1" sd_roar="SX83_2" sd_howl="SX83_3" sd_dead="SX83_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M21_b2" sd_inter_combat="SX83_1" sd_roar="SX83_2" sd_howl="SX83_3" sd_dead="SX83_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M21_b3" sd_inter_combat="SX83_1" sd_roar="SX83_2" sd_howl="SX83_3" sd_dead="SX83_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M21_c1" sd_inter_combat="SX21_1" sd_roar="SX21_2" sd_howl="SX21_3" sd_dead="SX21_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M21_c2" sd_inter_combat="SX21_1" sd_roar="SX21_2" sd_howl="SX21_3" sd_dead="SX21_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M21_d1" sd_inter_combat="SX21_1" sd_roar="SX21_2" sd_howl="SX21_3" sd_dead="SX21_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M21_d2" sd_inter_combat="SX21_1" sd_roar="SX21_2" sd_howl="SX21_3" sd_dead="SX21_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M21_e1" sd_inter_combat="SX60_1" sd_roar="SX60_2" sd_howl="SX60_3" sd_dead="SX60_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M21_e2" sd_inter_combat="SX60_1" sd_roar="SX60_2" sd_howl="SX60_3" sd_dead="SX60_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M21_f1" sd_inter_combat="SX61_1" sd_roar="SX61_2" sd_howl="SX61_3" sd_dead="SX61_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M21_f2" sd_inter_combat="SX61_1" sd_roar="SX61_2" sd_howl="SX61_3" sd_dead="SX61_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M21_g1" sd_inter_combat="SX78_1" sd_roar="SX78_2" sd_howl="SX78_3" sd_dead="SX78_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M21_g2" sd_inter_combat="SX78_1" sd_roar="SX78_2" sd_howl="SX78_3" sd_dead="SX78_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M21_i1" sd_inter_combat="SX83_1" sd_roar="SX83_2" sd_howl="SX83_3" sd_dead="SX83_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M21_i2" sd_inter_combat="SX83_1" sd_roar="SX83_2" sd_howl="SX83_3" sd_dead="SX83_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M22_a1" tag_Face="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX55_1" sd_roar="SX55_2" sd_howl="SX55_3" sd_dead="SX55_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M22_a2" tag_Face="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX55_1" sd_roar="SX55_2" sd_howl="SX55_3" sd_dead="SX55_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M22_b1" tag_Face="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Finger1" tag_LHd="Bip01 L Finger1" sd_inter_combat="SX56_1" sd_roar="SX56_2" sd_howl="SX56_3" sd_dead="SX56_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M22_b2" tag_Face="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Finger1" tag_LHd="Bip01 L Finger1" sd_inter_combat="SX56_1" sd_roar="SX56_2" sd_howl="SX56_3" sd_dead="SX56_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M26_a1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX57_1" sd_roar="SX57_2" sd_howl="SX57_3" sd_dead="SX57_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M26_b1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX61_1" sd_roar="SX61_2" sd_howl="SX61_3" sd_dead="SX61_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M27_a1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX59_1" sd_roar="SX59_2" sd_howl="SX59_3" sd_dead="SX59_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M28_a1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX58_1" sd_roar="SX58_2" sd_howl="SX58_3" sd_dead="SX58_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M28_b1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX61_1" sd_roar="SX61_2" sd_howl="SX61_3" sd_dead="SX61_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M29_a1" tag_Face="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX59_1" sd_roar="SX59_2" sd_howl="SX59_3" sd_dead="SX59_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M29_b1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" tag_Wep1="B_R Hand_2" sd_inter_combat="SX60_1" sd_roar="SX60_2" sd_howl="SX60_3" sd_dead="SX60_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M30_a1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX57_1" sd_roar="SX57_2" sd_howl="SX57_3" sd_dead="SX57_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M30_b1" sd_inter_combat="SX57_1" sd_roar="SX57_2" sd_howl="SX57_3" sd_dead="SX57_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M31_a1" tag_Face="Bip01 hat" tag_Hat="Bip01 hatNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX58_1" sd_roar="SX58_2" sd_howl="SX58_3" sd_dead="SX58_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M31_b1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX60_1" sd_roar="SX60_2" sd_howl="SX60_3" sd_dead="SX60_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M32_a1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX58_1" sd_roar="SX58_2" sd_howl="SX58_3" sd_dead="SX58_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M32_b1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX60_1" sd_roar="SX60_2" sd_howl="SX60_3" sd_dead="SX60_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M33_a1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX57_1" sd_roar="SX57_2" sd_howl="SX57_3" sd_dead="SX57_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M33_b1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX60_1" sd_roar="SX60_2" sd_howl="SX60_3" sd_dead="SX60_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M34_a1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX61_1" sd_roar="SX61_2" sd_howl="SX61_3" sd_dead="SX61_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M35_b1" tag_Face="Bip01 Head" tag_Hat="B Head 1" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" tag_Wep1="B_R Hand_2" sd_inter_combat="SX59_1" sd_roar="SX59_2" sd_howl="SX59_3" sd_dead="SX59_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M36_a1" tag_Face="Bip01 Head" tag_Hat="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX61_1" sd_roar="SX61_2" sd_howl="SX61_3" sd_dead="SX61_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M38_a1" sd_inter_combat="SX85_1" sd_roar="SX85_2" sd_howl="SX85_3" sd_dead="SX85_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M38_a2" sd_inter_combat="SX86_1" sd_roar="SX86_2" sd_howl="SX86_3" sd_dead="SX86_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M39_a1" sd_inter_combat="SX87_1" sd_roar="SX87_2" sd_howl="SX87_3" sd_dead="SX87_4" txm_zoom="1" can_pitch="1" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M40_a1" tag_Face="Bip01 Hat" tag_Hat="Bip01 HatNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX88_1" sd_roar="SX88_2" sd_howl="SX88_3" sd_dead="SX88_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M40_b1" tag_Face="Bip01 Hat" tag_Hat="Bip01 HatNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX89_1" sd_roar="SX89_2" sd_howl="SX89_3" sd_dead="SX89_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M40_c1" tag_Face="Bip01 Hat" tag_Hat="Bip01 hair 11" tag_Back="Bip01 Spine2" tag_RSld="Bone18" tag_LSld="Bone24" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX90_1" sd_roar="SX90_2" sd_howl="SX90_3" sd_dead="SX90_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M40_d1" tag_Face="Bip01 Hat" tag_Hat="Bip01 HatNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX91_1" sd_roar="SX91_2" sd_howl="SX91_3" sd_dead="SX91_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M40_e1" tag_Face="Bip01 hat" tag_Hat="Bip01 hatNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX92_1" sd_roar="SX92_2" sd_howl="SX92_3" sd_dead="SX92_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M41_a1" tag_Face="Bip01 hat" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Hand" tag_LSld="Bip01 L Hand" tag_RHd="Bone25" tag_LHd="Bone18" sd_inter_combat="SX93_1" sd_roar="SX93_2" sd_howl="SX93_3" sd_dead="SX93_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="0"/>
+	<NPC id="M41_a2" tag_Face="Bip01 hat" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Forearm" tag_LSld="Bip01 L Forearm" tag_RHd="Bip01 R Finger01" tag_LHd="Bip01 L Finger01" sd_inter_combat="SX93_1" sd_roar="SX93_2" sd_howl="SX93_3" sd_dead="SX93_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="0"/>
+	<NPC id="M41_b1" tag_Face="Bip01 hat" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Finger01" tag_LHd="Bip01 L Finger01" sd_inter_combat="SX93_1" sd_roar="SX93_2" sd_howl="SX93_3" sd_dead="SX93_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="0"/>
+	<NPC id="M41_b2" tag_Face="Bip01 hat" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Finger01" tag_LHd="Bip01 L Finger01" sd_inter_combat="SX93_1" sd_roar="SX93_2" sd_howl="SX93_3" sd_dead="SX93_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="0"/>
+	<NPC id="M44_a1" tag_Face="Bip01 hat" tag_Hat="Bip01 hatNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX68_1" sd_roar="SX68_2" sd_howl="SX68_3" sd_dead="SX68_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M44_a2" sd_inter_combat="SX68_1" sd_roar="SX68_2" sd_howl="SX68_3" sd_dead="SX68_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M44_b1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Finger01" tag_LHd="Bip01 L Finger01" sd_inter_combat="SX68_1" sd_roar="SX68_2" sd_howl="SX68_3" sd_dead="SX68_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="M44_b2" sd_inter_combat="SX68_1" sd_roar="SX68_2" sd_howl="SX68_3" sd_dead="SX68_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="M44_c1" tag_Face="Bone02" tag_Hat="Bone03" tag_Back="Bone01" tag_RSld="Bone05" tag_LSld="Bone12" tag_RHd="Bone10" tag_LHd="Bone23" sd_inter_combat="SX68_1" sd_roar="SX68_2" sd_howl="SX68_3" sd_dead="SX68_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="M44_c2" sd_inter_combat="SX68_1" sd_roar="SX68_2" sd_howl="SX68_3" sd_dead="SX68_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="M45_1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX96_1" sd_roar="SX96_2" sd_howl="SX96_3" sd_dead="SX96_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M45_2" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX97_1" sd_roar="SX97_2" sd_howl="SX97_3" sd_dead="SX97_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M45_3" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX98_1" sd_roar="SX98_2" sd_howl="SX98_3" sd_dead="SX98_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M45_4" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX99_1" sd_roar="SX99_2" sd_howl="SX99_3" sd_dead="SX99_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M45_5" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX56_1" sd_roar="SX56_2" sd_howl="SX56_3" sd_dead="SX56_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M45_6" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX54_1" sd_roar="SX54_2" sd_howl="SX54_3" sd_dead="SX54_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M46_a1" sd_inter_combat="SX74_1" sd_roar="SX74_2" sd_howl="SX74_3" sd_dead="SX74_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M46_a2" sd_inter_combat="SX74_1" sd_roar="SX74_2" sd_howl="SX74_3" sd_dead="SX74_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M46_a3" sd_inter_combat="SX74_1" sd_roar="SX74_2" sd_howl="SX74_3" sd_dead="SX74_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M46_b1" sd_inter_combat="SX75_1" sd_roar="SX75_2" sd_howl="SX75_3" sd_dead="SX75_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M46_b2" sd_inter_combat="SX75_1" sd_roar="SX75_2" sd_howl="SX75_3" sd_dead="SX75_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M46_b3" sd_inter_combat="SX75_1" sd_roar="SX75_2" sd_howl="SX75_3" sd_dead="SX75_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M47_a1" sd_inter_combat="SX74_1" sd_roar="SX74_2" sd_howl="SX74_3" sd_dead="SX74_4" txm_zoom="3" can_pitch="0" tx_natk="Tx_crm3" run_adjust="0"/>
+	<NPC id="M47_a2" sd_inter_combat="SX74_1" sd_roar="SX74_2" sd_howl="SX74_3" sd_dead="SX74_4" txm_zoom="3" can_pitch="0" tx_natk="Tx_crm3" run_adjust="0"/>
+	<NPC id="M47_a3" sd_inter_combat="SX74_1" sd_roar="SX74_2" sd_howl="SX74_3" sd_dead="SX74_4" txm_zoom="3" can_pitch="0" tx_natk="Tx_crm3" run_adjust="0"/>
+	<NPC id="M47_b1" sd_inter_combat="SX83_1" sd_roar="SX83_2" sd_howl="SX83_3" sd_dead="SX83_4" txm_zoom="2" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M47_b2" sd_inter_combat="SX83_1" sd_roar="SX83_2" sd_howl="SX83_3" sd_dead="SX83_4" txm_zoom="2" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M47_b3" sd_inter_combat="SX83_1" sd_roar="SX83_2" sd_howl="SX83_3" sd_dead="SX83_4" txm_zoom="2" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M48_a1" sd_inter_combat="SX59_1" sd_roar="SX59_2" sd_howl="SX59_3" sd_dead="SX59_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M48_b1" sd_inter_combat="SX59_1" sd_roar="SX59_2" sd_howl="SX59_3" sd_dead="SX59_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M49_a1" sd_inter_combat="SX96_1" sd_roar="SX96_2" sd_howl="SX96_3" sd_dead="SX96_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M49_a2" sd_inter_combat="SX96_1" sd_roar="SX96_2" sd_howl="SX96_3" sd_dead="SX96_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M50_a1" sd_inter_combat="SX80_1" sd_roar="SX80_2" sd_howl="SX80_3" sd_dead="SX80_4" txm_zoom="0.7" can_pitch="0" tx_natk="Tx_crm4" camera_X="0" camera_Y="85" camera_Z="-250" run_adjust="1"/>
+	<NPC id="M50_a2" sd_inter_combat="SX80_1" sd_roar="SX80_2" sd_howl="SX80_3" sd_dead="SX80_4" txm_zoom="0.7" can_pitch="0" tx_natk="Tx_crm4" camera_X="0" camera_Y="85" camera_Z="-250" run_adjust="1"/>
+	<NPC id="M51_a1" sd_inter_combat="SX82_1" sd_roar="SX82_2" sd_howl="SX82_3" sd_dead="SX82_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm6" run_adjust="1"/>
+	<NPC id="M51_a2" sd_inter_combat="SX82_1" sd_roar="SX82_2" sd_howl="SX82_3" sd_dead="SX82_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm6" run_adjust="1"/>
+	<NPC id="M51_a3" sd_inter_combat="SX82_1" sd_roar="SX82_2" sd_howl="SX82_3" sd_dead="SX82_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm6" run_adjust="1"/>
+	<NPC id="M51_b1" sd_inter_combat="SX82_1" sd_roar="SX82_2" sd_howl="SX82_3" sd_dead="SX82_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="M51_b2" sd_inter_combat="SX82_1" sd_roar="SX82_2" sd_howl="SX82_3" sd_dead="SX82_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="M51_b3" sd_inter_combat="SX82_1" sd_roar="SX82_2" sd_howl="SX82_3" sd_dead="SX82_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="M52_a1" sd_inter_combat="SX80_1" sd_roar="SX80_2" sd_howl="SX80_3" sd_dead="SX80_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm7" run_adjust="1"/>
+	<NPC id="M52_a2" sd_inter_combat="SX80_1" sd_roar="SX80_2" sd_howl="SX80_3" sd_dead="SX80_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm7" run_adjust="1"/>
+	<NPC id="M52_a3" sd_inter_combat="SX80_1" sd_roar="SX80_2" sd_howl="SX80_3" sd_dead="SX80_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm7" run_adjust="1"/>
+	<NPC id="M53_a1" sd_inter_combat="SX83_1" sd_roar="SX83_2" sd_howl="SX83_3" sd_dead="SX83_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="M54_a1" sd_inter_combat="SX89_1" sd_roar="SX89_2" sd_howl="SX89_3" sd_dead="SX89_4" txm_zoom="3.5" can_pitch="0" tx_natk="Tx_crm5" run_adjust="0"/>
+	<NPC id="M55_a1" sd_inter_combat="SX110_1" sd_roar="SX110_2" sd_howl="SX110_3" sd_dead="SX110_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm3" run_adjust="0"/>
+	<NPC id="M56_a1" sd_inter_combat="SX106_1" sd_roar="SX106_2" sd_howl="SX106_3" sd_dead="SX106_4" txm_zoom="2" can_pitch="0" tx_natk="Tx_crm6" run_adjust="0"/>
+	<NPC id="M57_a1" sd_inter_combat="SX110_1" sd_roar="SX110_2" sd_howl="SX110_3" sd_dead="SX110_4" txm_zoom="2" can_pitch="0" tx_natk="Tx_crm6" run_adjust="0"/>
+	<NPC id="M71_a1" sd_inter_combat="SX92_1" sd_roar="SX92_2" sd_howl="SX92_3" sd_dead="SX92_4" txm_zoom="0.8" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M71_a2" sd_inter_combat="SX92_1" sd_roar="SX92_2" sd_howl="SX92_3" sd_dead="SX92_4" txm_zoom="0.8" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M71_b1" sd_inter_combat="SX77_1" sd_roar="SX77_2" sd_howl="SX77_3" sd_dead="SX77_4" txm_zoom="0.8" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M71_b2" sd_inter_combat="SX77_1" sd_roar="SX77_2" sd_howl="SX77_3" sd_dead="SX77_4" txm_zoom="0.8" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M71_c1" sd_inter_combat="SX92_1" sd_roar="SX92_2" sd_howl="SX92_3" sd_dead="SX92_4" txm_zoom="1.2" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M71_c2" sd_inter_combat="SX92_1" sd_roar="SX92_2" sd_howl="SX92_3" sd_dead="SX92_4" txm_zoom="1.2" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M71_d1" sd_inter_combat="SX90_1" sd_roar="SX90_2" sd_howl="SX90_3" sd_dead="SX90_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M71_d2" sd_inter_combat="SX90_1" sd_roar="SX90_2" sd_howl="SX90_3" sd_dead="SX90_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M71_e1" sd_inter_combat="SX96_1" sd_roar="SX96_2" sd_howl="SX96_3" sd_dead="SX96_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M71_e2" sd_inter_combat="SX96_1" sd_roar="SX96_2" sd_howl="SX96_3" sd_dead="SX96_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M71_f1" sd_inter_combat="SX91_1" sd_roar="SX91_2" sd_howl="SX91_3" sd_dead="SX91_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M71_f2" sd_inter_combat="SX91_1" sd_roar="SX91_2" sd_howl="SX91_3" sd_dead="SX91_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M71_g1" sd_inter_combat="SX99_1" sd_roar="SX99_2" sd_howl="SX99_3" sd_dead="SX99_4" txm_zoom="1.2" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M71_g2" sd_inter_combat="SX99_1" sd_roar="SX99_2" sd_howl="SX99_3" sd_dead="SX99_4" txm_zoom="1.2" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M71_h1" sd_inter_combat="SX82_1" sd_roar="SX82_2" sd_howl="SX82_3" sd_dead="SX82_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M71_h2" sd_inter_combat="SX82_1" sd_roar="SX82_2" sd_howl="SX82_3" sd_dead="SX82_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M72_a1" sd_inter_combat="SX95_1" sd_roar="SX95_2" sd_howl="SX95_3" sd_dead="SX95_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M72_a2" sd_inter_combat="SX95_1" sd_roar="SX95_2" sd_howl="SX95_3" sd_dead="SX95_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M72_a3" sd_inter_combat="SX95_1" sd_roar="SX95_2" sd_howl="SX95_3" sd_dead="SX95_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M72_b1" sd_inter_combat="SX94_1" sd_roar="SX94_2" sd_howl="SX94_3" sd_dead="SX94_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M72_b2" sd_inter_combat="SX94_1" sd_roar="SX94_2" sd_howl="SX94_3" sd_dead="SX94_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M72_b3" sd_inter_combat="SX94_1" sd_roar="SX94_2" sd_howl="SX94_3" sd_dead="SX94_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M73_a1" sd_inter_combat="SX21_1" sd_roar="SX21_2" sd_howl="SX21_3" sd_dead="SX21_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M73_a2" sd_inter_combat="SX21_1" sd_roar="SX21_2" sd_howl="SX21_3" sd_dead="SX21_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M73_a3" sd_inter_combat="SX21_1" sd_roar="SX21_2" sd_howl="SX21_3" sd_dead="SX21_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M73_b1" sd_inter_combat="SX21_1" sd_roar="SX21_2" sd_howl="SX21_3" sd_dead="SX21_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm6" run_adjust="1"/>
+	<NPC id="M73_b2" sd_inter_combat="SX21_1" sd_roar="SX21_2" sd_howl="SX21_3" sd_dead="SX21_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm6" run_adjust="1"/>
+	<NPC id="M73_b3" sd_inter_combat="SX21_1" sd_roar="SX21_2" sd_howl="SX21_3" sd_dead="SX21_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm6" run_adjust="1"/>
+	<NPC id="M74_a1" sd_inter_combat="SX28_1" sd_roar="SX28_2" sd_howl="SX28_3" sd_dead="SX28_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M74_a2" sd_inter_combat="SX28_1" sd_roar="SX28_2" sd_howl="SX28_3" sd_dead="SX28_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M74_a3" sd_inter_combat="SX28_1" sd_roar="SX28_2" sd_howl="SX28_3" sd_dead="SX28_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M74_b1" sd_inter_combat="SX110_1" sd_roar="SX110_2" sd_howl="SX110_3" sd_dead="SX110_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M74_b2" sd_inter_combat="SX110_1" sd_roar="SX110_2" sd_howl="SX110_3" sd_dead="SX110_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M74_c1" sd_inter_combat="SX106_1" sd_roar="SX106_2" sd_howl="SX106_3" sd_dead="SX106_4" txm_zoom="1.3" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M74_c2" sd_inter_combat="SX106_1" sd_roar="SX106_2" sd_howl="SX106_3" sd_dead="SX106_4" txm_zoom="1.3" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M74_c3" sd_inter_combat="SX106_1" sd_roar="SX106_2" sd_howl="SX106_3" sd_dead="SX106_4" txm_zoom="1.3" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M75_a1" sd_inter_combat="SX61_1" sd_roar="SX61_2" sd_howl="SX61_3" sd_dead="SX61_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm7" run_adjust="0"/>
+	<NPC id="M75_a2" sd_inter_combat="SX61_1" sd_roar="SX61_2" sd_howl="SX61_3" sd_dead="SX61_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm7" run_adjust="0"/>
+	<NPC id="M75_a3" sd_inter_combat="SX61_1" sd_roar="SX61_2" sd_howl="SX61_3" sd_dead="SX61_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm7" run_adjust="0"/>
+	<NPC id="N08" run_adjust="1"/>
+	<NPC id="N14_1" run_adjust="1"/>
+	<NPC id="N16" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX207_1" sd_roar="SX207_2" sd_howl="SX207_3" sd_dead="SX207_4" txm_zoom="1" can_pitch="0" run_adjust="1"/>
+	<NPC id="N16_1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX207_1" sd_roar="SX207_2" sd_howl="SX207_3" sd_dead="SX207_4" txm_zoom="1" can_pitch="0" run_adjust="1"/>
+	<NPC id="N17" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX204_1" sd_roar="SX204_2" sd_howl="SX204_3" sd_dead="SX204_4" txm_zoom="1" can_pitch="0" run_adjust="1"/>
+	<NPC id="N17_1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX204_1" sd_roar="SX204_2" sd_howl="SX204_3" sd_dead="SX204_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="N18" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX205_1" sd_roar="SX205_2" sd_howl="SX205_3" sd_dead="SX205_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="N18_1" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX205_1" sd_roar="SX205_2" sd_howl="SX205_3" sd_dead="SX205_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="N19" can_pitch="0" run_adjust="1"/>
+	<NPC id="N20" tag_Face="Bip01 Head" tag_Hat="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX208_1" sd_roar="SX208_2" sd_howl="SX208_3" sd_dead="SX208_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="N20_1" tag_Face="Bip01 Head" tag_Hat="Bip01 Head" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX208_1" sd_roar="SX208_2" sd_howl="SX208_3" sd_dead="SX208_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="N21" sd_inter_combat="SX209_1" sd_roar="SX209_2" sd_howl="SX209_3" sd_dead="SX209_4" can_pitch="0" run_adjust="1"/>
+	<NPC id="N22" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX206_1" sd_roar="SX206_2" sd_howl="SX206_3" sd_dead="SX206_4" txm_zoom="1" can_pitch="0" run_adjust="1"/>
+	<NPC id="N23" can_pitch="0" run_adjust="1"/>
+	<NPC id="N24" can_pitch="0" run_adjust="1"/>
+	<NPC id="N25" can_pitch="0" run_adjust="1"/>
+	<NPC id="N26" can_pitch="0" run_adjust="1"/>
+	<NPC id="N27" can_pitch="0" run_adjust="1"/>
+	<NPC id="N28" can_pitch="0" run_adjust="1"/>
+	<NPC id="N29" can_pitch="0" run_adjust="1"/>
+	<NPC id="N30" can_pitch="0" run_adjust="1"/>
+	<NPC id="N31" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX204_1" sd_roar="SX204_2" sd_howl="SX204_3" sd_dead="SX204_4" can_pitch="0" run_adjust="1"/>
+	<NPC id="N32" sd_inter_combat="SX204_1" sd_roar="SX204_2" sd_howl="SX204_3" sd_dead="SX204_4" can_pitch="0" run_adjust="1"/>
+	<NPC id="N33" tag_Face="Bip01 tb" tag_Hat="Bip01 tbNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX204_1" sd_roar="SX204_2" sd_howl="SX204_3" sd_dead="SX204_4" can_pitch="0" run_adjust="1"/>
+	<NPC id="N34" tag_Face="Bip01 tb" tag_Hat="Bip01 tb" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX205_1" sd_roar="SX205_2" sd_howl="SX205_3" sd_dead="SX205_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="N35" can_pitch="0" run_adjust="1"/>
+	<NPC id="N36" can_pitch="0" run_adjust="1"/>
+	<NPC id="N37" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX204_1" sd_roar="SX204_2" sd_howl="SX204_3" sd_dead="SX204_4" can_pitch="0" run_adjust="1"/>
+	<NPC id="N39" tag_Face="Bone30" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Finger0Nub" tag_LHd="Bip01 L Finger0Nub" can_pitch="0" run_adjust="1"/>
+	<NPC id="N40" tag_Face="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Finger0Nub" tag_LHd="Bip01 L Finger0Nub" can_pitch="0" run_adjust="1"/>
+	<NPC id="N41" tag_Face="Bip01 HeadNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Finger0Nub" tag_LHd="Bip01 L Finger0Nub" can_pitch="0" run_adjust="1"/>
+	<NPC id="N43" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX251_1" sd_roar="SX251_2" sd_howl="SX251_3" sd_dead="SX251_4" can_pitch="0" run_adjust="1"/>
+	<NPC id="N44" sd_inter_combat="SX252_1" sd_roar="SX252_2" sd_howl="SX252_3" sd_dead="SX252_4" can_pitch="0" run_adjust="1"/>
+	<NPC id="N45" sd_inter_combat="SX253_1" sd_roar="SX253_2" sd_howl="SX253_3" sd_dead="SX253_4" can_pitch="0" run_adjust="1"/>
+	<NPC id="N46" sd_inter_combat="SX254_1" sd_roar="SX254_2" sd_howl="SX254_3" sd_dead="SX254_4" can_pitch="0" run_adjust="1"/>
+	<NPC id="N47" sd_inter_combat="SX255_1" sd_roar="SX255_2" sd_howl="SX255_3" sd_dead="SX255_4" can_pitch="0" run_adjust="1"/>
+	<NPC id="N48" tag_Face="Bip01 Head" tag_Hat="Bone11" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX256_1" sd_roar="SX256_2" sd_howl="SX256_3" sd_dead="SX256_4" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="N49" sd_inter_combat="SX257_1" sd_roar="SX257_2" sd_howl="SX257_3" sd_dead="SX257_4" can_pitch="0" run_adjust="1"/>
+	<NPC id="N50" sd_inter_combat="SX258_1" sd_roar="SX258_2" sd_howl="SX258_3" sd_dead="SX258_4" can_pitch="0" run_adjust="1"/>
+	<NPC id="N51" can_pitch="0" run_adjust="1"/>
+	<NPC id="N52" can_pitch="0" run_adjust="1"/>
+	<NPC id="N54" can_pitch="0" run_adjust="1"/>
+	<NPC id="N55" can_pitch="0" run_adjust="1"/>
+	<NPC id="N56" can_pitch="0" run_adjust="1"/>
+	<NPC id="N57" can_pitch="0" run_adjust="1"/>
+	<NPC id="N58" can_pitch="0" run_adjust="1"/>
+	<NPC id="N59" tag_Face="Bip01 hat" tag_Hat="Bip01 hatNub" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" can_pitch="0" run_adjust="1"/>
+	<NPC id="N60" can_pitch="0" run_adjust="1"/>
+	<NPC id="N61" can_pitch="0" run_adjust="1"/>
+	<NPC id="N62" can_pitch="0" run_adjust="1"/>
+	<NPC id="N63" can_pitch="0" run_adjust="1"/>
+	<NPC id="N63_1" can_pitch="0" run_adjust="1"/>
+	<NPC id="N64" can_pitch="0" run_adjust="1"/>
+	<NPC id="N64_1" can_pitch="0" run_adjust="1"/>
+	<NPC id="N65" can_pitch="0" run_adjust="1"/>
+	<NPC id="N66" can_pitch="0" run_adjust="1"/>
+	<NPC id="N67" can_pitch="0" run_adjust="0"/>
+	<NPC id="N68" can_pitch="0" run_adjust="1"/>
+	<NPC id="M101" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine4" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX101_1" sd_roar="SX101_2" sd_howl="SX101_3" sd_dead="SX101_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M102" sd_inter_combat="SX102_1" sd_roar="SX102_2" sd_howl="SX102_3" sd_dead="SX102_4" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M103" tag_Face="Bone53" tag_Hat="Bone53" tag_Back="Bone03" tag_RSld="Bone03" tag_LSld="Bone03" tag_RHd="Bone150" tag_LHd="Bone150" sd_inter_combat="SX103_1" sd_roar="SX103_2" sd_howl="SX103_3" sd_dead="SX103_4" can_pitch="0" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M104" tag_Face="Bone02" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX104_1" sd_roar="SX104_2" sd_howl="SX104_3" sd_dead="SX104_4" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M105" sd_inter_combat="SX104_1" sd_roar="SX104_2" sd_howl="SX104_3" sd_dead="SX104_4" can_pitch="0" tx_natk="Tx_crm6" run_adjust="1"/>
+	<NPC id="M106" tag_Face="Bip01 Head" tag_Hat="Bone23" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX104_1" sd_roar="SX104_2" sd_howl="SX104_3" sd_dead="SX104_4" txm_zoom="3" can_pitch="0" tx_natk="Tx_crm6" run_adjust="1"/>
+	<NPC id="M107" tag_Face="Bone09" tag_Hat="Bone09" tag_Back="Bone29" tag_RSld="Bone41" tag_LSld="Bone59" tag_RHd="Bone43" tag_LHd="Bone61" sd_inter_combat="SX105_1" sd_roar="SX105_2" sd_howl="SX105_3" sd_dead="SX105_4" can_pitch="0" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M108" tag_Face="Bip01 Head" tag_Hat="Bone15" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX106_1" sd_roar="SX106_2" sd_howl="SX106_3" sd_dead="SX106_4" txm_zoom="4" can_pitch="0" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M109" tag_Face="Bip01 Head" tag_Hat="Bone82" tag_Back="Bip01 Spine1" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" tag_Wep1="Bone140" sd_inter_combat="SX107_1" sd_roar="SX107_2" sd_howl="SX107_3" sd_dead="SX107_4" can_pitch="0" tx_natk="Tx_crm3" run_adjust="1"/>
+	<NPC id="M110" sd_inter_combat="SX108_1" sd_roar="SX108_2" sd_howl="SX108_3" sd_dead="SX108_4" can_pitch="1" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M111" tag_Face="Bip01 Head" tag_Hat="Bip01 Head" tag_Back="Bip01 Head" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" sd_inter_combat="SX109_1" sd_roar="SX109_2" sd_howl="SX109_3" sd_dead="SX109_4" can_pitch="1" tx_natk="Tx_crm6" run_adjust="1"/>
+	<NPC id="M112" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bip01 Spine3" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" tag_Wep1="Bone37" sd_inter_combat="SX110_1" sd_roar="SX110_2" sd_howl="SX110_3" sd_dead="SX110_4" txm_zoom="3" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M113" sd_inter_combat="SX111_1" sd_roar="SX111_2" sd_howl="SX111_3" sd_dead="SX111_4" txm_zoom="3" can_pitch="0" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M114" tag_Face="Bip01 Head" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX112_1" sd_roar="SX112_2" sd_howl="SX112_3" sd_dead="SX112_4" txm_zoom="3.5" can_pitch="1" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M115" tag_Face="bone12" tag_Hat="bone19" tag_Back="Bone01" tag_RSld="Bone23" tag_LSld="Bone74" tag_RHd="Bone50" tag_LHd="Bone61" sd_inter_combat="SX113_1" sd_roar="SX113_2" sd_howl="SX113_3" sd_dead="SX113_4" can_pitch="0" tx_natk="Tx_crm2" run_adjust="1"/>
+	<NPC id="M116" tag_Face="Bip01 Head" tag_Hat="bone49" tag_Back="Bip01 Spine" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" sd_inter_combat="SX114_1" sd_roar="SX114_2" sd_howl="SX114_3" sd_dead="SX114_4" can_pitch="1" tx_natk="Tx_crm6" run_adjust="1"/>
+	<NPC id="M117" tag_Face="Bip01 Head" tag_Hat="bone26" tag_Back="Bip01 Spine2" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" tag_Wep1="Bone95" sd_inter_combat="SX115_1" sd_roar="SX115_2" sd_howl="SX115_3" sd_dead="SX115_4" txm_zoom="3" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M118" tag_Face="Bip01 Head" tag_Hat="Bip01 HeadNub" tag_Back="Bone60" tag_RSld="Bip01 R Clavicle" tag_LSld="Bip01 L Clavicle" tag_RHd="Bip01 R Hand" tag_LHd="Bip01 L Hand" tag_Wep1="Bone53" sd_inter_combat="SX116_1" sd_roar="SX116_2" sd_howl="SX116_3" sd_dead="SX116_4" txm_zoom="2.8" can_pitch="0" tx_natk="Tx_crm5" run_adjust="1"/>
+	<NPC id="M119" sd_inter_combat="SX70_1" sd_roar="SX70_2" sd_howl="SX70_3" sd_dead="SX70_4" txm_zoom="3" can_pitch="0" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M121" sd_inter_combat="SX70_1" sd_roar="SX70_2" sd_howl="SX70_3" sd_dead="SX70_4" txm_zoom="3" can_pitch="0" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M122" sd_inter_combat="SX70_1" sd_roar="SX70_2" sd_howl="SX70_3" sd_dead="SX70_4" txm_zoom="3" can_pitch="0" tx_natk="Tx_crm1" run_adjust="1"/>
+	<NPC id="M801_a" sd_inter_combat="SX31_1" sd_roar="SX31_2" sd_howl="SX31_3" sd_dead="SX31_4" txm_zoom="0.3" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="M801_b" sd_inter_combat="SX95_1" sd_roar="SX95_2" sd_howl="SX95_3" sd_dead="SX95_4" txm_zoom="1.5" can_pitch="0" tx_natk="Tx_crm4" run_adjust="1"/>
+	<NPC id="CJ01_1" tag_Face="Dummy01" tag_Back="Dummy01" tag_RSld="Dummy01" tag_LSld="Dummy01" tag_RHd="Dummy01" tag_LHd="Dummy01" can_pitch="1" sd_foot="SCF07" run_adjust="1"/>
+	<NPC id="CJ02_1" tag_Face="Bone11" tag_Back="Bone11" tag_RSld="Bone11" tag_LSld="Bone11" tag_RHd="Bone11" tag_LHd="Bone11" can_pitch="1" sd_foot="SCF07" run_adjust="1"/>
+	<NPC id="CJ03_1" tag_Face="Bone23" tag_Back="Bone20" tag_RSld="Bone20" tag_LSld="Bone20" tag_RHd="Bone20" tag_LHd="Bone20" can_pitch="1" sd_foot="SCF07" run_adjust="1"/>
+	<NPC id="PET100_a" can_pitch="0" camera_X="0" camera_Y="105" camera_Z="-130" run_adjust="1"/>
+	<NPC id="PET101_a" can_pitch="0" camera_X="0" camera_Y="85" camera_Z="-120" run_adjust="1"/>
+	<NPC id="PET102_a" can_pitch="0" camera_X="0" camera_Y="240" camera_Z="-1000" run_adjust="1"/>
+	<NPC id="PET103_a" can_pitch="0" camera_X="0" camera_Y="240" camera_Z="-1000" run_adjust="1"/>
+	<NPC id="PET104_a" can_pitch="0" camera_X="0" camera_Y="240" camera_Z="-1000" run_adjust="1"/>
+	<NPC id="PET105_a" can_pitch="0" camera_X="0" camera_Y="80" camera_Z="-150" run_adjust="1"/>
+	<NPC id="PET106_a" can_pitch="0" camera_X="0" camera_Y="80" camera_Z="-150" run_adjust="1"/>
+	<NPC id="PET107_a" can_pitch="0" camera_X="0" camera_Y="140" camera_Z="-100" run_adjust="1"/>
+	<NPC id="PET108_a" can_pitch="0" camera_X="0" camera_Y="140" camera_Z="-80" run_adjust="1"/>
+	<NPC id="PET109_a" can_pitch="0" camera_X="0" camera_Y="20" camera_Z="-130" run_adjust="1"/>
+	<NPC id="PET110_a" can_pitch="0" camera_X="0" camera_Y="20" camera_Z="-120" run_adjust="1"/>
+	<NPC id="PET111_a" can_pitch="0" camera_X="0" camera_Y="20" camera_Z="-115" run_adjust="1"/>
+	<NPC id="PET112_a" can_pitch="0" camera_X="0" camera_Y="140" camera_Z="-140" run_adjust="1"/>
+	<NPC id="PET113_a" can_pitch="0" camera_X="0" camera_Y="140" camera_Z="-105" run_adjust="1"/>
+	<NPC id="PET124_a" can_pitch="0" camera_X="0" camera_Y="30" camera_Z="-150" run_adjust="1"/>
+	<NPC id="PET129_a" can_pitch="0" camera_X="0" camera_Y="130" camera_Z="-130" run_adjust="1"/>
+	<NPC id="PET130_a" can_pitch="0" camera_X="0" camera_Y="105" camera_Z="-100" run_adjust="1"/>
+	<NPC id="PET131_a" can_pitch="0" camera_X="0" camera_Y="110" camera_Z="-150" run_adjust="1"/>
+	<NPC id="PET01_b" can_pitch="1" sd_foot="SCF04" camera_X="0" camera_Y="115" camera_Z="-450" run_adjust="1"/>
+	<NPC id="PET201_b" can_pitch="1" sd_foot="SCF04" camera_X="0" camera_Y="45" camera_Z="-180" run_adjust="1"/>
+	<NPC id="PET202_b" can_pitch="1" sd_foot="SCF04" camera_X="0" camera_Y="45" camera_Z="-170" run_adjust="1"/>
+	<NPC id="PET203_b" can_pitch="2" sd_foot="SCF05" camera_X="0" camera_Y="45" camera_Z="-170" run_adjust="1"/>
+	<NPC id="PET204_b" can_pitch="1" sd_foot="SCF02" camera_X="0" camera_Y="110" camera_Z="-700" run_adjust="1"/>
+	<NPC id="PET205_b" can_pitch="1" sd_foot="SCF02" camera_X="0" camera_Y="110" camera_Z="-700" run_adjust="1"/>
+	<NPC id="PET206_b" can_pitch="0" sd_foot="SCF02" camera_X="0" camera_Y="150" camera_Z="-700" run_adjust="1"/>
+	<NPC id="PET207_b" can_pitch="0" sd_foot="SCF02" camera_X="0" camera_Y="160" camera_Z="-690" run_adjust="1"/>
+	<NPC id="PET208_b" can_pitch="0" sd_foot="SCF03" camera_X="0" camera_Y="170" camera_Z="-750" run_adjust="1"/>
+	<NPC id="PET209_b" can_pitch="0" sd_foot="SCF03" camera_X="0" camera_Y="180" camera_Z="-550" run_adjust="1"/>
+	<NPC id="PET210_b" can_pitch="1" sd_foot="SCF02" camera_X="0" camera_Y="60" camera_Z="-330" run_adjust="1"/>
+	<NPC id="PET212_b" can_pitch="1" sd_foot="SCF04" camera_X="0" camera_Y="120" camera_Z="-500" run_adjust="1"/>
+	<NPC id="PET213_b" can_pitch="1" sd_foot="SCF02" camera_X="0" camera_Y="130" camera_Z="-580" run_adjust="1"/>
+	<NPC id="PET214_b" can_pitch="1" sd_foot="SCF03" camera_X="0" camera_Y="80" camera_Z="-400" run_adjust="1"/>
+	<NPC id="PET215_b" can_pitch="1" sd_foot="SCF03" camera_X="0" camera_Y="80" camera_Z="-400" run_adjust="1"/>
+	<NPC id="PET216_b" can_pitch="1" sd_foot="SCF03" camera_X="0" camera_Y="120" camera_Z="-700" run_adjust="1"/>
+	<NPC id="PET217_b" can_pitch="1" camera_X="0" camera_Y="100" camera_Z="-470" run_adjust="1"/>
+	<NPC id="PET218_b" can_pitch="1" camera_X="0" camera_Y="350" camera_Z="-2000" run_adjust="1"/>
+	<NPC id="PET219_b" can_pitch="1" camera_X="0" camera_Y="350" camera_Z="-2000" run_adjust="1"/>
+	<NPC id="PET220_b" can_pitch="1" camera_X="0" camera_Y="180" camera_Z="-600" run_adjust="1"/>
+	<NPC id="PET221_b" can_pitch="1" camera_X="0" camera_Y="180" camera_Z="-600" run_adjust="1"/>
+	<NPC id="PET222_b" can_pitch="1" camera_X="0" camera_Y="180" camera_Z="-600" run_adjust="1"/>
+	<NPC id="PET223_b" can_pitch="1" camera_X="0" camera_Y="180" camera_Z="-600" run_adjust="1"/>
+	<NPC id="PET20" can_pitch="0" camera_X="0" camera_Y="40" camera_Z="-130" run_adjust="1"/>
+	<NPC id="PET21" can_pitch="0" camera_X="0" camera_Y="40" camera_Z="-130" run_adjust="1"/>
+	<NPC id="PET22" can_pitch="0" camera_X="0" camera_Y="55" camera_Z="-250" run_adjust="1"/>
+	<NPC id="PET23" can_pitch="0" camera_X="0" camera_Y="30" camera_Z="-130" run_adjust="1"/>
+	<NPC id="PET24" can_pitch="0" camera_X="0" camera_Y="30" camera_Z="-130" run_adjust="1"/>
+	<NPC id="PET35_a" can_pitch="0" camera_X="0" camera_Y="50" camera_Z="-300" run_adjust="1"/>
+	<NPC id="PET36_a" can_pitch="0" camera_X="0" camera_Y="50" camera_Z="-300" run_adjust="1"/>
+	<NPC id="PET114_a" can_pitch="0" camera_X="0" camera_Y="70" camera_Z="-200" run_adjust="1"/>
+	<NPC id="PET115_a" can_pitch="0" camera_X="0" camera_Y="70" camera_Z="-200" run_adjust="1"/>
+	<NPC id="PET116_a" can_pitch="0" camera_X="0" camera_Y="70" camera_Z="-200" run_adjust="1"/>
+	<NPC id="PET117_a" can_pitch="0" camera_X="0" camera_Y="70" camera_Z="-200" run_adjust="1"/>
+	<NPC id="PET118_a" can_pitch="0" camera_X="0" camera_Y="30" camera_Z="-180" run_adjust="1"/>
+	<NPC id="PET123_a" can_pitch="0" camera_X="0" camera_Y="20" camera_Z="-130" run_adjust="1"/>
+	<NPC id="PET225_a" can_pitch="0" sd_foot="SCF03" camera_X="0" camera_Y="80" camera_Z="-480" run_adjust="1"/>
+	<NPC id="PET225_b" can_pitch="0" sd_foot="SCF03" camera_X="0" camera_Y="80" camera_Z="-480" run_adjust="1"/>
+	<NPC id="PET224a" can_pitch="0" camera_X="0" camera_Y="190" camera_Z="-770" run_adjust="1"/>
+	<NPC id="PET224b" can_pitch="0" camera_X="0" camera_Y="180" camera_Z="-770" run_adjust="1"/>
+	<NPC id="Y01_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y02_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y03_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y04_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y05_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y06_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y07_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y08_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y09_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y10_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y11_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y12_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y13_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y14_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y17_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+	<NPC id="Y18_1" txm_zoom="1" can_pitch="0" tx_natk="Tx_crm4" run_adjust="0"/>
+</root>

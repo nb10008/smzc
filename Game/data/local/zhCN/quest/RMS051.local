@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20651" />
+    <entry Name="玉门冥狱" />
+    <entry Conditions="" />
+    <entry Overview="从&lt;N&gt;玉门山&lt;/N&gt;西侧，和&lt;N&gt;原神圣殿&lt;/N&gt;的&lt;A&gt;&lt;L=d08,1070041&gt;原神教魔女&lt;/L&gt;&lt;/A&gt;身上收集&lt;C&gt;500&lt;/C&gt;颗&lt;I&gt;罪恶的灵魂&lt;/I&gt;，交给&lt;D&gt;&lt;L=s08,5010210&gt;瓦尔特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

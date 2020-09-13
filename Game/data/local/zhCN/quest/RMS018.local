@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20618" />
+    <entry Name="夺圣物" />
+    <entry Conditions="" />
+    <entry Overview="消灭&lt;A&gt;&lt;L=s08,1070017&gt;狂风放蛊者&lt;/L&gt;&lt;/A&gt;&lt;C&gt;80&lt;/C&gt;名、&lt;A&gt;&lt;L=s08,1070001&gt;狂风狙击者&lt;/L&gt;&lt;/A&gt;&lt;C&gt;60&lt;/C&gt;名，&lt;color=0xffff6000&gt;&lt;L=s08,1070055&gt;狂风魔武士&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;20&lt;/C&gt;名，&lt;color=0xffff0000&gt;&lt;L=s08,1070076&gt;风斩&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;1&lt;/C&gt;名，之后将风斩手中的&lt;I&gt;冥王之心&lt;/I&gt;交给&lt;D&gt;&lt;L=s08,5010206&gt;幽露&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

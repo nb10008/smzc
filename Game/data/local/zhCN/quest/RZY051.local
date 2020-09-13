@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40051" />
+    <entry Name="妖精的庄园" />
+    <entry Conditions="" />
+    <entry Overview="&lt;D&gt;妖精芙希希&lt;/D&gt;希望你到&lt;N&gt;妖精农场&lt;/N&gt;去，找那里的妖精庄园主&lt;D&gt;&lt;L=s51,5800075&gt;艾欧里奥&lt;/L&gt;&lt;/D&gt;要&lt;C&gt;一&lt;/C&gt;个&lt;I&gt;火桃酱面包&lt;/I&gt;。\n提示：可通过&lt;N&gt;斗战天城&lt;/N&gt;的&lt;D&gt;&lt;L=s02,5800085&gt;妖精农场传送人&lt;/L&gt;&lt;/D&gt;前往&lt;N&gt;妖精农场&lt;/N&gt;。&#x0A;" />
+</quest-local>

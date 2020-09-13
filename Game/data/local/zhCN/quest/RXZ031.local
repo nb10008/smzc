@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20431" />
+    <entry Name="削弱三鬼教" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;N&gt;虎啸林&lt;/N&gt;，消灭&lt;C&gt;80&lt;/C&gt;个&lt;A&gt;&lt;L=s06,1050005&gt;三鬼门徒&lt;/L&gt;&lt;/A&gt;，然后去找&lt;D&gt;&lt;L=s06,5511016&gt;戴布拉&lt;/L&gt;&lt;/D&gt;。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv55]&lt;/S&gt;真假魔王:55级后可参与&lt;P&gt;真假魔王活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv57]&lt;/S&gt;裁决之所:57级后可挑战&lt;P&gt;副本裁决之所&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv60]&lt;/S&gt;职业进阶:60级后可进行&lt;T&gt;二次转职&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv60]&lt;/S&gt;伪魔神装:60级后升级&lt;I&gt;传说装备&lt;/I&gt;获得&#x0A;\n&lt;S&gt;[Lv60]&lt;/S&gt;魔神装备:60级后的副本掉落&lt;I&gt;紫色魔神装备&lt;/I&gt;&#x0A;\n&lt;S&gt;[Lv60]&lt;/S&gt;妖精特技:60级后的&lt;A&gt;妖精&lt;/A&gt;开始拥有特技&#x0A;\n&lt;S&gt;[Lv61]&lt;/S&gt;高阶技能:61级可在学习&lt;T&gt;高阶职业技能&lt;/T&gt;&#x0A;" />
+</quest-local>

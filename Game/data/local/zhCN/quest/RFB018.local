@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="29018" />
+    <entry Name="古堡骑士的怨恨" />
+    <entry Conditions="" />
+    <entry Overview="前往&lt;N&gt;黑暗学院&lt;/N&gt;，找到黑暗学院中的&lt;color=0xffff0000&gt;黑暗古堡骑士埃斯特斯&lt;color=0xffffffff&gt;，将其消灭后回复&lt;D&gt;&lt;L=s04,5510635&gt;神学院长奥德利&lt;/L&gt;&lt;/D&gt;&#x0A;\n将&lt;N&gt;黑暗学院&lt;/N&gt;的&lt;color=0xffff0000&gt;恶灵女骑士米尔卡&lt;color=0xffffffff&gt;击败后会出现指引人，通过指引人的对话，你将有机会找到&lt;color=0xffff0000&gt;埃斯特斯&lt;color=0xffffffff&gt;" />
+</quest-local>

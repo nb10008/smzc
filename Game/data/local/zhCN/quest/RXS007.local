@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20007" />
+    <entry Name="清剿花妖" />
+    <entry Conditions="" />
+    <entry Overview="前往南边杀死&lt;C&gt;4&lt;/C&gt;只&lt;A&gt;&lt;L=m10,1010018&gt;花妖&lt;/L&gt;&lt;/A&gt;，然后回复&lt;D&gt;&lt;L=m10,5010015&gt;神教官达蒙&lt;/L&gt;&lt;/D&gt;。（点击橙色字体进行自动寻路，找到对应的怪物）" />
+</quest-local>

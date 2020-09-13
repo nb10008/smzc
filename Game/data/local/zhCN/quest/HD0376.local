@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30376" />
+    <entry Name="领取丘比特之箭" />
+    <entry Conditions="" />
+    <entry Overview="将&lt;C&gt;10&lt;/C&gt;张&lt;I&gt;亲吻卡&lt;/I&gt;、&lt;C&gt;10&lt;/C&gt;张&lt;I&gt;拥抱卡&lt;/I&gt;、&lt;C&gt;10&lt;/C&gt;张&lt;I&gt;依偎卡&lt;/I&gt;以及&lt;C&gt;1314&lt;/C&gt;金交给&lt;D&gt;&lt;L=s02,5600058&gt;爱神丘比特&lt;/L&gt;&lt;/D&gt;，即可换取&lt;C&gt;1&lt;/C&gt;支&lt;color=0xffff80ff&gt;丘比特之箭&lt;color=0xffffffff&gt;。&#x0A;\n&lt;I&gt;亲吻卡&lt;/I&gt;、&lt;I&gt;拥抱卡&lt;/I&gt;、&lt;I&gt;依偎卡&lt;/I&gt;可通过击杀野外怪物获得。" />
+</quest-local>

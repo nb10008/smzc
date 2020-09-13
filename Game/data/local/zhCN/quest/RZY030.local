@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40030" />
+    <entry Name="吸魂附魂" />
+    <entry Conditions="" />
+    <entry Overview="对&lt;I&gt;实验戒指+2&lt;/I&gt;进行吸魂，获得&lt;C&gt;1&lt;/C&gt;颗&lt;I&gt;附魂石+2&lt;/I&gt;后回复&lt;D&gt;&lt;L=s02,5010084&gt;器魂师凯亚&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

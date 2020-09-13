@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20018" />
+    <entry Name="前往斗战天城" />
+    <entry Conditions="" />
+    <entry Overview="通过北方的传送门，前往&lt;N&gt;斗战天城&lt;/N&gt;，抵达后找到&lt;D&gt;&lt;L=s02,5010026&gt;凤羽&lt;/L&gt;&lt;/D&gt;，她将为你进行下一步的指引。" />
+</quest-local>

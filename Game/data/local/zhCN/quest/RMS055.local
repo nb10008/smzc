@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20655" />
+    <entry Name="原神双王" />
+    <entry Conditions="" />
+    <entry Overview="&lt;A&gt;&lt;L=d08,1070041&gt;原神教魔女&lt;/L&gt;&lt;/A&gt;&lt;C&gt;200&lt;/C&gt;名，&lt;A&gt;&lt;L=d08,1070042&gt;恐怖卫士&lt;/L&gt;&lt;/A&gt;&lt;C&gt;220&lt;/C&gt;名，&lt;A&gt;&lt;L=d08,1070043&gt;原神教神官&lt;/L&gt;&lt;/A&gt;&lt;C&gt;250&lt;/C&gt;名，&lt;color=0xffff6000&gt;&lt;L=d08,1070067&gt;原神魔使&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;100&lt;/C&gt;名，再加&lt;color=0xffff0000&gt;&lt;L=d08,1070087&gt;神使彻天左&lt;/L&gt;&lt;color=0xffffffff&gt;，&lt;color=0xffff0000&gt;&lt;L=s08,1070088&gt;神使彻天右&lt;/L&gt;&lt;color=0xffffffff&gt;，达成目标后回复&lt;D&gt;&lt;L=s08,5010210&gt;瓦尔特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

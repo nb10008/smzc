@@ -1,0 +1,63 @@
+sampler g_bumpMap 		: register(s0);
+sampler g_alphaMap 		: register(s1);
+sampler g_reflectMap 	: register(s2);
+sampler g_refractMap 	: register(s3);
+
+float 		g_bumpScale;
+float	 	g_specularPow;
+float       g_specularScale;
+
+half4 main( float4 pos 			: POSITION,
+			float3 alphaMap 	: TEXCOORD0,
+			float3 reflectMap   : TEXCOORD1,
+			float3 refractMap   : TEXCOORD2,
+			float4 Wave0		: TEXCOORD3, 
+			float4 Wave1		: TEXCOORD4,
+			float3 viewDirInTexSpace : TEXCOORD5,
+			float3 halfDirInTexSpace : TEXCOORD6,
+			float4 specular 	: COLOR0 ) : COLOR0
+{
+	half fAlpha = tex2D(g_alphaMap, alphaMap.xy).a;
+	
+	// Get bump layers
+    half3 vBumpTexA = tex2D(g_bumpMap, Wave0.xy).xyz;
+    half3 vBumpTexB = tex2D(g_bumpMap, Wave0.zw).xyz;
+    half3 vBumpTexC = tex2D(g_bumpMap, Wave1.xy).xyz;
+    half3 vBumpTexD = tex2D(g_bumpMap, Wave1.zw).xyz;
+  
+    // Average bump layers
+    half3 vBumpTex=normalize(2.0 * (vBumpTexA.xyz + vBumpTexB.xyz + vBumpTexC.xyz + vBumpTexD.xyz)-4.0);
+    
+	// Apply individual bump scale for reflection and reflration
+	half2 vReflBump = vBumpTex.xy * g_bumpScale * fAlpha; 
+	half2 vRefrBump = vReflBump * 0.5;
+	
+	reflectMap.xy /= reflectMap.z;
+	refractMap.xy /= refractMap.z;     
+	
+	half3 cReflection = tex2D(g_reflectMap, reflectMap.xy + vReflBump.xy).rgb;
+	
+	half4 vRefrA = tex2D(g_refractMap, refractMap.xy + vRefrBump.xy);
+	half3 vRefrB = tex2D(g_refractMap, refractMap.xy).rgb;
+ 
+	// Mask occluders from refraction map
+	half3 cRefraction = vRefrB * vRefrA.a + vRefrA.rgb * (1 - vRefrA.a);	
+	
+	// Compute Fresnel term
+	half NdotV = max(dot(viewDirInTexSpace, half3(vReflBump,1.0)), 0.0);
+	half r = 0.02;
+	half fresnel = max( r + (1.0 - r) * pow((1.0 - NdotV),5.0), 0.0 );
+	fresnel = lerp( 0.2, 0.8, fresnel ) * fAlpha;
+
+	half4 ret;
+	ret.rgb = cReflection * fresnel + cRefraction * ( 1 - fresnel ); 
+	ret.a = fAlpha==0?0:min(max(alphaMap.z/50,0.01),1);
+	
+	vBumpTex.xy *= g_specularScale;
+	float3 vNormal = normalize( vBumpTex );
+	float fSpecular = pow(saturate(dot(halfDirInTexSpace,vNormal)), g_specularPow);
+	
+	ret.rgb += specular * fSpecular * fAlpha;	
+	
+	return ret;
+}

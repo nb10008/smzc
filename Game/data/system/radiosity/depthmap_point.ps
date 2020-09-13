@@ -1,0 +1,14 @@
+float g_fNoBlockRange;
+float g_fZFar;
+
+sampler2D g_Tex 		: register(s0);
+
+float4 main( float3 toLight : TEXCOORD0, float2 tex : TEXCOORD1 ) : COLOR0
+{
+	float a=tex2D(g_Tex,tex).a;
+	float color=length(toLight);
+	if( color < g_fNoBlockRange )
+		color = g_fZFar;
+	
+	return float4(color,color,color,a);
+}

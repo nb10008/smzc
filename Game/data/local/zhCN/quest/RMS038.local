@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20638" />
+    <entry Name="一闯狂沙洞" />
+    <entry Conditions="" />
+    <entry Overview="&lt;A&gt;&lt;L=d09,1070027&gt;熔洞石魔&lt;/L&gt;&lt;/A&gt;&lt;C&gt;100&lt;/C&gt;只，&lt;A&gt;&lt;L=d09,1070028&gt;熔岩凝聚者&lt;/L&gt;&lt;/A&gt;&lt;C&gt;100&lt;/C&gt;只，&lt;A&gt;&lt;L=d09,1070029&gt;熔岩核魔&lt;/L&gt;&lt;/A&gt;&lt;C&gt;50&lt;/C&gt;只，&lt;color=0xffff6000&gt;&lt;L=d09,1070060&gt;熔洞大型石魔&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;30&lt;/C&gt;只，&lt;color=0xffff0000&gt;&lt;L=d09,1070081&gt;岩浆精华之心&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;1&lt;/C&gt;只，达到目标后回复&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

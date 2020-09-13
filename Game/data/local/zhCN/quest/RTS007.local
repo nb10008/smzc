@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="50007" />
+    <entry Name="巴多的请求" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;I&gt;金色魔石&lt;/I&gt;、&lt;I&gt;黑色魔石&lt;/I&gt;、&lt;I&gt;红色魔石&lt;/I&gt;、&lt;I&gt;蓝色魔石&lt;/I&gt;各&lt;C&gt;1&lt;/C&gt;个，交给&lt;D&gt;&lt;L=s04,5010200&gt;爱吃魔石的巴多&lt;/L&gt;&lt;/D&gt;。\n \n&lt;T&gt;提示：魔石需要用小魔锤砸魔核才可获得\n提示：所有石质怪物都有几率掉落魔核\n提示：20-30级怪物均有几率掉落小魔锤&lt;/T&gt;" />
+</quest-local>

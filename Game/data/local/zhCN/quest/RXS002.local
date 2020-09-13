@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20002" />
+    <entry Name="武器挑选" />
+    <entry Conditions="" />
+    <entry Overview="接下来请前往&lt;D&gt;&lt;L=m10,5010012&gt;艾弗丝&lt;/L&gt;&lt;/D&gt;处领取一件适合自己的武器。\n&lt;T&gt;请务必选择一件武器作为任务奖励，方可完成任务。&lt;/T&gt;（点击&lt;D&gt;绿色字体&lt;/D&gt;进行自动寻路，找到对应的NPC）" />
+</quest-local>

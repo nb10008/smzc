@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40048" />
+    <entry Name="妖精的心情" />
+    <entry Conditions="" />
+    <entry Overview="继续与&lt;D&gt;&lt;L=s05,5511027&gt;妖精法蒂拉&lt;/L&gt;&lt;/D&gt;对话，了解关于妖精心情的事情。" />
+</quest-local>

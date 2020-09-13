@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40020" />
+    <entry Name="装备强化" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;20&lt;/C&gt;份&lt;I&gt;结晶&lt;/I&gt;，与&lt;D&gt;&lt;L=s02,5010083&gt;罗梅达亚&lt;/L&gt;&lt;/D&gt;交换更多的强化石和幸运符" />
+</quest-local>

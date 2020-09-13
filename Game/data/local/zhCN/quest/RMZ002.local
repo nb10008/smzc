@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20502" />
+    <entry Name="魔族先锋" />
+    <entry Conditions="" />
+    <entry Overview="除掉&lt;C&gt;45&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060005&gt;丛林袭击者&lt;/L&gt;&lt;/A&gt;和&lt;A&gt;&lt;L=s07,1060006&gt;丛林突袭者&lt;/L&gt;&lt;/A&gt;，然后回复&lt;D&gt;&lt;L=s07,5010164&gt;树神哈伦斯&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

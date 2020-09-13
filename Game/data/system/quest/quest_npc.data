@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-npc-relation>
+    <entry NPCID="5010027" QuestID="30867" />
+    <entry NPCID="5010029" QuestID="30867" />
+    <entry NPCID="5010083" QuestID="30868" />
+    <entry NPCID="5010192" QuestID="41000" />
+    <entry NPCID="5010192" QuestID="41001" />
+    <entry NPCID="5010193" QuestID="41000" />
+    <entry NPCID="5010193" QuestID="41002" />
+    <entry NPCID="5010194" QuestID="41000" />
+    <entry NPCID="5010194" QuestID="41004" />
+    <entry NPCID="5010195" QuestID="41000" />
+    <entry NPCID="5010195" QuestID="41003" />
+    <entry NPCID="5010211" QuestID="20411" />
+    <entry NPCID="5010212" QuestID="20411" />
+    <entry NPCID="5010213" QuestID="20411" />
+    <entry NPCID="5010214" QuestID="20411" />
+    <entry NPCID="5010227" QuestID="30867" />
+    <entry NPCID="5010243" QuestID="30800" />
+    <entry NPCID="5511013" QuestID="20021" />
+    <entry NPCID="5513017" QuestID="30804" />
+    <entry NPCID="5600058" QuestID="30802" />
+    <entry NPCID="5610022" QuestID="30801" />
+    <entry NPCID="5610047" QuestID="30803" />
+    <entry NPCID="5610050" QuestID="30796" />
+    <entry NPCID="5610050" QuestID="30819" />
+    <entry NPCID="5610053" QuestID="30795" />
+</quest-npc-relation>

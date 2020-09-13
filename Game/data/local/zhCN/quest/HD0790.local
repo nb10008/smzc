@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30790" />
+    <entry Name="破除禁锢" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;禁锢的水晶&lt;/I&gt;和&lt;C&gt;55&lt;/C&gt;个&lt;I&gt;原矿&lt;/I&gt;在&lt;D&gt;&lt;Z=s02,25250,23510,37950&gt;食神杰斯&lt;/Z&gt;&lt;/D&gt;换取&lt;I&gt;联络水晶&lt;/I&gt;\n&lt;T&gt;该任务每天只能完成一次&lt;/T&gt;" />
+</quest-local>

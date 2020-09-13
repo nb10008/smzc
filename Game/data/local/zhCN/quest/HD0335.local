@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30335" />
+    <entry Name="风之使者" />
+    <entry Conditions="" />
+    <entry Overview="使用道具&lt;I&gt;风之使者&lt;/I&gt;，获得任务之后前往目标NPC处领取&lt;I&gt;逐风者印记&lt;/I&gt;。获得&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;逐风者印记&lt;/I&gt;之后即可回到&lt;D&gt;&lt;L=s02,5610041&gt;追风者卡瑟&lt;/L&gt;&lt;/D&gt;处完成任务。\n&lt;M&gt;使用风之使者后将会获得一个倒计时状态，在状态结束前到达目标NPC处可以获得额外奖励。&lt;/M&gt;\n&lt;T&gt;该任务每天只可以接取3次&lt;/T&gt;" />
+</quest-local>

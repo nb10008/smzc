@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="41000" />
+    <entry Name="职业的选择" />
+    <entry Conditions="" />
+    <entry Overview="分别与&lt;D&gt;&lt;L=s02,5010192&gt;长刃之灵&lt;/L&gt;&lt;/D&gt;，&lt;D&gt;&lt;L=s02,5010193&gt;圣弓之灵&lt;/L&gt;&lt;/D&gt;，&lt;D&gt;&lt;L=s02,5010194&gt;魔琴之灵&lt;/L&gt;&lt;/D&gt;，&lt;D&gt;&lt;L=s02,5010195&gt;宝器之灵&lt;/L&gt;&lt;/D&gt;对话，了解完四个职业的特点后，然后&lt;D&gt;&lt;L=s02,5010196&gt;转职官曼德尔&lt;/L&gt;&lt;D&gt;。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30921" />
+    <entry Name="英雄试炼" />
+    <entry Conditions="" />
+    <entry Overview="去英雄魔族宝库里面击杀最终的BOSS来证明自己吧，把你胜利的消息带给我，证明你是一个真正的勇者。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20661" />
+    <entry Name="向上攀登" />
+    <entry Conditions="" />
+    <entry Overview="升至&lt;C&gt;82&lt;/C&gt;级后再与智慧之神&lt;D&gt;&lt;L=s08,5010205&gt;奥克山&lt;/L&gt;&lt;/D&gt;对话。" />
+</quest-local>

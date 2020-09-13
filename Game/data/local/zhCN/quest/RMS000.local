@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20600" />
+    <entry Name="东洲冥山" />
+    <entry Conditions="" />
+    <entry Overview="斗神之王玛斯让你通过&lt;D&gt;三界传送员&lt;/D&gt;，到达人界的&lt;N&gt;东洲冥山&lt;/N&gt;。在那里你可以找到智慧之神&lt;D&gt;&lt;L=s08,5010205&gt;奥克山&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

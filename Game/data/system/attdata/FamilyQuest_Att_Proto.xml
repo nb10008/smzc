@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <questatt id="10001" questType="1" id0="3050001" />
+    <questatt id="10002" questType="1" id0="3050002" />
+    <questatt id="10003" questType="1" id0="3050003" />
+    <questatt id="10004" questType="1" id0="4010001" id1="4010002" id2="4010003" id3="4010004" />
+    <questatt id="10005" questType="1" id0="4010020" id1="4010021" id2="4010022" id3="4010023" />
+    <questatt id="10006" questType="1" id0="4010005" id1="4010006" id2="4010007" id3="4010008" />
+    <questatt id="10007" questType="1" id0="4010024" id1="4010025" id2="4010026" id3="4010027" />
+    <questatt id="10008" questType="1" id0="4010009" id1="4010010" id2="4010011" id3="4010012" />
+    <questatt id="10009" questType="1" id0="4010028" id1="4010029" id2="4010030" id3="4010031" />
+    <questatt id="10010" questType="1" id0="4010013" id1="4010014" id2="4010015" id3="4010016" />
+    <questatt id="10011" questType="1" id0="4010032" id1="4010033" id2="4010034" id3="4010035" />
+    <questatt id="10012" questType="1" id0="4010017" id1="4010018" id2="4010019" />
+    <questatt id="10013" questType="1" id0="4010036" id1="4010037" id2="4010038" />
+    <questatt id="10014" questType="1" id0="4080053" />
+    <questatt id="10015" questType="1" id0="4080079" />
+    <questatt id="10016" questType="1" id0="3050024" />
+    <questatt id="10017" questType="1" id0="3050025" />
+    <questatt id="10018" questType="1" id0="3050026" />
+    <questatt id="20001" questType="1" id0="8010001" id1="8010002" id2="8010003" id3="8010004" id4="8010005" id5="8010006" id6="8010007" id7="8010008" id8="8010009" id9="8010010" id10="8010011" id11="8020001" id12="8020002" id13="8020003" id14="8020004" id15="8020005" id16="8020006" id17="8020007" id18="8020008" id19="8020009" id20="8020010" id21="8020011" id22="8030001" id23="8030002" id24="8030003" id25="8030004" id26="8030005" id27="8030006" id28="8030007" id29="8030008" id30="8030009" id31="8030010" id32="8030011" id33="8040001" id34="8040002" id35="8040003" id36="8040004" id37="8040005" id38="8040006" id39="8040007" id40="8040008" id41="8040009" id42="8040010" id43="8040011" />
+    <questatt id="20002" questType="1" id0="8050005" id1="8050006" id2="8050007" id3="8050008" id4="8050009" id5="8050010" id6="8050011" id7="8051005" id8="8051006" id9="8051007" id10="8051008" id11="8051009" id12="8051010" id13="8051011" />
+    <questatt id="20003" questType="1" id0="8060001" id1="8060002" id2="8060003" id3="8060004" id4="8060005" id5="8060006" id6="8060007" id7="8060008" id8="8060009" id9="8060010" id10="8060011" id11="8061001" id12="8061003" id13="8061004" id14="8061005" id15="8061006" id16="8061007" id17="8061008" id18="8061009" id19="8061010" id20="8061011" />
+    <questatt id="20004" questType="1" id0="8070001" id1="8070002" id2="8070003" id3="8070004" id4="8070005" id5="8070006" id6="8070007" id7="8070008" id8="8070009" id9="8070010" id10="8070011" id11="8071001" id12="8071003" id13="8071004" id14="8071005" id15="8071006" id16="8071007" id17="8071008" id18="8071009" id19="8071010" id20="8071011" />
+    <questatt id="20005" questType="1" id0="8080001" id1="8080002" id2="8080003" id3="8080004" id4="8080005" id5="8080006" id6="8080007" id7="8080008" id8="8080009" id9="8080010" id10="8080011" id11="8081001" id12="8081003" id13="8081004" id14="8081005" id15="8081006" id16="8081007" id17="8081008" id18="8081009" id19="8081010" id20="8081011" />
+    <questatt id="20006" questType="1" id0="8090001" id1="8090002" id2="8090003" id3="8090004" id4="8090005" id5="8090006" id6="8090007" id7="8090008" id8="8090009" id9="8090010" id10="8090011" id11="8091001" id12="8091003" id13="8091004" id14="8091005" id15="8091006" id16="8091007" id17="8091008" id18="8091009" id19="8091010" id20="8091011" />
+    <questatt id="20007" questType="1" id0="8100001" id1="8100002" id2="8100003" id3="8100004" id4="8100005" id5="8100006" id6="8100007" id7="8100008" id8="8100009" id9="8100010" id10="8100011" />
+    <questatt id="20008" questType="1" id0="8110001" id1="8110002" id2="8110003" id3="8111003" id4="8110004" id5="8111004" id6="8110005" id7="8111005" id8="8110006" id9="8111006" id10="8110007" id11="8111007" id12="8110008" id13="8111008" id14="8110009" id15="8111009" id16="8110010" id17="8111010" id18="8110011" id19="8111011" id20="8121001" id21="8121002" id22="8122003" id23="8121003" id24="8121004" id25="8122004" id26="8121005" id27="8122005" id28="8121006" id29="8122006" id30="8121007" id31="8122007" id32="8121008" id33="8122008" id34="8121009" id35="8122009" id36="8121010" id37="8122010" id38="8121011" id39="8122011" id40="8130001" id41="8130002" id42="8130003" id43="8130004" id44="8130005" id45="8130006" id46="8130007" id47="8130008" id48="8130009" id49="8130010" id50="8130011" />
+    <questatt id="20009" questType="1" id0="8060103" id1="8070103" id2="8080103" id3="8090103" id4="8100103" id5="8110103" id6="8121103" id7="8130103" />
+    <questatt id="20010" questType="1" id0="8061103" id1="8071103" id2="8081103" id3="8091103" id4="8100103" id5="8111103" id6="8122103" id7="8130103" />
+    <questatt id="20011" questType="1" id0="8080104" id1="8060104" id2="8070104" id3="8090104" id4="8100104" id5="8110104" id6="8121104" id7="8130104" />
+    <questatt id="20012" questType="1" id0="8081104" id1="8061104" id2="8071104" id3="8091104" id4="8100104" id5="8111104" id6="8122104" id7="8130104" />
+    <questatt id="20013" questType="1" id0="8080105" id1="8050105" id2="8060105" id3="8070105" id4="8090105" id5="8100105" id6="8110105" id7="8121105" id8="8130105" />
+    <questatt id="20014" questType="1" id0="8081105" id1="8051105" id2="8061105" id3="8071105" id4="8091105" id5="8100105" id6="8111105" id7="8122105" id8="8130105" />
+    <questatt id="20015" questType="1" id0="8080106" id1="8050106" id2="8060106" id3="8070106" id4="8090106" id5="8100106" id6="8110106" id7="8121106" id8="8130106" />
+    <questatt id="20016" questType="1" id0="8081106" id1="8051106" id2="8061106" id3="8071106" id4="8091106" id5="8100106" id6="8111106" id7="8122106" id8="8130106" />
+    <questatt id="20017" questType="1" id0="8080107" id1="8050107" id2="8060107" id3="8070107" id4="8090107" id5="8100107" id6="8110107" id7="8121107" id8="8130107" />
+    <questatt id="20018" questType="1" id0="8081107" id1="8051107" id2="8061107" id3="8071107" id4="8091107" id5="8100107" id6="8111107" id7="8122107" id8="8130107" />
+    <questatt id="20019" questType="1" id0="8080108" id1="8050108" id2="8060108" id3="8070108" id4="8090108" id5="8100108" id6="8110108" id7="8121108" id8="8130108" />
+    <questatt id="20020" questType="1" id0="8081108" id1="8051108" id2="8061108" id3="8071108" id4="8091108" id5="8100108" id6="8111108" id7="8122108" id8="8130108" />
+    <questatt id="20021" questType="1" id0="8080109" id1="8050109" id2="8060109" id3="8070109" id4="8090109" id5="8100109" id6="8110109" id7="8121109" id8="8130109" />
+    <questatt id="20022" questType="1" id0="8081109" id1="8051109" id2="8061109" id3="8071109" id4="8091109" id5="8100109" id6="8111109" id7="8122109" id8="8130109" />
+    <questatt id="20023" questType="1" id0="8080110" id1="8050110" id2="8060110" id3="8070110" id4="8090110" id5="8100110" id6="8110110" id7="8121110" id8="8130110" />
+    <questatt id="20024" questType="1" id0="8081110" id1="8051110" id2="8061110" id3="8071110" id4="8091110" id5="8100110" id6="8111110" id7="8122110" id8="8130110" />
+    <questatt id="20025" questType="1" id0="8080111" id1="8050111" id2="8060111" id3="8070111" id4="8090111" id5="8100111" id6="8110111" id7="8121111" id8="8130111" />
+    <questatt id="20026" questType="1" id0="8081111" id1="8051111" id2="8061111" id3="8071111" id4="8091111" id5="8100111" id6="8111111" id7="8122111" id8="8130111" />
+    <questatt id="30001" questType="2" monsterType="2" lowLevel="10" highLevel="20" monsterLevel="1" />
+    <questatt id="30002" questType="2" monsterType="2" lowLevel="20" highLevel="30" monsterLevel="1" />
+    <questatt id="30003" questType="2" monsterType="2" lowLevel="30" highLevel="40" monsterLevel="1" />
+    <questatt id="30004" questType="2" monsterType="2" lowLevel="40" highLevel="50" monsterLevel="1" />
+    <questatt id="30005" questType="2" monsterType="2" lowLevel="50" highLevel="60" monsterLevel="1" />
+    <questatt id="30006" questType="2" monsterType="2" lowLevel="60" highLevel="70" monsterLevel="1" />
+    <questatt id="30007" questType="2" monsterType="2" lowLevel="70" highLevel="80" monsterLevel="1" />
+    <questatt id="30008" questType="2" monsterType="2" lowLevel="80" highLevel="90" monsterLevel="1" />
+    <questatt id="30009" questType="2" monsterType="2" lowLevel="90" highLevel="100" monsterLevel="1" />
+    <questatt id="30010" questType="2" monsterType="2" lowLevel="10" highLevel="20" mapCrc="3424073256" monsterLevel="2" />
+    <questatt id="30011" questType="2" monsterType="2" lowLevel="20" highLevel="30" mapCrc="3424071976" monsterLevel="2" />
+    <questatt id="30012" questType="2" monsterType="2" lowLevel="30" highLevel="50" mapCrc="3424071720" monsterLevel="2" />
+    <questatt id="30013" questType="2" monsterType="2" lowLevel="50" highLevel="65" mapCrc="3424072488" monsterLevel="2" />
+    <questatt id="30014" questType="2" monsterType="2" lowLevel="65" highLevel="80" mapCrc="3424072232" monsterLevel="2" />
+    <questatt id="30015" questType="2" monsterType="2" lowLevel="80" highLevel="100" mapCrc="3424075048" monsterLevel="2" />
+    <questatt id="30016" questType="2" monsterType="2" lowLevel="15" highLevel="20" mapCrc="3951677761" />
+    <questatt id="30017" questType="2" monsterType="2" lowLevel="25" highLevel="30" mapCrc="3951678017" />
+    <questatt id="30018" questType="2" monsterType="2" lowLevel="30" highLevel="40" mapCrc="3951678273" />
+    <questatt id="30019" questType="2" monsterType="2" lowLevel="40" highLevel="50" mapCrc="3951678529" />
+    <questatt id="30020" questType="2" monsterType="2" lowLevel="50" highLevel="60" mapCrc="3951678785" />
+    <questatt id="30021" questType="2" monsterType="2" lowLevel="60" highLevel="70" mapCrc="3951679041" />
+    <questatt id="30022" questType="2" monsterType="2" lowLevel="70" highLevel="80" mapCrc="3951679297" />
+    <questatt id="30023" questType="2" monsterType="2" lowLevel="80" highLevel="100" mapCrc="3951679553" />
+    <questatt id="30024" questType="2" monsterType="2" lowLevel="80" highLevel="100" mapCrc="3951679809" />
+    <questatt id="30025" questType="2" monsterType="2" lowLevel="20" highLevel="40" mapCrc="1266372430" />
+    <questatt id="30026" questType="2" monsterType="2" lowLevel="30" highLevel="50" mapCrc="1266371662" />
+    <questatt id="30027" questType="2" monsterType="2" lowLevel="40" highLevel="60" mapCrc="1266371918" />
+    <questatt id="30028" questType="2" monsterType="2" lowLevel="50" highLevel="70" mapCrc="1266371150" />
+    <questatt id="30029" questType="2" monsterType="2" lowLevel="60" highLevel="80" mapCrc="1266371406" />
+    <questatt id="30030" questType="2" monsterType="2" lowLevel="70" highLevel="90" mapCrc="1266370638" />
+    <questatt id="30031" questType="2" monsterType="2" lowLevel="80" highLevel="100" mapCrc="1266370894" />
+    <questatt id="30032" questType="2" monsterType="2" lowLevel="20" highLevel="40" mapCrc="1266372430" monsterLevel="4" />
+    <questatt id="30033" questType="2" monsterType="2" lowLevel="30" highLevel="50" mapCrc="1266371662" monsterLevel="4" />
+    <questatt id="30034" questType="2" monsterType="2" lowLevel="40" highLevel="60" mapCrc="1266371918" monsterLevel="4" />
+    <questatt id="30035" questType="2" monsterType="2" lowLevel="50" highLevel="70" mapCrc="1266371150" monsterLevel="4" />
+    <questatt id="30036" questType="2" monsterType="2" lowLevel="60" highLevel="80" mapCrc="1266371406" monsterLevel="4" />
+    <questatt id="30037" questType="2" monsterType="2" lowLevel="70" highLevel="90" mapCrc="1266370638" monsterLevel="4" />
+    <questatt id="30038" questType="2" monsterType="2" lowLevel="80" highLevel="100" mapCrc="1266370894" monsterLevel="4" />
+    <questatt id="30039" questType="2" monsterType="1" id0="1020020" />
+    <questatt id="30040" questType="2" monsterType="1" id0="1090001" id1="1090002" id2="1090003" />
+    <questatt id="30041" questType="2" monsterType="1" id0="1070003" id1="1070002" id2="1070049" />
+    <questatt id="30042" questType="2" monsterType="1" id0="1070004" id1="1070005" id2="1070050" />
+    <questatt id="30043" questType="2" monsterType="1" id0="1070006" id1="1070007" id2="1070051" />
+    <questatt id="30044" questType="2" monsterType="1" id0="1070009" id1="1070010" id2="1070052" />
+    <questatt id="30045" questType="2" monsterType="1" id0="1070011" id1="1070012" id2="1070053" />
+    <questatt id="30046" questType="2" monsterType="1" id0="1070013" id1="1070014" id2="1070054" />
+    <questatt id="30047" questType="2" monsterType="1" id0="1070015" id1="1070016" />
+    <questatt id="30048" questType="2" monsterType="1" id0="1070018" id1="1070019" id2="1070056" />
+    <questatt id="30049" questType="2" monsterType="1" id0="1070020" id1="1070021" id2="1070057" />
+    <questatt id="30050" questType="2" monsterType="1" id0="1070022" id1="1070023" />
+    <questatt id="30051" questType="2" monsterType="1" id0="1070024" id1="1070025" id2="1070026" id3="1070058" id4="1070059" />
+    <questatt id="30052" questType="2" monsterType="1" id0="1070032" id1="1070033" id2="1070034" id3="1070062" />
+    <questatt id="30053" questType="2" monsterType="1" id0="1070035" id1="1070036" id2="1070063" />
+    <questatt id="30054" questType="2" monsterType="1" id0="1070037" id1="1070038" id2="1070064" />
+    <questatt id="30055" questType="2" monsterType="1" id0="1070044" id1="1070045" id2="1070065" id3="1070070" />
+    <questatt id="30056" questType="2" monsterType="1" id0="1070046" id1="1070047" id2="1070048" id3="1070071" id4="1070072" />
+</root>

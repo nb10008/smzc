@@ -1,0 +1,32 @@
+sampler2D g_baseTex1 : register(s0);
+sampler2D g_baseTex2 : register(s1);
+sampler2D g_baseTex3 : register(s2);
+sampler2D g_baseTex4 : register(s3);
+sampler2D g_alphaMap : register(s4);
+sampler2D g_lightMap : register(s5);
+
+half4 main( float2 baseTex1	: TEXCOORD0,
+	  	float2 baseTex2 : TEXCOORD1,
+		float2 baseTex3 : TEXCOORD2,
+		float2 baseTex4 : TEXCOORD3,
+		float2 alphaMap : TEXCOORD4,
+		float2 lightMap : TEXCOORD5
+		) : COLOR0
+{
+	half3 baseTexColor1=tex2D(g_baseTex1, baseTex1).rgb;
+	half3 baseTexColor2=tex2D(g_baseTex2, baseTex2).rgb;
+	half3 baseTexColor3=tex2D(g_baseTex3, baseTex3).rgb;
+	half3 baseTexColor4=tex2D(g_baseTex4, baseTex4).rgb;
+	half3 alpha=tex2D(g_alphaMap, alphaMap).rgb;
+	half3 light=tex2D(g_lightMap, lightMap).rgb;
+			
+	half4 ret;
+	ret.a=1;
+	ret.rgb=baseTexColor1*(1-alpha.x)+baseTexColor2*alpha.x;	
+	ret.rgb=ret.rgb*(1-alpha.y)+baseTexColor3*alpha.y;
+	ret.rgb=ret.rgb*(1-alpha.z)+baseTexColor4*alpha.z;
+	
+	ret.rgb*=light*2.0f;	
+	
+	return ret;
+}

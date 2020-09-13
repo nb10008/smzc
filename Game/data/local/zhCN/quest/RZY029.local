@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40029" />
+    <entry Name="实验戒指" />
+    <entry Conditions="" />
+    <entry Overview="再次与&lt;D&gt;&lt;L=s02,5010084&gt;器魂师凯亚&lt;/L&gt;&lt;/D&gt;对话，领取实验道具" />
+</quest-local>

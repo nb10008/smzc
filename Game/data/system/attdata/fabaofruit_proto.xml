@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <fabao id="4400001" lower_limit="1" higher_limit="3" add_type="-1" />
+    <fabao id="4400002" lower_limit="1" higher_limit="4" add_type="-1" />
+    <fabao id="4400003" lower_limit="1" higher_limit="5" add_type="-1" />
+    <fabao id="4400004" lower_limit="2" higher_limit="5" add_type="-1" />
+    <fabao id="4400005" lower_limit="2" higher_limit="6" add_type="-1" />
+    <fabao id="4400006" lower_limit="1" higher_limit="4" add_type="0" increment="2" />
+    <fabao id="4400007" lower_limit="1" higher_limit="5" add_type="0" increment="2" />
+    <fabao id="4400008" lower_limit="1" higher_limit="5" add_type="0" increment="3" />
+    <fabao id="4400009" lower_limit="1" higher_limit="4" add_type="1" increment="2" />
+    <fabao id="4400010" lower_limit="1" higher_limit="5" add_type="1" increment="2" />
+    <fabao id="4400011" lower_limit="1" higher_limit="5" add_type="1" increment="3" />
+    <fabao id="4400012" lower_limit="1" higher_limit="4" add_type="2" increment="2" />
+    <fabao id="4400013" lower_limit="1" higher_limit="5" add_type="2" increment="2" />
+    <fabao id="4400014" lower_limit="1" higher_limit="5" add_type="2" increment="3" />
+    <fabao id="4400015" lower_limit="1" higher_limit="4" add_type="3" increment="2" />
+    <fabao id="4400016" lower_limit="1" higher_limit="5" add_type="3" increment="2" />
+    <fabao id="4400017" lower_limit="1" higher_limit="5" add_type="3" increment="3" />
+    <fabao id="4400018" lower_limit="1" higher_limit="4" add_type="4" increment="2" />
+    <fabao id="4400019" lower_limit="1" higher_limit="5" add_type="4" increment="2" />
+    <fabao id="4400020" lower_limit="1" higher_limit="5" add_type="4" increment="3" />
+    <fabao id="4400021" lower_limit="1" higher_limit="4" add_type="5" increment="2" />
+    <fabao id="4400022" lower_limit="1" higher_limit="5" add_type="5" increment="2" />
+    <fabao id="4400023" lower_limit="1" higher_limit="5" add_type="5" increment="3" />
+</root>

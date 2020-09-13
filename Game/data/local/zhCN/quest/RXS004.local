@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20004" />
+    <entry Name="技能教学" />
+    <entry Conditions="" />
+    <entry Overview="向&lt;D&gt;&lt;L=m10,5010014&gt;神教官艾斯&lt;/L&gt;&lt;/D&gt;报道。（点击绿色字体进行自动寻路，找到对应的NPC）" />
+</quest-local>

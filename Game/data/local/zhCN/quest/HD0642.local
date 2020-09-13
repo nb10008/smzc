@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30642" />
+    <entry Name="阻止入侵" />
+    <entry Conditions="击杀入侵的魔物首领" />
+    <entry Overview="每日&lt;C&gt;00：30、8：30、12：30、16：30、20：30&lt;/C&gt;，会在&lt;N&gt;奔雷裂谷&lt;/N&gt;、&lt;N&gt;北洲天雪&lt;/N&gt;、&lt;N&gt;西洲幻林&lt;/N&gt;、&lt;N&gt;南洲迷沼&lt;/N&gt;、&lt;N&gt;东洲冥山&lt;/N&gt;出现&lt;A&gt;“入侵魔物”&lt;/A&gt;。只有&lt;C&gt;3&lt;/C&gt;人以上进行组队，找到&lt;A&gt;“入侵魔物”&lt;/A&gt;可与其对话，只有组队人数在&lt;C&gt;3&lt;/C&gt;人以上才可挑战魔物，出现的魔物等级与所在场景的等级有关。" />
+</quest-local>

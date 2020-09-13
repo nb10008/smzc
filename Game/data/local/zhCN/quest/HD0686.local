@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30686" />
+    <entry Name="消灭那些火腿！" />
+    <entry Conditions="" />
+    <entry Overview="&lt;D&gt;火鸡领主&lt;/D&gt;希望你帮助他除掉那些火腿，杀死一只&lt;N&gt;西洲幻林&lt;/N&gt;中的&lt;A&gt;邪恶的火腿&lt;/A&gt;或者&lt;A&gt;巨大的火腿&lt;/A&gt;，然后回复&lt;D&gt;&lt;L=s02,5600018&gt;火鸡领主&lt;/L&gt;&lt;/D&gt;。\n提示：需要消灭&lt;C&gt;55&lt;/C&gt;级的&lt;A&gt;邪恶的火腿&lt;/A&gt;或者&lt;A&gt;巨大的火腿&lt;/A&gt;" />
+</quest-local>

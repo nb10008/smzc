@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30867" />
+    <entry Name="春节大拜年" />
+    <entry Conditions="" />
+    <entry Overview="前去与&lt;D&gt;&lt;L=s02,5010029&gt;斗神之王玛斯&lt;/L&gt;&lt;/D&gt;、&lt;D&gt;&lt;L=s02,5010027&gt;神使基拉&lt;/L&gt;&lt;/D&gt;、&lt;D&gt;&lt;L=s02,5010227&gt;审判者奥斯威德&lt;/L&gt;&lt;/D&gt;对话，完成后回复&lt;D&gt;&lt;L=s02,6040022&gt;春节使者米莲妮&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

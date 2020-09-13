@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20636" />
+    <entry Name="沙漠中的恶徒" />
+    <entry Conditions="" />
+    <entry Overview="清除&lt;C&gt;100&lt;/C&gt;名&lt;A&gt;&lt;L=s08,1070025&gt;狂风魔盗&lt;/L&gt;&lt;/A&gt;和&lt;C&gt;100&lt;/C&gt;名&lt;A&gt;&lt;L=s08,1070026&gt;发疯的恶徒&lt;/L&gt;&lt;/A&gt;，之后回复&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

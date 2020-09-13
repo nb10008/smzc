@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20521" />
+    <entry Name="雷丁的考验" />
+    <entry Conditions="" />
+    <entry Overview="驯服&lt;A&gt;&lt;L=s07,1060028&gt;大型沼泽鳄鱼&lt;/L&gt;&lt;/A&gt;&lt;C&gt;100&lt;/C&gt;只、&lt;A&gt;&lt;L=s07,1060029&gt;霸王食人花&lt;/L&gt;&lt;/A&gt;&lt;C&gt;100&lt;/C&gt;只、&lt;A&gt;&lt;L=s07,1060030&gt;巨毒花妖&lt;/L&gt;&lt;/A&gt;&lt;C&gt;100&lt;/C&gt;只，&lt;color=0xffff6000&gt;&lt;L=s07,1060045&gt;生灵摄取者&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;30&lt;/C&gt;名，之后回复&lt;D&gt;&lt;L=s07,5010204&gt;雷丁&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

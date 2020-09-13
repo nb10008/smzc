@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <holygods id="9800001" name="圣灵·楠杜尔" SeniorNomber="30" model_1="SL01_1" model_2="SL01_2" size="100" icon1="TSL01_2" icon2="TSL01_2" />
+    <holygods id="9800002" name="圣灵·科拉迪" SeniorNomber="30" model_1="SL02_1" model_2="SL02_2" size="100" icon1="TSL02_2" icon2="TSL02_2" />
+    <holygods id="9800003" name="圣灵·泰西斯" SeniorNomber="30" model_1="SL03_1" model_2="SL03_2" size="100" icon1="TSL03_2" icon2="TSL03_2" />
+    <holygods id="9800004" name="圣灵·多莉斯" SeniorNomber="30" model_1="SL04_1" model_2="SL04_2" size="100" icon1="TSL04_2" icon2="TSL04_2" />
+    <holygods id="9800101" name="圣灵·楠杜尔[1天]" SeniorNomber="30" model_1="SL01_2" model_2="SL01_2" size="100" icon1="TSL01_2" icon2="TSL01_2" />
+    <holygods id="9800102" name="圣灵·科拉迪[1天]" SeniorNomber="30" model_1="SL02_2" model_2="SL02_2" size="100" icon1="TSL02_2" icon2="TSL02_2" />
+    <holygods id="9800103" name="圣灵·泰西斯[1天]" SeniorNomber="30" model_1="SL03_2" model_2="SL03_2" size="100" icon1="TSL03_2" icon2="TSL03_2" />
+    <holygods id="9800104" name="圣灵·多莉斯[1天]" SeniorNomber="30" model_1="SL04_2" model_2="SL04_2" size="100" icon1="TSL04_2" icon2="TSL04_2" />
+    <holygods id="9800111" name="圣灵·楠杜尔[3天]" SeniorNomber="30" model_1="SL01_2" model_2="SL01_2" size="100" icon1="TSL01_2" icon2="TSL01_2" />
+    <holygods id="9800112" name="圣灵·科拉迪[3天]" SeniorNomber="30" model_1="SL02_2" model_2="SL02_2" size="100" icon1="TSL02_2" icon2="TSL02_2" />
+    <holygods id="9800113" name="圣灵·泰西斯[3天]" SeniorNomber="30" model_1="SL03_2" model_2="SL03_2" size="100" icon1="TSL03_2" icon2="TSL03_2" />
+    <holygods id="9800114" name="圣灵·多莉斯[3天]" SeniorNomber="30" model_1="SL04_2" model_2="SL04_2" size="100" icon1="TSL04_2" icon2="TSL04_2" />
+    <holygods id="9800201" name="圣灵·楠杜尔(疯狂)[1天]" SeniorNomber="30" model_1="SL01_2" model_2="SL01_2" size="100" icon1="TSL01_2" icon2="TSL01_2" />
+    <holygods id="9800202" name="圣灵·科拉迪(疯狂)[1天]" SeniorNomber="30" model_1="SL02_2" model_2="SL02_2" size="100" icon1="TSL02_2" icon2="TSL02_2" />
+    <holygods id="9800203" name="圣灵·泰西斯(疯狂)[1天]" SeniorNomber="30" model_1="SL03_2" model_2="SL03_2" size="100" icon1="TSL03_2" icon2="TSL03_2" />
+    <holygods id="9800204" name="圣灵·多莉斯(疯狂)[1天]" SeniorNomber="30" model_1="SL04_2" model_2="SL04_2" size="100" icon1="TSL04_2" icon2="TSL04_2" />
+    <holygods id="9800211" name="圣灵·楠杜尔(疯狂)[3天]" SeniorNomber="30" model_1="SL01_2" model_2="SL01_2" size="100" icon1="TSL01_2" icon2="TSL01_2" />
+    <holygods id="9800212" name="圣灵·科拉迪(疯狂)[3天]" SeniorNomber="30" model_1="SL02_2" model_2="SL02_2" size="100" icon1="TSL02_2" icon2="TSL02_2" />
+    <holygods id="9800213" name="圣灵·泰西斯(疯狂)[3天]" SeniorNomber="30" model_1="SL03_2" model_2="SL03_2" size="100" icon1="TSL03_2" icon2="TSL03_2" />
+    <holygods id="9800214" name="圣灵·多莉斯(疯狂)[3天]" SeniorNomber="30" model_1="SL04_2" model_2="SL04_2" size="100" icon1="TSL04_2" icon2="TSL04_2" />
+    <holygods id="9800901" name="圣灵·楠杜尔" SeniorNomber="30" model_1="SL01_2" model_2="SL01_2" size="100" icon1="TSL01_2" icon2="TSL01_2" />
+    <holygods id="9800902" name="圣灵·科拉迪" SeniorNomber="30" model_1="SL02_2" model_2="SL02_2" size="100" icon1="TSL02_2" icon2="TSL02_2" />
+    <holygods id="9800903" name="圣灵·泰西斯" SeniorNomber="30" model_1="SL03_2" model_2="SL03_2" size="100" icon1="TSL03_2" icon2="TSL03_2" />
+    <holygods id="9800904" name="圣灵·多莉斯" SeniorNomber="30" model_1="SL04_2" model_2="SL04_2" size="100" icon1="TSL04_2" icon2="TSL04_2" />
+    <holygods id="9800301" name="圣灵·楠杜尔" SeniorNomber="30" model_1="SL01_2" model_2="SL01_2" size="100" icon1="TSL01_2" icon2="TSL01_2" />
+    <holygods id="9800302" name="圣灵·科拉迪" SeniorNomber="30" model_1="SL02_2" model_2="SL02_2" size="100" icon1="TSL02_2" icon2="TSL02_2" />
+    <holygods id="9800303" name="圣灵·泰西斯" SeniorNomber="30" model_1="SL03_2" model_2="SL03_2" size="100" icon1="TSL03_2" icon2="TSL03_2" />
+    <holygods id="9800304" name="圣灵·多莉斯" SeniorNomber="30" model_1="SL04_2" model_2="SL04_2" size="100" icon1="TSL04_2" icon2="TSL04_2" />
+</root>

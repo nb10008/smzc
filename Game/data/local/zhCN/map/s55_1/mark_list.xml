@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="药剂商(东南)" pos_x="21967" pos_y="9999" pos_z="3032"/>
+	<map_point id="2" type="1" show_name="魂水晶兑换人(东南)" pos_x="21689" pos_y="9992" pos_z="2727"/>
+	<map_point id="3" type="1" show_name="药剂商(西南)" pos_x="4096" pos_y="9999" pos_z="3495"/>
+	<map_point id="4" type="1" show_name="魂水晶兑换人(西南)" pos_x="3969" pos_y="9990" pos_z="6023"/>
+	<map_point id="5" type="1" show_name="药剂商(北)" pos_x="13426" pos_y="10000" pos_z="19837"/>
+	<map_point id="6" type="1" show_name="魂水晶兑换人(北)" pos_x="13655" pos_y="10000" pos_z="19723"/>
+</root>

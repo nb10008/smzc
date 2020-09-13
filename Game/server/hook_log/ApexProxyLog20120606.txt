@@ -1,0 +1,25 @@
+Pid:2424>  2012-06-06 19:20:01> BasePath: E:\code\game\server/
+Pid:2424>  2012-06-06 19:20:01> In sh_load_start: pfSend=  6499e0,pfRec=2634a00    2010/08/16
+Pid:2424>  2012-06-06 19:20:01> g_nNum:1,File: E:\code\game\server\World.exe
+Pid:2424>  2012-06-06 19:20:01> In sh_load_start 2
+Pid:2424>  2012-06-06 19:20:01> In sh_load_start 6, 2634a00
+Pid:2424>  2012-06-06 19:20:01file: E:\code\game\server/AHThunkConfig.xmlItemSever Ip:127.0.0.1,Port:15306
+Pid:2424>  2012-06-06 19:20:01>ApexProxy Starting ........Ver:2010/08/16,Build:Aug 16 2010
+Pid:2424>  2012-06-06 19:20:01file: E:\code\game\server/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:2424>  2012-06-06 19:20:03>ApexProxy Connect to AHServer Failed!!!! 
+Pid:2424>  2012-06-06 19:21:04file: E:\code\game\server/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:2424>  2012-06-06 19:21:05>ApexProxy Connect to AHServer Failed!!!! 
+Pid:2424>  2012-06-06 19:22:06file: E:\code\game\server/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:2424>  2012-06-06 19:22:07>ApexProxy Connect to AHServer Failed!!!! 
+Pid:2424>  2012-06-06 19:23:08file: E:\code\game\server/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:2424>  2012-06-06 19:23:09>ApexProxy Connect to AHServer Failed!!!! 
+Pid:2424>  2012-06-06 19:24:10file: E:\code\game\server/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:2424>  2012-06-06 19:24:11>ApexProxy Connect to AHServer Failed!!!! 
+Pid:2424>  2012-06-06 19:25:12file: E:\code\game\server/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:2424>  2012-06-06 19:25:12>ApexProxy Connect to AHServer Failed!!!! 
+Pid:2424>  2012-06-06 19:26:13file: E:\code\game\server/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:2424>  2012-06-06 19:26:14>ApexProxy Connect to AHServer Failed!!!! 
+Pid:2424>  2012-06-06 19:27:15file: E:\code\game\server/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:2424>  2012-06-06 19:27:16>ApexProxy Connect to AHServer Failed!!!! 
+Pid:2424>  2012-06-06 19:28:20file: E:\code\game\server/AHThunkConfig.xmlIp:127.0.0.1,Port:15306
+Pid:2424>  2012-06-06 19:28:21>ApexProxy Connect to AHServer Failed!!!! 

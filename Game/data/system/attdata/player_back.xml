@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <war id="1" time_low_limit="8" time_high_limit="14" level_low_limit="40" level_high_limit="100" item_id="4700011" />
+    <war id="2" time_low_limit="15" time_high_limit="21" level_low_limit="40" level_high_limit="100" item_id="4700012" />
+    <war id="3" time_low_limit="22" time_high_limit="29" level_low_limit="40" level_high_limit="100" item_id="4700013" />
+    <war id="4" time_low_limit="30" time_high_limit="9999" level_low_limit="40" level_high_limit="100" item_id="4700014" />
+</root>

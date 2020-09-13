@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40041" />
+    <entry Name="战斗神符" />
+    <entry Conditions="" />
+    <entry Overview="继续与神使迪妮莎对话，了解如何设置战斗神符。" />
+</quest-local>

@@ -1,0 +1,1 @@
+batchbuild AllInOne.sln "all in one"

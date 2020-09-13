@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20223" />
+    <entry Name="消除隐患" />
+    <entry Conditions="" />
+    <entry Overview="消灭掉&lt;C&gt;15&lt;/C&gt;只&lt;A&gt;&lt;L=s04,1030013&gt;奔雷巨石&lt;/L&gt;&lt;/A&gt;，收集&lt;C&gt;15&lt;/C&gt;个&lt;M&gt;石头元素&lt;/M&gt;，然后回复&lt;D&gt;&lt;L=s04,5010080&gt;火神加尔&lt;/L&gt;&lt;/D&gt;。\n提示：杀死&lt;A&gt;&lt;L=s04,1030011&gt;废墟石元素&lt;/L&gt;&lt;/A&gt;可得到&lt;M&gt;石头元素&lt;/M&gt;。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;北洲天雪:30级后可前往&lt;N&gt;北洲天雪&lt;/N&gt;练级&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;知识竞猜:30级后可参与&lt;P&gt;知识竞猜活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;勇闯魔窟:30级后可参与&lt;P&gt;勇闯魔窟活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;妖精遗产:30级后可参与&lt;P&gt;妖精遗产活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv30]&lt;/S&gt;妖精喂养:30级后妖精需要进行喂养&#x0A;" />
+</quest-local>

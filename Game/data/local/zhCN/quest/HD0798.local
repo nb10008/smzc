@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30798" />
+    <entry Name="仲夏夜祈福" />
+    <entry Conditions="仲夏夜祈福BUFF消失" />
+    <entry Overview="接取任务后会给玩家添加仲夏夜祈福BUFF，BUFF消失后则完成任务。找到&lt;D&gt;&lt;L=s02,6011057&gt;仲夏夜祈福使者&lt;/L&gt;&lt;/D&gt;交付任务。\n提示：任务NPC&lt;D&gt;&lt;L=s02,6011056&gt;仲夏夜祈福活动使者&lt;/L&gt;&lt;/D&gt;，于7月17日—7月31日之间，20：30—21：30NPC出现在主城中。" />
+</quest-local>

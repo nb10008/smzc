@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<mall_title2 id="101" name1="药水" mall_title_id="1"/>
+	<mall_title2 id="102" name1="助手" mall_title_id="1"/>
+	<mall_title2 id="103" name1="战斗" mall_title_id="1"/>
+	<mall_title2 id="104" name1="加成" mall_title_id="1"/>
+	<mall_title2 id="105" name1="扩充" mall_title_id="2"/>
+	<mall_title2 id="106" name1="洗点" mall_title_id="2"/>
+	<mall_title2 id="107" name1="安全" mall_title_id="2"/>
+	<mall_title2 id="108" name1="传送" mall_title_id="2"/>
+	<mall_title2 id="109" name1="公会" mall_title_id="2"/>
+	<mall_title2 id="110" name1="强化" mall_title_id="3"/>
+	<mall_title2 id="111" name1="活力" mall_title_id="3"/>
+	<mall_title2 id="112" name1="宝石" mall_title_id="3"/>
+	<mall_title2 id="113" name1="宠物" mall_title_id="4"/>
+	<mall_title2 id="114" name1="坐骑" mall_title_id="4"/>
+	<mall_title2 id="115" name1="男装" mall_title_id="5"/>
+	<mall_title2 id="116" name1="女装" mall_title_id="5"/>
+	<mall_title2 id="117" name1="节日" mall_title_id="6"/>
+	<mall_title2 id="118" name1="活动" mall_title_id="6"/>
+</root>

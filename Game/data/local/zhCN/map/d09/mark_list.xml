@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="东洲冥山" pos_x="16985" pos_y="40" pos_z="7845"/>
+	<map_point id="2" type="1" show_name="悬赏榜" pos_x="16936" pos_y="40" pos_z="9670"/>
+	<map_point id="3" type="2" show_name="溶洞石魔" pos_x="15704" pos_y="40" pos_z="11032"/>
+	<map_point id="4" type="2" show_name="熔岩凝聚者" pos_x="12218" pos_y="40" pos_z="12297"/>
+	<map_point id="5" type="2" show_name="熔岩核魔" pos_x="5281" pos_y="40" pos_z="22360"/>
+	<map_point id="6" type="2" show_name="熔岩石斧手" pos_x="11705" pos_y="40" pos_z="25737"/>
+	<map_point id="7" type="2" show_name="大地破坏者" pos_x="19923" pos_y="40" pos_z="20553"/>
+	<map_point id="8" type="2" show_name="溶洞大型石魔" pos_x="33204" pos_y="40" pos_z="16467"/>
+	<map_point id="9" type="2" show_name="天地撼动者" pos_x="32269" pos_y="40" pos_z="21689"/>
+	<map_point id="10" type="2" show_name="岩浆精华之心" pos_x="3379" pos_y="40" pos_z="28587"/>
+	<map_point id="11" type="2" show_name="冥山山王" pos_x="32751" pos_y="40" pos_z="33232"/>
+</root>

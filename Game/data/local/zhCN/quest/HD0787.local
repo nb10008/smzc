@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30787" />
+    <entry Name="夺回原料" />
+    <entry Conditions="" />
+    <entry Overview="击杀各种怪物收集&lt;C&gt;50&lt;/C&gt;个&lt;I&gt;糯米&lt;/I&gt;并交付&lt;D&gt;&lt;Z=s02,25250,23510,37950&gt;食神杰斯&lt;/Z&gt;&lt;/D&gt;。\n提示：此任务每日只能完成&lt;C&gt;3&lt;/C&gt;次。" />
+</quest-local>

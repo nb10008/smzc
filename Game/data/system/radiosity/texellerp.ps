@@ -1,0 +1,13 @@
+struct tagInput
+{
+	float4 pos 	: POSITION;
+	float4 diffuse	: COLOR0;
+	float2 uv0 	: TEXCOORD0;
+};
+
+float4 main(tagInput myin) : COLOR0
+{
+	float4 color=1;
+	color.rgb=myin.diffuse.rgb;
+	return color;
+}

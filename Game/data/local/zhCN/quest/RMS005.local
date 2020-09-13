@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20605" />
+    <entry Name="还魂行动" />
+    <entry Conditions="" />
+    <entry Overview="抓捕&lt;C&gt;30&lt;/C&gt;名&lt;color=0xffff6000&gt;&lt;L=s08,1070050&gt;狂风精英劫匪&lt;/L&gt;&lt;color=0xffffffff&gt;，交给智慧之神&lt;D&gt;&lt;L=s08,5010205&gt;奥克山&lt;/L&gt;&lt;/D&gt;，他可能还有办法让他们还魂。" />
+</quest-local>

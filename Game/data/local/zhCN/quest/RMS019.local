@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20619" />
+    <entry Name="收集木柴" />
+    <entry Conditions="" />
+    <entry Overview="找来&lt;C&gt;10&lt;/C&gt;份&lt;M&gt;&lt;L=s08,6010023&gt;木柴&lt;/L&gt;&lt;/M&gt;交给&lt;D&gt;&lt;L=s08,5010206&gt;幽露&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

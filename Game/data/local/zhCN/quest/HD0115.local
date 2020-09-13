@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30115" />
+    <entry Name="罗曼之星兑换" />
+    <entry Conditions="" />
+    <entry Overview="将&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;罗曼之星&lt;/I&gt;交给&lt;D&gt;&lt;L=s02,5516012&gt;美神艾丝美拉达&lt;/L&gt;&lt;/D&gt;，即可兑换&lt;C&gt;1&lt;/C&gt;个&lt;color=0xffff80ff&gt;美神的赠礼&lt;color=0xffffffff&gt;。&#x0A;\n&lt;I&gt;罗曼之星&lt;/I&gt;&lt;T&gt;可以通过完成&lt;/T&gt;&lt;P&gt;博博罗曼村&lt;/P&gt;&lt;T&gt;的日常任务获得。&lt;/T&gt;" />
+</quest-local>

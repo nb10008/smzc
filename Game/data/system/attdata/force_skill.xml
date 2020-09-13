@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <forceskill id="2500001" side="0" job="98" level="0" needskill="10201" forever="1" open_soul="600" open_money="2000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2500201" side="0" job="98" level="1" needskill="10204" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2500401" side="0" job="98" level="1" needskill="10214" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2500601" side="0" job="98" level="2" needskill="10215" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2500801" side="0" job="98" level="2" needskill="10213" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2501001" side="0" job="388" level="0" needskill="10306" forever="1" open_soul="600" open_money="2000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2501201" side="0" job="388" level="1" needskill="10307" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2501401" side="0" job="388" level="1" needskill="10313" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2501601" side="0" job="388" level="2" needskill="10314" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2501801" side="0" job="388" level="2" needskill="10305" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2503001" side="0" job="6160" level="0" needskill="10509" forever="1" open_soul="600" open_money="2000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2503201" side="0" job="6160" level="1" needskill="10513" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2503401" side="0" job="6160" level="1" needskill="10510" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2503601" side="0" job="6160" level="2" needskill="10506" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2503801" side="0" job="6160" level="2" needskill="10501" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2502001" side="0" job="1544" level="0" needskill="10405" forever="1" open_soul="600" open_money="2000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2502201" side="0" job="1544" level="1" needskill="10410" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2502401" side="0" job="1544" level="1" needskill="10413" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2502601" side="0" job="1544" level="2" needskill="10407" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2502801" side="0" job="1544" level="2" needskill="10409" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2504101" side="0" job="8191" level="3" needskill="25040" forever="1" open_soul="3000" open_money="3000000" continue_soul="0" continue_money="0" delete="1" />
+    <forceskill id="2504201" side="0" job="8191" level="3" needskill="25040" forever="1" open_soul="3000" open_money="3000000" continue_soul="0" continue_money="0" delete="1" />
+    <forceskill id="2504001" side="0" job="8191" level="3" forever="0" open_soul="10000" open_money="8000000" continue_soul="2000" continue_money="3000000" delete="1" />
+    <forceskill id="2504401" side="0" job="8191" level="4" needskill="25043" forever="1" open_soul="3000" open_money="3000000" continue_soul="0" continue_money="0" delete="1" />
+    <forceskill id="2504501" side="0" job="8191" level="4" needskill="25043" forever="1" open_soul="3000" open_money="3000000" continue_soul="0" continue_money="0" delete="1" />
+    <forceskill id="2504301" side="0" job="8191" level="4" forever="0" open_soul="12000" open_money="10000000" continue_soul="3000" continue_money="3000000" delete="1" />
+    <forceskill id="2500101" side="1" job="98" level="0" needskill="10201" forever="1" open_soul="600" open_money="2000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2500301" side="1" job="98" level="1" needskill="10204" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2500501" side="1" job="98" level="1" needskill="10214" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2500701" side="1" job="98" level="2" needskill="10215" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2500901" side="1" job="98" level="2" needskill="10213" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2501101" side="1" job="388" level="0" needskill="10306" forever="1" open_soul="600" open_money="2000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2501301" side="1" job="388" level="1" needskill="10307" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2501501" side="1" job="388" level="1" needskill="10313" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2501701" side="1" job="388" level="2" needskill="10314" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2501901" side="1" job="388" level="2" needskill="10305" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2503101" side="1" job="6160" level="0" needskill="10509" forever="1" open_soul="600" open_money="2000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2503301" side="1" job="6160" level="1" needskill="10513" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2503501" side="1" job="6160" level="1" needskill="10510" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2503701" side="1" job="6160" level="2" needskill="10506" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2503901" side="1" job="6160" level="2" needskill="10501" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2502101" side="1" job="1544" level="0" needskill="10405" forever="1" open_soul="600" open_money="2000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2502301" side="1" job="1544" level="1" needskill="10410" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2502501" side="1" job="1544" level="1" needskill="10413" forever="1" open_soul="1000" open_money="3000000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2502701" side="1" job="1544" level="2" needskill="10407" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2502901" side="1" job="1544" level="2" needskill="10409" forever="1" open_soul="1500" open_money="3500000" continue_soul="0" continue_money="0" delete="0" />
+    <forceskill id="2504701" side="1" job="8191" level="3" needskill="25046" forever="1" open_soul="3000" open_money="3000000" continue_soul="0" continue_money="0" delete="1" />
+    <forceskill id="2504801" side="1" job="8191" level="3" needskill="25046" forever="1" open_soul="3000" open_money="3000000" continue_soul="0" continue_money="0" delete="1" />
+    <forceskill id="2504601" side="1" job="8191" level="3" forever="0" open_soul="10000" open_money="8000000" continue_soul="2000" continue_money="1000000" delete="1" />
+    <forceskill id="2505001" side="1" job="8191" level="4" needskill="25049" forever="1" open_soul="3000" open_money="3000000" continue_soul="0" continue_money="0" delete="1" />
+    <forceskill id="2505101" side="1" job="8191" level="4" needskill="25049" forever="1" open_soul="3000" open_money="3000000" continue_soul="0" continue_money="0" delete="1" />
+    <forceskill id="2504901" side="1" job="8191" level="4" forever="0" open_soul="12000" open_money="10000000" continue_soul="3000" continue_money="1200000" delete="1" />
+</root>

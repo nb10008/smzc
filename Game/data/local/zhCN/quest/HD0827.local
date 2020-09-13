@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30827" />
+    <entry Name="帮助嫦娥饱餐一顿" />
+    <entry Conditions="" />
+    <entry Overview="把&lt;I&gt;烤肉大餐&lt;/I&gt;交给&lt;D&gt;&lt;Z=s02,30150,23094,34150&gt;嫦娥&lt;/Z&gt;&lt;/D&gt;。\n提示：&lt;I&gt;烤肉大餐&lt;/I&gt;由&lt;C&gt;50&lt;/C&gt;个&lt;I&gt;猪肉&lt;/I&gt;、&lt;C&gt;50&lt;/C&gt;个&lt;I&gt;鸡翅&lt;/I&gt;和&lt;C&gt;10&lt;/C&gt;株&lt;I&gt;辣椒&lt;/I&gt;在&lt;D&gt;嫦娥&lt;/D&gt;处制作而得" />
+</quest-local>

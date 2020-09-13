@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="51008" />
+    <entry Name="圣灵技能" />
+    <entry Conditions="" />
+    <entry Overview="继续和&lt;D&gt;&lt;L=s02,6040030&gt;圣灵召唤者&lt;/L&gt;&lt;/D&gt;对话，领取&lt;I&gt;圣灵召唤技能书&lt;/I&gt;。" />
+</quest-local>

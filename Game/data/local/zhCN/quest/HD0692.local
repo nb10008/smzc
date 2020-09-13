@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30692" />
+    <entry Name="疯狂的雪国大作战" />
+    <entry Conditions="" />
+    <entry Overview="前往副本&lt;N&gt;&lt;Z=s05,49485,19284,182512&gt;冰寒魔域&lt;/Z&gt;&lt;/N&gt;，那里的&lt;A&gt;暴乱法师&lt;/A&gt;、&lt;A&gt;影牙族长&lt;/A&gt;和&lt;A&gt;狂心族长&lt;/A&gt;正在破坏这次的圣诞活动，快去消灭它们。完成任务后可以到&lt;D&gt;&lt;L=s02,5600011&gt;雪国长者尼古拉&lt;/L&gt;&lt;/D&gt;那里领取奖励。" />
+</quest-local>

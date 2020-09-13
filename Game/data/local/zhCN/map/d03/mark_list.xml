@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="北洲天雪" pos_x="15740" pos_y="464" pos_z="710"/>
+	<map_point id="2" type="1" show_name="悬赏榜" pos_x="16411" pos_y="445" pos_z="1985"/>
+	<map_point id="3" type="1" show_name="雪荣" pos_x="15992" pos_y="1388" pos_z="16646"/>
+	<map_point id="4" type="2" show_name="寒龙" pos_x="19807" pos_y="420" pos_z="5477"/>
+	<map_point id="5" type="2" show_name="寒狼" pos_x="6917" pos_y="396" pos_z="12865"/>
+	<map_point id="6" type="2" show_name="精英猎杀者" pos_x="18069" pos_y="1406" pos_z="23267"/>
+	<map_point id="7" type="2" show_name="寒冷掠食者" pos_x="8990" pos_y="511" pos_z="7470"/>
+	<map_point id="8" type="2" show_name="魔之克蕾娅" pos_x="8348" pos_y="1392" pos_z="20318"/>
+	<map_point id="9" type="2" show_name="寒狼之王" pos_x="10334" pos_y="396" pos_z="3055"/>
+</root>

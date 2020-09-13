@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40039" />
+    <entry Name="拉米萨的条件" />
+    <entry Conditions="" />
+    <entry Overview="击杀&lt;C&gt;40&lt;/C&gt;只&lt;D&gt;&lt;L=d11,1070053&gt;原神精英教徒&lt;/L&gt;&lt;/D&gt;和&lt;C&gt;40&lt;/C&gt;只&lt;D&gt;&lt;L=s08,1070054&gt;原神精英刺客&lt;/L&gt;&lt;/D&gt;，完成后找&lt;D&gt;&lt;L=s02,5010086&gt;圣印师拉米萨&lt;/L&gt;&lt;/D&gt;领取奖励。" />
+</quest-local>

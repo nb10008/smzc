@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30001" />
+    <entry Name="收集资源" />
+    <entry Conditions="" />
+    <entry Overview="通过奔雷裂谷据点边的地穴入口进入矿洞，从焦土矿堆中采集20块&lt;D&gt;&lt;L=d10,6010005&gt;焦土矿&lt;/L&gt;&lt;/D&gt;交给&lt;N&gt;&lt;L=s02,5010053&gt;公会管事&lt;/L&gt;&lt;/N&gt;。[完成此任务会获得公会贡献奖励，以及公会资金和资源。]" />
+</quest-local>

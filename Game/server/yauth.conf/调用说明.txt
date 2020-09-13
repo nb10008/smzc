@@ -1,0 +1,3 @@
+linux 连接依赖 openssl的库，使用 -lssl
+
+yauth.conf 里面文件路径使用绝对路径

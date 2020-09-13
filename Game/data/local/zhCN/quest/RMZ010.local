@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20510" />
+    <entry Name="蛇妖的麻烦" />
+    <entry Conditions="" />
+    <entry Overview="清理&lt;C&gt;45&lt;/C&gt;只&lt;A&gt;&lt;L=s07,1060012&gt;觅食蛇妖&lt;/L&gt;&lt;/A&gt;和&lt;A&gt;&lt;L=s07,1060013&gt;饥饿蛇妖&lt;/L&gt;&lt;/A&gt;，然后回复&lt;D&gt;&lt;L=s07,5010166&gt;魔纳尔&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30622" />
+    <entry Name="百鬼之炼" />
+    <entry Conditions="" />
+    <entry Overview="每日&lt;C&gt;19：00-20：00&lt;/C&gt;在斗战天城会出现&lt;D&gt;“百鬼修炼人”&lt;/D&gt;，并可接取&lt;P&gt;“挑战百鬼炼狱”&lt;/P&gt;的任务。必须拥有&lt;C&gt;4&lt;/C&gt;人以上的队伍才可进入百鬼炼狱，与副本中的&lt;D&gt;“百鬼封印”&lt;/D&gt;对话，可选择&lt;A&gt;“释放鬼怪”&lt;/A&gt;。\n只可在75级-79级完成此任务" />
+</quest-local>

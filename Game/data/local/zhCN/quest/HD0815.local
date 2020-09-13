@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30815" />
+    <entry Name="还得做一件" />
+    <entry Conditions="" />
+    <entry Overview="去找&lt;D&gt;&lt;L=s02,5610053&gt;张三&lt;/L&gt;&lt;/D&gt;，让他帮&lt;D&gt;showgirl小姐&lt;/D&gt;修改新衣服。" />
+</quest-local>

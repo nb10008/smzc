@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20009" />
+    <entry Name="更换武器" />
+    <entry Conditions="" />
+    <entry Overview="找到&lt;D&gt;&lt;L=m10,5010017&gt;法斯兰特&lt;/L&gt;&lt;/D&gt;选择一把好武器。" />
+</quest-local>

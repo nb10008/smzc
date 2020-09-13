@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30865" />
+    <entry Name="进宝" />
+    <entry Conditions="" />
+    <entry Overview="在&lt;P&gt;&lt;Z=s03,44000,2870,60200&gt;七花之海&lt;/Z&gt;&lt;/P&gt;中种下&lt;I&gt;摇钱树种子&lt;/I&gt;，并且照顾它，让它成长起来。摇钱树有幼苗、生长、开花、成熟4个时期，在每个时期与摇钱树对话，让摇钱树进行成长。在最后会出现一只&lt;M&gt;财宝精灵&lt;/M&gt;。这就是摇钱树的原型，一定要消灭它，然后回复&lt;D&gt;&lt;Z=s02,33950,23510,39450&gt;善财使者&lt;/Z&gt;&lt;/D&gt;。提示：&lt;I&gt;摇钱树&lt;/I&gt;每个阶段只能存活3分钟。如果任务失败，可以放弃后重新接取！" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20523" />
+    <entry Name="神魂迷乱" />
+    <entry Conditions="" />
+    <entry Overview="将等级提升至&lt;A&gt;79&lt;/A&gt;级之后，再次与魔子&lt;D&gt;&lt;L=s07,5010204&gt;雷丁&lt;/L&gt;&lt;/D&gt;对话。" />
+</quest-local>

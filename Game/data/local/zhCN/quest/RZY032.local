@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40032" />
+    <entry Name="宝石切割" />
+    <entry Conditions="" />
+    <entry Overview="用&lt;C&gt;20&lt;/C&gt;块&lt;I&gt;原矿&lt;/I&gt;和&lt;D&gt;&lt;L=s02,5010085&gt;七彩之海谢拉&lt;/L&gt;&lt;/D&gt;交换1把&lt;I&gt;普通割刀&lt;I&gt;。\n \n&lt;T&gt; 提示：割刀也可以在杂货商处购买获得&lt;/T&gt;" />
+</quest-local>

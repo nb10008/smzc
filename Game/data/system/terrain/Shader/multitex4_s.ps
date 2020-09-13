@@ -1,0 +1,32 @@
+sampler2D g_baseTex1 : register(s0);
+sampler2D g_baseTex2 : register(s1);
+sampler2D g_baseTex3 : register(s2);
+sampler2D g_baseTex4 : register(s3);
+sampler2D g_alphaMap : register(s4);
+
+half4 main( float2 baseTex1	: TEXCOORD0,
+	  	float2 baseTex2 : TEXCOORD1,
+		float2 baseTex3 : TEXCOORD2,
+		float2 baseTex4 : TEXCOORD3,
+		float2 alphaMap : TEXCOORD4,
+		float4 diffuse  : COLOR0,
+		float4 specular : COLOR1
+		) : COLOR0
+{
+	half4 baseTexColor1=tex2D(g_baseTex1, baseTex1);
+	half4 baseTexColor2=tex2D(g_baseTex2, baseTex2);
+	half4 baseTexColor3=tex2D(g_baseTex3, baseTex3);
+	half4 baseTexColor4=tex2D(g_baseTex4, baseTex4);
+	half3 alpha=tex2D(g_alphaMap, alphaMap).rgb;
+			
+	half4 ret=baseTexColor1*(1-alpha.x)+baseTexColor2*alpha.x;	
+	ret=ret*(1-alpha.y)+baseTexColor3*alpha.y;
+	ret=ret*(1-alpha.z)+baseTexColor4*alpha.z;
+	
+	ret.rgb*=diffuse.rgb*2.0f;	
+	
+	specular.rgb*=ret.a;
+	ret.rgb+=specular.rgb;	
+			
+	return ret;
+}

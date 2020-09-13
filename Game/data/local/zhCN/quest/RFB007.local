@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="29007" />
+    <entry Name="白银魔窟的审判" />
+    <entry Conditions="" />
+    <entry Overview="到&lt;N&gt;&lt;Z=s05,76484,19283,140211&gt;白银魔窟&lt;/Z&gt;&lt;/N&gt;里面，击杀&lt;A&gt;丑陋的僵尸怪&lt;/A&gt;&lt;C&gt;6&lt;/C&gt;只,击杀&lt;A&gt;劫匪小头目刚多&lt;/A&gt;&lt;C&gt;6&lt;/C&gt;只,击杀&lt;A&gt;盗匪拳师贾斯里&lt;/A&gt;&lt;C&gt;1&lt;/C&gt;只,收集&lt;C&gt;15&lt;/C&gt;个&lt;M&gt;魔窟秘宝&lt;/M&gt;，以上完成其中一项即可,然后回复&lt;D&gt;&lt;L=s02,5010227&gt;审判者奥斯威德&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

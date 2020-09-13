@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20328" />
+    <entry Name="超级猎手" />
+    <entry Conditions="" />
+    <entry Overview="在附近找到&lt;A&gt;&lt;L=s05,1040033&gt;精英猎杀者&lt;/L&gt;&lt;/A&gt; ，杀掉&lt;C&gt;20&lt;/C&gt;个之后回复&lt;D&gt;&lt;L=s05,5010095&gt;巨熊威尔&lt;/L&gt;&lt;/D&gt;。\n \n&lt;color=0xffff0000&gt;内容预告&lt;color=0xffffffff&gt;&#x0A;\n&lt;S&gt;[Lv47]&lt;/S&gt;冰寒魔域:47级后可挑战&lt;P&gt;副本冰寒魔域&lt;/P&gt;&#x09;&#x0A;\n&lt;S&gt;[Lv50]&lt;/S&gt;天之行会:50级后可接取&lt;P&gt;天之行会任务&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv55]&lt;/S&gt;真假魔王:55级后可参与&lt;P&gt;真假魔王活动&lt;/P&gt;&#x0A;\n&lt;S&gt;[Lv60]&lt;/S&gt;职业进阶:60级后可进行&lt;T&gt;二次转职&lt;/T&gt;&#x0A;\n&lt;S&gt;[Lv60]&lt;/S&gt;妖精特技:60级后的&lt;A&gt;妖精&lt;/A&gt;开始拥有特技&#x0A;\n&lt;S&gt;[Lv61]&lt;/S&gt;高阶技能:61级可在学习&lt;T&gt;高阶职业技能&lt;/T&gt;&#x0A;" />
+</quest-local>

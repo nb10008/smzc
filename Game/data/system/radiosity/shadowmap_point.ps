@@ -1,0 +1,81 @@
+#define SHADOW_EPSILONCOEF 0.0004f
+
+float3		g_vecLightPosWorld;
+float3		g_vecTextureSize;
+float3		g_vecTextureSizeDiv;
+float		g_fZDist;
+
+sampler2D	g_posMap	: register(s0);
+samplerCUBE	g_depthMap	: register(s1);
+
+float UnfilteredShadowComparison(samplerCUBE depthMap, float3 texcoord, float compareDepth)
+{
+	float shadowEpsilon = g_fZDist * SHADOW_EPSILONCOEF;
+	return (compareDepth < texCUBE(depthMap, texcoord).r+shadowEpsilon) ? 1.0f : 0.0f ;
+}
+
+float FilteredShadowComparison(samplerCUBE depthMap, float3 texcoord, float compareDepth)
+{
+	float3 halfPixel = float3(0.5f,0.5f,0.5f);
+	float3 oneConst	 = float3(1.0f,1.0f,1.0f);
+	
+	float3 texPos 	 = texcoord * g_vecTextureSize;
+	float3 texPos0	 = floor(texPos + halfPixel);
+	float3 texPos1	 = texPos0 + oneConst;
+	
+	texPos0 = texPos0 * g_vecTextureSizeDiv;
+	texPos1 = texPos1 * g_vecTextureSizeDiv;
+	
+	float3 blend = frac(texPos + halfPixel);
+	
+	float3 texPos000 = texPos0;
+	float3 texPos001 = float3(texPos0.x, texPos0.y, texPos1.z);
+	float3 texPos010 = float3(texPos0.x, texPos1.y, texPos0.z);
+	float3 texPos011 = float3(texPos0.x, texPos1.y, texPos1.z);
+	float3 texPos100 = float3(texPos1.x, texPos0.y, texPos0.z);
+	float3 texPos101 = float3(texPos1.x, texPos0.y, texPos1.z);
+	float3 texPos110 = float3(texPos1.x, texPos1.y, texPos0.z);
+	float3 texPos111 = texPos1;
+	
+	float3 C000 = texCUBE(depthMap,texPos000);
+	float3 C001 = texCUBE(depthMap,texPos001);
+	float3 C010 = texCUBE(depthMap,texPos010);
+	float3 C011 = texCUBE(depthMap,texPos011);
+	float3 C100 = texCUBE(depthMap,texPos100);
+	float3 C101 = texCUBE(depthMap,texPos101);
+	float3 C110 = texCUBE(depthMap,texPos110);
+	float3 C111 = texCUBE(depthMap,texPos111);
+	
+	float shadowEpsilon = g_fZDist * SHADOW_EPSILONCOEF;
+	float shadow000 = (compareDepth < C000.r+shadowEpsilon) ? 1.0f : 0.0f;
+	float shadow001 = (compareDepth < C001.r+shadowEpsilon) ? 1.0f : 0.0f;
+	float shadow010 = (compareDepth < C010.r+shadowEpsilon) ? 1.0f : 0.0f;
+	float shadow011 = (compareDepth < C011.r+shadowEpsilon) ? 1.0f : 0.0f;
+	float shadow100 = (compareDepth < C100.r+shadowEpsilon) ? 1.0f : 0.0f;
+	float shadow101 = (compareDepth < C101.r+shadowEpsilon) ? 1.0f : 0.0f;
+	float shadow110 = (compareDepth < C110.r+shadowEpsilon) ? 1.0f : 0.0f;
+	float shadow111 = (compareDepth < C111.r+shadowEpsilon) ? 1.0f : 0.0f;
+	
+	float a = lerp(
+					lerp( lerp(shadow000, shadow010, blend.y),
+						  lerp(shadow100, shadow110, blend.y),
+						  blend.x),
+					lerp( lerp(shadow001, shadow011, blend.y),
+						  lerp(shadow101, shadow111, blend.y),
+						  blend.x),
+					blend.z);
+					
+	return a;
+}
+
+float4 main( float2 uv0 : TEXCOORD0 ) : COLOR0
+{
+	float visable=0.0f;
+	float3 posWorld=tex2D(g_posMap,uv0).xyz;
+	float3 posLight=posWorld-g_vecLightPosWorld;
+	
+	//UnfilteredShadowComparison(g_depthMap, posLight, length(posLight));
+	visable=FilteredShadowComparison(g_depthMap, posLight, length(posLight));
+	
+	return float4(visable,visable,visable,visable);
+}

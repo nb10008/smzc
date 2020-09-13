@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20011" />
+    <entry Name="金色魔花" />
+    <entry Conditions="" />
+    <entry Overview="在附近，杀死&lt;C&gt;6&lt;/C&gt;只&lt;A&gt;&lt;L=m10,1010013&gt;金色魔花&lt;/L&gt;&lt;/A&gt;，完成后回复&lt;D&gt;&lt;L=s01,5010016&gt;统帅伊万夫&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

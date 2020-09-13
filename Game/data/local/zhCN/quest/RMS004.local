@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20604" />
+    <entry Name="邪术" />
+    <entry Conditions="" />
+    <entry Overview="从&lt;A&gt;&lt;L=s08,1070004&gt;狂风劫匪&lt;/L&gt;&lt;/A&gt;、&lt;A&gt;&lt;L=s08,1070005&gt;狂风强盗&lt;/L&gt;&lt;/A&gt;身上取来&lt;C&gt;100&lt;/C&gt;份&lt;I&gt;血样&lt;/I&gt;，交给智慧之神&lt;D&gt;&lt;L=s08,5010205&gt;奥克山&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20626" />
+    <entry Name="亚雷斯的请求" />
+    <entry Conditions="" />
+    <entry Overview="采集&lt;C&gt;1&lt;/C&gt;份&lt;M&gt;&lt;L=s08,6010041&gt;玉昙花&lt;/L&gt;&lt;/M&gt;合成&lt;C&gt;1&lt;/C&gt;份&lt;I&gt;乾元散&lt;/I&gt;后交给&lt;D&gt;&lt;L=s08,5010208&gt;亚雷斯&lt;/L&gt;&lt;/D&gt;。&#x0A;\n提示：&lt;T&gt;采集&lt;/T&gt;&lt;C&gt;1&lt;/C&gt;&lt;T&gt;支&lt;/T&gt;&lt;I&gt;玉昙花&lt;/I&gt;&lt;T&gt;后&lt;/T&gt;，&lt;T&gt;右键点击使用&lt;/T&gt;&lt;I&gt;溶血草&lt;/I&gt;&lt;T&gt;可合成&lt;/T&gt;&lt;I&gt;乾元散&lt;/I&gt;。" />
+</quest-local>

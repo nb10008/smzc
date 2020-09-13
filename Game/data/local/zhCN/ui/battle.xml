@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<desktop>
+    <UIControl Name="battlewin" ClassName="CGUIWindow" Movable="yes" CanMoveOutOfFather="yes" BottomMost="yes" LogicPos_x="578" LogicPos_y="165" Size_x="523" Size_y="62" AlignControl="\desktop" AlignType="InnerTop" AlignOffset_y="165" PopupSound="window_popup" NoPopupEffect="yes">
+        <UIControl Name="battle" ClassName="CGUIStatic" MoveFather="yes" BottomMost="yes" Size_x="523" Size_y="62" Font="龙字体" TextRect_right="523" TextRect_bottom="62" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicFileName="data\ui\main\l-main01.bmp" PicRect_left="501" PicRect_top="275" PicRect_right="1024" PicRect_bottom="337" PicColor="0xFFFFFFFF" AlphaWrite="Write">
+            <UIControl Name="num0" ClassName="CGUIStatic" LogicPos_x="100" LogicPos_y="46" Size_x="40" Size_y="16" Font="龙字体" FontHeight="15" TextRect_right="40" TextRect_bottom="16" TextColor="0xFFDBD69F" ShadeColor="0xFF000000" TextWriteAlpha="yes" TextAlign="LeftCenter" PicColor="0xFFFFFF" />
+            <UIControl Name="num1" ClassName="CGUIStatic" LogicPos_x="383" LogicPos_y="46" Size_x="40" Size_y="16" Font="龙字体" FontHeight="15" TextRect_right="40" TextRect_bottom="16" TextColor="0xFFDBD69F" ShadeColor="0xFF000000" TextWriteAlpha="yes" TextAlign="RightCenter" PicColor="0xFFFFFF" />
+            <UIControl Name="points1" ClassName="CGUIStatic" LogicPos_x="353" LogicPos_y="5" Size_x="60" Size_y="16" Font="龙字体" FontHeight="15" TextRect_right="60" TextRect_bottom="16" TextColor="0xFF489FEE" ShadeColor="0xFF000000" TextWriteAlpha="yes" TextAlign="RightCenter" PicColor="0xFFFFFF" />
+            <UIControl Name="points0" ClassName="CGUIStatic" LogicPos_x="110" LogicPos_y="5" Size_x="60" Size_y="16" Font="龙字体" FontHeight="15" TextRect_right="60" TextRect_bottom="16" TextColor="0xFFF13A28" ShadeColor="0xFF000000" TextWriteAlpha="yes" TextAlign="LeftCenter" PicColor="0xFFFFFF" />
+            <UIControl Name="pro" ClassName="CGUIProgress" LogicPos_x="24" LogicPos_y="27" Size_x="472" Size_y="13" Font="龙字体" TextRect_right="472" TextRect_bottom="13" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicColor="0xFFFFFF" Horizon="yes" ForePicFileName="data\ui\main\l-main01.bmp" ForePicRect_left="627" ForePicRect_top="348" ForePicRect_right="631" ForePicRect_bottom="361" ForePicColor="0xFFFFFFFF">
+                <UIControl Name="pic" ClassName="CGUIStatic" CanMoveOutOfFather="yes" LogicPos_x="216" LogicPos_y="-9" Size_x="44" Size_y="34" Font="龙字体" TextRect_right="44" TextRect_bottom="34" TextColor="0xFFFFF2A4" ShadeColor="0xFF290404" PicFileName="data\ui\main\l-main01.bmp" PicRect_left="579" PicRect_top="348" PicRect_right="623" PicRect_bottom="382" PicColor="0xFFFFFFFF" AlphaWrite="Add" />
+            </UIControl>
+        </UIControl>
+    </UIControl>
+</desktop>

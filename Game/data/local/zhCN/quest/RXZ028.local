@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20428" />
+    <entry Name="回城报告" />
+    <entry Conditions="" />
+    <entry Overview="在&lt;N&gt;西洲幻林&lt;/N&gt;将等级提升至&lt;C&gt;65&lt;/C&gt;级，然后回到斗战天城，向&lt;D&gt;&lt;L=s02,5010029&gt;斗神之王玛斯&lt;/L&gt;&lt;/D&gt;报告。&#x0A;" />
+</quest-local>

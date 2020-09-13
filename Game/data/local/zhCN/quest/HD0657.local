@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30657" />
+    <entry Name="玄晶石碎片" />
+    <entry Conditions="" />
+    <entry Overview="每次需要&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;玄晶石碎片卷&lt;/I&gt;和&lt;C&gt;20&lt;/C&gt;&lt;A&gt;金游戏币&lt;/A&gt;，可以兑换&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;玄晶石碎片&lt;/I&gt;。任务无次数限制" />
+</quest-local>

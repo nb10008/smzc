@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20617" />
+    <entry Name="日月山" />
+    <entry Conditions="" />
+    <entry Overview="消灭&lt;C&gt;100&lt;/C&gt;名&lt;A&gt;&lt;L=s08,1070015&gt;狂风刀手&lt;/L&gt;&lt;/A&gt;、&lt;C&gt;100&lt;/C&gt;名&lt;A&gt;&lt;L=s08,1070016&gt;狂风喽啰&lt;/L&gt;&lt;/A&gt;后，回复&lt;D&gt;&lt;L=s08,5010206&gt;幽露&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

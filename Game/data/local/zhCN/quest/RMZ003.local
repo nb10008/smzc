@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20503" />
+    <entry Name="清理沼泽" />
+    <entry Conditions="" />
+    <entry Overview="消灭&lt;C&gt;10&lt;/C&gt;个&lt;color=0xffff6000&gt;&lt;L=s07,1060033&gt;南沼魔花&lt;/L&gt;&lt;color=0xffffffff&gt;，&lt;C&gt;10&lt;/C&gt;个&lt;color=0xffff6000&gt;&lt;L=s07,1060034&gt;精英突袭者&lt;/L&gt;&lt;color=0xffffffff&gt;，然后杀死&lt;color=0xffff0000&gt;&lt;L=s07,1060048&gt;妖迷王&lt;/L&gt;&lt;color=0xffffffff&gt;和&lt;color=0xffff0000&gt;&lt;L=s07,1060047&gt;突袭者首领&lt;/L&gt;&lt;color=0xffffffff&gt;。全部完成后回复&lt;D&gt;&lt;L=s07,5010164&gt;树神哈伦斯&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

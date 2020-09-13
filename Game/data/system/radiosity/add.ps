@@ -1,0 +1,18 @@
+sampler2D g_lightMap 		: register(s0);
+sampler2D g_radiosityTex 	: register(s1);
+
+
+float4 main( float2 uv0 : TEXCOORD0 ) : COLOR0
+{
+	float4 color=1;
+	
+	float4 light	 =tex2D(g_lightMap,uv0);
+	float4 radiosity =tex2D(g_radiosityTex,uv0);
+
+	color.a=light.a;
+	color.rgb=light.rgb+radiosity.rgb;
+	
+	//todo: 曝光效果预先除以2
+
+	return color;
+}

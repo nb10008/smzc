@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40053" />
+    <entry Name="辛勤耕种NO.1" />
+    <entry Conditions="种植一颗香果种" />
+    <entry Overview="将香果种种到种植区，成功后回复庄园主&lt;D&gt;&lt;L=s51,5800075&gt;艾欧里奥&lt;/L&gt;&lt;/D&gt;。\n提示：选择一个待种植的土坑，选择要播种的植物，即可将对应植物的种子播种成功。可以到&lt;N&gt;&lt;Z=s51,15750,4210,14950&gt;低级种植区1&lt;/Z&gt;&lt;/N&gt;或者&lt;N&gt;&lt;Z=s51,17800,4560,20900&gt;低级种植区2&lt;/Z&gt;&lt;/N&gt;" />
+</quest-local>

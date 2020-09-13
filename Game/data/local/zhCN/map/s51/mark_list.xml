@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="斗战天城传送员" pos_x="9498" pos_y="4206" pos_z="16020"/>
+	<map_point id="2" type="1" show_name="妖精农场传送人" pos_x="10760" pos_y="4216" pos_z="19554"/>
+	<map_point id="3" type="2" show_name="艾欧里奥" pos_x="8221" pos_y="4200" pos_z="18866"/>
+	<map_point id="4" type="2" show_name="食物加工" pos_x="8722" pos_y="4226" pos_z="18655"/>
+	<map_point id="5" type="2" show_name="厨房管理员" pos_x="7305" pos_y="4187" pos_z="17555"/>
+	<map_point id="6" type="2" show_name="渔具管理员" pos_x="12684" pos_y="3341" pos_z="10903"/>
+	<map_point id="7" type="2" show_name="农场管理员" pos_x="8448" pos_y="4200" pos_z="19258"/>
+	<map_point id="8" type="2" show_name="妖精妙芙" pos_x="10932" pos_y="4219" pos_z="19123"/>
+	<map_point id="9" type="2" show_name="水井" pos_x="5367" pos_y="4240" pos_z="15802"/>
+	<map_point id="10" type="2" show_name="魔法布兑换人" pos_x="10250" pos_y="4161" pos_z="16162"/>
+</root>

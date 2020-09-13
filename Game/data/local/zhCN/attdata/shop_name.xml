@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <Shop id="1" name="武器商" shelf_1="武器" />
+    <Shop id="2" name="防具商" shelf_1="防具" />
+    <Shop id="3" name="饰品商" shelf_1="饰品" />
+    <Shop id="4" name="药品商" shelf_1="药品" />
+    <Shop id="5" name="杂货商" shelf_1="任务杂货" />
+    <Shop id="6" name="新手药剂商" shelf_1="药剂" />
+    <Shop id="7" name="新手药剂商" shelf_1="药剂" />
+    <Shop id="8" name="药剂商" shelf_1="药剂" />
+    <Shop id="9" name="药剂商" shelf_1="药剂" />
+    <Shop id="10" name="药剂商" shelf_1="药剂" />
+    <Shop id="11" name="药剂商" shelf_1="药剂" />
+    <Shop id="12" name="药剂商" shelf_1="药剂" />
+    <Shop id="13" name="药剂商" shelf_1="药剂" />
+    <Shop id="14" name="高级药剂商" shelf_1="普通药剂" shelf_2="特殊药剂" />
+    <Shop id="15" name="高级药剂商" shelf_1="普通药剂" shelf_2="特殊药剂" />
+    <Shop id="16" name="高级药剂商" shelf_1="普通药剂" shelf_2="特殊药剂" />
+    <Shop id="17" name="高级药剂商" shelf_1="普通药剂" shelf_2="特殊药剂" />
+    <Shop id="18" name="高级药剂商" shelf_1="普通药剂" shelf_2="特殊药剂" />
+    <Shop id="19" name="高级药剂商" shelf_1="普通药剂" shelf_2="特殊药剂" />
+    <Shop id="20" name="杂货商" shelf_1="杂货" shelf_2="转职道具" shelf_3="领域卷轴" />
+    <Shop id="21" name="杂货商" shelf_1="杂货" shelf_2="转职道具" shelf_3="领域卷轴" />
+    <Shop id="22" name="杂货商" shelf_1="杂货" shelf_2="转职道具" shelf_3="领域卷轴" />
+    <Shop id="23" name="杂货商" shelf_1="杂货" shelf_2="转职道具" shelf_3="领域卷轴" />
+    <Shop id="24" name="杂货商" shelf_1="杂货" shelf_2="转职道具" shelf_3="领域卷轴" />
+    <Shop id="25" name="杂货商" shelf_1="杂货" shelf_2="转职道具" shelf_3="领域卷轴" />
+    <Shop id="26" name="杂货商" shelf_1="杂货" shelf_2="转职道具" shelf_3="领域卷轴" />
+    <Shop id="27" name="杂货商" shelf_1="杂货" shelf_2="转职道具" shelf_3="领域卷轴" />
+    <Shop id="28" name="杂货商" shelf_1="杂货" shelf_2="转职道具" shelf_3="领域卷轴" />
+    <Shop id="29" name="七花奇货商1" shelf_1="奇货" />
+    <Shop id="30" name="七花奇货商2" shelf_1="奇货" />
+    <Shop id="31" name="七花奇货商3" shelf_1="奇货" />
+    <Shop id="32" name="七花奇货商4" shelf_1="奇货" />
+    <Shop id="33" name="奔雷奇货商1" shelf_1="奇货" />
+    <Shop id="34" name="奔雷奇货商2" shelf_1="奇货" />
+    <Shop id="35" name="奔雷奇货商3" shelf_1="奇货" />
+    <Shop id="36" name="奔雷奇货商4" shelf_1="奇货" />
+    <Shop id="37" name="北洲奇货商1" shelf_1="奇货" />
+    <Shop id="38" name="北洲奇货商2" shelf_1="奇货" />
+    <Shop id="39" name="北洲奇货商3" shelf_1="奇货" />
+    <Shop id="40" name="北洲奇货商4" shelf_1="奇货" />
+    <Shop id="41" name="西洲奇货商1" shelf_1="奇货" />
+    <Shop id="42" name="西洲奇货商2" shelf_1="奇货" />
+    <Shop id="43" name="西洲奇货商3" shelf_1="奇货" />
+    <Shop id="44" name="西洲奇货商4" shelf_1="奇货" />
+    <Shop id="45" name="南洲奇货商1" shelf_1="奇货" />
+    <Shop id="46" name="南洲奇货商2" shelf_1="奇货" />
+    <Shop id="47" name="南洲奇货商3" shelf_1="奇货" />
+    <Shop id="48" name="南洲奇货商4" shelf_1="奇货" />
+    <Shop id="49" name="东州奇货商1" shelf_1="奇货" />
+    <Shop id="50" name="东州奇货商2" shelf_1="奇货" />
+    <Shop id="51" name="东州奇货商3" shelf_1="奇货" />
+    <Shop id="52" name="东州奇货商4" shelf_1="奇货" />
+    <Shop id="53" name="忠诚徽章" shelf_1="物品兑换" />
+    <Shop id="54" name="宝石兑换商人" shelf_1="宝石兑换" />
+    <Shop id="55" name="魔核商人" shelf_1="物品兑换" />
+    <Shop id="56" name="魔之令兑换人" shelf_1="物品兑换" />
+    <Shop id="57" name="圣之令兑换人" shelf_1="物品兑换" />
+    <Shop id="58" name="食品商" shelf_1="食品" />
+    <Shop id="59" name="魔域药品商" shelf_1="药品" />
+    <Shop id="60" name="40级传说装备商" shelf_1="传说装备" />
+    <Shop id="61" name="60级传说装备商" shelf_1="传说装备" />
+    <Shop id="62" name="80级传说装备商" shelf_1="传说装备" />
+    <Shop id="63" name="妖精食物" shelf_1="妖精食物" />
+    <Shop id="64" name="背包兑换师" shelf_1="物品兑换" />
+    <Shop id="65" name="高级技能书店" shelf_1="技能书" />
+    <Shop id="66" name="妖精神秘商人" shelf_1="容器" />
+    <Shop id="67" name="爱神艾希亚" shelf_1="单身礼品" />
+    <Shop id="68" name="斗技场商店" shelf_1="斗士饰品" />
+    <Shop id="69" name="斗技场金币商人" shelf_1="合成道具" shelf_2="技能书一" shelf_3="技能书二" shelf_4="自选领域" />
+    <Shop id="70" name="高阶勋章兑换人" shelf_1="高阶兑换" />
+    <Shop id="71" name="统治勋章兑换人" shelf_1="普通兑换" shelf_2="领域一" shelf_3="领域二" />
+    <Shop id="72" name="活动三级宝石兑换" shelf_1="三级宝石" />
+    <Shop id="73" name="活动四级宝石兑换" shelf_1="四级宝石" />
+    <Shop id="74" name="厨房管理员" shelf_1="种子" shelf_2="材料" />
+    <Shop id="75" name="雪之钻物品商" shelf_1="圣诞礼品" />
+    <Shop id="76" name="雪之钻装备商" shelf_1="圣诞装备" />
+    <Shop id="77" name="雪之钻限量商" shelf_1="限量礼品" />
+    <Shop id="78" name="60高阶勋章装备" />
+    <Shop id="79" name="80高阶勋章装备" />
+    <Shop id="80" name="神兵玄翎技能书店" shelf_1="神兵技能" shelf_2="玄翎技能" />
+    <Shop id="81" name="乾坤仙音技能书店" shelf_1="乾坤技能" shelf_2="仙音技能" />
+    <Shop id="82" name="时装设计图商人" shelf_1="时装材料" />
+    <Shop id="83" name="罗曼徽章兑换商" shelf_1="物品兑换" />
+    <Shop id="84" name="罗曼商人" shelf_1="材料" />
+    <Shop id="85" name="净化药剂商" shelf_1="净化药剂" />
+    <Shop id="86" name="工匠守护商店" shelf_1="工匠守护" />
+    <Shop id="87" name="强化神铸商店" shelf_1="强化保佑" shelf_2="神铸之手" />
+    <Shop id="88" name="活力御妖商店" shelf_1="活力充沛" shelf_2="御妖术" />
+    <Shop id="89" name="宝石商店" shelf_1="宝石工艺" />
+    <Shop id="90" name="神钻碎片" shelf_1="副本领域" shelf_2="战斗领域" />
+    <Shop id="91" name="神钻" shelf_1="副本领域" shelf_2="战斗领域" />
+    <Shop id="92" name="藏经阁兑换商" shelf_1="藏经阁" />
+    <Shop id="93" name="杂货商" shelf_1="杂货" shelf_2="转职道具" shelf_3="药剂" />
+    <Shop id="94" name="宝石加工商店" shelf_1="高级宝石" shelf_2="王者石" />
+    <Shop id="95" name="80级魔神防具" shelf_1="防具" />
+    <Shop id="96" name="80级魔神饰品" shelf_1="饰品" />
+    <Shop id="97" name="60级魔神防具" shelf_1="防具" />
+    <Shop id="98" name="60级魔神饰品" shelf_1="饰品" />
+    <Shop id="99" name="90级魔神防具" shelf_1="防具" />
+    <Shop id="100" name="90级魔神饰品" shelf_1="饰品" />
+    <Shop id="101" name="家族徽章" shelf_1="物品兑换" />
+    <Shop id="102" name="60级伪魔兑换商" shelf_1="物品兑换" />
+    <Shop id="103" name="80级伪魔兑换商" shelf_1="物品兑换" />
+    <Shop id="104" name="中秋节商人" shelf_1="饰品" />
+    <Shop id="105" name="国庆节商人" shelf_1="物品兑换" />
+    <Shop id="106" name="欢乐币兑换人" shelf_1="强化" shelf_2="宝石" shelf_3="圣印" shelf_4="灵魂链" />
+    <Shop id="107" name="欢乐币兑换人" shelf_1="领域技能" shelf_2="称号" shelf_3="其他" />
+    <Shop id="108" name="天界商人" shelf_1="传说装备" shelf_2="神血脉" shelf_3="成长装备" shelf_4="其他" />
+    <Shop id="109" name="糖果屋(台湾需求）" shelf_1="糖果" />
+    <Shop id="110" name="天神商人" shelf_1="装备图纸" shelf_2="材料" shelf_3="技能书" shelf_4="其他" />
+    <Shop id="111" name="魔族商人" shelf_1="装备图纸" shelf_2="材料" shelf_3="魔化矿镐" shelf_4="其他" />
+    <Shop id="112" name="秘境装备兑换商" shelf_1="30级装备" shelf_2="50级装备" shelf_3="魔神武器" />
+    <Shop id="113" name="欢乐币兑换人" shelf_1="金币箱" />
+    <Shop id="114" name="龙年新春商人" shelf_1="物品兑换" />
+    <Shop id="115" name="情人节装备商" shelf_1="饰品" />
+    <Shop id="116" name="情人节物品商" shelf_1="强化" shelf_2="宝石" shelf_3="其他" />
+    <Shop id="117" name="妖精奇货商" shelf_1="妖精奇货" />
+    <Shop id="118" name="妖精贩卖商" shelf_1="妖精贩卖" />
+    <Shop id="119" name="統治勳章兌換人2(台湾需求)" shelf_1="普通兑换" />
+    <Shop id="120" name="英雄宝库武器商" shelf_1="英雄宝库武器" />
+    <Shop id="121" name="英雄宝库兑换商" shelf_1="英雄宝库兑换" />
+    <Shop id="122" name="60级伪魔兑换商" shelf_1="物品兑换" />
+    <Shop id="123" name="80级伪魔兑换商" shelf_1="物品兑换" />
+    <Shop id="124" name="宝石商人" shelf_1="4级宝石" shelf_2="5级宝石" shelf_3="6级宝石" />
+    <Shop id="125" name="麒麟兑换商" shelf_1="物品兑换" />
+    <Shop id="126" name="赤红之鳞兑换商" shelf_1="物品兑换" />
+    <Shop id="127" name="御灵兑换商" shelf_1="圣灵兑换" shelf_2="圣纹兑换" />
+    <Shop id="128" name="幻彩武器兑换商" shelf_1="物品兑换" />
+    <Shop id="129" name="战场装备商" shelf_1="装备商" shelf_2="极品装备" />
+    <Shop id="130" name="战场药水商" shelf_1="药水商" />
+    <Shop id="131" name="守护地图赌博商" shelf_1="特殊兑换" shelf_2="极品装备" />
+    <Shop id="132" name="守护地图材料商" shelf_1="战场材料" />
+    <Shop id="133" name="特殊材料材料商" shelf_1="特殊兑换" />
+    <Shop id="134" name="奥运奖章兑换商店" shelf_1="奥运商店" shelf_2="奥运商店" />
+</root>

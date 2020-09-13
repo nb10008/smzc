@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30749" />
+    <entry Name="勇闯天地宫" />
+    <entry Conditions="" />
+    <entry Overview="在天地宫的活动中收集&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;地晶石&lt;/I&gt;和&lt;C&gt;2&lt;/C&gt;个&lt;I&gt;天晶石&lt;/I&gt;。\n&lt;/I&gt;天晶石&lt;/I&gt;可通过进入天地宫中的天支线获得，进入天支线需要在地支线中找到&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;天地票&lt;/I&gt;才可进入。\n&lt;I&gt;地晶石&lt;/I&gt;可通过进入天地宫中的地支线获得\n&lt;C&gt;30&lt;/C&gt;级以上的玩家均可进入挑战。" />
+</quest-local>

@@ -1,0 +1,34 @@
+//
+//1.当前路径是AHNetServer所在得路径,;系统会根据,AHNetServer得路径算出绝对路径; 
+//
+//
+<server>
+	<basic>
+		<m_sShdbFileName>config/shdb.shd</m_sShdbFileName>			//shd 文件名称路径
+		<MaxUserNum>4000</MaxUserNum>						//估计一下,最大在线人数;这个估计要足够合适,因为一些缓冲区,要根据在线人数配置;如果是多个gameserver连过来,要计算总和
+ 		<init_min_hello_interval>30000</init_min_hello_interval>		//保活信息间隔(ms),建议60000--80000
+		<init_max_hello_interval>300000</init_max_hello_interval>		//最大保活信息间隔(ms),建议120000--200000
+ 	</basic>
+	<log>
+		<console>0</console>							//是否把log,显示到console
+		<hello_log>0</hello_log>						//是否记录保活信息,出发调试,否则别记录
+		<m_nMaxReportHookNum>10</m_nMaxReportHookNum>				//最大报告得Hook数量
+		<log_file>hook_log/MainServer</log_file>				//log文件;文件名后系统会自动加上日期
+		<log_file_found>hook_log/MainServerFound</log_file_found>		//hook 得报告log;文件名后系统会自动加上日期
+	</log>
+	<KillUser>
+		<m_bOpenKillUser>1</m_bOpenKillUser>					//踢人封人总开关.1,开启;0,无效;
+		<m_bForceUse_KillUserPara>0</m_bForceUse_KillUserPara>	//强制用以下,参数;1,所有错误类型都用以下参数,0,内部参数优先;
+		<m_nKillUserPara>10</m_nKillUserPara>					//发送Kill指令时,所带得参数;
+		<m_bOpenRandKillUser>0</m_bOpenRandKillUser>			//打开按比率踢人
+		<m_nRandKillUserRatio>80</m_nRandKillUserRatio>			//踢人的比率 0 --100 %
+		<m_bOpen_LastUnRegLock>0</m_bOpen_LastUnRegLock>		//最后一次超时后,是不是要锁定;
+		<m_nLastUnRegLockIndex>1</m_nLastUnRegLockIndex>		//锁定所用的参数;
+		<UnRegisterPolicy>										//超时列表,可以增加;
+			<Num-1>8000</Num-1>
+			<Num-2>7000</Num-2>
+			<Num-3>5000</Num-3>
+		</UnRegisterPolicy>
+		<m_nOutUnRegListTime>30000</m_nOutUnRegListTime>		//一个玩家,多久没有超时后,清除列表;
+	</KillUser>
+</server>

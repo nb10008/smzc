@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20639" />
+    <entry Name="再入狂沙洞" />
+    <entry Conditions="" />
+    <entry Overview="&lt;A&gt;&lt;L=d09,1070030&gt;熔洞石斧手&lt;/L&gt;&lt;/A&gt;&lt;C&gt;100&lt;/C&gt;只，&lt;A&gt;&lt;L=d09,1070031&gt;大地破坏者&lt;/L&gt;&lt;/A&gt;&lt;C&gt;100&lt;/C&gt;只，&lt;color=0xffff6000&gt;&lt;L=d09,1070061&gt;天地撼动者&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;30&lt;/C&gt;只，&lt;color=0xffff0000&gt;&lt;L=d09,1070082&gt;冥山山王&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;1&lt;/C&gt;只，达成目标后回复&lt;D&gt;&lt;L=s08,5010209&gt;罗特&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

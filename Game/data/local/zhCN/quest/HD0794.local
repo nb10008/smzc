@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30794" />
+    <entry Name="让我去量身？" />
+    <entry Conditions="" />
+    <entry Overview="从&lt;N&gt;西洲幻林&lt;/N&gt;的&lt;A&gt;&lt;L=s06,1050004&gt;三鬼信徒&lt;/L&gt;&lt;/A&gt;和&lt;A&gt;&lt;L=s06,1050005&gt;三鬼门徒&lt;/L&gt;&lt;/A&gt;身上收集一种叫做&lt;I&gt;皮筋&lt;/I&gt;的物品，攒齐&lt;C&gt;20&lt;/C&gt;个&lt;I&gt;皮筋&lt;/I&gt;回去找&lt;D&gt;&lt;L=s02,5610050&gt;showgirl小姐&lt;/L&gt;&lt;/D&gt;" />
+</quest-local>

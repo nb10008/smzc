@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<maparea id="562" interval="60000" volume="100" priority="1" title="" music0="data\Music\s12.mp3" music1="" music2="" />	
+	<maparea id="1143" interval="60000" volume="100" priority="1" title="" music0="data\Music\s13.mp3" music1="" music2="" />	
+	<maparea id="1145" interval="60000" volume="100" priority="1" title="" music0="data\Music\s13.mp3" music1="" music2="" />	
+	<maparea id="1146" interval="60000" volume="100" priority="1" title="" music0="data\Music\s13.mp3" music1="" music2="" />	
+	<maparea id="1147" interval="60000" volume="100" priority="1" title="" music0="data\Music\s13.mp3" music1="" music2="" />	
+
+</root>
+
+
+

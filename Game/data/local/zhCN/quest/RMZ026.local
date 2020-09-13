@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20526" />
+    <entry Name="心中的信仰" />
+    <entry Conditions="" />
+    <entry Overview="一路铲除&lt;A&gt;&lt;L=s07,1060031&gt;原神教信徒&lt;/L&gt;&lt;/A&gt;&lt;C&gt;50&lt;/C&gt;名、&lt;A&gt;&lt;L=s07,1060032&gt;原神教卫兵&lt;/L&gt;&lt;/A&gt;&lt;C&gt;50&lt;/C&gt;名、&lt;color=0xffff6000&gt;&lt;L=s07,1060046&gt;原神精英信徒&lt;/L&gt;&lt;color=0xffffffff&gt;&lt;C&gt;15&lt;/C&gt;名，从&lt;color=0xffff0000&gt;&lt;L=s07,1060055&gt;南沼原神首领&lt;/L&gt;&lt;color=0xffffffff&gt;身上取得&lt;I&gt;斗神之王的印信&lt;/I&gt;。之后回复&lt;D&gt;&lt;L=s07,5010029&gt;斗神之王玛斯&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

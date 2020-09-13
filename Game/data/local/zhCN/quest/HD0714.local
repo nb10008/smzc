@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30714" />
+    <entry Name="战场嘉奖" />
+    <entry Conditions="" />
+    <entry Overview="当战场结束时，拥有“战斗的荣耀”状态则可以领取&lt;C&gt;1&lt;/C&gt;个&lt;I&gt;战斗嘉奖包&lt;/I&gt;。由于战斗的荣耀状态只存在&lt;C&gt;1&lt;/C&gt;小时，所以战斗结束后请尽快领取。\n提示：只要参加战场战斗，且战场结束时未退出战场，则均可获得战斗的荣耀状态&#x0A;" />
+</quest-local>

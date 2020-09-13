@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30786" />
+    <entry Name="领取雕刻道具" />
+    <entry Conditions="" />
+    <entry Overview="每天可以在&lt;D&gt;&lt;L=s52,5600027&gt;博博小姐&lt;/L&gt;&lt;/D&gt;处领取&lt;C&gt;5&lt;/C&gt;个&lt;I&gt;雕刻道具&lt;/I&gt;。" />
+</quest-local>

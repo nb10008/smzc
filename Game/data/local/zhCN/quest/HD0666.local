@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30666" />
+    <entry Name="激烈的雪国大作战" />
+    <entry Conditions="" />
+    <entry Overview="在&lt;N&gt;北洲天雪&lt;/N&gt;内，&lt;N&gt;魔冥山路&lt;/N&gt;的&lt;A&gt;&lt;L=s05,1040038&gt;雪地狂野人&lt;/L&gt;&lt;/A&gt;和&lt;N&gt;冷心洞&lt;/N&gt;的&lt;A&gt;&lt;L=d04,1040040&gt;精英零度蛇妖&lt;/L&gt;&lt;/A&gt;正在破坏这次的圣诞活动，快去消灭它们。完成任务后可以到&lt;D&gt;&lt;L=s02,5600011&gt;雪国长者尼古拉&lt;/L&gt;&lt;/D&gt;那里领取奖励。" />
+</quest-local>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="40006" />
+    <entry Name="成长的奖励" />
+    <entry Conditions="妖精等级达到30级" />
+    <entry Overview="将妖精的等级提升至&lt;C&gt;30&lt;/C&gt;级，达成后找&lt;D&gt;&lt;L=s02,5010023&gt;灵魂使者法娜&lt;/L&gt;&lt;/D&gt;交付任务。" />
+</quest-local>

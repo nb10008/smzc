@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="主城传送门" pos_x="24079" pos_y="2850" pos_z="11394"/>
+	<map_point id="2" type="1" show_name="泳道终点传送门" pos_x="36272" pos_y="2982" pos_z="45159"/>
+	<map_point id="3" type="1" show_name="奥运奖章兑换商店" pos_x="22933" pos_y="2849" pos_z="12108"/>
+	<map_point id="4" type="1" show_name="跑步报名人" pos_x="25205" pos_y="2786" pos_z="12378"/>
+	<map_point id="5" type="1" show_name="游泳报名人" pos_x="25622" pos_y="2738" pos_z="12687"/>
+	<map_point id="6" type="1" show_name="竞技场报名人" pos_x="24791" pos_y="2826" pos_z="12157"/>
+	<map_point id="7" type="1" show_name="比赛颁奖人" pos_x="22659" pos_y="2843" pos_z="12421"/>
+</root>

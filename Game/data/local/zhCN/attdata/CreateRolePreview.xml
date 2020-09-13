@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<equip id="0" sex="0" CareerType="0" WeaponTypeID="8018005" WeaponEffect1="" HatTypeID="8050906" UpperTypeID="8060906" LowerTypeID="8070906" GloveTypeID="8080906" BootTypeID="8090906" EffectID="1001"/>
+	<equip id="1" sex="0" CareerType="1" WeaponTypeID="8028005" WeaponEffect1="" HatTypeID="8050907" UpperTypeID="8060907" LowerTypeID="8070907" GloveTypeID="8080907" BootTypeID="8090907" EffectID="1002"/>
+	<equip id="2" sex="0" CareerType="2" WeaponTypeID="8048005" WeaponEffect1="" HatTypeID="8051906" UpperTypeID="8061906" LowerTypeID="8071906" GloveTypeID="8081906" BootTypeID="8091906" EffectID="1003"/>
+	<equip id="3" sex="0" CareerType="3" WeaponTypeID="8038005" WeaponEffect1="" HatTypeID="8051907" UpperTypeID="8061907" LowerTypeID="8071907" GloveTypeID="8081907" BootTypeID="8091907" EffectID="1004"/>
+	<equip id="4" sex="1" CareerType="0" WeaponTypeID="8018005" WeaponEffect1="" HatTypeID="8050906" UpperTypeID="8060906" LowerTypeID="8070906" GloveTypeID="8080906" BootTypeID="8090906" EffectID="1001"/>
+	<equip id="5" sex="1" CareerType="1" WeaponTypeID="8028005" WeaponEffect1="" HatTypeID="8050907" UpperTypeID="8060907" LowerTypeID="8070907" GloveTypeID="8080907" BootTypeID="8090907" EffectID="1002"/>
+	<equip id="6" sex="1" CareerType="2" WeaponTypeID="8048005" WeaponEffect1="" HatTypeID="8051906" UpperTypeID="8061906" LowerTypeID="8071906" GloveTypeID="8081906" BootTypeID="8091906" EffectID="1003"/>
+	<equip id="7" sex="1" CareerType="3" WeaponTypeID="8038005" WeaponEffect1="" HatTypeID="8051907" UpperTypeID="8061907" LowerTypeID="8071907" GloveTypeID="8081907" BootTypeID="8091907" EffectID="1004"/>
+</root>

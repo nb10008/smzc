@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="30377" />
+    <entry Name="结婚任务：拥抱" />
+    <entry Conditions="" />
+    <entry Overview="收集&lt;C&gt;3&lt;/C&gt;张&lt;I&gt;拥抱卡&lt;/I&gt;，到&lt;D&gt;&lt;L=s52,5600063&gt;结婚任务发布人&lt;/L&gt;&lt;/D&gt;处即可完成该任务。" />
+</quest-local>

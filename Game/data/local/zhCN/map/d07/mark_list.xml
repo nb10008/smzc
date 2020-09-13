@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<map_point id="1" type="1" show_name="南洲迷沼" pos_x="43454" pos_y="0" pos_z="24319"/>
+	<map_point id="2" type="1" show_name="悬赏榜" pos_x="41866" pos_y="0" pos_z="27891"/>
+	<map_point id="3" type="2" show_name="南蛮女武者" pos_x="37716" pos_y="0" pos_z="29162"/>
+	<map_point id="4" type="2" show_name="南蛮男武士" pos_x="40937" pos_y="12" pos_z="27696"/>
+	<map_point id="5" type="2" show_name="沼泽魔熊" pos_x="28795" pos_y="0" pos_z="32394"/>
+	<map_point id="6" type="2" show_name="南沼石魔" pos_x="28391" pos_y="0" pos_z="33257"/>
+	<map_point id="7" type="2" show_name="密林狼人" pos_x="29503" pos_y="113" pos_z="27991"/>
+	<map_point id="8" type="2" show_name="丛林狼妖" pos_x="21616" pos_y="0" pos_z="15325"/>
+	<map_point id="9" type="2" show_name="南蛮精英勇士" pos_x="37358" pos_y="40" pos_z="39951"/>
+	<map_point id="10" type="2" show_name="沼泽巨魔熊" pos_x="11867" pos_y="40" pos_z="41880"/>
+	<map_point id="11" type="2" show_name="密林狂狼" pos_x="32146" pos_y="40" pos_z="12174"/>
+	<map_point id="12" type="2" show_name="武者伐天" pos_x="31159" pos_y="0" pos_z="42295"/>
+	<map_point id="13" type="2" show_name="九天石魔" pos_x="18528" pos_y="75" pos_z="48866"/>
+	<map_point id="14" type="2" show_name="风影" pos_x="29977" pos_y="40" pos_z="8129"/>
+</root>

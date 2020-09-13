@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<root>
+    <rewards id="60" exp_point="50700" money_point="4500" />
+    <rewards id="61" exp_point="52500" money_point="4500" />
+    <rewards id="62" exp_point="54400" money_point="4500" />
+    <rewards id="63" exp_point="56400" money_point="4500" />
+    <rewards id="64" exp_point="58200" money_point="4500" />
+    <rewards id="65" exp_point="60600" money_point="6000" />
+    <rewards id="66" exp_point="62700" money_point="6000" />
+    <rewards id="67" exp_point="64800" money_point="6000" />
+    <rewards id="68" exp_point="67000" money_point="6000" />
+    <rewards id="69" exp_point="72000" money_point="6000" />
+    <rewards id="70" exp_point="107300" money_point="7500" />
+    <rewards id="71" exp_point="110700" money_point="7500" />
+    <rewards id="72" exp_point="114300" money_point="7500" />
+    <rewards id="73" exp_point="118000" money_point="7500" />
+    <rewards id="74" exp_point="121700" money_point="7500" />
+    <rewards id="75" exp_point="125600" money_point="9000" />
+    <rewards id="76" exp_point="129300" money_point="9000" />
+    <rewards id="77" exp_point="133100" money_point="9000" />
+    <rewards id="78" exp_point="137000" money_point="9000" />
+    <rewards id="79" exp_point="211600" money_point="9000" />
+    <rewards id="80" exp_point="217800" money_point="12000" />
+    <rewards id="81" exp_point="224100" money_point="12000" />
+    <rewards id="82" exp_point="230300" money_point="12000" />
+    <rewards id="83" exp_point="237000" money_point="12000" />
+    <rewards id="84" exp_point="243800" money_point="12000" />
+    <rewards id="85" exp_point="250500" money_point="15000" />
+    <rewards id="86" exp_point="257200" money_point="15000" />
+    <rewards id="87" exp_point="264000" money_point="15000" />
+    <rewards id="88" exp_point="270900" money_point="15000" />
+    <rewards id="89" exp_point="278200" money_point="15000" />
+    <rewards id="90" exp_point="349000" money_point="18000" />
+    <rewards id="91" exp_point="354600" money_point="18000" />
+    <rewards id="92" exp_point="360200" money_point="18000" />
+    <rewards id="93" exp_point="366200" money_point="18000" />
+    <rewards id="94" exp_point="372000" money_point="18000" />
+    <rewards id="95" exp_point="377700" money_point="24000" />
+    <rewards id="96" exp_point="383300" money_point="24000" />
+    <rewards id="97" exp_point="388700" money_point="24000" />
+    <rewards id="98" exp_point="394100" money_point="24000" />
+    <rewards id="99" exp_point="399600" money_point="24000" />
+    <rewards id="100" exp_point="405000" money_point="30000" />
+</root>

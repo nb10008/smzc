@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20421" />
+    <entry Name="幻林魅惑" />
+    <entry Conditions="" />
+    <entry Overview="消灭&lt;C&gt;25&lt;/C&gt;个&lt;A&gt;&lt;L=s06,1050033&gt;幻林魅惑者&lt;/L&gt;&lt;/A&gt; ，然后回复&lt;D&gt;&lt;L=s06,5010162&gt;辛西娅&lt;/L&gt;&lt;/D&gt;。&#x0A;" />
+</quest-local>

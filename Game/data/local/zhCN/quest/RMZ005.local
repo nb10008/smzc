@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20505" />
+    <entry Name="野人研究" />
+    <entry Conditions="" />
+    <entry Overview="从附近的&lt;A&gt;&lt;L=s07,1060007&gt;痛苦野人&lt;/L&gt;&lt;/A&gt;或&lt;A&gt;&lt;L=s07,1060008&gt;妖化野人&lt;/L&gt;&lt;/A&gt;身上收集&lt;C&gt;90&lt;/C&gt;个&lt;I&gt;天神石&lt;/I&gt;，然后交给&lt;D&gt;&lt;L=s07,5010165&gt;易罗萨&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

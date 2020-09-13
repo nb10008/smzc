@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="20609" />
+    <entry Name="山隐秘窟" />
+    <entry Conditions="" />
+    <entry Overview="清除&lt;C&gt;80&lt;/C&gt;只&lt;A&gt;&lt;L=d11,1070009&gt;痛苦的灵魂&lt;/L&gt;&lt;/A&gt;、&lt;C&gt;80&lt;/C&gt;只&lt;A&gt;&lt;L=d11,1070010&gt;堕落的灵魂&lt;/L&gt;&lt;/A&gt;和&lt;C&gt;20&lt;/C&gt;只&lt;color=0xffff6000&gt;&lt;L=d11,1070052&gt;悲怆魔魂&lt;/L&gt;&lt;color=0xffffffff&gt;，之后回复&lt;D&gt;&lt;L=s08,5010205&gt;奥克山&lt;/L&gt;&lt;/D&gt;。" />
+</quest-local>

@@ -1,0 +1,52 @@
+sampler2D g_posMap 		: register(s0);
+sampler2D g_normalMap 	: register(s1);
+sampler2D g_shadowMap 	: register(s2);
+sampler2D g_aoMap		: register(s3);
+
+static const int MAX_MATERIAL = 40;
+float4 g_vecDiffuseMtl[MAX_MATERIAL];
+float4 g_vecAmbientMtl[MAX_MATERIAL];
+float4 g_vecEmissive[MAX_MATERIAL];
+float3 g_lightDir;
+float4 g_lightDiffuse;
+float4 g_lightAmbient;
+bool   g_bCalcAO;
+int    g_numMtl;
+
+float4 main( float2 uv0 : TEXCOORD0 ) : COLOR0
+{
+	float4 color=0;
+	
+	int    mtlID	=round(tex2D(g_posMap,uv0).a*g_numMtl)-1;	//根据pos.a获得相应材质ID
+		
+	float4 normal	=tex2D(g_normalMap,uv0);
+	float  shadow 	=tex2D(g_shadowMap,uv0).x;
+	float  ambientVis = 1.0f;
+	if( g_bCalcAO )
+	{
+		ambientVis = tex2D(g_aoMap,uv0).r * 1.6f + 0.25f;
+	}
+	
+	float3 normal1=normalize(normal.rgb);
+	float3 normal2=-normal1;
+	float3 lgtDir=-normalize(g_lightDir);
+	float lum1=saturate(dot(normal1,lgtDir));
+	float lum2=saturate(dot(normal2,lgtDir));
+	float lum;
+	if(abs(normal.a-2.0f)<0.1f)
+		lum=max(lum1,lum2);//双面材质	
+	else
+		lum=lum1;//单面材质	
+	
+	color.rgb=lum*g_lightDiffuse.rgb*g_vecDiffuseMtl[mtlID].xyz;
+
+	color.rgb*=shadow;
+	color.a=shadow;
+	float3 ambient=g_lightAmbient.rgb*g_vecAmbientMtl[mtlID].xyz;
+	color.rgb+=ambient*ambientVis + g_vecEmissive[mtlID].xyz;
+	
+	// 曝光效果预先除以2
+	color.rgb*=0.5f;
+	
+	return color;
+}

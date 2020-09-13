@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quest-local>
+    <entry ID="41026" />
+    <entry Name="重铸职业—破魔" />
+    <entry Conditions="" />
+    <entry Overview="将一个&lt;I&gt;二转印记&lt;/I&gt;交给&lt;D&gt;宝器之灵&lt;/D&gt;，即可将职业转变为&lt;color=0xff80ff00&gt;破魔&lt;color=0xffffffff&gt;。" />
+</quest-local>
